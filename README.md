@@ -1,6 +1,3 @@
-# SCresolutions
-Security Council resolutions in XML AKN4UN format
-
 # Machine-readable Security Council resolutions
 This repository contains a set of resolutions adopted by the Security Council of the United Nations, converted into XML format using the Akoma Ntoso for the United Nations (AKN4UN) schema. The XML files are unofficial copies for informational purposes only and prepared from the official electronic files.
 
