@@ -1,0 +1,629 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/"></FRBRuri>
+          <FRBRdate date="2020-05-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/rus@/"></FRBRuri>
+          <FRBRdate date="2020-05-29" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/rus@.xml"></FRBRuri>
+          <FRBRdate date="2021-08-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="African Union Mission in Somalia" showAs="African Union Mission in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Support Office in Somalia" showAs="UN. Support Office in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Assistance Mission in Somalia" showAs="UN Assistance Mission in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUPPORT SERVICES" showAs="SUPPORT SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA" showAs="SOMALIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA SITUATION" showAs="SOMALIA SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[84]" showAs="SOMALIA SITUATION" dictionary="S/75"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation in Somalia." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2520 (2020) [on authorization to the Member States of the African Union to maintain the deployment of the African Union Mission in Somalia (AMISOM) until 28 Feb. 2021]" showAs="Security Council resolution 2520 (2020) [on authorization to the Member States of the African Union to maintain the deployment of the African Union Mission in Somalia (AMISOM) until 28 Feb. 2021]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-05-29" outcome="draftResolution" as="S/2020/445" by="United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2020-05-29" outcome="adopted" as="S/2020/459" by="Adopted unanimously; voting by mail" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="VOTING BY MAIL">
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-07255 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2520 (2020)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Совет Безопасности</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-05-29" class="rightSmall" refersTo="#dateOfIssuance">29 May 2020</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Резолюция 2520 (2020),</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">принятая Советом Безопасности <inline name="adoptionMeeting"></inline><docDate date="2020-05-29" refersTo="#adoptionDate">29 мая 2020 года</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет Безопасности</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на все свои предыдущие резолюции и заявления своего Председателя о ситуации в Сомали,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> свое уважение суверенитета, территориальной целостности, политической независимости и единства Сомали,</p>
+      </container>
+      <container name="вновь заявляя" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">вновь заявляя</span>, что группировка «Аш-Шабааб» представляет серьезную угрозу стабильности Сомали и ее соседей, <span class="italic">осуждая</span> нападения «Аш-Шабааб» в Сомали и за ее пределами, <span class="italic">выражая глубокую озабоченность</span> в связи с гибелью гражданских лиц в результате нападений группировки «Аш-Шабааб», <span class="italic">выражая далее озабоченность</span> по поводу присутствия в Сомали элементов, поддерживающих организацию «Исламское государство Ирака и Леванта», и <span class="italic">отмечая</span>, что характер угрозы, создаваемой группировкой «Аш-Шабааб», меняется и что для ослабления «Аш-Шабааб» и достижения и сохранения мира потребуется региональная сплоченность, всеобъемлющая стратегия, реконфигурация поддержки, активизация усилий по целому ряду направлений и применение соответствующими сторонами согласованного комплексного подхода,</p>
+      </container>
+      <container name="особо отмечая" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> свою приверженность дальнейшему укреплению институтов и сил безопасности Сомали в интересах осуществления ею всей полноты власти на своей территории и принятия ею на себя ведущей роли в операциях по обеспечению безопасности,</p>
+      </container>
+      <container name="воздавая должное" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	воздавая должное</span> отваге и самоотверженности, проявляемым личным составом Миссии Африканского союза в Сомали (АМИСОМ) и сомалийскими силами безопасности в борьбе с группировкой «Аш-Шабааб», и <span class="italic">высоко оценивая</span> вклад АМИСОМ в обеспечение прочного мира и стабильности в Сомали, </p>
+      </container>
+      <container name="приветствуя" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">приветствуя</span> прогресс, достигнутый за последний год, включая отвоевание дополнительной территории у группировки «Аш-Шабааб», обучение сомалийских сил безопасности и полиции, меры по углублению реформы сектора безопасности Сомали, такие как завершение биометрической регистрации личного состава сомалийских сил безопасности и завершение совместной оценки угроз, проведенной Сомали, Африканским союзом и Организацией Объединенных Наций,</p>
+      </container>
+      <container name="приветствуя" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">приветствуя</span> поддержку, оказываемую АМИСОМ Отделением Организации Объединенных Наций по поддержке в Сомали (ЮНСОС) и Миссией Организации Объединенных Наций по содействию Сомали (МООНСОМ), <span class="italic">приветствуя также</span> политическую поддержку, оказываемую МООНСОМ, а также усилия Африканского союза и Сомали по созыву совещания ключевых заинтересованных сторон по вопросу о будущей международной поддержке Сомали в сфере безопасности в период после 2021 года, равно как и политическую и финансовую поддержку со стороны международных партнеров, <span class="italic">приветствуя далее </span>приверженность Сомали и Организации Объединенных Наций дальнейшему укреплению своих отношений, <span class="italic">вновь заявляя</span> о важности тесного сотрудничества и обеспечения единого командования и управления в АМИСОМ и <span class="italic">вновь заявляя далее</span> о важном значении транспарентности и подотчетности в отношениях со всеми ключевыми партнерами,</p>
+      </container>
+      <container name="подчеркивая" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> важность достижения всеобъемлющего политического урегулирования между федеральным правительством Сомали и штатами — членами федерации, <span class="italic">вновь заявляя</span> о важности полного выполнения задач, сформулированных в осуществляемом под руководством самих сомалийцев Плане перехода, в котором предусмотрена постепенная передача функций АМИСОМ по обеспечению безопасности сомалийским институтам и силам безопасности на основе осуществления оперативной и вспомогательной деятельности и мероприятий по институциональному строительству, и <span class="italic">особо отмечая</span> свою надежду на то, что сомалийские власти сформулируют свою четкую концепцию обеспечения безопасности на период после 2021 года и обратятся к партнерам за поддержкой в ее реализации, </p>
+      </container>
+      <container name="особо отмечая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> в этой связи продолжающиеся задержки с выполнением приоритетных задач и обязательств, изложенных в пунктах 1 и 24 резолюции <a href="https://undocs.org/ru/S/RES/2472(2019)">2472 (2019)</a>, <span class="italic">будучи привержен</span> Основам взаимной подотчетности и исходя из обязательств, сформулированных в Пакте по вопросам безопасности, принятом в 2017 году на Лондонской конференции по Сомали, и <span class="italic">призывая далее</span> к достижению дальнейшего прогресса в осуществлении этих мер,</p>
+      </container>
+      <container name="подчеркивая" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">подчеркивая </span>важность полноценного сотрудничества между федеральным правительством Сомали и штатами — членами федерации, <span class="italic">отмечая</span> обязанности всех сторон по улучшению сотрудничества и участию в обсуждениях, проходящих под руководством федерального правительства Сомали, и <span class="italic">особо отмечая</span>, что полноценное сотрудничество позволит ускорить достижение ключевых национальных приоритетов, включая внедрение национальной архитектуры безопасности; выполнение задач, сформулированных в осуществляемом под руководством самих сомалийцев Плане перехода; проведение дальнейших финансовых реформ; пересмотр Конституции; и своевременное проведение выборов не позднее конца 2020 или начала 2021 года, </p>
+      </container>
+      <container name="осуждая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">осуждая</span> нарушения международного права прав человека и международного гуманитарного права в Сомали, <span class="italic">призывая</span> все стороны действовать в полном соответствии со своими обязательствами по международному праву прав человека и международному гуманитарному праву и <span class="italic">ссылаясь далее</span> на выводы Рабочей группы по вопросу о детях и вооруженном конфликте в Сомали (<a href="https://undocs.org/ru/S/AC.51/2017/2">S/AC.51/2017/2</a>), </p>
+      </container>
+      <container name="выражая серьезную озабоченность" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">выражая серьезную озабоченность</span> по поводу гуманитарной ситуации в Сомали и воздействия пандемии COVID-19, <span class="italic">признавая</span>, что пандемия представляет собой серьезный вызов для системы здравоохранения Сомали, социально-экономического положения и гуманитарной ситуации в стране, <span class="italic">призывая</span> к оказанию гуманитарной помощи, необходимой для поддержки Сомали, <span class="italic">с признательностью отмечая меры</span>, принимаемые АМИСОМ и Организацией Объединенных Наций для обеспечения охраны и безопасности персонала АМИСОМ и Организации Объединенных Наций при одновременном поддержании непрерывности операций, <span class="italic">призывая</span> к продолжению усилий по смягчению последствий пандемии и <span class="italic">приветствуя</span> роль АМИСОМ в поддержке предпринимаемых под руководством Сомали усилий по ликвидации последствий бедствий и оказанию чрезвычайной помощи и ее усилия по созданию условий, благоприятствующих доставке гуманитарной помощи,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> весомую роль женщин в предотвращении и урегулировании конфликтов и в миростроительстве и <span class="italic">подчеркивая</span> важность их полноценного, эффективного и конструктивного участия во всех усилиях по поддержанию и укреплению мира и безопасности на всех уровнях и необходимость усиления их роли в процессах принятия решений и руководства в части предотвращения и урегулирования конфликтов,</p>
+      </container>
+      <container name="особо отмечая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> необходимость выработки федеральным правительством Сомали и Организацией Объединенных Наций надлежащих стратегий оценки рисков и управления рисками в связи с изменением климата, другими экологическими изменениями, стихийными бедствиями, доступом к энергоресурсам и другими факторами, оказывающими влияние на стабильность в Сомали,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> результаты совместного обзора АМИСОМ, проведенного в 2019 году Африканским союзом и Организацией Объединенных Наций, коммюнике Совета мира и безопасности Африканского союза от 7 мая 2020 года о ситуации в Сомали и доклад Генерального секретаря о ситуации в Сомали от 13 мая 2020 года (<a href="https://undocs.org/ru/S/2020/398">S/2020/398</a>),</p>
+      </container>
+      <container name="определяя" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">определяя</span>, что ситуация в Сомали по-прежнему представляет угрозу международному миру и безопасности,</p>
+      </container>
+      <container name="действуя" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">действуя</span> на основании главы VII Устава Организации Объединенных Наций,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> федеральное правительство Сомали и штаты  члены федерации в срочном порядке добиться дальнейшего прогресса в переходном процессе и <span class="italic">приветствует</span> обязательство федерального правительства Сомали пересмотреть к концу сентября 2020 года осуществляемый под руководством самих сомалийцев План перехода при координации задач с партнерами и с достижением договоренности о четком определении ролей всех ключевых заинтересованных сторон; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>2.</num>
+        <list eId="para_20_list">
+          <intro eId="para_20_list_intro">
+            <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> федеральное правительство Сомали и штаты — члены федерации принять конкретные меры к реализации приоритетных задач, предусмотренных в согласованных в 2019 году Основах взаимной подотчетности и имеющих существенно важное значение для обеспечения безопасности Сомали и обоснования решений о международной поддержке сомалийского сектора безопасности в период после 2021 года; </p>
+          </intro>
+          <point eId="para_20_list_point_a">
+            <num>a)</num>
+            <content eId="para_20_list_point_a_content">
+              <p xml:space="preserve">	достичь всеобъемлющего политического урегулирования вопроса о разделении ресурсов и полномочий, создании структур управления и надзора и разграничении обязанностей сомалийских органов безопасности; </p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_b">
+            <num>b)</num>
+            <content eId="para_20_list_point_b_content">
+              <p xml:space="preserve">	возобновить регулярное проведение заседаний Совета национальной безопасности или альтернативного механизма взаимодействия; </p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_c">
+            <num>c)</num>
+            <content eId="para_20_list_point_c_content">
+              <p xml:space="preserve">	активизировать планирование технических мероприятий и мероприятий по обеспечению безопасности в связи с избирательным процессом в координации с АМИСОМ, ЮНСОС и МООНСОМ, с тем чтобы обеспечить проведение в конце 2020 или начале 2021 года свободных, честных, мирных, транспарентных, своевременных, внушающих доверие и недискриминационных выборов по формуле «один человек — один голос» с участием как можно большего числа граждан; </p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_d">
+            <num>d)</num>
+            <content eId="para_20_list_point_d_content">
+              <p xml:space="preserve">	осуществить разработку и приступить к выполнению осуществимого, предусматривающего конкретные сроки и скоординированного плана формирования дееспособных, экономичных, подотчетных и приемлемых сил, а также объединение региональных сил в федеральные вооруженные силы и полицию штатов; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">вновь заявляет</span>, что «Аш-Шабааб» и другие вооруженные оппозиционные группы не будут побеждены одними лишь военными средствами, и в этой связи <span class="italic">призывает</span> федеральное правительство Сомали, штаты — члены федерации, АМИСОМ, Организацию Объединенных Наций и международных партнеров к более тесному взаимодействию в целях применения всеобъемлющего, основанного на сотрудничестве, учитывающего гендерную проблематику и стабилизирующего подхода к обеспечению безопасности и <span class="italic">призывает </span>международных партнеров оказывать поддержку федеральному правительству Сомали в части противодействия финансированию и материально-техническому обеспечению группировки «Аш-Шабааб», а также ее пропагандисткой деятельности; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> о своей поддержке задач, сформулированных в Плане перехода, и <span class="italic">обращает особое внимание</span> на вынесенную по итогам совместного обзора в 2019 году рекомендацию о том, что стратегические задачи и приоритеты АМИСОМ следует рассматривать прежде всего в контексте переходного процесса;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">особо заявляет</span> о своем намерении провести оценку потребностей в поддержке в деле обеспечения безопасности для подготовки Сомали к принятию на себя ведущей роли в сфере безопасности к концу 2021 года и ее выполнению в последующий период, и принять решения о реорганизации АМИСОМ на основе: 1) обмена информацией между Африканским союзом, федеральным правительством Сомали, Европейским союзом и соответствующими международными партнерами; 2) осуществления приоритетных мер, установленных в пункте 2 выше; и 3) итогов независимой оценки, предусмотренной в пункте 34 резолюции <a href="https://undocs.org/ru/S/RES/2472(2019)">2472 (2019)</a> с изменениями, содержащимися в пункте 38 настоящей резолюции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>6.</num>
+        <list eId="para_34_list">
+          <intro eId="para_34_list_intro">
+            <p xml:space="preserve">	<span class="italic">подчеркивает</span> необходимость применения скоординированного и согласованного подхода к проведению под руководством самих сомалийцев политических реформ и реформ в области безопасности и в этой связи <span class="italic">призывает</span>: </p>
+          </intro>
+          <point eId="para_34_list_point_a">
+            <num>a)</num>
+            <content eId="para_34_list_point_a_content">
+              <p xml:space="preserve">	федеральное правительство Сомали содействовать обеспечению стратегической координации и руководить этим процессом на базе проведения регулярных совещаний высокого уровня в рамках всеобъемлющего подхода к вопросам безопасности или альтернативных механизмов начиная с самых ранних этапов, а АМИСОМ, МООНСОМ, ЮНСОС, федеральное правительство Сомали и штаты — члены федерации укреплять координацию и сотрудничество на всех уровнях;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_b">
+            <num>b)</num>
+            <content eId="para_34_list_point_b_content">
+              <p xml:space="preserve">	международных и региональных партнеров к тому, чтобы они, действуя в координации с МООНСОМ и на основе всеобъемлющего подхода к вопросам безопасности, включая механизм военной координации, и других соответствующих механизмов, координировали и лучше увязывали поддержку, оказываемую АМИСОМ и Сомали, в соответствии с Пактом по вопросам безопасности и обеспечивали выполнение задач, сформулированных в обновленном Плане перехода, в том числе в вопросах наставничества, учебной подготовки, оснащения, укрепления потенциала и вознаграждения сотрудников полиции и военнослужащих; </p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_c">
+            <num>c)</num>
+            <content eId="para_34_list_point_c_content">
+              <p xml:space="preserve">	федеральное правительство Сомали, штаты — члены федерации, АМИСОМ, Организацию Объединенных Наций, Африканский союз и соответствующих партнеров активизировать всеобъемлющее совместное планирование, координацию, обмен информацией и стратегическую коммуникацию под руководством федерального правительства Сомали, а федеральное правительство Сомали, АМИСОМ и ЮНСОС осуществлять всеохватное и комплексное планирование в отношении районов передачи функций, совместных операций и стабилизационных мероприятий в соответствии с задачами, сформулированными в обновленном Плане перехода, осуществляемом при ведущей роли самих сомалийцев; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> необходимость того, чтобы все заинтересованные стороны принимали во внимание обстановку в плане безопасности в каждом районе при передаче Сомали обязанностей по обеспечению безопасности с должным учетом задач по защите гражданского населения и уменьшению риска до, во время и после любой военной операции, <span class="italic">подчеркивает</span>, что все совместные операции и мероприятия по передаче функций, а также стратегические и оперативные решения должны с самого начала согласовываться между сомалийскими силами безопасности, сомалийскими властями и АМИСОМ в координации с Организацией Объединенных Наций и другими международными партнерами, когда это уместно, и <span class="italic">вновь подтверждает</span> исключительно важную роль полиции и сектора правосудия в усилиях по стабилизации, подготовке и проведению выборов и в качестве форпостов безопасности по завершении переходного процесса;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> федеральное правительство Сомали при скоординированной поддержке со стороны международного сообщества разработать четкий стратегический план формирования новых сомалийских сил безопасности, объединения сил из штатов — членов федерации и подготовки и оснащения нынешних и вновь формируемых федеральных сил, <span class="italic">просит</span> Африканский союз и МООНСОМ оказать дополнительную поддержку АМИСОМ в обеспечении боевого наставничества личного состава сомалийской национальной армии и <span class="italic">подчеркивает</span> важность развертывания этих сил для выполнения задач, сформулированных в обновленном Плане перехода; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="H1">
+        <heading>		АМИСОМ</heading>
+      </paragraph>
+      <paragraph eId="para_49" class="H23">
+        <subheading>		Приоритеты и задачи</subheading>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> уполномочить государства — члены Африканского союза сохранять до 28 февраля 2021 года численность военного и полицейского персонала АМИСОМ на уровне 19 626 человек, включая как минимум 1040 сотрудников полиции АМИСОМ, в том числе в составе пяти сформированных полицейских подразделений, в целях обеспечения безопасности подготовки к выборам, которые должны состояться в конце 2020 года или в начале 2021 года и выполнения задач в соответствии с обновленным Планом перехода, осуществляемым под руководством самих сомалийцев, и передачей функций по обеспечению безопасности сомалийским силам безопасности; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">постановляет также</span> уполномочить АМИСОМ принимать — в полном соответствии с обязательствами участвующих государств по международному праву, включая международное гуманитарное право и международное право прав человека, и при полном уважении суверенитета, территориальной целостности, политической независимости и единства Сомали — все необходимые меры к выполнению своего мандата;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>11.</num>
+        <list eId="para_53_list">
+          <intro eId="para_53_list_intro">
+            <p xml:space="preserve">	<span class="italic">постановляет </span>уполномочить АМИСОМ в контексте передачи Сомали ответственности за обеспечение безопасности, как установлено в Плане перехода, принимать по согласованию с федеральным правительством Сомали меры для достижения следующих стратегических целей:</p>
+          </intro>
+          <point eId="para_53_list_point_a">
+            <num>a)</num>
+            <content eId="para_53_list_point_a_content">
+              <p xml:space="preserve">	осуществить постепенную передачу функций АМИСОМ по обеспечению безопасности сомалийским силам безопасности, с тем чтобы к 2021 году сомалийские органы безопасности играли ведущую роль в этой сфере;</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_b">
+            <num>b)</num>
+            <content eId="para_53_list_point_b_content">
+              <p xml:space="preserve">	снизить уровень угрозы, создаваемой действиями «Аш-Шабааб» и других вооруженных оппозиционных групп, в целях обеспечения возможности построения стабильного, федеративного, суверенного и единого Сомали; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_c">
+            <num>c)</num>
+            <content eId="para_53_list_point_c_content">
+              <p xml:space="preserve">	оказывать сомалийским силам безопасности помощь в обеспечении безопасных условий для осуществления политического процесса на всех уровнях, усилий по стабилизации, примирения и миростроительства, а также оказывать надлежащую поддержку сомалийской полиции и властям в создании безопасной обстановки в преддверии выборов в целях полной передачи ответственности за обеспечение безопасности сомалийским органам безопасности; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>12.</num>
+        <list eId="para_56_list">
+          <intro eId="para_56_list_intro">
+            <p xml:space="preserve">	<span class="italic">постановляет</span> уполномочить АМИСОМ выполнять в интересах достижения вышеуказанных целей следующие первоочередные задачи:</p>
+          </intro>
+          <point eId="para_56_list_point_a">
+            <num>a)</num>
+            <content eId="para_56_list_point_a_content">
+              <p xml:space="preserve">	сохранять присутствие в секторах, определенных в концепции операций АМИСОМ, уделяя первостепенное внимание населенным пунктам, указанным федеральным правительством Сомали, и проводя реорганизацию сил в соответствии с осуществляемым под руководством самих сомалийцев обновленным Планом перехода;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_b">
+            <num>b)</num>
+            <content eId="para_56_list_point_b_content">
+              <p xml:space="preserve">	провести реорганизацию АМИСОМ и пересмотреть задачи, когда это позволят сделать условия безопасности, в поддержку выполнения обновленного Плана перехода и в пользу полицейского персонала в пределах санкционированной максимальной численности личного состава АМИСОМ;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_c">
+            <num>c)</num>
+            <content eId="para_56_list_point_c_content">
+              <p xml:space="preserve">	осуществлять наставничество над сотрудниками сомалийских сил безопасности и оказывать им помощь, включая наставничество над военнослужащими сомалийских вооруженных сил по вопросам боеготовности и при необходимости наставничество над сотрудниками сомалийской полиции и их обучение;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_d">
+            <num>d)</num>
+            <content eId="para_56_list_point_d_content">
+              <p xml:space="preserve">	содействовать — в сотрудничестве с силами безопасности Сомали и в координации с участниками деятельности по стабилизации и примирению — обеспечению безопасности и постоянного поддержания основных маршрутов снабжения, в том числе в районах, освобожденных от «Аш-Шабааб», в частности тех из них, которые имеют существенно важное значение для улучшения гуманитарной ситуации, что может распространяться на перевозку коммерческих грузов, необходимых для удовлетворения основных потребностей гражданского населения, и которые критически важны для материально-технического обеспечения АМИСОМ, и ключевых маршрутов снабжения, обеспечивающих выполнение Плана перехода, обращая особое внимание на то, что осуществление материально-технического снабжения остается совместной обязанностью Организации Объединенных Наций и Африканского союза;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_e">
+            <num>e)</num>
+            <content eId="para_56_list_point_e_content">
+              <p xml:space="preserve">	при необходимости оказывать сомалийским силам безопасности помощь в создании условий, которые позволят сомалийским властям выполнять возложенные на них функции государственного управления, в том числе в их усилиях по стабилизации (в координации с Министерством внутренних дел, федерализма и примирения и с Группой по восстановлению общин, распространению государственной власти и обеспечению подотчетности), примирению, миростроительству, подготовке к проведению выборов и охране ключевых объектов инфраструктуры;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_f">
+            <num>f)</num>
+            <content eId="para_56_list_point_f_content">
+              <p xml:space="preserve">	проводить совместно спланированные целенаправленные наступательные операции в поддержку выполнения обновленного Плана перехода, в том числе совместно с сомалийскими силами безопасности, с тем чтобы дезорганизовать и ослабить «Аш-Шабааб» и другие вооруженные оппозиционные группы, и принимать меры для уменьшения угрозы, создаваемой самодельными взрывными устройствами;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_g">
+            <num>g)</num>
+            <content eId="para_56_list_point_g_content">
+              <p xml:space="preserve">	надлежащим образом обеспечивать защиту собственного персонала, объектов, сооружений, имущества и миссии, а также безопасность и свободу передвижения своего персонала и персонала Организации Объединенных Наций, выполняющего функции, порученные ему Советом Безопасности;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_h">
+            <num>h)</num>
+            <content eId="para_56_list_point_h_content">
+              <p xml:space="preserve">	в соответствующих случаях принимать на временной основе перебежчиков, действуя в координации с Организацией Объединенных Наций и федеральным правительством Сомали;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_i">
+            <num>i)</num>
+            <content eId="para_56_list_point_i_content">
+              <p xml:space="preserve">	оказывать федеральному правительству Сомали и штатам — членам федерации поддержку и помощь в обеспечении полного запрета на экспорт древесного угля из Сомали и в документальном оформлении и инспектировании изъятого имущества, включая стрелковое оружие и легкие вооружения, в соответствии с положениями пункта 18 резолюции <a href="https://undocs.org/ru/S/RES/2111(2013)">2111 (2013)</a> и пункта 6 резолюции <a href="https://undocs.org/ru/S/RES/2182(2014)">2182 (2014)</a>; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Африканский союз продолжать проработку и обновление концепции операций в соответствии с обновленным Планом перехода, осуществляемым под руководством самих сомалийцев, и в тесном сотрудничестве с федеральным правительством Сомали, Организацией Объединенных Наций и ключевыми партнерами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Африканский союз усилить контроль и оперативное взаимодействие контингентов АМИСОМ, укрепить командование, управление и подотчетность в связи с вводом в действие вспомогательных подразделений Миссии, включая авиационные средства, что позволит создать и ввести в действие мобильные силы в секторах в соответствии с реорганизацией АМИСОМ, обеспечивать скоординированное принятие оперативных решений руководством сектора и Командующим силами, обеспечивать, чтобы все подразделения поддержки и повышения боевой эффективности действовали под командованием Командующего силами, и обеспечивать проведение эффективных консультаций с соответствующими сомалийскими и международными партнерами по вопросам принятия оперативных решений;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">заявляет о своей поддержке</span> предпринятого Африканским союзом в 2019 году обзора имущества, <span class="italic">настоятельно призывает</span> Африканский союз завершить свой обзор имущества к сентябрю 2020 года при поддержке со стороны Организации Объединенных Наций с учетом заявления о требованиях к подразделениям и в пределах имеющихся ресурсов, с тем чтобы укрепить оперативные возможности АМИСОМ, восполнить пробелы в требующихся ресурсах и усилить защиту сил в интересах выполнения ими поставленных задач, и <span class="italic">призывает далее</span> государства-члены оказывать поддержку Африканскому союзу в мобилизации необходимых ресурсов и имущества, в том числе путем внесения не связанных с какими-либо условиями финансовых взносов в Целевой фонд АМИСОМ на основе выполнимых рекомендаций, изложенных в обзоре имущества;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> развернуть оставшийся гражданский компонент для оказания всесторонней поддержки в выполнении военных и полицейских задач АМИСОМ на этапе перехода и свертывания ее операций; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="italic">особо подчеркивает</span> сохраняющуюся важность того, чтобы силы АМИСОМ выполняли свой мандат в полном соответствии с обязательствами участвующих государств по международному праву, в том числе в отношении защиты гражданских лиц, особенно женщин и детей, а также сотрудничества с МООНСОМ и ЮНСОС при проведении политики должной осмотрительности в вопросах прав человека при оказании Организацией Объединенных Наций поддержки силам безопасности, не относящимся к Организации Объединенных Наций, на этапах подготовки, проведения и анализа операций; <span class="italic">призывает </span>АМИСОМ осуществлять регулярный мониторинг и оперативно проводить тщательные расследования заявлений о случаях нарушения международного права прав человека и международного гуманитарного права и представлять о них соответствующую отчетность при соблюдении самых высоких стандартов прозрачности и поведения и дисциплины и согласовании своих процедур с МООНСОМ, а Африканский союз — обеспечивать контроль за этим, <span class="italic">приветствует</span> прогресс, достигнутый Африканским союзом в деле разработки основных принципов соблюдения, и <span class="italic">настоятельно призывает</span> страны, предоставляющие воинские и полицейские контингенты, активизировать свое сотрудничество с Африканским союзом и Организацией Объединенных Наций в целях повышения эффективности мер по обеспечению соблюдения и подотчетности; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_95__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> АМИСОМ повысить единообразие отчетности, представляемой Подразделению по отслеживанию, анализу и расследованию сообщений о потерях среди гражданского населения (ПОАРПГ) по всем секторам, и предпринять дальнейшие шаги, с тем чтобы обеспечить принятие мер по смягчению последствий, <span class="italic">подчеркивает</span> важность предоставления информации соответствующим субъектам, в том числе Организации Объединенных Наций, включения такой информации в отчетность АМИСОМ и ее учета при составлении оперативных руководств и планов и <span class="italic">просит</span> страны, предоставляющие военнослужащих и полицейских, оказывать ПОАРПГ всестороннюю поддержку во взаимодействии со структурами, занимающимися гуманитарными вопросами и вопросами прав человека и защиты;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve"> 	<span class="italic">подтверждает</span> важность проводимой АМИСОМ политики абсолютной нетерпимости в отношении сексуальной эксплуатации и сексуальных надругательств и в этой связи <span class="italic">просит</span> Африканский союз и страны, предоставляющие воинские и полицейские контингенты, осуществлять проверку персонала, проводить оценку рисков, организовывать всю необходимую учебную подготовку персонала, обеспечивать защиту потерпевших, которые сообщают о злоупотреблениях, и содействовать оказанию им помощи и их выздоровлению, своевременно проводить расследования по заявлениям для привлечения виновных к ответственности и репатриировать подразделения при наличии достоверных доказательств широко распространенных или систематических случаев сексуальной эксплуатации или сексуальных надругательств со стороны персонала таких подразделений и <span class="italic">просит далее</span> Африканский союз осуществлять тесное взаимодействие с Организацией Объединенных Наций в этом вопросе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="italic">решительно поддерживает</span> усилия по увеличению доли женщин в составе негражданских компонентов АМИСОМ, предпринимаемые странами, предоставляющими воинские и полицейские контингенты, и <span class="italic">настоятельно призывает</span> АМИСОМ обеспечивать полноценное участие женщин во всех своих операциях и всецело учитывать гендерный фактор при выполнении своего мандата;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="H23">
+        <subheading>		Материально-техническая и финансовая поддержка</subheading>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря продолжать предоставление через ЮНСОС при полном соблюдении политики должной осмотрительности в вопросах прав человека пакета мер материально-технической поддержки в отношении МООНСОМ, негражданского персонала АМИСОМ и 70 гражданских сотрудников АМИСОМ в порядке, определенном в пункте 2 постановляющей части резолюции <a href="https://undocs.org/ru/S/RES/2245(2015)">2245 (2015)</a>, и усилить поддержку 13 900 сотрудникам сомалийских сил безопасности, включая соответствующую долю сотрудников полиции штатов и федеральной полиции, которые официально вошли в состав сомалийских сил безопасности в соответствии с принципами национальной архитектуры безопасности и которые активно участвуют в совместных или скоординированных с АМИСОМ операциях по непосредственному осуществлению Плана перехода, <span class="italic">вновь заявляет</span> о важности того, чтобы АМИСОМ и сомалийские силы безопасности совместно с ЮНСОС занимались оказанием материально-технической поддержки, включая, в частности, обеспечение безопасности автоколонн и аэродромов, защиту гражданского населения и защиту основных маршрутов снабжения, и <span class="italic">просит далее</span> Генерального секретаря расширить поддержку, оказываемую Организацией Объединенных Наций сомалийским силам безопасности, путем включения в нее учебной подготовки, предоставления оборудования и наставничества в целях противодействия угрозе применения самодельных взрывных устройств;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="italic">соглашается</span> с Генеральным секретарем в том, что надзор и подотчетность, особенно в части соблюдения политики должной осмотрительности в вопросах прав человека, будут краеугольным камнем партнерства между Организацией Объединенных Наций, Африканским союзом, федеральным правительством Сомали и штатами — членами федерации, <span class="italic">просит </span>Генерального секретаря обеспечивать, чтобы любая поддержка силам безопасности, не относящимся к Организации Объединенных Наций, предоставлялась в строгом соответствии с политикой должной осмотрительности в вопросах прав человека, и <span class="italic">просит</span> федеральное правительство Сомали и Африканский союз по возможности в кратчайший срок согласовать меморандум о взаимопонимании с Организацией Объединенных Наций об условиях оказания Организацией Объединенных Наций поддержки сомалийским силам безопасности; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря тесно взаимодействовать с Африканским союзом в деле поддержки осуществления настоящей резолюции, в том числе предоставлять технические и экспертные консультации в связи с планированием, развертыванием и стратегическим управлением АМИСОМ в соответствии с мандатом Отделения Организации Объединенных Наций при Африканском союзе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxt">
+        <num>24.</num>
+        <list eId="para_124_list">
+          <intro eId="para_124_list_intro">
+            <p xml:space="preserve">	<span class="italic">вновь призывает</span> новых доноров оказывать содействие:</p>
+          </intro>
+          <point eId="para_124_list_point_a">
+            <num>a)</num>
+            <content eId="para_124_list_point_a_content">
+              <p xml:space="preserve">	АМИСОМ путем предоставления дополнительных финансовых средств для выплаты денежного довольствия военнослужащим, приобретения имущества и предоставления технической помощи АМИСОМ, как это рекомендовано в докладе Африканского союза/Организации Объединенных Наций о финансировании, и содействовать эффективному функционированию подразделения по отслеживанию, анализу и расследованию сообщений о потерях среди гражданского населения (ПОАРПГ) и выплате компенсаций;</p>
+            </content>
+          </point>
+          <point eId="para_124_list_point_b">
+            <num>b)</num>
+            <content eId="para_124_list_point_b_content">
+              <p xml:space="preserve">	Целевому фонду Организации Объединенных Наций в поддержку Миссии Африканского союза в Сомали и сомалийским силам безопасности, включая средства, направляемые на закупку учебного оборудования, а также на финансирование сомалийских сил безопасности и наставничество их личного состава в целях противодействия угрозе применения самодельных взрывных устройств, борьбе с распространением стрелкового оружия и легкий вооружений и оказания поддержки полиции штатов и федеральной полиции, как установлено в пункте 21;</p>
+            </content>
+          </point>
+          <point eId="para_124_list_point_c">
+            <num>c)</num>
+            <content eId="para_124_list_point_c_content">
+              <p xml:space="preserve">	национальным органам и органам штатов в деле развития сомалийского сектора безопасности, включая укрепление потенциала сил морской полиции сообразно резолюции <a href="https://undocs.org/ru/S/RES/2246(2015)">2246 (2015)</a>; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span> необходимость повышения предсказуемости, устойчивости и гибкости финансирования операций в поддержку мира, проводимых под руководством Африканского союза с санкции Совета Безопасности и в соответствии с полномочиями Совета Безопасности согласно главе VIII Устава, и <span class="italic">призывает</span> Генерального секретаря, Африканский союз и государства-члены продолжать усилия по обстоятельному изучению механизмов финансирования АМИСОМ с учетом всех вариантов, имеющихся в распоряжении Организации Объединенных Наций, Африканского союза, Европейского союза и других партнеров, а также с учетом факторов, ограничивающих возможности добровольного финансирования, в целях установления надежных механизмов будущего финансирования АМИСОМ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="H23">
+        <subheading>		Сомали</subheading>
+      </paragraph>
+      <paragraph eId="para_130" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_130__content">
+          <p xml:space="preserve">	вновь заявляет о настоятельной необходимости полноценного сотрудничествам между федеральным правительством Сомали и штатами — членами федерации, <span class="italic">отмечает</span> предварительные меры, принятые к организации встречи координаторов федерального правительства Сомали и штатов — членов федерации, и <span class="italic">призывает</span> все заинтересованные стороны воспользоваться этой встречей и другими возможностями для преодоления вызовов в части выполнения важных национальных приоритетов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="italic">обращает особое внимание</span> на важные шаги, предпринятые федеральным правительством Сомали в части институциональной реформы и укрепления потенциала в секторе безопасности, включая дальнейший прогресс в деле биометрической регистрации личного состава сомалийской национальной армии, выплату окладов посредством прямых электронных переводов и успехи в проведении совместных операций, включая операцию «Бадбадо»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> федеральное правительство Сомали и штаты — члены федерации полностью поддерживать полицию штатов и федеральную полицию посредством организации эффективной учебной подготовки, оснащения и материально-технического обеспечения, <span class="italic">вновь заявляет</span> об исключительно важной роли, которую играет полиция в поддержке операций сомалийской национальной армии по отвоеванию и удержанию территории, и <span class="italic">особо отмечает</span> необходимость наличия у федерального правительства Сомали профессиональных и дееспособных сил полиции, которые способны вносить вклад в обеспечение безопасности гражданского населения, в целях полного выполнения Плана перехода, осуществляемого под руководством самих сомалийцев; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_136__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> сомалийские власти к тому, чтобы они, действуя в координации с АМИСОМ, международными партнерами и соответствующими структурами Организации Объединенных Наций, включая Службу Организации Объединенных Наций по вопросам деятельности, связанной с разминированием (ЮНМАС), вели борьбу во всех аспектах с незаконной торговлей, передачей, дестабилизирующим накоплением и неправомерным применением стрелкового оружия и легких вооружений, предотвращали доступ несанкционированных получателей ко всем видам взрывчатых веществ и связанных с ними материалов в Сомали и обеспечивали безопасное и эффективное управление их запасами и их хранение; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> власти Сомали принять необходимые дополнительные политические и технические меры для проведения к концу 2020 года или началу 2021 года выборов по формуле «один человек — один голос»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_145" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_145__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> важную роль полноценного, равноправного, конструктивного и эффективного участия всех сомалийцев, включая женщин, молодежь, инвалидов, внутренне перемещенных лиц и беженцев, в предотвращении и урегулировании конфликтов, процессах примирения, миростроительстве и выборах, а также в других политических процессах и <span class="italic">признает</span> тот важный вклад, который может внести в этой связи гражданское общество;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_151__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> власти Сомали осуществлять взаимодействие с соответствующими партнерами, с тем чтобы обеспечить для всех защиту от сексуального и гендерного насилия, включая сексуальную эксплуатацию и сексуальные надругательства, а также сексуальное насилие в условиях конфликта, предпринять надлежащие шаги для расследования заявлений, укрепить законодательство на предмет привлечения к ответственности согласно соответствующим резолюциям и ускорить реализацию совместного коммюнике и национального плана действий по борьбе с сексуальным насилием в условиях конфликта; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_158__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> власти Сомали принять меры к предотвращению убийства, калечения и похищения детей, их вербовки и повторной вербовки в соответствии с выводами, сформулированными в 2017 году Рабочей группой по вопросу о детях и вооруженном конфликте в Сомали, и применения сексуального насилия в отношении детей в условиях вооруженного конфликта и привлекать виновных к ответственности, <span class="italic">призывает</span> власти Сомали принять надлежащие меры к предотвращению нападений на гражданскую инфраструктуру, в том числе на школы и больницы, прекратить все задержания детей по обвинениям в преступлениях против национальной безопасности в нарушение применимых норм международного права и вместо этого обращаться с ними в первую очередь как с пострадавшими и <span class="italic">призывает далее</span> федеральное правительство Сомали принять меры для полного осуществления им своих планов действий от 2012 года, типового регламента 2014 года по передаче детей, выведенных из состава вооруженных групп, принятой в 2018 году «дорожной карты» и выводов Рабочей группы по вопросу о детях и вооруженном конфликте в Сомали (<a href="https://undocs.org/ru/S/AC.51/2017/2">S/AC.51/2017/2</a>); </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">вновь заявляет</span> о своей постоянной обеспокоенности по поводу большого числа беженцев и внутренне перемещенных лиц, <span class="italic">особо отмечает</span>, что любое выселение должно осуществляться согласно соответствующим национальными законам и международным обязательствам, <span class="italic">приветствует</span> ратификацию федеральным правительством Сомали Кампальской конвенции Африканского союза и <span class="italic">подчеркивает</span> важность выполнения федеральным правительством Сомали ее положений в полном объеме; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_175__content">
+          <p xml:space="preserve">	<span class="italic">ссылается</span> на свою резолюцию <a href="https://undocs.org/ru/S/RES/2417(2018)">2417 (2018)</a> и <span class="italic">выражает</span> глубокую озабоченность по поводу продолжающегося гуманитарного кризиса в Сомали и его воздействия на население Сомали, <span class="italic">рекомендует</span> всем партнерам, включая доноров, продолжать оказание гуманитарной помощи в 2020 году и предоставлять дополнительную помощь в порядке более широкого реагирования на пандемию COVID-19, <span class="italic">решительно осуждает</span> неизбирательные нападения и намеренные нападения на гуманитарный и медицинский персонал и объекты гражданской инфраструктуры, совершаемые в том числе группировкой «Аш-Шабааб», а также любое неправомерное использование гуманитарной помощи или создание препятствий для ее доставки, <span class="italic">вновь требует</span>, чтобы все стороны незамедлительно предоставляли полный, безопасный и беспрепятственный доступ для своевременной доставки гуманитарной помощи нуждающимся на всей территории Сомали согласно соответствующим принципам международного права и в соответствии с гуманитарными принципами, и <span class="italic">подчеркивает</span> важность ведения надлежащего учета в рамках деятельности по оказанию международной гуманитарной поддержки; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="H23">
+        <subheading>		Отчетность</subheading>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Африканский союз каждые 90 дней информировать Совет Безопасности через Генерального секретаря об осуществлении мандата АМИСОМ посредством не менее трех письменных докладов, первый из которых должен быть представлен не позднее 15 августа 2020 года, и <span class="italic">просит далее</span> в этой связи предоставлять конкретную информацию: 1) о прогрессе в совместной деятельности, осуществляемой в порядке выполнения Плана перехода, в том числе о задействовании и эффективности механизмов координации; 2) о предложениях в отношении пересмотренных задач согласно пункту 12 b); 3) о мерах ответственности, применяемых в случае неудовлетворительного выполнения обязанностей, в том числе в сфере командования и управления и в области поведения и дисциплины; 4) о мерах, принимаемых для защиты гражданских лиц; 5) о результатах обзора имущества и об использовании активов сил; и 6) об укомплектовании штатов гражданского компонента и <span class="italic">призывает </span>к своевременному представлению докладов, с тем чтобы Совет мог учитывать точки зрения Африканского союза в отношении ситуации в Сомали;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_178" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_178__content">
+          <p xml:space="preserve">	<span class="italic">просит </span>Генерального секретаря регулярно информировать Совет Безопасности об осуществлении настоящей резолюции в своих регулярных докладах, запрошенных в пункте 22 резолюции <a href="https://undocs.org/ru/S/RES/2461(2019)">2461 (2019)</a>, и в этой связи <span class="italic">просит также</span> Генерального секретаря производить в своих регулярных докладах оценку: 1) прогресса, достигнутого в осуществлении приоритетных мер, указанных в пункте 2 настоящей резолюции, 2) осуществления политики должной осмотрительности в вопросах прав человека и 3) поддержки, которую ЮНСОС оказывает АМИСОМ, МООНСОМ и сомалийским силам безопасности; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> намерение Совета Безопасности держать в поле зрения вопрос о конфигурации АМИСОМ, <span class="italic">просит</span> Генерального секретаря провести не позднее 10 января 2021 года независимую оценку и представить Совету Безопасности предложения относительно вариантов оказания международной поддержки в обеспечении общей безопасной обстановки в Сомали в период после 2021 года, включая роль Организации Объединенных Наций, Африканского союза и международных партнеров, после консультаций с федеральный правительством Сомали, Африканским союзом и международными партнерами по их соответствующим точкам зрения; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продолжать активно заниматься этим вопросом.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
