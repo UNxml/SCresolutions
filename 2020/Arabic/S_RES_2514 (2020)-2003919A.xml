@@ -1,0 +1,781 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/"></FRBRuri>
+          <FRBRdate date="2020-03-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/ara@/"></FRBRuri>
+          <FRBRdate date="2020-03-12" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/ara@.xml"></FRBRuri>
+          <FRBRdate date="2021-08-31" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Mission in South Sudan" showAs="UN Mission in South Sudan" dictionary="DHLAUTH"></keyword>
+        <keyword value="Revitalized Agreement on the Resolution of Conflict in the Republic of South Sudan (2018)" showAs="Revitalized Agreement on the Resolution of Conflict in the Republic of South Sudan (2018)" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" showAs="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOUTH SUDAN" showAs="SOUTH SUDAN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[216]" showAs="UN MISSION IN SOUTH SUDAN" dictionary="S/75"></keyword>
+        <keyword refersTo="agenda" value="[223]" showAs="SOUTH SUDAN--POLITICAL CONDITIONS" dictionary="S/75"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="Reports of the Secretary-General on the Sudan and South Sudan." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2514 (2020) [on extension of the mandate of the UN Mission in South Sudan (UNMISS) until 15 Mar. 2021]" showAs="Security Council resolution 2514 (2020) [on extension of the mandate of the UN Mission in South Sudan (UNMISS) until 15 Mar. 2021]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-03-12" outcome="draftResolution" as="S/2020/197" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2020-03-12" outcome="adopted" as="S/PV.8744" by="Adopted unanimously, 8744th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-03919 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2514 (2020)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">مجلس الأمن</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-03-12" class="rightSmall" refersTo="#dateOfIssuance">12 March 2020</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		القرار 2514 (2020)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">الذي اتخذه مجلس الأمن في <inline name="adoptionMeeting" title="8744">جلسته 8744</inline>، المعقودة في <docDate date="2020-03-12" refersTo="#adoptionDate">12 آذار/مارس 2020</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن مجلس الأمن</span>
+          <span class="italic">،</span>
+        </p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold italic">	إذ يشير</span> إلى قراراته السابقة وبيانات رئيسه وبياناته الصحفية بشأن الحالة في جنوب السودان،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد من جديد</span> التزامه القوي بسيادة جمهورية جنوب السودان واستقلالها وسلامتها الإقليمية ووحدتها الوطنية، <span class="bold italic">وإذ يشير</span> إلى أهمية مبادئ عدم التدخل وحسن الجوار والتعاون الإقليمي،</p>
+      </container>
+      <container name="وإذ يكرر الإعراب" eId="container_4">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يكرر الإعراب</span> عن بالغ الانزعاج والقلق من الأزمة السياسية والأمنية والاقتصادية والإنسانية في جنوب السودان، وما أعقبها من أعمال عنف تسبب فيها قادة البلد السياسيون والعسكريون منذ كانون الأول/ديسمبر 2013، <span class="bold italic">وإذ يشدد</span> على أنه لا يمكن أن يكون هناك حل عسكري للحالة في جنوب السودان،</p>
+      </container>
+      <container name="وإذ يدين بقوة" eId="container_5">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يدين بقوة</span> جميع أعمال القتال والانتهاكات الأخرى ”لاتفاق وقف الأعمال القتالية وحماية المدنيين وتيسير وصول المساعدات الإنسانية“ المؤرخ 21 كانون الأول/ديسمبر 2017، <span class="bold italic">وإذ يرحب</span> بالتقييم السريع للانتهاكات الذي تجريه آلية الرصد والتحقق من وقف إطلاق النار وترتيبات الأمن الانتقالية، <span class="bold italic">وإذ يشجع</span> الهيئة الحكومية الدولية المعنية بالتنمية على إطلاع مجلس الأمن على التقارير على وجه السرعة، <span class="bold italic">وإذ يلاحظ</span> أن الاتحاد الأفريقي والهيئة الحكومية الدولية المعنية بالتنمية ومجلس الأمن التابع للأمم المتحدة قد طالبوا بوجوب محاسبة الأطراف التي تنتهك اتفاق وقف الأعمال القتالية وحماية المدنيين وتيسير وصول المساعدات الإنسانية،</p>
+      </container>
+      <container name="وإذ يعرب" eId="container_6">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يعرب</span> عن تقديره لما تقوم به قيادة الهيئة الحكومية الدولية المعنية بالتنمية من أجل النهوض بعملية السلام في جنوب السودان، <span class="bold italic">وإذ يرحب</span> بالتزام وجهود الهيئة الحكومية الدولية المعنية بالتنمية والدول الأعضاء فيها، واللجنة المشتركة للرصد والتقييم المعاد تشكيلها، والاتحاد الأفريقي، ومجلس السلم والأمن التابع للاتحاد الأفريقي، والأمم المتحدة وبلدان المنطقة لمواصلة العمل مع القادة في جنوب السودان من أجل معالجة الأزمة الراهنة، <span class="bold italic">وإذ يشجعها</span> على مواصلة المبادرة إلى التعاون،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_7">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد</span> أن ”الاتفاق المنشط لتسوية النزاع في جمهورية جنوب السودان“ (الاتفاق المنشط) لعام 2018 يشكل خطوة هامة إلى الأمام في عملية السلام تتيح فرصة لتحقيق السلام والاستقرار بصفة دائمة في جنوب السودان، <span class="bold italic">وإذ يدعو</span> الأطراف في جنوب السودان لإبداء الإرادة السياسية لحل النزاع بالوسائل السلمية، <span class="bold italic">وإذ يشدد</span> على أن المفاوضات بشأن تقاسم السلطة والترتيبات الأمنية والعودة الآمنة لجميع الأطراف في جنوب السودان إلى جوبا من الشروط الأساسية للمضي قدما بعملية السلام، <span class="bold italic">وإذ يدعو</span> الأطراف إلى كفالة مشاركة المرأة بصورة كاملة وفعالة ومجدية في عملية السلام، والإقرار بالحاجة إلى حماية منظمات حقوق المرأة والنساء العاملات في مجال بناء السلام من التهديد والانتقام، والوفاء بالالتزامات المنصوص عليها في الاتفاق المنشط بشأن إشراك الجميع، بما في ذلك فيما يتعلق بالتنوع الوطني والمساواة بين الجنسين والشباب والتمثيل الإقليمي،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_8">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يرحب</span> بالتطورات المشجعة في عملية السلام بجنوب السودان، بما في ذلك بدء تشكيل حكومة وحدة وطنية انتقالية منشطة، <span class="bold italic">وإذ يقر </span>بأن هذا الأمر يمثل خطوة هامة صوب إحلال السلام الدائم من جانب الأطراف في الاتفاق المنشط، <span class="bold italic">وإذ يرحب كذلك</span> بروح التوافق التي أبدتها الأطراف وبالإرادة السياسية التي برهنت عليها لتهيئة الظروف اللازمة للمضي قدما بعملية السلام،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_9">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يقر</span> بتراجع أعمال العنف السياسي منذ توقيع الاتفاق المنشط وبالالتزام بوقف إطلاق النار الدائم في معظم أنحاء البلد، <span class="bold italic">وإذ يقر كذلك</span> بتدابير بناء الثقة بين الجهات الموقّعة على الاتفاق المنشط وتشكيل معظم الآليات السابقة للمرحلة الانتقالية المنصوص عليها في الاتفاق المنشط،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_10">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يرحب</span> بالوساطة التي تقوم بها حاليا جمعية سانت إيجيديو لتعزيز الحوار السياسي بين الجهات الموقّعة والجهات غير الموقّعة على الاتفاق المنشط، <span class="bold italic">وإذ يشجع</span> جميع الأطراف على مواصلة جهودها الرامية إلى حل المنازعات بالوسائل السلمية من أجل تحقيق سلام شامل ودائم،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_11">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشير</span> إلى قراره <a href="https://undocs.org/ar/S/RES/2117(2013)">2117</a><a href="https://undocs.org/ar/S/RES/2117(2013)"> (2013)</a>، <span class="bold italic">وإذ يعرب</span> عن بالغ القلق إزاء الخطر الذي يتهدد السلام والأمن في جنوب السودان نتيجة للنقل غير المشروع للأسلحة الصغيرة والأسلحة الخفيفة وتكديسها المزعزع للاستقرار وإساءة استخدامها،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_12">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يلاحظ</span> التدابير التي اعتمدها مجلس الأمن في القرار <a href="https://undocs.org/ar/S/RES/2428(2018)">2428</a><a href="https://undocs.org/ar/S/RES/2428(2018)"> (2018)</a> وجددها في القرار <a href="https://undocs.org/ar/S/RES/2471(2019)">2471</a><a href="https://undocs.org/ar/S/RES/2471(2019)"> </a><a href="https://undocs.org/ar/S/RES/2471(2019)">(2019)</a>،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_13">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشير</span> إلى أن الجهات، من أفراد أو كيانات، التي تكون مسؤولة عن الإجراءات أو السياسات التي تهدد السلم أو الأمن أو الاستقرار في جنوب السودان أو المتواطئة عليها أو المشاركة فيها بصورة مباشرة أو غير مباشرة، معرضة لفرض جزاءات محددة الأهداف عليها عملا بالقرارات <a href="https://undocs.org/ar/S/RES/2206(2015)">2206</a><a href="https://undocs.org/ar/S/RES/2206(2015)"> (2015)</a>، و <a href="https://undocs.org/ar/S/RES/2271(2016)">2271</a><a href="https://undocs.org/ar/S/RES/2271(2016)"> (2016)</a>، و <a href="https://undocs.org/ar/S/RES/2280(2016)">2280</a><a href="https://undocs.org/ar/S/RES/2280(2016)"> (2016)</a>، و <a href="https://undocs.org/ar/S/RES/2290(2016)">2290</a><a href="https://undocs.org/ar/S/RES/2290(2016)"> (2016)</a>، و <a href="https://undocs.org/ar/S/RES/2353(2017)">2353</a><a href="https://undocs.org/ar/S/RES/2353(2017)"> (2017)</a> و <a href="https://undocs.org/ar/S/RES/2428(2018)">2428</a><a href="https://undocs.org/ar/S/RES/2428(2018)"> (2018)</a> و <a href="https://undocs.org/ar/S/RES/2471(2019)">2471</a><a href="https://undocs.org/ar/S/RES/2471(2019)"> (2019)</a>، بما في ذلك الأفراد الذين يخططون لأعمال تنتهك القانون الدولي لحقوق الإنسان أو القانون الدولي الإنساني الواجبي التطبيق، أو أعمال ‏تشكل تجاوزات لحقوق الإنسان أو أعمال تنطوي على العنف الجنسي والجنساني، أو يقومون بتوجيه تلك الأعمال أو ارتكابها في جنوب السودان، والذين يشاركون في الهجمات على بعثات الأمم المتحدة أو الوجود الأمني الدولي بمختلف أشكاله، أو عمليات حفظ السلام الأخرى أو العاملين في مجال تقديم المساعدة الإنسانية، <span class="bold italic">وإذ يشير كذلك</span> إلى استعداده لفرض جزاءات محددة الأهداف،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_14">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشدد</span> على الأهمية الحاسمة لتنفيذ نظام الجزاءات بفعالية، بما في ذلك تدابير حظر السفر التي يفرضها، والدور الرئيسي الذي يمكن أن تضطلع به في هذا الصدد الدول المجاورة، وكذا المنظمات الإقليمية ودون الإقليمية، <span class="bold italic">وإذ يشجع</span> الجهود الرامية إلى مواصلة تعزيز التعاون، و<span class="bold italic">إذ يؤكد من جديد</span> أنه سيكون على استعداد لتكييف التدابير المنصوص عليها في القرار <a href="https://undocs.org/ar/S/RES/2428(2018)">2428</a><a href="https://undocs.org/ar/S/RES/2428(2018)"> (2018)</a> والمجددة في القرار <a href="https://undocs.org/ar/S/RES/2471(2019)">2471</a><a href="https://undocs.org/ar/S/RES/2471(2019)"> (2019)</a> في ضوء التقدم المحرز في عملية السلام والمساءلة والمصالحة،</p>
+      </container>
+      <container name="وإذ يشيد" eId="container_15">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشيد</span> بعمل بعثة الأمم المتحدة في جمهورية جنوب السودان، <span class="bold italic">وإذ يؤكد</span> أهمية التعاون والتواصل الفعالين مع المجتمعات المحلية، ومع الجهات الفاعلة في مجال العمل الإنساني، بوسائل منها التواصل المنتظم بخصوص ولاية البعثة، بما في ذلك أعمالها المقررة وقدراتها، والتهديدات الأمنية وما يتصل بها من معلومات، سواء داخل مواقع حماية المدنيين أو خارجها، <span class="bold italic">وإذ يشجع</span> بعثة الأمم المتحدة على تحسين التواصل مع المجتمعات المحلية، بما في ذلك أثناء الدوريات، كيما تؤدي البعثة ولايتها المتعلقة بحماية المدنيين،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_16">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يسلّم</span> بأن حماية المدنيين العزل يمكن في كثير من الأحيان أن تكون مكمّلة للجهود الرامية إلى بناء بيئة الحماية، لا سيما ردع ارتكاب العنف الجنسي والجنساني ضد المدنيين، <span class="bold italic">وإذ يشجع</span> البعثة على أن تقوم، حسب الاقتضاء، وعندما يكون ذلك ممكنا، باستكشاف الكيفية التي يمكن أن تستخدم بها تقنيات حماية المدنيين لتعزيز قدرتها على حماية المدنيين، بما في ذلك من خلال التواصل مع المجتمعات المحلية، واستراتيجية البعثة في مجال الاتصال، وبتدريب موظفي البعثة تبعا لذلك،</p>
+      </container>
+      <container name="وإذ يدرك" eId="container_17">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يدرك</span> الحالة الإنسانية المتردية والمستويات المرتفعة لانعدام الأمن الغذائي في البلد، <span class="bold italic">وإذ يدين</span> الهجمات على سبل العيش والحرمان من الحصول على الغذاء، <span class="bold italic">وإذ يلاحظ</span> أهمية إسهام البعثة في تهيئة الظروف المواتية لإيصال المساعدة الإنسانية، وفي السعي من خلال التنسيق مع الجهات الفاعلة في مجالي العمل الإنساني والعمل الإنمائي ومجتمعات المشردين والسلطات إلى تهيئة الظروف لعودة المشردين داخليا واللاجئين أو نقلهم أو إعادة توطينهم أو إدماجهم في المجتمعات المضيفة بطريقة آمنة وواعية وطوعية وكريمة،</p>
+      </container>
+      <container name="وإذ يدين بقوة" eId="container_18">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يدين بقوة</span> مواصلة حكومة جنوب السودان وجماعات المعارضة إعاقة عمل البعثة، بما في ذلك فرضها قيودا شديدة على حرية الحركة، وقيامها بالاعتداء على أفراد البعثة، ووضعها عقبات لعرقلة العمليات التي تقوم بها البعثة، بما في ذلك فرض قيود على الدوريات وعلى الجهود التي تبذلها البعثة للقيام بجملة أمور منها رصد أحوال حقوق الإنسان، وهي أعمال أُبلغ الأمين العام عن الكثير منها باعتبارها انتهاكات لاتفاق مركز القوات من جانب حكومة جنوب السودان، <span class="bold italic">وإذ يشير</span> إلى أن اتفاق مركز القوات ينص على أن تتمتع البعثة والمتعاقدون معها بحرية كاملة وغير مقيدة في التنقل بدون تأخير في جميع أنحاء جنوب السودان عبر أقصر الطرق الممكنة، دون حاجة إلى تصريح سفر أو إذن مسبق أو إخطار مسبق، وبالحق في توريد المعدات والمؤن والإمدادات والوقود والمواد وغيرها من السلع، معفاة من المكوس أو الضرائب أو الرسوم أو المصروفات ودون أي أشكال أخرى من الحظر أو التقييد،</p>
+      </container>
+      <container name="وإذ يطالب" eId="container_19">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يطالب</span> جميع الجهات الفاعلة ذات الصلة، ولا سيما حكومة جنوب السودان، وبما يشمل قوات الدفاع الشعبي لجنوب السودان، وجهاز الشرطة الوطنية لجنوب السودان، وجهاز الأمن الوطني، والجناح المعارض في الجيش الشعبي لتحرير السودان، وجبهة الخلاص الوطني، بإنهاء جميع العراقيل التي تعوق عمل البعثة، بما في ذلك، في جملة أمور، العراقيل التي تحول دون اضطلاعها بولايتها المتمثلة في رصد حقوق الإنسان والتحقيق فيها،</p>
+      </container>
+      <container name="	وإذ يشير" eId="container_20">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يشير</span> إلى إدانته القوية لجميع الهجمات على المدنيين، بما في ذلك تلك التي تنطوي على العنف ضد النساء والأطفال والأشخاص الذين يعيشون في ظل ظروف هشة، والعنف الموجه ضد جماعات عرقية بعينها، وخطاب الكراهية، وأعمال التحريض على العنف، <span class="bold italic">وإذ يعرب كذلك</span> عن بالغ قلقه إزاء إمكانية أن يستمر تحول ما بدأ كنزاع سياسي إلى حرب عرقية صريحة، على نحو ما ذكر المستشار الخاص المعني بمنع الإبادة الجماعية، أداما ديينغ،</p>
+      </container>
+      <container name="وإذ يعرب" eId="container_21">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يعرب </span>عن بالغ القلق إزاء استمرار ورود التقارير عن العنف الجنسي والجنساني، بما في ذلك إزاء النتائج التي خلص إليها الأمين العام في تقريره إلى مجلس الأمن عن العنف الجنسي المتصل بالنزاعات (<a href="https://undocs.org/ar/S/2019/280">S/2019/280</a>) بشأن استخدام أطراف النزاع العنف الجنسي كتكتيك ضد السكان المدنيين في جنوب السودان، بما في ذلك استخدام الاغتصاب والاغتصاب الجماعي للنساء والفتيات، والاختطاف والزواج القسري والاسترقاق الجنسي، حيث أصبح استمرار مستويات العنف الجنسي المتصل بالنزاع وغير ذلك من أشكال العنف ضد النساء والفتيات أمرا عاديا ولم يتوقف بعد توقيع الاتفاق المنشط وعلى الرغم من وقف معظم الهجمات العسكرية، على النحو الموثق في تقرير البعثة ومفوضية الأمم المتحدة لحقوق الإنسان الصادر في شباط/فبراير 2019 عن ”العنف الجنسي المتصل بالنزاع في ولاية الوحدة الشمالية“ في الفترة الممتدة بين أيلول/سبتمبر وكانون الأول/ديسمبر 2018، <span class="bold italic">وإذ يشدد</span> على ضرورة وأهمية إجراء التحقيقات في الوقت المناسب وتوفير المساعدة والحماية لضحايا العنف الجنسي والجنساني،</p>
+      </container>
+      <container name="وإذ يدين بقوة" eId="container_22">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يدين بقوة</span> جميع انتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني من جانب جميع الأطراف، بما فيها الجماعات المسلحة وقوات الأمن الوطنية، وكذلك التحريض على ارتكاب تلك التجاوزات والانتهاكات، <span class="bold italic">وإذ يدين كذلك </span>ما يتعرض له المجتمع المدني والعاملون في مجال تقديم المساعدة الإنسانية والصحفيون من مضايقة واستهداف ورقابة، <span class="bold italic">وإذ يشدد</span> على وجوب محاسبة المسؤولين عن انتهاكات القانون الدولي الإنساني وانتهاكات وتجاوزات حقوق الإنسان، وعلى أن حكومة جنوب السودان تتحمل المسؤولية الرئيسية عن حماية سكانها من الإبادة الجماعية وجرائم الحرب والتطهير العرقي والجرائم ضد الإنسانية، <span class="bold italic">وإذ يعرب عن القلق</span> لأنه، على الرغم من توقيع الاتفاق المنشط، يستمر ارتكاب انتهاكات، منها الاغتصاب والعنف الجنسي، قد تصل إلى حد الجرائم الدولية، بما في ذلك جرائم الحرب والجرائم ضد الإنسانية،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_23">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يعيد تأكيد</span> الضرورة الملحة لإنهاء حالة الإفلات من العقاب في جنوب السودان وتقديم جميع المسؤولين عن انتهاكات القانون الدولي الإنساني وانتهاكات وتجاوزات حقوق الإنسان إلى المحاكمة، <span class="bold italic">وإذ يشدد</span> على أهمية تنفيذ تدابير في مجال العدالة الانتقالية، تشمل تلك الواردة في الاتفاق المنشط، لإنهاء حالة الإفلات من العقاب، وتيسير المصالحة الوطنية ولأم الجراح، وضمان إحلال السلام الدائم، على النحو المسلم به في الفصل الخامس من الاتفاق المنشط، <span class="bold italic">وإذ يؤيد</span> في هذا الصدد جهود الاتحاد الأفريقي الرامية إلى إنشاء المحكمة المختلطة لجنوب السودان، <span class="bold italic">وإذ يشاطر قلق</span> مجلس السلم والأمن التابع للاتحاد الأفريقي إزاء التأخير وعدم التعاون من جانب حكومة جنوب السودان، على النحو الذي أفاد به رئيس الاتحاد الأفريقي في شباط/فبراير 2020 أثناء الجلسة الافتتاحية للمجلس التنفيذي للاتحاد الأفريقي،</p>
+      </container>
+      <container name="وإذ يعرب" eId="container_24">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يعرب </span>عن بالغ القلق بشأن التقارير المتعلقة بحالة حقوق الإنسان في جنوب السودان الصادرة عن البعثة والأمين العام، <span class="bold italic">وإذ يعرب كذلك</span> عن بالغ القلق لأنه يمكن أن تكون جرائم حرب وجرائم ضد الإنسانية قد ارتكبت، وفقا لتقرير لجنة الاتحاد الأفريقي لتقصي الحقائق في جنوب السودان، الصادر في 27 تشرين الأول/أكتوبر 2015، وتقارير اللجنة المعنية بحقوق الإنسان في جنوب السودان، الصادرة في 23 شباط/فبراير 2018 و 20 شباط/فبراير 2019 و 20 شباط/فبراير 2020، <span class="bold italic">وإذ يشدد</span> على الأمل الذي يحدوه في أن يُنظر على النحو الواجب في هذه التقارير وغيرها من التقارير الموثوقة في إطار أي آليات للعدالة الانتقالية لجنوب السودان، بما فيها تلك الآليات المنشأة عملا بالاتفاق المنشط، <span class="bold italic">وإذ يؤكد</span> على أهمية جمع الأدلة والحفاظ عليها لكي تستخدمها في نهاية المطاف المحكمة المختلطة لجنوب السودان وغيرها من آليات المساءلة، <span class="bold italic">وإذ يشجع</span> على بذل الجهود في هذا الصدد،</p>
+      </container>
+      <container name="وإذ يقر" eId="container_25">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يقر</span> بأهمية تصديق حكومة جنوب السودان على البروتوكول الاختياري لاتفاقية حقوق الطفل بشأن اشتراك الأطفال في المنازعات المسلحة، <span class="bold italic">وإذ يدعو بقوة</span> إلى تنفيذه بالكامل وعلى الفور، <span class="bold italic">وإذ يرحب</span> بتوقيع حكومة جنوب السودان على خطة العمل لإنهاء ومنع جميع الانتهاكات الجسيمة ضد الأطفال في 7 شباط/فبراير، <span class="bold italic">وإذ يحيط علما</span> بالدور الذي تؤديه حكومة جنوب السودان في التفاوض بشأن الإفراج عن الأطفال من جانب أطراف النزاع، <span class="bold italic">وإذ يلاحظ</span> مع ذلك أن نحو 000 19 طفل يعتقد أنهم لا يزالون حتى تموز/يوليه 2019 في صفوف قوات الدفاع الشعبي لجنوب السودان والجماعات المعارضة المسلحة، وفقا لتقرير لجنة حقوق الإنسان الصادر في شباط/فبراير 2020، <span class="bold italic">وإذ يحث </span>جميع الأطراف على بذل مزيد من الجهود من أجل وقف تجنيد الأطفال فورا والإفراج عن جميع الأطفال المجندين حتى الآن، <span class="bold italic">وإذ يشجع </span>على بذل مزيد من الجهود في هذا الصدد، ولا سيما من خلال تأييد حكومة جنوب السودان لمبادئ باريس،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_26">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يحيط علما </span>بالتقرير المشترك للبعثة ومفوضية الأمم المتحدة لحقوق الإنسان عن حرية الرأي والتعبير في جنوب السودان منذ أزمة تموز/يوليه 2016، الصادر في شباط/فبراير 2018، <span class="bold italic">وإذ يعرب</span> عن قلقه المستمر بشأن التقييد الشديد لحريات الرأي والتعبير وتكوين الجمعيات، <span class="bold italic">وإذ يدين</span> استخدام وسائط الإعلام لنشر خطاب الكراهية وتوجيه رسائل تحرّض على العنف ضد جماعات عرقية بعينها، وهي ممارسة يمكن أن تؤدي إلى انتشار العنف على نطاق واسع وإلى تأجيج النزاع المسلح، <span class="bold italic">وإذ يدعو</span> حكومة جنوب السودان إلى أن تدين فورا وتكافح تصاعد خطاب الكراهية والعنف العرقي، وتشجع شعبها على التصالح،</p>
+      </container>
+      <container name="وإذ يعرب" eId="container_27">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يعرب </span>عن بالغ القلق بشأن الحالة العصيبة التي يعاني منها الأشخاص ذوو الإعاقة في جنوب السودان، بما في ذلك التخلي عنهم وتعرضهم للعنف وعدم استفادتهم من الخدمات الأساسية، <span class="bold italic">وإذ يشدد</span> على ضرورة كفالة تلبية الاحتياجات الخاصة للأشخاص ذوي الإعاقة في الاستجابة الإنسانية،</p>
+      </container>
+      <container name="وإذ يدرك" eId="container_28">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يدرك</span> ما للظواهر الجوية البالغة الشدة من آثار سلبية على الحالة الإنسانية والاستقرار في جنوب السودان، <span class="bold italic">وإذ يشدد</span> على ضرورة أن توفر حكومة جنوب السودان والأمم المتحدة تقييمات كافية للمخاطر واستراتيجيات لإدارة المخاطر فيما يتعلق بهذه الظواهر،</p>
+      </container>
+      <container name="وإذ يعرب" eId="container_29">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يعرب </span>عن قلقه الشديد والملحّ لأن عدد المشردين أصبح يناهز 3,9 ملايين مشرد مع استمرار الأزمة الإنسانية، ولأن ما يقدر بنحو 5,29 ملايين شخص يواجهون انعدام الأمن الغذائي الحاد وفقا لتقرير التصنيف المتكامل لمراحل الأمن الغذائي الصادر في شباط/فبراير2020، و 7,2 ملايين شخص يحتاجون إلى المساعدة لإنقاذ حياتهم، <span class="bold italic">وإذ يثني</span> على الوكالات الإنسانية التابعة للأمم المتحدة، والجهات الشريكة، والجهات المانحة على ما تبذله من جهود لتقديم الدعم إلى السكان بشكل عاجل ومنسق، <span class="bold italic">وإذ يدعو</span> المجتمع الدولي إلى مواصلة هذه الجهود لتلبية الاحتياجات الإنسانية لشعب جنوب السودان،</p>
+      </container>
+      <container name="وإذ يدين" eId="container_30">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يدين</span> العراقيل التي تعوق بها جميع الأطراف حركة المدنيين وحركة الجهات الفاعلة في مجال العمل الإنساني لتحول دون وصولها إلى المدنيين المحتاجين للمساعدة، <span class="bold italic">وإذ يعرب</span> عن قلقه إزاء فرض الضرائب والرسوم التي تعرقل إيصال المساعدات الإنسانية في جميع أنحاء البلد، <span class="bold italic">وإذ يلاحظ</span> مع القلق التقارير التي تشير إلى أن التشريد القسري ومنع وصول المساعدة الإنسانية يفاقمان انعدام الأمن الغذائي لدى السكان المدنيين، <span class="bold italic">وإذ يشير</span> إلى ضرورة أن تتيح جميع أطراف النزاع وتيسر، وفقا للأحكام ذات الصلة من القانون الدولي ومبادئ الأمم المتحدة التوجيهية للمساعدة الإنسانية، بما فيها المعاملة الإنسانية والنزاهة والحياد والاستقلالية، الوصول الكامل والآمن دون عراقيل لموظفي الإغاثة والمعدات واللوازم الغوثية وإيصال المساعدات الإنسانية في حينها إلى جميع المحتاجين، ولا سيما منهم المشردون داخليا واللاجئون،</p>
+      </container>
+      <container name="وإذ يدين بقوة" eId="container_31">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يدين بقوة</span> جميع الهجمات التي تستهدف العاملين في مجال تقديم المساعدة الإنسانية والمرافق الإنسانية التي أسفرت عن وفاة ما لا يقل عن 116 عاملا منذ كانون الأول/ديسمبر 2013، بما في ذلك الهجوم على مجمع تيرين في 11 تموز/يوليه 2016 والهجمات على العاملين في المجال الطبي وعلى المستشفيات، <span class="bold italic">وإذ يلاحظ</span> مع القلق الاتجاه المتصاعد في حالات مضايقة وتخويف العاملين في مجال تقديم المساعدة الإنسانية، <span class="bold italic">وإذ يذكّر</span> بأن شن الهجمات على العاملين في مجال تقديم المساعدة الإنسانية وعلى المواد التي لا غنى عنها لبقاء السكان المدنيين على قيد الحياة قد ترقى إلى انتهاكات للقانون الدولي الإنساني،</p>
+      </container>
+      <container name="	وإذ يعرب" eId="container_32">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يعرب </span>عن عميق تقديره للإجراءات التي يتخذها أفراد حفظ السلام التابعون للبعثة والبلدان المساهمة بقوات عسكرية وأفراد شرطة في إطار تنفيذ ولاية البعثة في بيئة صعبة، بما في ذلك لحماية المدنيين، بمن فيهم المواطنون الأجانب، المعرضين لخطر العنف البدني ولتحقيق استقرار الحالة الأمنية داخل مواقع البعثة وخارجها، <span class="bold italic">وإذ يؤكد</span> أن أي محاذير وطنية تؤثر سلبا في تنفيذ الولاية بفعالية ينبغي ألا تكون مقبولة من قبل الأمين العام، <span class="bold italic">وإذ يؤكد</span> أن عدم فعالية القيادة والتحكم، ورفض إطاعة الأوامر، وعدم التصدي للهجمات التي يتعرض لها المدنيون، ورفض المشاركة في الدوريات البعيدة المدى أو القيام بها في المناطق الريفية من البلد، وعدم كفاية المعدات والموارد المالية هي أمور قد تؤثر سلبا في المسؤولية المشتركة عن تنفيذ الولاية بفعالية،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_33">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يرحب</span> بالتزام الأمين العام بالإنفاذ الصارم لسياسته القاضية بعدم التسامح مطلقا مع الاستغلال والانتهاك الجنسيين، <span class="bold italic">وإذ يلاحظ</span> التدابير المختلفة التي تتخذها البعثة والبلدان المساهمة بقوات وبأفراد شرطة لمكافحة الاستغلال والانتهاك الجنسيين، <span class="bold italic">وإذ يعرب</span> مع ذلك عن بالغ القلق إزاء الادعاءات بوقوع أعمال استغلال وانتهاك جنسيين ارتكبها حسب التقارير أفراد حفظ سلام في جنوب السودان، <span class="bold italic">وإذ يشدد</span> على الحاجة الملحة إلى أن تقوم البلدان المساهمة بقوات وبأفراد شرطة، والبعثة حسب الاقتضاء، بالتحقيق على وجه السرعة في تلك المزاعم بطريقة تتسم بالمصداقية والشفافية، وإلى أن يحاسب المسؤولون عن تلك الجرائم أو التصرفات الإجرامية، <span class="bold italic">وإذ يشدد كذلك</span> على ضرورة منع أعمال الاستغلال والاعتداء الجنسيين هذه وتحسين سبل التعامل مع هذه الادعاءات وفقا للقرار <a href="https://undocs.org/ar/S/RES/2272(2016)">2272</a><a href="https://undocs.org/ar/S/RES/2272(2016)"> (2016)</a>،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_34">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يسلّم</span> بما يواجه البعثة من تحديات كبيرة من حيث الموارد والقدرات في سبيل تنفيذ ولايتها، <span class="bold italic">وإذ يعرب </span>عن تقديره للجهود المتواصلة التي تبذلها البعثة من أجل ضمان سلامة المشردين داخليا الذين يحتمون بمواقعها، <span class="bold italic">ويؤكد </span>في الوقت نفسه أهمية إيجاد حلول مستدامة للمشردين داخليا، بما يتماشى مع المبادئ التوجيهية المتعلقة بالتشرد الداخلي، <span class="bold italic">ويؤكد</span> في هذا الصدد ضرورة توسيع نطاق وجودها، بأساليب منها المبادرة إلى نشر القوات وتسيير الدوريات، ليشمل مناطق التشرد، ومناطق العودة المحتملة والفعلية، <span class="bold italic">وإذ يشدد</span> على أهمية المرونة في وضع البعثة داخل وخارج مواقع حماية المدنيين وعلى أن القرارات المتعلقة بالوضع والنشر تظل مرتبطة بتحليل التهديدات،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_35">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يشدد</span> على أن العقبات الكأداء التي تحول دون التنفيذ التام للقرار <a href="https://undocs.org/ar/S/RES/1325(2000)">1325</a><a href="https://undocs.org/ar/S/RES/1325(2000)"> (2000)</a>، والقرارات اللاحقة بشأن المرأة والسلام والأمن، بما في ذلك القرار <a href="https://undocs.org/ar/S/RES/2242(2015)">2242</a><a href="https://undocs.org/ar/S/RES/2242(2015)"> (2015)</a>، لا تذلّل إلا من خلال الالتزام الراسخ بتمكين المرأة وضمان مشاركتها وكفالة حقوق الإنسان الواجبة لها، وتضافر جهود القيادة، واتساق المعلومات والإجراءات، وتوافر الدعم من أجل بناء أسس إشراك المرأة في عملية صنع القرار بجميع مستوياتها،</p>
+      </container>
+      <container name="وإذ يدين بقوة" eId="container_36">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يدين بقوة</span> هجمات القوات الحكومية وقوات المعارضة والجماعات الأخرى على أفراد ومرافق الأمم المتحدة والهيئة الحكومية الدولية المعنية بالتنمية، بما في ذلك حادثة إسقاط الجيش الشعبي لتحرير السودان لطائرة هليكوبتر تابعة للأمم المتحدة في كانون الأول/ديسمبر 2012، والهجوم الذي تعرّضت له قافلة تابعة للأمم المتحدة في نيسان/أبريل 2013، والهجوم الذي تعرّض له معسكر البعثة في أكوبو في كانون الأول/ديسمبر 2013، وحادثة إسقاط جماعات مسلحة غير محددة الهوية لطائرة هليكوبتر تابعة للأمم المتحدة في آب/أغسطس 2014، وتوقيف واحتجاز فريق للرصد والتحقق تابع للهيئة الحكومية الدولية المعنية بالتنمية في آب/أغسطس 2014، وقيام قوات المعارضة باعتقال واحتجاز أفراد تابعين للبعثة وبالاستيلاء على معدات تابعة لها في ولاية أعالي النيل في تشرين الأول/أكتوبر 2015، والهجوم الذي تعرض له موقع حماية المدنيين في ملكال في شباط/فبراير 2016، والهجوم الذي تعرض له موقع حماية المدنيين في جوبا في تموز/يوليه 2016، والهجوم الذي تعرض له مجمع تيرين، واحتجاز واختطاف موظفين تابعين للأمم المتحدة وأفراد مرتبطين بها، والهجمات المتكررة التي تتعرض لها معسكرات البعثة في بور وبانتيو وملكال وملوط، واختفاء ثلاثة من الموظفين الوطنيين المنتسبين إلى الأمم المتحدة وأحد المتعاقدين الوطنيين الذي تقف وراءه على ما قيل قوات الجيش الشعبي لتحرير السودان ووفاتهم، واحتجاز مسؤولين تابعين لحكومة جنوب السودان لفريق آلية الرصد والتحقق من وقف إطلاق النار وترتيبات الأمن الانتقالية وإساءة معاملتهم له في كانون الأول/ديسمبر 2018، <span class="bold italic">وإذ يهيب</span> بحكومة جنوب السودان أن تستكمل التحقيق في هذه الهجمات بشكل سريع وواف وأن تحاسب المسؤولين عنها،</p>
+      </container>
+      <container name="وإذ يقرر" eId="container_37">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يقرر</span> أن الحالة في جنوب السودان ما زالت تشكل خطراً يهدد السلام والأمن الدوليين في المنطقة،</p>
+      </container>
+      <container name="وإذ يتصرف" eId="container_38">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يتصرف</span> بموجب الفصل السابع من ميثاق الأمم المتحدة،</p>
+        </container>
+      </preamble>
+    <mainBody>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <num>1 -</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="bold italic">يطالب</span> جميع أطراف النزاع بالوقف الفوري للقتال في جميع أنحاء جنوب السودان والانخراط في الحوار السياسي، <span class="bold italic">ويطالب كذلك</span> قادة جنوب السودان بتنفيذ وقف إطلاق النار الدائم المعلن عنه في الاتفاق المنشط وعمليتي وقف إطلاق النار اللتين دعوا إليهما تباعا في 11 تموز/يوليه 2016 و 22 أيار/مايو 2017، فضلا عن اتفاق وقف الأعمال القتالية وحماية المدنيين وتيسير وصول المساعدات الإنسانية الموقّع في 21 كانون الأول/ديسمبر 2017، وكفالة التنفيذ الكامل للمراسيم والأوامر اللاحقة التي توعز إلى قادتهم بالسيطرة على قواتهم وحماية المدنيين وممتلكاتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <num>2 -</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="bold italic">يطالب</span> حكومة جنوب السودان بالتقيد بالالتزامات المنصوص عليها في اتفاق مركز القوات المبرم بين حكومة جنوب السودان والأمم المتحدة، والكف فورا عن عرقلة البعثة في أداء ولايتها، <span class="bold italic">ويطالب كذلك</span> حكومة جنوب السودان بالكف فورا عن عرقلة الجهات الفاعلة في المجال الإنساني على الصعيدين الدولي والوطني في مسعاها لمساعدة المدنيين، وبتيسير حرية الحركة لآلية الرصد والتحقق من وقف إطلاق النار وترتيبات الأمن الانتقالية، <span class="bold italic">ويدعو</span> حكومة جنوب السودان إلى اتخاذ الإجراءات اللازمة لردع ومحاسبة المسؤولين عن أي أعمال عدوانية أو أعمال أخرى تعوق البعثة أو الجهات الفاعلة في المجال الإنساني على الصعيدين الدولي والوطني، <span class="bold italic">ويذكر</span> حكومة جنوب السودان بأنه، عملا باتفاق مركز القوات، لا تحتاج البعثة إلى ترخيص أو إذن مسبق للاضطلاع بالمهام الموكلة إليها، <span class="bold italic">ويحث</span> الحكومة على تهيئة بيئة قوامها التعاون المتبادل تتيح للبعثة وشركائها القيام بأعمالهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="MercuryDocument">
+        <num>3 -</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="bold italic">يعرب </span>عن اعتزامه، كما يبرهن على ذلك اتخاذه القرارات <a href="https://undocs.org/ar/S/RES/2206(2015)">2206</a><a href="https://undocs.org/ar/S/RES/2206(2015)"> (2015)</a> و <a href="https://undocs.org/ar/S/RES/2290(2016)">2290</a><a href="https://undocs.org/ar/S/RES/2290(2016)"> (2016)</a> و <a href="https://undocs.org/ar/S/RES/2353(2017)">2353</a><a href="https://undocs.org/ar/S/RES/2353(2017)"> (2017)</a> و <a href="https://undocs.org/ar/S/RES/2428(2018)">2428</a><a href="https://undocs.org/ar/S/RES/2428(2018)"> (2018)</a> و <a href="https://undocs.org/ar/S/RES/2471(2019)">2471</a><a href="https://undocs.org/ar/S/RES/2471(2019)"> (2019)</a>، النظر في اتخاذ جميع التدابير المناسبة ضد الأشخاص الذين يقومون بأعمال تقوّض سلام جنوب السودان واستقراره وأمنه، <span class="bold italic">ويؤكد</span> على حرمة مواقع الحماية التابعة للأمم المتحدة، <span class="bold italic">ويشدد</span><span class="italic"> بالأخص</span> على أنّ المسؤولين، من الأفراد والكيانات، عن شنّ الهجمات على أفراد البعثة ومبانيها وعلى أي من العاملين في مجال تقديم المساعدة الإنسانية أو الضالعين أو المشاركين في هذه الهجمات، بصورة مباشرة أو غير مباشرة، قد يستوفون المعايير التي تحدد خضوعهم للجزاءات، <span class="bold italic">ويحيط علما</span> في هذا الصدد بالتقرير الخاص للأمين العام الصادر في 20 شباط/فبراير 2018 بشأن تجديد ولاية بعثة الأمم المتحدة في جنوب السودان (<a href="https://undocs.org/ar/S/2018/143">S/2018/143</a>) الذي يفيد بأن إعادة إمداد جنوب السودان بالأسلحة والذخيرة على نحو مطرد تمس بصورة مباشرة بسلامة موظفي الأمم المتحدة وتضر بقدرة البعثة على الاضطلاع بولايتها، <span class="bold italic">ويحيط علما كذلك</span> بالبلاغ الصادر عن مجلس السلم والأمن التابع للاتحاد الأفريقي في 8 شباط/فبراير 2018 الذي ينص على ضرورة حرمان الجهات الموقعة لاتفاق وقف الأعمال القتالية وحماية المدنيين وتيسير وصول المساعدات الإنسانية من الوسائل اللازمة لمواصلة القتال، <span class="bold italic">ويؤكد</span> التدابير التي اعتمدها مجلس الأمن في القرار <a href="https://undocs.org/ar/S/RES/2428(2018)">2428</a><a href="https://undocs.org/ar/S/RES/2428(2018)"> (2018)</a>، بما في ذلك حظر توريد الأسلحة لحرمان الأطراف من الوسائل اللازمة لمواصلة القتال ومنع انتهاكات اتفاق وقف الأعمال القتالية وحماية المدنيين وتيسير وصول المساعدات الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="MercuryDocument">
+        <num>4 -</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بالتطورات المشجعة في عملية السلام بجنوب السودان، وإبداء الأطراف الإرادة السياسية في سبيل تهيئة الظروف اللازمة للمضي قدما بعملية السلام، والحد من العنف السياسي بين الأطراف المتحاربة، <span class="bold italic">ويدعو</span> الأطراف إلى أن تنفذ بالكامل الاتفاق المنشط، وتنشئ المؤسسات المنصوص عليها فيه دون تأخير؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="MercuryDocument">
+        <num>5 -</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="bold italic">يدين</span> انتهاكات الاتفاق من جانب جميع الأطراف، بما في ذلك استمرار استخدام العنف الجنسي والعنف الجنساني في الهجمات، والاعتداءات على مراقبي فريق آلية الرصد والتحقق من وقف إطلاق النار وترتيبات الأمن الانتقالية، التي تقوض تدابير بناء الثقة بين الأطراف المتحاربة، <span class="bold italic">ويؤكد </span>أن الافتقار إلى ترتيبات أمنية عملية قد يؤخر عملية السلام، <span class="bold italic">ويدعو</span> جميع الأطراف إلى كفالة مشاركة الشباب والنساء ومختلف المجتمعات المحلية والجماعات الدينية والمجتمع المدني مشاركة كاملة وفعالة ومجدية في جميع جهود تسوية النزاعات وبناء السلام، <span class="bold italic">ويهيب كذلك</span> بالبعثة إلى مساعدة جميع الأطراف في هذه الجهود؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="MercuryDocument">
+        <num>6 -</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> تمديد ولاية البعثة حتى 15 آذار/مارس 2021؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <num>7 -</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> الإبقاء على المستويات العامة لقوات البعثة بحد أقصى قوامه 000 17 فرد من الأفراد العسكريين، يشمل قوة حماية إقليمية، وبحد أقصى قوامه 101 2 فرد من أفراد الشرطة، من بينهم 88 من موظفي شؤون السجون، <span class="bold italic">ويعرب</span> عن استعداده للنظر في إدخال التعديلات اللازمة على البعثة حسب ما تقتضيه الظروف الأمنية السائدة في الميدان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="MercuryDocument">
+        <num>8 -</num>
+        <content eId="para_65__content">
+            <p xml:space="preserve">	<span class="bold italic">يقرر</span> أن تتمثل ولاية البعثة في تأدية المهام التالية، <span class="bold italic">ويأذن</span> للبعثة باستخدام جميع الوسائل اللازمة لتأدية هذه المهام:</p>
+          </content>
+      </paragraph>
+          <paragraph eId="para_66" class="MercuryDocument">
+            <num>(أ)</num>
+            <content eId="para_66__content">
+              <p xml:space="preserve">	<span class="italic">حماية المدنيين:</span></p>
+            </content>
+      </paragraph>
+      <paragraph eId="para_68" class="MercuryDocument">
+        <content eId="para_68__content">
+          <p xml:space="preserve">‘1’	حماية المدنيين المعرضين لخطر العنف البدني، بغض النظر عن مصدر هذا العنف، في حدود قدراتها وداخل مناطق انتشارها، وحماية النساء والأطفال بصفة خاصة، بطرق منها مواصلة الاستعانة بمستشاري شؤون حماية الطفل ومستشاري شؤون حماية المرأة ومستشاري الشؤون الجنسانية النظاميين والمدنيين في البعثة، وهي وظائف ينبغي التعجيل بملئها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <content eId="para_69__content">
+          <p xml:space="preserve">‘2’	ردع أعمال العنف ضد المدنيين، بمن فيهم المواطنون الأجانب، ولا سيما من خلال النشر الاستباقي وتسيير الدوريات النشطة، مع إيلاء اهتمام خاص للمشردين داخليا، بمن فيهم على سبيل المثال لا الحصر الموجودون في مواقع الحماية ومخيمات اللاجئين، وللعاملين في المجال الإنساني والمدافعين عن حقوق الإنسان، وتحديد التهديدات التي تستهدف السكان المدنيين وحالات تعرّضهم للهجمات، بطرق منها التواصل المنتظم مع السكان المدنيين والعمل عن كثب مع منظمات المساعدة الإنسانية وحقوق الإنسان والمجتمع المدني والتنمية في المناطق المعرّضة بشدة لأخطار النزاع، بما في ذلك، حسب الاقتضاء، المدارس ودور العبادة والمستشفيات والمنشآت النفطية ومناطق العودة المحتملة، ولا سيما عندما تعجز حكومة جنوب السودان عن تأمين هذه الأماكن أو لا تقوم بتأمينها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="MercuryDocument">
+        <content eId="para_70__content">
+          <p xml:space="preserve">‘3’	تعزيز تنفيذ استراتيجية للإنذار المبكر على كامل نطاق البعثة، بما في ذلك وضع خطة لاقتناء المعلومات في إطار نهج منسَّق لجمع المعلومات وتتبع الحوادث وتحليلها، والرصد والتحقق والإنذار المبكر وتعميم المعلومات، وإيجاد آليات للتصدي، بما في ذلك آليات التصدي للتهديدات والهجمات ضد المدنيين التي قد تنطوي على انتهاكات وتجاوزات لحقوق الإنسان أو انتهاكات للقانون الدولي الإنساني، فضلا عن التأهب لاحتمال وقوع مزيد من الهجمات التي تستهدف أفراد الأمم المتحدة ومرافقها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="MercuryDocument">
+        <content eId="para_71__content">
+          <p xml:space="preserve">‘4’	صون السلامة والأمن العامين لمواقع حماية المدنيين التابعة للبعثة وداخلها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="MercuryDocument">
+        <num>’5‘</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	ردع العنف الجنسي والجنساني ومنعه في حدود قدراتها وداخل مناطق انتشارها، على النحو المبين في الفقرة 41 من التقرير الخاص للأمين العام الصادر في 10 تشرين الثاني/نوفمبر 2016 (<a href="https://undocs.org/ar/S/2016/951">S/2016/951</a>)؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="MercuryDocument">
+        <content eId="para_73__content">
+          <p xml:space="preserve">‘6’	بذل المساعي الحميدة، وبناء الثقة، وتيسير الدعم المقدّم لاستراتيجية الحماية التي تتّبعها البعثة، ولا سيما فيما يتعلق بالنساء والأطفال، بما في ذلك المساعي الرامية إلى المساعدة في منع نشوب النزاعات القبلية والتخفيف من حدتها وحلها بسبل منها الوساطة والتواصل مع المجتمعات المحلية من أجل تشجيع مصالحة محلية ووطنية مستدامة باعتبار ذلك جزءا أساسيا من أنشطة منع العنف وبناء الدولة في الأجل الطويل، وكذلك من أجل تقديم الدعم، في حدود الموارد المتاحة، للسلطات المعنية ومنظمات المجتمع المدني في وضع وتنفيذ برامج للحد من العنف المجتمعي تكون مراعية للاعتبارات الإنسانية، بالتعاون والتنسيق مع الشركاء الإنمائيين وممثلي المجتمعات المحلية، وبخاصة النساء والشباب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="MercuryDocument">
+        <content eId="para_74__content">
+          <p xml:space="preserve">‘7’	المساعدة على تهيئة بيئة آمنة تسمح بعودة المشردين داخليا واللاجئين أو نقلهم أو إعادة توطينهم أو إدماجهم في المجتمعات المضيفة بطريقة آمنة وواعية وطوعية وكريمة، وذلك بوسائل منها رصد أجهزة الشرطة والمؤسسات الحكومية والأمنية والأطراف الفاعلة بالمجتمع المدني، والتأكّد من احترامها لحقوق الإنسان والتنسيق معها في الحالات التي تكون متوافقة فيها مع سياسة الأمم المتحدة المتعلقة ببذل العناية الواجبة في مراعاة حقوق الإنسان وممتثلة لهذه السياسة بالكامل، لدى تنفيذها للأنشطة ذات الصلة والتي تركز على الحماية، مثل التوعية بمسائل العنف الجنسي والجنساني والأطفال والنزاع المسلح بالإضافة إلى تقديم المساعدة التقنية أو المشورة بشأن القانون الدولي الإنساني، والتحقيق والمقاضاة في قضايا العنف الجنسي والجنساني والعنف الجنسي المتصل بالنزاع، وكذلك سائر انتهاكات وتجاوزات حقوق الإنسان، وذلك من أجل تعزيز حماية المدنيين، ومكافحة الإفلات من العقاب، وتعزيز المساءلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="MercuryDocument">
+        <content eId="para_75__content">
+          <p xml:space="preserve">‘8’	دعم تيسير عودة المشردين داخليا أو نقلهم أو إعادة إدماجهم بطريقة آمنة وواعية وطوعية وكريمة من مواقع حماية المدنيين التابعة للأمم المتحدة، وذلك بالتنسيق مع الجهات الفاعلة في مجال العمل الإنساني والجهات المعنية الأخرى وفي حدود الموارد المتاحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="MercuryDocument">
+        <num>(ب)</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">تهيئة الظروف المؤاتية لإيصال المساعدات الإنسانية:</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="MercuryDocument">
+        <content eId="para_77__content">
+          <p xml:space="preserve">‘1’	الإسهام، بالتعاون الوثيق مع الجهات الفاعلة في المجال الإنساني، في تهيئة الظروف الأمنية المؤاتية لإيصال المساعدات الإنسانية، وذلك لإتاحة المجال لوصول العاملين في مجال الإغاثة إلى جميع المحتاجين في جنوب السودان بشكل سريع وآمن ومن دون عوائق، وإيصال المساعدات الإنسانية في الوقت المناسب، بما في ذلك إلى المشردين داخليا واللاجئين، مع الإشارة إلى ضرورة الامتثال للأحكام ذات الصلة من القانون الدولي واحترام مبادئ الأمم المتحدة التوجيهية للمساعدة الإنسانية، بما في ذلك المعاملة الإنسانية والنزاهة والحياد والاستقلالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="MercuryDocument">
+        <content eId="para_78__content">
+          <p xml:space="preserve">‘2’	كفالة أمن موظفي الأمم المتحدة والأفراد المرتبطين بها وحرية تنقّلهم، حسب الاقتضاء، وضمان أمن منشآتها ومعداتها اللازمة لتنفيذ مهام الولاية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <num>(ج)</num>
+        <list eId="para_79_list">
+          <intro eId="para_79_list_intro">
+            <p xml:space="preserve">	<span class="italic">دعم تنفيذ الاتفاق المنشّط وعملية السلام</span>:</p>
+          </intro>
+          <point eId="para_79_list_point_1">
+            <content eId="para_79_list_point_1_content">
+              <p xml:space="preserve">	الاضطلاع، في حدود قدراتها، بالمهام التالية دعما لتنفيذ الاتفاق المنشط وعملية السلام والإقرار بأن المهام المحددة في الفقرة 10 ضرورية لتهيئة بيئة مؤاتية لتنفيذ الاتفاق المنشط وعملية السلام:</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_80" class="MercuryDocument">
+        <content eId="para_80__content">
+          <p xml:space="preserve">‘1’	استخدام المساعي الحميدة لدعم عملية السلام وتنفيذ الاتفاق المنشط، بما في ذلك إسداء المشورة أو تقديم المساعدة التقنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="MercuryDocument">
+        <content eId="para_81__content">
+          <p xml:space="preserve">‘2’	المشاركة في آلية الرصد والتحقق من وقف إطلاق النار وترتيبات الأمن الانتقالية وتقديم الدعم لها في تنفيذ ولايتها في رصد وقف إطلاق النار والتحقق منه، بما في ذلك من خلال تيسير ودعم الآلية في تنفيذ رصد الانتهاكات والفعالية العامة في تحديد المسؤولين عن هذه الانتهاكات والإبلاغ عن ذلك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="MercuryDocument">
+        <content eId="para_82__content">
+          <p xml:space="preserve">‘3’	المشاركة بنشاط في عمل اللجنة المشتركة للرصد والتقييم المعاد تشكيلها وآليات التنفيذ الأخرى وتقديم الدعم له، بما في ذلك على المستوى دون الوطني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="MercuryDocument">
+        <num>(د)</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="italic">الرصد والتحقيق في مجال حقوق الإنسان:</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="MercuryDocument">
+        <content eId="para_84__content">
+          <p xml:space="preserve">‘1’	رصد تجاوزات وانتهاكات حقوق الإنسان وانتهاكات القانون الدولي الإنساني والتحقيق فيها والتحقق منها والإبلاغ عنها بشكل فوري وعلني ومنتظم، بما في ذلك الأفعال التي يُحتمل أن تشكل جرائم حرب أو جرائم ضد الإنسانية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="MercuryDocument">
+        <content eId="para_85__content">
+          <p xml:space="preserve">‘2’	رصد الانتهاكات والتجاوزات المرتكبة ضد الأطفال والنساء والتحقيق فيها والتحقق منها والإبلاغ عنها بشكل محدَّد وعلني، بما في ذلك جميع أشكال العنف الجنسي والجنساني في النـزاعات المسلحة، وذلك من خلال التعجيل بتطبيق الترتيبات المتعلقة برصد أعمال العنف الجنسي المرتبطة بالنـزاع وتحليلها والإبلاغ عنها، ومن خلال تعزيز آلية رصد الانتهاكات والتجاوزات التي ترتكب ضد الأطفال والإبلاغ عنها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="MercuryDocument">
+        <content eId="para_86__content">
+          <p xml:space="preserve">‘3’	رصد حوادث نشر خطاب الكراهية والتحريض على العنف والتحقيق فيها والإبلاغ عنها، بالتعاون مع مستشار الأمم المتحدة الخاص المعني بمنع الإبادة الجماعية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="MercuryDocument">
+        <content eId="para_87__content">
+          <p xml:space="preserve">‘4’	التنسيق مع الآليات الدولية والإقليمية والوطنية المشاركة في رصد انتهاكات القانون الدولي الإنساني وانتهاكات وتجاوزات حقوق الإنسان، بما فيها تلك التي قد ترقى إلى مستوى جرائم الحرب أو الجرائم ضد الإنسانية، والتحقيق فيها والإبلاغ عنها، وتقاسم المعلومات المناسبة مع تلك الآليات وتوفير الدعم التقني لها، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <num>9 -</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد</span> أن عملية السلام لا تبقى صالحة من دون الالتزام الكامل من جانب جميع الأطراف وإشراك المجتمع المدني والمرأة والشباب، <span class="bold italic">ويحث</span> جميع الأطراف على المشاركة في عملية السلام بحسن نية من أجل التوصل إلى المصالحات اللازمة لتحقيق السلام والاستقرار في جنوب السودان، <span class="bold italic">ويشير</span> إلى اعتزامه أن يبقي مهام البعثة وتشكيلها قيد الاستعراض الفعلي، استنادا إلى التقدم المحرز في عملية السلام وتنفيذ الاتفاق المنشط؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="MercuryDocument">
+        <num>10 -</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> أن تتضمن ولاية البعثة، تمشيا مع القرار <a href="https://undocs.org/ar/S/RES/2304(2016)">2304</a><a href="https://undocs.org/ar/S/RES/2304(2016)"> (2016)</a>، المسؤولية عن توفير بيئة آمنة في جوبا وما حولها وفي أجزاء أخرى من جنوب السودان، حسب الاقتضاء، <span class="bold italic">ويأذن</span> للبعثة باستخدام جميع الوسائل اللازمة، بما في ذلك اتخاذ إجراءات رادعة عند الاقتضاء وتسيير دوريات نشطة بغية تحقيق ما يلي:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <content eId="para_90__content">
+          <p xml:space="preserve">	‘1’	تيسير شروط التنقل بأمان وحرية إلى جوبا وخارجها وما حولها، بما في ذلك من خلال حماية وسائل الدخول إلى المدينة والخروج منها وخطوط الاتصال والنقل الرئيسية في جوبا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="MercuryDocument">
+        <content eId="para_91__content">
+          <p xml:space="preserve">	‘2’	حماية المطار لضمان استمرار تشغيله، وحماية منشآت جوبا الرئيسية التي هي ضرورية لرفاه السكان في جوبا، على النحو الذي حدده الممثل الخاص للأمين العام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="MercuryDocument">
+        <content eId="para_92__content">
+          <p xml:space="preserve">	‘3’	القيام فورا وبفعالية بمواجهة أي جهة يُعتقد لأسباب معقولة أنها تعد لهجمات أو تشارك في هجمات ضد مواقع حماية المدنيين التابعة للأمم المتحدة، وغيرها من المباني التابعة للأمم المتحدة، وموظفي الأمم المتحدة والجهات الفاعلة في المجال الإنساني على الصعيدين الدولي والوطني، أو المدنيين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="MercuryDocument">
+        <num>11 -</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بالجهود التي تبذلها الهيئة الحكومية الدولية المعنية بالتنمية ومجلس السلم والأمن التابع للاتحاد الأفريقي وبلدان المنطقة من أجل إيجاد حلول دائمة لتحديات السلام والأمن في جنوب السودان، <span class="bold italic">ويشجعها</span> على مواصلة تعاونها القوي مع قادة جنوب السودان بغية الوفاء دون إبطاء بجميع الالتزامات المتعهد بها بموجب اتفاقات وقف الأعمال القتالية والاتفاق المنشط، <span class="bold italic">ويؤكد</span> أهمية الدعم الذي تقدمه الهيئة الحكومية الدولية للحوار الوطني، بالتعاون مع الأمم المتحدة والاتحاد الأفريقي، <span class="bold italic">ويحث</span> الهيئة على تعيين رئيس للجنة المشتركة للرصد والتقييم المعاد تشكيلها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="MercuryDocument">
+        <num>12 -</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد</span> الأهمية الحاسمة لقدرة البعثة على استخدام جميع قواعدها دون قيود من أجل تنفيذ ولايتها، بما في ذلك، على سبيل المثال لا الحصر، قاعدتها في تومبينغ، <span class="bold italic">ويدعو</span> في هذا الصدد حكومة جنوب السودان إلى الوفاء بالتزامها بضمان حرية وصول البعثة إلى أماكن عمل الأمم المتحدة وفقا لاتفاق مركز القوات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="MercuryDocument">
+        <num>13 -</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير</span> إلى قراره <a href="https://undocs.org/ar/S/RES/2086(2013)">2086</a><a href="https://undocs.org/ar/S/RES/2086(2013)"> (2013)</a>، <span class="bold italic">ويؤكد من جديد </span>المبادئ الأساسية لحفظ السلام، على نحو ما ترد في بيان رئيسه <a href="https://undocs.org/ar/S/PRST/2015/22">S/PRST/2015/22</a>، بما في ذلك مبادئ موافقة الأطراف والحياد والامتناع عن استخدام القوة إلا في حالة الدفاع عن النفس والدفاع عن الولاية، <span class="bold italic">وينوه</span> بأن ولاية كل بعثة من بعثات حفظ السلام تحدَّد وفقاً لاحتياجات البلد المعني وأوضاعه، وبأن مجلس الأمن يتوقع التنفيذ الكامل للولايات التي يأذن بها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="MercuryDocument">
+        <num>14 -</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="bold italic">يشدد</span> على أن حماية المدنيين يجب أن تحظى بالأولوية عند اتخاذ القرارات المتعلقة باستخدام القدرات والموارد المتاحة لدى البعثة، <span class="bold italic">ويؤكد</span> أن ولاية البعثة بصيغتها الواردة في الفقرتين 8 و 10 أعلاه تشمل سلطة استخدام جميع الوسائل اللازمة من أجل إنجاز المهام المنوطة بها، وبوجه خاص حماية المدنيين، <span class="bold italic">ويشدد كذلك</span> على أن هذه الإجراءات تشمل، على سبيل المثال لا الحصر وفي حدود قدرات البعثة وداخل مناطق انتشارها، الدفاع عن مواقع حماية المدنيين، وإقامة المناطق المحيطة بالمواقع التي لا تستخدمها أي قوات لأغراض قتالية، بما في ذلك عن طريق توسيع نطاق المناطق الخالية من الأسلحة ليشمل مواقع حماية المدنيين التابعة للبعثة حسب الاقتضاء، والتصدي للأخطار التي تهدد المواقع، وتفتيش الأفراد الذين يحاولون دخول المواقع، والاستيلاء على الأسلحة الموجودة في حوزة الأفراد الذين هم داخل تلك المواقع أو الذين يحاولون دخولها، وإبعاد الجهات الفاعلة المسلحة من مواقع حماية المدنيين ومنع دخولها إلى تلك المواقع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="MercuryDocument">
+        <num>15 -</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="bold italic">يقر</span> بأهمية استخدام تدابير بناء الثقة والتيسير والوساطة والتواصل مع المجتمعات المحلية، <span class="bold italic">ويشجع</span> البعثة على أن تقوم، حسب الاقتضاء وعندما يكون ذلك ممكنا، باستكشاف الكيفية التي يمكن أن تستخدم بها هذه التقنيات لتعزيز قدرتها على دعم أنشطة البعثة في مجال الحماية وجمع المعلومات والوعي بالأوضاع، ولتنفيذ المهام المنوطة بها، بما في ذلك حماية المدنيين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="MercuryDocument">
+        <num>16 -</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى البعثة أن تعطي الأولوية لتعزيز تنقل القوة من أجل تنفيذ ولايتها على نحو أفضل في المناطق المحفوفة بمخاطر الحماية الناشئة والتهديدات الناشئة، بما في ذلك في المواقع النائية، <span class="bold italic">ويشجع</span> البعثة على إعطاء الأولوية لنشر القوات مدعومة بمستوى مناسب من العتاد الجوي والبري والمائي في حدود الموارد المالية المتاحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="MercuryDocument">
+        <num>17 -</num>
+        <content eId="para_114__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الممثل الخاص للأمين العام أن يتولى إدارة دفة عمليات البعثة المتكاملة وتنسيق جميع الأنشطة التي تضطلع بها منظومة الأمم المتحدة في جمهورية جنوب السودان، وأن يبذل مساعيه الحميدة لقيادة منظومة الأمم المتحدة في جنوب السودان من أجل مساعدة اللجنة المشتركة للرصد والتقييم المعاد تشكيلها والاتحاد الأفريقي والهيئة الحكومية الدولية المعنية بالتنمية والجهات الفاعلة الأخرى، فضلا عن الأطراف، في تنفيذ الاتفاق المنشط وتعزيز السلام والمصالحة، ويشجعه على ذلك، <span class="bold italic">ويؤكد</span> في هذا الصدد الدور الحاسم لآلية الرصد والتحقق من وقف إطلاق النار وترتيبات الأمن الانتقالية، وكذلك أهمية الدعم المقدم لها من البعثة في إنجاز ولايتها، <span class="bold italic">ويؤكد من جديد</span> في هذا الصدد الدور الحاسم الذي تؤديه الأمم المتحدة، بالتنسيق مع المنظمات الإقليمية والجهات الفاعلة الأخرى، في النهوض بالحوار السياسي بين الأطراف والإسهام في تحقيق وقف دائم للأعمال القتالية ودفع الأطراف إلى عملية سلام شاملة للجميع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="MercuryDocument">
+        <num>18 -</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى البعثة أن تعزز أنشطتها الرامية إلى منع العنف الجنسي والجنساني والتصدي له، بوسائل منها ضمان إدراج مخاطر العنف الجنسي والجنساني في نظم البعثة لجمع البيانات وتحليل التهديدات والإنذار المبكر، من خلال العمل مع ضحايا العنف الجنسي، والمنظمات النسائية، <span class="bold italic">ويطلب كذلك</span> إلى البعثة أن تراعي تماما الاعتبارات الجنسانية بوصفها مسألة شاملة طوال فترة ولايتها، <span class="bold italic">ويعيد تأكيد</span> أهمية دور مستشاري الشؤون الجنسانية النظاميين والمدنيين ومنسقي الشؤون الجنسانية في جميع عناصر البعثة والخبرات والقدرات الجنسانية في تنفيذ ولاية البعثة بطريقة تراعي المنظور الجنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="MercuryDocument">
+        <num>19 -</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى البعثة أن تستمر في تكثيف وتوسيع نطاق وجودها والدوريات النشطة التي تسيّرها في المناطق المعرّضة بشدة لأخطار النـزاع، أو تلك التي تكتنفها مخاطر أو تهديدات حماية ناشئة من قبيل ارتفاع معدلات العنف الجنسي والجنساني، بما يشمل مناطق التركّز الشديد للمشردين داخليا واللاجئين، مع إيلاء اهتمام خاص للنساء والأطفال، بالاستعانة بوسائل منها الاسترشاد باستراتيجيتها للإنذار المبكر، في جميع المناطق، وعلى المسارات الرئيسية لحركة السكان، من أجل تعزيز بيئة آمنة لعودة المشردين داخليا واللاجئين أو نقلهم أو إعادة توطينهم أو إدماجهم في المجتمعات المضيفة بطريقة آمنة وواعية وطوعية وكريمة، وأن تجري استعراضات منتظمة لانتشارها الجغرافي للتأكد من تمركز قواتها في أفضل موقع يسمح لها بتنفيذ ولايتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="MercuryDocument">
+        <num>20 -</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="bold italic">يسلّم</span> بأن التنفيذ الفعال لولايات حفظ السلام من مسؤولية جميع أصحاب المصلحة وهو يتوقف على عدة عوامل حاسمة، بما في ذلك تحديد مهام واضحة وواقعية وقابلة للإنجاز؛ وتوافر الإرادة السياسية والقيادة والأداء والمساءلة على جميع المستويات؛ ووجود الموارد الكافية؛ وتوفير التدريب والمعدات؛ وتوفير التوجيه السياساتي والتخطيطي والعملياتي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="MercuryDocument">
+        <num>21 -</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بالمبادرات التي اتخذها الأمين العام لجعل ثقافة الأداء قاعدة متبعة في عمليات الأمم المتحدة لحفظ السلام، <span class="bold italic">ويشير</span> إلى طلباته الواردة في القرارين <a href="https://undocs.org/ar/S/RES/2378(2017)">2378</a><a href="https://undocs.org/ar/S/RES/2378(2017)"> (2017)</a> و <a href="https://undocs.org/ar/S/RES/2436(2018)">2436</a><a href="https://undocs.org/ar/S/RES/2436(2018)"> (2018)</a> أن يكفل الأمين العام استخدام بيانات الأداء المتعلقة بفعالية عمليات حفظ السلام لتحسين عمليات البعثات، بما في ذلك فعالية القرارات، من قبيل تلك المتعلقة بالنشر والعلاج والإعادة إلى الوطن والحوافز، <span class="bold italic">ويؤكد من جديد</span> دعمه لإعداد إطار سياساتي شامل ومتكامل للأداء تكون فيه معايير أداء واضحة لتقييم جميع أفراد الأمم المتحدة المدنيين والنظاميين الذين يعملون في عمليات حفظ السلام ويقدمون لها الدعم، وييسر التنفيذ الفعال والكامل للولايات، ويحتوي على منهجيات شاملة وموضوعية تستند إلى معايير واضحة ومحددة جيدا لكفالة المساءلة عن التقصير في الأداء وإتاحة حوافز للأداء المتفوق والاعتراف به، <span class="bold italic">ويدعو</span> الأمم المتحدة إلى تطبيق هذا الإطار على البعثة حسب الوارد وصفه في القرار <a href="https://undocs.org/ar/S/RES/2436(2018)">2436</a><a href="https://undocs.org/ar/S/RES/2436(2018)"> (2018)</a>، لا سيما من خلال إجراء التحقيقات واتخاذ إجراءات فورية عقب وقوع حالات تقصير في الأداء، بما يشمل إجراءات التناوب أو الإعادة إلى الوطن أو الاستبدال أو الفصل في حق المقصرين من أفراد البعثة النظاميين أو المدنيين، بما في ذلك أفراد قيادة البعثة وأفراد دعم البعثة، تمشيا مع القرار <a href="https://undocs.org/ar/S/RES/2436(2018)">2436</a><a href="https://undocs.org/ar/S/RES/2436(2018)"> (2018)</a>، <span class="bold italic">ويلاحظ</span> الجهود التي يبذلها الأمين العام لوضع نظام شامل لتقييم الأداء، <span class="bold italic">ويطلب</span> إلى الأمين العام والبلدان المساهمة بقوات وبأفراد شرطة أن يسعيا إلى زيادة عدد النساء العاملات في البعثة وأن يكفلا مشاركة المرأة على نحو كامل وفعّال ومجد في جميع جوانب العمليات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_159" class="MercuryDocument">
+        <num>22 -</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن ينفذ سياسة عدم التسامح مطلقا مع سوء السلوك الجسيم، والاستغلال والانتهاك الجنسيين، والتحرش الجنسي، بما في ذلك عن طريق الاستفادة التامة من السلطة القائمة الممنوحة للممثل الخاص للأمين العام التي تخوِّله أن يكفل مساءلة موظفي البعثة، ومن خلال الترتيبات الفعالة لدعم البعثات، <span class="bold italic">ويشير</span> إلى بيانه الرئاسي <a href="https://undocs.org/ar/S/PRST/2015/22">S/PRST/2015/22</a> وقراره <a href="https://undocs.org/ar/S/RES/2272(2016)">2272</a><a href="https://undocs.org/ar/S/RES/2272(2016)"> (2016)</a>، <span class="bold italic">ويطلب</span> إلى الأمين العام أن يواصل اتخاذ جميع التدابير اللازمة لكفالة الامتثال الكامل من جانب جميع أفراد البعثة، المدنيين منهم والنظاميين، بما في ذلك قيادة البعثة وموظفو دعم البعثة، لسياسة عدم التسامح مطلقا مع الاستغلال والانتهاك الجنسيين التي تتّبعها الأمم المتحدة، وأن يجري تحقيقات في جميع الادعاءات المتعلقة بالاستغلال والانتهاك الجنسيين، وأن يبقي المجلس على علم تام بما تحرزه البعثة من تقدّم في هذا الصدد من خلال تقاريره المقدمة إلى المجلس، بما في ذلك عن طريق إبلاغ المجلس بشأن بدء تنفيذ الاستعراضات ومواعيدها النهائية المتفق عليها ونتائجها، <span class="bold italic">ويؤكد</span> ضرورة منع حدوث حالات الاستغلال والانتهاك هذه وتحسين كيفية التعامل مع هذه الادعاءات بما يتفق مع القرار <a href="https://undocs.org/ar/S/RES/2272(2016)">2272</a><a href="https://undocs.org/ar/S/RES/2272(2016)"> (2016)</a>، <span class="bold italic">ويحث</span> البلدان المساهمة بقوات وبأفراد شرطة على مواصلة اتخاذ الإجراءات الوقائية الملائمة، بما في ذلك فحص سجلات جميع الأفراد والتدريب بغرض التوعية في مرحلة ما قبل الانتشار وفي البعثة، وكفالة تحقُّق المساءلة التامة في حالات إتيان أفراد قواتها مثل هذا السلوك، بما في ذلك من خلال التحقيق في ادعاءات الاستغلال والانتهاك الجنسيين في الوقت المناسب من جانب البلدان المساهمة بقوات وبأفراد شرطة، حسب الاقتضاء، لمساءلة مرتكبي تلك الأعمال، وإعادة الوحدات إلى الوطن عندما تكون هناك أدلة موثوقة على ممارسة تلك الوحدات الاستغلال والانتهاك الجنسيين على نطاق واسع أو معمَّم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="MercuryDocument">
+        <num>23 -</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى البعثة أن تكفل امتثال أي دعم يُقدَّم إلى قوات أمنية غير تابعة للأمم المتحدة امتثالا صارما لسياسة بذل العناية الواجبة في مراعاة حقوق الإنسان عند تقديم دعم الأمم المتحدة إلى قوات أمنية غير تابعة للأمم المتحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_184" class="MercuryDocument">
+        <num>24 -</num>
+        <content eId="para_184__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب </span>إلى البعثة أن تساعد، في حدود الموارد المتاحة، اللجنة المنشأة عملا بالفقرة 16 من القرار <a href="https://undocs.org/ar/S/RES/2206(2015)">2206</a><a href="https://undocs.org/ar/S/RES/2206(2015)"> (2015)</a> وفريق الخبراء المنشأ بموجب القرار نفسه فيما يتعلق بالتدابير المعتمدة في القرار <a href="https://undocs.org/ar/S/RES/2428(2018)">2428</a><a href="https://undocs.org/ar/S/RES/2428(2018)"> (2018)</a>، بما في ذلك أحكامه المتعلقة بحظر توريد الأسلحة <span class="bold italic">ويشجع</span> بصفة خاصة على تبادل المعلومات في وقتها بين البعثة وفريق الخبراء، <span class="bold italic">ويحث</span> جميع الأطراف وجميع الدول الأعضاء، إضافة إلى المنظمات الدولية والإقليمية ودون الإقليمية، على ضمان التعاون مع فريق الخبراء، <span class="bold italic">ويحث كذلك</span> جميع الدول الأعضاء المعنية على ضمان سلامة أعضاء فريق الخبراء وإتاحة إمكانية وصولهم دون عائق إلى مقاصدهم، وبالأخص إلى الأشخاص والوثائق والمواقع، ليتسنى لفريق الخبراء الاضطلاع بولايته؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="MercuryDocument">
+        <num>25 -</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve">	<span class="bold italic">يدين</span> بأشد العبارات الهجمات والتهديدات التي استهدفت أفراد البعثة ومرافق الأمم المتحدة، وكذلك المرافق التابعة للهيئة الحكومية الدولية المعنية بالتنمية، بما في ذلك قيام مسؤولي حكومة جنوب السودان في كانون الأول/ديسمبر 2018 باعتراض فريق تابع لآلية الرصد والتحقق من وقف إطلاق النار وترتيبات الأمن الانتقالية واحتجازه وإساءة معاملته، <span class="bold italic">ويؤكد</span> أن هذه الهجمات قد تشكل انتهاكات لاتفاق مركز القوات و/أو جرائم حرب، <span class="bold italic">ويطالب</span> جميع الأطراف باحترام حرمة منشآت الأمم المتحدة وبالكف والامتناع فورا عن القيام بأي أعمال عنف ضد الأشخاص المتجمّعين في مرافق الأمم المتحدة، <span class="bold italic">ويكرر التأكيد</span> على أن حكومة جنوب السودان ملزمة بشروط اتفاق مركز القوات، <span class="bold italic">ويطالب كذلك</span> بالإفراج الفوري والآمن عن موظفي الأمم المتحدة والأفراد المرتبطين بها المحتجزين والمختطفين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="MercuryDocument">
+        <num>26 -</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve">	<span class="bold italic">يدين</span> الاشتباكات التي وقعت في ملكال في شباط/فبراير 2016 والقتال الذي شهدته جوبا في تموز/يوليه 2016، <span class="bold italic">ويحث</span> الأمم المتحدة على الاستمرار في استيعاب الدروس المستفادة لإجراء الإصلاحات على نطاق البعثة لتمكينها من تنفيذ ولايتها على نحو أفضل، ولا سيما فيما يتعلق بحماية المدنيين، وتحسين التسلسل القيادي في البعثة، وزيادة فعالية عمليات البعثة، وتعزيز سلامة الموظفين وأمنهم، وتعزيز قدرة البعثة على إدارة الحالات المعقدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_229" class="MercuryDocument">
+        <num>27 -</num>
+        <content eId="para_229__content">
+          <p xml:space="preserve">	<span class="bold italic">يدين</span> بأشد العبارات الإغارة على المعونة الإنسانية ونهبها، بما فيها الأغذية والدواء، وكذا المباني بما فيها المستشفيات والمرافق الطبية والمخازن، <span class="bold italic">ويطالب</span> جميع الأطراف بالسماح، وفقا للأحكام ذات الصلة من القانون الدولي ومبادئ الأمم المتحدة التوجيهية للمساعدة الإنسانية في حالات الطوارئ، بما فيها المعاملة الإنسانية والنزاهة والحياد والاستقلالية، بالوصول السريع والآمن ودون عوائق للعاملين في مجال الإغاثة، والمعدات واللوازم، والسماح بإيصال المساعدة الإنسانية، في وقتها، إلى جميع المحتاجين في جميع أنحاء جنوب السودان، ولا سيما إلى المشردين داخليا واللاجئين، ووضع حد لاستخدام المستشفيات والمدارس وغير ذلك من المباني المدنية لأغراض يمكن أن تجعلها عرضة للهجوم، <span class="bold italic">ويؤكد</span> على الالتزام باحترام وحماية جميع العاملين في المجال الطبي والعاملين في مجال تقديم المساعدة الإنسانية الذين يشاركون حصرياً في المهام الطبية، ووسائط النقل والمعدات التابعة لهم، وكذلك المستشفيات والمرافق الطبية الأخرى، <span class="bold italic">ويؤكد أيضا</span> أن أي عمليات عودة أو غيرها من الحلول الدائمة للمشردين داخليا أو اللاجئين يجب أن تتم على أساس طوعي مستنير وفي ظل ظروف تصون كرامتهم وسلامتهم، <span class="bold italic">ويشير</span> إلى ضرورة احترام حرية تنقل المدنيين وحقهم في طلب اللجوء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_246" class="MercuryDocument">
+        <num>28 -</num>
+        <content eId="para_246__content">
+          <p xml:space="preserve">	<span class="bold italic">يطالب</span> جميع الأطراف بأن توقف فورا جميع أشكال العنف وانتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني، بما في ذلك الاغتصاب وغيره من أشكال العنف الجنسي والجنساني، وأن تحاسب المسؤولين عنها، من أجل كسر حلقة الإفلات من العقاب السائدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_264" class="MercuryDocument">
+        <num>29 -</num>
+        <content eId="para_264__content">
+          <p xml:space="preserve">	<span class="bold italic">يدين</span> جميع انتهاكات القانون الدولي الساري التي ترتكبها جميع أطراف النزاع، ولا سيما ضد الأطفال، <span class="bold italic">ويحث بقوة</span> جميع أطراف النزاع على تنفيذ الإجراءات المطلوبة في الاستنتاجات بشأن الأطفال والنزاع المسلح في جنوب السودان التي اعتمدها الفريق العامل التابع لمجلس الأمن المعني بالأطفال والنزاع المسلح في 17 كانون الأول/ديسمبر 2018، بما في ذلك الإفراج الفوري عن جميع الأطفال الموجودين في صفوفها واتخاذ الخطوات الرامية إلى إنهاء ومنع قتل الأطفال وتشويههم، <span class="bold italic">ويرحب</span> بقيام بعض الجماعات بالإفراج عن أطفال، <span class="bold italic">ويحث بقوة</span> حكومة جنوب السودان على وضع وتنفيذ خطة عمل شاملة للتصدي لجميع الانتهاكات والتجاوزات المرتكبة ضد الأطفال، <span class="bold italic">ويحث بقوة كذلك</span> الجناح المعارض في الجيش الشعبي لتحرير السودان على تنفيذ خطة العمل التي وضعها من أجل إنهاء ومنع تجنيد الأطفال واستخدامهم وقتل الأطفال وتشويههم، <span class="bold italic">ويؤكد</span> على أهمية قيام حكومة جنوب السودان بتوفير المساعدة الملائمة وفي الوقت المناسب للأطفال المتضررين من النزاع المسلح بغرض إعادة إدماجهم وتأهيلهم والتقليل من احتمال إعادة تجنيدهم، مع ضمان تلبية الاحتياجات المحددة للفتيات والأطفال ذوي الإعاقة، بما في ذلك إمكانية الحصول على الرعاية الصحية والدعم النفسي الاجتماعي والبرامج التعليمية، <span class="bold italic">ويدعو</span> المجتمع الدولي إلى دعم هذه الجهود؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_283" class="MercuryDocument">
+        <num>30 -</num>
+        <content eId="para_283__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى البعثة أن تواصل الحوار مع أطراف النزاع بشأن وضع خطط العمل وتنفيذها، تمشيا مع القرار <a href="https://undocs.org/ar/S/RES/1612(2005)">1612</a><a href="https://undocs.org/ar/S/RES/1612(2005)"> (2005)</a> والقرارات اللاحقة المتعلقة بالأطفال والنزاع المسلح، وتدعم الجهود الرامية إلى إطلاق سراح الأطفال المرتبطين بجماعات وقوات مسلحة في جميع أنحاء البلد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_303" class="MercuryDocument">
+        <num>31 -</num>
+        <content eId="para_303__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بالالتزام في الاتفاق المنشط بإدماج المرأة، بما في ذلك الحصة الدنيا لتمثيل المرأة بنسبة 35 في المائة، <span class="bold italic">ويدعو</span> جميع الأطراف إلى بذل مزيد من الجهود لكفالة الوفاء بهذا الحد الأدنى من الالتزامات، وضمان مشاركة المرأة وإشراكها بصورة كاملة وفعالة ومجدية في جميع مجالات ومستويات القيادة السياسية وعملية السلام والحكومة الانتقالية، <span class="bold italic">ويطلب</span> إلى البعثة أن تساعد في هذه الجهود؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_324" class="MercuryDocument">
+        <num>32 -</num>
+        <content eId="para_324__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث بقوة</span> قوات الدفاع الشعبي لجنوب السودان والجناح المعارض في الجيش الشعبي لتحرير السودان والجماعات المسلحة الأخرى على منع ارتكاب مزيد من جرائم العنف الجنسي، <span class="bold italic">ويحث</span> حكومة جنوب السودان والجناح المعارض في الجيش الشعبي لتحرير السودان على تنفيذ الالتزامات وخطط العمل المشتركة والانفرادية التي قدماها بشأن منع العنف الجنسي المتصل بالنزاعات مع التركيز على الوقاية، والمساءلة، وتعزيز المساعدة المقدمة إلى الضحايا، <span class="bold italic">ويشجع</span> حكومة جنوب السودان والجناح المعارض في الجيش الشعبي لتحرير السودان على اعتماد نهج يركز على الناجين في منع أعمال العنف الجنسي في حالات النزاع وما بعد انتهاء النزاع والتصدي لها، ووضع آليات تأديب داخلية تشمل آلية سرية للإبلاغ وضمان نشرها في صفوف القوات وفي أوساط المدنيين، <span class="bold italic">ويحث بقوة</span> قيادة قوات الدفاع الشعبي لجنوب السودان على إصدار أوامر قيادية محددة بشأن منع العنف الجنسي المتصل بالنزاعات، <span class="bold italic">ويطالب</span> حكومة جنوب السودان بأن تثبت اتخاذ خطوات ملموسة لمحاسبة المسؤولين الموجودين في صفوفها على جرائم العنف الجنسي، بسبل منها التحقيق فيها ومحاكمة مرتكبيها ومعاقبتهم على وجه السرعة، وتعويض الضحايا، حسب الاقتضاء، تمشيا مع القرار <a href="https://undocs.org/ar/S/RES/2467(2019)">2467</a><a href="https://undocs.org/ar/S/RES/2467(2019)"> (2019)</a>، <span class="bold italic">ويطلب</span> إلى البعثة أن تساعد الأطراف في هذه الأنشطة تمشيا مع الفقرة 17؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="MercuryDocument">
+        <num>33 -</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> الأطراف في الاتفاق المنشط على إخلاء المناطق المدنية من السلاح على النحو المطلوب في الفصل 2 من الاتفاق، ومن ثم الحد من انتشار الأسلحة الصغيرة وغيرها من الأسلحة الأخرى وإساءة استخدامها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_369" class="MercuryDocument">
+        <num>34 -</num>
+        <content eId="para_369__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد</span> أن تقصي الحقيقة والمصالحة أساسيان لتحقيق السلام في جنوب السودان، <span class="bold italic">ويؤكد</span> في هذا الصدد أن لجنة الحقيقة والمصالحة ولَأْم الجراح، على النحو المنصوص عليه في الاتفاق المنشط، جزء أساسي في عملية بناء السلام في جنوب السودان، من أجل قيادة الجهود الرامية إلى تحقيق الوئام الوطني وتعزيز السلام وتحقيق المصالحة الوطنية ولَأْم الجراح؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_393" class="MercuryDocument">
+        <num>35 -</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بحكومة جنوب السودان، مع الإحاطة علما في الوقت نفسه بالفقرة 3-2-2 من الفصل الخامس من الاتفاق المنشط، أن تحاسب جميع المسؤولين عن انتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني، <span class="bold italic">وتكفل</span> حصول جميع ضحايا العنف الجنسي على حماية متساوية تحت مظلة القانون وعلى فرص متكافئة للّجوء إلى القضاء، وتضمن تمتّع النساء والفتيات بالمساواة في احترام حقوقهن في هذه العمليات، <span class="bold italic">ويلاحظ</span> أن تنفيذ تدابير في مجال العدالة الانتقالية، تشمل تلك الواردة في الاتفاق المنشط، أمر أساسي لِلَأْم الجراح وتحقيق المصالحة، وإذ يؤكد أهمية سيادة القانون من أجل النهوض بعملية السلام، <span class="bold italic">يحث</span> حكومة جنوب السودان على إيلاء الأولوية لاستعادة مؤسسات سيادة القانون والعدالة وإصلاحها، <span class="bold italic">ويرحب</span> بالخطوات التي اتخذتها حكومة جنوب السودان المتمثلة في نشر المحاكم المتنقلة بتيسير من البعثة، <span class="bold italic">ويحث كذلك</span> حكومة جنوب السودان على اتخاذ مزيد من الخطوات في هذا الصدد، <span class="bold italic">ويشجع</span> البعثة على دعم هذه الجهود، بسبل منها تقديم المساعدة التقنية وبناء القدرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_418" class="MercuryDocument">
+        <num>36 -</num>
+        <content eId="para_418__content">
+          <p xml:space="preserve">	<span class="bold italic">يحيط علما</span> بالخطوات التي اتخذها الاتحاد الأفريقي من أجل إنشاء المحكمة المختلطة لجنوب السودان على النحو المنصوص عليه في الفصل الخامس من الاتفاق المنشط، وكذلك بالعمل الذي قامت به الأمم المتحدة حتى الآن، <span class="bold italic">ويرحب</span> بالدعوة الرسمية التي وجهها الاتحاد الأفريقي إلى الأمم المتحدة لتقديم المساعدة التقنية من أجل إنشاء المحكمة المختلطة لجنوب السودان، <span class="bold italic">ويطلب</span> إلى الأمين العام أن يواصل توفير المساعدة التقنية إلى مفوضية الاتحاد الأفريقي وإلى حكومة جنوب السودان في إنشاء المحكمة المختلطة لجنوب السودان وتنفيذ الجوانب الأخرى من الفصل الخامس من الاتفاق المنشط، بما في ذلك ما يتعلق بإنشاء لجنة الحقيقة والمصالحة ولأم الجراح وهيئة التعويض وجبر الضرر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_444" class="MercuryDocument">
+        <num>37 -</num>
+        <content eId="para_444__content">
+          <p xml:space="preserve">	<span class="bold italic">يحيط علما</span> ببيان مجلس السلم والأمن التابع للاتحاد الأفريقي المؤرخ 8 شباط/فبراير 2018، <span class="bold italic">ويهيب</span> في هذا الصدد بحكومة جنوب السودان أن توقع دون مزيد من التأخير مذكرة التفاهم مع الاتحاد الأفريقي لإنشاء المحكمة المختلطة لجنوب السودان، <span class="bold italic">ويدعو كذلك</span> المجتمع الدولي إلى أن يقدم الدعم في إنشاء المحكمة المختلطة لجنوب السودان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_471" class="MercuryDocument">
+        <num>38 -</num>
+        <content eId="para_471__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بحكومة جنوب السودان إلى المضي قدما بسرعة وشفافية صوب استكمال التحقيقات الجارية في الادعاءات المتعلقة بانتهاكات وتجاوزات حقوق الإنسان بما يتماشى مع الالتزامات الدولية الواقعة عليها، <span class="bold italic">ويشجّعها</span> على نشر تقارير هذه التحقيقات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_472" class="MercuryDocument">
+        <content eId="para_472__content">
+          <p xml:space="preserve">		التقارير</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_473" class="MercuryDocument">
+        <num>39 -</num>
+        <content eId="para_473__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يجري، وفقا لأفضل الممارسات، استعراضا استراتيجيا مستقلا للبعثة يقيم فيه التحديات التي تواجه السلام والأمن في جنوب السودان ويقدم توصيات مفصلة بشأن إمكانية إعادة تشكيل ولاية البعثة وعناصرها المدنية والشرطية والعسكرية مراعاة للتطورات الحاصلة في عملية السلام، بالاستناد إلى مشاورات واسعة النطاق تشمل، على سبيل المثال لا الحصر، الهيئات الحكومية الانتقالية والجهات الفاعلة في مجالي العمل الإنساني والعمل الإنمائي ومنظمات المجتمع المدني ذات الصلة، وأن يقدم نتائج هذا الاستعراض إلى مجلس الأمن في موعد لا يتجاوز 15 كانون الأول/ديسمبر 2020؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_474" class="MercuryDocument">
+        <num>40 -</num>
+        <content eId="para_474__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يواصل تقديم تقاريره عن انتهاكات اتفاق مركز القوات أو العراقيل التي تعترض عمل البعثة على أساس شهري؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_476" class="MercuryDocument">
+        <num>41 -</num>
+        <list eId="para_476_list">
+          <intro eId="para_476_list_intro">
+            <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يقدم إلى مجلس الأمن معلومات عن تنفيذ ولاية البعثة والعراقيل التي تواجهها البعثة في سياق قيامها بذلك في تقرير خطي شامل يُقدم في غضون 90 يوما من تاريخ اتخاذ هذا القرار، وكل 90 يوما بعد ذلك، <span class="bold italic">ويؤكد</span> أنه ينبغي الاهتمام في تلك المعلومات بالمسائل المدرجة أدناه وأنه ينبغي طلب آراء جميع الجهات الفاعلة ذات الصلة:</p>
+          </intro>
+          <point eId="para_476_list_point_1">
+            <num>•</num>
+            <content eId="para_476_list_point_1_content">
+              <p xml:space="preserve">	الإبلاغ المحدد والمفصل عن الكيفية التي تعمل بها البعثة من أجل الوفاء بمهام حماية المدنيين الموكولة إليها، بما في ذلك على سبيل المثال لا الحصر قدرة القوات على الاستجابة وأداؤها ومناطق الدوريات الجديدة وعمليات النشر الاستباقية والتواصل مع المجتمعات المحلية،</p>
+            </content>
+          </point>
+          <point eId="para_476_list_point_2">
+            <num>•</num>
+            <content eId="para_476_list_point_2_content">
+              <p xml:space="preserve">	النظر في المسائل الجنسانية بوصفها مسائل شاملة لجميع جوانب الولاية،</p>
+            </content>
+          </point>
+          <point eId="para_476_list_point_3">
+            <num>•</num>
+            <content eId="para_476_list_point_3_content">
+              <p xml:space="preserve">	الخطوات المتخذة لردع العنف الجنسي والجنساني ومنعه،</p>
+            </content>
+          </point>
+          <point eId="para_476_list_point_4">
+            <num>•</num>
+            <content eId="para_476_list_point_4_content">
+              <p xml:space="preserve">	مشاركة المرأة في عمليات السلام، وتحليل الالتزام السياسي للبعثة بشأن هذه المسألة،</p>
+            </content>
+          </point>
+          <point eId="para_476_list_point_5">
+            <num>•</num>
+            <content eId="para_476_list_point_5_content">
+              <p xml:space="preserve">	الخطوات المتخذة لتعزيز سلامة موظفي الأمم المتحدة وأمنهم،</p>
+            </content>
+          </point>
+          <point eId="para_476_list_point_6">
+            <num>•</num>
+            <content eId="para_476_list_point_6_content">
+              <p xml:space="preserve">	تحليل أداء القوات والشرطة وتناوبها، بما في ذلك التقدم المحرز في عمليات البعثة وتدابير المساءلة المتخذة فيما يتعلق بالتقصير في الأداء، بما في ذلك أي معلومات عن المحاذير الوطنية التي تؤثر سلبا على تنفيذ الولاية،</p>
+            </content>
+          </point>
+          <point eId="para_476_list_point_7">
+            <num>•</num>
+            <content eId="para_476_list_point_7_content">
+              <p xml:space="preserve">	تعزيز الإبلاغ عن مسائل حقوق الإنسان،</p>
+            </content>
+          </point>
+          <point eId="para_476_list_point_8">
+            <num>•</num>
+            <content eId="para_476_list_point_8_content">
+              <p xml:space="preserve">	الإبلاغ عن التقدم المحرز في تنفيذ سياسة بذل العناية الواجبة في مراعاة حقوق الإنسان،</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_479" class="MercuryDocument">
+        <num>42 -</num>
+        <content eId="para_479__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يقدم، من خلال تقاريره التي يرفعها إليه بانتظام كل 90 يوما، معلومات بشأن المساعدة التقنية المقدمة تماشيا مع الفقرة 36 أعلاه، <span class="bold italic">ويدعو</span> الاتحاد الأفريقي إلى أن يُطلع الأمين العام على المعلومات المتعلقة بالتقدم المحرز في إنشاء المحكمة المختلطة لجنوب السودان كي يسترشد بها الأمين العام في تقريره، <span class="bold italic">ويعرب</span> عن اعتزام مجلس الأمن، بعد تلقي تقارير الأمين العام، إجراء تقييم للأعمال المنجزة في سبيل إنشاء المحكمة المختلطة، تمشيا مع المعايير الدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_483" class="SingleTxt">
+        <num>43 -</num>
+        <content eId="para_483__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> أن يبقي المسألة قيد نظره.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
