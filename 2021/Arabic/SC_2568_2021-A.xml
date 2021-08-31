@@ -1,0 +1,759 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/"></FRBRuri>
+          <FRBRdate date="2021-03-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/ara@/"></FRBRuri>
+          <FRBRdate date="2021-03-12" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/ara@.xml"></FRBRuri>
+          <FRBRdate date="2021-08-31" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="African Union Mission in Somalia" showAs="African Union Mission in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Support Office in Somalia" showAs="UN. Support Office in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Assistance Mission in Somalia" showAs="UN Assistance Mission in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUPPORT SERVICES" showAs="SUPPORT SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA" showAs="SOMALIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA SITUATION" showAs="SOMALIA SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[84]" showAs="SOMALIA SITUATION" dictionary="S/76"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation in Somalia." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2568 (2021) [on authorization to the Member States of the African Union to maintain the deployment of the African Union Mission in Somalia (AMISOM) until 31 Dec. 2021]" showAs="Security Council resolution 2568 (2021) [on authorization to the Member States of the African Union to maintain the deployment of the African Union Mission in Somalia (AMISOM) until 31 Dec. 2021]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-03-12" outcome="draftResolution" as="S/2021/243" by="United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-03-12" outcome="adopted" as="S/2021/255" by="Adopted unanimously; voting by mail" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="VOTING BY MAIL">
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-03445 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2568 (2021)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">مجلس الأمن</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-03-12" class="rightSmall" refersTo="#dateOfIssuance">12 March 2021</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		القرار 2568 (2021) </docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">الذي اتخذه مجلس الأمن في <inline name="adoptionMeeting"></inline><docDate date="2021-03-12" refersTo="#adoptionDate">12 آذار/مارس 2021</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن مجلس الأمن،</span>
+        </p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يشير</span> إلى جميع قراراته السابقة وبيانات رئيسه بشأن الحالة في الصومال،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد</span> احترامه لسيادة الصومال وسلامته الإقليمية واستقلاله السياسي ووحدته،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يرحب</span> باستجابة المجتمع الدولي لمعالجة عدم الاستقرار وانعدام الأمن في الصومال، <span class="bold italic">وإذ يثني</span> على قيادة الاتحاد الأفريقي لهذه الاستجابة،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يرحب</span> بالتقدم المحرز في الصومال حتى الآن، <span class="bold italic">وإذ يثني</span> على الشعب الصومالي والسلطات الصومالية والاتحاد الأفريقي وبعثة الاتحاد الأفريقي في الصومال والبلدان المساهمة بقوات فيها والأمم المتحدة وشركاء الصومال الدوليين الآخرين لدورهم في هذا الصدد،</p>
+      </container>
+      <container name="وإذ يكرر التأكيد" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يكرر التأكيد </span>على أن الخطر الفوري والملح الذي يهدد استقرار الصومال وأمنه، ويهدد الشعب الصومالي وجيران الصومال هو حركة الشباب وجماعات المعارضة المسلحة، <span class="bold italic">وإذ يدين بأشد العبارات الممكنة</span> هجماتها في الصومال وخارجه، <span class="bold italic">وإذ يعرب عن بالغ القلق</span> إزاء الخسائر في أرواح المدنيين من جراء هذه الهجمات،</p>
+      </container>
+      <container name="وإذ يشيد" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشيد</span> بالشجاعة التي يبديها أفراد بعثة الاتحاد الأفريقي في الصومال وأفراد قوات الأمن الصومالية وما يبذلونه من تضحيات في مكافحة حركة الشباب، <span class="bold italic">وإذ يثني</span> على مساهمة بعثة الاتحاد الأفريقي في إرساء السلام والاستقرار الدائمين في الصومال،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يرحب</span> بالدعم الذي يقدمه مكتب الأمم المتحدة للدعم في الصومال إلى بعثة الاتحاد الأفريقي في الصومال وبعثة الأمم المتحدة لتقديم المساعدة إلى الصومال، <span class="bold italic">وإذ يعترف</span> بالعمل التكميلي الذي يقوم به فريق خبراء الأمم المتحدة المعني بالصومال، وبدور الجزاءات التي فرضها مجلس الأمن التابع للأمم المتحدة باعتبارها تشكّل، في جملة أمور، وسيلة غير عسكرية لإضعاف حركة الشباب وجماعات المعارضة المسلّحة،</p>
+      </container>
+      <container name="وإذ يقرّ" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقرّ</span> بأن الحالة في الصومال قد تطوّرت منذ أن أذن لأول مرة ببعثة الاتحاد الأفريقي في الصومال قبل 14 عاما، بما في ذلك التهديد الذي تشكله حركة الشباب، <span class="bold italic">وإذ يقر كذلك</span> بأن العمل العسكري وحده لن يتغلب على هذا التهديد، <span class="bold italic">وإذ يكرر تأكيد</span> الحاجة، بالتالي، إلى اتباع نهج يتصدى لتحديات تحقيق الاستقرار والحوكمة، بما في ذلك سد الثغرات المتعلقة بالإدارة العامة، وسيادة القانون، ومكافحة الجريمة المنظمة، والعدالة وإنفاذ القانون، ومنع ومكافحة التطرف العنيف المفضي إلى الإرهاب، إلى جانب إصلاح قطاع الأمن والعمليات العسكرية، <span class="bold italic">وإذ يلاحظ</span> في هذا الصدد إمكانات التعاون والدعم الدوليين لبناء السلام وإعادة الإعمار والتنمية بعد انتهاء النزاع في الصومال إذا ما تم توفيرهما بما يتماشى مع الأولويات التي حددتها حكومته، <span class="bold italic">وإذ يلاحظ كذلك</span> في هذا الصدد سياسة الاتحاد الأفريقي لإعادة الإعمار والتنمية بعد انتهاء النزاع ومركز الاتحاد الأفريقي المخصص في القاهرة لإعادة الإعمار والتنمية بعد انتهاء النزاع،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى أن السلطات الصومالية تتحمل المسؤولية الرئيسية عن ضمان الأمن في بلدها، <span class="bold italic">وإذ يرحّب</span> بالتزام حكومة الصومال الاتحادية بالاضطلاع بعمليات مشتركة مع البعثة لكي تصبح الجهة الأساسية التي توفر الأمن في الصومال، بيد أنه <span class="bold italic">يلاحظ</span> أن الصومال ليس في وضع يسمح له بعد بتحمل المسؤولية الكاملة عن أمنه، وأن إضعاف حركة الشباب وجماعات المعارضة المسلحة وبناء السلام وإدامته ستتطلب بالتالي استمرار التعاون والدعم على الصعيدين الإقليمي والدولي<span class="bold italic">، وإذ يشدد</span> على أن هذا الدعم ينبغي أن يتماشى مع التوجيه المقدم من الصومال،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على أهمية بناء قدرات القوات والمؤسسات الصومالية حتى تتمكن من إدارة التهديدات الحالية والمستقبلية، <span class="bold italic">وإذ يشدد كذلك</span> على أهمية التنسيق الفعال بين الحكومة الاتحادية الصومالية والولايات الاتحادية الأعضاء والشركاء الدوليين من أجل ضمان اتساق بناء القدرات وتواؤمها مع التوجيه المقدم من الصومال وتمكين قوات الأمن الصومالية من أن تتولى تدريجيا مسؤولية أكبر عن أمن الصومال،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد</span> الأهمية الحاسمة لتوصل حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء إلى اتفاقات سياسية شاملة للجميع، <span class="bold italic">وإذ يعرب</span> عن القلق إزاء التأخيرات في وضع الصيغة النهائية لترتيبات الانتخابات في عام 2021، <span class="bold italic">وإذ يحثّهما</span> على تنظيم انتخابات حرة ونزيهة وذات مصداقية وشاملة للجميع، تماشيا مع اتفاق 17 أيلول/سبتمبر 2020، في أقرب وقت ممكن، <span class="bold italic">وإذ يحثهما كذلك</span> على التعاون بشأن الأمن والأولويات الوطنية الأخرى، <span class="bold italic">وإذ يشير</span> إلى مسؤوليات جميع الأطراف في تحسين التعاون والمشاركة في مناقشات بقيادة حكومة الصومال الاتحادية، <span class="bold italic">وإذ يؤكد</span> أن تعاون جميع الأطراف تعاونا تاما من شأنه تعزيز التقدم المحرز بشأن الأولويات الوطنية بما في ذلك تنفيذ هيكل الأمن الوطني والخطة الانتقالية المنقحة للصومال، بما يكفل وجود نظام اتحادي يعمل بكامل طاقته ووضع الصيغة النهائية للدستور كأساس قانوني وسياسي لحكومة الصومال ومؤسساته،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير </span>إلى قراره <a href="https://undocs.org/ar/S/RES/1325(2000)">1325 (2000)</a> وقراراته اللاحقة،<span class="bold italic"> وإذ يقرّ</span> بأهمية دور المرأة في منع نشوب النزاعات وحلِّها وفي بناء السلام، <span class="bold italic">وإذ يشدد</span> على أهمية مشاركتها وإشراكها بصورة كاملة ومتساوية ومجدية في جميع الجهود على جميع المستويات لصون وتعزيز السلام والأمن، وعلى ضرورة تعزيز دورها في صنع القرار والقيادة فيما يتعلق بمنع نشوب النزاعات وحلِّها على النحو المتوخّى في ميثاق المرأة الصومالية،</p>
+      </container>
+      <container name="وإذ يدين" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يدين</span> الانتهاكات والتجاوزات المرتكبة في مجال حقوق الإنسان وانتهاكات القانون الدولي الإنساني في الصومال، <span class="bold italic">وإذ يدعو</span> جميع الأطراف إلى التصرف في امتثال تام لالتزاماتها بموجب القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني،<span class="bold italic"> وإذ يشير</span> إلى استنتاجات الفريق العامل المعني بالأطفال والنـزاع المسلح في الصومال (<a href="https://undocs.org/ar/S/AC.51/2020/6">S/AC.51/2020/6</a>)،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه الشديد" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن قلقه الشديد</span> إزاء الحالة الإنسانية في الصومال وأثر جائحة كوفيد-19 والفيضانات وانتشار الجراد الصحراوي، <span class="bold italic">وإذ يدرك</span> أنها تشكل تحديا للنظام الصحي والزراعي والحالة الاجتماعية والاقتصادية والحالة الإنسانية في الصومال، <span class="bold italic">وإذ يدعو</span> جميع أطراف النزاع إلى أن تتيح وتيسر، وفقا للأحكام ذات الصلة من القانون الدولي، بما في ذلك القانون الدولي الإنساني الواجب التطبيق، وبما يتماشى مع مبادئ الأمم المتحدة التوجيهية لتقديم المساعدة الإنسانية في حالات الطوارئ، بما في ذلك المعاملة الإنسانية والحياد والنزاهة والاستقلالية، وتقديم المساعدة الإنسانية اللازمة لدعم الصومال، <span class="bold italic">وإذ يلاحظ مع التقدير</span> التدابير التي اتخذتها بعثة الاتحاد الأفريقي في الصومال والأمم المتحدة لكفالة سلامة وأمن أفراد بعثة الاتحاد الأفريقي في الصومال وموظفي الأمم المتحدة مع الحفاظ على استمرارية العمليات، <span class="bold italic">وإذ يدعو </span>إلى مواصلة الجهود للتخفيف من أثر الجائحة وتفشي الجراد، <span class="bold italic">وإذ يرحب</span> بالدور الذي تضطلع به بعثة الاتحاد الأفريقي في الصومال في دعم جهود إدارة الكوارث والإغاثة التي يقودها الصوماليون وجهودهم المبذولة في سبيل تهيئة الظروف المؤاتية لتقديم المساعدات الإنسانية،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_16">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على ضرورة أن تضع حكومة الصومال الاتحادية والأمم المتحدة استراتيجيات وافية لتقييم المخاطر وإدارتها فيما يتعلق بتغير المناخ، والتغيرات الإيكولوجية الأخرى، والكوارث الطبيعية، وغير ذلك من العوامل التي تؤثر على استقرار الصومال،</p>
+      </container>
+      <container name="وإذ يحيط علماً" eId="container_17">
+          <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علماً</span> بالتقييم المستقل للدعم الدولي المقدّم للبيئة الأمنية برمتها في الصومال بعد عام 2021 (التقييم المستقل) الصادر به تكليف من الأمم المتحدة (القراران <a href="https://undocs.org/ar/S/RES/2520(2020)">2520 (2020)</a> و <a href="https://undocs.org/ar/S/RES/2472(2019)">2472 (2019)</a>) وبالتوصيات المنبثقة عنه، <span class="bold italic">وإذ يعيد تأكيد</span> الفقرة 1 من القرار <a href="https://undocs.org/ar/S/RES/2520(2020)">2520 (2020)</a>، <span class="bold italic">وإذ يرحّب</span> بالخطة الانتقالية المنقّحة للصومال (2021)، بالصيغة التي أحيلت بها رسميا إلى الاتحاد الأفريقي والأمم المتحدة في شباط/فبراير 2021، <span class="bold italic">وإذ يحثّ</span> الصومال، من خلال لجنة الأمن والعدالة، والاتحاد الأفريقي، من خلال مجلس السلم والأمن، إلى الانتهاء من التصديق عليها دون تأخير، <span class="bold italic">وإذ يعرب</span> عن دعمه التام لرغبة الصومال في قيادة العملية الانتقالية الأمنية، <span class="bold italic">وإذ يشير كذلك</span> إلى بيان مجلس السلم والأمن التابع للاتحاد الأفريقي المؤرخ 9 شباط/فبراير 2021 بشأن الحالة في الصومال، وبتقرير الأمين العام المؤرخ 17 شباط/فبراير 2021 (<a href="https://undocs.org/ar/S/2021/113">S/2021/113</a>) عن الحالة في الصومال، وإذ يتطلع إلى التقديم المستقل الذي من المقرر أن يجريه الاتحاد الأفريقي للبعثة في أيار/مايو 2021،</p>
+      </container>
+      <container name="وإذ يسلّمً" eId="container_18">
+        <blockList>
+          <listIntroduction>
+         <span class="bold italic">وإذ يسلّم</span> بأن هدفه المتمثل في نقل المسؤولية عن الأمن إلى السلطات الصومالية، لكي تتولى الصومال زمام القيادة في عام 2021، وتتولى المسؤولية الكاملة بنهاية عام 2023، يتطلب الأخذ بنهج مرحلي وبأن هذا القرار يبدأ عملية سيُسترشد فيها بما يلي:
+          </listIntroduction>
+          <item>
+        <num>(أ)</num>
+          <p xml:space="preserve">	التقييم المستقل الصادر به تكليف من الأمم المتحدة، الذي نُشر في كانون الثاني/ يناير 2021؛</p>
+        </item>
+          <item>
+        <num>(ب)</num>
+          <p xml:space="preserve">	الخطة الانتقالية للصومال، التي نُشرت في شباط/فبراير 2021؛</p>
+          </item>
+          <item>
+        <num>(ج)</num>
+          <p xml:space="preserve">	التقييم المستقل الذي من المقرر أن يجريه الاتحاد الأفريقي في أيار/مايو 2021؛</p>
+          </item>
+          <item>
+        <num>(د)</num>
+          <p xml:space="preserve">	قرارات مجلس السلم والأمن التابع للاتحاد الأفريقي التي من المقرر أن تصدر أيضا في أيار/مايو 2021، وإنجاز وضع مفهوم عمليات منقّح مشترك بين الاتحاد الأفريقي وحكومة الصومال الاتحادية في آب/أغسطس 2021، على النحو المنصوص عليه في الفقرة 8 من هذا القرار؛</p>
+          </item>
+          <item>
+        <num>(هـ)</num>
+          <p xml:space="preserve">	عرض الأمين العام لاقتراح إنشاء بعثة جديدة اعتبارا من عام 2022، في أيلول/سبتمبر 2021، على النحو المنصوص عليه في الفقرة 9 من هذا القرار، الذي اشترك في تقديمه الأمين العام مع الاتحاد الأفريقي وبالتشاور مع حكومة الصومال الاتحادية والجهات المانحة؛</p>
+          </item>
+          <item>
+        <num>(و)</num>
+          <p xml:space="preserve">	عرض الأمين العام لخيارات مواصلة تقديم الأمم المتحدة للدعم اللوجستي في تشرين الأول/أكتوبر 2021، على النحو المنصوص عليه في الفقرة 21 من هذا القرار؛</p>
+          </item>
+        </blockList>
+      </container>
+      <container name="	وإذ يشدد" eId="container_19">
+          <p xml:space="preserve">
+            <span class="bold italic">	وإذ يشدد</span> على ضرورة مشاركة جميع الجهات المعنية صاحبة المصلحة مشاركة بنّاءة في هذه الأنشطة،</p>
+      </container>
+      <container name="	وإذ يقرر" eId="container_20">
+          <p xml:space="preserve">	<span class="bold italic">وإذ يقرر</span> أن الحالة في الصومال لا تزال تشكل تهديدا للسلام والأمن الإقليميين والدوليين،</p>
+      </container>
+      <container name="	وإذ يتصرف" eId="container_21">
+          <p xml:space="preserve">	<span class="bold italic">وإذ يتصرف</span> بموجب الفصل السابع من ميثاق الأمم المتحدة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>1 -</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر تأكيد</span> تطلّعه إلى أن يكون الصومال مسؤولاً عن أمنه، <span class="bold italic">ويشدد</span> على أن حكومة الصومال الاتحادية ينبغي أن تقود العملية الانتقالية الأمنية وأن هذه العملية ينبغي أن تبدأ فعليا في عام 2021، <span class="bold italic">ويرحب في هذا الصدد</span> بـالخطة الانتقالية للصومال، <span class="bold italic">ويحث</span> حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء على التنفيذ الكامل لالتزاماتها، <span class="bold italic">ويحث كذلك</span> شركاء الصومال الدوليين على دعم الصومال في الوفاء بهذه الالتزامات، بما في ذلك من خلال ضمان أن تدعم المهام الاستراتيجية لبعثة الاتحاد الأفريقي وأولوياتها الانتقال إلى تولّي الصومال المسؤولية عن الأمن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>2 -</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="bold italic">يسلّم</span> بدور مجلس السلم والأمن التابع للاتحاد الأفريقي، <span class="bold italic">ويحيط علما</span> بطلبه أن تنتهي مفوضية الاتحاد الأفريقي من تقييمها المستقل لتقدّم تقريرا بشأنه في أيار/مايو 2021، <span class="bold italic">ويحثه</span> على أن يكلّف في أيار/مايو 2021 بعثة الاتحاد الأفريقي في الصومال بولاية تتمثل في دعم الخطة الانتقالية للصومال والتمكين من تنفيذها وتحديد وتنفيذ الخطوات اللازمة في عام 2021، من أجل ضمان مواصلة تقديم الدعم للجهود الأمنية الصومالية في عام 2022، بما في ذلك من خلال بعثة للاتحاد الأفريقي يُعاد تشكيلها، وتكون اعتبارا من عام 2022 أكثر قدرة على مواجهة التهديد المتغير الذي تشكله حركة الشباب وجماعات المعارضة المسلحة، وتركز على دعم قوات الأمن الصومالية وتمكينها من تحمل المسؤولية الرئيسية عن الأمن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>3 -</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر التأكيد</span> على أن حركة الشباب، رغم أنها لا تزال تشكل التهديد المباشر والأكثر إلحاحا للأمن والاستقرار في الصومال، لن تتأتى هزيمتها وهزيمة جماعات المعارضة المسلحة بالوسائل العسكرية وحدها، <span class="bold italic">ويحث</span> في هذا الصدد حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء على القيام، بدعم من الاتحاد الأفريقي والأمم المتحدة والشركاء الدوليين، بالعمل معا على نحو أوثق لزيادة تنفيذ الأنشطة غير العسكرية للتصدي لما تضطلع به حركة الشباب من أنشطة تتصل بالجريمة المنظمة والتمويل غير المشروع والحصول على الأسلحة الصغيرة والأسلحة الخفيفة والاتجار بها والشراء والعدالة والدعاية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>4 -</num>
+        <list eId="para_44_list">
+          <intro eId="para_44_list_intro">
+            <p xml:space="preserve">	<span class="bold italic">يؤكد</span> ضرورة أن يتبع الصومال وشركاؤه نهجا منسقا ومتسقا إزاء الإصلاحات السياسية والأمنية التي يقودها الصوماليون، يتضمن جميع العمليات المشتركة، والقرارات الاستراتيجية والعملياتية، بما في ذلك تكوين قوات الأمن الصومالية، لضمان انتقال المسؤوليات الأمنية المتفق عليها بين السلطات الصومالية وقوات الأمن الصومالية وبعثة الاتحاد الأفريقي في الصومال منذ البداية، بالتنسيق مع الأمم المتحدة والشركاء الدوليين الآخرين عند الاقتضاء، <span class="bold italic">ويدعو </span>بالتالي إلى:</p>
+          </intro>
+          <point eId="para_44_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_44_list_point_أ_content">
+              <p xml:space="preserve">	أن تتولى حكومة الصومال الاتحادية قيادة التنسيق الاستراتيجي من خلال عقد اجتماعات منتظمة رفيعة المستوى للجنة التوجيهية الاستراتيجية للخطة الانتقالية للصومال بدعم من لجنة الأمن والعدل (التي كانت تُسمى سابقاً اللجنة التنفيذية للنهج الشامل إزاء الأمن) ولجنة مرفق التنمية وإعادة الإعمار في الصومال؛</p>
+            </content>
+          </point>
+          <point eId="para_44_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_44_list_point_ب_content">
+              <p xml:space="preserve">	أن تقوم حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء وبعثة الاتحاد الأفريقي في الصومال وبعثة الأمم المتحدة لتقديم المساعدة إلى الصومال ومكتب الأمم المتحدة لتقديم الدعم في الصومال والشركاء الدوليون بزيادة التنسيق والتعاون، بما في ذلك عن طريق إنشاء خلية دمج مشتركة من أجل تخطيط وتنفيذ العمليات الاستراتيجية المتكاملة التي تقودها الحكومة الصومالية، وبدعم من الاتحاد الأفريقي والأمم المتحدة وشركاء الأمن للصومال، والاضطلاع بالتحليل المشترك والتخطيط المتكامل المشترك والتنسيق العملياتي وتقييم الأداء المشترك مع الإشارة إلى أن مكتب الأمم المتحدة لتقديم الدعم في الصومال قد أقام بالفعل مرفقا مناسبا في مقديشو <span class="bold italic">ويدعو كذلك</span> حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء وبعثة الاتحاد الأفريقي في الصومال وبعثة الأمم المتحدة لتقديم المساعدة إلى الصومال ومكتب الأمم المتحدة لتقديم الدعم في الصومال والشركاء الدوليين إلى توسيع نطاق خلية الدمج المشتركة لتصل إلى قطاعات البعثة؛</p>
+            </content>
+          </point>
+          <point eId="para_44_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_44_list_point_ج_content">
+              <p xml:space="preserve">	أن يقوم الشركاء الدوليون والإقليميون، بالتنسيق مع بعثة الاتحاد الأفريقي في الصومال وبعثة الأمم المتحدة لتقديم المساعدة إلى الصومال ومن خلال الأخذ بنهج شامل إزاء الأمن، بمواصلة تنسيق وتحسين مواءمة دعمهم المقدم فيما يتعلق بالتوجيه والتدريب وتوفير المعدات وبناء قدرات قوات الأمن الصومالية، ودفع أجور قوات الشرطة والقوات العسكرية الصومالية بما في ذلك عبر كفالة الإخطار المناسب بكل ما يقدم من دعم ومساعدة من هذا القبيل على النحو المطلوب بموجب القرار <a href="https://undocs.org/ar/S/RES/2551(2020)">2551 (2020)</a>؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>5 -</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="bold italic">يشدد </span>على أن المسؤولية الرئيسية عن حماية المدنيين تقع على عاتق السلطات الصومالية، <span class="bold italic">ويشدد كذلك </span>على أهمية حماية المدنيين وفقا للقانون الدولي الإنساني، <span class="bold italic">ويؤكد</span> على ضرورة أن يأخذ الصومال وشركاؤه الدوليون في الاعتبار الحالة الأمنية في كل موقع أثناء انتقال المسؤوليات الأمنية إلى الصومال<span class="bold italic">، ويشدد</span> على ضرورة استرشاد التخطيط وصنع القرار بتقييم شامل للتهديد الذي يتعرض له المدنيون، واتخاذ تدابير استباقية للتخفيف من المخاطر، بما في ذلك عن طريق تشكيل قوات أمن صومالية تكون مناسبة من حيث الحجم ومؤهلة لضمان استمرار الأمن والحماية قبل العمل العسكري وأثناءه وبعده، <span class="bold italic">ويؤكد من جديد</span> الدور الأساسي الذي تقوم به الشرطة وقطاع العدل في جهود تحقيق الاستقرار والتحضير للانتخابات وإجرائها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="H1">
+        <heading>		بعثة الاتحاد الأفريقي في الصومال</heading>
+      </paragraph>
+      <paragraph eId="para_50" class="H23">
+        <subheading>		الأهداف والمهام</subheading>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>6 -</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر تأكيد</span> هدفه المتمثل في تمكين الصومال، من خلال الدعم المقدم من العناصر العسكرية والشرطية والمدنية التابعة لبعثة الاتحاد الأفريقي في الصومال، من تحمل المسؤولية الكاملة عن أمنها في المستقبل، بهدف تولي الصومال زمام القيادة في عام 2021، وتوليها المسؤولية الكاملة بنهاية عام 2023 بما يتماشى مع الخطة الانتقالية للصومال ومع مراعاة الحالة في الميدان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>7 -</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="bold italic">يسلّم</span> بضرورة وجود بعثة للاتحاد الأفريقي يُعاد تشكيلها منذ بداية عام 2022، وتركز على تمكين قوات الأمن الصومالية من تحمل المسؤولية الرئيسية عن الأمن وعلى دعمها في هذا المجال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>8 -</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الاتحاد الأفريقي وحكومة الصومال الاتحادية إجراء تحديث مشترك لمفهوم عمليات بعثة الاتحاد الأفريقي في الصومال بما يتماشى مع الخطة الانتقالية للصومال حتى نهاية عام 2023 وبالتعاون الوثيق مع الولايات الاتحادية الأعضاء والأمم المتحدة والشركاء الدوليين، لتقديمه إلى مجلس الأمن في موعد أقصاه نهاية آب/أغسطس 2021 ليُسترشد به في اتخاذ القرارات بشأن حجم البعثة المقبلة وشكلها، بما في ذلك احتياجاتها اللوجستية، <span class="bold italic">ويشدد على </span>أن حجم البعثة سيتراجع بمرور الوقت مع تحمل الصومال مسؤوليات أمنية أكبر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>9 -</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب </span>إلى الأمين العام أن يقدم، بالاشتراك مع الاتحاد الأفريقي وبالتشاور مع حكومة الصومال الاتحادية والجهات المانحة، اقتراحا بشأن الأهداف الاستراتيجية لبعثة الاتحاد الأفريقي التي سيُعاد تشكيلها وبشأن حجمها وتكوينها وذلك بنهاية أيلول/سبتمبر 2021؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>10 -</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> أن يأذن للدول الأعضاء في الاتحاد الأفريقي أن تواصل نشر 626 19 فردا من أفراد البعثة النظاميين حتى 31 كانون الأول/ديسمبر 2021، بما يشمل ما لا يقل عن 040 1 فردا من أفراد الشرطة التابعين لبعثة الاتحاد الأفريقي بما في ذلك خمس وحدات شرطة مشكلة، فضلا عن 70 من الأفراد المدنيين التابعين للبعثة بدعم من مكتب الأمم المتحدة لتقديم الدعم في الصومال للاضطلاع بمهام تتماشى مع الخطة الانتقالية للصومال، وبدء عملية تسليم المسؤوليات الأمنية تدريجيا إلى قوات الأمن الصومالية في عام 2021؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>11 -</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> أن يأذن لبعثة الاتحاد الأفريقي في الصومال باتخاذ جميع التدابير اللازمة لتنفيذ ولايتها، في إطار الامتثال التام لالتزامات الدول المشاركة بموجب القانون الدولي، بما في ذلك القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان، وفي احترام تام لسيادة الصومال وسلامته الإقليمية واستقلاله السياسي ووحدته؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>12 -</num>
+        <list eId="para_72_list">
+          <intro eId="para_72_list_intro">
+            <p xml:space="preserve">
+              <span class="bold italic">	يقرر</span> أن يأذن لبعثة الاتحاد الأفريقي بالعمل من أجل تحقيق الأهداف الاستراتيجية التالية:</p>
+          </intro>
+          <point eId="para_72_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_72_list_point_أ_content">
+              <p xml:space="preserve">	الحد من التهديد الذي تشكله حركة الشباب وجماعات المعارضة المسلحة بهدف التوصل إلى صومال مستقر واتحادي وذي سيادة وموحد؛</p>
+            </content>
+          </point>
+          <point eId="para_72_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_72_list_point_ب_content">
+              <p xml:space="preserve">	دعم نقل المسؤوليات الأمنية من بعثة الاتحاد الأفريقي في الصومال إلى قوات الأمن الصومالية عن طريق المساعدة على بناء قدرات قوات الأمن الصومالية من خلال التدريب والتوجيه، وتيسير نقل المسؤولية عن المهام الأمنية من بعثة الاتحاد الأفريقي في الصومال إلى السلطات الصومالية في المناطق المحررة، والاضطلاع بعمليات يتم تخطيطها والاتفاق عليها بشكل مشترك مع قوات الأمن الصومالية، مع التركيز بشكل متزايد على أن تكون هذه العمليات بقيادة صومالية؛</p>
+            </content>
+          </point>
+          <point eId="para_72_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_72_list_point_ج_content">
+              <p xml:space="preserve">	مساعدة حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء وقوات الأمن الصومالية في توفير الأمن للعملية السياسية على جميع المستويات، بما في ذلك جهود تحقيق الاستقرار والمصالحة وبناء السلام، وعن طريق تقديم الدعم ذي الصلة للشرطة الصومالية والسلطات المدنية؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>13 -</num>
+        <list eId="para_79_list">
+          <intro eId="para_79_list_intro">
+            <p xml:space="preserve">	<span class="bold italic">يقرر</span> أن يأذن لبعثة الاتحاد الأفريقي في الصومال بأن تضطلع بالمهام التالية لتحقيق الأهداف المذكورة:</p>
+          </intro>
+          <point eId="para_79_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_79_list_point_أ_content">
+              <p xml:space="preserve">	مع الإشارة إلى الفقرتين 2 و 8 في هذا القرار والعمل على وضع جداول زمنية وأهداف عملياتية محددة في إطار الخطة الانتقالية للصومال، توفير وجود مستمر في القطاعات المبينة في مفهوم العمليات المشترك، مع إعطاء الأولوية للمراكز السكانية التي حددتها حكومة الصومال الاتحادية ووافقت عليها بعثة الاتحاد الأفريقي في الصومال؛</p>
+            </content>
+          </point>
+          <point eId="para_79_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_79_list_point_ب_content">
+              <p xml:space="preserve">	القيام بعمليات هجومية مخططة على نحو مشترك مع قوات الأمن الصومالية ومحددة الأهداف من أجل تعطيل وإضعاف حركة الشباب وجماعات المعارضة المسلحة، واتخاذ الإجراءات الرامية إلى التخفيف من التهديد الذي تشكله الأجهزة المتفجرة اليدوية الصنع؛</p>
+            </content>
+          </point>
+          <point eId="para_79_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_79_list_point_ج_content">
+              <p xml:space="preserve">	الاضطلاع بعمليات متكاملة يتم تخطيطها بشكل مشترك مع قوات الأمن الصومالية، بالتنسيق مع الشركاء الدوليين الآخرين والجهات الفاعلة في مجال تحقيق الاستقرار والمصالحة، لتأمين واستعادة المناطق من حركة الشباب، والسماح بنقل المسؤوليات الأمنية في هذه المناطق إلى قوات الأمن الصومالية عند الاقتضاء؛</p>
+            </content>
+          </point>
+          <point eId="para_79_list_point_د">
+            <num>(د)</num>
+            <content eId="para_79_list_point_د_content">
+              <p xml:space="preserve">	إعادة تنظيم قطاعات بعثة الاتحاد الأفريقي في الصومال مع حدود الولايات الاتحادية الأعضاء بنهاية عام 2021، وإنشاء مقر تخطيط مشترك بين بعثة الاتحاد الأفريقي وقوات الأمن الصومالية في كل من القطاعات/الولايات الاتحادية الأعضاء، بما في ذلك لنشر قوات متعددة الجنسيات حيثما أمكن/اقتضى الأمر إلى هذه القطاعات؛</p>
+            </content>
+          </point>
+          <point eId="para_79_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_79_list_point_ه_content">
+              <p xml:space="preserve">	توفير قدرات متنقلة، تساعد قوات الأمن الصومالية على أن تصبح، من حيث وضع القوة، أكثر هجومية بهدف تأمين احتياطي متنقل معين لبعثة الاتحاد الأفريقي لكل قطاع، يكون قادرا على العمل كقوة للرد السريع والعمل عبر حدود القطاعات مع القوات الأخرى، بنهاية آب/أغسطس 2021؛</p>
+            </content>
+          </point>
+          <point eId="para_79_list_point_و">
+            <num>(و)</num>
+            <content eId="para_79_list_point_و_content">
+              <p xml:space="preserve">	الإسهام في تأمين طرق الإمداد الرئيسية والحفاظ عليها بالتعاون مع قوات الأمن الصومالية، بما فيها المفضيةُ إلى المناطق التي تم استردادها من حركة الشباب وبالتنسيق مع الجهات الفاعلة في مجال تحقيق الاستقرار والمصالحة، وخاصة طرق الإمداد التي تكتسي أهمية بالغة في تحسين الحالة الإنسانية، مما قد يشمل البضائع التجارية الضرورية لتلبية الاحتياجات الأساسية للمدنيين، والطرق ذات الأهمية البالغة لتوفير الدعم اللوجستي لبعثة الاتحاد الأفريقي والطرق التي تدعم تنفيذ الخطة الانتقالية للصومال؛</p>
+            </content>
+          </point>
+          <point eId="para_79_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_79_list_point_ز_content">
+              <p xml:space="preserve">	مساعدة قوات الأمن الصومالية، حسب الاقتضاء، في توفير الدعم الأمني لتمكين حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء من أداء مهامها المتعلقة بالحكم، بما في ذلك الدعم المقدم من العنصر المدني في بعثة الاتحاد الأفريقي إلى الجهود التي تبذلها الحكومة الاتحادية والولايات من أجل تحقيق الاستقرار بالتنسيق مع وزارة الداخلية والشؤون الاتحادية والمصالحة، والفريق المعني بتعافي المجتمعات المحلية وبسط سلطة الدولة والمساءلة، والمصالحة وبناء السلام والتحضير للانتخابات وتقديم الدعم لتمكين قوات الأمن الصومالية من توفير الأمن للعملية والبنى التحتية الحيوية الأخرى؛</p>
+            </content>
+          </point>
+          <point eId="para_79_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_79_list_point_ح_content">
+              <p xml:space="preserve">	حماية أفرادها ومرافقها ومنشآتها ومعداتها ومهامها، حسب الاقتضاء، وكفالة أمن وحرية تنقل أفرادها وأفراد الأمم المتحدة الذين يضطلعون بمهام صدر بها تكليف من مجلس الأمن؛</p>
+            </content>
+          </point>
+          <point eId="para_79_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_79_list_point_ط_content">
+              <p xml:space="preserve">	تلقّي المنشقّين على أساس مؤقت، حسب الاقتضاء وبالتنسيق مع الأمم المتحدة وحكومة الصومال الاتحادية؛</p>
+            </content>
+          </point>
+          <point eId="para_79_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_79_list_point_ي_content">
+              <p xml:space="preserve">	دعم ومساعدة حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء في تنفيذ الحظر التام لتصدير الفحم من الصومال وتوثيق وتيسير عمليات تفتيش المعدات المصادَرة بما في ذلك الأسلحة الصغيرة والأسلحة الخفيفة على النحو المطلوب في الفقرة 18 من القرار <a href="https://undocs.org/ar/S/RES/2111(2013)">2111 (2013)</a> والفقرة 6 من القرار <a href="https://undocs.org/ar/S/RES/2182(2014)">2182 (2014)</a>؛</p>
+            </content>
+          </point>
+          <point eId="para_79_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_79_list_point_ك_content">
+              <p xml:space="preserve">	مع الإشارة إلى الفقرات 2 و 6 و 12 من هذا القرار، ومع الإشارة كذلك إلى التوجيه المقدم من الصومال المبين في الخطة الانتقالية للصومال، والفقرة 10 من بيان مجلس السلم والأمن التابع للاتحاد الأفريقي المؤرخ 9 شباط/فبراير 2021، يرحب بإعادة التشكيل المتوخاة لبعثة الاتحاد الأفريقي في الصومال بحيث تركز على تمكين قوات الأمن الصومالية ودعمها وحماية الأمم المتحدة في الصومال، ويأذن لها كذلك ببدء العمل الأولي لإعادة التشكيل في كل قطاع من القطاعات من أجل توفير المهام التالية:</p>
+            </content>
+          </point>
+          <sublist eId="para_79_list_point_ك_sublist">
+            <point eId="para_79_list_point_ك_sublist_point_’1‘">
+              <num>’1‘</num>
+              <content eId="para_79_list_point_ك_sublist_point_’1‘_content">
+                <p xml:space="preserve">	توفير مهام الدعم التالية لقوات الدعم الصومالية: مكافحة الأجهزة المتفجرة اليدوية الصنع، والمراقبة، والاستطلاع والاستهداف، ودعم القيادة والاتصالات، والتنسيق المدني - العسكري، والإجلاء الطبي، والهندسة، وإنشاء قوة رد سريع متنقلة لكل قطاع؛</p>
+              </content>
+            </point>
+            <point eId="para_79_list_point_ك_sublist_point_’2‘">
+              <num>’2‘</num>
+              <content eId="para_79_list_point_ك_sublist_point_’2‘_content">
+                <p xml:space="preserve">	توفير مهام الدعم التمكيني التالية لقوة الشرطة الصومالية والمهام المتصلة بتحقيق الاستقرار المدني والحوكمة لدعم الجهود التي تبذلها حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء في بناء المؤسسات والدولة، بما في ذلك: التخطيط والاتصال بين المدنيين والشرطة، والدوريات المشتركة، وتوفير الحراسة الأمنية وتوفير الخبرة المتخصصة في التحقيقات ودعم الشرطة المجتمعية بطريقة مراعية للمنظور الجنساني؛</p>
+              </content>
+            </point>
+            <point eId="para_79_list_point_ك_sublist_point_’3‘">
+              <num>’3‘</num>
+              <content eId="para_79_list_point_ك_sublist_point_’3‘_content">
+                <p xml:space="preserve">	بناء قدرات قوات الأمن الصومالية وقوات الشرطة الصومالية مع ضمان الاتساق مع الشركاء الدوليين الذين يقومون بأعمال مماثلة، ومع التركيز على: تخطيط وإدارة العمليات المتكاملة، ومكافحة الأجهزة المتفجرة اليدوية الصنع، وعمليات مكافحة الإرهاب، واللوجستيات، والهندسة، والاستطلاع والمراقبة، والاتصالات العسكرية، والخفارة المجتمعية؛</p>
+              </content>
+            </point>
+            <point eId="para_79_list_point_ك_sublist_point_’4‘">
+              <num>’4‘</num>
+              <content eId="para_79_list_point_ك_sublist_point_’4‘_content">
+                <p xml:space="preserve">	توجيه ومساعدة قوات الأمن الصومالية لضمان قدرة وحداتها المدربة على العمل مع بعثة الاتحاد الأفريقي في الصومال، بما في ذلك عن طريق إجراء تدريبات مشتركة وتمرينات عملياتية، وتمكين عمليات قوات الأمن الصومالية من خلال توجيه القدرات القتالية وقدرات الدعم القتالي في إطار العمليات، وتقديم التدريب والتوجيه عند الضرورة للشرطة الصومالية؛</p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>14 -</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الاتحاد الأفريقي أن يواصل تعزيز الرقابة والتنسيق العملياتي فيما بين وحدات بعثة الاتحاد الأفريقي في الصومال، وتعزيز قيادة الوحدات التمكينية للبعثة، بما في ذلك الأصول الجوية، والتحكم بها والمساءلة تجاه تفعيلها، والتمكين من إنشاء وتشغيل قوات متنقلة في القطاعات تمشيا مع إعادة تشكيل البعثة، وكفالة تنسيق عملية اتخاذ القرارات العملياتية تحت قيادة كل من القطاع وقائد القوة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxt">
+        <num>15 -</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعم</span> استعراضات المعدات التي أجراها الاتحاد الأفريقي في عام 2019، <span class="bold italic">ويحث</span> الاتحاد الأفريقي على الانتهاء من استعراض المعدات الذي يجريه، بما يتماشى مع استعراض مفهوم العمليات، وبدعم من الأمم المتحدة، مع مراعاة بيانات احتياجات الوحدة وفي حدود الموارد المتاحة، بغية تعزيز القدرات العملياتية لبعثة الاتحاد الأفريقي، وسد الثغرات في الاحتياجات من الموارد، وتعزيز تدابيرها لحماية قوتها من أجل الاضطلاع بالمهام المنوطة بها، <span class="bold italic">ويشجع كذلك</span> الدول الأعضاء على دعم الاتحاد الأفريقي في مساعيه إلى حشد الموارد والمعدات اللازمة، بما في ذلك من خلال تقديم مساهمات مالية غير مقيَّدة إلى الصندوق الاستئماني لبعثة الاتحاد الأفريقي استنادا إلى التوصيات المنجزة المبينة في استعراض المعدات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <num>16 -</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> على نشر العنصر المدني المتبقي لتقديم الدعم الكامل للمهام العسكرية والشرطية المنوطة ببعثة الاتحاد الافريقي والمتصلة بإعادة تشكيل البعثة لدعم الانتقال إلى العمليات التي تجري بقيادة قوات الأمن الصومالية والخفض التدريجي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxt">
+        <num>17 -</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد بشدة</span> استمرار أهمية اضطلاع قوات بعثة الاتحاد الأفريقي بولايتها في ظل الامتثال التام للالتزامات الواقعة على عاتق الدول المشاركة فيها بموجب القانون الدولي، بما في ذلك ما يتعلق بحماية المدنيين، وبخاصة النساء والأطفال، وأهمية تعاونها مع بعثة الأمم المتحدة لتقديم المساعدة إلى الصومال ومكتب الأمم المتحدة لتقديم الدعم في الصومال في تنفيذ سياسة بذل العناية الواجبة في مراعاة حقوق الإنسان عند تقديم دعم الأمم المتحدة إلى قوات أمنية غير تابعة للأمم المتحدة (سياسة بذل العناية الواجبة في مراعاة حقوق الإنسان) أثناء المراحل المتصلة بالتحضير للعمليات وإجرائها واستعراضها، بما في ذلك في سياق العمليات المشتركة مع قوات الأمن الصومالية، <span class="bold italic">ويهيب</span> ببعثة الاتحاد الأفريقي في الصومال أن تضطلع بالرصد المنتظم والتحقيقات السريعة والوافية في الادعاءات بحصول انتهاكات وتجاوزات القانون الدولي لحقوق الإنسان وانتهاكات للقانون الدولي الإنساني والإبلاغ عنها وضمان أعلى معايير الشفافية والمساءلة والسلوك والانضباط ومواءمة إجراءاتها مع بعثة الأمم المتحدة لتقديم المساعدة إلى الصومال، ويهيب بالاتحاد الأفريقي أن يكفل ذلك، <span class="bold italic">ويرحب</span> بما أحرزه الاتحاد الأفريقي من تقدم بشأن وضع إطار للامتثال، <span class="bold italic">ويحث</span> البلدان المساهمة بقوات وبأفراد شرطة على تعزيز تعاونها مع الاتحاد الأفريقي والأمم المتحدة لأجل ضمان فعالية تدابير الامتثال والمساءلة لبعثة الاتحاد الأفريقي في الصومال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxt">
+        <num>18 -</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى بعثة الاتحاد الأفريقي في الصومال أن تعزز اتساق الإبلاغ إلى الخلية المعنية بحصر الخسائر في صفوف المدنيين وتحليلها والاستجابة لها في جميع القطاعات، وأن تتخذ خطوات إضافية لكفالة وضع تدابير مخفِّفة، <span class="bold italic">ويؤكد</span> أهمية كفالة تبادل المعلومات مع الأطراف الفاعلة المعنية، بما فيها الأمم المتحدة، وإدراجها في تقارير بعثة الاتحاد الأفريقي وتضمينها في المبادئ التوجيهية والخطط العملياتية، <span class="bold italic">ويطلب</span> إلى البلدان المساهمة بقوات وبأفراد شرطة تقديم الدعم الكامل لهذه الخلية، بالتعاون مع الجهات الفاعلة في مجالات المساعدة الإنسانية وحقوق الإنسان والحماية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxt">
+        <num>19 -</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> أهمية سياسة بعثة الاتحاد الأفريقي في الصومال التي تقضي بعدم التسامح إطلاقا إزاء الاستغلال والانتهاك الجنسيين، وفي هذا الصدد، <span class="bold italic">يشدد</span> على ضرورة منع أعمال الاستغلال والانتهاك هذه، <span class="bold italic">ويطلب</span> إلى الاتحاد الأفريقي والبلدان المساهمة بقوات وبأفراد شرطة فرز الأفراد، وإجراء تقييمات للمخاطر، وتقديم جميع التدريبات المناسبة للأفراد، من أجل حماية الناجين الذين يبلغون عن الاعتداء عليهم ودعم إغاثتهم وتعافيهم، والتحقيق في الادعاءات في الوقت المناسب لمساءلة الجناة، وإعادة الوحدات إلى أوطانها حيثما وجدت أدلة موثوقة على تورط تلك الوحدات في ارتكاب أعمال الاستغلال أو الانتهاك الجنسيين على نطاق واسع أو بشكل منهجي، <span class="bold italic">ويطلب كذلك</span> إلى الاتحاد الأفريقي العمل عن كثب مع الأمم المتحدة في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_156" class="SingleTxt">
+        <num>20 -</num>
+        <content eId="para_156__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع بشدة</span> الجهود التي تبذلها البلدان المساهمة بقوات وبأفراد شرطة لزيادة نسبة تعيين النساء في صفوف الأفراد النظاميين في بعثة الاتحاد الأفريقي، <span class="bold italic">ويحث</span> البعثة على ضمان مشاركة النساء مشاركة كاملة وفعالة ومجدية في جميع عملياتها وعلى إدماج منظور يراعي الاعتبارات الجنسانية في جميع مراحل تنفيذ ولايتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="H23">
+        <subheading>		الدعم اللوجستي والمالي</subheading>
+      </paragraph>
+      <paragraph eId="para_158" class="SingleTxt">
+        <num>21 -</num>
+        <content eId="para_158__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يواصل، من خلال مكتب الأمم المتحدة لتقديم الدعم في الصومال، توفير مجموعة عناصر للدعم اللوجستي تمتثل امتثالا تاما لسياسة بذل العناية الواجبة في مراعاة حقوق الإنسان، لفائدة الأفراد النظاميين في بعثة الأمم المتحدة لتقديم الدعم في الصومال وبعثة الاتحاد الأفريقي في الصومال و 70 عنصرا مدنيا في بعثة الاتحاد الأفريقي في الصومال، استنادا إلى الأساس المحدد في الفقرة 2 من منطوق القرار <a href="https://undocs.org/ar/S/RES/2245(2015)">2245 (2015)</a>، وبما يتماشى مع الفقرتين 10 و 11 من هذا القرار، وأن يقدم الدعم إلى 900 13 من قوات الأمن الصومالية، بما يشمل حصة مناسبة من شرطة الولايات والشرطة الاتحادية، الذين تم إدماجهم رسميا في قوات الأمن الصومالية انسجاما مع هيكل الأمن الوطني، والذين يشاركون بنشاط في عمليات مشتركة أو منسقة مع بعثة الاتحاد الأفريقي في الصومال تنفذ الخطة الانتقالية للصومال تنفيذا مباشرا، <span class="bold italic">ويكرر تأكيد</span> أهمية عمل بعثة الاتحاد الأفريقي في الصومال وقوات الأمن الصومالية بالاشتراك مع مكتب الأمم المتحدة لتقديم الدعم في الصومال على توفير الدعم اللوجستي، بما يشمل في جملة أمور كفالة أمن القوافل والمطارات، وحماية المدنيين، وحماية طرق الإمداد الرئيسية، <span class="bold italic">ويطلب كذلك</span> إلى الأمين العام أن يوسع نطاق الدعم الذي تقدمه الأمم المتحدة إلى قوات الأمن الصومالية ليشمل التدريب والمعدات والتوجيه لمواجهة خطر الأجهزة المتفجرة اليدوية الصنع، <span class="bold italic">ويطلب كذلك</span> إلى الأمين العام أن يقوم، بالتشاور مع جميع الجهات المعنية صاحبة المصلحة، بعرض الخيارات الممكنة لاستمرار الدعم اللوجستي المقدم من الأمم المتحدة اعتبارا من عام 2022، بحيث تتضمن استمرار تقديم الدعم من الأمم المتحدة لبعثة الأمم المتحدة لتقديم المساعدة إلى الصومال ولقوات الأمن الصومالية إلى جانب بعثة للاتحاد الأفريقي يُعاد تشكيلها، لينظر فيها مجلس الأمن بنهاية تشرين الأول/أكتوبر 2021؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_159" class="SingleTxt">
+        <num>22 -</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve">	<span class="bold italic">يتفق</span> مع الأمين العام على أن الرقابة والمساءلة، وخصوصا الامتثال لسياسة بذل العناية الواجبة في مراعاة حقوق الإنسان، ستشكلان حجر الأساس للشراكة بين الأمم المتحدة والاتحاد الأفريقي وحكومة الصومال الاتحادية والولايات الاتحادية الأعضاء، <span class="bold italic">ويطلب</span> إلى الأمين العام أن يكفل الامتثال، في أي دعم يقدَّم إلى القوات الأمنية غير التابعة للأمم المتحدة، امتثالا تاما لسياسة بذل العناية الواجبة في مراعاة حقوق الإنسان، <span class="bold italic">ويطلب</span> إلى حكومة الصومال الاتحادية والاتحاد الأفريقي الاتفاق على سبيل الاستعجال على مذكرة تفاهم مع الأمم المتحدة بشأن شروط تقديم الأمم المتحدة الدعم إلى قوات الأمن الصومالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_161" class="SingleTxt">
+        <num>23 -</num>
+        <content eId="para_161__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يعمل على نحو وثيق مع الاتحاد الأفريقي لدعم تنفيذ هذا القرار، بما في ذلك تقديم المشورة التقنية ومشورة الخبراء بشأن أنشطة التخطيط لبعثة الاتحاد الأفريقي في الصومال ونشرها وإدارتها الاستراتيجية وفقا لولاية مكتب الأمم المتحدة لدى الاتحاد الأفريقي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxt">
+        <num>24 -</num>
+        <list eId="para_164_list">
+          <intro eId="para_164_list_intro">
+            <p xml:space="preserve">	<span class="bold italic">يلاحظ مع التقدير</span> استمرار الدعم المالي المقدم إلى بعثة الاتحاد الأفريقي في الصومال، بما في ذلك من الاتحاد الأوروبي، <span class="bold italic">ويحث</span> الجهات المانحة الجديدة على تقديم الدعم لما يلي:</p>
+          </intro>
+          <point eId="para_164_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_164_list_point_أ_content">
+              <p xml:space="preserve">	بعثة الاتحاد الأفريقي في الصومال، بما في ذلك عن طريق توفير تمويل إضافي لأجور القوات والمعدات والمساعدة التقنية الخاصة بالبعثة، على النحو الموصى به في تقرير التمويل المشترك بين الاتحاد الأفريقي والأمم المتحدة، وتقديم الدعم لتحقيق الفعالية في أداء الخلية المعنية بحصر الخسائر في صفوف المدنيين وتحليلها والاستجابة لها ودفع التعويضات؛</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_164_list_point_ب_content">
+              <p xml:space="preserve">	صندوق الأمم المتحدة الاستئماني لدعم بعثة الاتحاد الأفريقي في الصومال وقوات الأمن الصومالية، بما في ذلك التمويل الموجه إلى معدات التدريب وتمويل وتوجيه قوات الأمن الصومالية من أجل التصدي لخطر الأجهزة المتفجرة اليدوية الصنع، ومعالجة انتشار الأسلحة الصغيرة والأسلحة الخفيفة، ودعم قوة الشرطة الصومالية على النحو المنصوص عليه في الفقرة 20؛</p>
+            </content>
+          </point>
+          <point eId="para_164_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_164_list_point_ج_content">
+              <p xml:space="preserve">	المؤسسات على الصعيد الوطني وعلى مستوى الولايات من أجل تطوير القطاع الأمني الصومالي، بما في ذلك بناء قدرات قوة الشرطة البحرية، بما يتماشى مع القرار <a href="https://undocs.org/ar/S/RES/2246(2015)">2246 (2015)</a>؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_168" class="SingleTxt">
+        <num>25 -</num>
+        <content eId="para_168__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد</span> ضرورة تعزيز إمكانية التنبؤ بتمويل عمليات دعم السلام التي يقودها الاتحاد الأفريقي بإذن من مجلس الأمن وبموجب سلطة المجلس وفق أحكام الفصل الثامن من الميثاق واستدامة ذلك التمويل ومرونته، <span class="bold italic">ويشجع</span> الأمين العام والاتحاد الأفريقي والدول الأعضاء على مواصلة الجهود في بحثهم الجاد لترتيبات تمويل البعثة، آخذين في الاعتبار المجموعة الكاملة للخيارات المتاحة للأمم المتحدة والاتحاد الأفريقي والاتحاد الأوروبي والشركاء الآخرين ومراعين لحدود التمويل الطوعي، من أجل وضع ترتيبات لتأمين تمويل بعثة الاتحاد الأفريقي في المستقبل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_169" class="H23">
+        <subheading>		الصومال</subheading>
+      </paragraph>
+      <paragraph eId="para_170" class="SingleTxt">
+        <num>26 -</num>
+        <content eId="para_170__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء إلى تنظيم انتخابات حرة ونزيهة وذات مصداقية وشاملة للجميع بما يتماشى مع اتفاق 17 أيلول/سبتمبر دون مزيد من التأخير، <span class="bold italic">ويحث </span>حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء على الانتهاء من وضع اتفاق سياسي لتحقيق هذه الغاية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxt">
+        <num>27 -</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعم </span>الجهود التي تبذلها حكومة الصومال الاتحادية لإصلاح مؤسساتها وبناء القدرات في قطاع الأمن، <span class="bold italic">ويحيط علما</span> بإطار المساءلة المتبادلة لعام 2021، <span class="bold italic">ويرحّب</span> بالتقدم المحرز في العمليات المشتركة، بما في ذلك عملية بادبادو، <span class="bold italic">ويكرر تأكيد</span> الحاجة الملحة والضرورية إلى التعاون الكامل بين حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء من أجل الوفاء بالتزاماتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="SingleTxt">
+        <num>28 -</num>
+        <content eId="para_173__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بـالخطة الانتقالية للصومال، <span class="bold italic">ويدعو</span> بالسلطات الصومالية إلى العمل على وجه السرعة على تنفيذها، بدعم منسق من المجتمع الدولي، من أجل الاضطلاع بمسؤولية أكبر عن الأمن الوطني في عام 2021، ووضع وتنفيذ خطة استراتيجية على وجه السرعة لإنشاء قوات أمن صومالية جديدة، ودمج القوات القائمة عند الاقتضاء، وتدريب قوات حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء الحالية والمنشأة حديثا وتزويدها بأهداف وجداول زمنية واضحة، وفي هذا الصدد، <span class="bold italic">يدعو</span> بحكومة الصومال الاتحادية إلى أن تقوم، بالعمل مع الولايات الاتحادية الأعضاء، بتحديد طريق واضح للمضي قدما في عملية تكوين القوات وإدماج القوات الإقليمية، قبل بلورة مفهوم العمليات، مع الإشارة إلى الحاجة إلى تعزيز قدرات قوات الأمن الخاصة وإمكانياتها، <span class="bold italic">ويدعو كذلك</span> حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء أن تعزز الرقابة المدنية على أجهزتها الأمنية وأن تواصل اعتماد وتنفيذ إجراءات مناسبة للتحري عن سوابق جميع أفراد الدفاع والأمن، بما في ذلك التحري المتعلق بحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="SingleTxt">
+        <num>29 -</num>
+        <content eId="para_176__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> السلطات الصومالية إلى كفالة تَوفُّر الموارد المناسبة لتنفيذ الخطة الانتقالية للصومال، بما يشمل آليات القيادة والمراقبة والتنسيق اللازمة لتمكينها من تخطيط وإجراء وتنفيذ عمليات مشتركة مع بعثة الاتحاد الأفريقي في الصومال على المستويين الاستراتيجي والعملياتي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <num>30 -</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء إلى تقديم الدعم الكامل لشرطة الولايات والشرطة الاتحادية عن طريق التدريب الفعال وتوفير المعدات والدعم بالإمدادات، <span class="bold italic">ويكرر تأكيد</span> الدور البالغ الأهمية الذي تؤديه الشرطة في ضمان أمن الأراضي وبسط السيطرة عليها، <span class="bold italic">ويشدد</span> على أن وجود قوة شرطة محترفة ومقتدرة، تكون قادرة على توفير الأمن للسكان المدنيين، أمر ضروري لكي تنفذ حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء الخطة الانتقالية للصومال، <span class="bold italic">ويشجع</span> على أن يتم تجنيد قوات الأمن الصومالية وقوة الشرطة الصومالية على نحو أكثر شمولا وتمثيلا ومن كافة شرائح المجتمع الصومالي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_185" class="SingleTxt">
+        <num>31 -</num>
+        <content eId="para_185__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> حكومة الصومال الاتحادية والولايات الاتحادية الأعضاء إلى كفالة أن تحترم جميع قوات الأمن والشرطة القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني احتراما كاملا، وإلى كفالة محاسبة المسؤولين عن انتهاكات وتجاوزات القانون الدولي لحقوق الإنسان وانتهاكات القانون الدولي الإنساني، <span class="bold italic">ويدعو كذلك</span> الأمم المتحدة والاتحاد الأفريقي وغيرهما من الشركاء الدوليين إلى دعم السلطات الصومالية في هذا الأمر حسب الاقتضاء <span class="bold italic">ويطلب</span> إلى بعثة الاتحاد الأفريقي في الصومال أن تتبادل الخبرات والدروس المستفادة من عمل الخلية المعنية بحصر الخسائر في صفوف المدنيين وتحليلها والاستجابة لها مع السلطات الوطنية، بما في ذلك بهدف دعم وضع سياسات وآليات لرصد الخسائر في صفوف المدنيين الصوماليين والتخفيف من حدتها وتلافيها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_191" class="SingleTxt">
+        <num>32 -</num>
+        <content eId="para_191__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بالسلطات الصومالية أن تقوم، بالتنسيق مع بعثة الاتحاد الأفريقي والشركاء الدوليين وكيانات الأمم المتحدة المعنية، بما في ذلك دائرة الأمم المتحدة للإجراءات المتعلقة بالألغام، بمكافحة الإتجار والنقل غير المشروعين للأسلحة الصغيرة والأسلحة الخفيفة في الصومال وتكديس هذه الأسلحة المزعَزِع للاستقرار وإساءة استخدامها بجميع جوانبه، ومنع إمكانية حصول جهات متلقية غير مأذون لها على جميع أنواع المتفجرات والمواد ذات الصلة في الصومال، وأن تكفل إدارتها وتخزينها على نحو آمن وفعال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="SingleTxt">
+        <num>33 -</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بالسلطات الصومالية أن تقوم، بالتنسيق مع بعثة الاتحاد الأفريقي والشركاء الدوليين وكيانات الأمم المتحدة المعنية، بما في ذلك مكتب الأمم المتحدة المعني بالمخدرات والجريمة، بمكافحة التدفقات المالية غير المشروعة والتصدي لقدرة حركة الشباب على توليد الإيرادات من خلال عمليات الجريمة المنظمة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_206" class="SingleTxt">
+        <num>34 -</num>
+        <content eId="para_206__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> أهمية المشاركة الكاملة والمتساوية والمجدية والفعالة لجميع الصوماليين، بمن فيهم النساء والشباب والأشخاص ذوو الإعاقة والمشردون داخليا واللاجئون، في منع نشوب النزاعات وحلِّها، وعمليات المصالحة، وبناء السلام، والانتخابات والعمليات السياسية الأخرى، <span class="bold italic">ويسلِّم</span> بالإسهام الكبير الذي يمكن أن يقدِّمه المجتمع المدني في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_215" class="SingleTxt">
+        <num>35 -</num>
+        <content eId="para_215__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> السلطات الصومالية إلى أن تعمل مع الشركاء المعنيين لكفالة الحماية للجميع من العنف الجنسي والجنساني، بما يشمل الاستغلال والانتهاك الجنسيين والعنف الجنسي المتصل بالنزاعات، وأن تتخذ الخطوات المناسبة للتحقيق في الادعاءات وتعزز التشريعات لدعم المساءلة بما يتسق مع القرارات ذات الصلة، وأن تعجّل بتنفيذ البيان المشترك وخطة العمل الوطنية لمكافحة العنف الجنسي في حالات النزاع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_225" class="SingleTxt">
+        <num>36 -</num>
+        <content eId="para_225__content">
+          <p xml:space="preserve">	<span class="bold italic">يعرب عن بالغ القلق</span> إزاء التقارير التي تفيد بزيادة حوادث قتل الأطفال وتشويهم واغتصابهم وغير ذلك من أشكال العنف الجنسي المستخدمة ضد الأطفال في النزاع المسلح، وكذلك استمرار المستويات المرتفعة من تجنيد الأطفال وإعادة تجنيدهم، بما في ذلك في أدوار غير قتالية، واستخدامهم بشكل غير مشروع واختطافهم، <span class="bold italic">ويدعو</span> السلطات الصومالية إلى اتخاذ إجراءات لمنع جميع أشكال العنف ضد الأطفال ومحاسبة المسؤولين، <span class="bold italic">ويهيب</span> بالسلطات الصومالية أن تتخذ التدابير المناسبة لمنع الهجمات على البنى التحتية المدنية، بما في ذلك على المدارس والمستشفيات، ومنع استخدامها لأغراض عسكرية، ووقف عمليات احتجاز جميع الأطفال بتهم تتعلق بالأمن القومي متى تعارض ذلك مع القانون الدولي الواجب التطبيق، وبدلا من ذلك معاملة الأطفال بوصفهم ضحايا في المقام الأول، <span class="bold italic">ويدعو كذلك</span> حكومة الصومال الاتحادية إلى اتخاذ إجراءات من أجل التنفيذ التام لخطط عملها لعام 2012، وإجراءات التشغيل الموحدة لعام 2014 لتسليم الأطفال المنفصلين عن الجماعات المسلحة، وخريطة طريق عام 2018، واستنتاجات الفريق العامل المعني بالأطفال والنزاع المسلح في الصومال (<a href="https://undocs.org/ar/S/AC.51/2020/6">S/AC.51/2020/6</a>)؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_236" class="SingleTxt">
+        <num>37 -</num>
+        <content eId="para_236__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر</span> الإعراب عن قلقه المستمر إزاء ارتفاع عدد اللاجئين والمشردين داخليا، <span class="bold italic">ويشدد</span> أن أي عمليات إخلاء ينبغي أن تكون متسقة مع القوانين الوطنية والالتزامات الدولية ذات الصلة، <span class="bold italic">ويرحب</span> بتصديق حكومة الصومال الاتحادية على اتفاقية الاتحاد الأفريقي لحماية ومساعدة النازحين داخليا في أفريقيا (اتفاقية كمبالا)، <span class="bold italic">ويشدد</span> على أهمية تنفيذ حكومة الصومال الاتحادية أحكامها بالكامل، <span class="bold italic">ويدعو</span> حكومة الصومال الاتحادية إلى إحراز تقدم على صعيد التزامها بتوفير الحماية والمساعدة والحلول الدائمة للمشردين في الصومال، بما في ذلك من خلال اعتماد أطر قانونية وطنية للمشردين داخلياً واللاجئين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_248" class="SingleTxt">
+        <num>38 -</num>
+        <content eId="para_248__content">
+          <p xml:space="preserve">	<span class="bold italic">يشير</span> إلى قراره <a href="https://undocs.org/ar/S/RES/2417(2018)">2417 (2018)</a>، ويعرب عن القلق الشديد من استمرار الأزمة الإنسانية في الصومال وتأثيرها على شعب الصومال، <span class="bold italic">ويشجع</span> جميع الشركاء بما في ذلك الجهات المانحة على الاستمرار في بذل الجهود الإنسانية في عام 2021 وعلى تقديم مساعدة إضافية لمواجهة جائحة كوفيد-19 على نطاق أوسع، <span class="bold italic">ويدين بشدة</span> الهجمات العشوائية والهجمات الموجهة ضد العاملين في مجال تقديم المساعدة الإنسانية والمجال الطبي والبنى التحتية المدنية، بما في ذلك تلك التي تشنها حركة الشباب، وكذلك أي إساءة استخدام للمساعدة الإنسانية أو عرقلة لها، <span class="bold italic">ويكرر</span> مطالبته أن تسمح جميع الأطراف، وفقا لأحكام القانون الدولي ذات الصلة وبما يتماشى مع مبادئ المساعدة الإنسانية، بالوصول الكامل والآمن والسريع دون عوائق من أجل إيصال المساعدة الإنسانية في الوقت المناسب إلى المحتاجين في جميع أنحاء الصومال، <span class="bold italic">ويؤكد</span> على أهمية المحاسبة السليمة في سياق تقديم الدعم الإنساني الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_249" class="H23">
+        <subheading>		تقديم التقارير</subheading>
+      </paragraph>
+      <paragraph eId="para_250" class="SingleTxt">
+        <num>39 -</num>
+        <list eId="para_250_list">
+          <intro eId="para_250_list_intro">
+            <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الاتحاد الأفريقي أن يبقي مجلس الأمن على اطلاع كل 90 يوما، عن طريق الأمين العام، على تنفيذ ولاية بعثة الاتحاد الأفريقي في الصومال، من خلال ما لا يقل عن ثلاثة تقارير خطية مفصلة، على أن يقدم أولها في موعد أقصاه 1 أيار/مايو 2021، <span class="bold italic">ويطلب كذلك</span> في هذا الصدد أن يتم الإبلاغ بشكل محدد عن:</p>
+          </intro>
+          <point eId="para_250_list_point_’1‘">
+            <num>’1‘</num>
+            <content eId="para_250_list_point_’1‘_content">
+              <p xml:space="preserve">	التقدم المحرز في العمليات المشتركة لدعم الخطة الانتقالية للصومال بما في ذلك استخدام وفعالية آليات التنسيق،</p>
+            </content>
+          </point>
+          <point eId="para_250_list_point_’2‘">
+            <num>’2‘</num>
+            <content eId="para_250_list_point_’2‘_content">
+              <p xml:space="preserve">	التقدم المحرز على صعيد الأهداف والمهام المنقحة المبينة في الفقرتين 11 و 12،</p>
+            </content>
+          </point>
+          <point eId="para_250_list_point_’3‘">
+            <num>’3‘</num>
+            <content eId="para_250_list_point_’3‘_content">
+              <p xml:space="preserve">	تدابير المساءلة المتخذة لمعالجة التقصير في الأداء، بما في ذلك القيادة والمراقبة والسلوك والانضباط،</p>
+            </content>
+          </point>
+          <point eId="para_250_list_point_’4‘">
+            <num>’4‘</num>
+            <content eId="para_250_list_point_’4‘_content">
+              <p xml:space="preserve">	التدابير المتخذة لحماية المدنيين،</p>
+            </content>
+          </point>
+          <point eId="para_250_list_point_’5‘">
+            <num>’5‘</num>
+            <content eId="para_250_list_point_’5‘_content">
+              <p xml:space="preserve">	نتائج استعراض المعدات واستخدام أصول القوات،</p>
+            </content>
+          </point>
+          <point eId="para_250_list_point_’6‘">
+            <num>’6‘</num>
+            <content eId="para_250_list_point_’6‘_content">
+              <p xml:space="preserve">	الملاك الوظيفي للعنصر المدني، ويشجع على تقديم التقارير في الوقت المناسب بما يتيح لمجلس الأمن أن يأخذ في الاعتبار وجهات نظر الاتحاد الأفريقي بشأن الحالة في الصومال؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_251" class="SingleTxt">
+        <num>40 -</num>
+        <content eId="para_251__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى حكومة الصومال الاتحادية أن تطلع مجلس الأمن على آخر المستجدات بشأن حالة التصديق على الخطة الانتقالية للصومال بحلول 1 أيار/مايو 2021، وأن توافيه بتقرير عن تنفيذها بنهاية تشرين الأول/أكتوبر 2021؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="SingleTxt">
+        <num>41 -</num>
+        <list eId="para_253_list">
+          <intro eId="para_253_list_intro">
+            <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يطلع مجلس الأمن بانتظام على تنفيذ هذا القرار في تقاريره الدورية المطلوبة في الفقرة 16 من القرار <a href="https://undocs.org/ar/S/RES/2540(2020)">2540 (2020)</a>، وفي هذا الصدد <span class="bold italic">يطلب كذلك</span> إلى الأمين العام أن يقيِّم في تقاريره الدورية ما يلي:</p>
+          </intro>
+          <point eId="para_253_list_point_’1‘">
+            <num>’1‘</num>
+            <content eId="para_253_list_point_’1‘_content">
+              <p xml:space="preserve">	تنفيذ الخطة الانتقالية للصومال وإطار المساءلة المتبادلة على النحو المشار إليه في الفقرة 1 من هذا القرار،</p>
+            </content>
+          </point>
+          <point eId="para_253_list_point_’2‘">
+            <num>’2‘</num>
+            <content eId="para_253_list_point_’2‘_content">
+              <p xml:space="preserve">	تنفيذ سياسة بذل العناية الواجبة في مراعاة حقوق الإنسان عند تقديم دعم الأمم المتحدة إلى قوات أمنية غير تابعة للأمم المتحدة،</p>
+            </content>
+          </point>
+          <point eId="para_253_list_point_’3‘">
+            <num>’3‘</num>
+            <content eId="para_253_list_point_’3‘_content">
+              <p xml:space="preserve">	الدعم المقدم من مكتب الأمم المتحدة لتقديم الدعم في الصومال إلى بعثة الاتحاد الأفريقي في الصومال وبعثة الأمم المتحدة لتقديم المساعدة إلى الصومال وقوات الأمن الصومالية؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_256" class="SingleTxt">
+        <num>42 -</num>
+        <content eId="para_256__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد</span> اعتزامه مواصلة استعراض تشكيل بعثة الاتحاد الأفريقي في الصومال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_260" class="SingleTxt">
+        <num>43 -</num>
+        <content eId="para_260__content">
+          <p xml:space="preserve">
+            <span class="bold italic">	يقرر</span> أن يبقي المسألة قيد نظره الفعلي.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
