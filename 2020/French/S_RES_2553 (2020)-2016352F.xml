@@ -1,0 +1,496 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-12-03/2553-2020/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-12-03/2553-2020/"></FRBRuri>
+          <FRBRdate date="2020-12-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-12-03/2553-2020/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-12-03/2553-2020/fra@/"></FRBRuri>
+          <FRBRdate date="2020-12-03" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-12-03/2553-2020/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-12-03/2553-2020/fra@.xml"></FRBRuri>
+          <FRBRdate date="2021-08-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="SECURITY SECTOR REFORM" showAs="SECURITY SECTOR REFORM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEBUILDING" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PARTNERSHIP" showAs="PARTNERSHIP" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[10]" showAs="INTERNATIONAL SECURITY" dictionary="S/75"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="Maintenance of international peace and security." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2553 (2020) [on security sector reform]" showAs="Security Council resolution 2553 (2020) [on security sector reform]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-12-03" outcome="draftResolution" as="S/2020/1158" by="Algeria, Angola, Benin, Botswana, Burkina Faso, Chile, Côte d’Ivoire, Dominican Republic, Eswatini, Fiji, Gambia, Indonesia, Japan, Kenya, Lesotho, Libya, Mali, Morocco, Namibia, Niger, Nigeria, Palau, Peru, Republic of Korea, Russian Federation, Saint Vincent and the Grenadines, Senegal, Slovakia, South Africa, Tunisia and United Republic of Tanzania" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2020-12-03" outcome="adopted" as="S/2020/1166" by="Adopted unanimously; voting by mail" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="VOTING BY MAIL">
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-16352 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2553 (2020)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil de sécurité</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-12-03" class="rightSmall" refersTo="#dateOfIssuance">3 décembre 2020</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Résolution 2553 (2020)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adoptée par le Conseil de sécurité le <inline name="adoptionMeeting"></inline><docDate date="2020-12-03" refersTo="#adoptionDate">3 décembre 2020</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil de sécurité</span>,</p>
+      </formula>
+      <container name="Réaffirmant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> que la Charte des Nations Unies lui assigne la responsabilité principale du maintien de la paix et de la sécurité internationales,</p>
+      </container>
+      <container name="Rappelant" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>ses résolutions <a href="https://undocs.org/fr/S/RES/2151(2014)">2151 (2014)</a>, sur la réforme du secteur de la sécurité, et <a href="https://undocs.org/fr/S/RES/2282(2016)">2282 (2016)</a>, sur l’examen du dispositif de consolidation de la paix de l’Organisation des Nations Unies, ainsi que les déclarations de sa présidence du 21 février 2007 (<a href="https://undocs.org/fr/S/PRST/2007/3">S/PRST/2007/3</a>), du 12 mai 2008 (<a href="https://undocs.org/fr/S/PRST/2008/14">S/PRST/2008/14</a>) et du 12 octobre 2011 (<a href="https://undocs.org/fr/S/PRST/2011/19">S/PRST/2011/19</a>),</p>
+      </container>
+      <container name="Rappelant" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> sa résolution <a href="https://undocs.org/fr/S/RES/2282(2016)">2282 (2016)</a>, dans laquelle il a rappelé la résolution <a href="https://undocs.org/fr/A/RES/70/1">A/RES/</a><a href="https://undocs.org/fr/A/RES/70/1">7</a><a href="https://undocs.org/fr/A/RES/70/1">0/1</a> de l’Assemblée générale, intitulée « Transformer notre monde : le Programme de développement durable à l’horizon 2030 », dans laquelle avait été adoptée une série complète d’objectifs et de cibles à caractère universel, qui étaient ambitieux, axés sur l’être humain et porteurs de changement,</p>
+      </container>
+      <container name="Considérant" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Considérant</span> que le développement, la paix et la sécurité, et les droits humains sont intimement liés et se complètent,</p>
+      </container>
+      <container name="Soulignant" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> que la réforme du secteur de la sécurité au lendemain des conflits est cruciale du point de vue de la consolidation de la paix et de la stabilité, de la réduction de la pauvreté, de la promotion de l’état de droit et de la bonne gouvernance, de l’extension de l’autorité légitime de l’État et de la prévention de la reprise des conflits et <span class="italic">soulignant également</span> à cet égard que des institutions de sécurité qui soient professionnelles, efficaces et responsables et des institutions chargées de faire respecter la loi et de rendre la justice qui soient accessibles et impartiales sont tout aussi nécessaires pour jeter les bases de la paix et du développement durable,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> la nécessité d’adopter une démarche globale en matière de consolidation et de pérennisation de la paix, ainsi que des mesures d’intégration des questions de genre, notamment au moyen d’une réforme du secteur de la sécurité s’inscrivant dans le cadre plus général de l’état de droit,</p>
+      </container>
+      <container name="Rappelant" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> que le pays concerné a le droit souverain et la responsabilité première d’arrêter les modalités et les priorités nationales de la réforme du secteur de la sécurité, ledit pays devant s’approprier cette entreprise, qui doit répondre à ses besoins et à sa situation particulière et se dérouler à sa demande et en étroite consultation avec lui, et <span class="italic">préconisant </span>la participation de l’ensemble des parties prenantes à la réforme du secteur de la sécurité et le développement des compétences des pays dans ce domaine,</p>
+      </container>
+      <container name="Considérant" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Considérant</span> que la direction et la volonté politiques des autorités nationales sont critiques pour le progrès de la réforme de la sécurité, <span class="italic">réaffirmant</span> que les autorités nationales doivent jouer un rôle moteur dans l’élaboration d’un projet national inclusif de réforme du secteur de la sécurité qui prévoie la participation pleine et entière des femmes, sur un pied d’égalité avec les hommes, et <span class="italic">soulignant</span> que la coordination de l’exécution de ce projet, l’affectation de ressources nationales aux institutions de sécurité nationales et le suivi des retombées de cette réforme font partie intégrante de la prise en main et de la direction de la réforme du secteur de la sécurité par les pays,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> sa volonté de remédier aux effets des conflits armés sur les femmes, les jeunes et les enfants, et <span class="italic">rappelant</span> ses résolutions <a href="https://undocs.org/fr/S/RES/1325(2000)">1325 (2000)</a>, <a href="https://undocs.org/fr/S/RES/1820(2008)">1820 (2008)</a>, <a href="https://undocs.org/fr/S/RES/1888(2009)">1888 (2009)</a>, <a href="https://undocs.org/fr/S/RES/1960(2010)">1960 (2010)</a>, <a href="https://undocs.org/fr/S/RES/2106(2013)">2106 (2013)</a> <a href="https://undocs.org/fr/S/RES/2122(2013)">2122 (2013)</a>, <a href="https://undocs.org/fr/S/RES/2242(2015)">2242 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2467(2019)">2467 (2019)</a> et <a href="https://undocs.org/fr/S/RES/2493(2019)">2493 (2019)</a> sur les femmes, la paix et la sécurité, ses résolutions <a href="https://undocs.org/fr/S/RES/1265(1999)">1265 (1999)</a>, <a href="https://undocs.org/fr/S/RES/1296(2000)">1296 (2000)</a>, <a href="https://undocs.org/fr/S/RES/1674(2006)">1674 (2006)</a>, <a href="https://undocs.org/fr/S/RES/1738(2006)">1738 (2006)</a> et <a href="https://undocs.org/fr/S/RES/1894(2009)">1894 (2009)</a> sur la protection des civils en période de conflit armé, ainsi que ses résolutions <a href="https://undocs.org/fr/S/RES/2250(2015)">2250 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2419(2018)">2419 (2018)</a> et <a href="https://undocs.org/fr/S/RES/2535(2020)">2535 (2020)</a> sur les jeunes, la paix et la sécurité, et ses résolutions <a href="https://undocs.org/fr/S/RES/1261(1999)">1261 (1999)</a>, <a href="https://undocs.org/fr/S/RES/1612(2005)">1612 (2005)</a>, <a href="https://undocs.org/fr/S/RES/1882(2009)">1882 (2009)</a>, <a href="https://undocs.org/fr/S/RES/1998(2011)">1998 (2011)</a>, <a href="https://undocs.org/fr/S/RES/2068(2012)">2068 (2012)</a> et <a href="https://undocs.org/fr/S/RES/2143(2014)">2143 (2014)</a> sur les enfants et les conflits armés,</p>
+      </container>
+      <container name="Conscient" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Conscient</span> du rôle que les opérations de maintien de la paix et les missions politiques spéciales des Nations Unies jouent s’agissant d’aider, selon ce que prévoient leur mandat, les autorités des pays à mettre au point des stratégies, des priorités et des programmes nationaux inclusifs aux fins de la réforme du secteur de la sécurité et à contribuer, selon que de besoin, à coordonner l’aide internationale en faveur de cette réforme, dans le respect des priorités nationales et d’une manière qui prenne en compte l’appui international afin d’aider efficacement les pays à instaurer une paix durable, et <span class="italic">soulignant</span> qu’il importe de doter les missions de maintien de la paix et les missions politiques spéciales d’un financement et/ou de ressources suffisants, prévisibles et durables qui leur permettent de s’acquitter de leur mandat et de contribuer à la réforme du secteur de la sécurité,</p>
+      </container>
+      <container name="Rappelant" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> les rapports du Comité spécial des opérations de maintien de la paix créé par l’Assemblée générale, qui donne au Secrétariat des directives concernant la réforme du secteur de la sécurité et l’élaboration d’une politique de l’Organisation en la matière,</p>
+      </container>
+      <container name="Se déclarant préoccupé" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant préoccupé</span> par l’éventail de difficultés que rencontrent les institutions de sécurité lorsqu’elles sont faibles et dysfonctionnelles, qui empêchent notamment l’État d’instaurer une paix durable, d’assurer la sécurité publique, d’asseoir l’état de droit et de garantir l’accès à la justice sur tout le territoire, <span class="italic">notant</span> qu’il est important d’assurer une gouvernance et une tutelle appropriées du secteur de la sécurité pour veiller à ce que les institutions chargées de la sécurité assurent la sécurité et protègent la population, <span class="italic">notant également</span> que s’il n’est pas remédié aux carences qui existent au niveau opérationnel et sur les plans de la gouvernance et de la responsabilité, les résultats obtenus grâce aux activités de maintien de la paix peuvent être compromis et les missions de maintien de la paix et missions politiques spéciales risquent de devoir revenir dans leurs anciennes zones d’opérations, et <span class="italic">considérant</span> que, dans certains pays sortant d’un conflit, une réforme efficace et inclusive du secteur de la sécurité a joué un rôle essentiel dans le processus politique, la réconciliation nationale, la justice transitionnelle, la stabilisation et la reconstruction,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant </span>qu’un secteur de la sécurité représentatif, réactif, efficient, efficace, professionnel et responsable, fonctionnant sans discrimination et dans le plein respect des droits humains et de l’état de droit, est la clé de voûte de la paix et du développement durable, et est important pour la prévention des conflits et la consolidation et la pérennisation de la paix,</p>
+      </container>
+      <container name="Conscient" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Conscient</span> que la réforme du secteur de la sécurité est un élément essentiel de l’action de consolidation de la paix menée par l’Organisation des Nations Unies et <span class="italic">notant</span> le précieux travail qu’accomplit la Commission de consolidation de la paix en sa qualité d’organe consultatif intergouvernemental spécialement chargé d’intégrer une approche stratégique dans les initiatives internationales en faveur de la consolidation de la paix, y compris l’appui des Nations Unies à la réforme du secteur de la sécurité, et de les rendre cohérentes,</p>
+      </container>
+      <container name="Rappelant" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>que l’essentiel de l’aide apportée par les Nations Unies dans le domaine de la réforme du secteur de la sécurité en application de mandats du Conseil de sécurité est fournie et destinée à des pays d’Afrique et que certains pays d’Afrique deviennent d’importants fournisseurs d’assistance de ce type, et <span class="italic">saluant</span> à cet égard les importants efforts que l’Union africaine et les organisations sous-régionales déploient et les moyens qu’elles mettent en œuvre pour appuyer et orienter l’entreprise de réforme du secteur de la sécurité menée par les pays,</p>
+      </container>
+      <container name="Notant" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Notant </span>l’appui fourni par les acteurs bilatéraux, les organisations régionales, les institutions financières multilatérales et les organisations spécialisées, y compris les universités et les instituts de recherche, aux fins de l’entreprise de réforme du secteur de la sécurité et d’autres initiatives menées dans ce domaine, et <span class="italic">conscient</span> qu’il importe d’établir des partenariats stratégiques et d’assurer un financement coordonné si l’on veut renforcer l’efficacité de l’appui international fourni, lequel doit être conforme aux priorités nationales en matière de réforme du secteur de la sécurité et en tenir compte,</p>
+      </container>
+      <container name="Insistant" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Insistant </span>sur l’importance du principe d’appropriation nationale et le rôle que joue, selon qu’il convient, la coordination entre les différents acteurs qui appuient les réformes du secteur de la sécurité au moyen de contributions bilatérales et multilatérales, <span class="italic">soulignant</span> le rôle essentiel que peuvent jouer les opérations de maintien de la paix et les missions politiques spéciales des Nations Unies dans le renforcement de cette coordination eu égard au projet et aux priorités des pays, et <span class="italic">sachant</span> qu’il faut que l’appui apporté à la réforme du secteur de la sécurité obéisse aux principes de transparence, d’inclusion et de responsabilité et soit conforme aux priorités nationales,</p>
+      </container>
+      <container name="Considérant" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Considérant </span>la réforme du secteur de la sécurité comme primordiale, en tant qu’élément clé des mandats des missions de maintien de la paix et des missions politiques spéciales, <span class="italic">mettant en avant</span> le rôle que les opérations de maintien de la paix et les missions politiques spéciales jouent dans la promotion de solutions politiques, <span class="italic">soulignant </span>qu’il importe que l’Organisation des Nations Unies aide les gouvernements qui en font la demande, selon qu’il convient, y compris au moyen de ses opérations de maintien de la paix et missions politiques spéciales, à renforcer la gouvernance du secteur de la sécurité et à mettre en place des institutions de sécurité inclusives, représentatives, accessibles et capables de s’adapter aux besoins de la population, et <span class="italic">soulignant </span>le rôle important qui revient à la Commission de consolidation de la paix et au Fonds pour la consolidation de la paix pour ce qui est d’appuyer la réforme du secteur de la sécurité,</p>
+      </container>
+      <container name="Rappelant" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> l’importante contribution qu’apporte l’Organisation des Nations Unies en soutenant les pays dans les efforts qu’ils déploient pour améliorer la gouvernance du secteur de la sécurité et se doter d’institutions de sécurité durables, et saluant l’action que mène l’Organisation, en particulier le Département des opérations de paix, dont le Groupe de la réforme du secteur de la sécurité et l’Équipe spéciale interinstitutions pour la réforme du secteur de la sécurité, en vue de se doter d’une politique globale encore plus robuste dans le domaine de la réforme du secteur de la sécurité, moyennant l’élaboration de directives spécialisées à l’échelle du système, le développement des capacités civiles, la mise en place de mécanismes de coordination et l’instauration de partenariats stratégiques avec des organisations régionales et sous-régionales, en particulier l’Union africaine,</p>
+      </container>
+      <container name="Soulignant" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> l’importance d’une coordination étroite des différentes activités relatives à la réforme du secteur de la sécurité menées par l’Organisation des Nations Unies, au Siège et sur le terrain, en particulier entre les missions établies par le Conseil de sécurité et les équipes de pays des Nations Unies, et notant le rôle que la Cellule mondiale de coordination des questions relatives à l’état de droit joue, dans le cadre de la réforme du secteur de la sécurité, en renforçant les interventions intégrées et les stratégies communes des Nations Unies au niveau des pays, et <span class="italic">engageant</span> les diverses entités des Nations Unies dont le mandat s’étend à la réforme du secteur de la sécurité à faire usage des mécanismes de coordination existants, lorsqu’il y a lieu,</p>
+      </container>
+      <container name="Estimant" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Estimant</span> que, dans certaines situations, la réforme du secteur de la sécurité englobera les services de défense, de police, des systèmes judiciaire et pénitentiaire, de gestion des catastrophes, de gestion des frontières, des douanes et d’immigration, ainsi que d’autres acteurs de la sécurité coutumiers ou traditionnels, tels que définis par chaque État Membre, et <span class="italic">soulignant</span> qu’il importe de réfléchir à des initiatives portant sur la gouvernance stratégique, la gestion et la tutelle du secteur de la sécurité, le but étant d’assurer la viabilité à long terme de ce secteur compte tenu de la situation et des besoins particuliers du pays considéré,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> l’importance de l’état de droit, élément clé de la prévention des conflits, du maintien de la paix, du règlement des conflits et de la consolidation de la paix, <span class="italic">rappelant</span> la déclaration de sa Présidente en date du 21 février 2014 (<a href="https://undocs.org/fr/S/PRST/2014/5">S/PRST/2014/5</a>), <span class="italic">redisant</span> que la réforme du secteur de la sécurité doit s’inscrire dans le cadre de l’état de droit, et <span class="italic">notant</span> à cet égard la contribution importante que des services de police efficaces, professionnels et responsables, qui assurent la sécurité de la population, peuvent apporter à l’instauration de la confiance entre les autorités publiques et le public et au rétablissement de l’état de droit dans les pays sortant d’un conflit,</p>
+      </container>
+      <container name="Considérant" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Considérant</span> que la réforme du secteur de la sécurité est un élément essentiel des processus politiques des États sortant d’un conflit et du renforcement des institutions chargées de faire respecter l’état de droit, et que la mise en place d’une gouvernance représentative, efficace et responsable du secteur de la sécurité, qui réponde aux besoins de l’ensemble de la population en matière de sécurité et de justice, et le développement de capacités permettant aux institutions nationales de sécurité de s’acquitter durablement de leurs responsabilités en matière de protection de tous les civils sont des éléments essentiels au transfert des responsabilités en matière de sécurité envers l’État hôte, selon ce que prévoient les mandats, et à la réduction progressive des effectifs et au retrait des opérations de maintien de la paix et des missions politiques spéciales,</p>
+      </container>
+      <container name="Conscient" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	Conscient</span> des liens qui existent entre la réforme du secteur de la sécurité et d’autres éléments importants pour la stabilisation et la reconstruction, entre autres la réconciliation nationale, la justice transitionnelle, le désarmement, la démobilisation, la réinsertion et la réadaptation à long terme des ex-combattants et de toutes les personnes concernées, en particulier les femmes, les jeunes et les enfants, la gestion nationale des armes légères et de petit calibre, l’application des embargos sur les armes, la réduction de la violence armée et de la criminalité organisée et les mesures de lutte contre la corruption, la protection des civils, en particulier des femmes, des jeunes et des enfants, l’égalité des sexes et les questions relatives aux droits humains,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> l’important rôle que joue la réforme du secteur de la sécurité dans la consolidation et la pérennisation de la paix, y compris la prévention des conflits, et dans la stabilisation et la reconstruction des États qui sortent d’un conflit, et <span class="italic">décide</span> de continuer, selon qu’il conviendra, d’inscrire, dans les mandats des opérations de maintien de la paix et des missions politiques spéciales des Nations Unies, des éléments de réforme du secteur de la sécurité et d’accorder à ces éléments le degré de priorité voulu ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> l’importance cardinale de l’appropriation nationale des mécanismes de réforme du secteur de la sécurité, <span class="italic">réaffirme également</span> qu’il appartient au pays concerné de déterminer, le cas échéant, l’assistance à la réforme du secteur de la sécurité dont il a besoin, et <span class="italic">considère</span> qu’il importe de tenir compte du point de vue des pays hôtes dans l’élaboration des mandats des opérations de maintien de la paix et missions politiques spéciales des Nations Unies dans ce domaine ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres qui entreprennent de réformer le secteur de la sécurité à prendre l’initiative de définir un projet national et une stratégie associant toutes les parties et prenant en compte les besoins et les aspirations de l’ensemble de la population, et <span class="italic">note</span> le rôle important qui revient à l’Organisation des Nations Unies, notamment à la Commission de consolidation de la paix, aux États Membres et aux organisations régionales et sous-régionales pour ce qui est d’assister les États à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Estime</span> que la réforme du secteur de la sécurité doit être complémentaire et adossée à des processus politiques nationaux d’envergure ouverts à toutes les composantes de la société, y compris à la participation de la société civile, venant jeter les fondements de la stabilité, de la paix et du développement social et économique à la faveur de la promotion de l’état de droit, de la justice, du dialogue national et de la réconciliation, et <span class="italic">décide</span> d’accorder la priorité aux activités liées à la gouvernance et à la réforme du secteur de la sécurité qui contribuent directement à ces entreprises ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> que la promotion de la participation pleine, égale et effective des femmes au secteur de la sécurité contribue grandement à la mise en place d’institutions inclusives, responsables et légitimes qui protègent plus efficacement les populations et favorisent une paix et un développement durables, et <span class="italic">se déclare préoccupé</span> par le fait que les femmes continuent de se heurter à des obstacles de taille lorsqu’elles essaient de participer sur un pied d’égalité aux institutions du secteur de la sécurité, où elles sont souvent sous-représentées, et, à cet égard, <span class="italic">encourage</span> les États Membres à élaborer des stratégies et des programmes de réforme du secteur de la sécurité adaptés au contexte qui, entre autres, tiennent systématiquement compte des questions de genre, éliminent les obstacles juridiques, institutionnels et réglementaires à la participation égale des femmes au secteur de la sécurité et permettent à celles-ci d’être mieux représentées dans ce secteur à tous les niveaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Considérant</span> que les jeunes devraient prendre une part active à l’instauration d’une paix durable et œuvrer à la prévention des conflits, à la consolidation de la paix et au relèvement, notamment à la promotion de l’état de droit, de la justice et de la réconciliation, et que l’importance démographique de la jeunesse actuelle est un atout qui peut contribuer à instaurer durablement la paix et la prospérité économique, si tant est que des politiques inclusives soient en place ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que la réforme du secteur de la sécurité est essentielle pour lutter contre l’impunité des violations des droits humains et atteintes à ces droits et des violations du droit international humanitaire, le cas échéant, et faire en sorte que leurs auteurs répondent de leurs actes, et concourt au respect de l’état de droit et à l’accès à la justice ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres qui entreprennent de réformer le secteur de la sécurité à institutionnaliser la protection de l’enfance, notamment en l’incluant dans l’instruction militaire et les consignes, ainsi que les directives militaires, si nécessaire, et en mettant en place des groupes de la protection de l’enfance au sein des forces nationales de sécurité, des mécanismes efficaces de détermination de l’âge permettant de prévenir tout recrutement de mineurs, des dispositifs de contrôle permettant d’exclure des rangs des forces nationales de sécurité quiconque a exercé des sévices sur la personne d’enfants, et des mesures destinées à protéger les écoles et les hôpitaux contre toute attaque et à empêcher que les écoles soient utilisées à des fins militaires en violation du droit international applicable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe que la réforme du secteur de la sécurité prenne davantage en compte, entre autres activités, celles de maintien de l’ordre, d’administration de la justice et d’administration pénitentiaire, de défense, de gestion des frontières et de maintien de leur sécurité, de maintien de la sûreté maritime et de protection civile, notamment en mettant en place des forces de police professionnelles, accessibles et responsables qui contribuent à renforcer la capacité d’adaptation de la population, ainsi que les institutions de tutelle et d’administration, et <span class="italic">insiste</span> pour que les activités d’appui menées par les Nations Unies sur le terrain et au Siège soient intégrées à l’échelle du secteur et au niveau des différentes composantes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">Est conscient</span> de la nécessité de mettre en place une gouvernance et une réforme intégrant plus efficacement toutes les activités liées à la sécurité, en définissant clairement les fonctions et attributions des différentes institutions de sécurité concernées, et <span class="italic">salue</span> à cet égard le rôle de premier plan que jouent les acteurs de la défense nationale pour ce qui est de protéger la souveraineté et l’intégrité des États et leurs populations ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les opérations de maintien de la paix et les missions politiques spéciales des Nations Unies à continuer de concourir à l’action menée pour renforcer la confiance entre les acteurs et institutions chargés de la sécurité nationale et la population ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe que les organes compétents des Nations Unies qui entreprennent de planifier les activités prescrites aux missions en ce qui concerne la réforme du secteur de la sécurité attachent toute l’importance voulue à l’appui aux mesures nationales de réforme du secteur de la sécurité en tenant compte des besoins particuliers du pays hôte et de sa population, notamment en établissant des partenariats avec les autres acteurs internationaux et régionaux qui fournissent une assistance dans ce domaine aux autorités nationales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Souligne également</span> qu’il importe de contribuer plus activement aux initiatives globales visant à améliorer la gouvernance et l’efficacité générale du secteur de la sécurité et à consolider les fondements des institutions chargées de la sécurité dans chaque composante, et de veiller à ce que les partenariats stratégiques et les mécanismes de coordination accordent la priorité à l’appui et au financement des initiatives portant sur la gouvernance du secteur de la sécurité, et <span class="italic">note</span> qu’il est possible de renforcer la gouvernance et les institutions de ce secteur en favorisant la tenue de dialogues inclusifs sur la sécurité nationale, l’examen régulier du secteur de la sécurité nationale et l’évaluation de ses besoins, l’adoption d’une politique et d’une stratégie de sécurité nationale, d’une législation sur la sécurité nationale et de plans relatifs au secteur de la sécurité nationale, le contrôle des dépenses publiques consacrées au secteur de la sécurité et le contrôle, la gestion et la coordination des activités relatives à la sécurité nationale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="italic">Souligne en outre</span> que, pour gérer la transition d’une mission de maintien de la paix ou mission politique spéciale en ce qui concerne les activités relatives à la réforme du secteur de la sécurité, il faut d’abord évaluer en temps utile, en concertation avec le pays hôte et en étroite coordination avec l’équipe de pays des Nations Unies, l’assistance dont celui-ci aura besoin après l’expiration du mandat de la mission, afin de permettre aux acteurs de la consolidation de la paix et du développement de procéder à la planification stratégique nécessaire et de lever des fonds en conséquence, dans le cadre d’un partenariat étroit avec les autorités nationales et les organisations et populations locales, notamment les femmes et les jeunes, selon que de besoin, et de transférer au plus vite des compétences techniques aux responsables et experts du pays hôte, de sorte à assurer le succès durable de la transition ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="italic">Note</span> que l’Organisation des Nations Unies est particulièrement bien placée pour aider les États Membres à coordonner des mesures liées à la gouvernance et à la réforme du secteur de la sécurité qui soient conformes à une ambition et à des priorités nationales inclusives, comme l’exigent certaines situations, et qu’elle a une vaste expérience et des avantages comparatifs en la matière, puisqu’elle travaille en étroite collaboration avec les acteurs internationaux et régionaux compétents, et <span class="italic">demande instamment</span> à tous les acteurs concernés d’aligner l’appui qu’ils apportent sur les priorités nationales de manière transparente et coordonnée afin d’assurer l’efficacité souhaitée et de renforcer l’impact de l’appui international aux efforts nationaux de réforme du secteur de la sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à rester mobilisés et à faciliter les débats sur les moyens de renforcer la stratégie et le rôle de l’Organisation dans ce domaine crucial, y compris par l’intermédiaire du Comité spécial des opérations de maintien de la paix de l’Assemblée générale et de la Commission de consolidation de la paix ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_162" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_162__content">
+          <p xml:space="preserve">	<span class="italic">Note</span> que la Police des Nations Unies peut contribuer grandement, y compris en coordonnant l’assistance internationale, à faciliter la réforme des institutions nationales de police et à renforcer leurs capacités dans tous les domaines, en insistant sur l’action de proximité et en mettant notamment en place de puissants mécanismes de gouvernance, de tutelle et de responsabilisation dans le cadre d’un système judiciaire et pénitentiaire qui fonctionne ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">	<span class="italic">Est conscient</span> que les opérations de maintien de la paix et missions politiques spéciales des Nations Unies pour ce mandatées et l’Équipe spéciale interinstitutions pour la réforme du secteur de la sécurité doivent contrôler et évaluer encore plus activement les initiatives de l’Organisation des Nations Unies en matière de réforme du secteur de la sécurité afin d’assurer l’efficacité, la coordination et la cohérence de l’appui que l’Organisation et d’autres partenaires régionaux, bilatéraux et multilatéraux offrent aux autorités nationales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_197" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_197__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à verser des contributions volontaires à l’appui des mesures liées à la réforme et à la gouvernance du secteur de la sécurité, et à faire en sorte que des ressources suffisantes soient allouées aux initiatives visant à renforcer la gouvernance de ce secteur, notamment celles qui portent sur l’ensemble de celui-ci, et, lorsque c’est possible et s’il en est convenu, par l’intermédiaire du Fonds pour la consolidation de la paix, compte tenu des priorités fixées par les autorités nationales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_216" class="SingleTxt">
+        <num>20.</num>
+        <list eId="para_216_list">
+          <intro eId="para_216_list_intro">
+            <p xml:space="preserve">	<span class="italic">Décide</span> de continuer de renforcer le rôle du Secrétariat de l’Organisation en matière de réforme du secteur de la sécurité et <span class="italic">prie</span> à cet égard le Secrétaire général d’envisager les mesures ci-après compte tenu des mandats propres à chaque pays :</p>
+          </intro>
+          <point eId="para_216_list_point_a">
+            <num>a)</num>
+            <content eId="para_216_list_point_a_content">
+              <p xml:space="preserve">	Consolider l’approche globale, intégrée et cohérente de l’Organisation des Nations Unies en ce qui concerne la réforme du secteur de la sécurité ;</p>
+            </content>
+          </point>
+          <point eId="para_216_list_point_b">
+            <num>b)</num>
+            <content eId="para_216_list_point_b_content">
+              <p xml:space="preserve">	Élaborer des directives supplémentaires, notamment sur la prise en compte systématique des questions de genre, à l’intention de certains fonctionnaires de l’Organisation, notamment ses représentants et envoyés spéciaux, et aider l’ensemble des représentants concernés de l’Organisation à comprendre comment mener à bien les activités prescrites en matière de réforme du secteur de la sécurité ;</p>
+            </content>
+          </point>
+          <point eId="para_216_list_point_c">
+            <num>c)</num>
+            <content eId="para_216_list_point_c_content">
+              <p xml:space="preserve">	Inciter ses représentants spéciaux et envoyés spéciaux et les coordonnateurs résidents des Nations Unies à prendre pleinement en compte la portée stratégique de la réforme du secteur de la sécurité, notamment à l’occasion des missions de bons offices, s’il y a lieu, et à prendre dûment acte du rôle que jouent les missions politiques spéciales des Nations Unies, selon ce que prévoient leur mandat, s’agissant de promouvoir des initiatives de prévention opérationnelles et structurelles, en exécutant des activités et des mesures visant à réformer le secteur de la sécurité ;</p>
+            </content>
+          </point>
+          <point eId="para_216_list_point_d">
+            <num>d)</num>
+            <content eId="para_216_list_point_d_content">
+              <p xml:space="preserve">	Encourager ses représentants spéciaux œuvrant dans les opérations de maintien de la paix et les missions politiques spéciales des Nations Unies à tenir pleinement compte de la gouvernance et de la réforme du secteur de la sécurité, selon ce que prévoit leur mandat, dans leurs missions de bons offices, et à examiner la contribution de la réforme du secteur de la sécurité aux efforts déployés par les missions pour faire avancer les processus de paix, étendre l’autorité de l’État et créer des conditions propres à mieux protéger les civils ;</p>
+            </content>
+          </point>
+          <point eId="para_216_list_point_e">
+            <num>e)</num>
+            <content eId="para_216_list_point_e_content">
+              <p xml:space="preserve">	Mettre l’accent, dans les rapports qu’il lui fait périodiquement au sujet de telle ou telle opération établie par le Conseil, sur les informations les plus récentes concernant l’état d’avancement de la réforme du secteur de la sécurité là où elle a été prescrite, notamment en mettant au point, pour chaque pays, des critères de référence permettant d’évaluer l’efficacité de l’assistance fournie par l’Organisation, selon qu’il convient, et l’exécution par les pays hôtes de leurs engagements en ce qui concerne la réforme du secteur de la sécurité, et de recenser les obstacles susceptibles de nuire à la réforme, et en tenant compte de l’approche globale, intégrée et cohérente de l’Organisation en ce qui concerne la réforme du secteur de la sécurité, selon ce que prévoient les mandats, afin de lui permettre de mieux contrôler les activités relatives à la réforme du secteur de la sécurité ;</p>
+            </content>
+          </point>
+          <point eId="para_216_list_point_f">
+            <num>f)</num>
+            <content eId="para_216_list_point_f_content">
+              <p xml:space="preserve">	Mettre l’accent, dans les rapports que le Conseil l’a chargé de lui faire périodiquement au sujet de telle ou telle opération, sur l’action menée pour faciliter la coordination de l’appui international à la réforme du secteur de la sécurité, et y faire figurer des informations actualisées sur l’appui fourni par l’ensemble des acteurs concourant à la réforme du secteur de la sécurité, afin de lui permettre de mieux contrôler les activités relatives à la réforme du secteur de la sécurité ;</p>
+            </content>
+          </point>
+          <point eId="para_216_list_point_g">
+            <num>g)</num>
+            <content eId="para_216_list_point_g_content">
+              <p xml:space="preserve">	Encourager, à toutes les phases des processus de paix appuyés par l’Organisation, y compris lors de la réduction progressive des effectifs et le retrait des opérations de maintien de la paix et des missions politiques spéciales, les équipes de pays des Nations Unies et les autres partenaires multilatéraux et bilatéraux à concourir en temps utile et de manière coordonnée au transfert des activités liées à la réforme du secteur de la sécurité et à offrir une assistance aux partenaires de la consolidation de la paix concernés, de façon à assurer un soutien adéquat aux autorités nationales ;</p>
+            </content>
+          </point>
+          <point eId="para_216_list_point_h">
+            <num>h)</num>
+            <content eId="para_216_list_point_h_content">
+              <p xml:space="preserve">	Continuer de tirer parti des notes d’orientation techniques intégrées et des modules de formation correspondants, ainsi que d’autres outils, si nécessaire, afin de permettre aux organismes des Nations Unies de contribuer de manière cohérente et coordonnée à la réforme du secteur de la sécurité, et définir les modalités de l’assistance apportée collectivement aux autorités nationales aux fins de la mise en œuvre de cette réforme, en préconisant l’affectation de ressources aux efforts déployés en ce sens par les équipes de pays des Nations Unies et les composantes consolidation de la paix des opérations de maintien de la paix et des missions politiques spéciales des Nations Unies ;</p>
+            </content>
+          </point>
+          <point eId="para_216_list_point_i">
+            <num>i)</num>
+            <content eId="para_216_list_point_i_content">
+              <p xml:space="preserve">	Continuer d’assurer la prise en compte de la gouvernance et de la réforme du secteur de la sécurité dans les partenariats stratégiques, tels que celui avec l’Union africaine, et, selon qu’il conviendra, les mécanismes de partenariat existants, afin de renforcer l’approche globale de l’Organisation en ce qui concerne la réforme du secteur de la sécurité et de favoriser la cohérence stratégique de l’action menée, notamment en officialisant les partenariats, en répartissant clairement les responsabilités et en intégrant les objectifs de la réforme du secteur de la sécurité dans les phases de planification et de transition des missions ;</p>
+            </content>
+          </point>
+          <point eId="para_216_list_point_j">
+            <num>j)</num>
+            <content eId="para_216_list_point_j_content">
+              <p xml:space="preserve">	Donner aux hauts responsables des équipes de pays des Nations Unies les moyens d’absorber les fonctions de consolidation de la paix, y compris les éventuelles activités liées à la réforme du secteur de la sécurité, après le retrait des missions mandatées par le Conseil de sécurité ;</p>
+            </content>
+          </point>
+          <point eId="para_216_list_point_k">
+            <num>k)</num>
+            <content eId="para_216_list_point_k_content">
+              <p xml:space="preserve">	Veiller à ce que l’assistance liée à la réforme du secteur de la sécurité soit fournie compte tenu, le cas échéant, des embargos sur les armes décidés par le Conseil, y compris des dérogations qui pourraient avoir été accordées expressément pour soutenir la réforme du secteur de la sécurité ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_236" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_236__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe de nouer des partenariats et de coopérer avec les organisations et les accords régionaux et sous-régionaux visés au Chapitre VIII de la Charte des Nations Unies pour contribuer à la réforme du secteur de la sécurité et inciter les régions à s’investir davantage dans cette entreprise ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_257" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_257__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> le Secrétaire général à continuer de promouvoir la coopération entre l’Organisation des Nations Unies et l’Union africaine, conformément au Cadre commun Organisation des Nations Unies-Union africaine pour un partenariat renforcé en matière de paix et de sécurité (2017) et au Cadre Union africaine-Organisation des Nations Unies pour la mise en œuvre de l’Agenda 2063 et du Programme de développement durable à l’horizon <a href="https://undocs.org/fr/S/RES/2030(2018)">2030 (2018)</a>, de façon à renforcer l’application, sur l’ensemble du continent, du cadre d’orientation de l’Union africaine sur la réforme du secteur de la sécurité, lequel est adossé à l’Architecture africaine de paix et de sécurité et vient l’étayer, et <span class="italic">engage</span> tous les partenaires à continuer d’aider l’Union africaine à se doter de moyens accrus à cette fin, <span class="italic">saluant</span> les efforts déployés par l’ensemble des partenaires internationaux pour aider les États Membres, selon que de besoin, à honorer les engagements qu’ils ont pris au titre d’instruments régionaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_279" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_279__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> qu’il importe que les États Membres, les organisations régionales et sous-régionales, les organisations spécialisées, y compris les universités et les instituts de recherche, et les parties concernées, y compris les organisations de femmes et de jeunes, mettent en commun les données et enseignements tirés de leur expérience, leurs bonnes pratiques et leurs compétences en matière de réforme du secteur de la sécurité et, à cet égard, <span class="italic">préconise</span> le renforcement des échanges et de la coopération Sud-Sud ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_302" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_302__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> l’importance d’une participation effective des femmes, sur un pied d’égalité avec les hommes, à toutes les étapes de la réforme du secteur de la sécurité, eu égard au rôle essentiel qu’elles jouent dans la prévention et le règlement des conflits et dans la consolidation de la paix, afin d’accroître leur participation et leur représentation dans toutes les institutions du secteur de la sécurité, et <span class="italic">estime</span> qu’il est nécessaire de répondre aux besoins particuliers des femmes et des filles officiellement associées aux forces ou groupes armés, ainsi que des épouses et des veuves d’ex-combattants, et de renforcer les mesures de protection des civils, notamment en formant le personnel de sécurité comme il se doit, en recrutant plus de femmes dans le secteur de la sécurité et en mettant en place des procédures de contrôle efficaces permettant d’exclure les auteurs de violences sexuelles de ce secteur et de les amener à répondre de leurs actes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_326" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_326__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de lui présenter, en septembre 2021, un rapport sur les mesures qu’il aura prises pour consolider l’approche globale de l’Organisation des Nations Unies en ce qui concerne la réforme du secteur de la sécurité, afin d’éclairer ses délibérations sur cette question ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_351" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_351__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de rester activement saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
