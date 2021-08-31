@@ -1,0 +1,808 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/"></FRBRuri>
+          <FRBRdate date="2020-03-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/spa@/"></FRBRuri>
+          <FRBRdate date="2020-03-12" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-03-12/2514-2020/spa@.xml"></FRBRuri>
+          <FRBRdate date="2021-08-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Mission in South Sudan" showAs="UN Mission in South Sudan" dictionary="DHLAUTH"></keyword>
+        <keyword value="Revitalized Agreement on the Resolution of Conflict in the Republic of South Sudan (2018)" showAs="Revitalized Agreement on the Resolution of Conflict in the Republic of South Sudan (2018)" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" showAs="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOUTH SUDAN" showAs="SOUTH SUDAN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[216]" showAs="UN MISSION IN SOUTH SUDAN" dictionary="S/75"></keyword>
+        <keyword refersTo="agenda" value="[223]" showAs="SOUTH SUDAN--POLITICAL CONDITIONS" dictionary="S/75"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="Reports of the Secretary-General on the Sudan and South Sudan." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2514 (2020) [on extension of the mandate of the UN Mission in South Sudan (UNMISS) until 15 Mar. 2021]" showAs="Security Council resolution 2514 (2020) [on extension of the mandate of the UN Mission in South Sudan (UNMISS) until 15 Mar. 2021]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-03-12" outcome="draftResolution" as="S/2020/197" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2020-03-12" outcome="adopted" as="S/PV.8744" by="Adopted unanimously, 8744th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-03919 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2514 (2020)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo de Seguridad</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-03-12" class="rightSmall" refersTo="#dateOfIssuance">12 de marzo de 2020</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolución 2514 (2020)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Aprobada por el Consejo de Seguridad en su <inline name="adoptionMeeting" title="8744a">8744a sesión</inline>, celebrada el <docDate date="2020-03-12" refersTo="#adoptionDate">12 de marzo de 2020</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Seguridad</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>todas sus anteriores resoluciones, declaraciones de la Presidencia y comunicados de prensa sobre la situación en Sudán del Sur, </p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando </span>su decidido compromiso con la soberanía, la independencia, la integridad territorial y la unidad nacional de la República de Sudán del Sur, y recordando la importancia de los principios de no injerencia, buena vecindad y cooperación regional, </p>
+      </container>
+      <container name="Reiterando" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Reiterando </span>su grave alarma y preocupación por la crisis política, de seguridad, económica y humanitaria que atraviesa Sudán del Sur y por la violencia que desde diciembre de 2013 provocan los dirigentes políticos y militares del país, y poniendo de relieve que no puede haber solución militar a la situación de Sudán del Sur, </p>
+      </container>
+      <container name="Condenando enérgicamente" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Condenando enérgicamente</span> todos los enfrentamientos y demás violaciones del Acuerdo sobre la Cesación de las Hostilidades, la Protección de los Civiles y el Acceso Humanitario de 21 de diciembre de 2017 (el ACH), acogiendo con beneplácito la rápida evaluación de las violaciones realizada por el Mecanismo de Vigilancia y Verificación del Alto el Fuego y los Arreglos Transitorios de Seguridad (MVVAFATS), alentando a la Autoridad Intergubernamental para el Desarrollo (IGAD) a que le transmita rápidamente los informes pertinentes, y señalando que, al igual que la Unión Africana y la IGAD, exigió que se obligara a rendir cuentas a las partes que violaran el ACH, </p>
+      </container>
+      <container name="Expresando" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Expresando </span>aprecio por el liderazgo de la IGAD para hacer avanzar el proceso de paz de Sudán del Sur y acogiendo con beneplácito el compromiso y los esfuerzos de la IGAD y sus Estados miembros, la Comisión Mixta de Vigilancia y Evaluación Reconstituida (CMVER), la Unión Africana, el Consejo de Paz y Seguridad de la Unión Africana (CPSUA), las Naciones Unidas y los países de la región para seguir colaborando con los dirigentes sursudaneses a fin de hacer frente a la crisis actual, y alentándolos a que sigan colaborando de manera proactiva,</p>
+      </container>
+      <container name="Subrayando" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Subrayando </span>que el Acuerdo Revitalizado para la Solución del Conflicto en la República de Sudán del Sur de 2018 (el Acuerdo Revitalizado) es un importante paso adelante en el proceso de paz que ofrece una oportunidad de lograr la paz y la estabilidad sostenibles en Sudán del Sur, exhortando a las partes sursudanesas a que demuestren la voluntad política necesaria para resolver el conflicto de manera pacífica, destacando que la negociación del reparto del poder y los arreglos de seguridad y el regreso de todas las partes sursudanesas a Yuba sin riesgos son esenciales para hacer avanzar el proceso de paz, y exhortando a las partes a que garanticen la participación plena, efectiva y significativa de las mujeres en el proceso de paz, reconozcan la necesidad de proteger de amenazas y represalias a las organizaciones que defienden los derechos de las mujeres y a las consolidadoras de la paz, y cumplan los compromisos establecidos con respecto a la inclusividad, particularmente en lo relativo a la diversidad nacional, el género, la juventud y la representación regional en el Acuerdo Revitalizado,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con beneplácito</span> las alentadoras novedades acaecidas en el proceso de paz del Sudán del Sur, como el inicio de la formación del Gobierno de Transición de Unidad Nacional Revitalizado, reconociendo que este es un paso importante hacia la paz sostenible dado por las partes en el Acuerdo Revitalizado, y acogiendo con beneplácito también el espíritu de compromiso y la voluntad política demostrados por las partes a fin de crear las condiciones necesarias para hacer avanzar el proceso de paz,</p>
+      </container>
+      <container name="Reconociendo" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que la violencia política se ha reducido desde la firma del Acuerdo Revitalizado y que el alto el fuego permanente se ha respetado en la mayor parte del país, y reconociendo también que se han adoptado medidas de fomento de la confianza entre los signatarios del Acuerdo Revitalizado y se han establecido la mayoría de los mecanismos previos a la transición previstos en dicho Acuerdo, </p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con beneplácito</span> la mediación que está realizando la Comunidad de Sant’Egidio para fomentar el diálogo político entre los signatarios y no signatarios del Acuerdo Revitalizado y alentando a todas las partes a que sigan esforzándose por resolver las controversias de manera pacífica a fin de lograr una paz inclusiva y sostenible, </p>
+      </container>
+      <container name="Recordando" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>su resolución <a href="https://undocs.org/sp/S/RES/2117(2013)">2117 (2013)</a> y expresando grave preocupación por la amenaza que para la paz y la seguridad de Sudán del Sur representan la transferencia ilícita, la acumulación desestabilizadora y el uso indebido de armas pequeñas y armas ligeras, </p>
+      </container>
+      <container name="Haciendo notar" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Haciendo notar</span> las medidas que adoptó en su resolución <a href="https://undocs.org/sp/S/RES/2428(2018)">2428 (2018)</a> y prorrogó en la resolución <a href="https://undocs.org/sp/S/RES/2471(2019)">2471 (2019)</a>,</p>
+      </container>
+      <container name="Recordando" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>que las personas o entidades que, directa o indirectamente, sean responsables o cómplices de actos o políticas que supongan una amenaza para la paz, la seguridad o la estabilidad de Sudán del Sur o hayan participado en ellos podrán ser designadas para la aplicación de sanciones selectivas en virtud de las resoluciones <a href="https://undocs.org/sp/S/RES/2206(2015)">2206 (2015)</a>, <a href="https://undocs.org/sp/S/RES/2271(2016)">2271 (2016)</a>, <a href="https://undocs.org/sp/S/RES/2280(2016)">2280 (2016)</a>, <a href="https://undocs.org/sp/S/RES/2290(2016)">2290 (2016)</a>, <a href="https://undocs.org/sp/S/RES/2353(2017)">2353 (2017)</a>, <a href="https://undocs.org/sp/S/RES/2428(2018)">2428 (2018)</a> y <a href="https://undocs.org/sp/S/RES/2471(2019)">2471 (2019)</a>, incluidas las personas que planifiquen, dirijan o cometan actos que contravengan las disposiciones aplicables del derecho internacional de los derechos humanos o el derecho internacional humanitario, actos que constituyan abusos de los derechos humanos o actos que conlleven violencia sexual y de género en Sudán del Sur, y las que participen en ataques contra las misiones de las Naciones Unidas, las presencias internacionales de seguridad u otras operaciones de mantenimiento de la paz, o contra el personal humanitario, y recordando también su disposición a imponer sanciones selectivas,</p>
+      </container>
+      <container name="Destacando" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Destacando </span>la importancia fundamental que reviste la aplicación efectiva del régimen de sanciones, incluidas las medidas relativas a la prohibición de viajar, y la función clave que pueden desempeñar a este respecto los Estados vecinos, así como las organizaciones regionales y subregionales<span class="italic">, </span>alentando los esfuerzos por seguir mejorando la cooperación, y reafirmando que estará dispuesto a ajustar las medidas establecidas en la resolución <a href="https://undocs.org/sp/S/RES/2428(2018)">2428 (2018)</a> y prorrogadas en la resolución <a href="https://undocs.org/sp/S/RES/2471(2019)">2471 (2019)</a> a la luz de los progresos conseguidos en el proceso de paz, rendición de cuentas y reconciliación,</p>
+      </container>
+      <container name="Encomiando" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Encomiando </span>la labor de la Misión de las Naciones Unidas en Sudán del Sur (UNMISS), destacando la importancia de mantener una interacción y un enlace efectivos con las comunidades locales, así como con los agentes humanitarios, incluso mediante comunicaciones periódicas sobre el mandato de la UNMISS, incluidas sus acciones previstas y sus capacidades, las amenazas a la seguridad y la información conexa, tanto dentro como fuera de los emplazamientos de protección de civiles, y alentando a la UNMISS a que mejore la interacción con las comunidades, incluso durante las patrullas, a fin de cumplir su mandato de protección de los civiles, </p>
+      </container>
+      <container name="Reconociendo" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que la protección de los civiles inermes con frecuencia puede complementar los esfuerzos dirigidos a crear un entorno protector, en particular para disuadir de que se cometan actos de violencia sexual y de género contra los civiles, y alentando a la UNMISS a que, cuando proceda y sea posible, estudie la manera de utilizar técnicas de protección de civiles, incluso mediante la interacción con las comunidades, y la estrategia de comunicación de la Misión para mejorar su capacidad de proteger a los civiles, y a que capacite al personal de la UNMISS en consecuencia, </p>
+      </container>
+      <container name="Reconociendo" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la penosa situación humanitaria y el alto nivel de inseguridad alimentaria del país, condenando los ataques contra los medios de subsistencia y la denegación del acceso a los alimentos, y observando la importancia de la contribución de la UNMISS para crear condiciones que permitan la entrega de asistencia humanitaria y lograr, mediante la coordinación con los agentes humanitarios y de desarrollo, las comunidades desplazadas y las autoridades, las condiciones necesarias para que los desplazados internos y los refugiados regresen, se reubiquen, se reasienten o se integren en las comunidades de acogida sin riesgos y de manera informada, voluntaria y digna, </p>
+      </container>
+      <container name="Condenando enérgicamente" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Condenando enérgicamente</span> la obstrucción constante de la labor de la UNMISS por el Gobierno de Sudán del Sur y los grupos de la oposición, incluidas las severas restricciones impuestas a la libertad de circulación, las agresiones contra su personal y la limitación de las operaciones de la Misión, como las restricciones que afectan a las patrullas y a los esfuerzos de la UNMISS por, entre otras cosas, vigilar la situación de los derechos humanos, muchas de las cuales fueron denunciadas por el Secretario General como violaciones del Acuerdo sobre el Estatuto de las Fuerzas por el Gobierno de Sudán del Sur, y recordando que, de conformidad con dicho Acuerdo, la UNMISS, así como sus contratistas, tendrán libertad de circulación plena y sin restricciones ni demoras en todo el Sudán del Sur por la ruta más directa posible, sin necesidad de permisos de viaje ni autorización o notificación previa, y derecho a importar equipo, provisiones, suministros, combustible, material y otros bienes exentos de derechos, impuestos y gravámenes y sin ninguna otra prohibición ni restricción,</p>
+      </container>
+      <container name="Exigiendo" eId="container_19">
+          <p xml:space="preserve">
+            <span class="italic">	Exigiendo </span>que todos los agentes pertinentes, en particular el Gobierno de Sudán del Sur, e incluidas las Fuerzas de Defensa del Pueblo de Sudán del Sur (FDPSS), el Servicio de Policía Nacional de Sudán del Sur, el Servicio Nacional de Seguridad, el Ejército de Liberación del Pueblo del Sudán en la Oposición (ELPS-O) y el Frente de Salvación Nacional, eliminen todos los obstáculos impuestos a la UNMISS, entre otros, los que le impiden cumplir su mandato de vigilar e investigar la situación de los derechos humanos, </p>
+      </container>
+        <container name="Recordando" eId="container_20">
+          <p xml:space="preserve">
+          <span class="italic">	Recordando </span>su enérgica condena de todos los casos de ataques contra civiles, incluidos los que conllevan violencia contra las mujeres, la infancia y las personas en situación de vulnerabilidad, violencia por motivos étnicos, discurso de odio e incitación a la violencia, y expresando además profunda preocupación por la posibilidad de que lo que comenzó siendo un conflicto político pueda seguir transformándose en una guerra étnica absoluta, como señaló el Asesor Especial sobre la Prevención del Genocidio, Adama Dieng, </p>
+        </container>
+        <container name="Expresando" eId="container_21">
+          <p xml:space="preserve">
+          <span class="italic">	Expresando </span>grave preocupación por las constantes denuncias de actos de violencia sexual y de género, incluidas las conclusiones del informe que le presentó el Secretario General sobre la violencia sexual relacionada con los conflictos (<a href="https://undocs.org/sp/S/2019/280">S/2019/280</a>), según las cuales las partes en el conflicto utilizan la violencia sexual, incluidos actos de violación y violación colectiva de mujeres y niñas, y el secuestro, el matrimonio forzado y la esclavitud sexual, como táctica contra la población civil en Sudán del Sur, donde la persistente incidencia de la violencia sexual relacionada con los conflictos y otras formas de violencia contra las mujeres y las niñas se ha normalizado y mantenido después de la firma del Acuerdo Revitalizado y pese a la suspensión de la mayoría de las ofensivas militares, como se documentó en el informe sobre la violencia sexual relacionada con el conflicto en el norte de Unidad entre septiembre y diciembre de 2018 presentado por la UNMISS y la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos (ACNUDH) en febrero de 2019, y subrayando la urgencia y la importancia de investigar sin demora los hechos y prestar asistencia y protección a las víctimas de la violencia sexual y de género, </p>
+        </container>
+        <container name="Condenando enérgicamente" eId="container_22">
+          <p xml:space="preserve">
+          <span class="italic">	Condenando enérgicamente</span> todas las violaciones y abusos de los derechos humanos y las violaciones del derecho internacional humanitario cometidos por todas las partes, incluidos los grupos armados y las fuerzas nacionales de seguridad, así como la incitación a cometer tales abusos y violaciones, condenando también el hostigamiento, los ataques y la censura contra la sociedad civil, el personal humanitario y los periodistas, poniendo de relieve que los responsables de las violaciones del derecho internacional humanitario y las violaciones y abusos de los derechos humanos deben rendir cuentas, y que el Gobierno de Sudán del Sur es el principal responsable de proteger a sus poblaciones frente al genocidio, los crímenes de guerra, la depuración étnica y los crímenes de lesa humanidad, y expresando<span class="italic"> preocupación</span> por el hecho de que, pese a la firma del Acuerdo Revitalizado, se sigan produciendo violaciones, incluidos casos de violación y violencia sexual, que pueden constituir crímenes internacionales, incluidos crímenes de guerra y crímenes de lesa humanidad,</p>
+        </container>
+        <container name="Reiterando" eId="container_23">
+          <p xml:space="preserve">
+          <span class="italic">	Reiterando </span>la urgente necesidad de poner fin a la impunidad en Sudán del Sur y de que comparezcan ante la justicia todos los responsables de violaciones del derecho internacional humanitario y de violaciones y abusos de los derechos humanos, destacando la importancia de adoptar medidas de justicia de transición, incluidas las previstas en el Acuerdo Revitalizado, para poner fin a la impunidad, facilitar la reconciliación y la regeneración nacionales y asegurar una paz sostenible, como se reconoce en el capítulo V del Acuerdo Revitalizado y, a este respecto, apoyando los esfuerzos de la Unión Africana por establecer el Tribunal Híbrido para Sudán del Sur, y compartiendo la preocupación del CPSUA por los retrasos y la falta de cooperación del Gobierno de Sudán del Sur, como declaró el Presidente de la Unión Africana en febrero de 2020, durante la sesión de apertura del Consejo Ejecutivo de la Unión, </p>
+        </container>
+        <container name="Expresando" eId="container_24">
+          <p xml:space="preserve">
+          <span class="italic">	Expresando </span>grave preocupación por los informes de la UNMISS y el Secretario General sobre la situación de los derechos humanos en Sudán del Sur, expresando grave preocupación también porque, según el informe de la Comisión de Investigación de la Unión Africana sobre Sudán del Sur, que se dio a conocer el 27 de octubre de 2015, y los informes de la Comisión sobre los Derechos Humanos en Sudán del Sur publicados los días 23 de febrero de 2018, 20 de febrero de 2019 y 20 de febrero de 2020, podrían haberse cometido crímenes de guerra y crímenes de lesa humanidad, poniendo de relieve su esperanza de que estos y otros informes fidedignos sean examinados debidamente por algún mecanismo de justicia de transición para Sudán del Sur, como los establecidos en virtud del Acuerdo Revitalizado, destacando la importancia de reunir y preservar pruebas que en su momento puedan ser utilizadas por el Tribunal Híbrido para Sudán del Sur y otros mecanismos de rendición de cuentas, y alentando los esfuerzos en este sentido, </p>
+        </container>
+        <container name="Reconociendo" eId="container_25">
+          <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la importancia de que el Gobierno de Sudán del Sur haya ratificado el Protocolo Facultativo de la Convención sobre los Derechos del Niño relativo a la participación de niños en los conflictos armados, exhortando enérgicamente a que se aplique de manera plena e inmediata, acogiendo con beneplácito la firma por el Gobierno de Sudán del Sur el 7 de febrero del Plan de Acción General para Eliminar y Prevenir todas las Violaciones Graves contra los Niños, tomando nota de la función desempeñada por el Gobierno de Sudán del Sur en la negociación de la puesta en libertad de niños por las partes en conflicto, pero observando que en julio de 2019 se creía que todavía había 19.000 niños en las filas de las FDPSS, según el informe de la Comisión de Derechos Humanos de febrero de 2020, instando a todas las partes a que redoblen sus esfuerzos para poner fin de inmediato al reclutamiento de niños y liberar a todos los niños reclutados hasta la fecha, y alentando a que se siga trabajando en este sentido, en particular mediante el respaldo del Gobierno de Sudán del Sur a los Principios de París, </p>
+        </container>
+        <container name="Tomando nota" eId="container_26">
+          <p xml:space="preserve">
+          <span class="italic">	Tomando nota</span> del informe conjunto de la UNMISS y el ACNUDH sobre la libertad de opinión y de expresión en Sudán del Sur desde la crisis de julio de 2016, publicado en febrero de 2018, expresando su constante preocupación por la grave restricción de las libertades de opinión, expresión y asociación, condenando el uso de los medios de comunicación para difundir discursos de odio y transmitir mensajes que instigan a la violencia contra un grupo étnico particular, práctica que puede acabar provocando violencia generalizada y exacerbar el conflicto, y exhortando al Gobierno de Sudán del Sur a que condene y contrarreste inmediatamente el aumento de los discursos de odio y la violencia étnica y fomente la reconciliación de su pueblo, </p>
+        </container>
+        <container name="Expresando" eId="container_27">
+          <p xml:space="preserve">
+          <span class="italic">	Expresando </span>seria preocupación por la penosa situación de las personas con discapacidad en Sudán del Sur, que incluye abandono, violencia y falta de acceso a los servicios básicos, y poniendo de relieve la necesidad de asegurar que la respuesta humanitaria atienda las necesidades particulares de las personas con discapacidad,</p>
+        </container>
+        <container name="Reconociendo" eId="container_28">
+          <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>los efectos adversos de los fenómenos meteorológicos extremos en la situación humanitaria y la estabilidad de Sudán del Sur, y poniendo de relieve la necesidad de que el Gobierno de Sudán del Sur y las Naciones Unidas realicen evaluaciones adecuadas de los riesgos y formulen estrategias apropiadas de gestión de riesgos en relación con esos fenómenos,</p>
+        </container>
+        <container name="Expresando" eId="container_29">
+          <p xml:space="preserve">
+          <span class="italic">	Expresando </span>seria y urgente preocupación por los casi 3,9 millones de desplazados y por la persistencia de la crisis humanitaria, debido a la cual unos 5,29 millones de personas enfrentan una situación de inseguridad alimentaria grave según el informe de la Clasificación Integrada de la Seguridad Alimentaria en Fases de febrero de 2020, y 7,2 millones de personas necesitan asistencia vital, encomiando a los organismos humanitarios, los asociados y los donantes de las Naciones Unidas por los esfuerzos realizados para proporcionar apoyo urgente y coordinado a la población, y exhortando a la comunidad internacional a que continúe esforzándose por atender las necesidades humanitarias del pueblo de Sudán del Sur,</p>
+        </container>
+        <container name="Condenando" eId="container_30">
+          <p xml:space="preserve">
+          <span class="italic">	Condenando </span>los obstáculos impuestos por todas las partes a la circulación de la población civil y la de los agentes humanitarios para acceder a los civiles que necesitan asistencia, expresando preocupación por la introducción de impuestos y gravámenes que dificultan la prestación de asistencia humanitaria en todo el país, observando con preocupación las noticias de que los desplazamientos forzosos y la denegación del acceso humanitario están exacerbando la inseguridad alimentaria de la población civil, y recordando la necesidad de que todas las partes en el conflicto permitan y faciliten, de conformidad con las disposiciones pertinentes del derecho internacional y los principios rectores de la asistencia humanitaria de las Naciones Unidas, a saber, humanidad, imparcialidad, neutralidad e independencia, el acceso pleno, seguro y sin trabas del personal, el equipo y los suministros de socorro y la prestación oportuna de asistencia humanitaria a todas las personas necesitadas, en particular los desplazados internos y los refugiados, </p>
+        </container>
+        <container name="Condenando enérgicamente" eId="container_31">
+          <p xml:space="preserve">
+          <span class="italic">	Condenando enérgicamente</span> todos los ataques contra el personal y las instalaciones de asistencia humanitaria, que han causado la muerte de al menos 116 miembros del personal desde diciembre de 2013, como el ataque contra el complejo Terrain perpetrado el 11 de julio de 2016 y los ataques contra personal médico y hospitales, observando alarmado la creciente tendencia a hostigar e intimidar al personal humanitario, y recordando que los ataques contra el personal humanitario y los bienes indispensables para la supervivencia de la población civil pueden constituir violaciones del derecho internacional humanitario, </p>
+        </container>
+        <container name="Expresando" eId="container_32">
+          <p xml:space="preserve">
+          <span class="italic">	Expresando </span>su profundo aprecio por las medidas adoptadas por el personal de mantenimiento de la paz de la UNMISS y los países que aportan contingentes y fuerzas de policía para ejecutar el mandato de la Misión en un entorno difícil, incluso para proteger a los civiles amenazados de violencia física, incluidos los ciudadanos extranjeros, y para estabilizar la situación de la seguridad dentro y fuera de los emplazamientos de la UNMISS, destacando que el Secretario General no debería aceptar ninguna restricción nacional que menoscabe la eficacia de la ejecución del mandato, y resaltando que la falta de un mando y control efectivos, la negativa a obedecer órdenes, el hecho de no responder a los ataques contra civiles o declinar participar en patrullas de largo alcance en zonas rurales del país o realizarlas, la insuficiencia del equipo y los recursos financieros pueden menoscabar la responsabilidad compartida respecto de la ejecución eficaz del mandato, </p>
+        </container>
+        <container name="Acogiendo con beneplácito" eId="container_33">
+          <p xml:space="preserve">
+          <span class="italic">	Acogiendo con beneplácito</span> el compromiso del Secretario General de hacer cumplir estrictamente su política de tolerancia cero frente a la explotación y los abusos sexuales, observando las distintas medidas adoptadas por la UNMISS y los países que aportan contingentes y fuerzas de policía para combatir la explotación y los abusos sexuales, pero aun así expresando grave preocupación por las denuncias de explotación y abusos sexuales presuntamente cometidos por personal de mantenimiento de la paz en Sudán del Sur, destacando la necesidad urgente de que los países que aportan contingentes y fuerzas de policía y, según proceda, la UNMISS investiguen esas denuncias sin demora y con credibilidad y transparencia y de que se obligue a rendir cuentas a los responsables de esos delitos o faltas de conducta, y destacando también la necesidad de prevenir ese tipo de explotación y abusos y mejorar la forma de responder a las denuncias de conformidad con la resolución <a href="https://undocs.org/sp/S/RES/2272(2016)">2272 (2016)</a>, </p>
+        </container>
+        <container name="Reconociendo" eId="container_34">
+          <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>los importantes problemas de recursos y capacidad que tiene la UNMISS para ejecutar su mandato, expresando aprecio por los constantes esfuerzos que realiza la Misión para garantizar la seguridad de los desplazados internos que buscan protección en sus emplazamientos, pero reconociendo la importancia de encontrar soluciones sostenibles para los desplazados de conformidad con los Principios Rectores de los Desplazamientos Internos, y subrayando en este sentido la necesidad de ampliar su presencia, incluso mediante un despliegue y un patrullaje proactivos, a las zonas de desplazamiento y las zonas donde puedan producirse o se produzcan regresos, y poniendo de relieve la importancia de que la UNMISS adopte una postura flexible dentro y fuera de los emplazamientos de protección de civiles y de que las decisiones sobre la postura y el despliegue sigan vinculándose al análisis de las amenazas, </p>
+        </container>
+        <container name="Poniendo de relieve" eId="container_35">
+          <p xml:space="preserve">
+          <span class="italic">	Poniendo de relieve</span> que las barreras que siguen obstaculizando la plena aplicación de la resolución <a href="https://undocs.org/sp/S/RES/1325(2000)">1325 (2000)</a> y las resoluciones posteriores sobre las mujeres, la paz y la seguridad, incluida la resolución <a href="https://undocs.org/sp/S/RES/2242(2015)">2242 (2015)</a>, solo podrán eliminarse mediante un decidido compromiso con el empoderamiento, la participación y los derechos humanos de las mujeres, y mediante un liderazgo concertado, información y acciones coherentes, y apoyo para consolidar la implicación de las mujeres en todos los niveles decisorios, </p>
+        </container>
+        <container name="Condenando enérgicamente" eId="container_36">
+          <p xml:space="preserve">
+          <span class="italic">	Condenando enérgicamente</span> los ataques de las fuerzas del Gobierno y la oposición y de otros grupos contra el personal y las instalaciones de las Naciones Unidas y la IGAD, como el derribo de un helicóptero de las Naciones Unidas por el Ejército de Liberación del Pueblo del Sudán (ELPS) en diciembre de 2012, el ataque contra un convoy de las Naciones Unidas en abril de 2013, el ataque contra el campamento de la UNMISS en Akobo en diciembre de 2013, el derribo de un helicóptero de las Naciones Unidas por grupos armados no identificados en agosto de 2014, el arresto y la detención de un equipo de vigilancia y verificación de la IGAD en agosto de 2014, la detención de personal de la UNMISS y la confiscación de su equipo en el estado del Alto Nilo por fuerzas de la oposición en octubre de 2015, el ataque contra el emplazamiento de protección de civiles de Malakal en febrero de 2016, el ataque contra el emplazamiento de protección de civiles de Yuba y el ataque contra el complejo Terrain en julio de 2016, la detención y el secuestro de personal de las Naciones Unidas y personal asociado, los ataques reiterados contra los campamentos de la UNMISS en Bor, Bentiu, Malakal y Melut, así como la desaparición presuntamente causada por las fuerzas del ELPS y la muerte de tres funcionarios nacionales asociados a las Naciones Unidas y de un contratista nacional en el estado del Alto Nilo, y la detención y los abusos sufridos por el equipo del MVVAFATS a manos de funcionarios del Gobierno de Sudán del Sur en diciembre de 2018, y exhortando al Gobierno de Sudán del Sur a que complete sus investigaciones sobre estos ataques de manera rápida y exhaustiva y obligue a los responsables a rendir cuentas, </p>
+        </container>
+        <container name="Habiendo determinado" eId="container_37">
+          <p xml:space="preserve">
+          <span class="italic">	Habiendo determinado</span> que la situación en Sudán del Sur sigue constituyendo una amenaza para la paz y la seguridad internacionales en la región,</p>
+        </container>
+        <container name="Actuando" eId="container_38">
+          <p xml:space="preserve">
+          <span class="italic">	Actuando </span>en virtud del Capítulo VII de la Carta de las Naciones Unidas,</p>
+        </container>
+      </preamble>
+      <mainBody>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Exige </span>que todas las partes en el conflicto pongan fin de inmediato a los combates en todo Sudán del Sur y participen en el diálogo político, y exige también que los dirigentes de Sudán del Sur respeten el alto el fuego permanente declarado en el Acuerdo Revitalizado y los altos el fuego que declararon, respectivamente, el 11 de julio de 2016 y el 22 de mayo de 2017, así como el ACH firmado el 21 de diciembre de 2017, y velen por que se cumplan plenamente los decretos y órdenes ulteriores en que se dan instrucciones a sus comandantes para que controlen a sus fuerzas y protejan a los civiles y sus bienes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Exige </span>que el Gobierno de Sudán del Sur cumpla las obligaciones establecidas en el Acuerdo sobre el Estatuto de las Fuerzas firmado con las Naciones Unidas y deje inmediatamente de obstaculizar la ejecución del mandato de la UNMISS, exige también que el Gobierno de Sudán del Sur deje inmediatamente de obstaculizar la prestación de asistencia a los civiles por los agentes humanitarios internacionales y nacionales y facilite la libertad de circulación del MVVAFATS, exhorta al Gobierno de Sudán del Sur a que adopte medidas, disuada de la comisión de actos hostiles u otros actos que dificulten la labor de la UNMISS o de los agentes humanitarios internacionales y nacionales, y obligue a los responsables a rendir cuentas, recuerda al Gobierno de Sudán del Sur que, conforme al Acuerdo sobre el Estatuto de las Fuerzas, la UNMISS no necesita obtener previamente autorización ni permiso para llevar a cabo las tareas de su mandato, e insta al Gobierno de Sudán del Sur a que cree un entorno de cooperación mutua para que la UNMISS y sus asociados realicen su labor; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Expresa </span>su intención de estudiar todas las medidas apropiadas, como demuestra la aprobación de las resoluciones <a href="https://undocs.org/sp/S/RES/2206(2015)">2206 (2015)</a>, <a href="https://undocs.org/sp/S/RES/2290(2016)">2290 (2016)</a>, <a href="https://undocs.org/sp/S/RES/2353(2017)">2353 (2017)</a>, <a href="https://undocs.org/sp/S/RES/2428(2018)">2428 (2018)</a> y <a href="https://undocs.org/sp/S/RES/2471(2019)">2471 (2019)</a>, contra quienes emprendan acciones que menoscaben la paz, la estabilidad y la seguridad de Sudán del Sur, destaca el carácter sagrado de los emplazamientos de protección de las Naciones Unidas, recalca en concreto que las personas o entidades que, directa o indirectamente, sean responsables o cómplices de ataques contra el personal y los locales de la UNMISS y cualquier personal humanitario o hayan participado en ellos pueden cumplir los criterios de designación, y, a este respecto, toma nota de que en el informe especial del Secretario General sobre la renovación del mandato de la Misión de las Naciones Unidas en Sudán del Sur (<a href="https://undocs.org/sp/S/2018/143">S/2018/143</a>), de 20 de febrero de 2018, se indica que el reabastecimiento constante de armas y municiones a Sudán del Sur ha incidido directamente en la seguridad del personal de las Naciones Unidas y la capacidad de la UNMISS para ejecutar su mandato, toma nota también del comunicado del CPSUA de 8 de febrero de 2018, en el que se declara que los signatarios del ACH deben ser privados de los medios necesarios para seguir combatiendo, y recalca las medidas que adoptó en su resolución <a href="https://undocs.org/sp/S/RES/2428(2018)">2428 (2018)</a>, incluido el embargo de armas destinado a privar a las partes de los medios necesarios para seguir combatiendo e impedir las violaciones del ACH; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> las alentadoras novedades acaecidas en el proceso de paz de Sudán del Sur, la voluntad política demostrada por las partes a fin de crear las condiciones necesarias para hacer avanzar el proceso de paz y la reducción de la violencia política entre las partes beligerantes, y exhorta a las partes a que apliquen plenamente el Acuerdo Revitalizado y establezcan sus instituciones sin demora;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Condena </span>las violaciones del ACH por todas las partes, incluido el uso continuo de la violencia sexual y de género en los ataques, y las agresiones contra los verificadores del MVVAFATS, que menoscaban las medidas de fomento de la confianza entre las partes beligerantes, recalca que la falta de disposiciones de seguridad viables puede retrasar el proceso de paz, exhorta a todas las partes a que aseguren la participación plena, efectiva y significativa de la juventud, las mujeres, las diversas comunidades, los grupos religiosos y la sociedad civil en todas las iniciativas de solución de conflictos y consolidación de la paz, y exhorta también a la UNMISS a que ayude a todas las partes en esa labor;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>prorrogar el mandato de la UNMISS hasta el 15 de marzo de 2021;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>mantener la dotación general de la UNMISS con un límite máximo de 17.000 efectivos militares, incluida una fuerza de protección regional, y 2.101 efectivos de policía, incluidos 88 oficiales penitenciarios, y expresa su disposición a considerar la posibilidad de hacer los ajustes necesarios en la UNMISS en función de las condiciones de seguridad sobre el terreno;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>8.</num>
+        <list eId="para_67_list">
+          <intro eId="para_67_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decide </span>que el mandato de la UNMISS será el que sigue, y autoriza a la Misión a utilizar todos los medios necesarios para desempeñar las tareas que se indican a continuación:</p>
+          </intro>
+          <point eId="para_67_list_point_a">
+            <num>a)</num>
+            <content eId="para_67_list_point_a_content">
+              <p xml:space="preserve">	<span class="italic">Protección de los civiles:</span></p>
+            </content>
+          </point>
+          <sublist eId="para_67_list_point_a_sublist">
+            <point eId="para_67_list_point_a_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_67_list_point_a_sublist_point_i_content">
+                <p xml:space="preserve">	Proteger a los civiles amenazados de violencia física, sea cual sea el origen de esa violencia, dentro de su capacidad y sus zonas de despliegue, protegiendo específicamente a las mujeres y la infancia, para lo cual la Misión seguirá recurriendo a sus asesores de protección infantil, sus asesores de protección de las mujeres y sus asesores de género uniformados y civiles, cuyos puestos deben cubrirse rápidamente;</p>
+              </content>
+            </point>
+            <point eId="para_67_list_point_a_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_67_list_point_a_sublist_point_ii_content">
+                <p xml:space="preserve">	Disuadir de que se cometan actos de violencia contra civiles, incluidos los ciudadanos extranjeros, en especial mediante un despliegue proactivo, un patrullaje activo centrado particularmente en los desplazados internos, incluidos, aunque no exclusivamente, los que se encuentren en emplazamientos de protección y campamentos de refugiados, el personal humanitario y los defensores de los derechos humanos, y la detección de amenazas y ataques contra la población civil, incluso mediante una interacción constante con ella y una estrecha colaboración con las organizaciones humanitarias y de derechos humanos, de la sociedad civil y de desarrollo, en las zonas de alto riesgo de conflicto, como las escuelas, los lugares de culto, los hospitales, las instalaciones petroleras y las zonas donde puedan producirse regresos, según proceda, en particular cuando el Gobierno de Sudán del Sur no pueda proporcionar seguridad o no lo haga;</p>
+              </content>
+            </point>
+            <point eId="para_67_list_point_a_sublist_point_iii">
+              <num>iii)</num>
+              <content eId="para_67_list_point_a_sublist_point_iii_content">
+                <p xml:space="preserve">	Reforzar la aplicación de una estrategia de alerta temprana en toda la Misión que incluya el establecimiento de un plan de adquisición de información como parte de un enfoque coordinado de la reunión de información, el seguimiento y análisis de los incidentes, las actividades de vigilancia, verificación, alerta temprana y difusión, y los mecanismos de respuesta, incluso frente a las amenazas y los ataques contra civiles que puedan conllevar violaciones y abusos de los derechos humanos o violaciones del derecho internacional humanitario, y prepararse para otros posibles ataques contra el personal y las instalaciones de las Naciones Unidas;</p>
+              </content>
+            </point>
+            <point eId="para_67_list_point_a_sublist_point_iv">
+              <num>iv)</num>
+              <content eId="para_67_list_point_a_sublist_point_iv_content">
+                <p xml:space="preserve">	Mantener el orden público y la seguridad de los emplazamientos de protección de civiles de la UNMISS y en su interior; </p>
+              </content>
+            </point>
+            <point eId="para_67_list_point_a_sublist_point_v">
+              <num>v)</num>
+              <content eId="para_67_list_point_a_sublist_point_v_content">
+                <p xml:space="preserve">	Desalentar y prevenir los actos de violencia sexual y de género dentro de su capacidad y sus zonas de despliegue, como se resalta en el párrafo 41 del informe especial del Secretario General de 10 de noviembre de 2016 (<a href="https://undocs.org/sp/S/2016/951">S/2016/951</a>);</p>
+              </content>
+            </point>
+            <point eId="para_67_list_point_a_sublist_point_vi">
+              <num>vi)</num>
+              <content eId="para_67_list_point_a_sublist_point_vi_content">
+                <p xml:space="preserve">	Realizar actividades de buenos oficios, fomento de la confianza y facilitación para apoyar la estrategia de protección de la Misión, especialmente en lo que atañe a las mujeres y la infancia, incluso para facilitar la prevención, mitigación y solución de conflictos intercomunitarios mediante, entre otras cosas, la mediación y la interacción con las comunidades para fomentar una reconciliación local y nacional sostenible como parte esencial de la prevención de la violencia y la labor de construcción del Estado a largo plazo, así como prestar apoyo, con los recursos disponibles, a las autoridades y las organizaciones de la sociedad civil pertinentes para elaborar y aplicar programas de reducción de la violencia comunitaria con perspectiva de género, en cooperación y coordinación con los asociados para el desarrollo y los representantes de las comunidades, especialmente las mujeres y la juventud;</p>
+              </content>
+            </point>
+            <point eId="para_67_list_point_a_sublist_point_vii">
+              <num>vii)</num>
+              <content eId="para_67_list_point_a_sublist_point_vii_content">
+                <p xml:space="preserve">	Fomentar un entorno seguro para que los desplazados internos y los refugiados regresen, se reubiquen, se reasienten o se integren en las comunidades de acogida sin riesgos y de manera informada, voluntaria y digna, incluso vigilando y asegurando el respeto de los derechos humanos mediante la coordinación con los servicios de policía, las instituciones de seguridad y gubernamentales y las instancias de la sociedad civil, cuando ello sea compatible con la política de las Naciones Unidas de diligencia debida en materia de derechos humanos y cumpliéndola estrictamente, en las actividades pertinentes centradas en la protección, como la concienciación sobre cuestiones relacionadas con la violencia sexual y de género y con los niños y los conflictos armados, y mediante la prestación de asistencia técnica o asesoramiento sobre el derecho internacional humanitario, la investigación y el enjuiciamiento de los casos de violencia sexual y de género y de violencia sexual relacionada con los conflictos, así como de otras violaciones y abusos de los derechos humanos, a fin de reforzar la protección de los civiles, combatir la impunidad y promover la rendición de cuentas;</p>
+              </content>
+            </point>
+            <point eId="para_67_list_point_a_sublist_point_viii">
+              <num>viii)</num>
+              <content eId="para_67_list_point_a_sublist_point_viii_content">
+                <p xml:space="preserve">	Contribuir a facilitar que los desplazados internos que se encuentran en los emplazamientos de protección de civiles de las Naciones Unidas regresen, se reubiquen o se integren sin riesgos y de manera informada, voluntaria y digna, en coordinación con los agentes humanitarios y otras instancias pertinentes y con los recursos disponibles; </p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_67_list_point_b">
+            <num>b)</num>
+            <content eId="para_67_list_point_b_content">
+              <p xml:space="preserve">	<span class="italic">Creación de condiciones propicias para la entrega de asistencia humanitaria:</span></p>
+            </content>
+          </point>
+          <sublist eId="para_67_list_point_b_sublist">
+            <point eId="para_67_list_point_b_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_67_list_point_b_sublist_point_i_content">
+                <p xml:space="preserve">	Contribuir, en estrecha coordinación con los agentes humanitarios, a crear condiciones de seguridad propicias para la entrega de asistencia humanitaria, a fin de permitir el acceso rápido, seguro y sin trabas del personal de socorro a todas las personas necesitadas en Sudán del Sur y la entrega oportuna de esa asistencia, incluso a los desplazados internos y los refugiados, recordando la necesidad de cumplir las disposiciones pertinentes del derecho internacional y respetar los principios rectores de la asistencia humanitaria de las Naciones Unidas, a saber, humanidad, imparcialidad, neutralidad e independencia;</p>
+              </content>
+            </point>
+            <point eId="para_67_list_point_b_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_67_list_point_b_sublist_point_ii_content">
+                <p xml:space="preserve">	Garantizar la seguridad y la libertad de circulación del personal de las Naciones Unidas y el personal asociado cuando proceda, así como la seguridad de las instalaciones y el equipo necesarios para llevar a cabo las tareas del mandato;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_67_list_point_c">
+            <num>c)</num>
+            <content eId="para_67_list_point_c_content">
+              <p xml:space="preserve">	<span class="italic">Apoyo a la implementación del Acuerdo Revitalizado y el proceso de paz:</span> </p>
+            </content>
+          </point>
+          <sublist eId="para_67_list_point_c_sublist">
+            <point eId="para_67_list_point_c_sublist_point_1">
+              <content eId="para_67_list_point_c_sublist_point_1_content">
+                <p xml:space="preserve">	Realizar, dentro de su capacidad, las siguientes tareas en apoyo de la implementación del Acuerdo Revitalizado y el proceso de paz, reconociendo que las tareas indicadas en el párrafo 10 son esenciales para crear un entorno que permita implementar el Acuerdo Revitalizado y el proceso de paz:</p>
+              </content>
+            </point>
+            <sublist eId="para_67_list_point_c_sublist_point_1_sublist">
+              <point eId="para_67_list_point_c_sublist_point_1_sublist_point_i">
+                <num>i)</num>
+                <content eId="para_67_list_point_c_sublist_point_1_sublist_point_i_content">
+                  <p xml:space="preserve">	Interponer buenos oficios para apoyar el proceso de paz y la aplicación del Acuerdo Revitalizado, incluso prestando asesoramiento o asistencia técnica;</p>
+                </content>
+              </point>
+              <point eId="para_67_list_point_c_sublist_point_1_sublist_point_ii">
+                <num>ii)</num>
+                <content eId="para_67_list_point_c_sublist_point_1_sublist_point_ii_content">
+                  <p xml:space="preserve">	Participar en el MVVAFATS y prestarle apoyo para ejecutar su mandato de vigilancia y verificación del alto el fuego, incluso facilitando y respaldando sus actividades de vigilancia y denuncia de las violaciones y, en general, su eficacia al identificar a los responsables de esas violaciones;</p>
+                </content>
+              </point>
+              <point eId="para_67_list_point_c_sublist_point_1_sublist_point_iii">
+                <num>iii)</num>
+                <content eId="para_67_list_point_c_sublist_point_1_sublist_point_iii_content">
+                  <p xml:space="preserve">	Participar activamente en la labor de la CMVER y otros mecanismos de implementación y prestarles apoyo, incluso a nivel subnacional; </p>
+                </content>
+              </point>
+            </sublist>
+          </sublist>
+          <point eId="para_67_list_point_d">
+            <num>d)</num>
+            <content eId="para_67_list_point_d_content">
+              <p xml:space="preserve">	<span class="italic">Vigilancia e investigación en materia de derechos humanos:</span></p>
+            </content>
+          </point>
+          <sublist eId="para_67_list_point_d_sublist">
+            <point eId="para_67_list_point_d_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_67_list_point_d_sublist_point_i_content">
+                <p xml:space="preserve">	Vigilar, investigar, verificar y comunicar inmediata, pública y periódicamente los abusos y violaciones de los derechos humanos y las violaciones del derecho internacional humanitario, en particular cuando puedan constituir crímenes de guerra o crímenes de lesa humanidad; </p>
+              </content>
+            </point>
+            <point eId="para_67_list_point_d_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_67_list_point_d_sublist_point_ii_content">
+                <p xml:space="preserve">	Vigilar, investigar, verificar y comunicar específica y públicamente las violaciones y los abusos cometidos contra la infancia y las mujeres, incluidos los que conlleven cualquier forma de violencia sexual y de género en los conflictos armados, y agilizar la puesta en práctica de arreglos de vigilancia, análisis y denuncia de los casos de violencia sexual relacionada con los conflictos y fortalecer el mecanismo de vigilancia y denuncia de las violaciones y los abusos contra la infancia;</p>
+              </content>
+            </point>
+            <point eId="para_67_list_point_d_sublist_point_iii">
+              <num>iii)</num>
+              <content eId="para_67_list_point_d_sublist_point_iii_content">
+                <p xml:space="preserve">	Vigilar, investigar y comunicar los incidentes de discurso de odio e incitación a la violencia en cooperación con el Asesor Especial de las Naciones Unidas sobre la Prevención del Genocidio;</p>
+              </content>
+            </point>
+            <point eId="para_67_list_point_d_sublist_point_iv">
+              <num>iv)</num>
+              <content eId="para_67_list_point_d_sublist_point_iv_content">
+                <p xml:space="preserve">	Coordinarse con los mecanismos internacionales, regionales y nacionales que participan en actividades de vigilancia, investigación y denuncia de las violaciones del derecho internacional humanitario y las violaciones y los abusos de los derechos humanos, en particular cuando puedan constituir crímenes de guerra o crímenes de lesa humanidad, compartir información apropiada con ellos y prestarles apoyo técnico, según proceda; </p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>que el proceso de paz solo seguirá siendo viable si todas las partes se comprometen plenamente con él y se incluye a la sociedad civil, las mujeres y la juventud, insta a todas las partes a que participen en el proceso de paz de buena fe a fin de alcanzar los compromisos necesarios para la paz y la estabilidad de Sudán del Sur, y hace notar su intención de examinar activamente las tareas y la composición de la UNMISS en función de los avances del proceso de paz y la aplicación del Acuerdo Revitalizado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <num>10.</num>
+        <list eId="para_84_list">
+          <intro eId="para_84_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decide </span>que, de conformidad con la resolución <a href="https://undocs.org/sp/S/RES/2304(2016)">2304 (2016)</a>, el mandato de la UNMISS incluirá la responsabilidad de mantener un entorno seguro en Yuba y sus alrededores y en otras partes de Sudán del Sur, si es preciso, y autoriza a la UNMISS a que utilice todos los medios necesarios, incluso emprendiendo acciones robustas cuando sea preciso y realizando patrullas activas para:</p>
+          </intro>
+          <point eId="para_84_list_point_i">
+            <num>i)</num>
+            <content eId="para_84_list_point_i_content">
+              <p xml:space="preserve">	Facilitar condiciones que permitan la circulación segura y libre para entrar a Yuba, salir de la ciudad o desplazarse por sus alrededores, incluso protegiendo los medios de entrada y salida de la ciudad y las principales líneas de comunicación y transporte dentro de Yuba; </p>
+            </content>
+          </point>
+          <point eId="para_84_list_point_ii">
+            <num>ii)</num>
+            <content eId="para_84_list_point_ii_content">
+              <p xml:space="preserve">	Proteger el aeropuerto para garantizar que siga funcionando y proteger las principales instalaciones de Yuba que sean esenciales para el bienestar de su población, según determine el Representante Especial del Secretario General;</p>
+            </content>
+          </point>
+          <point eId="para_84_list_point_iii">
+            <num>iii)</num>
+            <content eId="para_84_list_point_iii_content">
+              <p xml:space="preserve">	Hacer frente rápida y eficazmente a todo agente sobre el que existan sospechas fundadas de que esté preparando o efectuando ataques contra los emplazamientos de protección de civiles u otros locales de las Naciones Unidas, el personal de la Organización, los agentes humanitarios internacionales y nacionales o la población civil; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito </span>los esfuerzos de la IGAD, la Unión Africana, el CPSUA y los países de la región por encontrar soluciones duraderas para los desafíos a la paz y la seguridad en Sudán del Sur, los alienta a que mantengan su estrecha colaboración con los dirigentes de Sudán del Sur para que se cumplan sin demora todos los compromisos contraídos en el marco de los acuerdos de cesación de las hostilidades y el Acuerdo Revitalizado, subraya el apoyo prestado por la IGAD al diálogo nacional, en cooperación con las Naciones Unidas y la Unión Africana, e insta a la IGAD a que nombre a la Presidencia de la CMVER;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">Afirma </span>la importancia fundamental de que la UNMISS pueda utilizar todas sus bases sin restricciones para ejecutar su mandato, incluida, aunque no exclusivamente, la base de Tomping y, a este respecto, exhorta al Gobierno de Sudán del Sur a que cumpla su obligación de garantizar el acceso sin trabas de la UNMISS a los locales de las Naciones Unidas conforme al Acuerdo sobre el Estatuto de las Fuerzas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>su resolución <a href="https://undocs.org/sp/S/RES/2086(2013)">2086 (2013)</a>, reafirma los principios básicos del mantenimiento de la paz, enunciados en la declaración de su Presidencia <a href="https://undocs.org/sp/S/PRST/2015/22">S/PRST/2015/22</a>, a saber, el consentimiento de las partes, la imparcialidad y el no uso de la fuerza, salvo en legítima defensa y en defensa del mandato, y reconoce que el mandato de cada misión de mantenimiento de la paz refleja las necesidades y la situación específicas del país en cuestión, y que espera que los mandatos que autoriza se ejecuten íntegramente;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_130__content">
+          <p xml:space="preserve">	<span class="italic">Pone de relieve</span> que debe priorizarse la protección de los civiles al tomar decisiones sobre el uso de la capacidad y los recursos disponibles en la Misión, destaca que el mandato de la UNMISS, enunciado en los párrafos 8 y 10, incluye la autorización para utilizar todos los medios necesarios con el fin de cumplir las tareas del mandato, en particular la protección de los civiles, y destaca también que esas medidas incluyen, aunque no exclusivamente, dentro de la capacidad y las zonas de despliegue de la UNMISS, defender los emplazamientos de protección de civiles, establecer alrededor de tales emplazamientos zonas que no sean utilizadas con fines hostiles por ninguna fuerza, incluso ampliando las zonas libres de armas a los emplazamientos de protección de civiles de la UNMISS cuando proceda, hacer frente a las amenazas contra esos emplazamientos, registrar a las personas que traten de entrar en ellos, incautarse de las armas de quienes se encuentren dentro de los emplazamientos o intenten entrar en ellos, y expulsar de los emplazamientos de protección de civiles a las personas armadas e impedir su entrada en ellos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>la importancia de realizar actividades de fomento de la confianza, facilitación, mediación e interacción con las comunidades, y alienta a la UNMISS a que, según proceda y cuando sea posible, estudie la manera de utilizar esas técnicas para aumentar su capacidad de apoyar la protección, la reunión de información y la conciencia situacional de la Misión, así como para cumplir las tareas encomendadas, incluida la de proteger a los civiles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_159" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la UNMISS que priorice el aumento de la movilidad de las fuerzas para ejecutar mejor su mandato en las zonas donde estén surgiendo nuevos riesgos para la protección y nuevas amenazas, incluidos los lugares remotos, y alienta a la UNMISS a que priorice el despliegue de las fuerzas con los activos aéreos, terrestres y acuáticos adecuados, dentro de los recursos financieros disponibles; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_175__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Representante Especial del Secretario General que dirija las operaciones de una UNMISS integrada y coordine todas las actividades del sistema de las Naciones Unidas en la República de Sudán del Sur, y que interponga sus buenos oficios para liderar la prestación de asistencia del sistema de las Naciones Unidas en Sudán del Sur a la CMVER, la Unión Africana, la IGAD y otras instancias, así como a las partes, para aplicar el Acuerdo Revitalizado y promover la paz y la reconciliación, y lo alienta a que asuma esas responsabilidades, recalca a este respecto la función fundamental del MVVAFATS y la importancia del apoyo que le presta la UNMISS para ejecutar su mandato, y reafirma en este sentido el papel crucial que desempeñan las Naciones Unidas, en coordinación con las organizaciones regionales y otras instancias, para promover el diálogo político entre las partes y contribuir al logro de una cesación duradera de las hostilidades y encaminar a las partes hacia un proceso de paz inclusivo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la UNMISS que refuerce sus actividades de prevención y respuesta frente a la violencia sexual y de género, incluso velando por que los riesgos de violencia sexual y de género se incorporen a los sistemas de reunión de datos, análisis de amenazas y alerta temprana de la Misión, colaborando con las víctimas de la violencia sexual y las organizaciones de mujeres, solicita también a la UNMISS que tenga plenamente en cuenta las consideraciones de género como cuestión transversal en todo su mandato, y reafirma la importancia de contar con asesores de género y coordinadores de cuestiones de género uniformados y civiles en todos los componentes de la Misión, disponer de conocimientos especializados sobre género y fortalecer la capacidad en la materia para ejecutar el mandato de la Misión con perspectiva de género; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_210" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_210__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la UNMISS que siga intensificando y ampliando su presencia y su patrullaje activo en las zonas de alto riesgo de conflicto o en las que surjan nuevos riesgos o amenazas para la protección, como una elevada incidencia de la violencia sexual y de género, incluidas las zonas con grandes concentraciones de desplazados internos y refugiados, prestando particular atención a las mujeres y la infancia, incluso guiándose por su estrategia de alerta temprana, en todas las zonas y en las rutas clave para la circulación de la población, a fin de contribuir a crear un entorno seguro para que los desplazados internos y los refugiados regresen, se reubiquen, se reasienten o se integren en las comunidades de acogida sin riesgos y de manera informada, voluntaria y digna, y que lleve a cabo exámenes periódicos de su despliegue geográfico para cerciorarse de que sus fuerzas estén en condiciones óptimas de cumplir su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_229" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_229__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>que la ejecución efectiva de los mandatos de mantenimiento de la paz es responsabilidad de todas las partes interesadas y depende de varios factores cruciales, como la existencia de mandatos bien definidos, realistas y asequibles; voluntad política, liderazgo, desempeño y rendición de cuentas a todos los niveles; recursos adecuados; capacitación y equipo; y directrices en materia de políticas, planificación y operaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_249" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_249__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> las iniciativas emprendidas por el Secretario General para estandarizar la cultura del desempeño en las operaciones de mantenimiento de la paz de las Naciones Unidas, recuerda que en sus resoluciones <a href="https://undocs.org/sp/S/RES/2378(2017)">2378 (2017)</a> y <a href="https://undocs.org/sp/S/RES/2436(2018)">2436 (2018)</a> solicitó al Secretario General que velara por que los datos de desempeño relacionados con la eficacia de las operaciones de mantenimiento de la paz se utilizaran para mejorar las operaciones de las misiones, incluidas decisiones como las relativas al despliegue, las medidas correctivas, la repatriación y los incentivos, reafirma su apoyo a la elaboración de un marco normativo amplio e integrado sobre el desempeño que defina normas claras para evaluar a todo el personal civil y uniformado de las Naciones Unidas que trabaja en las operaciones de mantenimiento de la paz o les presta apoyo, facilite la ejecución efectiva y plena de los mandatos e incluya metodologías integrales y objetivas basadas en parámetros de referencia claros y bien definidos para asegurar que se rindan cuentas por el desempeño insatisfactorio y se incentive y reconozca el desempeño excepcional, exhorta a las Naciones Unidas a que apliquen a la UNMISS ese marco, descrito en la resolución <a href="https://undocs.org/sp/S/RES/2436(2018)">2436 (2018)</a>, en particular investigando de inmediato los casos de desempeño insatisfactorio y tomando medidas como la rotación, la repatriación, el reemplazo o el despido del personal uniformado o civil de la UNMISS cuyo desempeño sea insatisfactorio, incluido el personal directivo de la Misión y el personal de apoyo a las misiones, de conformidad con la resolución <a href="https://undocs.org/sp/S/RES/2436(2018)">2436 (2018)</a>, observa los esfuerzos realizados por el Secretario General para elaborar un sistema integral de evaluación del desempeño, y solicita al Secretario General y a los países que aportan contingentes y fuerzas de policía que procuren aumentar el número de mujeres en la UNMISS, así como garantizar la participación plena, efectiva y significativa de las mujeres en todos los aspectos de las operaciones; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_270" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_270__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General que aplique una política de tolerancia cero frente a las faltas graves de conducta, la explotación y los abusos sexuales y el acoso sexual, incluso haciendo pleno uso de la autoridad del Representante Especial del Secretario General para asegurar la rendición de cuentas del personal de la Misión y mediante disposiciones eficaces de apoyo a las misiones, recuerda la declaración de su Presidencia <a href="https://undocs.org/sp/S/PRST/2015/22">S/PRST/</a><a href="https://undocs.org/sp/S/PRST/2015/22">2015/22</a> y su resolución <a href="https://undocs.org/sp/S/RES/2272(2016)">2272 (2016)</a>, solicita al Secretario General que siga adoptando las medidas necesarias para asegurar que todo el personal de la UNMISS, tanto civil como uniformado, incluidos el personal directivo de la Misión y el personal de apoyo a las misiones, cumpla plenamente la política de tolerancia cero de las Naciones Unidas frente a la explotación y los abusos sexuales, que investigue todas las denuncias de explotación y abusos sexuales, y que, mediante los informes que le presente, lo mantenga plenamente al corriente de los progresos de la Misión a ese respecto, incluso comunicándole el inicio, los plazos convenidos y los resultados de los exámenes, destaca la necesidad de prevenir ese tipo de explotación y abusos y mejorar la forma en que se abordan las denuncias con arreglo a la resolución <a href="https://undocs.org/sp/S/RES/2272(2016)">2272 (2016)</a>, e insta a los países que aportan contingentes y fuerzas de policía a que sigan adoptando medidas preventivas apropiadas, como la verificación de los antecedentes de todo el personal o la sensibilización antes del despliegue y en la misión, a fin de asegurar la plena rendición de cuentas en los casos de ese tipo de conducta en que esté involucrado su personal, incluso mediante la investigación oportuna de las denuncias de explotación y abusos sexuales por los países que aportan contingentes y fuerzas de policía, según proceda, para exigir cuentas a los autores y repatriar a sus unidades cuando haya pruebas fidedignas de que han cometido actos de explotación y abusos sexuales generalizados o sistemáticos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_292" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_292__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la UNMISS que vele por que cualquier apoyo que se preste a fuerzas de seguridad ajenas a las Naciones Unidas cumpla estrictamente la política de diligencia debida en materia de derechos humanos en el contexto del apoyo de las Naciones Unidas a fuerzas de seguridad ajenas a la Organización;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_315" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_315__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la UNMISS que, con los recursos disponibles, preste asistencia al Comité establecido en virtud del párrafo 16 de la resolución <a href="https://undocs.org/sp/S/RES/2206(2015)">2206 (2015)</a> y al Grupo de Expertos establecido en la misma resolución respecto de las medidas adoptadas en la resolución <a href="https://undocs.org/sp/S/RES/2428(2018)">2428 (2018)</a>, incluidas sus disposiciones relativas al embargo de armas, y en particular alienta a la UNMISS y al Grupo de Expertos a que intercambien información de manera oportuna, insta a todas las partes y los Estados Miembros, así como a las organizaciones internacionales, regionales y subregionales, a que aseguren la cooperación con el Grupo de Expertos, e insta también a todos los Estados Miembros interesados a que garanticen la seguridad de los miembros del Grupo de Expertos y su acceso sin trabas, en particular a personas, documentos y lugares, para que el Grupo ejecute su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_339" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_339__content">
+          <p xml:space="preserve">	<span class="italic">Condena </span>en los términos más enérgicos los ataques y amenazas contra el personal de la UNMISS y las instalaciones de las Naciones Unidas y de la IGAD, como la obstrucción, la detención y los abusos sufridos por el equipo del MVVAFATS a manos de funcionarios del Gobierno de Sudán del Sur en diciembre de 2018, destaca que esos ataques pueden constituir violaciones del Acuerdo sobre el Estatuto de las Fuerzas o crímenes de guerra, exige que todas las partes respeten la inviolabilidad de los locales de las Naciones Unidas y desistan y se abstengan inmediatamente de cometer ningún acto de violencia contra las personas congregadas en las instalaciones de las Naciones Unidas, reitera que el Gobierno de Sudán del Sur está obligado por las condiciones del Acuerdo sobre el Estatuto de las Fuerzas, y exige además la liberación inmediata y en condiciones de seguridad del personal de las Naciones Unidas y el personal asociado que ha sido detenido y secuestrado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_364" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_364__content">
+          <p xml:space="preserve">	<span class="italic">Condena </span>el enfrentamiento ocurrido en Malakal en febrero de 2016 y los combates librados en Yuba en julio de 2016, e insta a las Naciones Unidas a que incorporen continuamente las enseñanzas extraídas con miras a introducir reformas en toda la UNMISS para que pueda ejecutar mejor su mandato, en particular con respecto a la protección de los civiles, y para mejorar la cadena de mando de la UNMISS, aumentar la eficacia de sus operaciones, reforzar la seguridad del personal y mejorar la capacidad de la Misión para gestionar situaciones complejas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_390" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_390__content">
+          <p xml:space="preserve">	<span class="italic">Condena </span>en los términos más enérgicos los ataques y saqueos de la ayuda humanitaria, incluidos los alimentos y medicamentos, y de instalaciones como hospitales y establecimientos y almacenes sanitarios, y exige que todas las partes permitan, de conformidad con las disposiciones pertinentes del derecho internacional y los principios rectores de la asistencia humanitaria de emergencia de las Naciones Unidas, a saber, humanidad, imparcialidad, neutralidad e independencia, el acceso rápido, seguro y sin trabas del personal, el equipo y los suministros de socorro y la entrega oportuna de asistencia humanitaria a todas las personas necesitadas en Sudán del Sur, particularmente a los desplazados internos y los refugiados, y que dejen de utilizar los hospitales, las escuelas y otras instalaciones civiles para fines que puedan convertirlos en blanco de ataques, destaca la obligación de respetar y proteger a todo el personal sanitario y el personal humanitario dedicado exclusivamente a tareas médicas, sus medios de transporte y su equipo, así como los hospitales y otras instalaciones sanitarias, destaca también que cualquier regreso de desplazados internos o refugiados o solución duradera de otra índole debe llevarse a cabo de manera voluntaria e informada, con dignidad y en condiciones de seguridad, y señala que deben respetarse la libertad de circulación de los civiles y su derecho a solicitar asilo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_417" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_417__content">
+          <p xml:space="preserve">	<span class="italic">Exige </span>que todas las partes pongan fin de inmediato a todas las formas de violencia, las violaciones y abusos de los derechos humanos y las violaciones del derecho internacional humanitario, incluidos los actos de violación y otras formas de violencia sexual y de género, y que obliguen a rendir cuentas a los responsables, a fin de romper el ciclo de impunidad reinante; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_445" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_445__content">
+          <p xml:space="preserve">	<span class="italic">Condena </span>todas las violaciones del derecho internacional aplicable cometidas por cualquiera de las partes en el conflicto, en particular contra la infancia, insta encarecidamente a todas las partes en el conflicto a que apliquen las medidas que figuran en las conclusiones sobre los niños y el conflicto armado en Sudán del Sur aprobadas por el Grupo de Trabajo del Consejo de Seguridad sobre los Niños y los Conflictos Armados el 17 de diciembre de 2018, como la liberación inmediata de todos los niños que se encuentren en sus filas y la adopción de medidas para detener y prevenir la matanza y mutilación de niños, acoge con beneplácito la liberación de niños por algunos grupos, insta encarecidamente al Gobierno de Sudán del Sur a que elabore y aplique un plan de acción exhaustivo que abarque todas las violaciones y abusos cometidos contra la infancia, e insta encarecidamente también al ELPS-O a que aplique su plan de acción para detener y prevenir el reclutamiento y la utilización de niños y la matanza y mutilación de niños, subraya la importancia de que el Gobierno de Sudán del Sur preste asistencia oportuna y apropiada para la reintegración y rehabilitación de los niños afectados por el conflicto armado y reduzca al mínimo el riesgo de reclutamiento repetido, asegurando al mismo tiempo que se atiendan las necesidades específicas de las niñas y de los niños y niñas con discapacidad, como el acceso a la atención sanitaria, el apoyo psicosocial y los programas educativos, y exhorta a la comunidad internacional a que apoye esos esfuerzos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_474" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_474__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la UNMISS que siga dialogando con las partes en el conflicto respecto de la elaboración y ejecución de planes de acción, con arreglo a lo dispuesto en la resolución <a href="https://undocs.org/sp/S/RES/1612(2005)">1612 (2005)</a> y en resoluciones posteriores relativas a los niños y los conflictos armados, y que apoye los esfuerzos encaminados a liberar a los niños vinculados con fuerzas y grupos armados en todas las zonas del país;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_504" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_504__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> el compromiso de que las mujeres participen en el Acuerdo Revitalizado, incluida la representación femenina de al menos el 35 %, y exhorta a todas las partes a que hagan más esfuerzos para asegurar el cumplimiento de esos compromisos mínimos y garantizar la participación y la intervención plenas, efectivas y significativas de las mujeres en todas las esferas y niveles del liderazgo político, el proceso de paz y el gobierno de transición, y solicita a la UNMISS que preste asistencia a esos esfuerzos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_535" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_535__content">
+          <p xml:space="preserve">	<span class="italic">Insta encarecidamente</span> a las FDPSS, al ELPS-O y a otros grupos armados a que impidan la comisión de nuevos actos de violencia sexual, insta al Gobierno de Sudán del Sur y al ELPS-O a que implementen sus compromisos y planes de acción conjuntos y unilaterales sobre la prevención de la violencia sexual relacionada con los conflictos, centrándose en la prevención, la rendición de cuentas y una mejor asistencia a las víctimas, alienta al Gobierno de Sudán del Sur y al ELPS-O a que adopten un enfoque centrado en los supervivientes respecto de la prevención y respuesta frente a la violencia sexual en los conflictos y en situaciones posconflicto y establezcan mecanismos disciplinarios internos que incluyan un mecanismo de denuncia confidencial y se aseguren de darlo a conocer a las fuerzas y la población civil, insta encarecidamente a los mandos de las FDPSS a que den órdenes específicas sobre la prevención de la violencia sexual relacionada con los conflictos, exige al Gobierno de Sudán del Sur que tome medidas concretas para obligar a rendir cuentas a sus funcionarios responsables de delitos de violencia sexual, incluso investigando, enjuiciando y castigando con prontitud a los autores, y ofreciendo reparación a las víctimas según proceda, en consonancia con la resolución <a href="https://undocs.org/sp/S/RES/2467(2019)">2467 (2019)</a>, y solicita a la UNMISS que ayude a las partes a realizar esas actividades, de conformidad con el párrafo 17; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_567" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_567__content">
+          <p xml:space="preserve">	<span class="italic">Insta </span>a las partes en el Acuerdo Revitalizado a que desmilitaricen las zonas civiles conforme a lo exigido en el capítulo 2 del Acuerdo Revitalizado, a fin de reducir la proliferación y el uso indebido de armas pequeñas y otras armas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_600" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_600__content">
+          <p xml:space="preserve">	<span class="italic">Recalca </span>que la búsqueda de la verdad y la reconciliación es esencial para alcanzar la paz en Sudán del Sur y, a este respecto, destaca que la Comisión de la Verdad, la Reconciliación y la Regeneración, prevista en el Acuerdo Revitalizado, es un elemento esencial del proceso de consolidación de la paz en Sudán del Sur que puede liderar los esfuerzos para lograr la cohesión nacional y promover la paz y la reconciliación y la regeneración nacionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_634" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_634__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>al Gobierno de Sudán del Sur a que, tomando nota del párrafo 3.2.2 del capítulo V del Acuerdo Revitalizado, obligue a rendir cuentas a todos los responsables de violaciones y abusos de los derechos humanos y violaciones del derecho internacional humanitario, y a que vele por que todas las víctimas de la violencia sexual tengan la misma protección con arreglo a la ley e idéntico acceso a la justicia, y por que se respeten de igual manera los derechos de las mujeres y las niñas en esos procesos, observa que la aplicación de medidas de justicia de transición, como las previstas en el Acuerdo Revitalizado, es fundamental para la regeneración y la reconciliación, y, recalcando la importancia del estado de derecho para hacer avanzar el proceso de paz, insta al Gobierno de Sudán del Sur a que priorice la restauración y reforma del estado de derecho y el sector de la justicia, acoge con beneplácito a este respecto las medidas que ha adoptado el Gobierno de Sudán del Sur mediante el despliegue de tribunales móviles facilitado por la UNMISS, e insta además al Gobierno de Sudán del Sur a que adopte medidas adicionales en este sentido, y alienta a la UNMISS a que respalde esos esfuerzos, incluso mediante actividades de asistencia técnica y desarrollo de la capacidad;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_669" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_669__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota</span> de las medidas adoptadas por la Unión Africana con el fin de establecer el Tribunal Híbrido para Sudán del Sur, previsto en el capítulo V del Acuerdo Revitalizado, así como de la labor desarrollada por las Naciones Unidas hasta la fecha, acoge con beneplácito la invitación oficial cursada por la Unión Africana a las Naciones Unidas para que proporcionen asistencia técnica que ayude a establecer el Tribunal Híbrido para Sudán del Sur, y solicita al Secretario General que siga facilitando a la Comisión de la Unión Africana y al Gobierno de Sudán del Sur asistencia técnica que ayude a establecer el Tribunal Híbrido para Sudán del Sur y aplicar otros aspectos del capítulo V del Acuerdo Revitalizado, como la creación de la Comisión de la Verdad, la Reconciliación y la Regeneración y la Autoridad de Indemnizaciones y Reparaciones; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_705" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_705__content">
+          <p xml:space="preserve">	<span class="italic">Toma nota </span>del comunicado emitido por el CPSUA el 8 de febrero de 2018 y, a este respecto, exhorta al Gobierno de Sudán del Sur a que firme sin más demora el memorando de entendimiento con la Unión Africana sobre el establecimiento del Tribunal Híbrido para Sudán del Sur, y exhorta además a la comunidad internacional a que preste apoyo para establecer el Tribunal;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_742" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_742__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>al Gobierno de Sudán del Sur a que avance con rapidez y transparencia para completar las investigaciones de las denuncias de violaciones y abusos de los derechos humanos, con arreglo a sus obligaciones internacionales, y lo alienta a que publique los informes sobre esas investigaciones;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_743" class="H23">
+        <subheading>		Informes</subheading>
+      </paragraph>
+      <paragraph eId="para_744" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_744__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General que, de conformidad con las mejores prácticas, realice y le presente, a más tardar el 15 de diciembre de 2020, un examen estratégico independiente de la UNMISS en el que se evalúen los desafíos a la paz y la seguridad en Sudán del Sur y se formulen recomendaciones detalladas para la posible reconfiguración del mandato de la UNMISS y de sus componentes civil, policial y militar a la luz de las novedades del proceso de paz, sobre la base de amplias consultas en las que participen, entre otros, los órganos gubernamentales de transición competentes, los agentes humanitarios y de desarrollo y las organizaciones de la sociedad civil; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_745" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_745__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General que siga informando con periodicidad mensual acerca de las violaciones del Acuerdo sobre el Estatuto de las Fuerzas y los obstáculos impuestos a la labor de la UNMISS;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_747" class="SingleTxt">
+        <num>41.</num>
+        <list eId="para_747_list">
+          <intro eId="para_747_list_intro">
+            <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General que lo informe sobre el cumplimiento del mandato de la UNMISS y los obstáculos con que tropiece la UNMISS al ejecutarlo en un informe exhaustivo que deberá presentar por escrito dentro de los 90 días siguientes a la fecha de aprobación de la presente resolución y cada 90 días a partir de entonces, y recalca que los informes deberán abordar los aspectos que se indican a continuación y reflejar las perspectivas de todas las instancias pertinentes: </p>
+          </intro>
+          <point eId="para_747_list_point_1">
+            <num>•</num>
+            <content eId="para_747_list_point_1_content">
+              <p xml:space="preserve">	Información específica y detallada sobre la labor que esté realizando la UNMISS para cumplir sus funciones de protección de los civiles, incluidos, aunque no exclusivamente, la capacidad de respuesta y el desempeño del personal militar y las nuevas zonas de patrullaje, el despliegue proactivo y la interacción con las comunidades, </p>
+            </content>
+          </point>
+          <point eId="para_747_list_point_2">
+            <num>•</num>
+            <content eId="para_747_list_point_2_content">
+              <p xml:space="preserve">	Consideración del género como cuestión transversal en todo el mandato,</p>
+            </content>
+          </point>
+          <point eId="para_747_list_point_3">
+            <num>•</num>
+            <content eId="para_747_list_point_3_content">
+              <p xml:space="preserve">	Medidas adoptadas para desalentar y prevenir los actos de violencia sexual y de género, </p>
+            </content>
+          </point>
+          <point eId="para_747_list_point_4">
+            <num>•</num>
+            <content eId="para_747_list_point_4_content">
+              <p xml:space="preserve">	Participación de las mujeres en los procesos de paz y análisis del compromiso político de la Misión a este respecto, </p>
+            </content>
+          </point>
+          <point eId="para_747_list_point_5">
+            <num>•</num>
+            <content eId="para_747_list_point_5_content">
+              <p xml:space="preserve">	Medidas adoptadas para reforzar la seguridad del personal de las Naciones Unidas, </p>
+            </content>
+          </point>
+          <point eId="para_747_list_point_6">
+            <num>•</num>
+            <content eId="para_747_list_point_6_content">
+              <p xml:space="preserve">	Análisis del desempeño y la rotación de los contingentes y las fuerzas de policía, incluidos los progresos de las operaciones de la Misión y las medidas de rendición de cuentas adoptadas en caso de desempeño insatisfactorio, con cualquier información disponible sobre las restricciones nacionales que menoscaben la ejecución del mandato, </p>
+            </content>
+          </point>
+          <point eId="para_747_list_point_7">
+            <num>•</num>
+            <content eId="para_747_list_point_7_content">
+              <p xml:space="preserve">	Mejora de la presentación de informes sobre cuestiones de derechos humanos, e </p>
+            </content>
+          </point>
+          <point eId="para_747_list_point_8">
+            <num>•</num>
+            <content eId="para_747_list_point_8_content">
+              <p xml:space="preserve">	Información sobre los progresos realizados para aplicar la política de diligencia debida en materia de derechos humanos;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_750" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_750__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al Secretario General que, en los informes periódicos que presenta cada 90 días, incluya datos sobre la asistencia técnica prestada conforme al párrafo 36, invita a la Unión Africana a que transmita al Secretario General datos sobre los progresos conseguidos en el establecimiento del Tribunal Híbrido para Sudán del Sur a fin de que los utilice en su informe, y expresa su intención de evaluar, tras recibir los informes del Secretario General, la labor realizada para establecer el Tribunal Híbrido con arreglo a las normas internacionales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_754" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_754__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>seguir ocupándose de la cuestión.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

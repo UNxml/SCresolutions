@@ -1,0 +1,630 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/"></FRBRuri>
+          <FRBRdate date="2020-05-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/spa@/"></FRBRuri>
+          <FRBRdate date="2020-05-29" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2020-05-29/2520-2020/spa@.xml"></FRBRuri>
+          <FRBRdate date="2021-08-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="African Union Mission in Somalia" showAs="African Union Mission in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Support Office in Somalia" showAs="UN. Support Office in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Assistance Mission in Somalia" showAs="UN Assistance Mission in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUPPORT SERVICES" showAs="SUPPORT SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA" showAs="SOMALIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA SITUATION" showAs="SOMALIA SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[84]" showAs="SOMALIA SITUATION" dictionary="S/75"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation in Somalia." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2520 (2020) [on authorization to the Member States of the African Union to maintain the deployment of the African Union Mission in Somalia (AMISOM) until 28 Feb. 2021]" showAs="Security Council resolution 2520 (2020) [on authorization to the Member States of the African Union to maintain the deployment of the African Union Mission in Somalia (AMISOM) until 28 Feb. 2021]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2020-05-29" outcome="draftResolution" as="S/2020/445" by="United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2020-05-29" outcome="adopted" as="S/2020/459" by="Adopted unanimously; voting by mail" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="VOTING BY MAIL">
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">DOMINICAN REPUBLIC</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">20-07255 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2520 (2020)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo de Seguridad</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2020-05-29" class="rightSmall" refersTo="#dateOfIssuance">29 de mayo de 2020</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolución 2520 (2020)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Aprobada por el Consejo de Seguridad el <inline name="adoptionMeeting"></inline><docDate date="2020-05-29" refersTo="#adoptionDate">29 de mayo de 2020</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Seguridad,</span>
+        </p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando </span>todas sus anteriores resoluciones y declaraciones de la Presidencia relativas a la situación en Somalia,</p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>su respeto por la soberanía, la integridad territorial, la independencia política y la unidad de Somalia,</p>
+      </container>
+      <container name="Reiterando" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reiterando</span> que Al-Shabaab plantea una grave amenaza para la estabilidad de Somalia y sus vecinos, condenando los ataques de Al-Shabaab en Somalia y otros lugares, expresando profunda preocupación por la pérdida de vidas civiles a causa de los ataques de Al-Shabaab, expresando preocupación además por la presencia en Somalia de partidarios del Estado Islámico en el Iraq y el Levante, observando que la amenaza que plantea Al-Shabaab está evolucionando y que para debilitar a Al-Shabaab y construir y sostener la paz será necesario lograr la cohesión regional, aplicar una estrategia amplia, reconfigurar el apoyo, centrarse en las actividades de estabilización, intensificar los esfuerzos en múltiples ámbitos y adoptar un enfoque integrado y coherente de los agentes interesados, </p>
+      </container>
+      <container name="Subrayando" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Subrayando</span> su compromiso de seguir fortaleciendo las instituciones y fuerzas de seguridad de Somalia para que ejerzan plena autoridad sobre su propio territorio y tomen la iniciativa en las operaciones de seguridad,</p>
+      </container>
+      <container name="Rindiendo homenaje" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Rindiendo homenaje</span> a la valentía y los sacrificios del personal de la Misión de la Unión Africana en Somalia (AMISOM) y de las fuerzas de seguridad somalíes en la lucha contra Al-Shabaab y encomiando la contribución de la AMISOM a la construcción de una paz y una estabilidad duraderas en Somalia,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> los progresos realizados a lo largo del último año, incluida la recuperación de más territorio de Al-Shabaab, el adiestramiento de las fuerzas de seguridad y de policía somalíes, las medidas para ampliar la reforma del sector de la seguridad, como la finalización del registro biométrico de las fuerzas de seguridad somalíes y de la evaluación conjunta de las amenazas realizada por Somalia, la Unión Africana y las Naciones Unidas,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito</span> el apoyo prestado por la Oficina de Apoyo de las Naciones Unidas en Somalia (UNSOS) a la AMISOM y a la Misión de Asistencia de las Naciones Unidas en Somalia (UNSOM), acogiendo con beneplácito también el apoyo político de la UNSOM y los esfuerzos de la Unión Africana y de Somalia por convocar a los principales interesados para abordar el futuro apoyo internacional a la seguridad de Somalia después de 2021, y la asistencia política y financiera de los asociados internacionales, acogiendo con beneplácito el compromiso de Somalia y de las Naciones Unidas de seguir fortaleciendo su relación, reiterando la importancia de una cooperación sólida y de un mando y control unificados en el seno de la AMISOM, y reiterando también la importancia de la transparencia y la rendición de cuentas con todos los principales asociados,</p>
+      </container>
+      <container name="Subrayando" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Subrayando </span>la importancia de que el Gobierno Federal de Somalia (GFS) y sus estados miembros federados (EMF) alcancen un acuerdo político inclusivo, reiterando la importancia de que se ejecuten plenamente las tareas indicadas en el Plan de Transición con liderazgo somalí, que establece el traspaso progresivo de las responsabilidades de seguridad de la AMISOM a las instituciones y fuerzas de seguridad somalíes, mediante actividades operacionales, de apoyo y de construcción institucional, y subrayando su expectativa de que las autoridades somalíes enuncien una visión clara de la seguridad después de 2021 y recaben el apoyo de los asociados al respecto, </p>
+      </container>
+      <container name="Subrayando" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Subrayando </span>a este respecto las demoras que está sufriendo la aplicación de las medidas y los compromisos prioritarios enunciados en los párrafos 1 y 24 de la resolución <a href="https://undocs.org/es/S/RES/2472(2019)">2472 (2019)</a>, que se asumieron en el Marco para la Rendición Mutua de Cuentas de 2019 y se basaron en los compromisos establecidos en el Pacto de Seguridad que se acordó durante la Conferencia de Londres sobre Somalia de 2017, y alentando además los avances en relación con esas medidas,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Poniendo de relieve</span> la importancia de que el GFS y sus EMF colaboren plenamente, observando que todas las partes tienen la responsabilidad de mejorar la cooperación y participar en los debates que dirige el GFS, y recalcando que la plena colaboración impulsaría las grandes prioridades nacionales, a saber: la puesta en marcha de la estructura de seguridad nacional, la ejecución de las tareas establecidas en el Plan de Transición con liderazgo somalí, la realización de nuevas reformas financieras, la revisión de la Constitución y la celebración de elecciones a más tardar a finales de 2020 o principios de 2021, </p>
+      </container>
+      <container name="Condenando" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Condenando </span>las violaciones y los abusos del derecho internacional de los derechos humanos y las violaciones del derecho internacional humanitario en Somalia, exhortando a todas las partes a que actúen cumpliendo plenamente sus obligaciones en virtud del derecho internacional de los derechos humanos y el derecho internacional humanitario, y recordando además las conclusiones sobre los niños y el conflicto armado en Somalia del Grupo de Trabajo sobre los Niños y los Conflictos Armados (<a href="https://undocs.org/es/S/AC.51/2017/2">S/AC.51/2017/2</a>), </p>
+      </container>
+      <container name="Expresando grave preocupación" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Expresando grave preocupación</span> por la situación humanitaria de Somalia y el impacto de la pandemia de COVID-19, reconociendo que la pandemia plantea un enorme desafío para el sistema de salud y la situación socioeconómica y humanitaria de Somalia, pidiendo que se preste la asistencia humanitaria necesaria para apoyar a Somalia, observando con aprecio las medidas adoptadas por la AMISOM y las Naciones Unidas para garantizar la seguridad del personal de la AMISOM y de las Naciones Unidas y mantener al mismo tiempo la continuidad de las operaciones, pidiendo que prosigan los esfuerzos por mitigar el impacto de la pandemia, y acogiendo con beneplácito la función que desempeña la AMISOM en apoyo de las actividades de gestión de desastres y socorro dirigidas por Somalia y sus esfuerzos por crear condiciones propicias para la prestación de asistencia humanitaria,</p>
+      </container>
+      <container name="Reafirmando" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Reafirmando </span>la importante función de las mujeres en la prevención y solución de los conflictos y en la consolidación de la paz, y destacando la importancia de que participen e intervengan de manera plena, efectiva y significativa en todas las actividades de mantenimiento y promoción de la paz y la seguridad a todos los niveles, así como la necesidad de potenciar su papel en la adopción de decisiones y el liderazgo con respecto a la prevención y la solución de los conflictos,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Poniendo de relieve</span> la necesidad de que el GFS y las Naciones Unidas adopten estrategias adecuadas de evaluación y gestión de los riesgos relacionados con el cambio climático, otros cambios ecológicos, los desastres naturales, el acceso a la energía y otros factores que afectan a la estabilidad de Somalia,</p>
+      </container>
+      <container name="Tomando nota" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Tomando nota</span> del examen conjunto de la AMISOM realizado por la Unión Africana y las Naciones Unidas en 2019, del comunicado sobre la situación en Somalia emitido por el Consejo de Paz y Seguridad de la Unión Africana el 7 de mayo de 2020 y del informe del Secretario General sobre la situación en Somalia de 13 de mayo de 2020 (<a href="https://undocs.org/es/S/2020/398">S/2020/398</a>),</p>
+      </container>
+      <container name="Habiendo determinado" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Habiendo determinado</span> que la situación en Somalia sigue constituyendo una amenaza para la paz y la seguridad internacionales,</p>
+      </container>
+      <container name="Actuando" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Actuando </span>en virtud del Capítulo VII de la Carta de las Naciones Unidas,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="italic">Pide </span>al GFS y sus EMF que sigan avanzando urgentemente en la transición y acoge con beneplácito el compromiso del GFS de revisar el Plan de Transición con liderazgo somalí para fines de septiembre de 2020, reajustando las tareas con los asociados y acordando una definición clara de las funciones de todos los principales interesados; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>2.</num>
+        <list eId="para_20_list">
+          <intro eId="para_20_list_intro">
+            <p xml:space="preserve">	<span class="italic">Insta </span>al GFS y sus EMF a que emprendan acciones concretas para cumplir las medidas prioritarias del Marco para la Rendición Mutua de Cuentas de 2019, que son esenciales para la seguridad de Somalia y para fundamentar las decisiones sobre el apoyo internacional al sector de la seguridad somalí después de 2021, a saber: </p>
+          </intro>
+          <point eId="para_20_list_point_a">
+            <num>a)</num>
+            <content eId="para_20_list_point_a_content">
+              <p xml:space="preserve">	Alcanzar un acuerdo político inclusivo sobre el reparto de recursos y de poder, el establecimiento de estructuras de gobernanza y supervisión y la delimitación de las responsabilidades de las instituciones de seguridad somalíes; </p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_b">
+            <num>b)</num>
+            <content eId="para_20_list_point_b_content">
+              <p xml:space="preserve">	Reinstaurar las reuniones periódicas del Consejo de Seguridad Nacional o un mecanismo alternativo de participación; </p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_c">
+            <num>c)</num>
+            <content eId="para_20_list_point_c_content">
+              <p xml:space="preserve">	Acelerar la planificación técnica y de la seguridad de las elecciones en coordinación con la AMISOM, la UNSOS y la UNSOM para que puedan celebrarse elecciones que obedezcan al principio de un voto por persona, sean libres y limpias, pacíficas, transparentes, oportunas, dignas de crédito e inclusivas, y permitan votar al mayor número posible de ciudadanos a finales de 2020 o principios de 2021; </p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_d">
+            <num>d)</num>
+            <content eId="para_20_list_point_d_content">
+              <p xml:space="preserve">	Elaborar y empezar a aplicar un plan factible, con plazos concretos y coordinado para la generación de fuerzas capaces, asequibles, responsables y aceptables y para la integración de las fuerzas regionales en las fuerzas armadas federales y la policía de los estados; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Reitera </span>que no es posible derrotar a Al-Shabaab y otros grupos armados de la oposición únicamente por medios militares y, a ese respecto, exhorta al GFS, a los EMF, a la AMISOM, a las Naciones Unidas y a los asociados internacionales a que colaboren más estrechamente para adoptar un enfoque integral de la seguridad que sea colaborativo, sensible a las cuestiones de género y estabilizador, y exhorta a los asociados internacionales a que presten apoyo al GFS para contrarrestar las actividades de financiación, adquisiciones y propaganda de Al-Shabaab; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>su apoyo a las tareas enunciadas en el Plan de Transición y recalca la recomendación que figura en el examen conjunto de 2019 de que las tareas y prioridades estratégicas de la AMISOM se consideren principalmente en el contexto de la transición;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Subraya </span>su intención de evaluar el apoyo en materia de seguridad que será necesario para preparar a Somalia a fin de que pueda asumir el liderazgo de la seguridad a más tardar a finales de 2021 y mantenerlo después de esa fecha, y de adoptar decisiones sobre la reconfiguración de la AMISOM sobre la base de: 1) la información transmitida por la Unión Africana, el GFS, la Unión Europea y los asociados internacionales pertinentes; 2) la aplicación de las medidas prioritarias mencionadas en el párrafo 2; y 3) los resultados del informe de evaluación independiente solicitado en el párrafo 34 de la resolución <a href="https://undocs.org/es/S/RES/2472(2019)">2472 (2019)</a>, con las modificaciones indicadas en el párrafo 38 de la presente resolución;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>6.</num>
+        <list eId="para_34_list">
+          <intro eId="para_34_list_intro">
+            <p xml:space="preserve">	<span class="italic">Subraya </span>la necesidad de adoptar un enfoque coordinado y coherente de las reformas políticas y de seguridad lideradas por los somalíes y, por tanto, exhorta: </p>
+          </intro>
+          <point eId="para_34_list_point_a">
+            <num>a)</num>
+            <content eId="para_34_list_point_a_content">
+              <p xml:space="preserve">	Al GFS a que impulse y lidere la coordinación estratégica mediante reuniones periódicas de alto nivel del Enfoque Integral de la Seguridad o mecanismos alternativos, empezando lo antes posible, y a la AMISOM, la UNSOM, la UNSOS, el GFS y los EMF a que aumenten la coordinación y la colaboración a todos los niveles;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_b">
+            <num>b)</num>
+            <content eId="para_34_list_point_b_content">
+              <p xml:space="preserve">	A los asociados internacionales y regionales a que, en coordinación con la UNSOM y por conducto del Enfoque Integral de la Seguridad, incluido el mecanismo de coordinación militar, y otros mecanismos pertinentes, coordinen y armonicen mejor su apoyo a la AMISOM y a Somalia con el Pacto de Seguridad y permitan la ejecución de las tareas enunciadas en el Plan de Transición actualizado, incluso con respecto a las mentorías, el adiestramiento, el equipo, el desarrollo de la capacidad y la remuneración de las fuerzas policiales y militares; </p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_c">
+            <num>c)</num>
+            <content eId="para_34_list_point_c_content">
+              <p xml:space="preserve">	Al GFS, los EMF, la AMISOM, las Naciones Unidas, la Unión Africana y los asociados pertinentes a que aumenten las actividades conjuntas e integrales de planificación, coordinación, intercambio de información y comunicaciones estratégicas lideradas por el GFS, y al GFS, la AMISOM y la UNSOS a que lleven a cabo una planificación inclusiva e integrada de los lugares de transición, las operaciones conjuntas y las actividades de estabilización en consonancia con las tareas previstas en el Plan de Transición con liderazgo somalí actualizado; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Recalca</span> la necesidad de que todas las partes interesadas tengan en cuenta las condiciones de seguridad en cada lugar durante el traspaso a Somalia de las responsabilidades en materia de seguridad y tengan debidamente en cuenta la necesidad de proteger a los civiles y mitigar los riesgos antes y después de cualquier operación militar y en su transcurso, subraya que todas las operaciones y transiciones conjuntas, así como las decisiones estratégicas y operacionales, deben ser acordadas por las fuerzas de seguridad somalíes, las autoridades de Somalia y la AMISOM desde el principio, en coordinación con las Naciones Unidas y otros asociados internacionales, cuando proceda, y reafirma la función esencial que desempeñan la policía y el sector de la justicia en los esfuerzos de estabilización y en los preparativos y la celebración de las elecciones, y su papel central como agentes de la seguridad después de la transición;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> al GFS a que, con el apoyo coordinado de la comunidad internacional, trace un plan estratégico claro para generar nuevas fuerzas de seguridad somalíes, integrar a las fuerzas de los EMF y adiestrar y equipar a las fuerzas federales actuales y las que vayan generándose, solicita a la Unión Africana y a la UNSOM que presten apoyo adicional a la AMISOM para que preste apoyo al Ejército Nacional Somalí (ENS) con mentorías en combate, y subraya la importancia de desplegar a esas fuerzas para cumplir las tareas enunciadas en el Plan de Transición actualizado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="H1">
+        <heading>		AMISOM</heading>
+      </paragraph>
+      <paragraph eId="para_49" class="H23">
+        <subheading>		Prioridades y tareas</subheading>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>autorizar a los Estados Miembros de la Unión Africana a que mantengan hasta el 28 de febrero de 2021 el despliegue de 19.626 efectivos uniformados de la AMISOM, incluido un mínimo de 1.040 efectivos policiales con cinco unidades de policía constituidas, a fin de apoyar los preparativos de seguridad con miras a las elecciones previstas para finales de 2020 o principios de 2021, y de realizar tareas conforme al Plan de Transición con liderazgo somalí actualizado y el traspaso de la seguridad a las fuerzas de seguridad somalíes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Decide también</span> que la AMISOM estará autorizada a adoptar todas las medidas necesarias para ejecutar su mandato, cumpliendo íntegramente las obligaciones de los Estados participantes en virtud del derecho internacional, en particular el derecho internacional humanitario y el derecho internacional de los derechos humanos, y respetando plenamente la soberanía, la integridad territorial, la independencia política y la unidad de Somalia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>11.</num>
+        <list eId="para_53_list">
+          <intro eId="para_53_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decide </span>autorizar a la AMISOM a que persiga los siguientes objetivos estratégicos en el contexto de la transición hacia la asunción por Somalia de la responsabilidad de la seguridad, conforme a lo dispuesto en el Plan de Transición y de acuerdo con el GFS:</p>
+          </intro>
+          <point eId="para_53_list_point_a">
+            <num>a)</num>
+            <content eId="para_53_list_point_a_content">
+              <p xml:space="preserve">	Realizar un traspaso gradual de las responsabilidades de seguridad de la AMISOM a las fuerzas de seguridad somalíes con el objetivo de que las instituciones de seguridad de Somalia asuman el liderazgo a más tardar en 2021;</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_b">
+            <num>b)</num>
+            <content eId="para_53_list_point_b_content">
+              <p xml:space="preserve">	Reducir la amenaza que representan Al-Shabaab y otros grupos armados de la oposición con miras a lograr una Somalia estable, federal, soberana y unida; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_c">
+            <num>c)</num>
+            <content eId="para_53_list_point_c_content">
+              <p xml:space="preserve">	Ayudar a las fuerzas de seguridad somalíes a garantizar la seguridad del proceso político a todos los niveles, los esfuerzos de estabilización, la reconciliación y la consolidación de la paz, y prestar el apoyo necesario a la policía y las autoridades somalíes para crear un entorno seguro en la etapa previa a las elecciones con el objetivo de traspasar plenamente la responsabilidad de la seguridad a las instituciones de seguridad somalíes; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>12.</num>
+        <list eId="para_56_list">
+          <intro eId="para_56_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decide </span>autorizar a la AMISOM a que lleve a cabo las siguientes tareas prioritarias para lograr esos objetivos:</p>
+          </intro>
+          <point eId="para_56_list_point_a">
+            <num>a)</num>
+            <content eId="para_56_list_point_a_content">
+              <p xml:space="preserve">	Mantener una presencia en los sectores indicados en el concepto de las operaciones de la AMISOM, dando prioridad a los centros de población señalados por el GFS y reconfigurándola conforme al Plan de Transición con liderazgo somalí actualizado;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_b">
+            <num>b)</num>
+            <content eId="para_56_list_point_b_content">
+              <p xml:space="preserve">	Reconfigurar la AMISOM y revisar las tareas, si lo permiten las condiciones de seguridad, para respaldar el Plan de Transición actualizado y aumentar el personal de policía sin superar el máximo autorizado de efectivos de la AMISOM;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_c">
+            <num>c)</num>
+            <content eId="para_56_list_point_c_content">
+              <p xml:space="preserve">	Proporcionar mentorías y asistencia a las fuerzas de seguridad somalíes, incluidas mentorías sobre disponibilidad para el combate a las fuerzas militares y, en caso necesario, mentorías y adiestramiento a la policía somalí;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_d">
+            <num>d)</num>
+            <content eId="para_56_list_point_d_content">
+              <p xml:space="preserve">	Contribuir a garantizar, en colaboración con las fuerzas de seguridad somalíes, la seguridad y el mantenimiento constante de las principales rutas de abastecimiento, incluidas las que conducen a zonas recuperadas de Al-Shabaab, y particularmente, en coordinación con las instancias que se encargan de la estabilización y la reconciliación, las rutas de abastecimiento esenciales para mejorar la situación humanitaria, por las que pueden transportarse bienes comerciales indispensables para atender las necesidades básicas de la población civil, las que tienen una importancia crítica para el apoyo logístico a la AMISOM y las principales rutas de abastecimiento que respaldan la ejecución del Plan de Transición, y recalca que la prestación de apoyo logístico sigue siendo una responsabilidad compartida por las Naciones Unidas y la Unión Africana;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_e">
+            <num>e)</num>
+            <content eId="para_56_list_point_e_content">
+              <p xml:space="preserve">	Ayudar, según proceda, a las fuerzas de seguridad somalíes para que las autoridades de Somalia puedan desempeñar sus funciones de gobierno, incluidos sus esfuerzos en pro de la estabilización, coordinados con el Ministerio de Interior, Asuntos Federales y Reconciliación y el Equipo de Recuperación Comunitaria y Ampliación de la Autoridad y la Rendición de Cuentas del Estado, y de la reconciliación, la consolidación de la paz, los preparativos de las elecciones y la seguridad de las infraestructuras clave;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_f">
+            <num>f)</num>
+            <content eId="para_56_list_point_f_content">
+              <p xml:space="preserve">	Realizar operaciones ofensivas selectivas planificadas conjuntamente que respalden el Plan de Transición actualizado, incluso con las fuerzas de seguridad somalíes, para desbaratar y debilitar a Al-Shabaab y a otros grupos armados de la oposición, y adoptar medidas para mitigar la amenaza que representan los artefactos explosivos improvisados;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_g">
+            <num>g)</num>
+            <content eId="para_56_list_point_g_content">
+              <p xml:space="preserve">	Proteger, según proceda, a su personal, sus instalaciones, sus locales, su equipo y su misión, y velar por la seguridad y la libertad de circulación de su personal, así como del personal de las Naciones Unidas que desempeñe funciones encomendadas por el Consejo de Seguridad;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_h">
+            <num>h)</num>
+            <content eId="para_56_list_point_h_content">
+              <p xml:space="preserve">	Recibir a los desertores temporalmente, según proceda, en coordinación con las Naciones Unidas y el GFS;</p>
+            </content>
+          </point>
+          <point eId="para_56_list_point_i">
+            <num>i)</num>
+            <content eId="para_56_list_point_i_content">
+              <p xml:space="preserve">	Apoyar al GFS y sus EMF y ayudarlos a implementar la prohibición total de la exportación de carbón vegetal de Somalia y a documentar y facilitar la inspección del equipo incautado, incluidas las armas pequeñas y las armas ligeras, como se solicita en el párrafo 18 de la resolución <a href="https://undocs.org/es/S/RES/2111(2013)">2111 (2013)</a> y el párrafo 6 de la resolución <a href="https://undocs.org/es/S/RES/2182(2014)">2182 (2014)</a>; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a la Unión Africana que siga desarrollando y actualizando el concepto general de las operaciones conforme al Plan de Transición con liderazgo somalí actualizado y en estrecha colaboración con el GFS, las Naciones Unidas y los principales asociados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la Unión Africana que fortalezca la supervisión y la coordinación operacional entre los contingentes de la AMISOM, refuerce el mando, el control y la rendición de cuentas de la entrada en funciones de las unidades de apoyo a la misión, incluidos los activos aéreos, permitiendo la creación y la entrada en funciones de fuerzas móviles en los sectores con arreglo a la reconfiguración de la AMISOM, asegure la adopción coordinada de decisiones operacionales bajo la autoridad tanto del Comandante de Sector como del Comandante de la Fuerza, y vele por que todos los elementos de apoyo a la fuerza y los multiplicadores operen bajo el mando del Comandante de la Fuerza, y asegure asimismo que se consulten efectivamente las decisiones operacionales con los asociados somalíes e internacionales competentes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">Apoya</span> los exámenes del equipo de la Unión Africana realizados en 2019, insta a la Unión Africana a que finalice su examen del equipo a más tardar en septiembre de 2020 con el apoyo de las Naciones Unidas, teniendo en cuenta las declaraciones de necesidades de las unidades y con los recursos disponibles, a fin de fortalecer la capacidad operacional de la AMISOM, subsanar las deficiencias de los recursos necesarios y mejorar la protección de su fuerza para que pueda ejecutar las tareas de su mandato, y alienta además a los Estados Miembros a que ayuden a la Unión Africana a movilizar los recursos y el equipo necesarios, incluso haciendo contribuciones financieras incondicionales al fondo fiduciario de la AMISOM sobre la base de las recomendaciones aplicables formuladas en el examen del equipo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">Insta</span> a que se despliegue el componente civil restante para apoyar plenamente las tareas militares y policiales de la AMISOM relacionadas con los procesos de transición y reducción; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="italic">Subraya enérgicamente</span> que sigue siendo importante que las fuerzas de la AMISOM ejecuten su mandato cumpliendo plenamente las obligaciones de los Estados participantes en virtud del derecho internacional, incluso en lo que respecta a la protección de los civiles, especialmente las mujeres y los niños, y que cooperen con la UNSOM y la UNSOS para aplicar la política de diligencia debida en materia de derechos humanos en el contexto del apoyo de las Naciones Unidas a fuerzas de seguridad ajenas a la Organización (PDDDH) en todas las fases de preparación, realización y examen de las operaciones; exhorta a la AMISOM a que emprenda actividades de vigilancia periódica e investigaciones e informes rápidos y exhaustivos sobre las denuncias de violaciones y abusos del derecho internacional de los derechos humanos y violaciones del derecho internacional humanitario, y a la Unión Africana a que garantice su realización, procurando aplicar las normas más estrictas de transparencia y conducta y disciplina y armonizar sus procedimientos con los de la UNSOM, acoge con beneplácito los progresos de la Unión Africana en la elaboración de un marco de cumplimiento, e insta a los países que aportan contingentes y fuerzas de policía a que fortalezcan su cooperación con la Unión Africana y las Naciones Unidas a fin de velar por la eficacia de las medidas de cumplimiento y rendición de cuentas de la AMISOM; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_95__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a la AMISOM que refuerce la uniformidad de la presentación de informes a la Célula de Seguimiento, Análisis y Respuesta para las Bajas Civiles (CSARBC) en todos los sectores y adopte nuevas disposiciones para que se tomen medidas de mitigación, subraya la importancia de asegurar que la información se comparta con las instancias pertinentes, incluidas las Naciones Unidas, se integre en los informes de la AMISOM y se incorpore en las directrices y los planes operacionales, y solicita que los países que aportan contingentes y fuerzas de policía presten pleno apoyo a la CSARBC, en colaboración con las instancias encargadas de la asistencia humanitaria, los derechos humanos y la protección;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> la importancia de la política de tolerancia cero de la AMISOM frente a la explotación y los abusos sexuales y, a este respecto, solicita a la Unión Africana y a los países que aportan contingentes y fuerzas de policía que verifiquen los antecedentes del personal, realicen evaluaciones de riesgos, impartan toda la capacitación pertinente al personal, protejan a los supervivientes que denuncien abusos y apoyen los servicios destinados a su socorro y recuperación, investiguen oportunamente las denuncias para que los autores rindan cuentas y repatrien a las unidades cuando haya pruebas fidedignas de que han cometido actos de explotación o abusos sexuales generalizados o sistémicos, y solicita también a la Unión Africana que colabore estrechamente con las Naciones Unidas en este sentido;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="italic">Alienta encarecidamente</span> los esfuerzos por aumentar el porcentaje de personal uniformado femenino desplegado en la AMISOM por los países que aportan contingentes y fuerzas de policía, e insta a la AMISOM a que vele por que las mujeres participen de manera plena, efectiva y significativa en todas sus operaciones y a que integre la perspectiva de género en todos los aspectos de la ejecución de su mandato;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="H23">
+        <subheading>		Apoyo logístico y financiero</subheading>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que siga proporcionando un módulo de apoyo logístico, en pleno cumplimiento de la PDDDH y por conducto de la UNSOS, para la UNSOM, el personal uniformado de la AMISOM y 70 efectivos civiles de la AMISOM, sobre la base de lo dispuesto en el párrafo 2 de la resolución <a href="https://undocs.org/es/S/RES/2245(2015)">2245 (2015)</a>, y que aumente el apoyo prestado a 13.900 efectivos de las fuerzas de seguridad somalíes, incluida una representación apropiada de la policía federal y la policía de los estados, que están integrados oficialmente en ellas conforme a la estructura de seguridad nacional y participan activamente en las operaciones conjuntas o coordinadas con la AMISOM que guardan relación directa con la aplicación del Plan de Transición, reitera la importancia de que la AMISOM y las fuerzas de seguridad somalíes colaboren con la UNSOS en la prestación de apoyo logístico, incluso, entre otras cosas, garantizando la seguridad de los convoyes y los aeródromos, la protección de los civiles y la protección de las rutas principales de abastecimiento, y solicita además al Secretario General que amplíe el apoyo de las Naciones Unidas a las fuerzas de seguridad somalíes para ofrecer adiestramiento, equipo y mentorías que permitan contrarrestar la amenaza de los artefactos explosivos improvisados;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="italic">Conviene</span> con el Secretario General en que la supervisión y la rendición de cuentas, en particular el cumplimiento de la PDDDH, serán la piedra angular de la alianza entre las Naciones Unidas, la Unión Africana, el GFS y los EMF, solicita al Secretario General que vele por que cualquier apoyo a fuerzas de seguridad ajenas a la Organización se preste cumpliendo estrictamente a la PDDDH, y solicita al GFS y a la Unión Africana que concierten lo antes posible un memorando de entendimiento con las Naciones Unidas sobre las condiciones de la prestación de apoyo de las Naciones Unidas a las fuerzas de seguridad somalíes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que colabore estrechamente con la Unión Africana para respaldar la aplicación de la presente resolución, incluso para prestar asesoramiento técnico y especializado sobre la planificación, el despliegue y la gestión estratégica de la AMISOM, en consonancia con el mandato de la oficina de las Naciones Unidas ante la Unión Africana;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxt">
+        <num>24.</num>
+        <list eId="para_124_list">
+          <intro eId="para_124_list_intro">
+            <p xml:space="preserve">	<span class="italic">Reitera</span> su llamamiento para que nuevos donantes presten apoyo a:</p>
+          </intro>
+          <point eId="para_124_list_point_a">
+            <num>a)</num>
+            <content eId="para_124_list_point_a_content">
+              <p xml:space="preserve">	La AMISOM, mediante fondos adicionales destinados a sufragar estipendios de los contingentes, equipo y asistencia técnica para la AMISOM, como se recomienda en el informe de la Unión Africana y las Naciones Unidas sobre la financiación, y a respaldar el funcionamiento eficaz de la CSARBC y el desembolso de indemnizaciones;</p>
+            </content>
+          </point>
+          <point eId="para_124_list_point_b">
+            <num>b)</num>
+            <content eId="para_124_list_point_b_content">
+              <p xml:space="preserve">	El fondo fiduciario de las Naciones Unidas en apoyo de la Misión de la Unión Africana en Somalia y las fuerzas de seguridad somalíes, incluidos los fondos destinados al equipo de capacitación y la financiación y las mentorías de las fuerzas de seguridad somalíes para contrarrestar la amenaza de los artefactos explosivos improvisados, hacer frente a la proliferación de armas pequeñas y armas ligeras y apoyar a la policía de los estados y la policía federal, como se establece en el párrafo 21;</p>
+            </content>
+          </point>
+          <point eId="para_124_list_point_c">
+            <num>c)</num>
+            <content eId="para_124_list_point_c_content">
+              <p xml:space="preserve">	Las instituciones nacionales y estatales para el desarrollo del sector de la seguridad de Somalia, incluida la capacitación de la fuerza de policía marítima, en consonancia con la resolución <a href="https://undocs.org/es/S/RES/2246(2015)">2246 (2015)</a>; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">Subraya</span> la necesidad de mejorar la previsibilidad, sostenibilidad y flexibilidad de la financiación de las operaciones de apoyo a la paz dirigidas por la Unión Africana que ha autorizado en virtud de las atribuciones que le confiere el Capítulo VIII de la Carta, y alienta al Secretario General, a la Unión Africana y a los Estados Miembros a que continúen buscando con ahínco mecanismos de financiación para la AMISOM, teniendo presentes todas las opciones de que disponen las Naciones Unidas, la Unión Africana, la Unión Europea y otros asociados, y considerando las limitaciones de la financiación voluntaria, a fin de establecer futuros mecanismos de financiación seguros para la AMISOM; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="H23">
+        <subheading>		Somalia</subheading>
+      </paragraph>
+      <paragraph eId="para_130" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_130__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> la urgencia de que el GFS y sus EMF cooperen plenamente, observa que se han dado los primeros pasos para organizar una reunión entre los coordinadores del GFS y los EMF y alienta a todas las partes interesadas a que aprovechen esa reunión y otras oportunidades para superar las dificultades y cumplir las importantes prioridades nacionales; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="italic">Subraya</span> las importantes medidas adoptadas por el GFS para reformar las instituciones y desarrollar la capacidad del sector de la seguridad, incluidos los progresos que siguen realizándose en el registro biométrico del ENS, el pago de los sueldos mediante transferencias electrónicas directas y los avances de las operaciones conjuntas, incluida la Operación Badbaado;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> al GFS y los EMF a que presten a la policía de los estados y la policía federal pleno apoyo mediante capacitación, equipamiento y autonomía logística, reitera el papel esencial que desempeña la policía en el sostenimiento de las operaciones del ENS destinadas a asegurar y retener territorio y pone de relieve que, para aplicar íntegramente el Plan de Transición, el GFS necesita una fuerza de policía profesional y competente, capaz de contribuir a la seguridad de las poblaciones civiles; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_136__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a las autoridades somalíes a que, en coordinación con la AMISOM, los asociados internacionales y las entidades competentes de las Naciones Unidas, incluido el Servicio de Actividades relativas a las Minas, combatan el comercio y la transferencia ilícitos, la acumulación desestabilizadora y el uso indebido de armas pequeñas y armas ligeras en todos sus aspectos, para impedir que los destinatarios no autorizados tengan acceso a ningún tipo de explosivos y materiales conexos en Somalia, y a que garanticen su gestión y almacenamiento efectivos y en condiciones de seguridad; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a las autoridades somalíes a que adopten las medidas políticas y técnicas adicionales necesarias para que se celebren elecciones que obedezcan al principio de un voto por persona a más tardar a finales de 2020 o principios de 2021; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_145" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_145__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> el importante papel de la participación plena, igualitaria, significativa y efectiva de todos los somalíes, incluidas las mujeres, la juventud, las personas con discapacidad, los desplazados internos y los refugiados, en la prevención y solución de los conflictos, los procesos de reconciliación, la consolidación de la paz, y las elecciones y otros procesos políticos, y reconoce la gran contribución que puede hacer la sociedad civil a este respecto;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_151__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a las autoridades somalíes a que colaboren con los asociados competentes para garantizar la protección de todas las personas contra la violencia sexual y de género, incluidos la explotación y los abusos sexuales y la violencia sexual relacionada con los conflictos, adopten medidas adecuadas para investigar las denuncias, refuercen la legislación para respaldar la rendición de cuentas en consonancia con las resoluciones pertinentes, y aceleren la aplicación del Comunicado Conjunto y el Plan de Acción Nacional para combatir la violencia sexual en los conflictos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_158__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta</span> a las autoridades somalíes a que adopten medidas para prevenir la muerte, la mutilación y el secuestro de niños, su reclutamiento y su reclutamiento repetido, de conformidad con las conclusiones sobre los niños y el conflicto armado en Somalia formuladas en 2017 por el Grupo de Trabajo, y el uso de la violencia sexual contra los niños en los conflictos armados, y a que hagan rendir cuentas a los responsables, exhorta también a las autoridades somalíes a que adopten medidas apropiadas para prevenir los ataques contra infraestructuras civiles, como escuelas y hospitales, y a que pongan fin a la detención de todos los niños acusados de delitos contra la seguridad nacional cuando ello contravenga el derecho internacional aplicable y a que, en cambio, los traten sobre todo como víctimas, y exhorta además al GFS a que tome medidas para aplicar plenamente sus planes de acción de 2012, los procedimientos operativos estándar de 2014 para la entrega de niños separados de grupos armados, la Hoja de Ruta de 2018 y las conclusiones sobre los niños y el conflicto armado en Somalia del Grupo de Trabajo sobre los Niños y los Conflictos Armados (<a href="https://undocs.org/es/S/AC.51/2017/2">S/AC.51/2017/2</a>); </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> su constante preocupación por el elevado número de refugiados y desplazados internos, destaca que cualquier desalojo debe ser compatible con las leyes nacionales y las obligaciones internacionales pertinentes, acoge con beneplácito la ratificación por el GFS de la Convención de Kampala de la Unión Africana y destaca la importancia de que el GFS aplique plenamente sus disposiciones; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_175__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda</span> su resolución <a href="https://undocs.org/es/S/RES/2417(2018)">2417 (2018)</a> y expresa grave preocupación por la persistente crisis humanitaria de Somalia y sus efectos en el pueblo somalí, alienta a todos los asociados, incluidos los donantes, a que mantengan la asistencia humanitaria en 2020 y presten asistencia adicional para la respuesta general a la COVID-19, condena enérgicamente los ataques indiscriminados y los ataques dirigidos contra el personal humanitario y médico y la infraestructura civil, en particular los de Al-Shabaab, y cualquier uso indebido u obstrucción de la asistencia humanitaria, reitera su exigencia de que todas las partes permitan el acceso pleno, seguro, rápido y sin trabas para la entrega oportuna de la asistencia humanitaria en toda Somalia a las personas necesitadas de conformidad con las disposiciones pertinentes del derecho internacional y en consonancia con los principios humanitarios, y subraya la importancia de que se rindan cuentas debidamente por el apoyo humanitario internacional; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="H23">
+        <subheading>		Presentación de informes</subheading>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> a la Unión Africana que, por conducto del Secretario General, lo mantenga informado cada 90 días sobre la ejecución del mandato de la AMISOM, mediante al menos tres informes escritos, el primero de los cuales deberá presentarse a más tardar el 15 de agosto de 2020, y solicita también, a este respecto, que se informe específicamente sobre lo siguiente: 1) los progresos de las operaciones conjuntas en apoyo del Plan de Transición, incluido el uso y la eficacia de los mecanismos de coordinación; 2) propuestas de tareas revisadas conforme a lo dispuesto en el párrafo 12 b); 3) las medidas de rendición de cuentas adoptadas para subsanar el desempeño insatisfactorio, incluso en materia de mando y control y de conducta y disciplina; 4) las medidas adoptadas para proteger a los civiles; 5) los resultados del examen del equipo y los activos para el uso de la fuerza; y 6) la dotación de personal del componente civil; y alienta a que se presenten puntualmente los informes para que pueda tener en cuenta las perspectivas de la Unión Africana sobre la situación en Somalia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_178" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_178__content">
+          <p xml:space="preserve">	<span class="italic">Solicita</span> al Secretario General que, en sus informes periódicos solicitados en el párrafo 22 de la resolución <a href="https://undocs.org/es/S/RES/2461(2019)">2461 (2019)</a>, lo mantenga informado periódicamente sobre la aplicación de la presente resolución, y a este respecto solicita también al Secretario General que en sus informes periódicos evalúe lo siguiente: 1) los progresos realizados en relación con las medidas prioritarias mencionadas en el párrafo 2 de la presente resolución, 2) la aplicación de la PDDDH, y 3) el apoyo de la UNSOS a la AMISOM, la UNSOM y las fuerzas de seguridad somalíes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="italic">Reafirma</span> su intención de seguir examinando la configuración de la AMISOM y solicita al Secretario General que realice una evaluación independiente, a más tardar el 10 de enero de 2021 y le presente opciones sobre el apoyo internacional a todo el entorno de seguridad de Somalia después de 2021, incluido el papel de las Naciones Unidas, la Unión Africana y los asociados internacionales, una vez haya celebrado consultas con el GFS, la Unión Africana y los asociados internacionales para recabar sus opiniones respectivas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> seguir ocupándose activamente de la cuestión.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
