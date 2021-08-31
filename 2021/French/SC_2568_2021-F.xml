@@ -1,0 +1,808 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/"></FRBRuri>
+          <FRBRdate date="2021-03-12" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/fra@/"></FRBRuri>
+          <FRBRdate date="2021-03-12" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-03-12/2568-2021/fra@.xml"></FRBRuri>
+          <FRBRdate date="2021-08-29" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="African Union Mission in Somalia" showAs="African Union Mission in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Support Office in Somalia" showAs="UN. Support Office in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Assistance Mission in Somalia" showAs="UN Assistance Mission in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUPPORT SERVICES" showAs="SUPPORT SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA" showAs="SOMALIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA SITUATION" showAs="SOMALIA SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[84]" showAs="SOMALIA SITUATION" dictionary="S/76"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation in Somalia." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2568 (2021) [on authorization to the Member States of the African Union to maintain the deployment of the African Union Mission in Somalia (AMISOM) until 31 Dec. 2021]" showAs="Security Council resolution 2568 (2021) [on authorization to the Member States of the African Union to maintain the deployment of the African Union Mission in Somalia (AMISOM) until 31 Dec. 2021]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-03-12" outcome="draftResolution" as="S/2021/243" by="United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-03-12" outcome="adopted" as="S/2021/255" by="Adopted unanimously; voting by mail" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="VOTING BY MAIL">
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-03445 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2568 (2021)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil de sécurité</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-03-12" class="rightSmall" refersTo="#dateOfIssuance">12 mars 2021</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Résolution 2568 (2021)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adoptée par le Conseil de sécurité le <inline name="adoptionMeeting"></inline><docDate date="2021-03-12" refersTo="#adoptionDate">12 mars 2021</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil de sécurité</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> toutes ses résolutions et toutes les déclarations de sa présidence sur la situation en Somalie,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> son attachement à la souveraineté, à l’intégrité territoriale, à l’indépendance politique et à l’unité de la Somalie,</p>
+      </container>
+      <container name="Se félicitant" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> de l’action menée par la communauté internationale pour faire face à l’instabilité et à l’insécurité en Somalie, et <span class="italic">saluant</span> le rôle de chef de file joué par l’Union africaine à cet égard,</p>
+      </container>
+      <container name="Constatant avec satisfaction" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Constatant avec satisfaction</span> les progrès accomplis en Somalie à ce jour et <span class="italic">félicitant</span> le peuple somalien, les autorités somaliennes, l’Union africaine, la Mission de l’Union africaine en Somalie (AMISOM) et les pays qui lui fournissent des contingents, l’ONU et les autres partenaires internationaux de la Somalie des contributions qu’ils ont apportées à cet égard,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> que les Chabab et les groupes d’opposition armés sont la menace la plus immédiate et la plus pressante qui pèse sur la stabilité et la sécurité de la Somalie, sur le peuple somalien et sur les pays voisins, <span class="italic">condamnant dans les termes les plus énergiques</span> les attaques menées par ceux-ci en Somalie et au-delà, et <span class="italic">se déclarant vivement préoccupé</span> par les pertes en vies humaines parmi les civils que provoquent ces attaques,</p>
+      </container>
+      <container name="Saluant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Saluant</span> le courage dont ont fait preuve le personnel de l’AMISOM et les forces de sécurité somaliennes et les sacrifices qu’ils ont consentis dans le cadre de la lutte contre les Chabab, et <span class="italic">saluant également</span> la contribution de la Mission à l’instauration d’une paix et d’une stabilité durables en Somalie,</p>
+      </container>
+      <container name="Se félicitant" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Se félicitant</span> de l’appui apporté à l’AMISOM et à la Mission d’assistance des Nations Unies en Somalie (MANUSOM) par le Bureau d’appui des Nations Unies en Somalie (BANUS) et <span class="italic">conscient</span> du travail complémentaire mené par le Groupe d’experts sur la Somalie et de l’utilité des sanctions imposées par le Conseil de sécurité, notamment en tant que moyen non militaire d’affaiblir les Chabab et les groupes d’opposition armés,</p>
+      </container>
+      <container name="Conscient" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Conscient</span> que la situation en Somalie a évolué depuis qu’il a approuvé le premier mandat de l’AMISOM il y a 14 ans, notamment en ce qui concerne la menace posée par les Chabab, <span class="italic">conscient également</span> que l’action militaire ne permettra pas à elle seule de venir à bout de cette menace, <span class="italic">réaffirmant</span> qu’il est par conséquent nécessaire de s’attacher à régler les problèmes en matière de stabilisation et de gouvernance, notamment en comblant les lacunes en matière d’administration publique, d’état de droit, de lutte contre la criminalité organisée, de justice et de répression, et en prévenant et en combattant l’extrémisme violent pouvant conduire au terrorisme, parallèlement à la réforme du secteur de la sécurité et aux opérations militaires, <span class="italic">notant</span> à cet égard le potentiel qu’offrent la coopération internationale et le soutien à la consolidation de la paix ainsi qu’à la reconstruction et au développement après les conflits en Somalie si ceux-ci sont en phase avec les priorités définies par le Gouvernement, et <span class="italic">prenant note</span> à ce propos du Cadre d’action de l’Union africaine pour la reconstruction et le développement post-conflit et du Centre de l’Union africaine pour la reconstruction et le développement post-conflit, situé au Caire,</p>
+      </container>
+      <container name="Rappelant" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> qu’il incombe au premier chef aux autorités somaliennes d’assurer la sécurité dans leur pays, <span class="italic">se félicitant</span> de l’engagement pris par le Gouvernement fédéral somalien de mener des opérations conjointes avec l’AMISOM, l’objectif étant qu’il devienne l’acteur principal de la sécurité en Somalie, mais <span class="italic">notant</span> que la Somalie n’est pas encore en mesure d’assumer l’entière responsabilité de sa sécurité et que l’affaiblissement des Chabab et des groupes d’opposition armés ainsi que la consolidation et la pérennisation de la paix nécessiteront par conséquent le maintien de la collaboration et du soutien régionaux et internationaux, et <span class="italic">soulignant</span> que ce soutien devrait être conforme aux orientations données par la Somalie,</p>
+      </container>
+      <container name="Soulignant" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> qu’il importe de renforcer les capacités des forces et des institutions somaliennes afin qu’elles soient en mesure de faire face aux menaces actuelles et futures, <span class="italic">soulignant également</span> qu’il importe d’assurer une coordination efficace entre le Gouvernement fédéral somalien et les États membres de la fédération et les partenaires internationaux afin de faire en sorte que ce renforcement des capacités soit cohérent avec les orientations données par la Somalie et permette aux forces de sécurité somaliennes d’assumer progressivement une plus grande part de responsabilité dans la sécurité de la Somalie,</p>
+      </container>
+      <container name="Soulignant également" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Soulignant également</span> qu’il est essentiel que le Gouvernement fédéral somalien et les États membres de la fédération concluent des accords politiques inclusifs, <span class="italic">s’inquiétant</span> des retards pris dans l’adoption des dispositions nécessaires en vue des élections de 2021, <span class="italic">exhortant</span> le Gouvernement fédéral somalien et les États membres de la fédération à organiser des élections libres, équitables, crédibles et inclusives, conformément à l’accord du 17 septembre 2020, et ce, dans les meilleurs délais, les exhortant également à collaborer au sujet de la sécurité et d’autres priorités nationales, <span class="italic">notant</span> que les parties ont la responsabilité d’améliorer la coopération et de participer aux pourparlers menés par le Gouvernement fédéral somalien et <span class="italic">soulignant</span> qu’une pleine coopération de toutes les parties ferait avancer les progrès sur le plan des priorités nationales, à savoir mettre en place le dispositif national de sécurité et exécuter le Plan de transition pour la Somalie révisé, assurer le bon fonctionnement du système fédéral et achever la révision de la constitution, qui constitue le fondement juridique et politique du gouvernement et des institutions somaliens,</p>
+      </container>
+      <container name="Rappelant" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> sa résolution <a href="https://undocs.org/fr/S/RES/1325(2000)">1325 (2000)</a> et ses résolutions ultérieures, <span class="italic">conscient </span>du rôle important des femmes dans la prévention et le règlement des conflits et la consolidation de la paix et <span class="italic">soulignant</span> qu’il importe d’obtenir la participation pleine, égale et véritable des femmes à tous les efforts et à tous les niveaux, en vue du maintien et de la promotion de la paix et de la sécurité, et qu’il convient de les faire intervenir davantage, comme élément moteur, dans la prise de décisions touchant la prévention et le règlement des conflits, comme le prévoit la Charte des femmes somaliennes,</p>
+      </container>
+      <container name="Condamnant" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Condamnant</span> les violations des droits de l’homme et du droit international humanitaire commises en Somalie et les atteintes à ces droits, demandant à toutes les parties d’agir dans le strict respect des obligations que leur imposent le droit international des droits de l’homme et le droit international humanitaire, et <span class="italic">rappelant</span> les Conclusions du Groupe de travail sur les enfants et le conflit armé en Somalie (<a href="https://undocs.org/fr/S/AC.51/2020/6">S/AC.51/2020/6</a>),</p>
+      </container>
+      <container name="Se déclarant vivement préoccupé" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Se déclarant vivement préoccupé</span> par la situation humanitaire en Somalie et par les répercussions de la pandémie de maladie à coronavirus (COVID-19), des inondations et de l’invasion de criquets, <span class="italic">sachant</span> qu’elles mettent à mal le système de santé, l’agriculture et la situation humanitaire et socioéconomique du pays, <span class="italic">demandant</span> à toutes les parties au conflit d’autoriser et de faciliter, conformément aux dispositions pertinentes du droit international, notamment du droit international humanitaire applicable, et aux principes directeurs de l’Organisation des Nations Unies relatifs à l’aide humanitaire d’urgence, notamment les principes d’humanité, de neutralité, d’impartialité et d’indépendance, la fourniture de l’aide humanitaire nécessaire pour soutenir la Somalie, <span class="italic">notant avec satisfaction</span> les mesures prises par l’AMISOM et l’Organisation des Nations Unies pour garantir la sécurité et la sûreté de leur personnel tout en maintenant la continuité des opérations, <span class="italic">préconisant</span> la poursuite de l’action menée pour atténuer les effets de la pandémie et de l’invasion de criquets et <span class="italic">se félicitant</span> du rôle joué par l’AMISOM pour soutenir la gestion de la catastrophe et l’action de secours conduites par la Somalie, ainsi que des mesures prises pour créer des conditions propices à l’acheminement de l’aide humanitaire,</p>
+      </container>
+      <container name="Soulignant" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span> qu’il importe que le Gouvernement fédéral somalien et l’ONU se dotent des stratégies appropriées en matière d’évaluation et de gestion des risques liés aux changements climatiques, aux autres changements écologiques, aux catastrophes naturelles et aux autres facteurs ayant une influence sur la stabilité de la Somalie,</p>
+      </container>
+      <container name="Prenant note" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Prenant note</span> de l’évaluation indépendante de l’appui international à la sécurité globale en Somalie après 2021 qu’il a prescrite dans ses résolutions <a href="https://undocs.org/fr/S/RES/2520(2020)">2520 (2020)</a> et <a href="https://undocs.org/fr/S/RES/2472(2019)">2472 (2019)</a> et des recommandations qui en sont issues, <span class="italic">réaffirmant</span> le paragraphe 1 de sa résolution <a href="https://undocs.org/fr/S/RES/2520(2020)">2520 (2020)</a>, <span class="italic">se félicitant</span> du Plan de transition pour la Somalie révisé (2021), officiellement transmis à l’Union africaine et à l’ONU en février 2021, <span class="italic">exhortant</span> la Somalie à agir par l’intermédiaire du Comité de sécurité et de justice et l’Union africaine à agir par l’intermédiaire du Conseil de paix et de sécurité pour mener à son terme, sans tarder, l’adoption définitive du Plan de transition, <span class="italic">appuyant sans réserve</span> le souhait de la Somalie de diriger le processus de transfert des responsabilités en matière de sécurité, <span class="italic">prenant note</span> du communiqué du Conseil de paix et de sécurité de l’Union africaine du 9 février 2021 sur la situation en Somalie et du rapport du Secrétaire général du 17 février 2021 sur la situation en Somalie (<a href="https://undocs.org/fr/S/2021/1113">S/2021/1113</a>), et <span class="italic">attendant avec intérêt</span> l’évaluation indépendante de l’AMISOM que l’Union africaine doit soumettre en mai 2021, </p>
+      </container>
+      <container name="Reconnaissant" eId="container_18">
+        <blockList>
+          <listIntroduction>
+        <span class="italic">Reconnaissant</span> que l’objectif consistant à transférer aux autorités somaliennes les responsabilités en matière de sécurité en vue de permettre à la Somalie de prendre la tête des opérations en 2021 et à achever ce transfert de responsabilités d’ici à la fin de 2023 exige une approche échelonnée et que la présente résolution est le point de départ d’un processus qui sera éclairé par :
+      </listIntroduction>
+          <item>
+            <num>a)</num>
+          <p xml:space="preserve">	l’évaluation indépendante prescrite par l’ONU, publiée en janvier 2021,</p>
+          </item>
+            <item>
+              <num>b)</num>
+          <p xml:space="preserve">	le Plan de transition pour la Somalie révisé, publié en février 2021,</p>
+            </item>
+          <item>
+            <num>c)</num>
+          <p xml:space="preserve">	l’évaluation indépendante que l’Union africaine prévoit de soumettre en mai 2021 et les décisions que prendra le Conseil de paix et de sécurité de l’Union africaine en mai 2021 également,</p>
+          </item>
+          <item>
+            <num>d)</num>
+          <p xml:space="preserve">	l’achèvement, en août 2021, d’un concept des opérations révisé conjointement par l’Union africaine et le Gouvernement fédéral somalien comme le prévoit le paragraphe 8 de la présente résolution,</p>
+          </item>
+          <item>
+            <num>e)</num>
+          <p xml:space="preserve">	la présentation par le Secrétaire général, en septembre 2021, d’une proposition concernant la mise en place d’une nouvelle mission en 2022, comme le prévoit le paragraphe 9 de la présente résolution, laquelle proposition sera élaborée conjointement par le Secrétaire général et l’Union africaine, en consultation avec le Gouvernement fédéral somalien et les donateurs,</p>
+          </item>
+          <item>
+            <num>f)</num>
+          <p xml:space="preserve">	la présentation par le Secrétaire général, en octobre 2021, d’options relatives à la poursuite du soutien logistique de l’ONU, comme le prévoit le paragraphe 21 de la présente résolution,</p>
+      </item>
+        </blockList>
+      </container>
+      <container name="soulignant" eId="container_19">
+          <p xml:space="preserve">et <span class="italic">soulignant</span> la nécessité d’une participation constructive de toutes les parties prenantes à ces activités,</p>
+      </container>
+        <container name="Considérant" eId="container_20">
+          <p xml:space="preserve">	<span class="italic">Considérant</span> que la situation en Somalie continue de menacer la paix et la sécurité régionales et internationales,</p>
+        </container>
+        <container name="Agissant" eId="container_21">
+          <p xml:space="preserve">	<span class="italic">Agissant</span> en vertu du Chapitre VII de la Charte des Nations Unies,</p>
+        </container>
+      </preamble>
+      <mainBody>
+        <paragraph eId="para_38" class="SingleTxt">
+          <content eId="para_38__content">
+            <p xml:space="preserve">
+            <span class="italic">*</span>
+          </p>
+          </content>
+        </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">
+            <span class="italic">	Exprime de nouveau</span> le vœu que la Somalie assume la responsabilité de sa propre sécurité, souligne que le Gouvernement fédéral somalien devrait diriger le processus de transition en matière de sécurité et que celui-ci devrait réellement commencer en 2021, <span class="italic">accueille avec satisfaction</span>, à cet égard, le Plan de transition pour la Somalie et <span class="italic">demande</span> aux partenaires internationaux de la Somalie d’aider le pays à respecter ces engagements, notamment en veillant à ce que les tâches et priorités stratégiques de l’AMISOM appuient le transfert à la Somalie des responsabilités en matière de sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">
+            <span class="italic">	Est conscient</span> du rôle du Conseil de paix et de sécurité de l’Union africaine, <span class="italic">prend note</span> de la demande de ce dernier tendant à ce que la Commission de l’Union africaine achève son évaluation indépendante pour mai 2021, et l’<span class="italic">exhorte</span> à charger l’AMISOM, en mai 2021, d’appuyer et de faciliter la mise en œuvre du Plan de transition et de recenser et mette en pratique les mesures nécessaires en 2021 pour assurer la poursuite, en 2022, du soutien aux efforts de la Somalie en matière de sécurité, notamment, à partir de 2022, grâce à une mission de l’Union africaine reconfigurée qui serait mieux à même de faire face à la menace fluctuante posée par les Chabab et les groupes d’opposition armés, et qui s’emploierait principalement à aider les forces de sécurité somaliennes à assumer au premier chef les responsabilités en matière de sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">
+            <span class="italic">	Déclare de nouveau</span> que, si les Chabab demeurent la menace la plus immédiate et la plus pressante qui pèse sur la sécurité et la stabilité de la Somalie, ce groupe et les groupes d’opposition armés ne seront pas vaincus par des moyens militaires uniquement et, à cet égard, <span class="italic">exhorte</span> le Gouvernement fédéral somalien et les États membres de la fédération à collaborer plus étroitement, avec le soutien de l’Union africaine, de l’ONU et des partenaires internationaux, pour accélérer l’exécution d’activités non militaires afin de lutter contre les activités des Chabab en matière de criminalité organisée, de financement illicite, d’accès aux armes légères et de petit calibre et de trafic de ces armes, d’achats, de justice et de propagande ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>4.</num>
+        <list eId="para_45_list">
+          <intro eId="para_45_list_intro">
+            <p xml:space="preserve">
+              <span class="italic">	Souligne</span> la nécessité pour la Somalie et ses partenaires d’adopter une approche coordonnée et cohérente des réformes des affaires politiques et du secteur de la sécurité dirigées par les Somaliens, toutes les opérations conjointes et les décisions stratégiques et opérationnelles visant à assurer le transfert des responsabilités en matière de sécurité, y compris la constitution des forces de sécurité somaliennes, devant être convenues d’emblée par les autorités somaliennes, les forces de sécurité somaliennes et l’AMISOM, en coordination avec l’ONU et d’autres partenaires internationaux, selon qu’il convient, et, de ce fait, <span class="italic">demande</span> :</p>
+          </intro>
+          <point eId="para_45_list_point_a">
+            <num>a)</num>
+            <content eId="para_45_list_point_a_content">
+              <p xml:space="preserve">	au Gouvernement fédéral somalien de mener une coordination stratégique au moyen de réunions régulières de haut niveau du Comité de pilotage stratégique du Plan de transition somalien, soutenu par le Comité de sécurité et de justice (anciennement nommé Comité exécutif de l’Approche globale pour la sécurité) et le Mécanisme pour le développement et la reconstruction de la Somalie ;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_b">
+            <num>b)</num>
+            <content eId="para_45_list_point_b_content">
+              <p xml:space="preserve">	au Gouvernement fédéral somalien, aux États membres de la fédération, à l’AMISOM, à la MANUSOM, au BANUS et aux partenaires internationaux de renforcer la coordination et la collaboration, notamment en créant une cellule de fusion mixte en vue de planifier et d’exécuter les opérations stratégiques intégrées dirigées par le Gouvernement somalien, avec le soutien de l’Union africaine, de l’ONU et des partenaires de la Somalie en matière de sécurité, et de mener conjointement des activités d’analyse, de planification intégrée, de coordination des opérations et d’évaluation des résultats – tout en notant que le BANUS a déjà construit une installation adaptée à cette fin à Mogadiscio –, et leur demande également d’élargir ladite cellule de fusion mixte aux secteurs de l’AMISOM ;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_c">
+            <num>c)</num>
+            <content eId="para_45_list_point_c_content">
+              <p xml:space="preserve">	aux partenaires internationaux et régionaux de continuer de coordonner et d’harmoniser, en coordination avec l’AMISOM et la MANUSOM et en application de l’Approche globale pour la sécurité, leur appui en matière de mentorat, de formation, de matériel, de renforcement des capacités des forces de sécurité somaliennes et de rémunération des forces militaires et de police somaliennes, notamment en s’assurant que les notifications connexes soient dûment effectuées conformément à sa résolution <a href="https://undocs.org/fr/S/RES/2551(2020)">2551 (2020)</a> ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">
+            <span class="italic">	Souligne</span> qu’il incombe au premier chef aux autorités somaliennes d’assurer la protection des civils, <span class="italic">souligne également</span> à quel point il importe de protéger les civils conformément au droit international humanitaire, <span class="italic">souligne en outre</span> que la Somalie et ses partenaires internationaux doivent tenir compte des conditions de sécurité régnant dans chaque lieu lorsqu’ils procèdent au transfert des responsabilités en matière de sécurité à la Somalie, <span class="italic">insiste sur le fait</span> que la planification et la prise de décisions devraient être guidées par une évaluation globale de la menace qui pèse sur les civils et que des mesures devraient être prises en amont pour atténuer les risques, notamment la mise en place d’une présence des forces de sécurité somaliennes suffisante et qualifiée pour assurer la sécurité et la protection des civils en continu, avant, pendant et après l’action militaire, et <span class="italic">réaffirme</span> le rôle essentiel que jouent les secteurs de la police et de la justice dans les efforts de stabilisation et dans la préparation et la tenue des élections ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="H1">
+        <heading>		AMISOM</heading>
+      </paragraph>
+      <paragraph eId="para_51" class="H23">
+        <subheading>		Objectifs et fonctions</subheading>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">
+            <span class="italic">	Réaffirme</span> son intention de permettre à la Somalie d’assumer l’entière responsabilité de sa sécurité à l’avenir grâce au soutien des composantes militaire et civile et de la composante Police de l’AMISOM, l’objectif étant qu’elle prenne la tête des opérations en 2021 et qu’elle en assume pleinement la responsabilité d’ici à la fin de 2023, conformément au Plan de transition et compte tenu de la situation sur le terrain ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">
+            <span class="italic">	Est conscient</span> de la nécessité de mettre en place, à compter de début 2022, une mission reconfigurée de l’Union africaine, qui s’attachera à faciliter les opérations des forces de sécurité somaliennes et à aider ces dernières à assumer au premier chef les responsabilités en matière de sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">
+            <span class="italic">	Demande</span> à l’Union africaine et au Gouvernement fédéral somalien de procéder conjointement à une mise à jour du concept des opérations de l’AMISOM, conformément au Plan de transition, jusqu’à la fin de 2023, et ce en étroite collaboration avec les États membres de la fédération, l’ONU et les partenaires internationaux, et de la lui présenter à la fin août 2021 au plus tard afin de contribuer à éclairer les décisions concernant la taille et la forme de la future mission, y compris ses besoins logistiques, et <span class="italic">souligne</span> que la taille de la mission diminuera au fil du temps à mesure que la Somalie assumera une plus grande part des responsabilités en matière de sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">
+            <span class="italic">	Prie</span> le Secrétaire général d’élaborer d’ici à la fin septembre 2021, conjointement avec l’Union africaine et en consultation avec le Gouvernement fédéral somalien et les donateurs, une proposition sur les objectifs stratégiques, la taille et la composition de la future mission reconfigurée de l’Union africaine ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">
+            <span class="italic">	Décide</span> d’autoriser les États membres de l’Union africaine à maintenir le déploiement de 19 626 membres du personnel en tenue de l’AMISOM jusqu’au 31 décembre 2021, y compris un minimum de 1 040 membres du personnel de police de l’AMISOM, dont cinq unités de police constituées, ainsi que de 70 membres du personnel civil de l’AMISOM soutenus par le Bureau d’appui des Nations Unies en Somalie, pour que ceux-ci s’acquittent des tâches définies dans le Plan de transition, et à procéder au transfert progressif des responsabilités en matière de sécurité aux forces de sécurité somaliennes à compter de 2021 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">
+            <span class="italic">	Décide</span> d’autoriser l’AMISOM, dans l’exécution de son mandat, à prendre toutes les mesures nécessaires, dans le plein respect des obligations qu’impose aux États participants le droit international, dont le droit international humanitaire et le droit international des droits de l’homme, ainsi que de la souveraineté, de l’intégrité territoriale, de l’indépendance politique et de l’unité de la Somalie ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>12.</num>
+        <list eId="para_73_list">
+          <intro eId="para_73_list_intro">
+            <p xml:space="preserve">
+              <span class="italic">	Décide également</span> d’autoriser l’AMISOM à poursuivre les objectifs stratégiques suivants :</p>
+          </intro>
+          <point eId="para_73_list_point_a">
+            <num>a)</num>
+            <content eId="para_73_list_point_a_content">
+              <p xml:space="preserve">	réduire la menace que constituent les Chabab et les groupes d’opposition armés, en vue de favoriser l’édification d’une Somalie stable, fédérée, souveraine et unie ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_b">
+            <num>b)</num>
+            <content eId="para_73_list_point_b_content">
+              <p xml:space="preserve">	soutenir activement le transfert des responsabilités en matière de sécurité de l’AMISOM aux forces de sécurité somaliennes en contribuant à renforcer les capacités de ces dernières par la formation et le mentorat, en facilitant le transfert de la responsabilité des fonctions de sécurité de l’AMISOM aux autorités somaliennes dans les zones libérées et en menant avec les forces de sécurité somaliennes des opérations planifiées et convenues conjointement, en s’efforçant de plus en plus à faire en sorte que ces opérations soient dirigées par les Somaliens ;</p>
+            </content>
+          </point>
+          <point eId="para_73_list_point_c">
+            <num>c)</num>
+            <content eId="para_73_list_point_c_content">
+              <p xml:space="preserve">	aider le Gouvernement fédéral somalien, les États membres de la fédération et les forces de sécurité somaliennes à créer des conditions de sécurité favorisant le processus politique à tous les niveaux, y compris les efforts de stabilisation, la réconciliation et la consolidation de la paix, en apportant l’appui voulu à la police et aux autorités civiles somaliennes ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <num>13.</num>
+        <list eId="para_80_list">
+          <intro eId="para_80_list_intro">
+            <p xml:space="preserve">
+              <span class="italic">	Décide en outre</span>, à cet effet, d’autoriser l’AMISOM à s’acquitter des fonctions suivantes :</p>
+          </intro>
+          <point eId="para_80_list_point_a">
+            <num>a)</num>
+            <content eId="para_80_list_point_a_content">
+              <p xml:space="preserve">	maintenir une présence dans les secteurs définis dans le concept des opérations de la Mission, en accordant la priorité aux principales agglomérations, recensées par le Gouvernement fédéral somalien et approuvées par l’AMISOM, en prenant note des paragraphes 2 et 8 de la présente résolution et en s’attachant à respecter le calendrier et les objectifs des opérations définis dans le Plan de transition ;</p>
+            </content>
+          </point>
+          <point eId="para_80_list_point_b">
+            <num>b)</num>
+            <content eId="para_80_list_point_b_content">
+              <p xml:space="preserve">	mener des offensives ciblées visant à perturber et affaiblir les Chabab et les groupes d’opposition armés, conjointement avec les forces de sécurité somaliennes, et prendre des mesures pour atténuer la menace que représentent les engins explosifs improvisés ;</p>
+            </content>
+          </point>
+          <point eId="para_80_list_point_c">
+            <num>c)</num>
+            <content eId="para_80_list_point_c_content">
+              <p xml:space="preserve">	mener des opérations intégrées, planifiées conjointement avec les forces de sécurité somaliennes, en coordination avec d’autres partenaires internationaux et les acteurs œuvrant à la stabilisation et à la réconciliation, afin de sécuriser et de reprendre des zones aux Chabab et de permettre le transfert des responsabilités en matière de sécurité dans ces zones aux forces de sécurité somaliennes, selon qu’il conviendra ;</p>
+            </content>
+          </point>
+          <point eId="para_80_list_point_d">
+            <num>d)</num>
+            <content eId="para_80_list_point_d_content">
+              <p xml:space="preserve">	redélimiter les secteurs de l’AMISOM d’ici la fin 2021 pour qu’ils correspondent aux frontières des États membres de la fédération et établir un état‑major de planification conjoint AMISOM-forces de sécurité somaliennes dans chaque secteur, c’est-à-dire dans chaque État membre de la fédération, notamment déployer des forces multinationales dans ces secteurs lorsque cela est possible ;</p>
+            </content>
+          </point>
+          <point eId="para_80_list_point_e">
+            <num>e)</num>
+            <content eId="para_80_list_point_e_content">
+              <p xml:space="preserve">	d’ici la fin août 2021, fournir des capacités mobiles et aider les forces de sécurité somaliennes à rendre leur dispositif de forces plus offensif, l’objectif étant d’avoir une réserve mobile de l’AMISOM par secteur, capable d’agir comme une force d’intervention rapide et de mener des opérations avec d’autres forces au-delà des limites de leur secteur ;</p>
+            </content>
+          </point>
+          <point eId="para_80_list_point_f">
+            <num>f)</num>
+            <content eId="para_80_list_point_f_content">
+              <p xml:space="preserve">	contribuer à sécuriser et à maintenir, en collaboration avec les forces de sécurité somaliennes et en coordination avec les acteurs de la stabilisation et de la réconciliation, les principales voies de ravitaillement, y compris les routes menant aux zones reprises aux Chabab, et en particulier celles qui sont fondamentales pour améliorer la situation humanitaire et qui peuvent notamment servir à acheminer les marchandises essentielles pour répondre aux besoins élémentaires des civils, celles qui sont capitales pour fournir un appui logistique à l’AMISOM et celles qui sont indispensables à l’exécution du Plan de transition ;</p>
+            </content>
+          </point>
+          <point eId="para_80_list_point_g">
+            <num>g)</num>
+            <content eId="para_80_list_point_g_content">
+              <p xml:space="preserve">	selon qu’il conviendra, aider les forces de sécurité somaliennes à fournir un appui en matière de sécurité pour épauler le Gouvernement fédéral somalien et les États membres de la fédération dans l’exercice de leurs fonctions de gouvernement, y compris un appui de la part de la composante civile de l’AMISOM pour faciliter l’exécution de mesures de stabilisation prises en coordination avec le Ministère de l’intérieur, des affaires fédérales et de la réconciliation et l’Équipe chargée du relèvement local et de l’extension de l’autorité et de la responsabilité de l’État aux fins de la réconciliation, de la consolidation de la paix et de la préparation des élections, et aider les forces de sécurité somaliennes à assurer la sécurité de ces processus et des infrastructures vitales ;</p>
+            </content>
+          </point>
+          <point eId="para_80_list_point_h">
+            <num>h)</num>
+            <content eId="para_80_list_point_h_content">
+              <p xml:space="preserve">	protéger, selon qu’il conviendra, ses effectifs, ses installations, son matériel et sa mission, et assurer la sécurité et la liberté de circulation de son personnel, ainsi que du personnel des Nations Unies exerçant des fonctions prescrites par le Conseil de sécurité ;</p>
+            </content>
+          </point>
+          <point eId="para_80_list_point_i">
+            <num>i)</num>
+            <content eId="para_80_list_point_i_content">
+              <p xml:space="preserve">	accueillir les transfuges, à titre provisoire et selon qu’il conviendra, en coordination avec l’ONU et le Gouvernement fédéral somalien ;</p>
+            </content>
+          </point>
+          <point eId="para_80_list_point_j">
+            <num>j)</num>
+            <content eId="para_80_list_point_j_content">
+              <p xml:space="preserve">	aider le Gouvernement fédéral somalien et les États membres de la fédération à appliquer l’interdiction totale des exportations de charbon de bois de Somalie et à faciliter l’inspection – et l’établissement de la documentation y afférente – du matériel saisi, y compris les armes légères et de petit calibre, conformément au paragraphe 18 de sa résolution <a href="https://undocs.org/fr/S/RES/2111(2013)">2111 (2013)</a> et au paragraphe 6 de sa résolution <a href="https://undocs.org/fr/S/RES/2182(2014)">2182 (2014)</a> ;</p>
+            </content>
+          </point>
+          <point eId="para_80_list_point_k">
+            <num>k)</num>
+            <content eId="para_80_list_point_k_content">
+              <p xml:space="preserve">	en prenant note des paragraphes 2, 6 et 12 de la présente résolution, des orientations données par la Somalie dans le Plan de transition, et du paragraphe 10 du communiqué du Conseil de paix et de sécurité de l’Union africaine en date du 9 février 2021, et sachant qu’il se félicite qu’il soit envisagé de reconfigurer l’AMISOM pour que celle-ci s’attache à soutenir les forces de sécurité somaliennes, à faciliter leurs opérations et à protéger le personnel et les biens des Nations Unies en Somalie, commencer les travaux de reconfiguration dans chaque secteur afin :</p>
+            </content>
+          </point>
+          <sublist eId="para_80_list_point_k_sublist">
+            <point eId="para_80_list_point_k_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_80_list_point_k_sublist_point_i_content">
+                <p xml:space="preserve">	de faire bénéficier les forces de sécurité somaliennes de fonctions d’appui dans les domaines suivants : lutte contre les engins explosifs improvisés, surveillance, reconnaissance et localisation des objectifs, appui au commandement et aux communications, coordination civilo-militaire, évacuation sanitaire, génie et mise en place d’une force mobile d’intervention rapide dans chaque secteur ;</p>
+              </content>
+            </point>
+            <point eId="para_80_list_point_k_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_80_list_point_k_sublist_point_ii_content">
+                <p xml:space="preserve">	de faire bénéficier les forces de police somaliennes de fonctions d’appui et de facilitation de leurs opérations et de s’acquitter de fonctions de stabilisation et de gouvernance civiles à l’appui des efforts du Gouvernement fédéral somalien et des États membres de la fédération en vue du renforcement des institutions et de l’État, à savoir : planification et liaison entre civils et policiers, patrouilles conjointes, escortes de sécurité ayant des compétences spécialisées en matière d’enquête, soutien à la police de proximité dans le respect de l’égalité des genres ;</p>
+              </content>
+            </point>
+            <point eId="para_80_list_point_k_sublist_point_iii">
+              <num>iii)</num>
+              <content eId="para_80_list_point_k_sublist_point_iii_content">
+                <p xml:space="preserve">	de renforcer les capacités des forces de sécurité et des forces de police somaliennes tout en veillant à la cohérence avec l’action des partenaires internationaux engagés dans des travaux similaires, l’accent étant mis sur les domaines suivants : planification et gestion d’opérations intégrées, lutte contre les engins explosifs improvisés, opérations antiterroristes, logistique, génie, reconnaissance et surveillance, communication militaire, police de proximité ;</p>
+              </content>
+            </point>
+            <point eId="para_80_list_point_k_sublist_point_iv">
+              <num>iv)</num>
+              <content eId="para_80_list_point_k_sublist_point_iv_content">
+                <p xml:space="preserve">	de guider et d’assister les forces de sécurité somaliennes pour s’assurer que les unités ayant été formées sont capables de mener des opérations avec l’AMISOM, notamment en organisant des manœuvres opérationnelles et des exercices conjoints, et de faciliter les opérations des forces de sécurité somaliennes au moyen d’un mentorat à l’intention des capacités de combat et d’un appui tactique concernant les opérations et, selon qu’il conviendra, d’une formation et d’un mentorat à l’intention de la police somalienne ;</p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">
+            <span class="italic">	Prie</span> l’Union africaine de renforcer le contrôle et la coordination opérationnelle entre les contingents de l’AMISOM, de renforcer le commandement et le contrôle de la mise en œuvre opérationnelle des capacités facilitatrices et de renforcer l’application du principe de responsabilité sur ce plan, y compris les moyens aériens, en permettant la création, la mise en place et le déploiement de forces mobiles dans les secteurs, conformément à la reconfiguration de l’AMISOM, et d’assurer la prise de décision opérationnelle coordonnée relevant de la compétence du commandant de secteur et du commandant de la force ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">
+            <span class="italic">	Appuie</span> les examens du matériel de l’Union africaine entrepris en 2019, <span class="italic">exhorte</span> l’Union africaine à achever l’examen de son matériel, conformément à l’examen du concept des opérations, avec le soutien de l’ONU, en tenant compte de l’état des besoins par unité et de la limite des ressources disponibles, afin de renforcer les capacités opérationnelles de l’AMISOM, de combler les lacunes sur le plan des moyens nécessaires et de renforcer la protection de la force pour qu’elle puisse s’acquitter de son mandat, et <span class="italic">encourage</span> les États Membres à aider l’Union africaine à mobiliser les ressources et le matériel requis, y compris en versant des contributions sans préaffectation au fonds d’affectation spéciale des Nations Unies à l’appui de l’AMISOM, en fonction des recommandations applicables énoncées dans l’examen du matériel ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">
+            <span class="italic">	Préconise</span> le déploiement de la composante civile restante pour soutenir pleinement les opérations militaires et les opérations de police en vue de la reconfiguration de l’AMISOM à l’appui du transfert de la responsabilité des opérations aux forces de sécurité somaliennes et du retrait progressif ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">
+            <span class="italic">	Souligne fermement</span> qu’il importe que les forces de l’AMISOM continuent de s’acquitter de leur mandat dans le plein respect des obligations qu’impose aux États participants le droit international, y compris pour ce qui est de la protection des civils, en particulier les femmes et les enfants, et qu’elles coopèrent avec la MANUSOM et le BANUS aux fins de l’application de la politique de diligence voulue en matière de droits de l’homme en cas d’appui de l’ONU à des forces de sécurité non onusiennes, pendant les phases de préparation, d’exécution et d’examen des opérations, notamment dans le cadre des opérations menées conjointement avec les forces de sécurité somaliennes, <span class="italic">demande</span> à l’AMISOM d’ouvrir promptement et régulièrement des enquêtes minutieuses, en cas d’allégations de violations du droit international des droits de l’homme ou du droit international humanitaire ou d’atteintes à ces droits, et à l’Union africaine d’en assurer le suivi, leur demande de veiller à ce que les normes les plus strictes de transparence, de déontologie et de discipline soient appliquées et que les procédures soient harmonisées avec celles de la MANUSOM, <span class="italic">se félicite</span> des progrès accomplis par l’Union africaine pour ce qui est d’élaborer un cadre de respect, et <span class="italic">exhorte</span> les pays qui fournissent des contingents ou du personnel de police à resserrer leur coopération avec l’Union africaine et l’ONU afin de renforcer l’efficacité du respect de l’AMISOM et des mesures de responsabilité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_130__content">
+          <p xml:space="preserve">
+            <span class="italic">	Demande</span> à l’AMISOM d’améliorer l’uniformité de la communication de l’information à la cellule de suivi, d’analyse et d’intervention concernant les victimes civiles dans tous les secteurs, et de prendre de nouvelles initiatives pour assurer la mise en place de mesures d’atténuation, <span class="italic">souligne</span> qu’il importe de veiller à ce que l’information soit communiquée aux acteurs compétents, dont l’ONU, à ce qu’elle soit intégrée dans les rapports de l’AMISOM et à ce qu’il en soit tenu compte dans les directives et plans opérationnels, et <span class="italic">demande</span> aux pays qui fournissent des contingents ou du personnel de police d’apporter leur plein appui à ladite cellule, en collaboration avec les agents de l’action humanitaire, de la défense des droits humains et de la protection ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_143" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_143__content">
+          <p xml:space="preserve">
+            <span class="italic">	Réaffirme</span> l’importance de la politique de tolérance zéro de l’AMISOM concernant l’exploitation et les atteintes sexuelles et, à cet égard, <span class="italic">souligne</span> qu’il faut prévenir l’exploitation et les atteintes sexuelles, <span class="italic">prie instamment</span> l’Union africaine et les pays qui fournissent des contingents ou du personnel de police de vérifier les antécédents du personnel, de procéder à des évaluations des risques, de dispenser toute formation pertinente au personnel, de protéger les rescapé(e)s qui dénoncent des atteintes, d’appuyer leur rétablissement, de diligenter promptement des enquêtes en cas d’allégations afin d’amener les auteurs à répondre de leurs actes et de rapatrier les unités lorsqu’il existe des preuves crédibles qu’elles ont commis des actes d’exploitation ou d’atteintes sexuelles de manière généralisée ou systématique, et <span class="italic">engage</span> l’Union africaine à coopérer étroitement avec l’ONU dans ce domaine ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">
+            <span class="italic">	Encourage vivement</span> les mesures visant à accroître le déploiement, par les pays qui fournissent des contingents ou du personnel de police, de personnel féminin en tenue à l’AMISOM, et <span class="italic">exhorte</span> l’AMISOM à veiller à ce que les femmes participent de manière pleine, effective et véritable à toutes ses opérations et à tenir systématiquement compte des questions de genre dans l’exécution de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="H23">
+        <subheading>		Appui logistique et financier</subheading>
+      </paragraph>
+      <paragraph eId="para_159" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve">
+            <span class="italic">	Prie</span> le Secrétaire général de continuer de fournir, par l’intermédiaire du BANUS et dans le plein respect de la politique de diligence voulue en matière de droits de l’homme en cas d’appui de l’ONU à des forces de sécurité non onusiennes, un appui logistique à la MANUSOM, au personnel en tenue et aux 70 agents civils du personnel de l’AMISOM – en tenant compte des dispositions du paragraphe 2 de sa résolution <a href="https://undocs.org/fr/S/RES/2245(2015)">2245 (2015)</a> et conformément aux dispositions des paragraphes 10 et 11 de la présente résolution –, ainsi qu’aux 13 900 membres des forces de sécurité somaliennes, dont une part appropriée d’agents de la police fédérale et de la police des États qui sont officiellement intégrés à ces forces, conformément au dispositif national de sécurité, et qui participent activement aux opérations menées conjointement ou de façon coordonnée avec l’AMISOM à l’appui direct du Plan de transition, <span class="italic">souligne à nouveau</span> qu’il importe que l’AMISOM et les forces de sécurité somaliennes travaillent conjointement avec le BANUS en vue de fournir un appui logistique, et d’assurer entre autres la sécurité des aérodromes et des convois, la protection des civils et la protection des principales voies de ravitaillement, <span class="italic">prie également</span> le Secrétaire général d’étendre l’appui apporté par l’ONU aux forces de sécurité somaliennes, de manière à intégrer la formation, le matériel et le mentorat, afin de contrer la menace que représentent les engins explosifs improvisés, et <span class="italic">prie en outre</span> le Secrétaire général de dresser, en consultation avec toutes les parties prenantes, un ensemble d’options relatives à la poursuite du soutien logistique de l’ONU à partir de 2022, y compris la poursuite du soutien de l’ONU à la MANUSOM et aux forces de sécurité somaliennes parallèlement à une mission reconfigurée de l’Union africaine, et de les lui présenter au plus tard à la fin octobre 2021 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">
+            <span class="italic">	Convient</span> avec le Secrétaire général que le contrôle et l’application du principe de responsabilité, en particulier le respect de la politique de diligence voulue en matière de droits de l’homme, seront la clef de voûte du partenariat entre l’ONU, l’Union africaine, le Gouvernement fédéral somalien et les États membres de la fédération, <span class="italic">prie</span> le Secrétaire général de veiller à ce que tout appui fourni à des forces de sécurité non onusiennes soit strictement conforme à la politique de diligence voulue en matière de droits de l’homme, et <span class="italic">demande</span> au Gouvernement fédéral somalien et à l’Union africaine de convenir d’urgence avec l’ONU d’un mémorandum d’accord sur les conditions de la fourniture d’un appui de l’ONU aux forces de sécurité somaliennes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_162" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_162__content">
+          <p xml:space="preserve">
+            <span class="italic">	Prie</span> le Secrétaire général de collaborer étroitement avec l’Union africaine pour appuyer l’application de la présente résolution, notamment de lui fournir des conseils techniques et spécialisés relatifs à la planification, au déploiement et à la gestion stratégique de l’AMISOM, conformément au mandat du Bureau des Nations Unies auprès de l’Union africaine ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_165" class="SingleTxt">
+        <num>24.</num>
+        <list eId="para_165_list">
+          <intro eId="para_165_list_intro">
+            <p xml:space="preserve">
+              <span class="italic">	Note avec satisfaction</span> le soutien financier que continue de recevoir l’AMISOM, notamment de la part de l’Union européenne, et invite de nouveaux donateurs à fournir un appui :</p>
+          </intro>
+          <point eId="para_165_list_point_a">
+            <num>a)</num>
+            <content eId="para_165_list_point_a_content">
+              <p xml:space="preserve">	à l’AMISOM, notamment en versant des financements supplémentaires pour les soldes des militaires, le matériel et l’assistance technique à fournir, conformément aux recommandations figurant dans le rapport Union africaine-Nations Unies sur le financement, et en ce qui concerne le fonctionnement effectif de la cellule de suivi, d’analyse et d’intervention concernant les victimes civiles et le versement de dédommagements ;</p>
+            </content>
+          </point>
+          <point eId="para_165_list_point_b">
+            <num>b)</num>
+            <content eId="para_165_list_point_b_content">
+              <p xml:space="preserve">	au fonds d’affectation spéciale des Nations Unies à l’appui de l’AMISOM et aux forces de sécurité somaliennes, y compris en vue d’un financement destiné au matériel de formation et au mentorat des forces de sécurité somaliennes, pour qu’elles puissent combattre la menace des engins explosifs improvisés, lutter contre la prolifération des armes légères et de petit calibre, et appuyer la police somalienne, comme énoncé au paragraphe 20 de la présente résolution ;</p>
+            </content>
+          </point>
+          <point eId="para_165_list_point_c">
+            <num>c)</num>
+            <content eId="para_165_list_point_c_content">
+              <p xml:space="preserve">	aux institutions de l’État fédéral et des États membres de la fédération, pour qu’elles puissent développer le secteur de la sécurité en Somalie, notamment renforcer les capacités de la police maritime conformément à sa résolution <a href="https://undocs.org/fr/S/RES/2246(2015)">2246 (2015)</a> ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_169" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_169__content">
+          <p xml:space="preserve">
+            <span class="italic">	Insiste</span> sur la nécessité de rendre plus prévisible, durable et souple le financement des opérations de soutien à la paix dirigées par l’Union africaine et autorisées par lui en vertu de l’autorité qu’il tient du Chapitre VIII de la Charte, et <span class="italic">engage</span> le Secrétaire général, l’Union africaine et les États Membres à poursuivre les efforts faits pour étudier sérieusement les possibilités de financement de l’AMISOM, en gardant à l’esprit l’ensemble des options dont disposent l’ONU, l’Union africaine, l’Union européenne et d’autres partenaires et sachant que les fonds volontaires sont limités, afin d’établir des modalités de financement pérennes de l’AMISOM ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_170" class="H1">
+        <heading>		Somalie</heading>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve">
+            <span class="italic">	Demande </span>au Gouvernement fédéral somalien et aux États membres de la fédération d’organiser des élections libres, équitables, crédibles et inclusives, conformément à l’accord du 17 septembre 2020 et dans les meilleurs délais, et les exhorte à achever l’élaboration d’un accord politique à cette fin ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_172" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_172__content">
+          <p xml:space="preserve">	<span class="italic">Soutient</span> les efforts faits par le Gouvernement fédéral somalien pour réformer ses institutions et renforcer ses capacités dans le secteur de la sécurité, <span class="italic">prend note</span> du Cadre de responsabilité mutuelle pour 2021, <span class="italic">se félicite</span> des progrès réalisés dans le cadre des opérations conjointes, dont l’opération Badbaado, et <span class="italic">réaffirme</span> qu’il est urgent et nécessaire pour le Gouvernement fédéral somalien de coopérer pleinement avec les États membres de la fédération en vue de tenir ses engagements ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_174" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_174__content">
+          <p xml:space="preserve">
+            <span class="italic">	Accueille avec satisfaction</span> le Plan de transition pour la Somalie, <span class="italic">invite</span> les autorités somaliennes à s’employer d’urgence à le mettre en œuvre, avec l’appui coordonné de la communauté internationale, afin d’assumer une plus grande part de responsabilité en matière de sécurité nationale en 2021, et à élaborer et à mettre en œuvre d’urgence un plan stratégique visant à créer de nouvelles forces de sécurité somaliennes, à intégrer les forces existantes selon qu’il convient, à former les forces existantes et nouvellement créées du Gouvernement fédéral et des États membres de la fédération et à leur fixer des objectifs et des délais précis et, à cet égard, <span class="italic">invite</span> le Gouvernement fédéral somalien à définir, en collaboration avec les États membres de la fédération, une marche à suivre claire pour la constitution des forces et l’intégration des forces régionales, et ce avant l’élaboration du concept des opérations, en tenant compte de la nécessité de renforcer les capacités des forces de sécurité somaliennes, et <span class="italic">invite</span> le Gouvernement fédéral somalien et les États membres de la fédération à renforcer l’encadrement civil de leur dispositif de sécurité et de continuer d’adopter et de mettre en œuvre des procédures de vérification des antécédents de tout le personnel de défense et de sécurité, y compris les antécédents en matière de droits de l’homme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">
+            <span class="italic">	Demande</span> aux autorités somaliennes de veiller à allouer des ressources suffisantes à la mise en œuvre du Plan de transition, notamment aux mécanismes de commandement, de contrôle et de coordination nécessaires à la planification, à la conduite et à l’exécution des opérations menées conjointement avec l’AMISOM aux niveaux stratégique et opérationnel ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_181__content">
+          <p xml:space="preserve">
+            <span class="italic">	Demande</span> au Gouvernement fédéral somalien et aux États membres de la fédération de soutenir pleinement la police fédérale et la police des États au moyen d’une formation efficace, d’une dotation en matériel et d’un soutien logistique, <span class="italic">insiste</span> sur le rôle essentiel que joue la police pour ce qui est de sécuriser et de tenir le territoire, <span class="italic">souligne</span> qu’une force de police professionnelle et capable de concourir à assurer la sécurité des populations civiles est nécessaire au Gouvernement fédéral somalien et aux États membres de la fédération pour qu’ils puissent exécuter pleinement le Plan de transition, et <span class="italic">appelle</span> de ses vœux un modèle de recrutement des membres des forces de sécurité et des forces de police somaliennes plus inclusif et plus représentatif de tous les segments de la société somalienne ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_186" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_186__content">
+          <p xml:space="preserve">
+            <span class="italic">	Demande également</span> au Gouvernement fédéral somalien et aux États membres de la fédération de veiller à ce que tous les membres des forces de sécurité et des forces de police respectent pleinement le droit international des droits de l’homme et le droit international humanitaire et de faire en sorte que les responsables de violations des droits humains et d’atteintes à ces droits, ainsi que de violations du droit international humanitaire, aient à répondre de leurs actes, <span class="italic">prie</span> l’ONU, l’Union africaine et les autres partenaires internationaux d’apporter aux autorités somaliennes l’appui voulu à cet égard, et <span class="italic">demande</span> à l’AMISOM de faire bénéficier les autorités nationales les enseignements tirés de l’expérience et du fonctionnement de la cellule de suivi, d’analyse et d’intervention concernant les victimes civiles, notamment en vue de soutenir la mise en place de politiques et de mécanismes de surveillance, d’atténuation et de prévention des pertes civiles somaliennes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">
+            <span class="italic">	Demande</span> aux autorités somaliennes d’agir en coordination avec l’AMISOM, les partenaires internationaux et les entités compétentes des Nations Unies, y compris le Service de la lutte antimines de l’ONU, pour combattre le commerce et le transfert illicites, l’accumulation déstabilisante et le détournement d’armes légères et de petit calibre sous tous leurs aspects et empêcher l’accès par des personnes non autorisées à tous types d’explosifs et de matériels connexes en Somalie, et de veiller à ce que la gestion et l’entreposage de ces éléments soient effectués de façon sûre et efficace ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">
+            <span class="italic">	Demande également</span> aux autorités somaliennes d’agir en coordination avec l’AMISOM, les partenaires internationaux et les entités compétentes des Nations Unies, y compris l’Office des Nations Unies contre la drogue et le crime, pour lutter contre les flux financiers illicites, contre la capacité des Chabab de générer des revenus au moyen d’opérations de criminalité organisée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_207" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_207__content">
+          <p xml:space="preserve">
+            <span class="italic">	Réaffirme</span> l’importance de la participation pleine, égale, véritable et effective de tous les Somaliens, y compris les femmes, les jeunes, les personnes handicapées, les personnes déplacées et les réfugiés, à la prévention et au règlement des conflits, aux processus de réconciliation, à la consolidation de la paix et aux élections et autres processus politiques, et <span class="italic">constate</span> que la société civile peut y contribuer sensiblement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_216" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_216__content">
+          <p xml:space="preserve">
+            <span class="italic">	Demande</span> aux autorités somaliennes de collaborer avec les partenaires compétents pour assurer la protection de toute personne contre les violences sexuelles et fondées sur le genre, y compris l’exploitation et les atteintes sexuelles et les violences sexuelles liées aux conflits, de prendre les mesures voulues pour enquêter en cas d’allégations, de renforcer la législation afin d’améliorer l’application du principe de responsabilité en cas de violences sexuelles et fondées sur le genre, conformément aux résolutions sur la question, et d’accélérer la mise en œuvre du Communiqué conjoint et du Plan d’action national de lutte contre la violence sexuelle en temps de conflit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_226" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_226__content">
+          <p xml:space="preserve">
+            <span class="italic">	Se déclare vivement préoccupé</span> par les informations faisant état d’une hausse des cas de meurtre, de mutilation et de viol ou d’autres formes de violence sexuelle contre les personnes d’enfants touchés par des conflits armés ainsi que par la prévalence toujours élevée du recrutement, du ré-enrôlement, notamment comme non-combattants, et de l’utilisation illicites d’enfants et des enlèvements d’enfants, <span class="italic">prie</span> les autorités somaliennes de prendre des mesures pour prévenir toutes les formes de violence contre les enfants et d’amener les auteurs de tels actes à en répondre, <span class="italic">demande</span> aux autorités somaliennes de prendre des mesures appropriées pour prévenir les attaques contre les infrastructures civiles, notamment contre les écoles et les hôpitaux, et pour éviter qu’elles ne soient utilisées à des fins militaires, de faire cesser la détention pour atteinte à la sécurité nationale de tout enfant dans le cas duquel la détention constitue une violation du droit international applicable et de considérer les enfants avant tout comme des victimes, et <span class="italic">demande</span> aux États membres de la fédération de prendre les mesures nécessaires pour appliquer pleinement leurs plans d’action de 2012, les règles générales concernant la remise des enfants démobilisés des groupes armés de 2014, la feuille de route de 2018 et les Conclusions du Groupe de travail sur les enfants et le conflit armé en Somalie (<a href="https://undocs.org/fr/S/AC.51/2020/6">S/AC.51/2020/6</a>) ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">
+            <span class="italic">	Exprime à nouveau</span> sa vive inquiétude devant le nombre élevé de réfugiés et de personnes déplacées, <span class="italic">souligne</span> que toute expulsion doit être conforme aux cadres nationaux et internationaux pertinents, <span class="italic">prend note avec satisfaction</span> de la ratification de la Convention de l’Union africaine sur la protection et l’assistance aux personnes déplacées en Afrique (Convention de Kampala) par le Gouvernement fédéral somalien et <span class="italic">insiste</span> sur l’importance d’en appliquer pleinement les dispositions, et <span class="italic">demande</span> au Gouvernement fédéral de donner suite à l’engagement qu’il a pris de protéger et d’aider les personnes déplacées en Somalie et d’apporter des solutions durables à leur situation, notamment en adoptant des cadres juridiques nationaux relatifs aux personnes déplacées et aux réfugiés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_249" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_249__content">
+          <p xml:space="preserve">
+            <span class="italic">	Rappelle</span> sa résolution <a href="https://undocs.org/fr/S/RES/2417(2018)">2417 (2018)</a> et <span class="italic">se déclare</span> gravement préoccupé par la persistance de la crise humanitaire en Somalie et ses conséquences pour le peuple somalien, <span class="italic">encourage</span> tous les partenaires, notamment les donateurs, à poursuivre l’action humanitaire en 2021 et à fournir une assistance supplémentaire dans le cadre de la lutte contre la pandémie de COVID-19, <span class="italic">condamne fermement</span> les attaques indiscriminées et les attaques contre le personnel humanitaire et médical et les infrastructures civiles, dont celles commises par les Chabab, ainsi que tout détournement ou toute obstruction de l’aide humanitaire, <span class="italic">exige à nouveau</span> que toutes les parties permettent le libre passage, en toute sécurité et sans restrictions, de l’aide humanitaire afin qu’elle puisse être rapidement distribuée à tous ceux qui en ont besoin sur l’ensemble du territoire somalien, conformément aux dispositions applicables du droit international et aux principes humanitaires, et <span class="italic">souligne</span> qu’il importe de tenir une comptabilité exacte de l’aide humanitaire fournie par la communauté internationale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_250" class="H23">
+        <subheading>		Présentation de rapports</subheading>
+      </paragraph>
+      <paragraph eId="para_251" class="SingleTxt">
+        <num>39.</num>
+        <list eId="para_251_list">
+          <intro eId="para_251_list_intro">
+            <p xml:space="preserve">
+              <span class="italic">	Prie</span> l’Union africaine de le tenir informé tous les quatre-vingt-dix jours, par l’intermédiaire du Secrétaire général, de l’exécution du mandat de l’AMISOM, au moyen d’un minimum de trois rapports écrits détaillés, le premier devant lui être présenté le 1<sup>er</sup> mai 2021 au plus tard, et demande, à cet égard, que le premier rapport soumis couvre en particulier les points suivants :</p>
+          </intro>
+          <point eId="para_251_list_point_i">
+            <num>i)</num>
+            <content eId="para_251_list_point_i_content">
+              <p xml:space="preserve">	les opérations conjointes menées à l’appui du Plan de transition, y compris l’utilisation et l’efficacité des mécanismes de coordination ;</p>
+            </content>
+          </point>
+          <point eId="para_251_list_point_ii">
+            <num>ii)</num>
+            <content eId="para_251_list_point_ii_content">
+              <p xml:space="preserve">	les propositions en vue d’une révision des objectifs et des fonctions, conformément aux paragraphes 11 et 12 de la présente résolution ;</p>
+            </content>
+          </point>
+          <point eId="para_251_list_point_iii">
+            <num>iii)</num>
+            <content eId="para_251_list_point_iii_content">
+              <p xml:space="preserve">	les mesures prises pour tenir le personnel responsable en cas de résultats jugés insatisfaisants, y compris sur le plan du commandement et du contrôle, ainsi que de la déontologie et de la discipline ;</p>
+            </content>
+          </point>
+          <point eId="para_251_list_point_iv">
+            <num>iv)</num>
+            <content eId="para_251_list_point_iv_content">
+              <p xml:space="preserve">	les mesures prises pour protéger les civils ;</p>
+            </content>
+          </point>
+          <point eId="para_251_list_point_v">
+            <num>v)</num>
+            <content eId="para_251_list_point_v_content">
+              <p xml:space="preserve">	les résultats de l’examen du matériel et l’utilisation des moyens de la force ;</p>
+            </content>
+          </point>
+          <point eId="para_251_list_point_vi">
+            <num>vi)</num>
+            <content eId="para_251_list_point_vi_content">
+              <p xml:space="preserve">	les effectifs de la composante civile, et encourage la présentation de rapports en temps utile, pour lui permettre de tenir compte de la perspective de l’Union africaine sur la situation en Somalie ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_252" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_252__content">
+          <p xml:space="preserve">
+            <span class="italic">	Prie</span> le Gouvernement fédéral somalien de l’informer, le 1<sup>er</sup> mai 2021, de l’avancement de l’approbation du Plan de transition pour la Somalie, et de lui faire rapport sur sa mise en œuvre avant la fin octobre 2021 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_254" class="SingleTxt">
+        <num>41.</num>
+        <list eId="para_254_list">
+          <intro eId="para_254_list_intro">
+            <p xml:space="preserve">
+              <span class="italic">	Prie</span> le Secrétaire général de le tenir régulièrement informé de l’application de la présente résolution, dans ses rapports réguliers demandés au paragraphe 16 de la résolution <a href="https://undocs.org/fr/S/RES/2540(2020)">2540 (2020)</a> et, à cet égard, <span class="italic">prie également</span> le Secrétaire général d’évaluer dans ses rapports périodiques :</p>
+          </intro>
+          <point eId="para_254_list_point_i">
+            <num>i)</num>
+            <content eId="para_254_list_point_i_content">
+              <p xml:space="preserve">	la mise en œuvre du Plan de transition et du Cadre de responsabilité mutuelle visés au paragraphe 1 de la présente résolution ;</p>
+            </content>
+          </point>
+          <point eId="para_254_list_point_ii">
+            <num>ii)</num>
+            <content eId="para_254_list_point_ii_content">
+              <p xml:space="preserve">	l’application de la politique de diligence voulue en matière de droits de l’homme en cas d’appui de l’ONU à des forces de sécurité non onusiennes ;</p>
+            </content>
+          </point>
+          <point eId="para_254_list_point_iii">
+            <num>iii)</num>
+            <content eId="para_254_list_point_iii_content">
+              <p xml:space="preserve">	l’appui fourni par le BANUS à l’AMISOM, à la MANUSOM et aux forces de sécurité somaliennes ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_257" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_257__content">
+          <p xml:space="preserve">
+            <span class="italic">	Réaffirme</span> qu’il entend garder la configuration de l’AMISOM à l’étude ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_261" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_261__content">
+          <p xml:space="preserve">
+            <span class="italic">	Décide</span> de demeurer activement saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
