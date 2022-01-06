@@ -1,0 +1,563 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2617-2021/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2617-2021/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2617-2021/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2617-2021/rus@/"></FRBRuri>
+          <FRBRdate date="2021-12-30" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2617-2021/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2617-2021/rus@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="7" href="http://metadata.un.org/sdg/7" showAs="sdg_7" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_energy" href="http://metadata.un.org/thesaurus/1006320" showAs="sustainable_energy" dictionary="UNBIS"></keyword>
+        <keyword value="66_energy" href="http://eurovoc.europa.eu/100159" showAs="66_energy" dictionary="EuroVoc"></keyword>
+        <keyword value="energy_market" href="http://eurovoc.europa.eu/4886" showAs="energy_market" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism" showAs="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" showAs="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office of Counter-Terrorism" showAs="UN. Office of Counter-Terrorism" dictionary="DHLAUTH"></keyword>
+        <keyword value="COUNTER-TERRORISM" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[31]" showAs="TERRORISM" dictionary="S/76"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2617 (2021) [on extension of the mandate of the Counter-Terrorism Committee Executive Directorate (CTED) as special political mission under the policy guidance of the Counter-Terrorism Committee (CTC) until 31 Dec. 2025]" showAs="Security Council resolution 2617 (2021) [on extension of the mandate of the Counter-Terrorism Committee Executive Directorate (CTED) as special political mission under the policy guidance of the Counter-Terrorism Committee (CTC) until 31 Dec. 2025]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-12-30" outcome="draftResolution" as="S/2021/1105" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-12-30" outcome="adopted" as="S/2021/1107" by="Adopted unanimously; voting by mail" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="VOTING BY MAIL">
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19887 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2617 (2021)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Совет Безопасности</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-12-30" class="rightSmall" refersTo="#dateOfIssuance">30 December 2021</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Резолюция 2617 (2021),</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет Безопасности</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span>, в частности, на резолюцию <a href="https://undocs.org/ru/S/RES/1535(2004)">1535 (2004)</a>, резолюцию <a href="https://undocs.org/ru/S/RES/1787(2007)">1787 (2007)</a>, резолюцию <a href="https://undocs.org/ru/S/RES/1805(2008)">1805 (2008)</a>, резолюцию <a href="https://undocs.org/ru/S/RES/1963(2010)">1963 (2010)</a>, резолюцию <a href="https://undocs.org/ru/S/RES/2129(2013)">2129 (2013)</a> и резолюцию <a href="https://undocs.org/ru/S/RES/2395(2017)">2395 (2017)</a>, которые касаются Исполнительного директората Контртеррористического комитета (ИДКТК), и <span class="italic">подтверждая</span> важнейшую роль своего Контртеррористического комитета (КТК) и ИДКТК в обеспечении полного осуществления резолюции <a href="https://undocs.org/ru/S/RES/1373(2001)">1373 (2001)</a> и подтверждая свои резолюции <a href="https://undocs.org/ru/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/ru/S/RES/1325(2000)">1325 (2000)</a>, <a href="https://undocs.org/ru/S/RES/1368(2001)">1368 (2001)</a>, <a href="https://undocs.org/ru/S/RES/1566(2004)">1566 (2004)</a>, <a href="https://undocs.org/ru/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/ru/S/RES/1894(2009)">1894 (2009)</a>, <a href="https://undocs.org/ru/S/RES/2106(2013)">2106 (2013)</a>, <a href="https://undocs.org/ru/S/RES/2122(2013)">2122 (2013)</a>, <a href="https://undocs.org/ru/S/RES/2133(2014)">2133 (2014)</a>, <a href="https://undocs.org/ru/S/RES/2150(2014)">2150 (2014)</a>, <a href="https://undocs.org/ru/S/RES/2170(2014)">2170 (2014)</a>, <a href="https://undocs.org/ru/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/ru/S/RES/2185(2014)">2185 (2014)</a>, <a href="https://undocs.org/ru/S/RES/2195(2015)">2195 (2015)</a>, <a href="https://undocs.org/ru/S/RES/2199(2015)">2199 (2015)</a>, <a href="https://undocs.org/ru/S/RES/2220(2015)">2220 (2015)</a>, <a href="https://undocs.org/ru/S/RES/2242(2015)">2242 (2015)</a>, <a href="https://undocs.org/ru/S/RES/2249(2015)">2249 (2015)</a>, <a href="https://undocs.org/ru/S/RES/2253(2015)">2253 (2015)</a>, <a href="https://undocs.org/ru/S/RES/2309(2016)">2309 (2016)</a>, <a href="https://undocs.org/ru/S/RES/2322(2016)">2322 (2016)</a>, <a href="https://undocs.org/ru/S/RES/2331(2016)">2331 (2016)</a>, <a href="https://undocs.org/ru/S/RES/2341(2017)">2341 (2017)</a>, <a href="https://undocs.org/ru/S/RES/2347(2017)">2347 (2017)</a>, <a href="https://undocs.org/ru/S/RES/2354(2017)">2354 (2017)</a>, <a href="https://undocs.org/ru/S/RES/2368(2017)">2368 (2017)</a>, <a href="https://undocs.org/ru/S/RES/2370(2017)">2370 (2017)</a>, <a href="https://undocs.org/ru/S/RES/2379(2017)">2379 (2017)</a>, <a href="https://undocs.org/ru/S/RES/2388(2017)">2388 (2017)</a>, <a href="https://undocs.org/ru/S/RES/2396(2017)">2396 (2017)</a>, <a href="https://undocs.org/ru/S/RES/2462(2019)">2462 (2019)</a>, <a href="https://undocs.org/ru/S/RES/2482(2019)">2482 (2019)</a> и соответствующие заявления своего Председателя,</p>
+      </container>
+      <container name="подтверждая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span>, что терроризм во всех его формах и проявлениях представляет собой одну из самых серьезных угроз миру и безопасности и что любые акты терроризма являются преступными и не имеющими оправдания деяниями, независимо от их мотивации, когда бы и кем бы они ни совершались, и сохраняя решимость и далее способствовать повышению эффективности общих усилий по борьбе с этим злом на глобальном уровне,</p>
+      </container>
+      <container name="признавая" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что терроризм создает угрозу международному миру и безопасности и что для противодействия этой угрозе требуется прилагать коллективные усилия на национальном, региональном и международном уровнях на основе соблюдения норм международного права и Устава Организации Объединенных Наций,</p>
+      </container>
+      <container name="признавая" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">признавая</span>, что терроризм невозможно победить только с помощью военной силы, правоохранительных мер и разведывательных операций, и <span class="italic">подчеркивая</span> необходимость устранения условий, способствующих распространению терроризма, о чем говорится в разделах I и IV Глобальной контртеррористической стратегии Организации Объединенных Наций (<a href="https://undocs.org/ru/A/RES/60/288">A/RES/60/288</a>), включая, в частности, необходимость наращивания усилий по успешному предотвращению и мирному урегулированию затяжных конфликтов и необходимость содействовать обеспечению верховенства права, защите прав человека и основных свобод, благому управлению, терпимости и всеохватности, с тем чтобы предоставить реальную альтернативу тем, кто может попасть под влияние вербовщиков террористов и радикальных идей, ведущих к насилию,</p>
+      </container>
+      <container name="признавая" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	признавая</span>, что всеобъемлющий подход к сокрушению терроризма требует национальных, региональных, субрегиональных и многосторонних усилий, и <span class="italic">подтверждая</span> важность устранения на основе применения комплексного подхода основных условий, способствующих распространению терроризма и насильственного экстремизма, служащего питательной средой для терроризма,</p>
+      </container>
+      <container name="подтверждая" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span>, что поощрение и защита прав человека для всех и обеспечение верховенства права являются неотъемлемыми элементами борьбы с терроризмом, признавая, что действенные меры по борьбе с терроризмом и защита прав человека являются целями, которые не противоречат друг другу, а взаимно дополняют и подкрепляют друг друга, и подчеркивая необходимость поощрения и защиты прав жертв терроризма,</p>
+      </container>
+      <container name="подтверждая" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span>, что государства-члены должны обеспечивать, чтобы любые меры, принимаемые в целях борьбы с терроризмом, соответствовали всем их обязательствам по международному праву, в частности по международному праву прав человека, международному беженскому праву и международному гуманитарному праву, <span class="italic">подчеркивая</span>, что эффективные меры по борьбе с терроризмом и реализация прав человека, основных свобод и принципа верховенства права носят взаимодополняющий и взаимоподкрепляющий характер и являются непременным условием успешного противодействия терроризму, и <span class="italic">отмечая</span> необходимость обеспечения верховенства права в целях эффективного предотвращения терроризма и борьбы с ним,</p>
+      </container>
+      <container name="осуждая" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	осуждая </span>самым решительным образом терроризм во всех его формах и проявлениях и все террористические акты, включая те, которые совершаются по причине ксенофобии, расизма и других форм нетерпимости или во имя религии или убеждений, и <span class="italic">вновь подтверждая</span>, что терроризм не должен ассоциироваться ни с какой религией, национальностью, цивилизацией или группой,</p>
+      </container>
+      <container name="подчеркивая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что государства-члены несут главную ответственность за противодействие террористическим актам и насильственному экстремизму, служащему питательной средой для терроризма,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	вновь подтверждая </span>свою приверженность суверенитету, территориальной целостности и политической независимости всех государств в соответствии с Уставом Организации Объединенных Наций,</p>
+      </container>
+      <container name="вновь обращаясь" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">вновь обращаясь</span> ко всем государствам с призывом как можно скорее стать участниками международных конвенций и протоколов о борьбе с терроризмом и полностью выполнять свои обязательства по тем документам, сторонами которых они являются,</p>
+      </container>
+      <container name="особо отмечая" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">особо отмечая</span> центральную роль Организации Объединенных Наций в глобальной борьбе с терроризмом, <span class="italic">положительно оценивая</span> седьмой обзор Глобальной контртеррористической стратегии Организации Объединенных Наций (ГКТС) (документ <a href="https://undocs.org/ru/A/RES/70/291">A/RES/70/291</a>) от 2 июля 2021 года, в котором подтверждена важность комплексного и сбалансированного осуществления всех четырех компонентов ГКТС, и <span class="italic">заявляя о поддержке</span> создания и деятельности Контртеррористического управления Организации Объединенных Наций (КТУ ООН) в соответствии с резолюцией <a href="https://undocs.org/ru/A/RES/71/291">71/291</a> Генеральной Ассамблеи от 15 июня 2017 года и его центральной роли в содействии сбалансированной реализации ГКТС,</p>
+      </container>
+      <container name="подчеркивая" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> важность тесной координации и сотрудничества между ИДКТК и КТУ ООН в работе, проводимой ими в рамках своих мандатов и в своем четко различающемся качестве в интересах обеспечения эффективного взаимодействия Организации Объединенных Наций с государствами-членами в целях повышения эффективности осуществления ГКТС сбалансированным образом, равно как и других резолюций по борьбе с терроризмом, а также в интересах обеспечения эффективного взаимодействия Организации Объединенных Наций с другими соответствующими международными, региональными и субрегиональными организациями, ключевыми партнерами, такими как Глобальный контртеррористический форум (ГКТФ), и другими субъектами, усилия которых имеют исключительно важное значение в деле предотвращения терроризма и противодействия ему, включая соответствующие организации гражданского общества, научно-образовательные круги, аналитические центры и структуры частного сектора, и <span class="italic">отмечая</span> важность работы соответственно с женскими, молодежными и местными организациями,</p>
+      </container>
+      <container name="выражая" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">выражая</span> серьезную обеспокоенность в связи с тем, что иностранные боевики-террористы, вступившие в ряды таких организаций, как ИГИЛ (также известна как ДАИШ), «Аль-Каида», Фронт «Ан-Нусра» и другие ячейки, филиалы, отколовшиеся группы или ответвления ИГИЛ или «Аль-Каиды», в настоящее время, возможно, стремятся вернуться в свои страны происхождения или гражданства либо переместиться в третьи страны, <span class="italic">напоминая</span>, что все государства должны согласно своим соответствующим международным обязательствам, в том числе по международному праву прав человека, принимать конкретные меры по противодействию угрозе, создаваемой иностранными боевиками-террористами, <span class="italic">подчеркивая</span> настоятельную необходимость всестороннего и безотлагательного осуществления резолюций <a href="https://undocs.org/ru/S/RES/2178(2014)">2178 (2014)</a> и <a href="https://undocs.org/ru/S/RES/2396(2017)">2396 (2017)</a>, включая их положения о разработке всеобъемлющих и адресных стратегий судебного преследования, реабилитации и реинтеграции, и особо отмечая важность оказания помощи связанным с иностранными боевиками-террористами женщинам и детям, которые могут являться жертвами террора,</p>
+      </container>
+      <container name="с удовлетворением принимая к сведению" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">с удовлетворением принимая к сведению</span> мероприятия и инициативы по предупреждению и пресечению международного терроризма, имевшие место на международном, региональном и субрегиональном уровнях, в том числе принятие разработанных в рамках КТК Мадридских руководящих принципов в 2015 году и добавления к ним в 2018 году, включая специальные гарантии и меры правовой защиты детей,</p>
+      </container>
+      <container name="подтверждая" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> далее обязанность государств-членов предотвращать передвижение террористов или террористических групп, в частности путем осуществления эффективного пограничного контроля, и в этой связи настоятельно призывая государства-члены оперативно обмениваться информацией и укреплять сотрудничество между компетентными органами, с тем чтобы предотвращать перемещение террористов и террористических групп на свою территорию или со своей территории, поставку оружия террористам и финансирование, направленное на поддержку террористов и террористических групп, и <span class="italic">подчеркивая</span>, что предоставление убежища террористам продолжает вызывать серьезную озабоченность и что все государства-члены должны в полной мере сотрудничать в борьбе с терроризмом, с тем чтобы выявлять, лишать убежища и предавать правосудию, выдавать или подвергать судебному преследованию –– в соответствии с нормами применимого международного права –– любых лиц, которые оказывают поддержку или содействие, участвуют или пытаются участвовать в финансировании, планировании, подготовке или совершении террористических актов либо предоставляют убежище террористам,</p>
+      </container>
+      <container name="признавая" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	признавая</span> необходимость улучшения сбора, обработки, сохранения и передачи информации и материалов, собранных или полученных военными (именуются также «доказательства с поля боя») согласно нормам международного права, для обеспечения возможности расследования дел и, в соответствующих случаях, судебного преследования совершивших преступления иностранных боевиков-террористов, <span class="italic">подчеркивая</span>, что сбор и сохранение доказательств, как это предусмотрено в соответствующих национальных правовых системах, имеют исключительно важное значение для судебного преследования и вынесения судебных решений и приговоров по делам о террористических преступлениях, <span class="italic">подчеркивая также</span> значимость «доказательств с поля боя» как существенного инструмента судебного преследования и назначения соответствующего наказания за террористические преступления в тех случаях, когда они получены и используются надлежащим образом в порядке привлечения террористов к ответственности за совершенные ими преступления, <span class="italic">подчеркивая далее</span> необходимость обучения и подготовки соответствующих специалистов-практиков по процедурам, применимым к сбору, сохранению и использованию «доказательств с поля боя», <span class="italic">отмечая</span> важность наличия четких правовых оснований, нормативных актов и практических процедур для сбора, предоставления и использования доказательств такого рода в национальных судах при полном соблюдении гарантий права обвиняемого на беспристрастное судебное разбирательство и в соответствии с применимыми нормами международного права прав человека и <span class="italic">принимая к сведению</span> руководство ИДКТК по содействию использованию и признанию приемлемости в качестве доказательств в национальных уголовных судах информации, собранной, обработанной, сохраняемой и передаваемой военными для целей судебного преследования за террористические преступления,</p>
+      </container>
+      <container name="с озабоченностью отмечая" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	с озабоченностью отмечая</span> все более широкое неправомерное применение террористами беспилотных авиационных систем (БАС) в мире для совершения атак и нападений в запретных зонах коммерческих и государственных объектов инфраструктуры и общественных местах, <span class="italic">признавая</span> необходимость обеспечения баланса между стимулированием инноваций и предотвращением неправомерного задействования БАС по мере расширения сферы их применения, <span class="italic">отмечая</span> международные усилия, в том числе со стороны ИДКТК, способствующие повышению осведомленности и готовности к применению БАС террористами по мере повышения доступности этой технологии и ее более широкого использования в государственном и частном секторах, включая выпуск публикации ИДКТК, КТУ ООН и Интерпола <span class="italic">The protection of critical infrastructures against terrorist attacks: Compendium of good practices</span> («Защита критически важных объектов инфраструктуры от террористических нападений: сборник передовых методов»), работу Глобального контртеррористического форума (ГКТФ) и принятие им Берлинского меморандума о передовых методах противодействия применению БАС в террористических целях,</p>
+      </container>
+      <container name="подчеркивая" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span>, что создание и обеспечение функционирования справедливых и действенных систем уголовного правосудия при полном уважении прав человека и основных свобод и сохранении приверженности делу их защиты в рамках соблюдения законности должны занимать центральное место в любой успешной стратегии по предотвращению терроризма и борьбе с ним, <span class="italic">отмечая</span> важность учета мнений государств-членов, <span class="italic">принимая к сведению</span> важную руководящую роль в укреплении потенциала, по просьбе государств-членов, и соответствующий экспертный ресурс Управления Организации Объединенных Наций по наркотикам и преступности (УНП ООН) и Межрегионального научно-исследовательского института Организации Объединенных Наций по вопросам преступности и правосудия (ЮНИКРИ) в координации с другими соответствующими учреждениями Организации Объединенных Наций и соответствующими заинтересованными сторонами и <span class="italic">рекомендуя</span> ИДКТК тесно сотрудничать с этими органами,</p>
+      </container>
+      <container name="выражая" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">выражая</span> озабоченность по поводу того, что террористические группы активно ищут способы нейтрализации или обхода мер авиационной безопасности, <span class="italic">подтверждая</span> роль Международной организации гражданской авиации (ИКАО) как учреждения Организации Объединенных Наций, отвечающего за разработку международных норм авиационной безопасности и контроль за их осуществлением государствами, и ее роль в оказании содействия государствам в выполнении ими таких норм, <span class="italic">приветствуя</span> утверждение ИКАО Глобального плана обеспечения безопасности полетов в качестве глобальной основы для последовательного укрепления авиационной безопасности и <span class="italic">рекомендуя</span> ИДКТК тесно сотрудничать с ИКАО,</p>
+      </container>
+      <container name="признавая" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">признавая</span> вызовы, с которыми сталкиваются государства-члены в вопросах содержания подозреваемых и осужденных террористов под стражей, <span class="italic">призывая</span> государства-члены сотрудничать и обмениваться передовым опытом в части надлежащей организации внутреннего распорядка в местах лишения свободы, в которых уважаются права человека и принимаются меры по реабилитации и реинтеграции осужденных террористов, и отмечая работу, проводимую в этой связи УНП ООН, ЮНИКРИ и другими соответствующими заинтересованными сторонами,</p>
+      </container>
+      <container name="выражая" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">выражая</span> озабоченность по поводу связи, имеющейся в некоторых случаях между терроризмом и транснациональной организованной преступностью и такими незаконными видами деятельности, как незаконный оборот наркотиков и оружия, торговля людьми, легализация незаконных доходов и незаконный оборот культурных ценностей, и подчеркивая необходимость усиления координации действий на местном, национальном, субрегиональном, региональном и международном уровнях в порядке реагирования на эту серьезную проблему в соответствии с нормами международного права и в контексте систем уголовного правосудия и правоприменения при полном уважении прав человека, основных свобод и принципа верховенства права,</p>
+      </container>
+      <container name="подчеркивая" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">подчеркивая</span> необходимость эффективно противодействовать использованию ИГИЛ, «Аль-Каидой» и связанными с ними лицами, группами, предприятиями и организациями своих идеологических установок в целях подстрекательства и вербовки других лиц для совершения террористических актов и ссылаясь далее в этой связи на резолюцию <a href="https://undocs.org/ru/S/RES/2354(2017)">2354 (2017)</a> и Всеобъемлющую международную рамочную стратегию противодействия распространению террористических идей (<a href="https://undocs.org/ru/S/2017/375">S/2017/375</a>) с изложением рекомендуемых руководящих принципов и передовых методов,</p>
+      </container>
+      <container name="вновь заявляя" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">вновь заявляя</span> об обязанности государств-членов предотвращать и пресекать финансирование террористических актов и ввести уголовную ответственность за намеренное предоставление или получение каким бы то ни было образом — прямо или косвенно — денежных средств их гражданами или на их территории в целях использования таких средств — или с осознанием того, что они будут использоваться, — для совершения террористических актов, и <span class="italic">подтверждая</span> также обязанность государств-членов незамедлительно замораживать средства и другие финансовые активы или экономические ресурсы лиц или организаций, которые совершают или пытаются совершить террористические акты либо содействуют совершению террористических актов, и <span class="italic">подтверждая</span> далее обязанность государств-членов запретить своим гражданам или любым лицам и организациям на своей территории предоставлять — прямо или косвенно — какие бы то ни было денежные средства, финансовые активы или экономические ресурсы либо финансовые или иные соответствующие услуги в пользу террористических организаций или отдельных террористов на любые цели, включая, в частности, вербовку, обучение или оплату проезда, даже в отсутствие связи с каким-либо конкретным террористическим актом, равно как и в пользу предприятий, находящихся в собственности или под прямым или косвенным контролем таких лиц, а также лиц и организаций, действующих от имени или по указанию таких лиц,</p>
+      </container>
+      <container name="признавая" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	признавая</span>, что инновации в сфере финансовых технологий, продуктов и услуг могут не только открывать значительные экономические возможности, но и создавать риск их неправомерного использования, в том числе для финансирования терроризма,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> важную работу по противодействию финансированию терроризма, проводимую структурами Организации Объединенных Наций и другими многосторонними органами и форумами, <span class="italic">вновь подтверждая</span> существенную роль Группы разработки финансовых мер (ФАТФ) в деле установления мировых стандартов по предотвращению отмывания денег, финансирования терроризма и финансирования распространения оружия массового уничтожения и борьбе с этими явлениями и ее Глобальной сети региональных органов по типу ФАТФ и <span class="italic">рекомендуя</span> ИДКТК углублять свое сотрудничество с этими структурами,</p>
+      </container>
+      <container name="ссылаясь" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на свое решение о том, что государства должны добиться прекращения поставок оружия, включая стрелковое оружие и легкие вооружения, террористам, а также на свои призывы к государствам изыскать пути активизации и ускорения обмена оперативной информацией относительно оборота оружия и повысить степень координации усилий на национальном, субрегиональном, региональном и международном уровнях и в этой связи <span class="italic">настоятельно призывая</span> государства в полном объеме осуществить меры, предусмотренные в резолюции <a href="https://undocs.org/ru/S/RES/2370(2017)">2370 (2017)</a>,</p>
+      </container>
+      <container name="признавая" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">признавая</span> необходимость того, чтобы государства-члены, применяя подход, основанный на учете рисков, предотвращали неправомерное использование неправительственных, некоммерческих и благотворительных организаций террористами и в террористических целях, и призывая неправительственные, некоммерческие и благотворительные организации соответственно предотвращать или пресекать попытки террористов неправомерно воспользоваться их статусом, напоминая при этом о важности полного уважения прав на свободное выражение мнений и свободу ассоциации с другими лицами в рамках гражданского общества, а также на свободу религии или убеждений, <span class="italic">вновь отмечая </span>соответствующие методические и руководящие документы ФАТФ и вновь заявляя о том, что государствам следует определять и предпринимать –– с учетом специфики каждого случая и в соответствии с международным правом –– эффективные и соразмерные действия в отношении некоммерческих организаций, которые либо эксплуатируются террористами или террористическими организациями, либо осознанно поддерживают их,</p>
+      </container>
+      <container name="осуждая" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">	осуждая</span> уничтожение культурного наследия террористическими группами, будь то случайное или намеренное, и <span class="italic">вновь акцентируя внимание </span>на том, что незаконное уничтожение культурного наследия, а также разграбление и незаконный вывоз культурных ценностей террористическими группами и попытки отрицать исторические корни и культурное разнообразие в этом контексте могут подпитывать и усугублять конфликты и препятствуют постконфликтному национальному примирению, тем самым подрывая безопасность, стабильность, управление, социальное, экономическое и культурное развитие затронутых государств,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> работу, проводимую ГКТФ в поддержку сбалансированного осуществления ГКТС, в частности публикацию им ряда рамочных документов и передовых методик, — в том числе по вопросам предотвращения насильственного экстремизма, служащего питательной средой для терроризма, и противодействия ему, обеспечения безопасности границ, включения в разыскные списки, безопасности на море, защиты уязвимых целей, радикализации для совершения актов насилия или под влиянием иностранных боевиков-террористов, работы с потерпевшими, уголовного правосудия и верховенства права, возвращения и перемещения иностранных боевиков-террористов и связанных с ними членов их семей, которые сопровождают их, доморощенного терроризма, наращивания потенциала в Африке, судебного преследования, реабилитации и реинтеграции, а также похищения людей с целью получения выкупа, — дополняющих работу соответствующих контртеррористических структур Организации Объединенных Наций в этих областях, и <span class="italic">рекомендуя</span> ИДКТК продолжать взаимодействие с ГКТФ в целях содействия полному осуществлению резолюций <a href="https://undocs.org/ru/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/ru/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/ru/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/ru/S/RES/2396(2017)">2396 (2017)</a> и других соответствующих резолюций по борьбе с терроризмом,</p>
+      </container>
+      <container name="признавая" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">признавая</span> важную роль гражданского общества, в том числе на общинном и низовом уровне, частного сектора, научно-образовательных кругов, аналитических центров, средств массовой информации, молодежи, женщин, выдающихся деятелей культуры  и образованиях и религиозных лидеров в обеспечении более четкого осознания угроз терроризма и более эффективного противодействия им,</p>
+      </container>
+      <container name="обращая особое внимание" eId="container_33">
+        <p xml:space="preserve">
+          <span class="italic">	обращая особое внимание</span> на необходимость совместных действий государств-членов по предотвращению и пресечению использования информационно-коммуникационных технологий, включая Интернет, в террористических целях, таких как вербовка и подстрекательство к совершению террористических актов, а также финансирование, планирование и подготовка их деятельности, в партнерстве соответственно с частным сектором, гражданским обществом и другими заинтересованными сторонами при одновременном соблюдении прав человека и основных свобод и обеспечении верховенства права и <span class="italic">рекомендуя </span>ИДКТК углублять свое взаимодействие и сотрудничество с соответствующими структурами частного сектора,</p>
+      </container>
+      <container name="отмечая" eId="container_34">
+        <p xml:space="preserve">
+          <span class="italic">	отмечая</span> Крайстчерчский призыв к действиям и Осакское заявление лидеров стран «Группы двадцати» о недопущении использования Интернета для целей терроризма и насильственного экстремизма, служащего питательной средой для терроризма,</p>
+      </container>
+      <container name="подчеркивая" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">подчеркивая </span>необходимость того, чтобы государства-члены действовали в духе сотрудничества при принятии мер, призванных воспрепятствовать использованию террористами информационно-коммуникационных технологий, и продолжали добровольное сотрудничество с частным сектором и гражданским обществом в деле разработки и осуществления более эффективных мер по борьбе с использованием Интернета в террористических целях, в том числе путем разработки средств идеологического противодействия терроризму и с задействованием технических решений, при одновременном уважении прав человека и основных свобод и в соответствии с нормами внутригосударственного и международного права, <span class="italic">отмечая</span> отраслевой Глобальный Интернет-форум по противодействию терроризму (ГИФПТ), призывая ГИФПТ и далее расширять взаимодействие с правительствами и технологическими компаниями в глобальном масштабе и <span class="italic">принимая к сведению</span> осуществление связанной с Организацией Объединенных Наций инициативы «Технологии в борьбе с терроризмом» по налаживанию взаимодействия с представителями индустрии технологий, включая менее крупные технологические компании, гражданского общества, научно-образовательных кругов и правительств в интересах лишения террористов возможности пользоваться Интернетом для достижения террористических целей при одновременном уважении прав человека и основных свобод,</p>
+      </container>
+      <container name="настоятельно призывая" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">настоятельно призывая</span> государства-члены и систему Организации Объединенных Наций принимать, в соответствии с международным правом, меры к устранению условий, способствующих распространению терроризма и насильственного экстремизма, служащего питательной средой для терроризма, и <span class="italic">подчеркивая</span> далее, что борьба с насильственным экстремизмом, создающим питательную среду для терроризма, в том числе путем предотвращения радикализации для совершения актов насилия, вербовки и мобилизации лиц в террористические группы, является неотъемлемым элементом усилий по сбалансированному противодействию создаваемой терроризмом угрозе международному миру и безопасности согласно ГКТС, </p>
+      </container>
+      <container name="вновь подтверждая" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">вновь подтверждая</span> необходимость уделять больше внимания женщинам и молодежи на всех направлениях работы по устранению угроз международному миру и безопасности, создаваемых террористическими актами, отмечая важность обеспечения участия женщин и молодежи в разработке стратегий предотвращения терроризма и насильственного экстремизма, служащего питательной средой для терроризма, и противодействия им и <span class="italic">подчеркивая</span> необходимость продолжения усилий по обеспечению полноценного, равноправного и конструктивного участия женщин и молодежи в реализации всех подходов и стратегий в области противодействия терроризму и насильственному экстремизму, служащему питательной средой для терроризма,</p>
+      </container>
+      <container name="подчеркивая" eId="container_38">
+        <p xml:space="preserve">
+          <span class="italic">	подчеркивая</span> важность применения для противодействия терроризму подхода, предусматривающего участие всех институтов государственной власти и всего общества, <span class="italic">признавая</span> ту важную роль, которую могут играть организации гражданского общества, в том числе в сферах здравоохранения, социального обеспечения и образования, в плане содействия реабилитации и реинтеграции иностранных боевиков-террористов и связанных с ними членов их семей, поскольку организации гражданского общества могут располагать соответствующими знаниями о местном населении, иметь доступ к нему и поддерживать с ним контакты, благодаря чему они будут в состоянии противостоять вызовам вербовки и радикализации для совершения актов насилия, и <span class="italic">рекомендуя </span>государствам-членам в инициативном порядке взаимодействовать с организациями гражданского общества при разработке стратегий реабилитации и реинтеграции;</p>
+      </container>
+      <container name="отмечая" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> исключительно важную роль ИДКТК в рамках системы Организации Объединенных Наций и его экспертного ресурса в анализе проблем борьбы с терроризмом и в содействии осуществлению взвешенных мер контртеррористического реагирования и <span class="italic">настоятельно призывая</span> КТУ ООН и все другие соответствующие органы Организации Объединенных Наций учитывать рекомендации и аналитические наработки ИДКТК при осуществлении своих программ и мандатов,</p>
+      </container>
+      <container name="приветствуя" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">приветствуя</span> продолжающееся сотрудничество между ИДКТК, ИКАО, УНП ООН, всеми другими соответствующими органами Организации Объединенных Наций и Интерполом, в частности в вопросах технической помощи и укрепления потенциала, и <span class="italic">настоятельно рекомендуя</span> им и далее взаимодействовать с КТУ ООН в целях обеспечения общей координации и согласованности контртеррористических усилий системы Организации Объединенных Наций,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">принимая к сведению</span> обновленное ИДКТК «Техническое руководство по осуществлению резолюции <a href="https://undocs.org/ru/S/RES/1373(2001)">1373 (2001)</a> и других соответствующих резолюций Совета Безопасности»,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span>, что главной целью КТК является обеспечение полного осуществления резолюции <a href="https://undocs.org/ru/S/RES/1373(2001)">1373 (2001)</a>, и <span class="italic">напоминает</span> о том, что ИДКТК играет решающую роль в оказании Комитету поддержки в выполнении им своего мандата;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span>, что в период по 31 декабря 2025 года ИДКТК будет продолжать действовать в качестве специальной политической миссии под стратегическим руководством КТК, и <span class="italic">постановляет далее</span> провести не позднее 31 декабря 2023 года промежуточный обзор; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">отмечает</span> предстоящее опубликование доклада Контртеррористического комитета Совету Безопасности для всеобъемлющего рассмотрения им работы Исполнительного директората Контртеррористического комитета за период с 2017 по 2021 год; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span>, что нейтральная экспертная оценка хода осуществления резолюций <a href="https://undocs.org/ru/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/ru/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/ru/S/RES/2178(2014)">2178 (2014)</a> и других соответствующих резолюций является ключевой функцией ИДКТК и что аналитические наработки и рекомендации, являющиеся результатом таких оценок, оказывают неоценимую помощь государствам-членам в выявлении и устранении пробелов в деятельности по осуществлению мер и наращиванию потенциала, и <span class="italic">призывает</span> КТУ ООН и все другие соответствующие фонды и программы Организации Объединенных Наций, государства-члены, доноров и получателей помощи пользоваться такими экспертными оценками при планировании усилий в области технической помощи и укрепления потенциала, в том числе в части сбалансированного осуществления всех четырех компонентов ГКТС; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> сотрудничество ИДКТК со структурами, являющимися сторонами Глобального договора Организации Объединенных Наций по координации контртеррористической деятельности, другими соответствующими органами Организации Объединенных Наций и соответствующими региональными организациями и <span class="italic">настоятельно призывает</span> ИДКТК и впредь обеспечивать приглашение представителей этих органов к участию в своей работе по оценке, с тем чтобы они могли и далее вносить свой вклад в подготовку важнейших рекомендаций по наращиванию потенциала государств-членов в самых актуальных областях; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> ИДКТК произвести соответствующую оценку усилий государств-членов по борьбе со всеми формами терроризма и насильственного экстремизма, служащего питательной средой для терроризма, включая те, в основе которых лежит ксенофобия, расизм и другие формы нетерпимости, или те, которые практикуются во имя религии или убеждений, и поделиться соответствующими замечаниями по этом вопросу;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> ИДКТК произвести оценку выполнения государствами-членами положений резолюций <a href="https://undocs.org/ru/S/RES/2178(2014)">2178 (2014)</a> и <a href="https://undocs.org/ru/S/RES/2396(2017)">2396 (2017)</a> Совета Безопасности, призывающих к активизации усилий по борьбе с меняющейся угрозой, создаваемой иностранными боевиками-террористами, и противодействовать перемещению террористов, в том числе посредством сбора и использования предварительной информации о пассажирах, данных записей регистрации пассажиров и биометрических данных и обмена такими данными и информацией, а также составления разыскных списков в отношении известных или подозреваемых террористах, и представить доклад о глобальном выполнении этих положений к декабрю 2022 года, принимая во внимание в этой связи передовую практику и рекомендации, в том числе Мадридские руководящие принципы по иностранным боевикам-террористам и добавление к ним;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> ИДКТК надлежащим образом рассмотреть пробелы и потребности соответствующих государств-членов в политике и потенциале в области эффективного использования доказательств, собранных военными (именуются также «доказательства с поля боя»), в целях содействия организации структурами, участвующими в Глобальном договоре Организации Объединенных Наций по координации контртеррористической деятельности, включая УНП ООН, обучения и оказания помощи секторам уголовного правосудия государств-членов и содействия государствам-членам в разработке и осуществлении комплексных стратегий, обеспечивающих надлежащий сбор, сохранение, передачу и использование «доказательств с поля боя» в соответствии с нормами международного права; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">
+            <span class="italic">	рекомендует</span> ИДКТК произвести надлежащую оценку усилий, прилагаемых государствами-членами с целью обеспечить в соответствии со своими международно-правовыми обязательствами криминализацию террористических преступлений и уголовное преследование за них, подумать над поощрением национальной политики назначения наказаний, практики или руководящих принципов обращения с правонарушителями, предусматривающих, с одной стороны, соразмерность строгости наказания правонарушителей тяжести правонарушений в соответствии с национальным законодательством, а с другой — гуманное обращение с теми, кто преследуется или осужден за террористические преступления, и уважение их прав человека в соответствии с международным правом, и рассмотреть меры по сокращению рецидивизма, включающие, когда это применимо и соответствует их применимым внутренним законам, реабилитацию и реинтеграцию заключенных в общество;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">признает</span>, что страновые поездки, комплексные оценки и связанная с ними последующая деятельность ИДКТК являются взаимовыгодными для государств-членов, КТК, КТУ ООН и прочих сторон Глобального договора Организации Объединенных Наций по координации контртеррористической деятельности, других структур Организации Объединенных Наций и соответствующих организаций-партнеров, поскольку они позволяют наладить постоянный диалог между национальными субъектами и экспертами по борьбе с терроризмом из всей системы Организации Объединенных Наций и соответствующих организаций-партнеров; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> ИДКТК рассмотреть и вынести — в течение шести месяцев с даты принятия настоящей резолюции в консультации с КТК — рекомендации в отношении выполнения мандата ИДКТК в части эффективности, своевременности и результативности его страновых поездок, оценок и рекомендаций по контртеррористической политике и практике государств-членов, включая варианты повышения транспарентности, эффективности и всеохватности, , а также уроки, извлеченные из последствий пандемии COVID-19, и представить их на рассмотрение КТК;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">поручает</span> КТК ежегодно составлять при поддержке со стороны ИДКТК перечень государств-членов, у которых ИДКТК следует запрашивать согласие на совершение поездок для проведения оценки, <span class="italic">особо отмечает</span>, что такой перечень должен составляться с применением подхода, основанного на учете факторов риска, а также имеющихся пробелов, возникающих проблем, тенденций, событий и аналитических наработок, с учетом предварительных просьб государств-членов и предварительно выраженного согласия, а также того факта, что в ряд государств-членов никогда не совершались поездки, и <span class="italic">особо отмечает далее</span>, что КТК, действуя при поддержке ИДКТК, может после утверждения перечня принять решение о внесении в него необходимых изменений, в том числе посредством заблаговременного извещения о графике своих страновых поездок до их совершения, с особым акцентом на обеспечении транспарентности при планировании поездок и подготовке докладов по их итогам; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">поручает</span> ИДКТК использовать свои поездки, оценки и аналитические наработки по возникающим проблемам, тенденциям и событиям для оказания поддержки государствам-членам и структурам Организации Объединенных Наций в принятии мер в соответствии с международным правом, направленных на устранение условий, порождающих терроризм и насильственный экстремизм, служащий питательной средой для терроризма, согласно Глобальной контртеррористической стратегии Организации Объединенных Наций, в координации с КТУ ООН и при его поддержке; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">поручает</span> ИДКТК доложить КТК не позднее 30 марта 2023 года о возможных способах дальнейшего укрепления процесса оценки, в том числе с рассмотрением возможности совершения адресных и целенаправленных последующих поездок в целях дополнения комплексных оценок ИДКТК, с применением — сообразно обстоятельствам и с учетом глобального мандата ИДКТК — подхода, основанного на учете факторов риска, ввиду изменения характера угроз, сокращения — насколько это возможно — времени, отводимого на подготовку докладов и их рассмотрение, с учетом различий в потенциале государств-членов, необходимости повышения эффективности объективного и последовательного применения инструментов оценки и привлечения, по запросу государств-членов, экспертов из гражданского общества, научно-образовательных кругов, аналитических центров и частного сектора, в том числе до, в ходе и после поездок, совершаемых в государства-члены, и проводимых там оценок в порядке дополнения первичной работы с субъектами государств-членов, с тем чтобы они могли сосредоточить внимание на эффективных усилиях по борьбе с терроризмом, в целях обеспечения большей полезности и доступности оценок и усиления их ориентированности на конкретные аудитории; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> тесное сотрудничество между ИДКТК и КТУ ООН в разработке и осуществлении инициатив по линии всей системы Организации Объединенных Наций, направленных на поддержку усилий государств-членов по выполнению соответствующих резолюций Совета Безопасности, <span class="italic">поручает</span> ИДКТК и далее поддерживать эту деятельность и <span class="italic">настоятельно призывает</span> КТУ ООН и все другие соответствующие органы Организации Объединенных Наций учитывать рекомендации и анализ КТК при выполнении своих программ и мандатов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_162" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_162__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Председателя КТК предлагать старшим должностным лицам государств-членов, в которых проводится оценка, принимать участие в соответствующих заседаниях КТК, <span class="italic">просит далее</span> Председателя предлагать государствам-членам, в которых проводится оценка, осуществлять координацию действий с ИДКТК и КТУ ООН в части выполнения рекомендаций ИДКТК с представлением ИДКТК — в течение 12 месяцев после направления доклада о первоначальной оценке в КТК — доклада о мерах, которые были приняты в целях выполнения рекомендаций, вынесенных по итогам оценки, с учетом различий в потенциале и обеспеченности ресурсами, а также необходимости оказания технической помощи в выполнении некоторых рекомендаций и <span class="italic">поручает</span> ИДКТК выносить КТК сообразно обстоятельствам рекомендации о необходимости дополнительных последующих мероприятий в целях дальнейшего выполнения рекомендаций, вынесенных по итогам оценки, в том числе об оказании в соответствующих случаях дополнительной технической помощи; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_178" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_178__content">
+          <p xml:space="preserve">	<span class="italic">поручает</span> ИДКТК своевременно докладывать Комитету на регулярной основе или по его запросу — в форме устных и/или письменных брифингов — о работе ИДКТК, включая его поездки в государства-члены, положение дел с координацией действий с соответствующими органами Организации Объединенных Наций, взаимодействие с субъектами, не относящимися к Организации Объединенных Наций, проведение оценок, представленность КТК на различных международных и региональных встречах и прочую деятельность, в том числе на этапах планирования, и составлять ежегодные обзоры и прогнозы деятельности в целях содействия осуществлению резолюций <a href="https://undocs.org/ru/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/ru/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/ru/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/ru/S/RES/2396(2017)">2396 (2017)</a> и других соответствующих резолюций, <span class="italic">просит, </span>чтобы КТК, действуя при поддержке ИДКТК, и далее проводил периодические совещания, в том числе с региональным или тематическим уклоном, для всех государств-членов, и<span class="italic"> подчеркивает</span> важность работы ИДКТК для КТК; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> КТК докладывать Совету через своего Председателя не менее одного раза в год о ходе всей работы Комитета и ИДКТК, а также, в соответствующих случаях, параллельно с докладами председателей Комитета, учрежденного резолюциями <a href="https://undocs.org/ru/S/RES/1267(1999)">1267 (1999)</a> и <a href="https://undocs.org/ru/S/RES/1989(2011)">1989 (2011)</a>, и Комитета, учрежденного резолюцией <a href="https://undocs.org/ru/S/RES/1540(2004)">1540 (2004)</a>, с учетом своих усилий по укреплению координации с другими органами Организации Объединенных Наций, содействию в части получения согласия государств-членов на страновые поездки и доклады и улучшению положения дел с выполнением рекомендаций и информации о том, как его оценки и аналитические наработки способствовали повышению эффективности принимаемых государствами-членами мер по противодействию терроризму, и з<span class="italic">аявляет</span> о своем намерении проводить не менее одного раза в год неофициальные консультации по работе КТК; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve">	<span class="italic">поручает</span> ИДКТК обеспечить возможность получения страновых оценок, рекомендаций, обследований и аналитических материалов в рамках всей системы Организации Объединенных Наций, в особенности Контртеррористическим управлением и учреждениями, фондами и программами Организации Объединенных Наций, имеющими отношение к борьбе с терроризмом, в целях более эффективного сосредоточения технической помощи Организации Объединенных Наций и осуществляемых ею мер по укреплению потенциала на устранении пробелов в осуществлении деятельности и наращивании потенциала, выявленных ИДКТК, а также на поддержке сбалансированного осуществления ГКТС, за исключением тех случаев, когда государства-члены, в которых проводилась оценка, обратятся с просьбой обеспечить конфиденциальность отдельных сведений, и <span class="italic">поручает далее</span> ИДКТК более активно обмениваться своими результатами с государствами-членами и соответствующими партнерами по борьбе с терроризмом — сообразно обстоятельствам и в консультации с КТК и международными, региональными и субрегиональными организациями, ГКТФ, научно-образовательными кругами, аналитическими центрами, гражданским обществом и частным сектором, — в том числе посредством улучшения веб-доступа, осуществления информационно-пропагандистской деятельности, проведения практикумов и открытых брифингов и использования Глобальной исследовательской сети (ГИС) ИДКТК с учетом ее обширной географии; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_232" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_232__content">
+          <p xml:space="preserve">	<span class="italic">подтверждает</span> важную роль ИДКТК в рамках системы Организации Объединенных Наций в части выявления и оценки проблем, тенденций и событий, относящихся к осуществлению резолюций <a href="https://undocs.org/ru/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/ru/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/ru/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/ru/S/RES/2396(2017)">2396 (2017)</a>, <a href="https://undocs.org/ru/S/RES/2462(2019)">2462 (2019)</a>, <a href="https://undocs.org/ru/S/RES/2482(2019)">2482 (2019)</a> и других соответствующих резолюций, предоставления — в сотрудничестве с КТУ ООН — поддержки в деле сбалансированного осуществления ГКТС и консультирования КТК относительно практических способов осуществления таких резолюций государствами-членами и подтверждает также важное значение работы с соответствующими партнерами в этой области, в том числе с использованием Глобальной исследовательской сети; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_252" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_252__content">
+          <p xml:space="preserve">	<span class="italic">учитывает </span>взаимоотношения ИДКТК с соответствующими экспертами и специалистами-практиками в государствах-членах, соответствующих международных, региональных и субрегиональных организациях, научно-образовательных кругах, аналитических центрах, гражданском обществе и частном секторе и <span class="italic">отмечает</span> важный вклад таких экспертов и специалистов-практиков в брифинги, семинары, Глобальную исследовательскую сеть и открытые заседания в плане поддержки усилий КТК по содействию осуществлению резолюций <a href="https://undocs.org/ru/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/ru/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/ru/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/ru/S/RES/2396(2017)">2396 (2017)</a> и других соответствующих резолюций по борьбе с терроризмом и поощрения анализа возникающих угроз, тенденций и явлений; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_273" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_273__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span>, чтобы государства-члены рассмотрели возможность разработки всеобъемлющих и комплексных национальных контртеррористических стратегий и эффективных механизмов для их осуществления, уделяя при этом внимание условиям, порождающим терроризм, в соответствии со своими обязательствами по международному праву, и <span class="italic">рекомендует далее</span> ИДКТК оказывать содействие государствам-членам и международным, региональным и субрегиональным организациям и другим соответствующим партнерам, по их просьбе, в виде проведения оценки и предоставления консультаций по разработке всеобъемлющих и комплексных национальных и региональных контртеррористических стратегий и механизмов их осуществления в тесном сотрудничестве с КТУ ООН и другими соответствующими учреждениями Организации Объединенных Наций, с тем чтобы обеспечивать слаженность и взаимодополняемость усилий и не допускать никакого дублирования усилий в целях дальнейшего осуществления резолюции <a href="https://undocs.org/ru/S/RES/1373(2001)">1373 (2001)</a> и других соответствующих резолюций по борьбе с терроризмом и содействия сбалансированному осуществлению ГКТС; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_295" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_295__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> принятие КТК в соответствии с резолюцией <a href="https://undocs.org/ru/S/RES/2395(2017)">2395 (2017)</a> обновленных глобальных обследований осуществления резолюций <a href="https://undocs.org/ru/S/RES/1373(2001)">1373 (2001)</a> и <a href="https://undocs.org/ru/S/RES/1624(2005)">1624 (2005)</a>, <span class="italic">принимает к сведению</span> выявленные недостатки в деле осуществления вышеупомянутых резолюций, <span class="italic">с удовлетворением отмечает также </span>утверждение КТК электронной формы детального обследования осуществления и пересмотренного обзора оценки осуществления и <span class="italic">призывает</span> ИДКТК представлять результаты количественного и качественного анализа, который может быть проведен с помощью этих имеющихся в распоряжении ИДКТК инструментов государствам-членам, донорам, получателям помощи, КТУ ООН и другим учреждениям Организации Объединенных Наций для целей планирования технической помощи и поддержки в наращивании потенциала; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_318" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_318__content">
+          <p xml:space="preserve">	<span class="italic">обращает особое внимание</span> на то, что руководители ИДКТК и КТУ ООН должны регулярно собираться для обсуждения вопросов, представляющих взаимный интерес, и обеспечения учета рекомендаций и аналитических наработок ИДКТК в работе КТУ ООН, особенно в деле оказания технической помощи и укрепления потенциала, и <span class="italic">поручает</span> ИДКТК и КТУ ООН совместными усилиями подготовить не позднее 30 марта 2022 года доклад с изложением практических шагов, которые будут предприняты обоими органами для обеспечения учета рекомендаций и аналитических наработок ИДКТК в работе КТУ ООН, для рассмотрения КТК, а также Генеральной Ассамблей в контексте обзора осуществления ГКТС; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_342" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_342__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>Председателю КТК приглашать дважды в год наиболее высокопоставленных представителей КТУ ООН для информирования КТК о работе КТУ ООН, в особенности о прогрессе в деле учета рекомендаций и аналитических наработок ИДКТК в осуществлении его программ и мандатов, и <span class="italic">рекомендует далее</span> Председателю КТК проводить при содействии ИДКТК последующие совещания с КТУ ООН по координации действий с ИДКТК, а также регулярно приглашать представителей КТУ ООН на заседания по соответствующим вопросам; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_367" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_367__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> ИДКТК оказывать поддержку КТУ ООН в его работе также путем предоставления консультаций его руководству и помощи в обработке информации по контртеррористической деятельности, передаваемой Генеральному секретарю и другим старшим руководителям Организации Объединенных Наций, а также путем оказания поддержки руководству КТУ ООН сообразно обстоятельствам, подготовки и проведения совместно с ним практикумов и конференций и совместного участия в них; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_393" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> государствам-членам о том, что эффективные меры предотвращения терроризма и насильственного экстремизма, создающего питательную среду для терроризма, и противодействия им и уважение прав человека взаимно дополняют и подкрепляют друг друга и являются непременным условием для достижения успеха, <span class="italic">отмечает</span> важное значение уважения принципа верховенства права для эффективной борьбы с терроризмом, <span class="italic">с удовлетворением отмечает</span> роль, которую играют в этой связи соответствующие субъекты из гражданского общества, научно-образовательных кругов, аналитических центров и частного сектора, и в особенности женские, молодежные и местные организации, и <span class="italic">рекомендует</span> ИДКТК и далее развивать свою деятельность в этой области в целях обеспечения того, чтобы все вопросы прав человека и верховенства права, актуальные для осуществления резолюций <a href="https://undocs.org/ru/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/ru/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/ru/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/ru/S/RES/2396(2017)">2396 (2017)</a> и других соответствующих резолюций, квалифицировались в качестве важного компонента предпринимаемых ИДКТК страновых поездок, оценок и анализа новых проблем, тенденций и событий и содействия в плане оказания технической помощи; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_420" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_420__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span> об обязанности государств-членов воздерживаться от предоставления в любой форме активной или пассивной помощи организациям или лицам, причастным к совершению террористических актов, в том числе путем пресечения вербовки новых членов в террористические группы и поставки оружия террористам, рекомендует ИДКТК и далее в полной мере учитывать эту обязанность во всей своей деятельности и подчеркивает важность полного и эффективного осуществления соответствующих резолюций и надлежащего урегулирования проблем, препятствующих их осуществлению; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_448__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> ИДКТК к тому, чтобы он, действуя в тесном сотрудничестве с КТУ ООН, продолжал уделять повышенное внимание резолюции <a href="https://undocs.org/ru/S/RES/1624(2005)">1624 (2005)</a> в рамках своего диалога с государствами-членами и взаимодействовал с ними в деле разработки — в соответствии с их обязательствами по международному праву — стратегий, предусматривающих противодействие подстрекательству к террористическим актам, мотивами которых являются насильственный экстремизм и нетерпимость, и содействовал оказанию технической помощи в их осуществлении, призыв к чему содержится в резолюции <a href="https://undocs.org/ru/S/RES/1624(2005)">1624 (2005)</a> и Глобальной контртеррористической стратегии Организации Объединенных Наций; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_477" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_477__content">
+          <p xml:space="preserve">	<span class="italic">выражает</span> свою полную солидарность с жертвами терроризма и их семьями и <span class="italic">рекомендует</span> ИДКТК — в тесном сотрудничестве с КТУ ООН — учитывать ту важную роль, которую могут играть в борьбе с терроризмом жертвы и их сети, в том числе благодаря доверию к тому, что они говорят; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_507" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_507__content">
+          <p xml:space="preserve">	<span class="italic">признает </span>роль экспертного ресурса ФАТФ в деле противодействия финансированию терроризма, в частности в выявлении стратегических недостатков в борьбе с легализаций незаконных доходов и противодействии финансированию терроризма и их устранении совместно с государствами-членами, <span class="italic">с удовлетворением отмечает</span> доклад ФАТФ о финансировании ИГИЛ, «Аль-Каиды» и их филиалов (2021 год), а также текущую работу ФАТФ по противодействию финансированию терроризма, <span class="italic">призывает</span> ФАТФ проделать дополнительную работу по определению способов повышения эффективности глобального осуществления мер по борьбе с финансированием терроризма, <span class="italic">со всей решительностью призывает</span> все государства-члены соблюдать всеобъемлющие международные стандарты, закрепленные в пересмотренном материале ФАТФ, содержащем 40 рекомендаций по противодействию отмыванию денег, финансированию терроризма и финансированию распространения оружия массового уничтожения, и <span class="italic">рекомендует</span> ИДКТК осуществлять тесное сотрудничество с ФАТФ в плане содействия эффективному выполнению рекомендаций по противодействию финансированию терроризма, включая, в частности, рекомендацию 6 о целевых финансовых санкциях, относящихся к терроризму и финансированию терроризма, и обеспечении более широкого применения государствами-членами этого ключевого инструмента противодействия финансированию терроризма; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_538" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_538__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> ИДКТК повышать осведомленность о важности оказания государствами-членами содействия в ходе расследования, судебного преследования, изъятия и конфискации, а также возвращения, реституции или репатриации культурных ценностей, ставших объектом незаконного оборота, незаконного вывоза или ввоза, хищения, разграбления, незаконных раскопок или незаконной торговли, по надлежащим каналам и согласно соответствующей правовой базе, а также Конвенции Организации Объединенных Наций против транснациональной организованной преступности и протоколам к ней и соответствующим региональным, субрегиональным и двусторонним соглашениям;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_570" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_570__content">
+          <p xml:space="preserve">	<span class="italic">выражает озабоченность</span> по поводу применения террористами беспилотных авиационных систем (БАС) и <span class="italic">рекомендует</span> ИДКТК повышать осведомленность об угрозах, связанных с применением террористами БАС для нанесения ударов или для целей незаконного оборота наркотиков или оружия, и о необходимости противодействия этим угрозам со стороны государств-членов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_603" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_603__content">
+          <p xml:space="preserve">	<span class="italic">учитывает</span> работу ИДКТК по противодействию использованию Интернета, прочих информационно-коммуникационных технологий (ИКТ) и других новейших технологий в террористических целях при одновременном уважении прав человека и основных свобод, принимая во внимание выполнение государствами-членами применимых обязательств по международному праву и необходимость сохранения глобальной связности и свободного и надежного потока информации, что способствовало бы экономическому развитию, коммуникации, участию и доступу к информации, и подчеркивает важность сотрудничества с гражданским обществом и частным сектором в этих усилиях; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_637" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_637__content">
+          <p xml:space="preserve">	<span class="italic">приветствует</span> сотрудничество между ИДКТК и Группой по аналитической поддержке и наблюдению за санкциями Комитета 1267 и <span class="italic">подтверждает</span> необходимость укрепления постоянного сотрудничества между КТК, ИДКТК и органами Совета Безопасности Организации Объединенных Наций по борьбе с терроризмом, включая Комитет, учрежденный резолюциями <a href="https://undocs.org/ru/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/ru/S/RES/1989(2011)">1989 (2011)</a> и <a href="https://undocs.org/ru/S/RES/2255(2015)">2255 (2015)</a>, и Комитет, учрежденный резолюцией <a href="https://undocs.org/ru/S/RES/1540(2004)">1540 (2004)</a>, а также их соответствующие группы экспертов, в том числе посредством активизации обмена информацией, скоординированной организации страновых поездок, координации в вопросах содействия оказанию и отслеживания технической помощи и других совместных мер по оказанию государствам-членам помощи в их усилиях по выполнению своих обязанностей, вытекающих из соответствующих резолюций; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_672" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_672__content">
+          <p xml:space="preserve">	<span class="italic">вновь призывает</span> ИДКТК учитывать гендерный фактор в качестве сквозного элемента всей своей деятельности, в том числе в оценках и докладах по конкретным странам, рекомендациях, выносимых в адрес государств-членов, при оказании содействия в организации технической помощи государствам-членам и при проведении брифингов для Совета, <span class="italic">просит</span> ИДКТК проводить консультации с женщинами и женскими организациями, с тем задать соответствующее направление своей работе, и <span class="italic">настоятельно призывает</span> ИДКТК вести в сотрудничестве со Структурой «ООН-женщины» и другими соответствующими структурами, участвующими в Глобальном договоре Организации Объединенных Наций по координации контртеррористической деятельности, работу по сбору данных и проведению исследований в гендерном ключе, способствующих выявлению причин радикализации и становления на путь террора в случае женщин и последствий осуществления контртеррористических стратегий для женщин и девочек, для прав человека женщин и для женских организаций; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_708" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_708__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> ИДКТК учитывать в своей работе сообразно обстоятельствам воздействие терроризма на детей и их права, особенно в контексте вопросов, касающихся семей возвращающихся и перемещающихся иностранных боевиков-террористов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_745" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_745__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует </span>продолжать и углублять сотрудничество между ИКАО и ИДКТК, в частности посредством взаимодействия в деле выявления пробелов и факторов уязвимости в контртеррористической деятельности и мерах по обеспечению авиационной безопасности, информирования о работе каждого учреждения и применяемых им инструментах и осуществления тесной координации в связи с оценками ИДКТК и подготовкой рекомендаций, <span class="italic">отмечает</span>, что в приложениях 9 и 17 к Конвенции о международной гражданской авиации содержатся стандарты и рекомендуемые методы, касающиеся выявления и предотвращения террористических угроз, связанных с гражданской авиацией, включая досмотр грузов, <span class="italic">приветствует </span>установление ИКАО стандартов и рекомендуемых методов сбора, анализа и использования предварительной информации о пассажирах и данных записей регистрации пассажиров ее государствами-членами и <span class="italic">подтверждает</span> обязанность государств-членов по формированию потенциала для сбора, обработки и анализа в соответствии со стандартами и рекомендованными методами ИКАО данных записей регистрации пассажиров и обеспечения использования таких данных всеми их национальными компетентными органами и их передачи таким органам — при полном уважении прав человека и основных свобод — в целях профилактики, выявления и расследования террористических преступлений и связанных с ними поездок, совершаемых террористами; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_783" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_783__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> ИДКТК проводить, в консультации с КТК, работу с соответствующими партнерами, включая УНП ООН и КТУ ООН, во избежание дублирования усилий и в части поддержки усилий по активизации международного сотрудничества между правоохранительными и судебными органами, в том числе путем, в частности, определения областей, в которых целесообразно оказывать техническую помощь государствам-членам, по их просьбе, в том числе посредством обучения прокуроров, судей и других соответствующих должностных лиц, участвующих в международном сотрудничестве, в частности путем проведения анализа пробелов в потенциале и вынесения рекомендаций на основе оценок и аналитических наработок ИДКТК, в том числе о назначении центральных органов и других соответствующих органов системы уголовного правосудия, занимающихся вопросами оказания взаимной правовой помощи и экстрадиции, а также обеспечения того, чтобы такие органы обладали достаточными ресурсами, квалифицированным персоналом и юридическими полномочиями, в частности применительно к преступлениям, связанным с терроризмом; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_822" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_822__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> ИДКТК оказывать государствам-членам поддержку в разработке или дальнейшем совершенствовании стратегий уменьшения рисков террористических актов для важнейших объектов инфраструктуры и уязвимых целей, в том числе посредством, в частности, оценки соответствующих рисков и повышения осведомленности о них, принятия мер по обеспечению готовности, включая эффективное реагирование на такие террористические акты и потенциал противодействия им, и обеспечения большей оперативной совместимости на всех уровнях государственного управления, а также совместно соответственно с частным сектором и гражданским обществом согласно резолюции <a href="https://undocs.org/ru/S/RES/2341(2017)">2341 (2017)</a> Совета Безопасности и в сотрудничестве с КТУ ООН в целях накопления и поощрения использования передового опыта, <span class="italic">напоминает</span> о принятии Глобальным контртеррористическим форумом Анталийского меморандума о защите уязвимых целей в контексте борьбы с терроризмом и <span class="italic">рекомендует </span>ИДКТК принимать его во внимание, в том числе при оказании содействия в организации технической помощи государствам-членам; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_862" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_862__content">
+          <p xml:space="preserve">	<span class="italic">постановляет </span>продолжать активно заниматься этим вопросом.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
