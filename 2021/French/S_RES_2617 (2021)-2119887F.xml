@@ -1,0 +1,589 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/"></FRBRuri>
+          <FRBRdate date="2021-12-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/fra@/"></FRBRuri>
+          <FRBRdate date="2021-12-30" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/fra@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="7" href="http://metadata.un.org/sdg/7" showAs="sdg_7" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_energy" href="http://metadata.un.org/thesaurus/1006320" showAs="sustainable_energy" dictionary="UNBIS"></keyword>
+        <keyword value="66_energy" href="http://eurovoc.europa.eu/100159" showAs="66_energy" dictionary="EuroVoc"></keyword>
+        <keyword value="energy_market" href="http://eurovoc.europa.eu/4886" showAs="energy_market" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism" showAs="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" showAs="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office of Counter-Terrorism" showAs="UN. Office of Counter-Terrorism" dictionary="DHLAUTH"></keyword>
+        <keyword value="COUNTER-TERRORISM" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[31]" showAs="TERRORISM" dictionary="S/76"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2617 (2021) [on extension of the mandate of the Counter-Terrorism Committee Executive Directorate (CTED) as special political mission under the policy guidance of the Counter-Terrorism Committee (CTC) until 31 Dec. 2025]" showAs="Security Council resolution 2617 (2021) [on extension of the mandate of the Counter-Terrorism Committee Executive Directorate (CTED) as special political mission under the policy guidance of the Counter-Terrorism Committee (CTC) until 31 Dec. 2025]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-12-30" outcome="draftResolution" as="S/2021/1105" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-12-30" outcome="adopted" as="S/2021/1107" by="Adopted unanimously; voting by mail" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="VOTING BY MAIL">
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19887 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2617 (2021)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil de sécurité</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-12-30" class="rightSmall" refersTo="#dateOfIssuance">30 décembre 2021</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Résolution 2617 (2021)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adoptée par le Conseil de sécurité le <inline name="adoptionMeeting"></inline><docDate date="2021-12-30" refersTo="#adoptionDate">30 décembre 2021</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil de sécurité</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span>, en particulier, ses résolutions <a href="https://undocs.org/fr/S/RES/1535(2004)">1535 (2004)</a>, <a href="https://undocs.org/fr/S/RES/1787(2007)">1787 (2007)</a>, <a href="https://undocs.org/fr/S/RES/1805(2008)">1805 (2008)</a>, <a href="https://undocs.org/fr/S/RES/1963(2010)">1963 (2010)</a>, <a href="https://undocs.org/fr/S/RES/2129(2013)">2129 (2013)</a> et <a href="https://undocs.org/fr/S/RES/2395(2017)">2395 (2017)</a>, qui ont trait à la Direction exécutive du Comité contre le terrorisme, <span class="italic">réaffirmant</span> le rôle crucial que jouent le Comité contre le terrorisme et sa direction exécutive pour ce qui est de veiller à l’application intégrale de sa résolution <a href="https://undocs.org/fr/S/RES/1373(2001)">1373 (2001)</a>, et réaffirmant ses résolutions <a href="https://undocs.org/fr/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/fr/S/RES/1325(2000)">1325 (2000)</a>, <a href="https://undocs.org/fr/S/RES/1368(2001)">1368 (2001)</a>, <a href="https://undocs.org/fr/S/RES/1566(2004)">1566 (2004)</a>, <a href="https://undocs.org/fr/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/fr/S/RES/1894(2009)">1894 (2009)</a>, <a href="https://undocs.org/fr/S/RES/2106(2013)">2106 (2013)</a>, <a href="https://undocs.org/fr/S/RES/2122(2013)">2122 (2013)</a>, <a href="https://undocs.org/fr/S/RES/2133(2014)">2133 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2150(2014)">2150 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2170(2014)">2170 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2185(2014)">2185 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2195(2015)">2195 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2199(2015)">2199 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2220(2015)">2220 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2242(2015)">2242 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2249(2015)">2249 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2253(2015)">2253 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2309(2016)">2309 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2322(2016)">2322 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2331(2016)">2331 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2341(2017)">2341 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2347(2017)">2347 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2354(2017)">2354 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2368(2017)">2368 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2370(2017)">2370 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2379(2017)">2379 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2388(2017)">2388 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2396(2017)">2396 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2462(2019)">2462 (2019)</a>, <a href="https://undocs.org/fr/S/RES/2482(2019)">2482 (2019)</a>, et les déclarations pertinentes de sa présidence,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> que le terrorisme sous toutes ses formes et dans toutes ses manifestations constitue l’une des menaces les plus graves pour la paix et la sécurité internationales et que tous les actes de terrorisme sont criminels et injustifiables, quels qu’en soient les motifs, le moment et les auteurs, et demeurant résolu à contribuer encore à améliorer l’efficacité de l’action d’ensemble menée contre ce fléau à l’échelle mondiale,</p>
+      </container>
+      <container name="Conscient" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Conscient</span> que le terrorisme fait peser une menace sur la paix et la sécurité internationales et que, pour lutter contre cette menace, il faut mener une action collective aux niveaux national, régional et international dans le respect du droit international et de la Charte des Nations Unies,</p>
+      </container>
+      <container name="Conscient" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Conscient</span> que les interventions militaires, les mesures répressives et les activités de renseignement ne suffiront pas à elles seules à vaincre le terrorisme, et <span class="italic">insistant</span> sur la nécessité d’adopter des mesures pour remédier aux conditions qui favorisent la propagation du terrorisme, comme le veulent les premier et quatrième piliers de la Stratégie antiterroriste mondiale des Nations Unies (<a href="https://undocs.org/fr/A/RES/60/288">A/RES/60/288</a>), notamment de développer l’action visant à prévenir les conflits de longue durée ou à les régler par des moyens pacifiques, et sur la nécessité de promouvoir l’état de droit, la défense des droits humains et des libertés fondamentales, la bonne gouvernance, la tolérance et l’ouverture afin de proposer une solution viable à ceux que leur situation expose au recrutement à des fins terroristes et à la radicalisation qui mène à la violence,</p>
+      </container>
+      <container name="Sachant" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Sachant </span>qu’une approche globale visant à vaincre le terrorisme exige une action nationale, régionale, sous-régionale et multilatérale, et <span class="italic">réaffirmant</span> qu’il importe de s’attaquer, par une approche holistique, aux conditions sous-jacentes qui favorisent la propagation du terrorisme et de l’extrémisme violent pouvant conduire au terrorisme,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> que la promotion et la protection des droits humains pour tous et la primauté du droit sont des éléments essentiels dans la lutte contre le terrorisme, reconnaissant que des mesures efficaces contre le terrorisme et la protection des droits humains sont des objectifs non pas contradictoires, mais complémentaires et interdépendants, et soulignant la nécessité de promouvoir et de défendre les droits des victimes du terrorisme,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> que les États Membres doivent veiller à ce que les mesures qu’ils prennent pour lutter contre le terrorisme soient conformes à leurs obligations au regard du droit international, en particulier le droit international des droits de l’homme, le droit international des réfugiés et le droit international humanitaire, <span class="italic">soulignant</span> que les mesures antiterroristes efficaces et le respect des droits humains, des libertés fondamentales et de l’état de droit sont complémentaires et se renforcent mutuellement, et sont indispensables au succès de la lutte contre le terrorisme, et notant qu’il importe de respecter l’état de droit pour prévenir et combattre efficacement le terrorisme,</p>
+      </container>
+      <container name="Condamnant" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Condamnant</span> dans les termes les plus vigoureux le terrorisme sous toutes ses formes et dans toutes ses manifestations, et tous les actes terroristes, y compris ceux qui sont fondés sur la xénophobie, le racisme ou d’autres formes d’intolérance ou commis au nom d’une religion ou d’une croyance, <span class="italic">réaffirmant</span> que le terrorisme ne doit être associé à aucune religion, nationalité, civilisation ni à aucun groupe,</p>
+      </container>
+      <container name="Soulignant" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> que c’est aux États Membres qu’il incombe au premier chef de lutter contre les actes de terrorisme et l’extrémisme violent qui peut conduire au terrorisme,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> son attachement à la souveraineté, à l’intégrité territoriale et à l’indépendance politique de tous les États conformément à la Charte des Nations Unies,</p>
+      </container>
+      <container name="Demandant à nouveau" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Demandant à nouveau</span> à tous les États de devenir parties dès que possible aux conventions et protocoles internationaux relatifs à la lutte contre le terrorisme, et de s’acquitter intégralement des obligations découlant des instruments auxquels ils sont parties,</p>
+      </container>
+      <container name="Soulignant" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> le rôle central que joue l’Organisation des Nations Unies dans la lutte mondiale contre le terrorisme et <span class="italic">se félicitant</span> du septième examen de la Stratégie antiterroriste mondiale des Nations Unies (document <a href="https://undocs.org/fr/A/RES/75/291">A/RES/75/291</a>) du 2 juillet 2021, à l’issue duquel a été affirmée l’importance d’une application intégrée et équilibrée des quatre piliers de ladite stratégie, et <span class="italic">saluant</span> les activités du Bureau de lutte contre le terrorisme, conformément à la résolution <a href="https://undocs.org/fr/A/RES/71/291">71/291</a> en date du 15 juin 2017, et son rôle fondamental dans la promotion d’une mise en œuvre équilibrée de la Stratégie,</p>
+      </container>
+      <container name="Soulignant" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> qu’il importe de renforcer la coordination et la coopération entre la Direction exécutive du Comité contre le terrorisme et le Bureau de lutte contre le terrorisme, dans le cadre de leurs mandats respectifs et de leurs rôles distincts visant à établir une concertation réelle entre l’Organisation des Nations Unies et les États Membres de manière à améliorer la mise en œuvre équilibrée de la Stratégie et d’autres résolutions relatives à la lutte contre le terrorisme, et à favoriser une collaboration effective entre l’ONU et d’autres organisations internationales, régionales et sous-régionales compétentes, et des partenaires majeurs, tels que le Forum mondial de lutte contre le terrorisme et d’autres acteurs jouant un rôle essentiel dans la prévention du terrorisme et l’action antiterroriste, notamment les organisations pertinentes de la société civile, les milieux universitaires, les groupes de réflexion et le secteur privé, et <span class="italic">notant</span> l’importance de dialoguer, selon que de besoin, avec les entités axées sur les femmes, les jeunes ou l’action locale,</p>
+      </container>
+      <container name="Constatant avec une vive préoccupation" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Constatant avec une vive préoccupation</span> que les combattants terroristes étrangers qui ont rejoint des entités telles que l’EIIL, également connu sous le nom de Daech, Al-Qaida, le Front el-Nosra et d’autres cellules, filiales, émanations ou groupes dissidents de l’EIIL ou d’Al-Qaida, pourraient chercher à retourner dans leur pays d’origine ou de nationalité, ou à se réinstaller dans des pays tiers, <span class="italic">rappelant</span> que tous les États doivent, conformément à leurs obligations internationales pertinentes, y compris au titre du droit international des droits de l’homme, prendre des mesures spécifiques pour faire face à la menace posée par les combattants terroristes étrangers, <span class="italic">soulignant</span> la nécessité urgente d’appliquer immédiatement et intégralement les résolutions <a href="https://undocs.org/fr/S/RES/2178(2014)">2178 (2014)</a> et <a href="https://undocs.org/fr/S/RES/2396(2017)">2396 (2017)</a>, en particulier leurs dispositions sur l’élaboration de stratégies globales et adaptées concernant les poursuites, la réadaptation et la réinsertion, et <span class="italic">soulignant</span> qu’il importe de prêter assistance aux femmes et aux enfants associés aux combattants terroristes étrangers, qui peuvent être victimes du terrorisme,</p>
+      </container>
+      <container name="Se félicitant" eId="container_16">
+          <p xml:space="preserve">
+            <span class="italic">	Se félicitant</span> des nouvelles mesures et initiatives prises aux niveaux international, régional et sous-régional pour prévenir et réprimer le terrorisme international, notamment les Principes directeurs de Madrid adoptés en 2015 par le Comité contre le terrorisme et leur additif de 2018 qui prévoit des protections spéciales et des garanties juridiques visant à protéger les enfants,</p>
+      </container>
+      <container name="Rappelant" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> que les États Membres ont l’obligation d’empêcher les mouvements des terroristes ou groupes terroristes, notamment en procédant à des contrôles efficaces aux frontières et, dans ce contexte, les exhortant à échanger rapidement des informations et à resserrer la coopération entre autorités compétentes afin d’empêcher les mouvements de terroristes et de groupes terroristes à destination ou en provenance de leur territoire, la fourniture d’armes aux terroristes et les activités de financement en faveur de terroristes et de groupes terroristes, et <span class="italic">soulignant</span> que les sanctuaires offerts aux terroristes restent un motif de préoccupation majeur et que tous les États Membres doivent coopérer sans réserve à la lutte contre le terrorisme de façon à trouver, priver de sanctuaire, traduire en justice, extrader ou juger, conformément au droit international applicable, toute personne qui appuie ou facilite le financement, la planification, la préparation ou la commission d’actes de terrorisme, y participe ou essaie d’y participer, ou offre un sanctuaire,</p>
+      </container>
+      <container name="Conscient" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Conscient</span> de la nécessité d’améliorer la collecte, le traitement, la conservation et le partage des informations et éléments recueillis ou reçus par les militaires, également appelés « éléments de preuve prélevés sur le champ de bataille », dans le respect du droit international, afin de garantir que les combattants terroristes étrangers ayant commis des crimes puissent faire l’objet d’enquêtes et, le cas échéant, de poursuites, <span class="italic">soulignant</span> que la collecte et la conservation des éléments de preuve, telles que prévues par les différents cadres juridiques nationaux, sont essentielles pour les poursuites, le jugement et la condamnation des crimes terroristes, <span class="italic">soulignant </span>la valeur des « éléments de preuve prélevés sur le champ de bataille », qui sont des outils fondamentaux pour les poursuites et pour la détermination de la peine appropriée pour les crimes terroristes, lorsqu’ils sont correctement obtenus et utilisés, dans le cadre des efforts visant à tenir les terroristes responsables de leurs crimes, <span class="italic">soulignant également </span>la nécessité d’éduquer et de former les praticiens concernés aux procédures applicables à la collecte, à la conservation et à l’utilisation des « éléments de preuve prélevés sur le champ de bataille », <span class="italic">notant</span> qu’il importe que les autorités, la réglementation et les pratiques judiciaires soient clairement définies aux fins de la collecte, du partage et de l’utilisation de ce type d’éléments de preuve dans les tribunaux nationaux, dans le plein respect des garanties d’un procès équitable pour les accusés et conformément au droit international des droits de l’homme applicable, et <span class="italic">prenant note</span> des lignes directrices de la Direction exécutive du Comité contre le terrorisme visant à faciliter l’utilisation et la recevabilité à titre d’éléments de preuve dans les tribunaux pénaux nationaux des informations collectées, traitées, conservées et partagées par les militaires pour poursuivre les infractions terroristes,</p>
+      </container>
+      <container name="Constatant avec inquiétude" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Constatant avec inquiétude</span> l’essor de l’utilisation abusive, à l’échelle mondiale, de systèmes de drone aérien par des terroristes pour perpétrer des attaques contre des infrastructures commerciales et gouvernementales d’accès restreint et des espaces publics ou mener des incursions dans ces zones, <span class="italic">sachant</span> qu’il faut trouver un équilibre entre la promotion de l’innovation et la prévention de l’utilisation abusive des systèmes de drone aérien à mesure que leurs applications se développent, <span class="italic">prenant note</span> de l’action internationale qui contribue à sensibiliser les parties prenantes à l’utilisation terroriste des systèmes de drone aérien et à les aider à s’y préparer à mesure que la technologie devient plus accessible et plus largement utilisée dans les secteurs public et privé, y compris la publication par la Direction exécutive, le Bureau de lutte contre le terrorisme et l’Organisation internationale de police criminelle (INTERPOL) du « Recueil des bonnes pratiques en matière de protection des infrastructures critiques contre les attaques terroristes » et celle du « Mémorandum de Berlin sur les bonnes pratiques pour contrer l’utilisation à des fins terroristes de systèmes d’aéronefs non habités » par le Forum mondial de lutte contre le terrorisme,</p>
+      </container>
+      <container name="Soulignant" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> que le développement et le maintien de systèmes de justice pénale équitables et efficaces, qui respectent et favorisent pleinement les droits humains et libertés fondamentales dans le cadre de l’état de droit, doivent être au cœur de toute stratégie effective de prévention et de lutte contre le terrorisme, <span class="italic">notant</span> l’importance des vues des États Membres, et <span class="italic">notant également</span> le rôle important, le dynamisme en matière de renforcement des capacités des États Membres qui en font la demande et les compétences de l’Office des Nations Unies contre la drogue et le crime (ONUDC) et de l’Institut interrégional de recherche des Nations Unies sur la criminalité et la justice (UNICRI), en coordination avec d’autres organismes compétents des Nations Unies et parties prenantes intéressées, et <span class="italic">encourageant</span> la Direction exécutive du Comité contre le terrorisme à coopérer étroitement avec ces entités,</p>
+      </container>
+      <container name="Inquiet" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Inquiet</span> de constater que des groupes terroristes cherchent activement des moyens de déjouer ou contourner la sûreté aérienne, et <span class="italic">soulignant</span> le rôle que joue l’Organisation de l’aviation civile internationale (OACI) en tant qu’organisation des Nations Unies chargée d’élaborer des normes de sûreté pour l’aviation internationale, de contrôler leur application par les États et d’aider ceux-ci à s’y conformer, <span class="italic">se félicitant</span> de l’approbation par l’OACI du plan pour la sûreté de l’aviation dans le monde en tant que cadre mondial d’amélioration progressive de la sûreté aérienne, et <span class="italic">exhortant</span> la Direction exécutive du Comité contre le terrorisme à coopérer étroitement avec elle,</p>
+      </container>
+      <container name="Sachant" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Sachant</span> que les États Membres ont des difficultés à prendre en charge les terroristes présumés ou condamnés en détention, les engageant à collaborer et à mettre en commun les bonnes pratiques en vigueur dans des lieux de détention correctement administrés, où les droits humains sont respectés, et où des mesures de réhabilitation et de réinsertion des terroristes condamnés sont mises en place, et prenant note des travaux réalisés à cet égard par l’ONUDC, l’UNICRI, et d’autres parties prenantes compétentes,</p>
+      </container>
+      <container name="Se déclarant préoccupé" eId="container_23">
+          <p xml:space="preserve">
+            <span class="italic">	Se déclarant préoccupé</span> par le lien qui existe, dans certains cas, entre le terrorisme et la criminalité transnationale organisée, notamment les activités illicites telles que le trafic de drogues et d’armes, la traite d’êtres humains, le blanchiment d’argent et le trafic de biens culturels, et soulignant qu’il faut renforcer la coordination de l’action menée aux niveaux national, sous-régional, régional et international pour apporter une solution à ce grave problème, dans le respect du droit international et dans le cadre des systèmes de justice pénale et de répression et dans le plein respect des droits humains, des libertés fondamentales et de l’état de droit,</p>
+      </container>
+      <container name="Soulignant" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> qu’il faut lutter efficacement contre les discours qu’utilisent l’EIIL, Al-Qaida et les personnes, groupes, entreprises et entités qui leur sont associés pour recruter et inciter autrui à perpétrer des actes de terrorisme, et rappelant une nouvelle fois à cet égard sa résolution <a href="https://undocs.org/fr/S/RES/2354(2017)">2354 (2017)</a> et le « Cadre international global de lutte contre la propagande terroriste » (<a href="https://undocs.org/fr/S/2017/375">S/2017/375</a>), assorti de recommandations de directives et bonnes pratiques,</p>
+      </container>
+      <container name="Rappelant" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> que les États Membres ont l’obligation de prévenir et de réprimer le financement des actes terroristes ainsi que d’ériger en infraction le fait, pour leurs ressortissants ou sur leur territoire, de procurer ou de réunir délibérément, directement ou indirectement, et par quelque moyen que ce soit, des fonds dont on prévoit ou on sait qu’ils seront utilisés pour perpétrer des actes de terrorisme, <span class="italic">réaffirmant</span> que les États Membres ont l’obligation de geler sans attendre les fonds et autres avoirs financiers ou ressources économiques des personnes qui commettent ou tentent de commettre des actes de terrorisme, y participent ou les facilitent, et <span class="italic">réaffirmant également</span> que les États Membres ont l’obligation d’interdire à leurs ressortissants ou à toute personne ou entité se trouvant sur leur territoire de mettre tous fonds, avoirs financiers, ressources économiques, services financiers ou services connexes, directement ou indirectement, à la disposition d’organisations terroristes ou de terroristes individuels à quelque fin que ce soit, y compris, mais sans s’y limiter, le recrutement, l’entraînement ou les déplacements, même en l’absence de lien avec un acte terroriste spécifique, ou à la disposition d’entités détenues ou contrôlées, directement ou indirectement, par ces personnes ou de personnes ou entités agissant en leur nom ou sur leurs instructions,</p>
+      </container>
+      <container name="Sachant" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	Sachant</span> que les innovations en matière de technologies, produits et services financiers peuvent offrir d’importantes perspectives économiques mais également être utilisées à mauvais escient, y compris pour financer le terrorisme,</p>
+      </container>
+      <container name="Reconnaissant" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	Reconnaissant</span> le travail important réalisé par les entités des Nations Unies et d’autres organismes et forums multilatéraux en matière de lutte contre le financement du terrorisme, <span class="italic">réaffirmant</span> le rôle essentiel que joue le Groupe d’action financière (GAFI) dans l’établissement de normes internationales visant à prévenir et combattre le blanchiment de capitaux, le financement du terrorisme et le financement de la prolifération, et de son réseau mondial d’organismes régionaux de type GAFI, et <span class="italic">encourageant</span> la Direction exécutive du Comité contre le terrorisme à approfondir sa coopération avec ces entités,</p>
+      </container>
+      <container name="Rappelant" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> qu’il a décidé que les États devaient faire en sorte que les terroristes ne soient plus approvisionnés en armes, y compris en armes légères et de petit calibre, et qu’il leur a demandé de trouver des moyens de développer et d’accélérer l’échange de données opérationnelles concernant le trafic d’armes et de coordonner davantage l’action menée aux niveaux national, sous-régional, régional et international, et, à cet égard les <span class="italic">priant instamment</span> d’appliquer pleinement les mesures prévues par la résolution <a href="https://undocs.org/fr/S/RES/2370(2017)">2370 (2017)</a>,</p>
+      </container>
+      <container name="Considérant" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	Considérant</span> que les États Membres doivent, en adoptant une approche fondée sur les risques, empêcher les terroristes d’utiliser à des fins illégales les organisations non gouvernementales, les organisations à but non lucratif et les organisations caritatives, et demandant à ces organisations de prévenir et de contrecarrer par des mesures d’atténuation des risques, selon qu’il conviendra, toute exploitation de leur statut par des terroristes, rappelant cependant qu’il importe de respecter pleinement les droits à la liberté d’expression et d’association des membres de la société civile et la liberté de religion ou de conviction, et <span class="italic">prenant à nouveau acte</span> des documents dans lesquels le GAFI formule des recommandations et des orientations, et rappelant que les États doivent, dans le respect du droit international, définir et prendre des mesures efficaces et proportionnées contre les organisations à but non lucratif qui sont exploitées par des terroristes ou des organisations terroristes ou qui les aident en connaissance de cause, compte tenu des particularités de chaque cas,</p>
+      </container>
+      <container name="Condamnant" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">	Condamnant</span> la destruction, accidentelle ou délibérée, du patrimoine culturel par des groupes terroristes, et <span class="italic">soulignant à nouveau</span> que la destruction illégale du patrimoine culturel, le pillage et la contrebande de biens culturels par des groupes terroristes et les tentatives de nier les racines historiques et la diversité culturelle dans ce contexte peuvent alimenter et exacerber les conflits et font obstacle à la réconciliation nationale après les conflits, compromettant ainsi la sécurité, la stabilité, la gouvernance et le développement social, économique et culturel des États touchés,</p>
+      </container>
+      <container name="Prenant acte" eId="container_31">
+        <p xml:space="preserve">
+          <span class="italic">	Prenant acte</span> du travail accompli par le Forum mondial de lutte contre le terrorisme à l’appui de la publication de plusieurs documents-cadres et de bonnes pratiques, y compris dans les domaines de la prévention et de la répression de l’extrémisme violent pouvant conduire au terrorisme, de la sécurité des frontières, des listes de surveillance, de la sécurité maritime, de la protection des cibles vulnérables, de la lutte contre la radicalisation des personnes tentées par la violence ou guidées par des combattants terroristes étrangers, de l’aide aux victimes, de la justice pénale et de l’état de droit, du retour et de la réinstallation des combattants terroristes étrangers et des membres de leur famille qui voyagent avec eux, ainsi qu’au sujet des terroristes locaux, du renforcement des capacités en Afrique, de la répression, de la réhabilitation et de la réinsertion, des enlèvements contre rançon, qui vient compléter les activités menées dans ces domaines par les entités des Nations Unies qui luttent contre le terrorisme, et <span class="italic">engageant</span> la Direction exécutive du Comité contre le terrorisme à continuer de collaborer avec le Forum mondial de lutte contre le terrorisme en vue d’assurer la pleine application des résolutions <a href="https://undocs.org/fr/S/RES/1373(2001)">1373</a><a href="https://undocs.org/fr/S/RES/1373(2001)"> </a><a href="https://undocs.org/fr/S/RES/1373(2001)">(2001)</a>, <a href="https://undocs.org/fr/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/fr/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2396(2017)">2396 (2017)</a> et d’autres résolutions pertinentes relatives à la lutte antiterroriste,</p>
+      </container>
+      <container name="Conscient" eId="container_32">
+        <p xml:space="preserve">
+          <span class="italic">	Conscient</span> de l’importance de la société civile, y compris les organisations locales de la société civile et les organisations de proximité, du secteur privé, des milieux universitaires, des groupes de réflexion, des médias, des jeunes, des femmes, des personnalités du monde de la culture, des responsables de l’éducation et des chefs religieux dans les efforts visant à sensibiliser l’opinion aux menaces du terrorisme et à y faire face plus efficacement,</p>
+      </container>
+      <container name="Soulignant" eId="container_33">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> qu’il faut que les États Membres agissent en coopération pour prévenir et contrer l’utilisation des technologies de l’information et des communications, y compris Internet, à des fins terroristes telles que le recrutement et l’incitation à commettre des actes terroristes, ainsi que le financement, la planification et la préparation des activités terroristes, en partenariat avec le secteur privé, la société civile et les autres parties prenantes, selon qu’il convient, dans le respect des droits humains, des libertés fondamentales et de l’état de droit, et <span class="italic">engageant</span> la Direction exécutive du Comité contre le terrorisme à approfondir ses interactions et sa coopération avec les entités du secteur privé concernées,</p>
+      </container>
+      <container name="Prenant note" eId="container_34">
+        <p xml:space="preserve">
+          <span class="italic">	Prenant note</span> de l’Appel à l’action de Christchurch et de la Déclaration d’Osaka sur la prévention de l’exploitation d’Internet aux fins du terrorisme et de l’extrémisme violent conduisant au terrorisme, faite au nom des dirigeants du Groupe des Vingt,</p>
+      </container>
+      <container name="Soulignant" eId="container_35">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> qu’il importe que les États Membres agissent dans un esprit de coopération pour empêcher les terroristes d’exploiter les technologies de l’information et des communications, et qu’il faut que les États Membres poursuivent la coopération volontaire avec le secteur privé et la société civile en vue d’élaborer et de mettre en œuvre des moyens plus efficaces pour lutter contre l’utilisation d’Internet à des fins terroristes, notamment en opposant des contre-discours au discours terroriste et grâce à des solutions technologiques, tout en agissant dans le respect des droits humains et des libertés fondamentales, sans déroger au droit interne et au droit international, <span class="italic">prenant note</span> du Forum mondial Internet pour la lutte contre le terrorisme, établi sous l’impulsion des grandes entreprises du secteur, et <span class="italic">demandant</span> à ce forum de continuer à renforcer son interaction avec les gouvernements et les entreprises du secteur technologique à l’échelle mondiale, et <span class="italic">conscient</span> des efforts de l’initiative affiliée à l’ONU « Tech Against Terrorism » visant à encourager la collaboration avec les représentants du secteur des technologies, y compris les petites entreprises technologiques, la société civile, les milieux universitaires et les pouvoirs publics pour perturber, tout en respectant les droits humains et les libertés fondamentales, la capacité des terroristes d’utiliser Internet à des fins terroristes,</p>
+      </container>
+      <container name="Priant instamment" eId="container_36">
+          <p xml:space="preserve">
+            <span class="italic">	Priant instamment </span>les États Membres et le système des Nations Unies d’agir, conformément au droit international, pour remédier aux conditions favorisant la propagation du terrorisme et de l’extrémisme violent pouvant conduire au terrorisme, et <span class="italic">soulignant</span> que la lutte contre l’extrémisme violent qui peut conduire au terrorisme, laquelle consiste notamment à prévenir la radicalisation des personnes tentées par la violence ainsi que le recrutement et la mobilisation dans des groupes terroristes, constitue un élément essentiel de la lutte contre la menace pour la paix et la sécurité internationales que représente le terrorisme, et qu’elle doit être menée de manière équilibrée, conformément à la Stratégie antiterroriste mondiale des Nations Unies,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_37">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> qu’une attention accrue doit être accordée aux femmes et aux jeunes dans tous les travaux concernant les menaces que les actes de terrorisme font peser sur la paix et la sécurité internationales, et <span class="italic">notant</span> qu’il importe de faire participer les femmes et les jeunes à l’élaboration des stratégies de prévention et de répression du terrorisme et de l’extrémisme violent pouvant conduire au terrorisme, et <span class="italic">soulignant</span> qu’il faut poursuivre l’action visant à assurer la participation pleine, égale et véritable des femmes et des jeunes à toutes les approches et stratégies de lutte contre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme,</p>
+      </container>
+      <container name="Soulignant" eId="container_38">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> qu’il importe de mobiliser l’ensemble des pouvoirs publics, <span class="italic">reconnaissant</span> le rôle important que peuvent jouer les organisations de la société civile, notamment dans les secteurs de la santé, de l’aide sociale et de l’éducation, pour ce qui est de contribuer à la réadaptation et la réinsertion des combattants terroristes étrangers et des membres de leur famille, sachant qu’elles peuvent avoir la connaissance requise des communautés locales et être mieux à même d’interagir et de dialoguer avec elles, pour faire face aux problèmes que constituent le recrutement et la radicalisation menant à la violence, et <span class="italic">encourageant</span> les États Membres à prendre l’initiative de collaborer avec les organisations de la société civile lorsqu’ils élaborent des stratégies de réadaptation et de réinsertion,</p>
+      </container>
+      <container name="Notant" eId="container_39">
+        <p xml:space="preserve">
+          <span class="italic">	Notant</span> le rôle crucial de la Direction exécutive du Comité contre le terrorisme au sein du système des Nations Unies et ses compétences dans l’évaluation des questions de lutte contre le terrorisme et l’appui à l’élaboration et à la promotion de réponses antiterroristes éclairées, et <span class="italic">exhortant</span> le Bureau de lutte contre le terrorisme et toutes les autres entités compétentes des Nations Unies à tenir compte des recommandations et des analyses de la Direction exécutive du Comité contre le terrorisme dans la mise en œuvre de leurs programmes et de leurs mandats,</p>
+      </container>
+      <container name="Se félicitant" eId="container_40">
+          <p xml:space="preserve">
+            <span class="italic">	Se félicitant</span> de la poursuite de la coopération entre la Direction exécutive du Comité contre le terrorisme, l’OACI, l’ONUDC, tous les autres organismes compétents des Nations Unies et INTERPOL, notamment en matière d’assistance technique et de renforcement des capacités, et <span class="italic">encourageant vivement</span> toutes ces entités à collaborer encore davantage avec le Bureau de lutte contre le terrorisme en vue d’assurer la coordination et la cohérence d’ensemble de l’action antiterroriste menée par le système des Nations Unies,</p>
+      </container>
+      <container name="Prenant note" eId="container_41">
+        <p xml:space="preserve">
+          <span class="italic">	Prenant note</span> du « Guide technique pour la mise en œuvre de la résolution <a href="https://undocs.org/fr/S/RES/1373(2001)">1373 (2001)</a> du Conseil de sécurité et d’autres résolutions pertinentes », mis à jour par la Direction exécutive du Comité contre le terrorisme,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que le principal objectif du Comité contre le terrorisme est d’assurer la mise en œuvre intégrale de la résolution <a href="https://undocs.org/fr/S/RES/1373(2001)">1373 (2001)</a> et <span class="italic">rappelle</span> le rôle essentiel de la Direction exécutive du Comité qui est d’aider ce dernier à s’acquitter de son mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> que la Direction exécutive du Comité contre le terrorisme conservera jusqu’au 31 décembre 2025 son statut de mission politique spéciale agissant sous la direction générale du Comité contre le terrorisme, et <span class="italic">décide</span> de procéder d’ici au 31 décembre 2023 à un examen à mi-parcours ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Note</span> que le Comité contre le terrorisme lui présentera prochainement un rapport sur l’examen général des travaux de sa direction exécutive de 2017 à 2021 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que la fonction principale de la Direction exécutive du Comité contre le terrorisme est de procéder à une évaluation technique neutre de la mise en œuvre des résolutions <a href="https://undocs.org/fr/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/fr/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/fr/S/RES/2178(2014)">2178 (2014)</a> et d’autres résolutions pertinentes, et que l’analyse et les recommandations issues de ces évaluations constituent une aide précieuse permettant aux États Membres d’identifier et de combler les lacunes en matière de mise en œuvre et de capacités, et <span class="italic">demande</span> au Bureau de lutte contre le terrorisme, à tous les fonds et programmes compétents des Nations Unies, aux États Membres, aux donateurs et aux bénéficiaires d’utiliser ces évaluations techniques lorsqu’ils mettent au point les activités d’assistance technique et de renforcement des capacités, y compris dans la mise en œuvre équilibrée de la Stratégie mondiale de lutte contre le terrorisme dans chacun de ses quatre piliers ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de la coopération entre la Direction exécutive du Comité contre le terrorisme, les entités signataires du Pacte mondial des Nations Unies de coordination contre le terrorisme, les autres organismes compétents des Nations Unies et les organisations régionales compétentes, et <span class="italic">prie instamment</span> la Direction exécutive du Comité de continuer de veiller à inviter les représentants de ces entités à participer à ses travaux d’évaluation, afin qu’ils continuent à contribuer à l’élaboration de recommandations prioritaires pour renforcer la capacité des États Membres dans les domaines les plus pressants ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> la Direction exécutive du Comité contre le terrorisme à évaluer, selon qu’il convient, les efforts consentis par les États Membres pour lutter contre toutes les formes de terrorisme et d’extrémisme violent pouvant conduire au terrorisme, y compris celles qui sont fondées sur la xénophobie, le racisme et d’autres formes d’intolérance, ou se réclament d’une religion ou d’une croyance ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">Demande également</span> à la Direction exécutive du Comité contre le terrorisme d’évaluer l’application par les États Membres des dispositions de ses résolutions <a href="https://undocs.org/fr/S/RES/2178(2014)">2178 (2014)</a> et <a href="https://undocs.org/fr/S/RES/2396(2017)">2396 (2017)</a> appelant à un renforcement de l’action relative à la menace évolutive que représentent les combattants terroristes étrangers et à la lutte contre les déplacements de terroristes, notamment par la collecte, l’utilisation et le partage des renseignements préalables concernant les voyageurs, des données des dossiers passagers et des données biométriques, et par l’établissement de listes de surveillance des terroristes connus ou présumés, et de présenter un rapport sur la mise en œuvre de ces dispositions à l’échelle mondiale d’ici décembre 2022, en prenant note à cet égard des bonnes pratiques et des recommandations, y compris les Principes directeurs relatifs aux combattants terroristes étrangers (Principes directeurs de Madrid) et leur additif ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> la Direction exécutive du Comité contre le terrorisme à prendre en considération, selon qu’il convient, les carences et les besoins pertinents des États Membres en matière de politiques et de capacités relatives à la bonne utilisation des éléments de preuve recueillis par les militaires, également appelés « éléments de preuve prélevés sur le champ de bataille », afin de faciliter, selon qu’il convient, la fourniture par les entités signataires du Pacte mondial des Nations Unies de coordination contre le terrorisme, y compris l’ONUDC, d’une formation et d’une assistance aux secteurs de la justice pénale des États Membres et d’aider les États Membres à élaborer et appliquer des stratégies globales pour assurer la collecte, la conservation, le partage et l’utilisation appropriés des « éléments de preuve prélevés sur le champ de bataille », conformément au droit international ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">Engage </span>la Direction exécutive du Comité contre le terrorisme à évaluer, selon qu’il convient, les efforts consentis par le États Membres pour garantir que les infractions terroristes soient criminalisées et poursuivies conformément aux obligations qui leur incombent en vertu du droit international et pour envisager de promouvoir des politiques, pratiques ou directives nationales en matière de peines, afin que la sévérité des sanctions infligées aux auteurs soit proportionnelle à la gravité des infractions commises, conformément à la législation nationale, tout en traitant avec humanité les personnes poursuivies ou condamnées pour infractions terroristes et en respectant leurs droits humains, conformément au droit international, et pour envisager des mesures visant à réduire la récidive, y compris, selon qu’il convient et conformément à leur législation nationale applicable, la réadaptation et la réinsertion des détenus dans la société ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">Considère</span> que les visites de pays, les évaluations complètes et les activités de suivi de la Direction exécutive du Comité contre le terrorisme sont mutuellement bénéfiques pour les États Membres, le Comité contre le terrorisme, le Bureau de lutte contre le terrorisme et autres entités signataires du Pacte mondial des Nations Unies de coordination contre le terrorisme, d’autres organismes des Nations Unies et les organisations partenaires, car elles permettent d’engager un dialogue continu entre les acteurs nationaux et des experts de la lutte contre le terrorisme provenant de l’ensemble du système des Nations Unies et d’organisations partenaires ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> la Direction exécutive du Comité contre le terrorisme d’examiner, dans les six mois suivant l’adoption de la présente résolution et en consultation avec les membres du Comité contre le terrorisme, l’exécution de son mandat s’agissant de l’efficacité, de la rapidité et de l’incidence de ses visites dans les pays, de ses évaluations et de ses recommandations relatives aux politiques et pratiques antiterroristes des États Membres, et de formuler des recommandations à cet égard, y compris sur les moyens d’améliorer la transparence, l’efficience et l’inclusivité, ainsi que les enseignements retenus des effets de la pandémie de maladie à coronavirus (COVID-19), et de les soumettre au Comité contre le terrorisme pour examen ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">Donne pour instruction</span> au Comité contre le terrorisme de déterminer, chaque année, avec le concours de sa direction exécutive, une liste des États Membres dont cette dernière devrait demander le consentement pour qu’une visite y soit effectuée aux fins de la conduite des évaluations, et <span class="italic">souligne</span> que la composition de la liste devrait se fonder sur une approche axée sur les risques qui tienne compte des lacunes existantes, des questions nouvelles, des tendances, des événements et des analyses, tout en tenant compte des demandes ou consentements déjà formulés à cette fin et du fait qu’aucune visite n’a encore été effectuée dans certains États Membres, et <span class="italic">souligne également</span> que le Comité contre le terrorisme pourrait décider, avec l’appui de sa direction exécutive et après l’adoption de la liste, de procéder, au besoin, à des modifications de sa composition, en mettant l’accent sur la transparence de la planification des visites, notamment en communiquant à l’avance le calendrier de ses visites de pays et en établissant des rapports à leur issue ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">Donne pour instruction</span> à la Direction exécutive du Comité contre le terrorisme, au moyen de ses visites, évaluations et travaux d’analyse sur les questions nouvelles, les tendances et les faits nouveaux, d’aider les États Membres et les entités des Nations Unies à prendre des mesures, en conformité avec le droit international, pour éliminer les conditions propices au terrorisme et à l’extrémisme violent pouvant conduire au terrorisme, conformément à la Stratégie antiterroriste mondiale des Nations Unies, avec l’appui du Bureau de lutte contre le terrorisme et en coordination avec lui ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Donne pour instruction</span> à la Direction exécutive du Comité contre le terrorisme de faire rapport au Comité, d’ici au 30 mars 2023, sur les moyens de continuer à renforcer son processus d’évaluation, notamment en envisageant d’effectuer des visites de suivi ciblées pour compléter ses évaluations exhaustives, en adoptant, selon que de besoin et en gardant à l’esprit le caractère mondial de son mandat, une approche fondée sur les risques pour faire face à l’évolution des menaces, en raccourcissant autant que possible les délais d’établissement et d’examen des rapports, en tenant compte des disparités entre les capacités des différents États Membres, en veillant à faire toujours preuve d’équité et de cohérence dans l’application des outils d’évaluation et, à la demande des États Membres, en collaborant avec des experts au sein de la société civile, des milieux universitaires, des groupes de réflexion et du secteur privé, notamment avant, pendant et après les visites dans les États Membres concernés et les évaluations, pour compléter les relations qu’il convient d’établir avec les acteurs des États Membres afin qu’ils puissent appeler l’attention sur les mesures antiterroristes efficaces, de sorte que les évaluations soient plus utiles, plus accessibles et plus ciblées sur des publics particuliers ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de l’étroite coopération entre la Direction exécutive du Comité contre le terrorisme et le Bureau de lutte contre le terrorisme pour l’élaboration et la mise en œuvre d’initiatives à l’échelle des Nations Unies visant à aider les États Membres à appliquer ses résolutions pertinentes, <span class="italic">donne pour instruction</span> à la Direction exécutive de continuer à soutenir ces activités, et <span class="italic">demande instamment</span> au Bureau de lutte contre le terrorisme et à tous les autres organes compétents des Nations Unies de tenir compte des recommandations et analyses du Comité contre le terrorisme dans l’exécution de leurs programmes et mandats ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_162" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_162__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Président du Comité contre le terrorisme d’inviter de hauts responsables des États Membres qui ont fait l’objet d’une évaluation à participer aux réunions du Comité, et le <span class="italic">prie également</span> d’inviter les États Membres concernés à coordonner avec la Direction exécutive du Comité contre le terrorisme et le Bureau de lutte contre le terrorisme leurs activités aux fins de la mise en œuvre des recommandations de la Direction exécutive, et prie la Direction exécutive de faire rapport au Comité, dans un délai de 12 mois après le rapport d’évaluation initial, sur les mesures prises pour appliquer les recommandations issues de l’évaluation, en tenant compte des différences de capacités et de ressources des États et de leurs besoins d’assistance technique pour la mise en œuvre de certaines recommandations, et <span class="italic">donne pour instruction</span> à la Direction exécutive de présenter périodiquement au Comité des recommandations sur les nouvelles activités de suivi nécessaires, y compris, selon qu’il convient, en matière d’assistance technique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_178" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_178__content">
+          <p xml:space="preserve">	<span class="italic">Donne pour instruction</span> à la Direction exécutive du Comité contre le terrorisme de faire rapport au Comité ponctuellement, périodiquement ou à la demande de celui-ci, oralement ou par écrit, sur ses travaux, notamment sur ses missions dans les États Membres, l’état de la coordination avec les entités compétentes des Nations Unies, les contacts avec les acteurs non membres du système des Nations Unies, ses évaluations, sa participation à des réunions internationales et régionales au nom du Comité, et sur ses autres activités, y compris au stade de la planification, et d’effectuer une étude annuelle et des projections concernant les activités visant à promouvoir l’application des résolutions <a href="https://undocs.org/fr/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/fr/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/fr/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://documents-dds-ny.un.org/doc/UNDOC/GEN/N17/460/26/pdf/N1746026.pdf?OpenElement">2396 (2017)</a> et des autres résolutions pertinentes, et, à cet égard, <span class="italic">demande</span> au Comité de continuer, avec l’appui de la Direction exécutive, à tenir des réunions périodiques, notamment axées sur des questions régionales ou thématiques, à l’intention de tous les États Membres, et <span class="italic">souligne</span> l’importance des travaux de la Direction exécutive pour le Comité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Comité contre le terrorisme de lui rendre compte, par l’intermédiaire de sa présidence, au moins une fois par an, de l’ensemble de ses activités et de celles de sa direction exécutive, s’il y a lieu en même temps que la présentation des rapports des présidences du Comité faisant suite aux résolutions <a href="https://undocs.org/fr/S/RES/1267(1999)">1267 (1999)</a> et <a href="https://undocs.org/fr/S/RES/1989(2011)">1989 (2011)</a> et du Comité créé par la résolution <a href="https://undocs.org/fr/S/RES/1540(2004)">1540 (2004)</a>, et compte tenu de ses efforts visant à renforcer la coordination avec d’autres organismes des Nations Unies, d’aider à obtenir le consentement des États Membres pour que des visites y soient effectuées et des rapports de pays établis, d’améliorer la mise en œuvre des recommandations, et d’indiquer de quelle manière ses évaluations et travaux d’analyse ont contribué à l’amélioration de la lutte contre le terrorisme dans les États Membres, et <span class="italic">annonce</span> qu’il compte tenir des consultations au moins une fois par an sur les travaux du Comité contre le terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve">	<span class="italic">Donne pour instruction</span> à la Direction exécutive du Comité contre le terrorisme de mettre les évaluations de pays, les recommandations, les enquêtes et les analyses à la disposition de l’ensemble du système des Nations Unies, en particulier du Bureau de lutte contre le terrorisme et des organismes, fonds et programmes des Nations Unies, afin de mieux adapter l’assistance technique des Nations Unies et les activités de renforcement des capacités aux carences en matière de mise en œuvre et de capacités qui ont été cernées par la Direction exécutive et d’appuyer la mise en œuvre équilibrée de la Stratégie mondiale de lutte contre le terrorisme, sauf si les États Membres concernés demandent expressément que certaines informations soient confidentielles, et <span class="italic">donne également pour instruction</span> à la Direction exécutive de mieux partager le résultat de ses travaux avec les États Membres et les partenaires de la lutte contre le terrorisme, selon qu’il convient et en consultation avec le Comité, les organisations internationales, régionales et sous-régionales, le Forum mondial de lutte contre le terrorisme, les milieux universitaires, les groupes de réflexion, la société civile et le secteur privé, notamment grâce à l’amélioration de l’accès en ligne, à des activités de sensibilisation, à des ateliers, à des réunions publiques d’information et à l’utilisation du Réseau mondial de recherche de la Direction exécutive, en ayant à l’esprit l’importance de sa diversité géographique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_232" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_232__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> le rôle essentiel que joue la Direction exécutive du Comité contre le terrorisme à l’ONU s’agissant de recenser et d’évaluer les problèmes, tendances et faits nouveaux relatifs à l’application des résolutions <a href="https://undocs.org/fr/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/fr/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/fr/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2396(2017)">2396 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2462(2019)">2462 (2019)</a>, <a href="https://undocs.org/fr/S/RES/2482(2019)">2482 (2019)</a> et des autres résolutions pertinentes et, en coopération avec le Bureau de lutte contre le terrorisme, d’appuyer la mise en œuvre équilibrée de la Stratégie antiterroriste mondiale des Nations Unies, et aussi de conseiller le Comité contre le terrorisme sur les moyens concrets pour les États Membres d’appliquer ces résolutions, et réaffirme également l’importance de la collaboration avec les partenaires compétents dans ce domaine, notamment dans le cadre du Réseau mondial de recherche dans le domaine de la lutte antiterroriste ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_252" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_252__content">
+          <p xml:space="preserve">	<span class="italic">Reconnaît</span> les relations que la Direction exécutive du Comité contre le terrorisme entretient avec des experts et praticiens compétents dans les États Membres, les organisations internationales, régionales et sous-régionales, les milieux universitaires, les groupes de réflexion, la société civile et le secteur privé, et <span class="italic">prend note</span> de leur valeur dans les exposés, les ateliers, le Réseau mondial de recherche dans le domaine de la lutte antiterroriste et les séances publiques à l’appui de l’action menée par le Comité pour faire progresser l’application des résolutions <a href="https://undocs.org/fr/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/fr/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/fr/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2396(2017)">2396 (2017)</a> et des autres résolutions pertinentes relatives à la lutte contre le terrorisme et promouvoir l’analyse des nouvelles menaces et tendances et des faits nouveaux ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_273" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_273__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États Membres à envisager de mettre au point des stratégies nationales complètes et intégrées de lutte contre le terrorisme ainsi que des mécanismes efficaces pour les appliquer, qui tiennent compte de l’attention qu’il convient de porter aux conditions conduisant au terrorisme, conformément à leurs obligations au titre du droit international, et <span class="italic">encourage également</span> la Direction exécutive du Comité contre le terrorisme à coopérer avec les États Membres et les organisations internationales, régionales et sous-régionales compétentes ainsi que les autres partenaires concernés, à leur demande, afin d’évaluer la formulation de stratégies nationales et régionales globales et intégrées de lutte contre le terrorisme et leurs mécanismes de mise en œuvre et de fournir des conseils à cet égard, en étroite coopération avec le Bureau de lutte contre le terrorisme et d’autres organismes compétents des Nations Unies, en vue de garantir la cohérence et la complémentarité des efforts et d’éviter les doubles emplois dans le cadre des actions visant à poursuivre l’application des résolutions <a href="https://undocs.org/fr/S/RES/1373(2001)">1373 (2001)</a> et des autres résolutions pertinentes, et à appuyer la mise en œuvre équilibrée de la Stratégie antiterroriste mondiale des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_295" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_295__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de l’adoption par le Comité contre le terrorisme, conformément à la résolution <a href="https://undocs.org/fr/S/RES/2395(2017)">2395 (2017)</a>, des études récentes sur la mise en œuvre au niveau mondial des résolutions <a href="https://undocs.org/fr/S/RES/1373(2001)">1373 (2001)</a> et <a href="https://undocs.org/fr/S/RES/1624(2005)">1624 (2005)</a>, <span class="italic">prend note</span> des carences recensées dans l’application des résolutions susmentionnées, <span class="italic">se félicite</span> de l’adoption par le Comité de l’enquête électronique détaillée sur la mise en œuvre et du bilan général révisé de la mise en œuvre, et <span class="italic">demande</span> à la Direction exécutive du Comité contre le terrorisme de mettre les analyses quantitatives et qualitatives offertes par ces outils à la disposition des États Membres, des donateurs, des bénéficiaires, du Bureau de lutte contre le terrorisme et d’autres organismes des Nations Unies aux fins de la conception d’une assistance technique et de l’appui au renforcement des capacités ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_318" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_318__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que les responsables de la Direction exécutive du Comité contre le terrorisme et du Bureau de lutte contre le terrorisme devraient se réunir régulièrement pour discuter de questions d’intérêt mutuel et de la prise en compte des recommandations et des analyses de la Direction exécutive dans les travaux du Bureau, en particulier au titre des prestations d’assistance technique et du renforcement des capacités, et <span class="italic">demande</span> au Bureau et à la Direction exécutive de rédiger conjointement, avant le 30 mars 2022, un rapport énonçant les mesures concrètes à prendre par les deux organes pour assurer la prise en compte des recommandations et des analyses de la Direction exécutive dans les travaux du Bureau, rapport qui sera présenté au Comité contre le terrorisme, ainsi qu’à l’Assemblée générale dans le cadre de l’examen de la Stratégie antiterroriste mondiale des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_342" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_342__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> le Président du Comité contre le terrorisme à inviter le Bureau de lutte contre le terrorisme au plus haut niveau à faire des exposés au Comité tous les six mois sur ses travaux, notamment sur les progrès accomplis dans la prise en compte des recommandations et analyses de la Direction exécutive dans l’exécution de ses programmes et mandats, et <span class="italic">encourage également</span> le Président du Comité contre le terrorisme, avec l’aide de la Direction exécutive, à organiser des réunions de suivi avec le Bureau sur la coordination avec la Direction exécutive, ainsi qu’à l’inviter à participer régulièrement à des réunions sur des questions pertinentes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_367" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_367__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> la Direction exécutive à appuyer les travaux du Bureau de lutte contre le terrorisme en conseillant ses responsables et en l’aidant à formuler des informations en matière de lutte contre le terrorisme qui seront partagées avec le Secrétaire général et d’autres hauts fonctionnaires de l’Organisation des Nations Unies, et en épaulant les responsables du Bureau selon que de besoin et en s’associant à eux pour préparer et organiser des ateliers et conférences et y participer ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_393" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> aux États Membres que les mesures efficaces visant à prévenir et combattre le terrorisme et l’extrémisme violent pouvant conduire au terrorisme et le respect des droits humains se complètent et se renforcent mutuellement, et qu’ils sont indispensables à la réussite de l’action menée, <span class="italic">note</span> qu’il importe de respecter l’état de droit pour lutter efficacement contre le terrorisme, <span class="italic">se félicite</span> du rôle joué, à cet égard, par les acteurs concernés de la société civile, des milieux universitaires, des groupes de réflexion et du secteur privé, en particulier ceux qui se concentrent sur les femmes, la jeunesse et l’action locale, et <span class="italic">encourage</span> la Direction exécutive du Comité contre le terrorisme à renforcer ses activités visant à s’assurer que toutes les questions de droits humains et d’état de droit qui concernent l’application des résolutions <a href="https://undocs.org/fr/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/fr/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/fr/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2396(2017)">2396 (2017)</a> et des autres résolutions pertinentes sont considérées comme faisant partie intégrante de ses visites de pays, de ses évaluations, de son analyse des problèmes, tendances et faits nouveaux et de la facilitation de son assistance technique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_420" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_420__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> que les États Membres doivent s’abstenir d’apporter quelque forme d’appui que ce soit, actif ou passif, aux entités ou personnes impliquées dans des actes de terrorisme, notamment en réprimant le recrutement de membres de groupes terroristes et en empêchant l’approvisionnement en armes des terroristes, et engage la Direction exécutive du Comité contre le terrorisme à continuer de tenir pleinement compte de cette obligation dans toutes ses activités, et souligne qu’il importe que les résolutions pertinentes soient pleinement et efficacement appliquées et qu’il faut remédier comme il se doit aux problèmes soulevés lorsqu’elles ne le sont pas ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_448__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> la Direction exécutive du Comité contre le terrorisme, agissant en étroite coopération avec le Bureau de lutte contre le terrorisme, à continuer de mettre l’accent sur la résolution <a href="https://undocs.org/fr/S/RES/1624(2005)">1624 (2005)</a> dans le dialogue qu’elle mène avec les États Membres, et à les aider à élaborer, conformément aux obligations qui leur incombent en vertu du droit international, des stratégies visant notamment à lutter contre l’incitation aux actes de terrorisme motivés par l’extrémisme violent et l’intolérance, et à faciliter la fourniture d’une assistance technique pour l’application de la résolution, comme le prévoient la résolution <a href="https://undocs.org/fr/S/RES/1624(2005)">1624 (2005)</a> et la Stratégie antiterroriste mondiale des Nations Unies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_477" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_477__content">
+          <p xml:space="preserve">	<span class="italic">Exprime </span>sa profonde solidarité avec les victimes du terrorisme et leur famille, et <span class="italic">engage</span> la Direction exécutive du Comité contre le terrorisme, en étroite coopération avec le Bureau de lutte contre le terrorisme, à prendre en considération le rôle important que peuvent jouer les victimes et leurs réseaux, notamment grâce à la crédibilité de leur discours, dans la lutte contre le terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_507" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_507__content">
+          <p xml:space="preserve">	<span class="italic">Reconnaît</span> les compétences dont dispose le GAFI pour lutter contre le financement du terrorisme, et en particulier pour recenser à des fins de collaboration les États Membres présentant des lacunes en matière de stratégie de lutte contre le blanchiment d’argent et le financement du terrorisme, <span class="italic">se félicite</span> de son rapport de 2021 sur le financement de l’EIIL, d’ Al-Qaida et de leurs affiliés, ainsi que de ses travaux en cours sur le financement du terrorisme, l’<span class="italic">appelle</span> à continuer de chercher les moyens d’améliorer la mise en œuvre au niveau mondial des mesures de lutte contre le financement du terrorisme, <span class="italic">engage vivement</span> tous les États Membres à appliquer les normes internationales détaillées que constituent les quarante recommandations révisées du GAFI sur la lutte contre le blanchiment de capitaux et sur le financement du terrorisme et de la prolifération, et <span class="italic">engage</span> la Direction exécutive du Comité contre le terrorisme à coopérer étroitement avec le GAFI pour faire progresser la mise en œuvre effective des recommandations sur le financement du terrorisme, en particulier la recommandation 6 (sanctions financières ciblées liées au terrorisme et au financement du terrorisme et renforcement de l’utilisation par les États Membres de cet outil clé de lutte contre le financement du terrorisme) ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_538" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_538__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> la Direction exécutive du Comité contre le terrorisme à sensibiliser les parties prenantes à l’importance de la coopération des États Membres aux fins des enquêtes, des poursuites, de la saisie, de la confiscation, ainsi que du retour, de la restitution ou du rapatriement des biens culturels qui font l’objet d’un trafic, qui ont été exportés ou importés illicitement, qui ont été volés ou pillés, qui proviennent de fouilles illicites ou qui font l’objet d’un commerce illicite, par les voies appropriées et conformément aux cadres juridiques pertinents, à la Convention des Nations Unies contre la criminalité transnationale organisée et aux Protocoles s’y rapportant, ainsi qu’aux accords bilatéraux, sous-régionaux et régionaux pertinents ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_570" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_570__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare préoccupé</span> par l’utilisation de systèmes de drone aérien par des terroristes, et <span class="italic">engage</span> la Direction exécutive du Comité contre le terrorisme à sensibiliser les parties prenantes aux menaces que présente l’utilisation par des terroristes de systèmes de drone aérien pour perpétrer des attaques ou trafiquer de la drogue ou des armes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_603" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_603__content">
+          <p xml:space="preserve">	<span class="italic">Reconnaît </span>les travaux que mène la Direction exécutive du Comité contre le terrorisme pour lutter contre l’utilisation d’Internet, d’autres technologies de l’information et des communications et de nouvelles technologies à des fins terroristes, tout en respectant les droits humains et les libertés fondamentales, et en tenant compte du respect par les États Membres des obligations applicables en vertu du droit international, et en prenant note de la nécessité de préserver au niveau mondial l’accès aux réseaux et la circulation de l’information en toute liberté et sécurité pour faciliter le développement économique, la communication, la participation et l’accès à l’information, et souligne l’importance que revêt la coopération avec la société civile et le secteur privé à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_637" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_637__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de la collaboration entre la Direction exécutive du Comité contre le terrorisme et l’Équipe d’appui analytique et de surveillance des sanctions du Comité 1267, et <span class="italic">réaffirme</span> la nécessité de resserrer la coopération actuelle entre le Comité contre le terrorisme et sa direction exécutive et les organes du Conseil de sécurité de l’ONU chargés lutter contre le terrorisme, notamment le Comité faisant suite aux résolutions <a href="https://undocs.org/fr/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/fr/S/RES/1989(2011)">1989 (2011)</a> et <a href="https://documents-dds-ny.un.org/doc/UNDOC/GEN/N15/445/03/pdf/N1544503.pdf?OpenElement">2255 (2015)</a> et le Comité créé par la résolution <a href="https://undocs.org/fr/S/RES/1540(2004)">1540 (2004)</a>, ainsi qu’avec leurs groupes d’experts respectifs, notamment : en renforçant l’échange d’informations, en coordonnant les visites dans les pays, en coordonnant la facilitation et le suivi de l’assistance technique, et en adoptant d’autres mesures de coopération pour aider les États Membres dans leurs efforts visant à s’acquitter des obligations qui leur incombent en vertu des résolutions pertinentes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_672" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_672__content">
+          <p xml:space="preserve">	<span class="italic">Renouvelle</span> l’appel lancé à la Direction exécutive du Comité contre le terrorisme pour qu’elle tienne compte de la dimension du genre en tant que question transversale, dans toutes ses activités, y compris dans les évaluations de pays et rapports y afférents, les recommandations faites aux États Membres, la facilitation de l’assistance technique fournie à ces derniers et les exposés au Conseil, lui <span class="italic">demande</span> de tenir des consultations avec les femmes et leurs organisations aux fins de ses travaux, et l’<span class="italic">engage</span>, en collaboration avec l’Entité des Nations Unies pour l’égalité des sexes et l’autonomisation des femmes (ONU-Femmes) et d’autres entités signataires du Pacte mondial des Nations Unies de coordination contre le terrorisme, à mener des travaux de recherche et de collecte de données tenant compte des questions de genre en vue de déterminer les causes de radicalisation pouvant conduire au terrorisme chez les femmes, et les incidences des stratégies de lutte contre le terrorisme sur les femmes et les filles, sur les droits humains des femmes et sur les organisations de femmes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_708" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_708__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> la Direction exécutive du Comité contre le terrorisme à tenir compte dans ses travaux, selon qu’il convient, de l’impact du terrorisme sur les enfants et les droits de l’enfant, en particulier de la question des familles de combattants terroristes étrangers retournant chez elles ou se réinstallant ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_745" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_745__content">
+          <p xml:space="preserve">	<span class="italic">Encourage </span>la poursuite d’une coopération plus étroite entre l’OACI et la Direction exécutive du Comité contre le terrorisme, notamment en œuvrant de concert pour déceler les lacunes et les vulnérabilités relatives à la lutte contre le terrorisme et à la sûreté aérienne, promouvoir les activités et les outils de chaque organisme, coordonner étroitement les évaluations de la Direction exécutive et la formulation des recommandations, <span class="italic">note</span> que les annexes 9 et 17 à la Convention relative à l’aviation civile internationale contiennent des normes et pratiques recommandées concernant la détection et la prévention des menaces terroristes associées à l’aviation civile, y compris le contrôle de fret, et <span class="italic">se félicite</span> du fait que l’OACI ait défini des normes et recommandé des pratiques en matière de collecte, d’analyse et d’utilisation des renseignements préalables concernant les voyageurs et des données de dossiers passagers par ses États membres, et <span class="italic">réaffirme</span> que les États Membres sont tenus de renforcer leur capacité de recueillir, traiter et analyser les données des dossiers passagers, conformément aux normes et pratiques recommandées par l’OACI, et de veiller à ce qu’elles soient utilisées et partagées par toutes les autorités nationales compétentes, dans le plein respect des droits humains et des libertés fondamentales, dans le but de prévenir et de détecter des infractions terroristes et des voyages y associés et de mener les enquêtes nécessaires à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_783" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_783__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> la Direction exécutive du Comité contre le terrorisme à collaborer avec les partenaires compétents, dont l’ONUDC et le Bureau de lutte contre le terrorisme, et en consultation avec le Comité contre le terrorisme, à éviter le chevauchement de l’action et appuyer les efforts visant à renforcer la répression et la coopération judiciaire, entre autres, en recensant les domaines où il convient de fournir une assistance technique aux États Membres, à leur demande, y compris par la formation de procureurs, de juges et d’autres fonctionnaires compétents chargés de la coopération internationale, en particulier en fournissant une analyse des lacunes et en formulant des recommandations fondées sur les évaluations de pays menées par la Direction exécutive, notamment sur la désignation des autorités centrales ou autres autorités compétentes de justice pénale participant aux activités d’entraide judiciaire et d’extradition, et à veiller à ce que ces autorités disposent de ressources, de formation et de pouvoir juridique suffisants, en particulier pour les infractions liées au terrorisme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_822" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_822__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> la Direction exécutive du Comité contre le terrorisme à aider les États Membres à élaborer ou à continuer d’améliorer leurs stratégies visant à réduire les risques d’attentats terroristes contre des infrastructures essentielles et des cibles vulnérables, notamment en les évaluant et en effectuant un travail de sensibilisation à cet égard, en mettant en place des mesures de préparation, y compris en définissant des mesures d’intervention et de résilience efficaces face à ces attaques, et en favorisant une meilleure interopérabilité à tous les niveaux des pouvoirs publics et dans le secteur industriel privé et la société civile, selon qu’il convient, conformément à sa résolution <a href="https://undocs.org/fr/S/RES/2341(2017)">2341 (2017)</a>, et en coopération avec le Bureau de lutte contre le terrorisme afin de permettre et favoriser une meilleure application des bonnes pratiques, <span class="italic">rappelle</span> l’adoption par le Forum mondial de lutte contre le terrorisme du « Mémorandum d’Antalya sur la protection des cibles vulnérables dans un contexte de lutte contre le terrorisme » et <span class="italic">engage</span> la Direction exécutive à en tenir compte, y compris dans la facilitation de l’assistance technique aux États Membres ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_862" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_862__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de rester saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
