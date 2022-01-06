@@ -1,0 +1,549 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/"></FRBRuri>
+          <FRBRdate date="2021-12-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/eng@/"></FRBRuri>
+          <FRBRdate date="2021-12-30" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/eng@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="7" href="http://metadata.un.org/sdg/7" showAs="sdg_7" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_energy" href="http://metadata.un.org/thesaurus/1006320" showAs="sustainable_energy" dictionary="UNBIS"></keyword>
+        <keyword value="66_energy" href="http://eurovoc.europa.eu/100159" showAs="66_energy" dictionary="EuroVoc"></keyword>
+        <keyword value="energy_market" href="http://eurovoc.europa.eu/4886" showAs="energy_market" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism" showAs="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" showAs="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office of Counter-Terrorism" showAs="UN. Office of Counter-Terrorism" dictionary="DHLAUTH"></keyword>
+        <keyword value="COUNTER-TERRORISM" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[31]" showAs="TERRORISM" dictionary="S/76"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2617 (2021) [on extension of the mandate of the Counter-Terrorism Committee Executive Directorate (CTED) as special political mission under the policy guidance of the Counter-Terrorism Committee (CTC) until 31 Dec. 2025]" showAs="Security Council resolution 2617 (2021) [on extension of the mandate of the Counter-Terrorism Committee Executive Directorate (CTED) as special political mission under the policy guidance of the Counter-Terrorism Committee (CTC) until 31 Dec. 2025]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-12-30" outcome="draftResolution" as="S/2021/1105" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-12-30" outcome="adopted" as="S/2021/1107" by="Adopted unanimously; voting by mail" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="VOTING BY MAIL">
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19887 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2617 (2021)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-12-30" class="rightSmall" refersTo="#dateOfIssuance">30 December 2021</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2617 (2021)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council on <inline name="adoptionMeeting"></inline><docDate date="2021-12-30" refersTo="#adoptionDate">30 December 2021</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span>, in particular, resolution <a href="https://undocs.org/en/S/RES/1535(2004)">1535 (2004)</a>, resolution <a href="https://undocs.org/en/S/RES/1787(2007)">1787 (2007)</a>, resolution <a href="https://undocs.org/en/S/RES/1805(2008)">1805 (2008)</a>, resolution <a href="https://undocs.org/en/S/RES/1963(2010)">1963 (2010)</a>, resolution <a href="https://undocs.org/en/S/RES/2129(2013)">2129 (2013)</a>, and resolution <a href="https://undocs.org/en/S/RES/2395(2017)">2395 (2017)</a>, which pertain to the Counterterrorism Committee Executive Directorate (CTED), and <span class="italic">reaffirming</span> the crucial role of its Counterterrorism Committee (CTC) and CTED in ensuring the full implementation of resolution <a href="https://undocs.org/en/S/RES/1373(2001)">1373 (2001)</a>, and reaffirming its resolutions <a href="https://undocs.org/en/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/en/S/RES/1325(2000)">1325 (2000)</a>, <a href="https://undocs.org/en/S/RES/1368(2001)">1368 (2001)</a>, <a href="https://undocs.org/en/S/RES/1566(2004)">1566 (2004)</a>, <a href="https://undocs.org/en/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/en/S/RES/1894(2009)">1894 (2009)</a>, <a href="https://undocs.org/en/S/RES/2106(2013)">2106 (2013)</a>, <a href="https://undocs.org/en/S/RES/2122(2013)">2122 (2013)</a>, <a href="https://undocs.org/en/S/RES/2133(2014)">2133 (2014)</a>, <a href="https://undocs.org/en/S/RES/2150(2014)">2150 (2014)</a>, <a href="https://undocs.org/en/S/RES/2170(2014)">2170 (2014)</a>, <a href="https://undocs.org/en/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/en/S/RES/2185(2014)">2185 (2014)</a>, <a href="https://undocs.org/en/S/RES/2195(2015)">2195 (2015)</a>, <a href="https://undocs.org/en/S/RES/2199(2015)">2199 (2015)</a>, <a href="https://undocs.org/en/S/RES/2220(2015)">2220 (2015)</a>, <a href="https://undocs.org/en/S/RES/2242(2015)">2242 (2015)</a>, <a href="https://undocs.org/en/S/RES/2249(2015)">2249 (2015)</a>, <a href="https://undocs.org/en/S/RES/2253(2015)">2253 (2015)</a>, <a href="https://undocs.org/en/S/RES/2309(2016)">2309 (2016)</a>, <a href="https://undocs.org/en/S/RES/2322(2016)">2322 (2016)</a>, <a href="https://undocs.org/en/S/RES/2331(2016)">2331 (2016)</a>, <a href="https://undocs.org/en/S/RES/2341(2017)">2341 (2017)</a>, <a href="https://undocs.org/en/S/RES/2347(2017)">2347 (2017)</a>, <a href="https://undocs.org/en/S/RES/2354(2017)">2354 (2017)</a>, <a href="https://undocs.org/en/S/RES/2368(2017)">2368 (2017)</a>, <a href="https://undocs.org/en/S/RES/2370(2017)">2370 (2017)</a>, <a href="https://undocs.org/en/S/RES/2379(2017)">2379 (2017)</a>, <a href="https://undocs.org/en/S/RES/2388(2017)">2388 (2017)</a>, <a href="https://undocs.org/en/S/RES/2396(2017)">2396 (2017)</a>, <a href="https://undocs.org/en/S/RES/2462(2019)">2462 (2019)</a>, <a href="https://undocs.org/en/S/RES/2482(2019)">2482 (2019)</a> and its relevant presidential statements, </p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that terrorism in all forms and manifestations constitutes one of the most serious threats to international peace and security and that any acts of terrorism are criminal and unjustifiable regardless of their motivations, whenever and by whomsoever committed, and remaining determined to contribute further to enhancing the effectiveness of the overall effort to fight this scourge on a global level, </p>
+      </container>
+      <container name="Recognizing" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that terrorism poses a threat to international peace and security and that countering this threat requires collective efforts on national, regional and international levels on the basis of respect for international law and the Charter of the United Nations, </p>
+      </container>
+      <container name="Recognizing" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that terrorism will not be defeated by military force, law enforcement measures, and intelligence operations alone, and <span class="italic">underlining</span> the need to address the conditions conducive to the spread of terrorism, as outlined in Pillars I and IV of the United Nations Global Counterterrorism Strategy (<a href="https://undocs.org/en/A/RES/60/288">A/RES/60/288</a>) including, but not limited to, the need to strengthen efforts for the successful prevention and peaceful resolution of prolonged conflict, and the need to promote the rule of law, the protection of human rights and fundamental freedoms, good governance, tolerance, and inclusiveness to offer a viable alternative to those who could be susceptible to terrorist recruitment and to radicalization leading to violence, </p>
+      </container>
+      <container name="Recognizing" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> a comprehensive approach to defeating terrorism requires national, regional, subregional and multilateral action, and <span class="italic">reaffirming</span> the importance of addressing through a holistic approach the underlying conditions conducive to the spread of terrorism and violent extremism conducive to terrorism,</p>
+      </container>
+      <container name="Reaffirming" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that the promotion and protection of human rights for all and the rule of law are essential components of counterterrorism, and recognizing that effective counterterrorism measures and the protection of human rights are not conflicting goals, but complementary and mutually reinforcing, and stressing the need to promote and protect the rights of victims of terrorism, </p>
+      </container>
+      <container name="Reaffirming" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that Member States must ensure that any measures taken to combat terrorism comply with all their obligations under international law, in particular international human rights law, international refugee law, and international humanitarian law, and <span class="italic">underscoring</span> that effective counterterrorism measures and respect for human rights, fundamental freedoms, and the rule of law are complementary and mutually reinforcing, and are an essential part of a successful counterterrorism effort, and noting the importance of respect for the rule of law so as to effectively prevent and combat terrorism, </p>
+      </container>
+      <container name="Condemning" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> in the strongest terms terrorism in all its forms and manifestations, and all terrorist acts, including those on the basis of xenophobia, racism and other forms of intolerance, or in the name of religion or belief, <span class="italic">reaffirming</span> that terrorism should not be associated with any religion, nationality, civilization, or group, </p>
+      </container>
+      <container name="Stressing" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> that Member States have the primary responsibility in countering terrorist acts and violent extremism conducive to terrorism, </p>
+      </container>
+      <container name="Reaffirming" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its commitment to sovereignty, territorial integrity and political independence of all States in accordance with the Charter of the United Nations, </p>
+      </container>
+      <container name="Reaffirming" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its call upon all States to become party to the international counterterrorism conventions and protocols as soon as possible, and to fully implement their obligations under those to which they are a party, </p>
+      </container>
+      <container name="Underscoring" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Underscoring</span> the central role of the United Nations in the global fight against terrorism and <span class="italic">welcoming</span> the seventh review of the United Nations Global Counterterrorism Strategy (GCTS) (document <a href="https://undocs.org/en/A/RES/75/291">A/RES/75/291</a>) of 2 July 2021, which affirmed the importance of integrated and balanced implementation of all four pillars of the GCTS, and <span class="italic">expressing support</span> for the activities of the United Nations Office of Counterterrorism (UNOCT), in accordance with General Assembly resolution <a href="https://undocs.org/en/A/RES/71/291">71/291</a> of 15 June 2017, and its central role in promoting the balanced implementation of the GCTS, </p>
+      </container>
+      <container name="Underscoring" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Underscoring</span> the importance of strong coordination and cooperation between CTED and UNOCT, as they work within their mandates and in their distinct roles to ensure effective United Nations engagement with Member States to improve the implementation of the GCTS in a balanced manner as well as other counterterrorism resolutions, and to ensure effective United Nations engagement with other relevant international, regional, and sub-regional organizations, and key partners such as the Global Counterterrorism Forum (GCTF) and others whose efforts are critical to preventing and countering terrorism, including relevant civil society, academia, think tanks, and the private sector, and <span class="italic">noting</span> the importance of engaging, as appropriate, with women-, youth-, and locally-focused entities, </p>
+      </container>
+      <container name="Expressing" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> grave concern that foreign terrorist fighters (FTFs) who have joined entities such as ISIL, also known as Da’esh, Al Qaida, the Al-Nusrah Front, and other cells, affiliates, splinter groups or derivatives of ISIL or Al-Qaida, may be seeking to return to their countries of origin or nationality, or to relocate to third countries, <span class="italic">recalling</span> that all States shall in accordance with their relevant international obligations, including international human rights law, take specific actions to address the threat posed by FTFs, <span class="italic">underscoring</span> the urgent need to implement fully and immediately resolutions <a href="https://undocs.org/en/S/RES/2178(2014)">2178 (2014)</a> and <a href="https://undocs.org/en/S/RES/2396(2017)">2396 (2017)</a>, including their provisions on developing comprehensive and tailored prosecution, rehabilitation and reintegration strategies, and stressing the importance of assisting women and children associated with FTFs, who may be victims of terrorism, </p>
+      </container>
+      <container name="Welcoming" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> developments and initiatives at the international, regional, and subregional levels to prevent and suppress international terrorism, including the CTC’s 2015 Madrid Guiding Principles and its 2018 Addendum including special safeguards and legal protections to protect children, </p>
+      </container>
+      <container name="Reiterating" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> further the obligation of Member States to prevent the movement of terrorists or terrorist groups by, inter alia, effective border controls, and, in this context, urging Member States to exchange information expeditiously, improve cooperation among competent authorities to prevent the movement of terrorists and terrorist groups to and from their territories, the supply of weapons for terrorists and financing that would support terrorists and terrorist groups, and <span class="italic">underlining</span> that safe havens provided to terrorists continue to be a significant concern and that all Member States must cooperate fully in the fight against terrorism in order to find, deny safe haven to, and bring to justice, extradite or prosecute, in accordance with applicable international law, any person who supports, facilitates, participates or attempts to participate in the financing, planning, preparation or commission of terrorist acts or provides safe havens, </p>
+      </container>
+      <container name="Recognizing" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the need to improve the collection, handling, preservation and sharing of information and materials collected or received by the military, also referred to as battlefield evidence, consistent with international law, to ensure that FTFs who have committed crimes may be investigated and, where appropriate, prosecuted, <span class="italic">emphasizing</span> that the collection and preservation of evidence, as provided for in respective domestic legal frameworks, are essential to the prosecution, adjudication and sentencing of terrorist crimes, <span class="italic">further emphasizing</span> the value of “battlefield evidence” as an essential tool for prosecutions and for determining the appropriate punishment for terrorist crimes, when properly obtained and used, as part of the effort to hold terrorists accountable for their crimes, <span class="italic">further emphasizing</span> the need to educate and train relevant practitioners on the procedures applicable to collection, preservation, and use of “battlefield evidence,” <span class="italic">noting</span> the importance of clear legal authorities, regulations and practices for the collection, sharing, and use of this type of evidence in national courts, in full respect of fair trial guarantees of the accused, and in line with international human rights law, as applicable, and <span class="italic">further noting</span> the CTED Guidelines to facilitate the use and admissibility as evidence in national criminal courts of information collected, handled, preserved and shared by the military to prosecute terrorist offences, </p>
+      </container>
+      <container name="Noting" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Noting</span> with concern the increasing global misuse of unmanned aerial systems (UAS) by terrorists to conduct attacks against, and incursions into, restricted commercial and government infrastructure and public places, <span class="italic">acknowledging</span> the need to balance fostering innovation and preventing misuse of UAS as its applications expand, <span class="italic">noting</span> international efforts that contribute to raising awareness of and preparedness for terrorist use of UAS as the technology becomes more accessible and broadly used across public and private sectors including the CTED-UNOCT-INTERPOL publication <span class="italic">The protection of critical infrastructures against terrorist attacks: Compendium of good practices</span>, the Global Counterterrorism Forum (GCTF) and its <span class="italic">Berlin Memorandum on Good Practices for Countering Terrorist Use of UAS</span>,</p>
+      </container>
+      <container name="Stressing" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> that the development and maintenance of fair and effective criminal justice systems, with full respect for and commitment to human rights and fundamental freedoms within a rule of law framework, must be central to any successful strategy to prevent and counter terrorism, <span class="italic">noting</span> the importance of Member State perspectives, and, <span class="italic">noting</span> the important role, leadership in capacity building, upon the request of Member States, and expertise of the United Nations Office on Drugs and Crime (UNODC), the United Nations Interregional Crime and Justice Research Institute (UNICRI), in coordination with other relevant United Nations agencies and relevant stakeholders, and <span class="italic">encouraging</span> CTED to cooperate closely with these entities, </p>
+      </container>
+      <container name="Expressing" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> concern that terrorist groups are actively seeking ways to defeat or circumvent aviation security, and <span class="italic">affirming</span> the role of the International Civil Aviation Organization (ICAO) as the United Nations organization responsible for developing international aviation security standards, monitoring their implementation by States and its role in assisting states in complying with these standards, and <span class="italic">welcoming</span> the approval by ICAO of the Global Aviation Security Plan as the global framework for progressive aviation security enhancement, and <span class="italic">encouraging</span> CTED to cooperate closely with ICAO, </p>
+      </container>
+      <container name="Recognizing" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the challenges faced by Member States in the management of suspected and convicted terrorists in custody, encouraging Member States to collaborate and share best practices regarding well-managed custodial environments where human rights are respected and efforts to rehabilitate and reintegrate convicted terrorists are made, and noting the work in this regard of UNODC, UNICRI, and other relevant stakeholders, </p>
+      </container>
+      <container name="Expressing" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> concern regarding the connection, in some cases, between terrorism and transnational organized crime, including illicit trafficking in drugs, arms, and persons, as well as money-laundering, and the trafficking in cultural property, and emphasizing the need to enhance coordination of efforts at the local, national, subregional, regional, and international levels to respond to this serious challenge, in accordance with international law, and in the context of criminal justice and law enforcement systems with full respect for human rights, fundamental freedoms, and the rule of law, </p>
+      </container>
+      <container name="Stressing" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the need to effectively counter the ways that ISIL, Al-Qaida, and associated individuals, groups, undertakings and entities use their narratives to incite and recruit others to commit terrorist acts, and further recalling in this regard resolution <a href="https://undocs.org/en/S/RES/2354(2017)">2354 (2017)</a> and the “Comprehensive International Framework to Counter Terrorist Narratives” (<a href="https://undocs.org/en/S/2017/375">S/2017/375</a>) with recommended guidelines and good practices, </p>
+      </container>
+      <container name="Reiterating" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> the obligation of Member States to prevent and suppress the financing of terrorist acts, and criminalize the willful provision or collection, by any means, directly or indirectly, of funds by their nationals or in their territories with the intention that the funds should be used, or in the knowledge that they are to be used, in order to carry out terrorist acts, and <span class="italic">reaffirming</span> also the obligation of Member States to freeze without delay funds and other financial assets or economic resources of persons or entities who commit, or attempt to commit terrorist acts or participate in or facilitate the commission of terrorist acts, and <span class="italic">reaffirming</span> further the obligation of Member States to prohibit their nationals or any persons and entities within their territories from making any funds, financial assets or economic resources or financial or other related services available, directly or indirectly, for the benefit of terrorist organizations or individual terrorists for any purpose, including but not limited to recruitment, training, or travel, even in the absence of a link to a specific terrorist act, of entities owned or controlled, directly or indirectly, by such persons and of persons and entities acting on behalf of or at the direction of such persons, </p>
+      </container>
+      <container name="Recognizing" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that innovations in financial technologies, products and services may offer significant economic opportunities but also present a risk of being misused, including for terrorist financing, </p>
+      </container>
+      <container name="Acknowledging" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> the important work on countering the financing of terrorism of United Nations entities and other multilateral bodies and forums, <span class="italic">reiterating</span> the essential role of the Financial Action Task Force (FATF) in setting global standards for preventing and combatting money laundering, terrorist financing, and proliferation financing and its Global Network of FATF-style regional bodies, and <span class="italic">encouraging</span> CTED to deepen its cooperation with these entities, </p>
+      </container>
+      <container name="Recalling" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its decision that States shall eliminate the supply of weapons, including small arms and light weapons, to terrorists, as well as its calls for States to find ways of intensifying and accelerating the exchange of operational information regarding traffic in arms, and to enhance coordination of efforts on national, subregional, regional and international levels, and, in this regard, <span class="italic">urging</span> States to fully implement measures contained in resolution <a href="https://undocs.org/en/S/RES/2370(2017)">2370 (2017)</a>, </p>
+      </container>
+      <container name="Recognizing" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the need for Member States to prevent, using a risk-based approach, the abuse of non-governmental, non-profit and charitable organizations by and for terrorists, and calling upon non-governmental, non-profit, and charitable organizations to prevent and oppose, as appropriate, attempts by terrorists to abuse their status through risk mitigation measures, while recalling the importance of fully respecting the rights to freedom of expression and association of individuals in civil society and freedom of religion or belief, and <span class="italic">once again noting</span> the relevant recommendation and guidance documents of the FATF, and reiterating that States should identify and take, consistent with international law, effective and proportionate actions against non-profit organizations that either are exploited by, or knowingly support, terrorists or terrorist organizations, taking into account the specifics of the case, </p>
+      </container>
+      <container name="Condemning" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> the destruction of cultural heritage by terrorist groups, whether such destruction is incidental or deliberate, and <span class="italic">reemphasizing</span> that the unlawful destruction of cultural heritage, and the looting and smuggling of cultural property by terrorist groups, and the attempt to deny historical roots and cultural diversity in this context can fuel and exacerbate conflict and hamper post-conflict national reconciliation, thereby undermining the security, stability, governance, social, economic and cultural development of affected States, </p>
+      </container>
+      <container name="Noting" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the work of the GCTF, in support of the balanced implementation of the GCTS, in particular its publication of several framework documents and good practices, including in the areas of preventing and countering violent extremism as conducive to terrorism, border security, watchlisting, maritime security, protection of soft targets, individuals radicalized to violence or directed by foreign terrorists fighters (FTFs), victims, criminal justice and the rule of law, returning and relocating FTFs and their associated family members who traveled with them, homegrown terrorists, capacity building in Africa, prosecution, rehabilitation and reintegration, and kidnapping for ransom, complementing the work of relevant United Nations counterterrorism entities in these areas, and <span class="italic">encouraging</span> CTED to continue its interaction with the GCTF to promote the full implementation of resolutions <a href="https://undocs.org/en/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/en/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/en/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/en/S/RES/2396(2017)">2396 (2017)</a> and other relevant counterterrorism resolutions, </p>
+      </container>
+      <container name="Recognizing" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the importance of civil society, including community-based civil society, grassroots organizations, the private sector, academia, think tanks, media, youth, women, and cultural, educational, and religious leaders in increasing awareness about the threats of terrorism and more effectively tackling them, </p>
+      </container>
+      <container name="Emphasizing" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the need for Member States to act cooperatively to prevent and counter the use of information and communication technologies, including the Internet, for terrorist purposes such as recruitment and incitement to commit terrorist acts, as well as the financing, planning and preparation of their activities, in partnership with the private sector, civil society, and other stakeholders, as appropriate, while respecting human rights, fundamental freedoms and the rule of law, and <span class="italic">encouraging</span> CTED to deepen its engagement and cooperation with the relevant private sector entities, </p>
+      </container>
+      <container name="Noting" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the Christchurch Call to Action and the Group of 20 Osaka Leaders’ Statement on Preventing Exploitation of the Internet for Terrorism and Violent Extremism Conducive to Terrorism, </p>
+      </container>
+      <container name="Stressing" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the need for Member States to act cooperatively to prevent terrorists from exploiting information and communication technologies, as well as the need for Member States to continue voluntary cooperation with the private sector and civil society to develop and implement more effective means to counter the use of the Internet for terrorist purposes, including by developing counterterrorist narratives and through technological solutions, all while respecting human rights and fundamental freedoms and in compliance with domestic and international law, <span class="italic">taking note</span> of the industry led Global Internet Forum to Counter Terrorism (GIFCT) and calling for the GIFCT to continue to increase engagement with governments and technology companies globally, and <span class="italic">recognizing</span> the efforts of the UN-affiliated Tech Against Terrorism initiative to foster collaboration with representatives from the technology industry, including smaller technology companies, civil society, academia, and government to disrupt terrorists’ ability to use the internet in furtherance of terrorist purposes, while also respecting human rights and fundamental freedoms, </p>
+      </container>
+      <container name="Urging" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Urging</span> Member States and the United Nations system to take measures, pursuant to international law, to address the conditions conducive to the spread of terrorism and violent extremism as and when conducive to terrorism, and further <span class="italic">emphasizing</span> that countering violent extremism as and when conducive to terrorism, including preventing radicalization to violence, recruitment, and mobilization of individuals into terrorist groups, is an essential element of addressing the threat to international peace and security posed by terrorism, in a balanced manner as set out in the GCTS, </p>
+      </container>
+      <container name="Reaffirming" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the need to increase attention to women and youth in all work on threats to international peace and security caused by terrorist acts, and noting the importance of incorporating the participation of women and youth in developing strategies to prevent and counter terrorism and violent extremism which can be conducive to terrorism, and <span class="italic">emphasizing</span> the need to continue efforts to ensure the full, equal and meaningful participation of women and youth across all counterterrorism and violent extremism conducive to terrorism approaches and strategies, </p>
+      </container>
+      <container name="Underscoring" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Underscoring</span> the importance of a whole-of-government approach and <span class="italic">recognizes</span> the important role civil society organizations can play, including in the health, social welfare and education sectors in contributing to the rehabilitation and reintegration of FTFs and their associated family members, as civil society organizations may have the relevant knowledge of, access to, and engagement with local communities to be able to confront the challenges of recruitment and radicalization to violence, and <span class="italic">encouraging</span> Member States to engage with civil society organizations proactively when developing rehabilitation and reintegration strategies, </p>
+      </container>
+      <container name="Noting" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the crucial role of CTED within the United Nations and its expertise in assessing counterterrorism issues and in supporting the development and promotion of well-informed counterterrorism responses, and <span class="italic">urging</span> UNOCT and all other relevant UN bodies to take into account CTED recommendations and analysis in the implementation of their programs and mandates, </p>
+      </container>
+      <container name="Welcoming" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> continuing cooperation on counterterrorism efforts between CTED, ICAO, UNODC, all other relevant UN bodies, and INTERPOL, in particular on technical assistance and capacity building, and <span class="italic">strongly encouraging</span> their further engagement with UNOCT to ensure overall coordination and coherence in the counterterrorism efforts of the United Nations system, </p>
+      </container>
+      <container name="Taking note" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the “Technical Guide to the Implementation of Security Council resolution <a href="https://undocs.org/en/S/RES/1373(2001)">1373 (2001)</a> and Other Relevant Resolutions” updated by CTED, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> that the overarching objective of the CTC is to ensure full implementation of resolution 1373 and <span class="italic">recalls</span> CTED’s central role in supporting the CTC in the fulfilment of its mandate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that CTED will continue to operate as a special political mission under the policy guidance of the CTC for the period ending 31 December 2025 and <span class="italic">further decides</span> to conduct by 31 December 2023 an interim review; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the forthcoming “Report of the Counterterrorism Committee to the Security Council for its Comprehensive Consideration of the Work of the Counterterrorism Committee Executive Directorate for 2017–2021”; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Underscores</span> that neutral, expert assessment of the implementation of resolutions <a href="https://undocs.org/en/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/en/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/en/S/RES/2178(2014)">2178 (2014)</a>, and other relevant resolutions, is the core function of CTED, and that the analysis and recommendations from these assessments are an invaluable aid to Member States in identifying and addressing gaps in implementation and capacity, and <span class="italic">calls on</span> UNOCT, all other relevant United Nations funds and programs, Member States, donors, and recipients to use these expert assessments as they design technical assistance and capacity building efforts, including in furthering the balanced implementation of the GCTS across all four of its pillars; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> CTED’s cooperation with the UN Global Counterterrorism Compact Entities, other relevant UN bodies, and relevant regional organizations, and <span class="italic">urges</span> CTED to continue to ensure that it invites representatives from these bodies to participate in its assessment work, so that they continue to contribute to the development of prioritized recommendations to build Member States’ capacity in the most pressing areas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> CTED to assess, as appropriate, Member States’ efforts to tackle all forms of terrorism and violent extremism conducive to terrorism, including those on the basis of xenophobia, racism and other forms of intolerance, or in the name of religion or belief;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">Calls</span> on CTED to assess Member States’ implementation of the provisions in Security Council resolutions <a href="https://undocs.org/en/S/RES/2178(2014)">2178 (2014)</a> and <a href="https://undocs.org/en/S/RES/2396(2017)">2396 (2017)</a> calling for strengthened efforts to address the evolving threat of FTFs and counter terrorist travel, including through the collection, use, and sharing of Advance Passenger Information, Passenger Name Record data, and biometrics, and the watchlisting of known or suspected terrorists, and to provide a report on global implementation of those provisions by December 2022, taking note in this regard of good practices and recommendations, including the Madrid Guiding Principles on FTFs and the addendum thereto; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> CTED to consider, as appropriate, relevant Member States’ policy and capacity gaps and needs in effectively using evidence collected by the military, also referred to as “battlefield evidence,” to facilitate as appropriate the provision by the UN Global Counterterrorism Coordination Compact Entities, including UNODC, of training and assistance to Member States’ criminal justice sectors and to help Member States develop and implement comprehensive strategies to provide for the proper collection, preservation, sharing, and use of “battlefield evidence,” consistent with international law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> CTED to assess as appropriate Member States’ efforts to ensure the criminalization and prosecution of terrorism offences in accordance with their obligations under international law and to consider promoting national sentencing policies, practices or guidelines for the treatment of offenders in which the severity of penalties for offenders is proportionate to the gravity of offences in accordance with national legislation, while treating those who are being prosecuted for or have been convicted of terrorism offences humanely and respecting their human rights, in accordance with international law, and to consider measures to reduce recidivism, including, where applicable and pursuant to their applicable domestic laws, the rehabilitation and reintegration of prisoners into society; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that CTED’s country visits, comprehensive assessments, and related follow-up activity is mutually beneficial for Member States, the CTC, UNOCT, and other UN Global Counterterrorism Coordination Compact entities, other United Nations entities, and relevant partner organizations as they initiate an ongoing dialogue between national actors and counterterrorism experts from across the United Nations system and from relevant partner organizations; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> CTED, within six months of the adoption of this resolution and in consultation with the CTC, to review and make recommendations on the implementation of CTED’s mandate, with reference to the effectiveness, timeliness and impact of its country visits, assessments and recommendations on the counterterrorism policies and practices of Member States, including options to enhance transparency, efficiency, and inclusivity, lessons learned from the impact of the COVID-19 pandemic, and to submit them to the CTC for its consideration;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> the CTC, with the support of CTED, to determine on an annual basis a list of Member States that CTED should request consent to visit for the purpose of conducting assessments, and <span class="italic">underscores</span> that the composition of the list should take a risk-based approach that acknowledges existing gaps, emerging issues, trends, events, and analysis, while also taking into account prior requests by Member States and consent previously expressed, as well as the fact that a number of Member States have never been visited, and <span class="italic">underscores further</span> that the CTC, with the support of CTED, may decide, after the adoption of the list, on changes to its composition, as necessary, emphasizing transparency in planning for visits, including by making available its country visit schedule in advance of such visits, and producing ensuing reports; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> CTED, through its visits, assessments, and analytical work on emerging issues, trends, and developments to support Member States and United Nations entities in taking measures, pursuant to international law, to address conditions conducive to terrorism and violent extremism as and when conducive to terrorism, in accordance with the United Nations Global Counterterrorism Strategy, in coordination with and support of UNOCT; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> CTED to report to the CTC by 30 March 2023 on ways to continue strengthening its assessment process, including through considering targeted and focused follow-up visits as complements to CTED’s comprehensive assessments, using, as appropriate and bearing in mind CTED’s global mandate, a risk-based approach in response to evolving threats, shortening, in so far as possible, timelines for drafting and review of reports, bearing in mind differences in Member State capacity, enhancing fair and consistent application of assessment tools, and at the behest of Member States, engaging with experts in civil society, academia, think tanks, and the private sector, including in advance of, during and after visits to and assessments of Member States, as a complement to primary engagement with Member State actors to allow them to highlight productive counterterrorism efforts, so that assessments are more useful, accessible, and targeted to specific audiences; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the close cooperation between CTED and UNOCT in the development and implementation of whole-of-UN initiatives aimed at supporting Member States’ efforts to implement relevant Security Council resolutions, <span class="italic">directs</span> CTED to continue supporting these activities, and <span class="italic">urges</span> UNOCT and all other relevant UN bodies to take into account the CTC’s recommendations and analysis in the implementation of their programs and mandates; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_162" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_162__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the CTC Chair to invite senior officials from assessed Member States to attend relevant CTC meetings, and <span class="italic">requests further</span> the Chair to invite assessed Member States to coordinate with CTED and UNOCT on implementation of CTED recommendations, and for CTED to report within 12 months after the initial assessment report to the CTC on steps taken to implement the recommendations of the assessment, bearing in mind differences in capacity and availability of resources, as well as the need for technical assistance in the implementation of some recommendations, and <span class="italic">directs</span> CTED to make recommendations to the CTC about the need for additional follow-up activities, as appropriate, to further implementation of assessment recommendations, including, as appropriate, additional technical assistance; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_178" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_178__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> CTED to report to the CTC in a timely manner, on a regular basis or when the CTC so requests, through oral and/or written briefings on the work of CTED, including its visits to Member States, status of coordination with relevant United Nations bodies, engagement with relevant non-United Nations actors, conduct of assessments, representation of the CTC at different international and regional meetings, and other activities, including during planning stages, and to conduct an annual review and forecast of activities to facilitate implementation of resolutions <a href="https://undocs.org/en/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/en/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/en/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/en/S/RES/2396(2017)">2396 (2017)</a>, and other relevant resolutions, and, in this context, <span class="italic">requests</span> the CTC, with the support of CTED, to continue to hold periodic meetings, including with a regional or thematic focus, for all Member States, and <span class="italic">underscores</span> the importance of CTED’s work to the CTC; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the CTC to report, through its Chair, at least once per year to the Council on the state of the overall work of the CTC and CTED, and, as appropriate, in conjunction with the reports by the Chairs of the Committee established pursuant to resolutions <a href="https://undocs.org/en/S/RES/1267(1999)">1267 (1999)</a> and <a href="https://undocs.org/en/S/RES/1989(2011)">1989 (2011)</a> and the Committee established pursuant to resolution <a href="https://undocs.org/en/S/RES/1540(2004)">1540 (2004)</a>, and taking into account its efforts to strengthen coordination with other United Nations bodies, facilitate provision of consent from Member States for country visits and reports, improve implementation of recommendations, how its assessments and analytical work has contributed towards improvements in Member States’ counterterrorism efforts, and <span class="italic">expresses</span> its intention to hold informal consultations at least once per year on the work of the CTC; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> CTED to make country assessments, recommendations, surveys, and analytical products available throughout the United Nations system, especially to UNOCT and United Nations counterterrorism-relevant agencies, funds, and programs, in order to better align United Nations technical assistance and capacity building with gaps in implementation and capacity identified by CTED, as well as in support of balanced implementation of the GCTS, except when requested by the assessed Member States to keep selected information confidential, and further <span class="italic">directs</span> CTED to enhance sharing of its findings with Member States and relevant counterterrorism partners, as appropriate and in consultation with the CTC, in international, regional, and subregional organizations, the GCTF, academia, think tanks, civil society, and the private sector, including through improved web access, outreach, workshops, open briefings, and utilization of the CTED Global Research Network (GRN), noting the importance of its geographic diversity; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_232" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_232__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> the essential role of CTED within the United Nations to identify and assess issues, trends, and developments relating to the implementation of resolutions <a href="https://undocs.org/en/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/en/S/RES/1624(2005)">1624 (2005)</a>, and <a href="https://undocs.org/en/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/en/S/RES/2396(2017)">2396 (2017)</a>, <a href="https://undocs.org/en/S/RES/2462(2019)">2462 (2019)</a> and <a href="https://undocs.org/en/S/RES/2482(2019)">2482 (2019)</a>, and other relevant resolutions, and in cooperation with UNOCT, to support balanced implementation of the GCTS, and also to advise the CTC on practical ways for Member States to implement these resolutions, and reiterates also the importance of work with relevant partners in this area, including through the GRN; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_252" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_252__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> CTED’s relationships with relevant experts and practitioners in Member States, relevant international, regional, and subregional organizations, academia, think tanks, civil society, and the private sector, and <span class="italic">takes note of</span> the value of these experts and practitioners in briefings, workshops, the GRN, and open meetings to support the efforts of the CTC to advance implementation of resolutions <a href="https://undocs.org/en/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/en/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/en/S/RES/2178(2014)">2178 (2014)</a>, and <a href="https://undocs.org/en/S/RES/2396(2017)">2396 (2017)</a>, and other relevant counterterrorism resolutions and to promote analysis of emerging threats, trends, and developments; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_273" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_273__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to consider developing comprehensive and integrated national counterterrorism strategies and effective mechanisms to implement them that include attention to the conditions conducive to terrorism, in accordance with their obligations under international law, and <span class="italic">encourages further</span> CTED to cooperate with Member States and international, regional, and subregional organizations, and other relevant partners, upon request, to assess and advise on formulating comprehensive and integrated national and regional counterterrorism strategies and the mechanisms to implement them, in close cooperation with UNOCT and other relevant UN agencies, with a view to ensuring coherence and complementarity of efforts and to avoid any duplication in the effort to further implementation of resolutions <a href="https://undocs.org/en/S/RES/1373(2001)">1373 (2001)</a> and other relevant resolutions, and to support balanced implementation of the GCTS; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_295" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_295__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the adoption by the CTC, in accordance with resolution <a href="https://undocs.org/en/S/RES/2395(2017)">2395 (2017)</a>, of the updated Global Implementation Surveys (GIS) of resolutions <a href="https://undocs.org/en/S/RES/1373(2001)">1373 (2001)</a> and <a href="https://undocs.org/en/S/RES/1624(2005)">1624 (2005)</a>, <span class="italic">takes note</span> of the identified shortfalls with regard to the implementation of the aforementioned resolutions, <span class="italic">welcomes also</span> the adoption of the Electronic Detailed Implementation Survey and the revised Overview of Implementation Assessment by the CTC, and <span class="italic">calls on</span> CTED to make the quantitative and qualitative analysis offered by these tools available to Member States, donors, recipients, UNOCT, and other United Nations agencies for the purpose of designing technical assistance and capacity-building support; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_318" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_318__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> that the heads of CTED and UNOCT should meet regularly to discuss areas of mutual interest and the incorporation of CTED recommendations and analysis into UNOCT’s work, particularly in implementation of technical assistance and capacity building, and <span class="italic">directs</span> UNOCT and CTED to draft jointly a report by 30 March 2022 setting out practical steps to be taken by both bodies to ensure the incorporation of CTED recommendations and analysis into UNOCT’s work, to be considered by the CTC, as well as the General Assembly in the context of the GCTS review; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_342" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_342__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Chair of the CTC to invite UNOCT at the most senior level to brief the CTC on a twice annual basis on UNOCT’s work, especially progress in incorporating CTED recommendations and analysis into the implementation of its programs and mandates, and <span class="italic">further encourages</span> the CTC Chair, with the assistance of CTED, to conduct follow-up meetings with UNOCT on coordination with CTED, as well as to invite UNOCT to participate regularly in meetings on relevant issues; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_367" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_367__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> CTED to also support the work of UNOCT, by advising its leadership and assisting in development of counterterrorism information shared with the Secretary-General and other senior leaders of the United Nations, as well as by supporting and joining UNOCT leadership, as appropriate, in preparation for, participation in, and hosting of workshops and conferences; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_393" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve">	<span class="italic">Reminds</span> Member States that effective measures to prevent and counter terrorism and violent extremism as and when conducive to terrorism and respect for human rights are complementary and mutually reinforcing, and essential to success, <span class="italic">notes</span> the importance of respect for the rule of law in effectively combating terrorism, <span class="italic">welcomes</span> the role, in this regard, of relevant civil society, academia, think tanks, and the private sector, especially women-, youth-, and locally-focused actors, and <span class="italic">encourages</span> CTED to further develop its activities to ensure that all human rights and rule of law issues relevant to the implementation of resolutions <a href="https://undocs.org/en/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/en/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/en/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/en/S/RES/2396(2017)">2396 (2017)</a>, and other relevant resolutions are addressed as an important component of CTED’s country visits, assessments, analysis of emerging issues, trends, and developments, and facilitation of technical assistance; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_420" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_420__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> the obligation of Member States to refrain from providing any form of support, active or passive, to entities or persons involved in terrorist acts, including by suppressing recruitment of members of terrorist groups and eliminating the supply of weapons to terrorists, and encourages CTED to continue to fully take this obligation into account throughout its activities, and stresses the importance of full and effective implementation of the relevant resolutions and appropriately addressing the issues related to the lack thereof; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_448__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> CTED, in close cooperation with UNOCT, to continue to pay close attention to resolution <a href="https://undocs.org/en/S/RES/1624(2005)">1624 (2005)</a> in its dialogue with Member States, and to work with them to develop, in accordance with their obligations under international law, strategies which include countering incitement of terrorist acts motivated by violent extremism and intolerance and to facilitate technical assistance for its implementation, as called for in resolution <a href="https://undocs.org/en/S/RES/1624(2005)">1624 (2005)</a> and the United Nations GCTS; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_477" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_477__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its profound solidarity with the victims of terrorism and their families, and <span class="italic">encourages</span> CTED, in close cooperation with UNOCT, to consider the important roles victims and their networks can play, including through the credibility of their voices, in countering terrorism; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_507" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_507__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> FATF expertise in countering terrorist financing, in particular identifying and working with Member States with strategic anti-money laundering and countering terrorist financing deficiencies, and <span class="italic">welcomes</span> the FATF report on ISIL, Al-Qaida and Affiliates Financing (2021), and ongoing FATF work related to terrorist financing, and <span class="italic">calls upon</span> the FATF to undertake further work on identifying how to improve global implementation of counter-terrorist financing measures, and <span class="italic">strongly urges</span> all Member States to implement the comprehensive international standards embodied in the FATF revised Forty Recommendations on Combating Money Laundering and the Financing of Terrorism and Proliferation, and <span class="italic">encourages</span> CTED to pursue close cooperation with the FATF to advance effective implementation of counter terrorist financing recommendations, including in particular on Recommendation 6: targeted financial sanctions related to terrorism and terrorist financing, and enhancing use by Member States of this key counter-terrorist financing tool;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_538" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_538__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> CTED to raise awareness of the importance of Member State cooperation with investigations, prosecutions, seizure and confiscation as well as the return, restitution and repatriation of trafficked, illicitly exported or imported, stolen, looted, illicitly excavated or illicitly traded cultural property, through appropriate channels and in accordance with relevant legal frameworks as well as with the United Nations Convention against Transnational Organized Crime and the Protocols thereto and relevant regional, subregional and bilateral agreements; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_570" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_570__content">
+          <p xml:space="preserve">	<span class="italic">Expresses concern with</span> the use of UAS by terrorists, and <span class="italic">encourages</span> CTED to raise awareness of the threats by posed by terrorist use of UAS, to launch attacks, or to traffic drugs and arms, and the need for Member States to address these threats; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_603" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_603__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> CTED’s work on countering use of the internet, other information and communications technology (ICTs), and other emerging technologies for terrorist purposes, while respecting human rights and fundamental freedoms, and taking into account Member State compliance with applicable obligations under international law, and taking note of the need to preserve global connectivity and the free and secure flow of information facilitating economic development, communication, participation and access to information, and stresses the importance of cooperation with civil society and the private sector in this endeavor; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_637" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_637__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the collaboration between CTED and the 1267 Committee Analytical Support and Sanctions Monitoring Team, and <span class="italic">reiterates</span> the need to enhance ongoing cooperation among the CTC and CTED and United Nations Security Council counter-terrorism bodies, including the Committee established pursuant to resolutions <a href="https://undocs.org/en/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/en/S/RES/1989(2011)">1989 (2011)</a> and <a href="https://undocs.org/en/S/RES/2255(2015)">2255 (2015)</a> and the Committee established pursuant to resolution <a href="https://undocs.org/en/S/RES/1540(2004)">1540 (2004)</a>, as well as their respective groups of experts, including through: enhanced information-sharing, coordination on visits to countries, coordination on facilitating and monitoring technical assistance, and other cooperative measure to assist Member States in their efforts to comply with their obligations under the relevant resolutions; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_672" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_672__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> the call for CTED to integrate gender as a cross-cutting issue throughout its activities, including within country-specific assessments and reports, recommendations made to Member States, facilitating technical assistance to Member States, and briefings to the Council, <span class="italic">requests</span> CTED to hold consultations with women and women’s organizations to inform its work, and <span class="italic">urges</span> CTED in collaboration with UN Women and other relevant UN Global Counterterrorism Compact Entities to conduct and gather gender-sensitive research and data collection on the drivers of radicalization to terrorism for women, and the impacts of counterterrorism strategies on women and girls, and on women’s human rights and women’s organizations; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_708" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_708__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> CTED to integrate into its work the impact of terrorism on children and children’s rights, as appropriate, especially in regard to issues related to the families of returning and relocating FTFs; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_745" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_745__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> continued, closer cooperation between ICAO and CTED, in particular by working together on identifying gaps and vulnerabilities relevant to counterterrorism and aviation security, promoting the work and tools of each agency, and coordinating closely on CTED assessments and the development of recommendations, <span class="italic">notes</span> that Annex 9 and Annex 17 of the Convention on International Civil Aviation contain standards and recommended practices relevant to the detection and prevention of terrorist threats involving civil aviation, including cargo screening, <span class="italic">welcomes</span> ICAO’s establishment of Standards and Recommended Practices on the collection, analysis, and use of Advance Passenger Information (API) and Passenger Name Record (PNR) data by its Member States, and <span class="italic">reaffirms</span> the obligation of Member States to develop the capability to collect, process and analyze, in furtherance of ICAO standards and recommended practices, PNR data and to ensure PNR data is used by and shared with all their competent national competent authorities, with full respect for human rights and fundamental freedoms, for the purpose of preventing, detecting, and investigating terrorist offenses and related travel; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_783" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_783__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> CTED to work with relevant partners, including UNODC and UNOCT, and in consultation with the CTC, to avoid duplication of effort and to support efforts to enhance international law enforcement and judicial cooperation, including by, inter alia, identifying areas where it is appropriate to deliver technical assistance to Member States, upon their request, including through the training of prosecutors, judges, and other relevant officials involved in international cooperation, particularly by providing analysis on capacity gaps and recommendations based on CTED’s assessments and analysis, including on the designation of Central Authorities or other relevant criminal justice authorities involved with mutual legal assistance and extradition activities, and to ensure that such authorities have adequate resources, training and legal authority, in particular for terrorism related offences; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_822" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_822__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> CTED to support Member States in developing or further improving their strategies for reducing risks to critical infrastructure and soft targets from terrorist attacks, to include, inter alia, assessing and raising awareness of the relevant risks, taking preparedness measures, including effective responses and resilience to such attacks, and promoting better interoperability, across all levels of government as well as with private industry and civil society, as appropriate, in line with UNSC resolution <a href="https://undocs.org/en/S/RES/2341(2017)">2341 (2017)</a>, and in cooperation with UNOCT to create and promote the use of good practices, <span class="italic">recalls</span> the adoption by the GCTF of the “The Antalya Memorandum on the Protection of Soft Targets in a Counterterrorism Context,” and <span class="italic">encourages</span> CTED to take it into account, including in facilitation of facilitating technical assistance to Member States; and </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_862" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_862__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
