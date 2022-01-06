@@ -1,0 +1,582 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/"></FRBRuri>
+          <FRBRdate date="2021-12-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/spa@/"></FRBRuri>
+          <FRBRdate date="2021-12-30" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/spa@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="7" href="http://metadata.un.org/sdg/7" showAs="sdg_7" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_energy" href="http://metadata.un.org/thesaurus/1006320" showAs="sustainable_energy" dictionary="UNBIS"></keyword>
+        <keyword value="66_energy" href="http://eurovoc.europa.eu/100159" showAs="66_energy" dictionary="EuroVoc"></keyword>
+        <keyword value="energy_market" href="http://eurovoc.europa.eu/4886" showAs="energy_market" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism" showAs="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" showAs="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office of Counter-Terrorism" showAs="UN. Office of Counter-Terrorism" dictionary="DHLAUTH"></keyword>
+        <keyword value="COUNTER-TERRORISM" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[31]" showAs="TERRORISM" dictionary="S/76"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2617 (2021) [on extension of the mandate of the Counter-Terrorism Committee Executive Directorate (CTED) as special political mission under the policy guidance of the Counter-Terrorism Committee (CTC) until 31 Dec. 2025]" showAs="Security Council resolution 2617 (2021) [on extension of the mandate of the Counter-Terrorism Committee Executive Directorate (CTED) as special political mission under the policy guidance of the Counter-Terrorism Committee (CTC) until 31 Dec. 2025]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-12-30" outcome="draftResolution" as="S/2021/1105" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-12-30" outcome="adopted" as="S/2021/1107" by="Adopted unanimously; voting by mail" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="VOTING BY MAIL">
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19887 (S)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Naciones Unidas</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2617 (2021)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Consejo de Seguridad</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-12-30" class="rightSmall" refersTo="#dateOfIssuance">30 de diciembre de 2021</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolución 2617 (2021)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Aprobada por el Consejo de Seguridad el <inline name="adoptionMeeting"></inline><docDate date="2021-12-30" refersTo="#adoptionDate">30 de diciembre de 2021</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">El Consejo de Seguridad</span>,</p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando</span>, en particular, las resoluciones <a href="https://undocs.org/es/S/RES/1535(2004)">1535 (2004)</a>, <a href="https://undocs.org/es/S/RES/1787(2007)">1787 (2007)</a>, <a href="https://undocs.org/es/S/RES/1805(2008)">1805 (2008)</a>, <a href="https://undocs.org/es/S/RES/1963(2010)">1963 (2010)</a>, <a href="https://undocs.org/es/S/RES/2129(2013)">2129 (2013)</a> y <a href="https://undocs.org/es/S/RES/2395(2017)">2395 (2017)</a>, que se refieren a la Dirección Ejecutiva del Comité contra el Terrorismo (DECT), y <span class="italic">reafirmando</span> el papel crucial que desempeñan su Comité contra el Terrorismo (CCT) y la DECT para garantizar la plena aplicación de la resolución <a href="https://undocs.org/es/S/RES/1373(2001)">1373 (2001)</a>, y reafirmando sus resoluciones <a href="https://undocs.org/es/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/es/S/RES/1325(2000)">1325 (2000)</a>, <a href="https://undocs.org/es/S/RES/1368(2001)">1368 (2001)</a>, <a href="https://undocs.org/es/S/RES/1566(2004)">1566 (2004)</a>, <a href="https://undocs.org/es/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/es/S/RES/1894(2009)">1894 (2009)</a>, <a href="https://undocs.org/es/S/RES/2106(2013)">2106 (2013)</a>, <a href="https://undocs.org/es/S/RES/2122(2013)">2122 (2013)</a>, <a href="https://undocs.org/es/S/RES/2133(2014)">2133 (2014)</a>, <a href="https://undocs.org/es/S/RES/2150(2014)">2150 (2014)</a>, <a href="https://undocs.org/es/S/RES/2170(2014)">2170 (2014)</a>, <a href="https://undocs.org/es/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/es/S/RES/2185(2014)">2185 (2014)</a>, <a href="https://undocs.org/es/S/RES/2195(2015)">2195 (2015)</a>, <a href="https://undocs.org/es/S/RES/2199(2015)">2199 (2015)</a>, <a href="https://undocs.org/es/S/RES/2220(2015)">2220 (2015)</a>, <a href="https://undocs.org/es/S/RES/2242(2015)">2242 (2015)</a>, <a href="https://undocs.org/es/S/RES/2249(2015)">2249 (2015)</a>, <a href="https://undocs.org/es/S/RES/2253(2015)">2253 (2015)</a>, <a href="https://undocs.org/es/S/RES/2309(2016)">2309 (2016)</a>, <a href="https://undocs.org/es/S/RES/2322(2016)">2322 (2016)</a>, <a href="https://undocs.org/es/S/RES/2331(2016)">2331 (2016)</a>, <a href="https://undocs.org/es/S/RES/2341(2017)">2341 (2017)</a>, <a href="https://undocs.org/es/S/RES/2347(2017)">2347 (2017)</a>, <a href="https://undocs.org/es/S/RES/2354(2017)">2354 (2017)</a>, <a href="https://undocs.org/es/S/RES/2368(2017)">2368 (2017)</a>, <a href="https://undocs.org/es/S/RES/2370(2017)">2370 (2017)</a>, <a href="https://undocs.org/es/S/RES/2379(2017)">2379 (2017)</a>, <a href="https://undocs.org/es/S/RES/2388(2017)">2388 (2017)</a>, <a href="https://undocs.org/es/S/RES/2396(2017)">2396 (2017)</a>, <a href="https://undocs.org/es/S/RES/2462(2019)">2462 (2019)</a> y <a href="https://undocs.org/es/S/RES/2482(2019)">2482 (2019)</a> y las declaraciones pertinentes de su Presidencia,</p>
+      </container>
+      <container name="Reafirmando" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> que el terrorismo en todas sus formas y manifestaciones constituye una de las amenazas más graves para la paz y la seguridad internacionales y que los actos de terrorismo son criminales e injustificables, cualquiera que sea su motivación y dondequiera y por quienquiera que sean cometidos, y manteniendo su determinación de seguir contribuyendo a aumentar la eficacia de todos los esfuerzos por luchar contra este flagelo a nivel mundial,</p>
+      </container>
+      <container name="Reconociendo" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que el terrorismo constituye una amenaza a la paz y la seguridad internacionales y que para contrarrestar esta amenaza hay que realizar esfuerzos colectivos a nivel nacional, regional e internacional sobre la base del respeto del derecho internacional y la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Reconociendo" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que el terrorismo no será derrotado únicamente mediante la fuerza militar, las medidas de aplicación de la ley y las operaciones de inteligencia, y <span class="italic">subrayando </span>la necesidad de abordar las condiciones que favorecen la propagación del terrorismo, como se indica en los pilares I y IV de la Estrategia Global de las Naciones Unidas contra el Terrorismo (<a href="https://undocs.org/es/A/RES/60/288">A/RES/60/288</a>), incluida, entre otras, la necesidad de fortalecer los esfuerzos dirigidos a la prevención satisfactoria y la solución pacífica de los conflictos prolongados, y la necesidad de promover el estado de derecho, la protección de los derechos humanos y las libertades fundamentales, la buena gobernanza, la tolerancia y la inclusión con objeto de ofrecer una alternativa viable a las personas susceptibles de ser reclutadas por los terroristas y sufrir una radicalización conducente a la violencia,</p>
+      </container>
+      <container name="Reconociendo" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que un enfoque integral para derrotar al terrorismo requiere una acción nacional, regional, subregional y multilateral, y <span class="italic">reafirmando </span>la importancia de abordar mediante un enfoque holístico las condiciones subyacentes que favorecen la propagación del terrorismo y del extremismo violento que conduce al terrorismo,</p>
+      </container>
+      <container name="Reafirmando" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando </span>que la promoción y protección de los derechos humanos de todas las personas y el estado de derecho son elementos esenciales de la lucha antiterrorista, reconociendo que las medidas antiterroristas eficaces y la protección de los derechos humanos no son objetivos contrapuestos, sino que se complementan y refuerzan mutuamente, y destacando la necesidad de promover y proteger los derechos de las víctimas del terrorismo,</p>
+      </container>
+      <container name="Reafirmando" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando </span>que los Estados Miembros deben velar por que cualesquiera medidas que adopten para combatir el terrorismo sean compatibles con todas sus obligaciones en virtud del derecho internacional, en particular el derecho internacional de los derechos humanos, el derecho internacional de los refugiados y el derecho internacional humanitario, <span class="italic">recalcando </span>que las medidas antiterroristas efectivas y el respeto de los derechos humanos, las libertades fundamentales y el estado de derecho se complementan y refuerzan mutuamente, y son esenciales para el éxito de la lucha antiterrorista, y observando la importancia de respetar el estado de derecho a fin de prevenir y combatir efectivamente el terrorismo,</p>
+      </container>
+      <container name="Condenando" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Condenando </span>en los términos más enérgicos el terrorismo en todas sus formas y manifestaciones y todos los actos terroristas, incluidos los motivados por la xenofobia, el racismo y otras formas de intolerancia o cometidos en nombre de religiones o creencias, y <span class="italic">reafirmando </span>que el terrorismo no debe asociarse con ninguna religión, nacionalidad, civilización o grupo,</p>
+      </container>
+      <container name="Destacando" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Destacando </span>que los Estados Miembros tienen la responsabilidad primordial de contrarrestar los actos de terrorismo y el extremismo violento que conduce al terrorismo,</p>
+      </container>
+      <container name="Reafirmando" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando </span>su compromiso con la soberanía, la integridad territorial y la independencia política de todos los Estados de conformidad con la Carta de las Naciones Unidas,</p>
+      </container>
+      <container name="Reafirmando" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando </span>su exhortación a todos los Estados para que se hagan partes lo antes posible en los convenios, las convenciones y los protocolos internacionales de lucha contra el terrorismo, y para que cumplan plenamente sus obligaciones en virtud de los instrumentos en que sean partes,</p>
+      </container>
+      <container name="Recalcando" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Recalcando </span>el papel esencial que desempeñan las Naciones Unidas en la lucha mundial contra el terrorismo y <span class="italic">acogiendo con beneplácito </span>el séptimo examen de la Estrategia Global de las Naciones Unidas contra el Terrorismo (EGCT) (<a href="https://undocs.org/es/A/RES/75/291">A/RES/75/291</a>), de 2 de julio de 2021, en el que se afirmó la importancia de la aplicación integrada y equilibrada de los cuatro pilares de la EGCT, y <span class="italic">expresando apoyo </span>a las actividades de la Oficina de las Naciones Unidas de Lucha contra el Terrorismo (OLCT), de conformidad con la resolución <a href="https://undocs.org/es/A/RES/71/291">71/291</a> de la Asamblea General, de 15 de junio de 2017, y su papel fundamental en la promoción de la aplicación equilibrada de la EGCT,</p>
+      </container>
+      <container name="Recalcando" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Recalcando </span>la importancia de que la DECT y la OLCT mantengan una coordinación y una cooperación estrechas, trabajando en el marco de sus mandatos y con sus distintas funciones a fin de garantizar la eficacia de la colaboración de las Naciones Unidas con los Estados Miembros para mejorar la aplicación de la EGCT de manera equilibrada, así como de otras resoluciones contra el terrorismo, y para asegurar la eficacia de la colaboración de las Naciones Unidas con otras organizaciones internacionales, regionales y subregionales competentes y con asociados clave como el Foro Mundial contra el Terrorismo (FMCT) y otras instancias cuyas actividades son cruciales para prevenir y contrarrestar el terrorismo, como las instancias pertinentes de la sociedad civil, las instituciones académicas, los centros de estudio y el sector privado, y <span class="italic">observando </span>la importancia de colaborar, según proceda, con las entidades centradas en las mujeres, los jóvenes y los contextos locales,</p>
+      </container>
+      <container name="Expresando" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Expresando </span>grave preocupación por la posibilidad de que los combatientes terroristas extranjeros (CTE) que se han unido a entidades como el EIIL, también conocido como Dáesh, Al-Qaida, el Frente Al-Nusra y otras células, entidades afiliadas o grupos escindidos o derivados del EIIL o de Al-Qaida estén intentando regresar a sus países de origen o nacionalidad, o trasladarse a terceros países, <span class="italic">recordando </span>que todos los Estados, de conformidad con sus obligaciones internacionales pertinentes, incluido el derecho internacional de los derechos humanos, deben adoptar medidas concretas para hacer frente a la amenaza que plantean los CTE, <span class="italic">recalcando </span>la urgente necesidad de aplicar plena e inmediatamente las resoluciones <a href="https://undocs.org/es/S/RES/2178(2014)">2178 (2014)</a> y <a href="https://undocs.org/es/S/RES/2396(2017)">2396 (2017)</a>, incluidas sus disposiciones relativas a la formulación de estrategias de enjuiciamiento, rehabilitación y reintegración amplias y ajustadas a cada caso y destacando la importancia de prestar asistencia a las mujeres y los niños asociados con CTE, que pueden ser víctimas del terrorismo,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con beneplácito</span> las medidas e iniciativas internacionales, regionales y subregionales para prevenir y reprimir el terrorismo internacional, como los principios rectores sobre los combatientes terroristas extranjeros, aprobados por el CCT en 2015 (Principios Rectores de Madrid) y su adición de 2018, que incluyen salvaguardias y protecciones jurídicas especiales para proteger a los niños,</p>
+      </container>
+      <container name="Reiterando" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Reiterando </span>además la obligación de los Estados Miembros de impedir la circulación de terroristas o grupos terroristas, entre otras cosas mediante controles fronterizos eficaces, e instando en este contexto a los Estados Miembros a que intercambien información rápidamente, mejoren la cooperación entre las autoridades competentes para impedir la entrada y salida de terroristas y grupos terroristas de sus territorios, así como el suministro de armas a los terroristas y la financiación de apoyo a terroristas y grupos terroristas, y <span class="italic">subrayando</span> que el cobijo brindado a los terroristas sigue siendo una preocupación importante y que todos los Estados Miembros deben cooperar plenamente en la lucha contra el terrorismo a fin de localizar, negar cobijo y someter a la acción de la justicia, extraditar o procesar, de conformidad con el derecho internacional aplicable, a cualquier persona que apoye o facilite la financiación, planificación, preparación o comisión de actos terroristas, participe o trate de participar en ellas, o dé cobijo a los terroristas,</p>
+      </container>
+      <container name="Reconociendo" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>la necesidad de mejorar la recopilación, el manejo, la preservación y el intercambio de la información y los materiales reunidos o recibidos por las fuerzas militares, es decir, lo que se conoce como pruebas obtenidas en el campo de batalla, conforme al derecho internacional, para poder investigar y, cuando proceda, enjuiciar a los CTE que hayan cometido delitos, <span class="italic">poniendo de relieve</span> que la reunión y la preservación de las pruebas, de conformidad con los respectivos marcos jurídicos nacionales, son esenciales para el enjuiciamiento, la sentencia y la imposición de la pena en los casos de delitos de terrorismo, <span class="italic">poniendo de relieve además</span> el valor de las “pruebas obtenidas en el campo de batalla”, que son una herramienta esencial para enjuiciar los delitos de terrorismo y determinar la pena adecuada cuando se obtienen y utilizan correctamente, como parte de los esfuerzos por hacer que los terroristas rindan cuentas de sus delitos, <span class="italic">poniendo de relieve además</span> la necesidad de impartir formación y capacitación a los profesionales pertinentes sobre los procedimientos aplicables a la reunión, la preservación y la utilización de las “pruebas obtenidas en el campo de batalla”, <span class="italic">observando </span>la importancia de contar con atribuciones, reglas y prácticas jurídicas claras para recopilar, intercambiar y utilizar este tipo de pruebas en los tribunales nacionales, respetando plenamente las garantías procesales de los acusados y en consonancia con el derecho internacional de los derechos humanos, según proceda, y <span class="italic">observando además</span> las directrices de la DECT para facilitar el uso y la admisibilidad como prueba en los tribunales penales nacionales de la información que recopilan, manejan, preservan e intercambian las fuerzas militares para enjuiciar delitos de terrorismo,</p>
+      </container>
+      <container name="Observando" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Observando </span>con preocupación el creciente uso indebido en todo el mundo de sistemas de aeronaves no tripuladas por terroristas para realizar ataques o incursiones contra infraestructuras comerciales y gubernamentales de acceso restringido y lugares públicos, <span class="italic">reconociendo </span>la necesidad de mantener un equilibrio entre el fomento de la innovación y la prevención del uso indebido de sistemas de aeronaves no tripuladas a medida que se van ampliando sus aplicaciones, <span class="italic">observando</span> los esfuerzos internacionales que contribuyen a crear conciencia y mejorar la preparación con respecto al uso por los terroristas de sistemas de aeronaves no tripuladas a medida que aumenta el acceso a esa tecnología y su utilización se va extendiendo tanto en el sector público como en el privado, como la publicación de la DECT, la OLCT e INTERPOL titulada <span class="italic">The protection of critical infrastructures against terrorist attacks: Compendium of good practices</span>, el Foro Mundial contra el Terrorismo (FMCT) y su documento titulado <span class="italic">Berlin Memorandum on Good Practices for Countering Terrorist Use of UAS</span>,</p>
+      </container>
+      <container name="Destacando" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	Destacando </span>que el desarrollo y mantenimiento de sistemas de justicia penal imparciales y efectivos que respeten plenamente los derechos humanos y las libertades fundamentales y se adhieran a ellos dentro del marco del estado de derecho debe ser un componente central de cualquier estrategia eficaz para prevenir y contrarrestar el terrorismo, <span class="italic">observando </span>la importancia de las perspectivas de los Estados Miembros y <span class="italic">observando</span> el importante papel, el liderazgo en la creación de capacidad a solicitud de los Estados Miembros y los conocimientos especializados de la Oficina de las Naciones Unidas contra la Droga y el Delito (UNODC) y el Instituto Interregional de las Naciones Unidas para Investigaciones sobre la Delincuencia y la Justicia (UNICRI), en coordinación con otros organismos competentes de las Naciones Unidas e instancias pertinentes, y <span class="italic">alentando </span>a la DECT a que coopere estrechamente con esas entidades,</p>
+      </container>
+      <container name="Expresando" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Expresando </span>preocupación por el hecho de que los grupos terroristas están buscando activamente formas de quebrantar o eludir la seguridad de la aviación, <span class="italic">afirmando </span>el papel de la Organización de Aviación Civil Internacional (OACI) en cuanto organización de las Naciones Unidas responsable de elaborar normas internacionales de seguridad de la aviación y vigilar su aplicación por los Estados, y su función de ayudar a los Estados a cumplir dichas normas, <span class="italic">acogiendo con beneplácito </span>la aprobación por la OACI del Plan Global para la Seguridad de la Aviación como marco global para mejorar progresivamente la seguridad de la aviación, y <span class="italic">alentando </span>a la DECT a que coopere estrechamente con la OACI,</p>
+      </container>
+      <container name="Reconociendo" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>las dificultades de los Estados Miembros en la gestión de los presuntos terroristas y los terroristas condenados que tienen bajo su custodia, alentando a los Estados Miembros a que colaboren e intercambien mejores prácticas en cuanto a los entornos de custodia bien gestionados donde se respetan los derechos humanos y se adoptan iniciativas para rehabilitar y reintegrar a los terroristas condenados, y observando a este respecto la labor de la UNODC, el UNICRI y otras instancias pertinentes,</p>
+      </container>
+      <container name="Expresando" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Expresando </span>preocupación por la conexión que existe, en algunos casos, entre el terrorismo y la delincuencia organizada transnacional, como el tráfico ilícito de drogas y armas y la trata de personas, así como el blanqueo de dinero y el tráfico de bienes culturales, y poniendo de relieve la necesidad de mejorar la coordinación de las actividades emprendidas a nivel local, nacional, subregional, regional e internacional para responder a este grave problema, de conformidad con el derecho internacional y en el contexto de los sistemas de justicia penal y aplicación de la ley, respetando plenamente los derechos humanos, las libertades fundamentales y el estado de derecho,</p>
+      </container>
+      <container name="Destacando" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Destacando </span>la necesidad de contrarrestar eficazmente las formas en que el EIIL, Al-Qaida y las personas, los grupos, las empresas y las entidades asociados con ellos utilizan sus argumentos a fin de incitar y reclutar a otros para que cometan actos de terrorismo, y recordando además a ese respecto la resolución <a href="https://undocs.org/es/S/RES/2354(2017)">2354 (2017)</a> y el Marco Internacional Amplio para Refutar los Argumentos Terroristas (<a href="https://undocs.org/es/S/2017/375">S/2017/375</a>), que contienen directrices y buenas prácticas recomendadas,</p>
+      </container>
+      <container name="Reiterando" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	Reiterando </span>la obligación de los Estados Miembros de prevenir y reprimir la financiación de actos de terrorismo, así como de tipificar como delito la provisión o recaudación intencionales, por cualesquiera medios, directa o indirectamente, de fondos por sus nacionales o en sus territorios con intención de que dichos fondos se utilicen, o con conocimiento de que serán utilizados, para perpetrar actos de terrorismo, <span class="italic">reafirmando </span>también la obligación de los Estados Miembros de congelar sin dilación los fondos y demás activos financieros o recursos económicos de las personas o entidades que cometan o intenten cometer actos de terrorismo, participen en ellos o faciliten su comisión, y <span class="italic">reafirmando </span>además la obligación de los Estados Miembros de prohibir a sus nacionales o a toda persona o entidad presente en su territorio que pongan fondos, activos financieros o recursos económicos o servicios financieros u otros servicios conexos a disposición, directa o indirectamente, de terroristas u organizaciones terroristas con cualquier fin, en particular, aunque no exclusivamente, el reclutamiento, el adiestramiento o los viajes, incluso cuando no hay vínculo con un acto de terrorismo concreto, de las entidades que son de propiedad o están bajo el control, directo o indirecto, de esas personas y de las personas y entidades que actúen en nombre o a instancias de esas personas,</p>
+      </container>
+      <container name="Reconociendo" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>que las innovaciones en tecnologías, productos y servicios financieros pueden crear considerables oportunidades económicas, pero también corren el riesgo de ser utilizadas indebidamente, incluso para financiar el terrorismo,</p>
+      </container>
+      <container name="Reconociendo" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la importante labor que realizan las entidades de las Naciones Unidas y otros órganos y foros multilaterales para contrarrestar la financiación del terrorismo, <span class="italic">reiterando </span>la función esencial del Grupo de Acción Financiera (GAFI) en el establecimiento de normas mundiales para prevenir y combatir el blanqueo de dinero y la financiación del terrorismo y la proliferación, y de su red mundial de organismos regionales estilo GAFI, y <span class="italic">alentando </span>a la DECT a que estreche su cooperación con esas entidades,</p>
+      </container>
+      <container name="Recordando" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	Recordando </span>su decisión de que los Estados deben poner fin al suministro de armas, incluidas las armas pequeñas y las armas ligeras, a los terroristas, así como sus llamamientos a los Estados para que encuentren modos de intensificar y agilizar el intercambio de información operacional relativa al tráfico de armas y aumenten la coordinación de sus esfuerzos en los planos nacional, subregional, regional e internacional, e instando en este sentido a los Estados a que apliquen plenamente las medidas expuestas en la resolución <a href="https://undocs.org/es/S/RES/2370(2017)">2370 (2017)</a>,</p>
+      </container>
+      <container name="Reconociendo" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la necesidad de que los Estados Miembros impidan, mediante un enfoque basado en los riesgos, que los terroristas abusen de las organizaciones no gubernamentales, sin fines de lucro y benéficas en su propio provecho, y exhortando a las organizaciones no gubernamentales, sin fines de lucro y benéficas a que impidan y rechacen, según proceda, los intentos de los terroristas de aprovecharse de su estatus, recordando al mismo tiempo la importancia de que se respeten plenamente los derechos a la libertad de expresión y de asociación de las personas en la sociedad civil y la libertad de religión o de creencias, y <span class="italic">haciendo notar una vez más</span> las recomendaciones y los documentos de orientación pertinentes del GAFI, y <span class="italic">reiterando </span>que los Estados deben, en consonancia con el derecho internacional, identificar a las organizaciones sin fines de lucro que son explotadas por terroristas u organizaciones terroristas o les prestan apoyo a sabiendas, y adoptar medidas eficaces y proporcionales en su contra, teniendo en cuenta las características específicas del caso,</p>
+      </container>
+      <container name="Condenando" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Condenando </span>la destrucción del patrimonio cultural por grupos terroristas, ya sea de forma incidental o deliberada, y <span class="italic">poniendo de relieve nuevamente</span> que la destrucción ilícita del patrimonio cultural, así como el saqueo y el contrabando de bienes culturales por parte de grupos terroristas, y el intento de negar las raíces históricas y la diversidad cultural en este contexto pueden fomentar y exacerbar los conflictos y obstaculizar la reconciliación nacional posconflicto, socavando así la seguridad, la estabilidad, la gobernanza y el desarrollo social, económico y cultural de los Estados afectados,</p>
+      </container>
+      <container name="Observando" eId="container_31">
+        <p xml:space="preserve">
+          <span class="italic">	Observando </span>la labor realizada por el FMCT para apoyar la aplicación equilibrada de la EGCT, en particular la publicación de varios documentos marco y buenas prácticas, en ámbitos como la prevención y la lucha contra el extremismo violento que conduce al terrorismo, la seguridad de las fronteras, las listas de control, la protección marítima, la protección de blancos fáciles, las personas radicalizadas para cometer actos violentos o dirigidas por terroristas extranjeros, las víctimas, la justicia penal y el estado de derecho, el regreso y la reubicación de los CTE y los familiares que viajan con ellos, los terroristas autóctonos, la creación de capacidad en África, el enjuiciamiento, la rehabilitación y la reintegración, y los secuestros para obtener rescate, que complementa la labor en esas esferas de las entidades antiterroristas competentes de las Naciones Unidas, y <span class="italic">alentando </span>a la DECT a que prosiga su interacción con el FMCT a fin de promover la plena aplicación de las resoluciones <a href="https://undocs.org/es/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/es/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/es/S/RES/2178(2014)">2178 (2014)</a> y <a href="https://undocs.org/es/S/RES/2396(2017)">2396 (2017)</a> y otras resoluciones pertinentes sobre la lucha antiterrorista,</p>
+      </container>
+      <container name="Reconociendo" eId="container_32">
+        <p xml:space="preserve">
+          <span class="italic">	Reconociendo </span>la importancia de la sociedad civil, incluidas las organizaciones comunitarias, las organizaciones populares, el sector privado, las instituciones académicas, los centros de estudio, los medios de comunicación, la juventud, las mujeres y los líderes culturales, educacionales y religiosos para aumentar la conciencia sobre las amenazas del terrorismo y afrontarlas con mayor eficacia,</p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Poniendo de relieve</span> la necesidad de que los Estados Miembros cooperen entre sí para prevenir y contrarrestar el uso de las tecnologías de la información y las comunicaciones, incluida Internet, para fines terroristas como el reclutamiento y la incitación para cometer actos de terrorismo, así como la financiación, planificación y preparación de sus actividades, forjando alianzas con el sector privado, la sociedad civil y otros interesados, según corresponda, pero respetando al mismo tiempo los derechos humanos, las libertades fundamentales y el estado de derecho, y <span class="italic">alentando </span>a la DECT a que intensifique su colaboración y cooperación con las entidades pertinentes del sector privado,</p>
+      </container>
+      <container name="Observando" eId="container_34">
+        <p xml:space="preserve">
+          <span class="italic">	Observando </span>el Llamamiento a la Acción de Christchurch y la Declaración de Osaka de los Líderes del G20 sobre la Prevención de la Explotación de Internet para el Terrorismo y el Extremismo Violento que Conduce al Terrorismo,</p>
+      </container>
+      <container name="Destacando" eId="container_35">
+        <p xml:space="preserve">
+          <span class="italic">	Destacando </span>la necesidad de que los Estados Miembros cooperen entre sí para impedir que los terroristas se aprovechen de las tecnologías de la información y las comunicaciones, así como la necesidad de que los Estados Miembros sigan cooperando voluntariamente con el sector privado y la sociedad civil para desarrollar y poner en práctica medios más eficaces de contrarrestar el uso de Internet con fines terroristas, incluso elaborando argumentos antiterroristas y mediante soluciones tecnológicas, pero respetando al mismo tiempo los derechos humanos y las libertades fundamentales y cumpliendo el derecho nacional e internacional, <span class="italic">tomando nota </span>del Foro Mundial de Internet para Contrarrestar el Terrorismo, liderado por el sector de la tecnología, y exhortándolo a que siga aumentando la interacción con los Gobiernos y las empresas tecnológicas a nivel mundial, y <span class="italic">reconociendo </span>los esfuerzos de la iniciativa Tech Against Terrorism, asociada a las Naciones Unidas, para fomentar la colaboración con los representantes del sector de la tecnología, incluidas las pequeñas empresas tecnológicas, y de la sociedad civil, las instituciones académicas y los Gobiernos para desbaratar la capacidad de los terroristas de utilizar Internet para promover fines terroristas, pero respetando al mismo tiempo los derechos humanos y las libertades fundamentales,</p>
+      </container>
+      <container name="Instando" eId="container_36">
+        <p xml:space="preserve">
+          <span class="italic">	Instando </span>a los Estados Miembros y al sistema de las Naciones Unidas a que adopten medidas, de conformidad con el derecho internacional, para abordar las condiciones que favorecen la propagación del terrorismo y el extremismo violento cuando conduzca al terrorismo, y <span class="italic">poniendo de relieve </span>además que la lucha contra el extremismo violento cuando conduzca al terrorismo, en particular la prevención de la radicalización violenta, el reclutamiento y la movilización de personas hacia grupos terroristas, es un elemento esencial para abordar de manera equilibrada la amenaza a la paz y la seguridad internacionales que plantea el terrorismo, como se establece en la EGCT,</p>
+      </container>
+      <container name="Reafirmando" eId="container_37">
+        <p xml:space="preserve">
+          <span class="italic">	Reafirmando </span>la necesidad de prestar más atención a las cuestiones relativas a las mujeres y la juventud en toda la labor sobre las amenazas a la paz y la seguridad internacionales causadas por actos terroristas, y observando la importancia de incorporar la participación de las mujeres y la juventud en la formulación de estrategias para prevenir y contrarrestar el terrorismo y el extremismo violento que pueda conducir al terrorismo, y <span class="italic">poniendo de relieve</span> la necesidad de proseguir los esfuerzos para asegurar la participación plena, igualitaria y significativa de las mujeres y la juventud en todos los enfoques y estrategias de lucha contra el terrorismo y el extremismo violento que conduce al terrorismo,</p>
+      </container>
+      <container name="Recalcando" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Recalcando </span>la importancia de adoptar un enfoque pangubernamental y <span class="italic">reconociendo</span> el importante papel que pueden desempeñar las organizaciones de la sociedad civil, en sectores como la salud, el bienestar social y la educación, para contribuir a la rehabilitación y reintegración de los CTE y sus familiares, ya que es posible que esas organizaciones tengan los conocimientos pertinentes y puedan acceder a las comunidades locales y colaborar con ellas para enfrentar los retos que plantean el reclutamiento y la radicalización violenta, y <span class="italic">alentando </span>a los Estados Miembros a que colaboren con las organizaciones de la sociedad civil de manera proactiva al elaborar estrategias de rehabilitación y reintegración,</p>
+      </container>
+      <container name="Observando" eId="container_39">
+        <p xml:space="preserve">
+          <span class="italic">	Observando </span>el papel fundamental de la DECT dentro de las Naciones Unidas y sus conocimientos especializados para evaluar las cuestiones relativas a la lucha contra el terrorismo y apoyar la elaboración y promoción de respuestas antiterroristas bien fundamentadas, e <span class="italic">instando </span>a la OLCT y todos los demás órganos pertinentes de las Naciones Unidas a que tengan en cuenta las recomendaciones y los análisis de la DECT al ejecutar sus mandatos y programas,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_40">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con beneplácito</span> la cooperación en la lucha contra el terrorismo que siguen manteniendo la DECT, la OACI, la UNODC, todos los demás órganos competentes de las Naciones Unidas e INTERPOL, en particular con respecto a la asistencia técnica y la creación de capacidad, y<span class="italic"> alentándolos encarecidamente</span> a que aumenten su interacción con la OLCT para asegurar la coordinación y la coherencia generales de las actividades antiterroristas del sistema de las Naciones Unidas,</p>
+      </container>
+      <container name="Tomando nota" eId="container_41">
+        <p xml:space="preserve">
+          <span class="italic">	Tomando nota </span>de la “Guía técnica para la aplicación de la resolución <a href="https://undocs.org/es/S/RES/1373(2001)">1373 (2001)</a> del Consejo de Seguridad y otras resoluciones pertinentes”, actualizada por la DECT,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Subraya </span>que el objetivo general del CCT es asegurar la plena aplicación de la resolución <a href="https://undocs.org/es/S/RES/1373(2001)">1373 (2001)</a> y <span class="italic">recuerda </span>que la DECT cumple una función crucial para apoyar al CCT en el cumplimiento de su mandato; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Decide </span>que la DECT siga funcionando como una misión política especial, con la orientación normativa del CCT, durante el período que terminará el 31 de diciembre de 2025, y <span class="italic">decide además</span> realizar un examen provisional de su funcionamiento antes del 31 de diciembre de 2023; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Observa </span>que próximamente se publicará el informe que le presentó el CCT para examinar a fondo la labor realizada por la DECT en el período 2017-2021; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Recalca </span>que la evaluación neutral realizada por expertos de la aplicación de las resoluciones <a href="https://undocs.org/es/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/es/S/RES/1624(2005)">1624 (2005)</a> y <a href="https://undocs.org/es/S/RES/2178(2014)">2178 (2014)</a> y otras resoluciones pertinentes es la función básica de la DECT, y que el análisis y las recomendaciones de esas evaluaciones son una valiosa ayuda para que los Estados Miembros puedan detectar y superar las deficiencias en materia de aplicación y capacidad, y <span class="italic">exhorta </span>a la OLCT, a todos los demás fondos y programas competentes de las Naciones Unidas, a los Estados Miembros, a los donantes y a los destinatarios a que utilicen esas evaluaciones de expertos al diseñar la asistencia técnica y las actividades de creación de capacidad, incluso para promover la aplicación equilibrada de los cuatro pilares de la EGCT; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la cooperación de la DECT con las entidades del Pacto Mundial de Coordinación de la Lucha Antiterrorista de las Naciones Unidas, otros órganos competentes de las Naciones Unidas y las organizaciones regionales pertinentes, e <span class="italic">insta </span>a la DECT a que siga velando por que se invite a representantes de esos órganos a participar en su labor de evaluación, a fin de que sigan contribuyendo a la elaboración de recomendaciones prioritarias para mejorar la capacidad de los Estados Miembros en las esferas más urgentes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a la DECT a que evalúe, según corresponda, los esfuerzos de los Estados Miembros por hacer frente a todas las formas de terrorismo y extremismo violento que conduce al terrorismo, incluidas las motivadas por la xenofobia, el racismo y otras formas de intolerancia o justificadas en nombre de la religión o las creencias;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a la DECT a que evalúe la aplicación por los Estados Miembros de lo dispuesto en sus resoluciones <a href="https://undocs.org/es/S/RES/2178(2014)">2178 (2014)</a> y <a href="https://undocs.org/es/S/RES/2396(2017)">2396 (2017)</a>, en las que se pide que se intensifiquen los esfuerzos para hacer frente a la evolución de la amenaza que representan los CTE e impedir los viajes de los terroristas, en particular mediante la reunión, el uso y el intercambio de información anticipada sobre los pasajeros, datos del registro de nombres de los pasajeros y datos biométricos, así como la inclusión de terroristas conocidos o sospechosos en listas de control, y que presente un informe sobre la aplicación en todo el mundo de esas disposiciones a más tardar en diciembre de 2022, tomando nota a ese respecto de las buenas prácticas y recomendaciones, incluidos los Principios Rectores de Madrid sobre los CTE y su adición; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a la DECT a que examine, según corresponda, las deficiencias y las necesidades pertinentes de los Estados Miembros en materia de políticas y capacidad para utilizar eficazmente las pruebas obtenidas por las fuerzas militares, también denominadas “pruebas obtenidas en el campo de batalla”, para facilitar, según corresponda, la capacitación y la asistencia prestadas por las entidades del Pacto Mundial de Coordinación de la Lucha Antiterrorista de las Naciones Unidas, incluida la UNODC, a los sectores de justicia penal de los Estados Miembros y para ayudar a los Estados Miembros a elaborar y aplicar estrategias amplias que permitan recopilar, preservar, intercambiar y utilizar adecuadamente las “pruebas obtenidas en el campo de batalla” conforme al derecho internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a la DECT a que evalúe según proceda los esfuerzos realizados por los Estados Miembros para asegurarse de que se tipifiquen los delitos de terrorismo y se enjuicie a sus autores de conformidad con sus obligaciones en virtud del derecho internacional y considerar la posibilidad de promover políticas, prácticas o directrices nacionales sobre la imposición de penas para el tratamiento de los delincuentes cuya severidad sea proporcional a la gravedad del delito, de conformidad con la legislación interna, pero tratando a las personas procesadas o condenadas por delitos de terrorismo con humanidad y respetando sus derechos humanos, de conformidad con el derecho internacional, y para considerar posibles medidas que reduzcan la reincidencia, incluso, cuando proceda y con arreglo a la legislación interna aplicable, la rehabilitación de los reclusos y su reintegración en la sociedad; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce</span> que las visitas a los países, las evaluaciones exhaustivas y las actividades complementarias conexas de la DECT son mutuamente beneficiosas para los Estados Miembros, el CTC, la OLCT y otras entidades del Pacto Mundial de Coordinación de la Lucha Antiterrorista de las Naciones Unidas, otras entidades de las Naciones Unidas y las organizaciones asociadas pertinentes al iniciar un diálogo permanente entre las instancias nacionales y los expertos en lucha antiterrorista de todo el sistema de las Naciones Unidas y de las organizaciones asociadas pertinentes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la DECT que, en un plazo de seis meses a partir de la aprobación de la presente resolución y en consulta con el CCT, examine la ejecución de su mandato y formule recomendaciones al respecto, haciendo referencia a la eficacia, la oportunidad y la repercusión de sus visitas a los países y de sus evaluaciones y recomendaciones sobre las políticas y prácticas antiterroristas de los Estados Miembros, incluidas las opciones para aumentar la transparencia, la eficiencia y la inclusividad y las enseñanzas extraídas del impacto de la pandemia de COVID-19, y que las presente al CCT para que las examine;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">Encomienda </span>al CCT que, con el apoyo de la DECT, establezca anualmente una lista de los Estados Miembros cuyo consentimiento para visitarlos debería solicitar la DECT a fin de realizar evaluaciones, <span class="italic">recalca </span>que la composición de la lista debe seguir un enfoque basado en los riesgos que reconozca las deficiencias existentes, las nuevas cuestiones y tendencias y las novedades, y los nuevos análisis, teniendo en cuenta también las solicitudes previas de los Estados Miembros y el consentimiento expresado anteriormente, así como el hecho de que algunos Estados Miembros nunca han recibido visitas, y <span class="italic">recalca además</span> que el CCT, con el apoyo de la DECT, podrá decidir, después de la aprobación de la lista, modificar su composición, según sea necesario, haciendo hincapié en la transparencia al planificar las visitas, incluso publicando su calendario de visitas a los países antes de ellas, y elaborando informes posteriores; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">Encomienda </span>a la DECT que, mediante sus visitas, sus evaluaciones y su labor analítica sobre las nuevas cuestiones y tendencias y las novedades, ayude a los Estados Miembros y las entidades de las Naciones Unidas a adoptar medidas, de conformidad con el derecho internacional, para abordar las condiciones que propician el terrorismo y el extremismo violento cuando conduzca al terrorismo, con arreglo a la EGCT, en coordinación con la OLCT y con su apoyo; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Encomienda </span>a la DECT que, a más tardar el 30 de marzo de 2023, informe al CCT sobre las formas de seguir fortaleciendo su proceso de evaluación, incluso considerando la posibilidad de realizar visitas de seguimiento selectivas y específicas para complementar las evaluaciones exhaustivas de la DECT, utilizando, cuando proceda y teniendo en cuenta el mandato global de la DECT, un enfoque basado en los riesgos en respuesta a la evolución de las amenazas, acortando en la medida de lo posible los plazos para la redacción y el examen de los informes, teniendo en cuenta las diferencias de capacidad de los Estados Miembros, mejorando la aplicación justa y coherente de los instrumentos de evaluación y, a solicitud de los Estados Miembros, colaborando con expertos de la sociedad civil, las instituciones académicas, los centros de estudio y el sector privado, incluso durante las visitas y las evaluaciones de los Estados Miembros y antes y después de ellas, como complemento de la colaboración primordial con las instancias de los Estados Miembros para que puedan resaltar los esfuerzos productivos en la lucha antiterrorista, a fin de que las evaluaciones sean más útiles y accesibles y estén dirigidas a destinatarios específicos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la estrecha cooperación entre la DECT y la OLCT para diseñar y llevar a cabo iniciativas de todo el sistema de las Naciones Unidas encaminadas a apoyar los esfuerzos de los Estados Miembros por aplicar las resoluciones pertinentes, <span class="italic">encomienda </span>a la DECT que siga apoyando esas actividades, e <span class="italic">insta </span>a la OLCT y todos los demás órganos competentes de las Naciones Unidas a que tengan en cuenta las recomendaciones y los análisis del CCT al ejecutar sus programas y mandatos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_162" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_162__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>a la Presidencia del CCT que invite a altos funcionarios de los Estados Miembros evaluados a asistir a las reuniones pertinentes del CCT, <span class="italic">solicita además</span> a la Presidencia que invite a los Estados Miembros evaluados a coordinar con la DECT y la OLCT la aplicación de las recomendaciones de la DECT, y a la DECT que, en un plazo de 12 meses tras el informe de evaluación inicial al CCT, presente un informe sobre las medidas adoptadas para aplicar las recomendaciones de la evaluación, teniendo en cuenta las diferencias de capacidad y disponibilidad de recursos, así como la necesidad de asistencia técnica para aplicar algunas recomendaciones, y <span class="italic">encomienda </span>a la DECT que haga recomendaciones al CCT sobre la necesidad de realizar más actividades de seguimiento, según proceda, para continuar aplicando las recomendaciones de las evaluaciones, incluso, si es necesario, prestando más asistencia técnica; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_178" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_178__content">
+          <p xml:space="preserve">	<span class="italic">Encomienda </span>a la DECT que informe de manera oportuna al CCT, periódicamente o cuando este lo solicite, mediante exposiciones orales o escritas sobre su labor, incluidas sus visitas a los Estados Miembros, el estado de la coordinación con los órganos competentes de las Naciones Unidas, la colaboración con instancias pertinentes ajenas a las Naciones Unidas, la realización de evaluaciones, la representación del CCT en distintas reuniones internacionales y regionales, y demás actividades, incluso durante las etapas de planificación, y que realice un examen y un pronóstico anuales de las actividades para facilitar la aplicación de las resoluciones <a href="https://undocs.org/es/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/es/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/es/S/RES/2178(2014)">2178 (2014)</a> y <a href="https://undocs.org/es/S/RES/2396(2017)">2396 (2017)</a> y otras resoluciones pertinentes, y en ese contexto <span class="italic">solicita </span>al CCT que, con el apoyo de la DECT, siga celebrando reuniones periódicas, en particular para tratar cuestiones regionales o temáticas, con la participación de todos los Estados Miembros, y <span class="italic">recalca </span>la importancia de la labor de la DECT para el CCT; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="italic">Solicita </span>al CCT que, por conducto de su Presidencia, lo informe al menos una vez al año sobre su labor general y la de la DECT y, según proceda, en conjunción con los informes de las Presidencias del Comité dimanante de las resoluciones <a href="https://undocs.org/es/S/RES/1267(1999)">1267 (1999)</a> y <a href="https://undocs.org/es/S/RES/1989(2011)">1989 (2011)</a> y el Comité establecido en virtud de la resolución <a href="https://undocs.org/es/S/RES/1540(2004)">1540 (2004)</a> y, teniendo en cuenta los esfuerzos que realiza para fortalecer la coordinación con otros órganos de las Naciones Unidas, facilite el consentimiento de los Estados Miembros para las visitas a los países y los correspondientes informes, mejore la aplicación de las recomendaciones y la contribución de sus evaluaciones y análisis a la mejora de las actividades antiterroristas de los Estados Miembros, y <span class="italic">expresa</span> su intención de celebrar consultas oficiosas al menos una vez al año sobre la labor del CCT; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve">	<span class="italic">Encomienda </span>a la DECT que ponga las evaluaciones de los países, las recomendaciones, los estudios y los productos analíticos a disposición de todo el sistema de las Naciones Unidas, especialmente la OLCT y los organismos, fondos y programas de las Naciones Unidas pertinentes para la lucha antiterrorista, a fin de ajustar mejor la asistencia técnica y la capacitación que prestan las Naciones Unidas a las deficiencias en la aplicación y la capacidad detectadas por la DECT, así como para apoyar la aplicación equilibrada de la EGCT, salvo cuando los Estados Miembros evaluados soliciten que determinada información tenga carácter confidencial, y <span class="italic">encomienda </span>además a la Dirección Ejecutiva que mejore el intercambio de sus conclusiones con los Estados Miembros y los asociados pertinentes en la lucha antiterrorista, según proceda y en consulta con el CCT, en las organizaciones internacionales, regionales y subregionales, el Foro Mundial contra el Terrorismo, las instituciones académicas, los centros de estudio, la sociedad civil y el sector privado, en particular mediante un mayor acceso en la web, actividades de divulgación, talleres, reuniones informativas abiertas y la utilización de la Red Mundial de Investigación (RMI) de la DECT, observando la importancia de su diversidad geográfica; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_232" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_232__content">
+          <p xml:space="preserve">	<span class="italic">Reitera</span> que la función esencial de la DECT dentro de las Naciones Unidas es determinar y evaluar los problemas, las tendencias y las novedades en relación con la aplicación de las resoluciones <a href="https://undocs.org/es/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/es/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/es/S/RES/2178(2014)">2178 (2014)</a>, <a href="https://undocs.org/es/S/RES/2396(2017)">2396 (2017)</a>, <a href="https://undocs.org/es/S/RES/2462(2019)">2462 (2019)</a> y <a href="https://undocs.org/es/S/RES/2482(2019)">2482 (2019)</a> y otras resoluciones pertinentes y, en cooperación con la OLCT, apoyar la aplicación equilibrada de la EGCT, y también asesorar al CCT sobre formas prácticas para que los Estados Miembros apliquen esas resoluciones, y reitera también la importancia de trabajar con los asociados pertinentes en esta esfera, incluso por conducto de la RMI; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_252" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_252__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>las relaciones que la DECT mantiene con expertos y profesionales competentes de los Estados Miembros, las organizaciones internacionales, regionales y subregionales, las instituciones académicas y los centros de estudio pertinentes, la sociedad civil y el sector privado, y <span class="italic">toma nota </span>de la valiosa contribución de esos expertos y profesionales a las reuniones informativas, los talleres, la RMI y las sesiones públicas para apoyar los esfuerzos del CCT por promover la aplicación de las resoluciones <a href="https://undocs.org/es/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/es/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/es/S/RES/2178(2014)">2178 (2014)</a> y <a href="https://undocs.org/es/S/RES/2396(2017)">2396 (2017)</a> y otras resoluciones pertinentes sobre la lucha antiterrorista y fomentar el análisis de las nuevas amenazas, tendencias y novedades; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_273" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_273__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a los Estados Miembros a que consideren la posibilidad de elaborar estrategias nacionales de lucha contra el terrorismo amplias e integradas y mecanismos efectivos para aplicarlas que presten atención a las condiciones que propician el terrorismo, de conformidad con sus obligaciones en virtud del derecho internacional, y <span class="italic">alienta además</span> a la DECT a que coopere con los Estados Miembros y las organizaciones internacionales, regionales y subregionales, y con otros asociados pertinentes que lo soliciten, para hacer evaluaciones y proporcionar asesoramiento sobre la formulación de estrategias nacionales y regionales de lucha contra el terrorismo amplias e integradas y mecanismos para aplicarlas, en estrecha cooperación con la OLCT y otros organismos competentes de las Naciones Unidas, con miras a asegurar la coherencia y complementariedad de las actividades y evitar la duplicación de los esfuerzos por promover la aplicación de la resolución <a href="https://undocs.org/es/S/RES/1373(2001)">1373 (2001)</a> y otras resoluciones pertinentes, y a apoyar la aplicación equilibrada de la EGCT; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_295" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_295__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> que el CTC haya aprobado, de conformidad con la resolución <a href="https://undocs.org/es/S/RES/2395(2017)">2395 (2017)</a>, los estudios actualizados sobre la aplicación a nivel mundial de las resoluciones <a href="https://undocs.org/es/S/RES/1373(2001)">1373 (2001)</a> y <a href="https://undocs.org/es/S/RES/1624(2005)">1624 (2005)</a>, <span class="italic">toma nota </span>de las deficiencias detectadas con respecto a la aplicación de esas resoluciones, <span class="italic">acoge con beneplácito también</span> la aprobación por el CCT del estudio detallado de la aplicación en formato electrónico y de la sinopsis revisada de la evaluación de la aplicación, y <span class="italic">exhorta </span>a la DECT a que ponga los análisis cuantitativos y cualitativos proporcionados por esas herramientas a disposición de los Estados Miembros, los donantes, los destinatarios, la OLCT y otros organismos de las Naciones Unidas a los efectos de diseñar la asistencia técnica y el apoyo para la creación de capacidad; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_318" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_318__content">
+          <p xml:space="preserve">	<span class="italic">Destaca </span>que las jefaturas de la DECT y la OLCT deben reunirse periódicamente para examinar cuestiones de interés común y la incorporación de las recomendaciones y los análisis de la DECT en la labor de la OLCT, particularmente en la prestación de asistencia técnica y capacitación, y <span class="italic">encomienda </span>a la OLCT y la DECT que antes del 30 de marzo de 2022 redacten un informe conjunto en el que se establezcan las medidas prácticas que deberán adoptar ambos órganos para asegurar la incorporación de las recomendaciones y los análisis de la DECT en la labor de la OLCT, que será examinado por el CCT, así como por la Asamblea General en el contexto del examen de la EGCT; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_342" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_342__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a la Presidencia del CCT a que invite al personal directivo de más alto nivel de la OLCT a informar al CCT dos veces al año sobre la labor de la OLCT, especialmente sobre los progresos realizados en la incorporación de las recomendaciones y los análisis de la DECT en la ejecución de sus programas y mandatos, y <span class="italic">alienta además </span>a la Presidencia del CCT a que, con la asistencia de la DECT, celebre reuniones de seguimiento con la OLCT sobre la coordinación con la DECT, e invite a la OLCT a participar habitualmente en las reuniones sobre las cuestiones pertinentes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_367" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_367__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a la DECT a que apoye también la labor de la OLCT, asesorando a su personal directivo y ayudando a elaborar información sobre la lucha contra el terrorismo para facilitarla al Secretario General y otros altos cargos de las Naciones Unidas, y apoyando y sumándose a los dirigentes de la OLCT, según proceda, en la preparación y celebración de talleres y conferencias y la participación en ellos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_393" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve">	<span class="italic">Recuerda </span>a los Estados Miembros que las medidas eficaces para prevenir y contrarrestar el terrorismo y el extremismo violento cuando conduzca al terrorismo y fomentar el respeto de los derechos humanos se complementan y refuerzan mutuamente y son esenciales para el éxito, <span class="italic">observa </span>la importancia de respetar el estado de derecho para combatir efectivamente el terrorismo, <span class="italic">acoge con beneplácito </span>el papel que desempeñan a este respecto las instancias pertinentes de la sociedad civil, las instituciones académicas, los centros de estudio y el sector privado, especialmente las centradas en las mujeres, la juventud y el contexto local, y <span class="italic">alienta </span>a la DECT a que siga desarrollando sus actividades para garantizar que todas las cuestiones relativas a los derechos humanos y el estado de derecho relevantes para la aplicación de las resoluciones <a href="https://undocs.org/es/S/RES/1373(2001)">1373 (2001)</a>, <a href="https://undocs.org/es/S/RES/1624(2005)">1624 (2005)</a>, <a href="https://undocs.org/es/S/RES/2178(2014)">2178 (2014)</a> y <a href="https://undocs.org/es/S/RES/2396(2017)">2396 (2017)</a> y otras resoluciones pertinentes se aborden como un componente importante de las visitas de la DECT a los países y de las evaluaciones, los análisis de nuevas cuestiones y tendencias y novedades, y la facilitación de la asistencia técnica; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_420" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_420__content">
+          <p xml:space="preserve">	<span class="italic">Reitera </span>que los Estados Miembros tienen la obligación de abstenerse de proporcionar ningún tipo de apoyo, activo o pasivo, a las entidades o personas involucradas en actos de terrorismo, incluso de reprimir el reclutamiento de miembros de grupos terroristas y poner fin al suministro de armas a los terroristas, y alienta a la DECT a que siga teniendo plenamente en cuenta esta obligación en todas sus actividades, y destaca la importancia de aplicar de manera plena y efectiva las resoluciones pertinentes y de abordar adecuadamente los problemas relacionados con la falta de aplicación; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_448__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a la DECT a que, en estrecha cooperación con la OLCT, siga prestando gran atención a la resolución <a href="https://undocs.org/es/S/RES/1624(2005)">1624 (2005)</a> en su diálogo con los Estados Miembros y a que colabore con ellos para que, de conformidad con sus obligaciones en virtud del derecho internacional, elaboren estrategias que incluyan medidas contra la incitación a la comisión de actos de terrorismo motivados por el extremismo violento y la intolerancia, y a que facilite la prestación de asistencia técnica para su aplicación, como se pide en la resolución <a href="https://undocs.org/es/S/RES/1624(2005)">1624 (2005)</a> y en la EGCT; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_477" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_477__content">
+          <p xml:space="preserve">	<span class="italic">Expresa </span>su profunda solidaridad con las víctimas del terrorismo y sus familiares, y <span class="italic">alienta </span>a la DECT a que, en estrecha cooperación con la OLCT, tenga en cuenta la importante función que pueden desempeñar las víctimas y sus redes, incluida la credibilidad de sus testimonios, para contrarrestar el terrorismo; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_507" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_507__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>los conocimientos especializados del GAFI en la lucha contra la financiación del terrorismo, sobre todo para identificar a los Estados Miembros que presentan deficiencias estratégicas en la lucha contra el blanqueo de dinero y la financiación del terrorismo y colaborar con ellos, <span class="italic">acoge con beneplácito</span> el informe del GAFI correspondiente a 2021 sobre la financiación del EEIL, Al-Qaida y sus afiliados y la labor que está realizando sobre la financiación del terrorismo, <span class="italic">exhorta</span> al GAFI a que siga tratando de encontrar la manera de mejorar la aplicación a nivel mundial de las medidas contra la financiación del terrorismo, <span class="italic">insta encarecidamente</span> a todos los Estados Miembros a que apliquen las normas internacionales amplias incorporadas en las cuarenta recomendaciones revisadas del GAFI sobre la lucha contra el blanqueo de dinero y la financiación del terrorismo y la proliferación, y <span class="italic">alienta</span> a la DECT a que mantenga una cooperación estrecha con el GAFI para promover la aplicación efectiva de las recomendaciones sobre la lucha contra la financiación del terrorismo, particularmente en relación con la recomendación 6, relativa a las sanciones financieras selectivas en conexión con el terrorismo y su financiación y el aumento de la utilización por los Estados Miembros de este instrumento clave de lucha contra la financiación del terrorismo; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_538" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_538__content">
+          <p xml:space="preserve">	<span class="italic">Exhorta </span>a la DECT a que cree conciencia de la importancia de que los Estados Miembros cooperen en las investigaciones, los enjuiciamientos, la incautación y el decomiso, así como en la devolución, la restitución y la repatriación, en relación con los bienes culturales que hayan sido objeto de tráfico, exportación o importación ilegales, robo, saqueo o excavación o comercio ilícitos, por los cauces apropiados y de conformidad con los marcos jurídicos pertinentes, así como con la Convención de las Naciones Unidas contra la Delincuencia Organizada Transnacional y sus Protocolos y los acuerdos regionales, subregionales y bilaterales pertinentes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_570" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_570__content">
+          <p xml:space="preserve">	<span class="italic">Expresa preocupación</span> por el uso de sistemas de aeronaves no tripuladas por terroristas, y <span class="italic">alienta </span>a la DECT a que cree conciencia de las amenazas que plantea el uso de esos sistemas por terroristas para perpetrar atentados o traficar con drogas y armas, y sobre la necesidad de que los Estados Miembros hagan frente a esas amenazas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_603" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_603__content">
+          <p xml:space="preserve">	<span class="italic">Reconoce </span>la labor de la DECT sobre la lucha contra el uso de Internet y otras tecnologías de la información y las comunicaciones y demás tecnologías emergentes para fines terroristas, pero respetando al mismo tiempo los derechos humanos y las libertades fundamentales, y teniendo en cuenta el cumplimiento por los Estados Miembros de las obligaciones aplicables en virtud del derecho internacional, y tomando nota de la necesidad de preservar la conectividad mundial y el flujo libre y seguro de información, que facilitan el desarrollo económico, la comunicación, la participación y el acceso a la información, y destaca la importancia de la cooperación con la sociedad civil y el sector privado en ese empeño; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_637" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_637__content">
+          <p xml:space="preserve">	<span class="italic">Acoge con beneplácito</span> la colaboración entre la DECT y el Equipo de Apoyo Analítico y Vigilancia de las Sanciones del Comité 1267, y <span class="italic">reitera </span>la necesidad de mejorar la cooperación actual entre el CCT y la DECT y sus propios órganos antiterroristas, incluidos el Comité dimanante de las resoluciones <a href="https://undocs.org/es/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/es/S/RES/1989(2011)">1989 (2011)</a> y <a href="https://undocs.org/es/S/RES/2255(2015)">2255 (2015)</a> y el Comité establecido en virtud de la resolución <a href="https://undocs.org/es/S/RES/1540(2004)">1540 (2004)</a>, así como entre los respectivos grupos de expertos, incluso mediante un mayor intercambio de información, la coordinación de las visitas a los países, la coordinación sobre la facilitación y la vigilancia de la asistencia técnica, y otras medidas de cooperación para ayudar a los Estados Miembros a cumplir sus obligaciones en virtud de las resoluciones pertinentes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_672" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_672__content">
+          <p xml:space="preserve">	<span class="italic">Reitera </span>el llamamiento a la DECT para que integre el género como cuestión transversal en todas sus actividades, incluso en el marco de las evaluaciones e informes sobre países concretos, las recomendaciones hechas a los Estados Miembros, la facilitación de la asistencia técnica a los Estados Miembros y las reuniones informativas que mantiene con él, <span class="italic">solicita </span>a la DECT que celebre consultas con las mujeres y las organizaciones de mujeres para orientar su labor, e <span class="italic">insta</span> a la DECT a que, en colaboración con ONU-Mujeres y otras entidades pertinentes del Pacto Mundial de Coordinación de la Lucha Antiterrorista de las Naciones Unidas, realice investigaciones y reúna datos, con perspectiva de género, sobre los factores que fomentan la radicalización terrorista de las mujeres y sobre el impacto de las estrategias antiterroristas en las mujeres y las niñas y en los derechos humanos de las mujeres y las organizaciones de mujeres; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_708" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_708__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a la DECT a que integre en su labor, según proceda, el impacto del terrorismo en los niños y sus derechos, especialmente en lo que respecta a las cuestiones relacionadas con las familias de los CTE que regresan y se reubican; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_745" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_745__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a la OACI y la DECT a que mantengan y estrechen su cooperación, en particular colaborando para determinar las lagunas y vulnerabilidades relacionadas con la lucha antiterrorista y la seguridad de la aviación, promoviendo la labor y las herramientas de cada organismo y coordinando estrechamente las evaluaciones de la DECT y la elaboración de recomendaciones, <span class="italic">observa </span>que los anexos 9 y 17 del Convenio sobre Aviación Civil Internacional contienen normas y prácticas recomendadas en relación con la detección y prevención de amenazas terroristas que afectan a la aviación civil, incluida la inspección de la carga, <span class="italic">acoge con beneplácito</span> el establecimiento por la OACI de normas y prácticas recomendadas sobre la reunión, el análisis y el uso de información anticipada sobre los pasajeros y de los datos del registro de nombres de los pasajeros por sus Estados miembros, y <span class="italic">reafirma</span> la obligación de los Estados Miembros de desarrollar la capacidad para reunir, procesar y analizar, en cumplimiento de las normas y prácticas recomendadas de la OACI, los datos de los registros de nombres de los pasajeros y velar por que todas las autoridades nacionales competentes utilicen y compartan esos datos, respetando plenamente los derechos humanos y las libertades fundamentales, con el fin de prevenir, detectar e investigar los delitos de terrorismo y los viajes conexos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_783" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_783__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a la DECT a que colabore con los asociados pertinentes, como la UNODC y la OLCT, en consulta con el CCT, para evitar la duplicación de esfuerzos y apoyar las iniciativas encaminadas a mejorar la cooperación internacional entre las autoridades policiales y judiciales, incluso, entre otras cosas, determinando las esferas en las que conviene prestar asistencia técnica a los Estados Miembros que la soliciten, por medios como la capacitación de fiscales, jueces y otros funcionarios pertinentes que participan en la cooperación internacional, en particular proporcionando análisis sobre las deficiencias de capacidad y recomendaciones basados en las evaluaciones y los análisis de la DECT, incluso sobre la designación de las autoridades centrales u otras autoridades competentes de la justicia penal que se ocupan de las actividades de asistencia judicial recíproca y extradición, y a que vele por que esas autoridades dispongan de suficientes recursos, capacitación y autoridad jurídica, en particular para los delitos relacionados con el terrorismo; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_822" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_822__content">
+          <p xml:space="preserve">	<span class="italic">Alienta </span>a la DECT a que ayude a los Estados Miembros a elaborar o seguir mejorando sus estrategias de reducción del riesgo de ataques terroristas contra las infraestructuras críticas y los blancos fáciles que abarquen, entre otras cosas, la evaluación y la concienciación sobre los riesgos pertinentes, la adopción de medidas de preparación, incluidas respuestas eficaces y la resiliencia a esos ataques, y la promoción de una mejor interoperabilidad en todos los niveles de gobierno, así como con la industria privada y la sociedad civil, según proceda, en consonancia con la resolución <a href="https://undocs.org/es/S/RES/2341(2017)">2341 (2017)</a> y en cooperación con la OLCT, a fin de establecer buenas prácticas y promover su utilización, <span class="italic">recuerda</span> que el Foro Mundial contra el Terrorismo aprobó el Memorando de Antalya sobre la Protección de los Blancos Fáciles en un Contexto de Lucha contra el Terrorismo y <span class="italic">alienta </span>a la DECT a que lo tenga en cuenta, incluso al facilitar la asistencia técnica a los Estados Miembros; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_862" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_862__content">
+          <p xml:space="preserve">	<span class="italic">Decide</span> seguir ocupándose activamente de la cuestión. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
