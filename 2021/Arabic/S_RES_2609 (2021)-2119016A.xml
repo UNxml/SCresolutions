@@ -1,0 +1,640 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2609-2021/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2609-2021/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2609-2021/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2609-2021/ara@/"></FRBRuri>
+          <FRBRdate date="2021-12-15" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2609-2021/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2609-2021/ara@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Interim Security Force for Abyei" showAs="UN Interim Security Force for Abyei" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Interim Security Force for Abyei. Deputy Head of Mission" showAs="UN Interim Security Force for Abyei. Deputy Head of Mission" dictionary="DHLAUTH"></keyword>
+        <keyword value="Joint Border Verification Monitoring Mechanism (Sudan and South Sudan)" showAs="Joint Border Verification Monitoring Mechanism (Sudan and South Sudan)" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMILITARIZED ZONES" showAs="DEMILITARIZED ZONES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" showAs="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ABYEI (SUDAN)" showAs="ABYEI (SUDAN)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUDAN" showAs="SUDAN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOUTH SUDAN" showAs="SOUTH SUDAN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[217]" showAs="UN INTERIM SECURITY FORCE FOR ABYEI" dictionary="S/76"></keyword>
+        <keyword refersTo="agenda" value="[160]" showAs="SUDAN--POLITICAL CONDITIONS" dictionary="S/76"></keyword>
+        <keyword refersTo="agenda" value="[223]" showAs="SOUTH SUDAN--POLITICAL CONDITIONS" dictionary="S/76"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="Reports of the Secretary-General on the Sudan and South Sudan." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2609 (2021) [on extension of the mandate of the UN Interim Security Force for Abyei (UNISFA) until 15 May 2022]" showAs="Security Council resolution 2609 (2021) [on extension of the mandate of the UN Interim Security Force for Abyei (UNISFA) until 15 May 2022]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-12-15" outcome="draftResolution" as="S/2021/1034" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-12-15" outcome="adopted" as="S/PV.8932" by="Adopted unanimously, 8932nd meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19016 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2609 (2021)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">مجلس الأمن</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-12-15" class="rightSmall" refersTo="#dateOfIssuance">15 December 2021</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		القرار 2609 (2021)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن مجلس الأمن،</span>
+        </p>
+      </formula>
+      <container name="إذ يؤكد من جديد" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold italic">	إذ يؤكد من جديد</span> جميع القرارات والبيانات الرئاسية السابقة المتعلقة بالحالة في أبيي وعلى طول الحدود بين السودان وجنوب السودان، وإذ يشدّد على أهمية الامتثال والتنفيذ الكاملين لهذه القرارات والبيانات الرئاسية،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد من جديد</span> التزامه الشديد بسيادة السودان وجنوب السودان واستقلالهما ووحدتهما وسلامتهما الإقليمية، وبمقاصد ومبادئ ميثاق الأمم المتحدة، وإذ يشير إلى أهمية مبادئ حسن الجوار وعدم التدخل والتعاون الإقليمي،</p>
+      </container>
+      <container name="وإذ يكرر التأكيد" eId="container_4">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يكرر التأكيد</span> على وجوب عدم تغيير الحدود الإقليمية للدول بالقوة وتسوية المنازعات الإقليمية بالوسائل السلمية دون غيرها، وإذ يؤكد الأولوية التي يوليها للتنفيذ الكامل والعاجل لجميع العناصر المعلَّقة من اتفاق السلام الشامل، <span class="bold italic">وإذ يشدد</span> على ضرورة تسوية الوضع المستقبلي لأبيي عن طريق المفاوضات بين الطرفين على نحو يتسق مع اتفاق السلام الشامل، لا عن طريق إجراءات انفرادية يتخذها أيّ من الطرفين،‬ <span class="bold italic">وإذ يشير</span> إلى الاتفاقات السابقة بشأن الإدارة والأمن في منطقة أبيي،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_5">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يرحب</span> باستمرار التعاون بين حكومة جمهورية السودان وحكومة جمهورية جنوب السودان دعما للسلام والأمن والاستقرار، بما في ذلك فيما يتعلق باتفاق جوبا للسلام وبالمباحثات الرفيعة المستوى بين السودان وجنوب السودان التي جرت في آب/أغسطس 2021 وبعقد اجتماع للآلية السياسية والأمنية المشتركة يومي 8 و 9 أيلول/سبتمبر 2021 و 21 تشرين الأول/أكتوبر 2021، <span class="bold italic">وإذ يشجع</span> على المواظبة على عقد اجتماعات هذه الآلية وغيرها من الآليات المشتركة،</p>
+      </container>
+      <container name="وإذ يشجع" eId="container_6">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشجع</span> الاتحاد الأفريقي، وفريق الاتحاد الأفريقي الرفيع المستوى المعني بالتنفيذ، ومبعوث الأمم المتحدة الخاص إلى القرن الأفريقي على تكثيف مساعي الوساطة التي يبذلونها مع حكومتي السودان وجنوب السودان لتشجيعهما على وضع ترتيبات إدارية وأمنية مؤقتة لأبيي والتوصل إلى حل سياسي لوضعها، <span class="bold italic">وإذ يشيد</span> بالمساعدة التي يتلقاها الطرفان من جمهورية إثيوبيا الديمقراطية الاتحادية وقوة الأمم المتحدة الأمنية المؤقتة لأبيي،</p>
+      </container>
+      <container name="وإذ يعترف" eId="container_7">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يعترف</span> بأن القوة الأمنية المؤقتة، خلال السنوات العشر التي انقضت منذ إنشائها، ساهمت في تحقيق الاستقرار في منطقة أبيي وتجريدها من السلاح وأدت إلى جانب الآلية المشتركة لرصد الحدود والتحقق منها دورا في تعزيز الاستقرار على طول الحدود بين السودان وجنوب السودان،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_8">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يعرب عن بالغ القلق</span> إزاء التطورات الأخيرة في قوك مشار، جنوب السودان، بما في ذلك المخاطر التي تهدد سلامة وأمن أفراد حفظ السلام التي أسفرت عن وفاة أحد أفراد حفظ السلام من إثيوبيا في 14 أيلول/سبتمبر 2021، مما يقوض قدرة القوة الأمنية المؤقتة على دعم الآلية المشتركة لرصد الحدود والتحقق منها، <span class="bold italic">وإذ يشدد</span> على أن الدول المضيفة تتحمل المسؤولية الرئيسية عن ضمان سلامة وأمن وحرية تنقل العاملين في الأمم المتحدة وأصولها وفقا لالتزاماتها بموجب اتفاقات مركز القوات، <span class="bold italic">وإذ يحث</span> جنوب السودان على تكثيف تواصله مع المجتمع المحلي في قوك مشار لتيسير إعادة نشر أفراد القوة الأمنية المؤقتة في مواقعهم السابقة،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_9">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد </span>أن حكومة السودان وحكومة جنوب السودان لم تحقِّقا، على مدى عشر سنوات، تقدماً في إنشاء مؤسسات مشتركة في أبيي، <span class="bold italic">وإذ يشجع</span> السودان وجنوب السودان على الدخول في حوار موضوعي من شأنه أن يعزز العملية السياسية الرامية إلى حل النزاع على أبيي،</p>
+      </container>
+      <container name="وإذ يعرب عن القلق" eId="container_10">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يعرب عن القلق </span>إزاء الجريمة في منطقة أبيي، وإذ يعرب كذلك عن القلق من أن التأخر في نشر شرطة الأمم المتحدة بالمستوى الذي أذن به المجلس يحول دون أداء القوة الأمنية المؤقتة لولايتها الأمنية وينطوي على إمكانية إيجاد فراغ أمني في أبيي، <span class="bold italic">وإذ يعرب كذلك عن القلق</span> من جهود السودان وجنوب السودان الرامية إلى إعاقة القوة الأمنية المؤقتة عن تنفيذ ولايتها بشكل تام،</p>
+      </container>
+      <container name="وإذ يشيد" eId="container_11">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشيد </span>بالجهود التي تبذلها القوة الأمنية المؤقتة في مساعيها إلى تنفيذ ولايتها تنفيذاً فعالا، بطرق منها عملها الجاري على تيسير الترحال السلمي في جميع أرجاء منطقة أبيي، وقيامها بمنع نشوب النـزاعات وبأعمال الوساطة والردع، <span class="bold italic">وإذ يعرب</span> عن بالغ القلق إزاء التهديدات الأمنية والاعتداءات الموجهة ضد أفراد حفظ السلام التابعين للأمم المتحدة في القوة الأمنية المؤقتة، وإذ يشدد بقوة على استهجان جميع الهجمات التي تستهدف موظفي الأمم المتحدة، وإذ يكرر التأكيد على ضرورة الإسراع ببدء تحقيقات وافية في هذه الهجمات، التي قد تشكل جرائم حرب، ومحاسبة المسؤولين عنها،‬</p>
+      </container>
+      <container name="وإذ يشير" eId="container_12">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشير </span>إلى رسالة الأمين العام المؤرخة 17 أيلول/سبتمبر 2021 (<a href="https://undocs.org/ar/S/2021/805">S/2021/805</a>)، التي اقترح فيها توصيات مفصلة لإعادة تشكيل البعثة،</p>
+      </container>
+      <container name="وإذ يضع في اعتباره" eId="container_13">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يضع في اعتباره </span>أن الناس في منطقة أبيي لا يزالون يعتمدون على المساعدة الإنسانية، وأن إمكانية وصول المنظمات الإنسانية إلى الناس المحتاجين إليها يظل بالغ الأهمية، وأن الجهات الفاعلة الإنسانية تواصل تقديم المساعدة إلى 000 210 شخص في منطقة أبيي، وإذ يضع في اعتباره كذلك أن دعم سبل العيش والقدرة على الصمود على مستوى المجتمع المحلي يتسم بالأهمية البالغة لإنهاء النزاع الناجم عن انعدام الأمن الغذائي،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_14">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشير </span>إلى القرار <a href="https://undocs.org/ar/S/RES/1325(2000)">1325 (2000)</a> والقرارات اللاحقة المتخذة بشأن المرأة والسلام والأمن، وإذ يشدد على أن العقبات المستحكمة التي تعترض تنفيذ تلك القرارات بالكامل لن يتسنى تذليلها إلا من خلال التفاني في الالتزام بتمكين المرأة وبمشاركتها وبحقوق الإنسان الواجبة لها، ومن خلال القيادة المتضافرة والاتساق في الإعلام والتدابير المتخذة، وتقديم الدعم،</p>
+      </container>
+      <container name="وإذ يعترف" eId="container_15">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يعترف </span>بأن الوضع الراهن في أبيي وعلى طول الحدود بين السودان وجنوب السودان لا يزال يشكِّل خطراً يهدِّد السلام والأمن الدوليين،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>1 -</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> تمديد ولاية القوة الأمنية المؤقتة حتى 15 أيار/مايو 2022، على النحو الوارد بيانه في الفقرة 2 من القرار <a href="https://undocs.org/ar/S/RES/1990(2011)">1990 (2011)</a>، وإذ يتصرف بموجب الفصل السابع من ميثاق الأمم المتحدة، يقرر كذلك أن يمدِّد إلى غاية 15 أيار/مايو 2022 المهام المنوطة بالقوة الأمنية المؤقتة على النحو الوارد بيانه في الفقرة 3 من القرار <a href="https://undocs.org/ar/S/RES/1990(2011)">1990 (2011)</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>2 -</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> أن يُمدِّد حتى 15 أيار/مايو 2022 تعديل ولاية القوة الأمنية المؤقتة المنصوص عليه في القرار <a href="https://undocs.org/ar/S/RES/2024(2011)">2024 (2011)</a> والفقرة 1 من القرار <a href="https://undocs.org/ar/S/RES/2075(2012)">2075 (2012)</a>، الذي ينص على أن تقدم القوة الأمنية المؤقتة الدعم إلى الآلية المشتركة لرصد الحدود والتحقق منها، ويقرر كذلك أن تواصل القوة تنفيذ تلك الولاية والمهام وفقا للقرار <a href="https://undocs.org/ar/S/RES/2550(2020)">2550 (2020)</a> وهذا القرار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>3 -</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر </span>وجوب أن يُواصل كلا الطرفين البرهنة على إحراز تقدم ملموس في تعليم الحدود، لا سيما باتخاذ التدابير التالية:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <content eId="para_20__content">
+          <p xml:space="preserve">	(1)	دوريات القوة الأمنية المؤقتة والآلية المشتركة لرصد الحدود والتحقق منها: كفالة الإذن الدائم وحرية الحركة الكاملة لجميع الدوريات الجوية والأرضية،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <content eId="para_21__content">
+          <p xml:space="preserve">	(2)	مواقع أفرقة الآلية المشتركة لرصد الحدود والتحقق منها: دعم تشغيل موقع أفرقة الآلية في أبو كوسا/ونكور، ويدعو جنوب السودان إلى إيجاد حل للصعوبات التي تعوق عودة الآلية إلى قوك مشار، جنوب السودان، ومواقع الأفرقة في سفاهة/كير آدم وسمية/وار أبار.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <content eId="para_22__content">
+          <p xml:space="preserve">	(3)	الآلية السياسية والأمنية المشتركة: تقديم توجيهات واضحة إلى الآلية المشتركة لرصد الحدود والتحقق منها عن طريق عقد اجتماعين للآلية السياسية والأمنية المشتركة، وكفالة تعميم استنتاجات الاجتماعين على نطاق واسع،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <content eId="para_23__content">
+          <p xml:space="preserve">	(4)	المنطقة الحدودية الآمنة والمنزوعة السلاح: انسحاب كلا الطرفين فورا من المنطقة الحدودية الآمنة المنزوعة السلاح، كما التزما بذلك في اجتماع الآلية السياسية والأمنية المشتركة المعقود يومي 28 و 29 تشرين الأول/أكتوبر 2020، وإرسالهما إخطارا بذلك الانسحاب إلى القوة الأمنية المؤقتة لكي تتحقق منه،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <content eId="para_24__content">
+          <p xml:space="preserve">	(5)	ممرات عبور الحدود: تفعيل إعادة فتح ممرات عبور الحدود وفقا للقرارات الصادرة عن اجتماعي الآلية السياسية والأمنية المشتركة المعقودين في 28 و 29 تشرين الأول/أكتوبر 2020 وفي 8 و 9 أيلول/سبتمبر 2021، والتحقق مع القوة الأمنية المؤقتة من سير العمل في الممرات ومن حرية الحركة عبر الحدود،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <content eId="para_25__content">
+          <p xml:space="preserve">	(6)	تعليم الحدود: وضع خطة عمل وميزانية تفصيليتين للمناقشات المتعلقة بتعليم الحدود، بما يشمل مفاوضات بشأن المناطق المتنازع عليها في إطار الاتفاقات الموقّعة، وعقد اجتماعين للجنة المشتركة لتعليم الحدود،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <content eId="para_26__content">
+          <p xml:space="preserve">	(7)	موظفو الرصد الوطنيون: مواصلة نشر موظفي رصد وطنيين من أجل المشاركة في الأنشطة التنفيذية التي تقوم بها الآلية المشتركة لرصد الحدود والتحقق منها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>4 -</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> تخفيض الحد الأقصى المأذون به للقوات إلى 250 3 فردا حتى 15 أيار/ مايو 2022، ويعرب عن اعتزامه إبقاء التوصيات الواردة في رسالة الأمين العام المؤرخة 17 أيلول/ سبتمبر 2021 (<a href="https://undocs.org/ar/S/2021/805">S/2021/805</a>) قيد الاستعراض؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>5 -</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="bold italic">يُبقي</span> على القوام الأقصى المأذون به للشرطة البالغ 640 فردا، بما يشمل 148 فردا من أفراد الشرطة المقدمين من الحكومات وثلاث وحدات شرطة مشكلة، ويطلب إلى الأمم المتحدة أن تواصل اتخاذ الخطوات اللازمة فيما يتعلق بالنشر المتتابع لأفراد شرطة إضافيين من أجل بلوغ القوام الأقصى المأذون به للشرطة البالغ 640 فردا، و<span class="bold italic">يعرب</span> عن اعتزامه خفض القوام الأقصى المأذون به للشرطة مع إنشاء دائرة شرطة أبيي تدريجياً وتوليها إنفاذ القانون بشكل فعال في جميع أنحاء منطقة أبيي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>6 -</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold italic">يعرب عن بالغ قلقه</span> من أن حكومة السودان لا تصدر تأشيرات دخول على وجه السرعة لدعم الموظفين الحيويين لولاية القوة الأمنية المؤقتة، بما في ذلك الشرطة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>7 -</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> حكومتي السودان وجنوب السودان إلى تقديم الدعم الكامل إلى القوة الأمنية المؤقتة في تنفيذ ولايتها ونشر أفراد القوة بإزالة أي عقبات تعوق تنفيذ ولاية القوة في حماية المدنيين في أبيي، مع كفالة حرية التنقل للبعثة، وتيسير قيام القوة بتوفير الأغذية، والأدوية وغير ذلك من الإمدادات لأفرادها،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>8 -</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> حكومتي السودان وجنوب السودان على تيسير الترتيبات المتعلقة بإقامة القواعد للقوة الأمنية المؤقتة في منطقة البعثة، بما في ذلك مطار أتوني، وإصدار التصاريح اللازمة للرحلات الجوية، ويلاحظ أن استخدام مطار أتوني سيؤدي إلى خفض تكاليف النقل وتقليل الصعوبات اللوجستية للقوة الأمنية المؤقتة، وإلى تيسير الاحتياجات المتعلقة بالإجلاء الطبي والسفر الرسمي والشحن الجوي بالنسبة إلى البعثة وتعزيز السلامة والأمن لأفراد القوة الأمنية المؤقتة تمشيا مع القرار <a href="https://undocs.org/ar/S/RES/2518(2020)">2518 (2020)</a>، <span class="bold italic">ويهيب كذلك</span> بجميع الأطراف أن تتقيد تقيدا تاما بالتزاماتها التي دعيت إليها في القرار <a href="https://undocs.org/ar/S/RES/2518(2020)">2518 (2020)</a> وبموجب اتفاقات مركز القوات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>9 -</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام، والدول الأعضاء وجميع الأطراف مواصلة اتخاذ جميع التدابير المناسبة لضمان سلامة وأمن وحرية تنقل أفراد القوة الأمنية المؤقتة ووصولهم فورا ودون عراقيل إلى جميع أنحاء منطقة أبيي، بما يتماشى مع القرار <a href="https://undocs.org/ar/S/RES/2518(2020)">2518 (2020)</a>، ويلاحظ بقلق المخاطر الجسيمة التي يمكن أن تشكلها انتهاكات اتفاقات مركز القوات على سلامة وأمن موظفي الأمم المتحدة العاملين في عمليات حفظ السلام، ويطلب إلى الأمين العام تنفيذ أحكام القرار <a href="https://undocs.org/ar/S/RES/2589(2021)">2589 (2021)</a> المتعلقة بترسيخ المساءلة عن الجرائم المرتكبة ضد أفراد حفظ السلام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>10 -</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر</span><span class="italic"> طلبه</span> إلى الأمين العام أن يعيِّن نائبا مدنيا لرئيس القوة الأمنية المؤقتة لأبيي وإضافة موظفين مدنيين آخرين في حدود الموارد المتاحة، بغية مواصلة تيسير الاتصال بين الطرفين والعمل معهما على نحو ينسجم مع اتفاق حزيران/يونيه 2011 المتعلق بالترتيبات المؤقتة للإدارة والأمن في منطقة أبيي، بما في ذلك الاتفاق على إنشاء دائرة شرطة أبيي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>11 -</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث </span>على مواصلة إحراز تقدم نحو وضع ترتيبات إدارية وأمنية مؤقتة يتفق عليها الطرفان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>12 -</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع </span>الاتحاد الأفريقي، والفريق الرفيع المستوى المعني بالتنفيذ والمبعوث الخاص للأمين العام على تكثيف تنسيق الجهود الرامية إلى وضع ترتيبات إدارية وأمنية مؤقتة لأبيي وتيسير التنفيذ الكامل لاتفاق عام 2011 بشأن الترتيبات المؤقتة للإدارة والأمن في منطقة أبيي واتفاقات التعاون الموقعة بين السودان وجنوب السودان في عام 2012، من أجل التوصل إلى حل سياسي لوضع أبيي، <span class="bold italic">ويشجع كذلك</span> القوة الأمنية المؤقتة على زيادة التنسيق مع الاتحاد الأفريقي، والفريق الرفيع المستوى المعني بالتنفيذ والمبعوث الخاص للأمين العام بشأن المصالحة، وتوعية المجتمع المحلي وعمليات السلام السياسية، <span class="bold italic">ويكرر</span> طلباته إلى الأمين العام أن يتشاور مع الأطراف المعنية بشأن تعزيز الدور الذي يؤديه المبعوث الخاص للقرن الأفريقي في دعم الجهود المذكورة أعلاه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>13 -</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> على بذل جهود متجدّدة لكي يحدد، بصفة نهائية خط الوسط للمنطقة الحدودية الآمنة المنـزوعة السلاح على الأرض، ويكرر التأكيد على أن خط الوسط لتلك المنطقة لا يمس بأي حال من الأحوال بالوضع القانوني للحدود، سواء حاليا أو في المستقبل، ولا بالمفاوضات الجارية بشأن المناطق المتنازع عليها والمطالب بها، ومسألة تعليم الحدود؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <num>14 -</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد </span>أن ولاية القوة الأمنية المؤقتة لأبيي المتعلقة بحماية المدنيين، على النحو المبين في الفقرة 3 من القرار <a href="https://undocs.org/ar/S/RES/1990(2011)">1990 (2011)</a>، تشمل اتخاذ الإجراءات الضرورية، دون المساس بمسؤوليات السلطات المختصة، لحماية المدنيين المعرّضين لخطر العنف البدني الوشيك، بصرف النظر عن مصدر هذا العنف، ويؤكد في هذا الصدد على أنه يؤذن لأفراد حفظ السلام باللجوء إلى جميع الوسائل الضرورية، بما يشمل استعمال القوة عند الاقتضاء، من أجل حماية المدنيين المعرَّضين لخطر العنف البدني، وفقاً لولايات البعثات، وأحكام ميثاق الأمم المتحدة وغيرها من أحكام القانون الدولي الواجبة التطبيق، <span class="bold italic">ويشدد</span> على أهمية استمرار انخراط القيادة العليا للبعثات وزيادة هذا الانخراط، لضمان معرفة جميع عناصر البعثات وجميع مستويات التسلسل القيادي على النحو الواجب بولاية البعثة في مجال الحماية وبمسؤولياتها في هذا الصدد وتدريبها في هذه المجالات وإشراكها في الاضطلاع بها؛ ويشيد بالجهود التي تبذلها القوة الأمنية المؤقتة في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>15 -</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="bold italic">يدين</span> الوجود المتقطع لأفراد جهاز الأمن التابع لجنوب السودان ونشر شرطة النفط التابعة للسودان في دفرة، داخل منطقة أبيي، انتهاكاً لاتفاق 20 حزيران/يونيه 2011، وأي دخول للميليشيات المسلحة إلى الإقليم، ويكرر تأكيد مطالباته بأن تعمل حكومة جنوب السودان فورا ومن دون شروط مسبقة على نقل جميع أفراد جهازها الأمني إلى خارج منطقة أبيي وبأن تعمل حكومة السودان على نقل شرطة النفط في دفرة إلى خارج منطقة أبيي، ويكرر كذلك، وفقاً للقرارات ذات الصلة، وبخاصة القراران <a href="https://undocs.org/ar/S/RES/1990(2011)">1990</a><a href="https://undocs.org/ar/S/RES/1990(2011)"> </a><a href="https://undocs.org/ar/S/RES/1990(2011)">(2011)</a> و <a href="https://undocs.org/ar/S/RES/2046(2012)">2046 (2012)</a>، التأكيد على إخلاء منطقة أبيي من أي قوات ومن العناصر المسلحة التابعة للقبائل المحلية، باستثناء قوة الأمم المتحدة الأمنية المؤقتة لأبيي ودائرة شرطة أبيي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>16 -</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> الحكومتين على اتخاذ جميع الخطوات اللازمة لكفالة نزع الطابع العسكري عن منطقة أبيي بالفعل، بطرق منها تنفيذ برامج لنـزع السلاح، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>17 -</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد من جديد </span>أن القوة الأمنية المؤقتة يجوز لها أن تقوم بمصادرة الأسلحة وتدميرها في منطقة أبيي على النحو المأذون به بموجب القرار <a href="https://undocs.org/ar/S/RES/1990(2011)">1990 (2011)</a>، بما يتسق مع ولايتها وفي حدود القدرات المتاحة لها، وذلك بالتنسيق مع الأطراف الموقِّعة على اتفاق حزيران/يونيه 2011 المتعلق بالترتيبات المؤقتة للإدارة والأمن في منطقة أبيي، ولجنة الرقابة المشتركة في أبيي، وقبيلتي المسيرية ودينكا نقوك، وتمشياً مع القرار السابق الصادر عن لجنة الرقابة المشتركة في أبيي والقاضي باعتبار منطقة أبيي ”منطقة خالية من الأسلحة“، ويهيب بحكومتي السودان وجنوب السودان ولجنة الرقابة المشتركة في أبيي وقبيلتي المسيرية ودينكا نقوك وسائر الجماعات الأخرى إلى تقديم كامل المساعدة إلى القوة الأمنية المؤقتة في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxt">
+        <num>18 -</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب </span>بالمبادرات التي اتخذتها القوة الأمنية المؤقتة من أجل دعم الحوار بين القبائل والجهود التي تبذلها قبيلتا المسيرية ودينكا نقوك وكل القبائل الأخرى، من قبيل لجان السلام المحلية، من أجل تعزيز العلاقات بين القبائل وتيسير الاستقرار والمصالحة في منطقة أبيي، <span class="bold italic">ويدعو</span> القوة الأمنية المؤقتة إلى التنسيق مع الإدارة التي عينتها جوبا في أبيي وإدارة قبيلة المسيرية في المجلد والإدارة التي عينتها الخرطوم، باستخدام الخبرة المدنية الملائمة، للحفاظ على الاستقرار وتعزيز المصالحة بين القبائل، وتيسير عودة النازحين إلى قراهم وتقديم الخدمات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxt">
+        <num>19 -</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى القوة الأمنية المؤقتة أن تتعاون مع فريقي الأمم المتحدة القطريين في السودان وجنوب السودان، بالتشاور مع الحكومتين المضيفتين والمجتمعات المحلية، وأن تتواصل مع المجتمعات المحلية فيما يتعلق بمبادرات بناء السلام، بما في ذلك منع نشوب النزاعات والتخفيف من تأثيرها وسيادة القانون،<span class="bold italic"> ويرحب </span>بوضع الأمم المتحدة لاستراتيجية متكاملة لدعم سيادة القانون بالتنسيق الوثيق مع الحكومات المضيفة والقبائل، ويشجع بقوة جميع الأطراف على التعاون مع القوة الأمنية المؤقتة من أجل إنشاء دائرة شرطة أبيي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxt">
+        <num>20 -</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> حكومتي السودان وجنوب السودان على أن تتخذا خطوات لتنفيذ وتيسير تدابير بناء الثقة لدى القبائل التابعة لكل منهما في منطقة أبيي، مع كفالة مشاركة النساء، على قدم المساواة مع الرجال، مشاركة تامة وهادفة في جميع المراحل، بصرف النظر عن المناطق التي ينحدرن منها، بوسائل منها عمليات المصالحة على مستوى القواعد الشعبية، وكذلك من خلال الجهود المتواصلة التي تبذلها المنظمات غير الحكومية وعن طريق تقديم الدعم الكامل للقوة الأمنية المؤقتة في ما تبذله من مساع في سبيل النهوض بالحوار بين القبائل، <span class="bold italic">ويحث كذلك</span> السودان وجنوب السودان على النظر في تلقي الدعم من الأمم المتحدة والاتحاد الأفريقي للمساعدة في تيسير الحوار بين جميع الأطراف في أبيي، ويحث حكومتي السودان وجنوب السودان على المضي قدما في التحقيق المشترك، الذي أعلن عنه في عام 2020، لمحاسبة مرتكبي أعمال العنف في منطقة كولوم في أبيي في كانون الثاني/يناير 2020، ومحاسبة المسؤولين عن أعمال العنف التي وقعت في مابوك في نيسان/أبريل 2020 ودونغوب في أيار/مايو 2021؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <num>21 -</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="bold italic">يعرب عن القلق</span> من استمرار غياب المرأة في قيادة لجان السلام المحلية، <span class="bold italic">وينوه</span> بالدعم العلني لتمكين المرأة الذي أعرب عنه رئيس الإدارة المعيَّن من جوبا، <span class="bold italic">ويهيب</span> بجميع الأطراف تشجيع مشاركة المرأة، على قدم المساواة مع الرجل، مشاركة تامة وهادفة، بما في ذلك على جميع مستويات الحوار بين القبائل وجهود بناء السلام، لكفالة مصداقية العملية ومشروعيتها، <span class="bold italic">ويطلب</span> إلى القوة الأمنية المؤقتة أن تدمج المرأة في مناقشات السلام والمساعدة في هذه الجهود من خلال جملة أمور منها توفير مستشارين للشؤون الجنسانية لأبيي في الأماكن التي تمس فيها الحاجة إلى خبراتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="SingleTxt">
+        <num>22 -</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب </span>بالجهود المتواصلة التي تبذلها القوة الأمنية المؤقتة، بالتنسيق الوثيق مع قبيلتي المسيرية ودينكا نقوك، من أجل تعزيز قدرات لجان الحماية المجتمعية لكي تساعد في إدارة عمليات إنفاذ القانون وحفظ النظام في أبيي، مع ضمان المعاملة الإنسانية والكريمة للمشتبه فيهم وغيرهم من المحتجزين، ومن أجل مواصلة العمل مع الحكومتين بشأن هذه المسألة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxt">
+        <num>23 -</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بجميع الأطراف أن تتعاون تعاوناً تاماً بشأن النتائج والتوصيات المنبثقة عن التحقيق الذي أجرته لجنة التحقيق والتحري المشتركة لمنطقة أبيي في مقتل أحد أفراد حفظ السلام التابعين للقوة الأمنية المؤقتة والزعيم الأكبر لقبيلة دينكا نقوك، عقب قيام مفوضية الاتحاد الأفريقي بنشر النتائج، <span class="bold italic">ويرحب</span> بالبيان الصحفي الذي أصدره مجلس الأمن والسلم التابع للاتحاد الأفريقي في 24 آذار/مارس 2015 والذي يطلب فيه إلى مفوضية الاتحاد الأفريقي أن تتواصل مع الطرفين بشأن النتائج والتوصيات، <span class="bold italic">ويتطلع </span>إلى إصدار تقرير مفوضية الاتحاد الأفريقي عن مقتل زعيم قبيلة دينكا نقوك، على النحو الذي اتفقت عليه القيادات التقليدية، والاستفادة من التقرير كأساس للمصالحة بين القبائل، مراعاة للحاجة إلى إشاعة الاستقرار والمصالحة في منطقة أبيي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxt">
+        <num>24 -</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	<span class="bold italic">يهيب</span> بالدول الأعضاء كافة، وخصوصاً السودان وجنوب السودان، أن تكفل التنقل بحرّية وبسرعة ودون عراقيل إلى أبيي ومنها وفي جميع أنحاء المنطقة الحدودية الآمنة المنزوعة السلاح لجميع الأفراد، وكذلك للمعدات والمؤن والإمدادات وغيرها من السلع، بما فيها المركبات والطائرات وقطع الغيار، المخصصة للاستخدام الحصري والرسمي من قِبل القوة الأمنية المؤقتة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_258" class="SingleTxt">
+        <num>25 -</num>
+        <content eId="para_258__content">
+          <p xml:space="preserve">	<span class="bold italic">يطالب</span> بأن تسمح جميع الأطراف المعنية لجميع موظفي المساعدة الإنسانية، وفقاً للقانون الدولي، بما في ذلك القانون الدولي الإنساني الواجب التطبيق، بالوصول الكامل والمأمون دون عراقيل إلى المدنيين المحتاجين للمساعدة وإلى جميع المرافق اللازمة لعملياتهم، تمشيا مع مبادئ الأمم المتحدة التوجيهية لتقديم المساعدة الإنسانية، بما في ذلك المعاملة الإنسانية وعدم التحيز والحياد والاستقلالية؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_280" class="SingleTxt">
+        <num>26 -</num>
+        <content eId="para_280__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بمبادرة برنامج الأمم المتحدة المشترك لأبيي التي يدعمها فريقا الأمم المتحدة القطريين في السودان وجنوب السودان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_303" class="SingleTxt">
+        <num>27 -</num>
+        <content eId="para_303__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> حكومة السودان وحكومة جنوب السودان على مواصلة تيسير نشر موظفي دائرة الأمم المتحدة للإجراءات المتعلقة بالألغام لضمان حرية التنقل وتحديد مواقع الألغام وإزالتها في منطقة أبيي والمنطقة الحدودية الآمنة المنـزوعة السلاح؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_327" class="SingleTxt">
+        <num>28 -</num>
+        <content eId="para_327__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث بشدة</span> جميع الأطراف على أن توقف جميع أشكال العنف وانتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني، والانتهاكات الأخرى للقانون الدولي، حسب الاقتضاء، التي تُرتكب ضد المدنيين، بما في ذلك النساء والأطفال، وتقديم مرتكبي هذه التجاوزات أو الانتهاكات إلى العدالة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_352" class="SingleTxt">
+        <num>29 -</num>
+        <content eId="para_352__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب </span>إلى الأمين العام أن يكفل القيام بالرصد الفعال لانتهاكات وتجاوزات حقوق الإنسان، بما فيها تلك التي تنطوي على أعمال العنف الجنسي والجنساني والتجاوزات والانتهاكات الأخرى التي تُرتكب ضد النساء والأطفال، ويكرر دعوته حكومة السودان وحكومة جنوب السودان إلى التعاون الكامل مع الأمين العام تحقيقاً لهذه الغاية، وذلك بطرق منها التعجيل بإصدار التأشيرات لموظفي الأمم المتحدة المعنيين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_378" class="SingleTxt">
+        <num>30 -</num>
+        <list eId="para_378_list">
+          <intro eId="para_378_list_intro">
+            <p xml:space="preserve">	<span class="bold italic">يطلب </span>إلى الأمين العام تنفيذ الأنشطة التالية عند تخطيط وتنفيذ عمليات القوة الأمنية المؤقتة في حدود الولاية ومنطقة العمل وبما يتواءم مع المبادئ التوجيهية والأنظمة القائمة للأمم المتحدة:</p>
+          </intro>
+          <point eId="para_378_list_point_أ">
+            <num>(أ)</num>
+            <content eId="para_378_list_point_أ_content">
+              <p xml:space="preserve">	تعزيز تنفيذ استراتيجية للإنذار المبكر والاستجابة على كامل نطاق البعثة، في إطار نهج منسَّق لجمع المعلومات وتتبع الحوادث وتحليلها، والرصد والتحقق والإنذار المبكر وتعميم المعلومات، وإيجاد آليات للتصدي، بما في ذلك آليات التصدي للمخاطر والاعتداءات التي تطال المدنيين والتي قد تنطوي على انتهاكات وتجاوزات لحقوق الإنسان أو انتهاكات للقانون الدولي الإنساني، وكذلك التأهب لاحتمال وقوع مزيد من الاعتداءات التي تستهدف أفراد الأمم المتحدة ومرافقها، وكفالة تعميم تحليل النزاعات على نحو مراعٍ للاعتبارات الجنسانية في جميع الجهود المبذولة على صعيد الإنذار المبكر ومنع نشوب النزاعات؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_ب">
+            <num>(ب)</num>
+            <content eId="para_378_list_point_ب_content">
+              <p xml:space="preserve">	تشجيع استخدام بناء الثقة، والتيسير، والوساطة، والمشاركة المجتمعية، والاتصالات الاستراتيجية لدعم أنشطة البعثة في مجالات الحماية وجمع المعلومات والإلمام بالحالة؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_ج">
+            <num>(ج)</num>
+            <content eId="para_378_list_point_ج_content">
+              <p xml:space="preserve">	إعطاء الأولوية لقدرة البعثة على التنقل وتسيير الدوريات بصورة نشطة من أجل تنفيذ ولايتها على نحو أفضل في المناطق المحفوفة بمخاطر الحماية الناشئة والتهديدات الناشئة، بما في ذلك في المواقع النائية، وإعطاء الأولوية لنشر القوات التي لديها الأصول الجوية والبرية المناسبة، لدعم أنشطة البعثة في مجال الحماية وجمع المعلومات والإلمام بالحالة؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_د">
+            <num>(د)</num>
+            <content eId="para_378_list_point_د_content">
+              <p xml:space="preserve">	تحسين قدرات القوة الأمنية المؤقتة المتكاملة فيما يتعلق بالاستخبارات والتحليل في مجال حفظ السلام، بما في ذلك قدراتها في مجال المراقبة والرصد، ضمن حدود ولايتها؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_ه">
+            <num>(ه)</num>
+            <content eId="para_378_list_point_ه_content">
+              <p xml:space="preserve">	تحسين اللوجستيات في البعثة، ولا سيما باتخاذ جميع التدابير اللازمة لتأمين طرق الإمداد اللوجستي التي تستخدمها القوة الأمنية المؤقتة؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_و">
+            <num>(و)</num>
+            <content eId="para_378_list_point_و_content">
+              <p xml:space="preserve">	تنفيذ إجراءات فعالة لإجلاء المصابين والإجلاء الطبي، بما في ذلك إجراءات التشغيل الموحدة المتعلقة بالإجلاء اللامركزي للمصابين، فضلاً عن نشر قدرات معززة في مجال الإجلاء الطبي؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_ز">
+            <num>(ز)</num>
+            <content eId="para_378_list_point_ز_content">
+              <p xml:space="preserve">	اتخاذ إجراءات نشطة وفعالة لتوفير التخطيط والتشغيل لمرافق القوة الأمنية المؤقتة وترتيباتها المتعلقة بالسلامة والأمن؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_ح">
+            <num>(ح)</num>
+            <content eId="para_378_list_point_ح_content">
+              <p xml:space="preserve">	كفالة وضع مخططات طويلة الأجل لتناوب القدرات الحيوية، فضلا عن استكشاف خيارات مبتكرة لتعزيز الشراكات بين البلدان المساهمة بمعدات وبقوات وأفراد شرطة؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_ط">
+            <num>(ط)</num>
+            <content eId="para_378_list_point_ط_content">
+              <p xml:space="preserve">	كفالة امتثال أي دعم يُقدَّم إلى قوات أمنية غير تابعة للأمم المتحدة امتثالا صارما لسياسة بذل العناية الواجبة في مراعاة حقوق الإنسان عند تقديم دعم الأمم المتحدة إلى قوات أمنية غير تابعة للأمم المتحدة، بما في ذلك رصد كيفية استخدام الدعم وتنفيذ تدابير التخفيف والإبلاغ عنهما؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_ي">
+            <num>(ي)</num>
+            <content eId="para_378_list_point_ي_content">
+              <p xml:space="preserve">	إعطاء الأولوية لأنشطة الحماية الصادر بها تكليف عند اتخاذ القرارات المتعلقة باستخدام القدرات والموارد المتاحة داخل البعثة، وفقا للقرار <a href="https://undocs.org/ar/S/RES/1894(2009)">1894 (2009)</a>؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_ك">
+            <num>(ك)</num>
+            <content eId="para_378_list_point_ك_content">
+              <p xml:space="preserve">	تعزيز أنشطتها المتعلقة بمنع العنف الجنسي والجنساني والتصدي له بما يتماشى مع القرار <a href="https://undocs.org/ar/S/RES/2467(2019)">2467</a><a href="https://undocs.org/ar/S/RES/2467(2019)"> </a><a href="https://undocs.org/ar/S/RES/2467(2019)">(2019)</a>، بما في ذلك عن طريق مساعدة الأطراف في أنشطة تتسق مع القرار <a href="https://undocs.org/ar/S/RES/2467(2019)">2467</a><a href="https://undocs.org/ar/S/RES/2467(2019)"> </a><a href="https://undocs.org/ar/S/RES/2467(2019)">(2019)</a>، وعن طريق ضمان إدراج مخاطر العنف الجنسي والجنساني في نظم البعثة لجمع البيانات وتحليل التهديدات والإنذار المبكر عن طريق الانخراط بطريقة أخلاقية مع الناجين من العنف الجنسي والجنساني وضحاياه، والمنظمات النسائية؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_ل">
+            <num>(ل)</num>
+            <content eId="para_378_list_point_ل_content">
+              <p xml:space="preserve">	تنفيذ القرار <a href="https://undocs.org/ar/S/RES/1325(2000)">1325 (2000)</a> وجميع القرارات التي تتناول قضايا المرأة والسلام والأمن، بما في ذلك عن طريق السعي إلى زيادة عدد النساء في القوة الأمنية المؤقتة تمشيا مع القرار <a href="https://undocs.org/ar/S/RES/2538(2020)">2538</a><a href="https://undocs.org/ar/S/RES/2538(2020)"> </a><a href="https://undocs.org/ar/S/RES/2538(2020)">(2020)</a>، فضلا عن كفالة مشاركة المرأة مشاركة كاملة ومتساوية ومجدية في جميع جوانب العمليات، بما في ذلك عبر ضمان تهيئة بيئات عمل آمنة وتمكينية ومراعية للاعتبارات الجنسانية للمرأة في عمليات حفظ السلام، مع المراعاة التامة للاعتبارات الجنسانية باعتبارها مسألة شاملة طوال فترة ولايتها، والتأكيد من جديد على أهمية مستشاري الشؤون الجنسانية النظاميين والمدنيين، والمنسقين المعنيين بالشؤون الجنسانية في جميع عناصر البعثة، والخبرات والقدرات الجنسانية في تنفيذ ولاية البعثة بطريقة تراعي المنظور الجنساني؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_م">
+            <num>(م)</num>
+            <content eId="para_378_list_point_م_content">
+              <p xml:space="preserve">	مراعاة حماية الطفل مراعاة تامة باعتبارها مسألة شاملة؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_ن">
+            <num>(ن)</num>
+            <content eId="para_378_list_point_ن_content">
+              <p xml:space="preserve">	تنفيذ الأولويات المتعلقة بالشباب والسلام والأمن بموجب القرارات <a href="https://undocs.org/ar/S/RES/2250(2015)">2250 (2015)</a> و <a href="https://undocs.org/ar/S/RES/2419(2018)">2419</a><a href="https://undocs.org/ar/S/RES/2419(2018)"> </a><a href="https://undocs.org/ar/S/RES/2419(2018)">(2018)</a> و <a href="https://undocs.org/ar/S/RES/2535(2020)">2535 (2020)</a>؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_س">
+            <num>(س)</num>
+            <content eId="para_378_list_point_س_content">
+              <p xml:space="preserve">	تنفيذ متطلبات الأداء في مجال حفظ السلام بموجب القرارين <a href="https://undocs.org/ar/S/RES/2378(2017)">2378 (2017)</a> و <a href="https://undocs.org/ar/S/RES/2436(2018)">2436</a><a href="https://undocs.org/ar/S/RES/2436(2018)"> </a><a href="https://undocs.org/ar/S/RES/2436(2018)">(2018)</a>؛</p>
+            </content>
+          </point>
+          <point eId="para_378_list_point_ع">
+            <num>(ع)</num>
+            <content eId="para_378_list_point_ع_content">
+              <p xml:space="preserve">	تنفيذ سياسة الأمم المتحدة بشأن عدم التسامح إطلاقا إزاء سوء السلوك الجسيم والاستغلال والانتهاك الجنسيين والتحرش الجنسي، وجميع الإجراءات المنصوص عليها بموجب القرار <a href="https://undocs.org/ar/S/RES/2272(2016)">2272</a><a href="https://undocs.org/ar/S/RES/2272(2016)"> </a><a href="https://undocs.org/ar/S/RES/2272(2016)">(2016)</a>، وإبلاغ مجلس الأمن في حالة حدوث حالات سوء سلوك من هذا القبيل؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_405" class="SingleTxt">
+        <num>31 -</num>
+        <content eId="para_405__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى البلدان المساهمة بقوات وبأفراد شرطة أن تنفذ تنفيذا كاملا الأحكام ذات الصلة من القرار <a href="https://undocs.org/ar/S/RES/2538(2020)">2538 (2020)</a> وجميع القرارات الأخرى ذات الصلة بشأن تقليل العوائق أمام مشاركة المرأة على جميع المستويات وفي جميع المناصب في عمليات حفظ السلام وزيادة مشاركتها، بما في ذلك عن طريق ضمان تهيئة بيئات عمل مأمونة وممكّنة ومراعية للاعتبارات الجنسانية للنساء في عمليات حفظ السلام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_433" class="SingleTxt">
+        <num>32 -</num>
+        <content eId="para_433__content">
+          <p xml:space="preserve">	<span class="bold italic">يحث</span> البلدان المساهمة بقوات وبأفراد شرطة على أن تواصل اتخاذ الإجراءات المناسبة لمنع الاستغلال والانتهاك الجنسيين، بما في ذلك فحص جميع الأفراد، والتدريب بغرض التوعية قبل النشر وأثناء النشر في البعثة، وأن تكفل المساءلة التامة في حال إتيان الأفراد التابعين لها أي سلوك من هذا القبيل، بوسائل منها إجراء تحقيقات في الوقت المناسب تركز على الناجين في جميع الادعاءات المتعلقة بوقوع استغلال وانتهاك جنسيين، من أجل محاسبة الجناة وإعادة الوحدات إلى أوطانها عندما تكون هناك أدلة موثوقة على ارتكاب استغلال وانتهكاك جنسيين يتسمان باتساع نطاقهما أو طبيعتهما العامة من جانب تلك الوحدات، واتخاذ إجراءات تأديبية مناسبة، وإبلاغ الأمم المتحدة بشكل تام وعلى الفور بالإجراءات المتخذة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_462" class="SingleTxt">
+        <num>33 -</num>
+        <content eId="para_462__content">
+          <p xml:space="preserve">	<span class="bold italic">يلاحظ </span>الجهود التي يبذلها الأمين العام لتوثيق التعاون بين بعثات الأمم المتحدة في المنطقة، بما يشمل قوة الأمم المتحدة الأمنية المؤقتة لأبيي، وبعثة الأمم المتحدة في جمهورية جنوب السودان، وبعثة الأمم المتحدة المتكاملة لتقديم المساعدة خلال الفترة الانتقالية في السودان، وكذلك مبعوثه الخاص للقرن الأفريقي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_463" class="H23">
+        <subheading>		الإبلاغ والتشاور</subheading>
+      </paragraph>
+      <paragraph eId="para_464" class="SingleTxt">
+        <num>34 -</num>
+        <content eId="para_464__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى الأمين العام أن يقدم إلى مجلس الأمن تحليلا متكاملا يستند إلى الأدلة ويرتكز على البيانات، وتقييمات استراتيجية ومشورة صريحة، باستخدام البيانات التي تجمع وتحلل من خلال النظام الشامل للتخطيط وتقييم الأداء وغيره من أدوات التخطيط الاستراتيجي وقياس الأداء، مع مراعاة أداء جميع الموظفين النظاميين والمدنيين، لوصف أثر البعثة، وتيسير إعادة تقييم تكوين البعثة وولايتها حسب الاقتضاء استنادا إلى الحقائق في الميدان، وكذلك أن يواصل إبلاغه بالتقدم المحرز في تنفيذ ولاية القوة الأمنية المؤقتة، في تقرير كتابي واحد يقدم في موعد أقصاه 15 نيسان/أبريل 2022 ويتضمن الإبلاغ عما يلي:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_465" class="SingleTxt">
+        <content eId="para_465__content">
+          <p xml:space="preserve">		مشاركة الاتحاد الأفريقي، وفريق الاتحاد الأفريقي الرفيع المستوى المعني بالتنفيذ فيما يتعلق بالوساطة السياسية في النزاع على أبيي ومشاكل الحدود بين السودان وجنوب السودان، وتقديم توصيات بشأن أنسب إطار أو هيكل أو ولاية تنظيمية من أجل المنطقة لتقديم الدعم للطرفين بما يمكِّن من إحراز مزيد من التقدم في هذه المجالات،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_466" class="SingleTxt">
+        <content eId="para_466__content">
+          <p xml:space="preserve">		الجهود التي يبذلها المبعوث الخاص للقرن الأفريقي لدعم الاتحاد الأفريقي ومساعدة الطرفين على وضع ترتيبات إدارية وأمنية مؤقتة لأبيي والتوصل إلى حل سياسي لمسألة وضع أبيي،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_467" class="SingleTxt">
+        <content eId="para_467__content">
+          <p xml:space="preserve">		التقدم المحرز في تنفيذ أي خطوات اتخذت وفقا للفقرة 3،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_468" class="SingleTxt">
+        <num>•</num>
+        <content eId="para_468__content">
+          <p xml:space="preserve">	التقدم المحرز في زيادة عدد أفراد الشرطة، وتعيين نائب مدني لرئيس البعثة، واستعمال مطار أتوني، وإصدار التأشيرات لدعم تنفيذ الولاية،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_469" class="SingleTxt">
+        <num>•</num>
+        <content eId="para_469__content">
+          <p xml:space="preserve">	نتائج رصد حقوق الإنسان على النحو المطلوب في الفقرة 28، بما يشمل المعلومات وعمليات التحليل والبيانات المتعلقة بانتهاكات وتجاوزات حقوق الإنسان، والخطوات المتخذة تمشيا مع الفقرة 29 (ل)،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_470" class="SingleTxt">
+        <content eId="para_470__content">
+          <p xml:space="preserve">		موجز للتقدم المحرز في مبادرة برنامج الأمم المتحدة المشترك لأبيي،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_471" class="SingleTxt">
+        <num>•</num>
+        <content eId="para_471__content">
+          <p xml:space="preserve">	نتائج مشاورة مشتركة مع حكومتي السودان وجنوب السودان وأصحاب المصلحة المعنيين، بما في ذلك المجتمع المحلي، لوضع معايير ومؤشرات واضحة وواقعية لانتقال البعثة على نحو مسؤول وناجح ودائم، وهي مشاورة ينبغي أن تعطي الأولوية لسلامة وأمن المدنيين الذين يعيشون في أبيي وأن تراعي استقرار المنطقة،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_472" class="SingleTxt">
+        <content eId="para_472__content">
+          <p xml:space="preserve">		موجز بالإجراءات المتخذة لتحسين أداء البعثة ومعالجة مشكلات التقصير، بما في ذلك النواقص في القيادة، والمحاذير الوطنية التي تؤثر سلباً في فعالية تنفيذ الولاية، وبيئات العمل الصعبة،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_473" class="SingleTxt">
+        <num>•</num>
+        <content eId="para_473__content">
+          <p xml:space="preserve">	الأداء العام للبعثة، وتنفيذ البعثة للإطار المتكامل للأداء والمساءلة في مجال حفظ السلام والنظام الشامل للتخطيط وتقييم الأداء؛ بما في ذلك تقديم معلومات بشأن المحاذير غير المعلنة، ورفض المشاركة في الدوريات أو القيام بها، وأثر ذلك على البعثة، وكيفية معالجة حالات التقصير في الأداء المبلغ عنها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_474" class="SingleTxt">
+        <num>35 -</num>
+        <content eId="para_474__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر </span>أن يبقي المسألة قيد نظره الفعلي.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

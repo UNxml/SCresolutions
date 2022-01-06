@@ -1,0 +1,587 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/"></FRBRuri>
+          <FRBRdate date="2021-12-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/ara@/"></FRBRuri>
+          <FRBRdate date="2021-12-30" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2021-12-30/2617-2021/ara@.xml"></FRBRuri>
+          <FRBRdate date="2022-01-06" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="7" href="http://metadata.un.org/sdg/7" showAs="sdg_7" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_energy" href="http://metadata.un.org/thesaurus/1006320" showAs="sustainable_energy" dictionary="UNBIS"></keyword>
+        <keyword value="66_energy" href="http://eurovoc.europa.eu/100159" showAs="66_energy" dictionary="EuroVoc"></keyword>
+        <keyword value="energy_market" href="http://eurovoc.europa.eu/4886" showAs="energy_market" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism" showAs="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" showAs="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office of Counter-Terrorism" showAs="UN. Office of Counter-Terrorism" dictionary="DHLAUTH"></keyword>
+        <keyword value="COUNTER-TERRORISM" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COORDINATION WITHIN UN SYSTEM" showAs="COORDINATION WITHIN UN SYSTEM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[31]" showAs="TERRORISM" dictionary="S/76"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2617 (2021) [on extension of the mandate of the Counter-Terrorism Committee Executive Directorate (CTED) as special political mission under the policy guidance of the Counter-Terrorism Committee (CTC) until 31 Dec. 2025]" showAs="Security Council resolution 2617 (2021) [on extension of the mandate of the Counter-Terrorism Committee Executive Directorate (CTED) as special political mission under the policy guidance of the Counter-Terrorism Committee (CTC) until 31 Dec. 2025]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2021-12-30" outcome="draftResolution" as="S/2021/1105" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2021-12-30" outcome="adopted" as="S/2021/1107" by="Adopted unanimously; voting by mail" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="VOTING BY MAIL">
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">ESTONIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NIGER</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SAINT VINCENT AND THE GRENADINES</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VIET NAM</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">21-19887 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2617 (2021)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">مجلس الأمن</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2021-12-30" class="rightSmall" refersTo="#dateOfIssuance">30 December 2021</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		القرار 2617 (2021)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">الذي اتخذه مجلس الأمن في <inline name="adoptionMeeting"></inline><docDate date="2021-12-30" refersTo="#adoptionDate">30 كانون الأول/ديسمبر 2021</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن مجلس الأمن</span>،</p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">
+          <span class="bold italic">	إذ يشير</span> على وجه الخصوص إلى القرار <a href="https://undocs.org/ar/S/RES/1535(2004)">1535</a><a href="https://undocs.org/ar/S/RES/1535(2004)"> </a><a href="https://undocs.org/ar/S/RES/1535(2004)">(2004)</a> والقرار <a href="https://undocs.org/ar/S/RES/1787(2007)">1787</a><a href="https://undocs.org/ar/S/RES/1787(2007)"> </a><a href="https://undocs.org/ar/S/RES/1787(2007)">(2007)</a> والقرار <a href="https://undocs.org/ar/S/RES/1805(2008)">1805</a><a href="https://undocs.org/ar/S/RES/1805(2008)"> </a><a href="https://undocs.org/ar/S/RES/1805(2008)">(2008)</a> والقرار <a href="https://undocs.org/ar/S/RES/1963(2010)">1963</a><a href="https://undocs.org/ar/S/RES/1963(2010)"> </a><a href="https://undocs.org/ar/S/RES/1963(2010)">(2010)</a> والقرار <a href="https://undocs.org/ar/S/RES/2129(2013)">2129</a><a href="https://undocs.org/ar/S/RES/2129(2013)"> </a><a href="https://undocs.org/ar/S/RES/2129(2013)">(2013)</a> والقرار <a href="https://undocs.org/ar/S/RES/2395(2017)">2395</a><a href="https://undocs.org/ar/S/RES/2395(2017)"> </a><a href="https://undocs.org/ar/S/RES/2395(2017)">(2017)</a>، وهي القرارات التي تتعلق بالمديرية التنفيذية للجنة مكافحة الإرهاب (المديرية التنفيذية)، <span class="bold italic">وإذ يؤكد من جديد</span> الدور الحاسم الذي تضطلع به لجنة مكافحة الإرهاب التابعة له والمديرية التنفيذية في كفالة التنفيذ الكامل للقرار <a href="https://undocs.org/ar/S/RES/1373(2001)">1373</a><a href="https://undocs.org/ar/S/RES/1373(2001)"> </a><a href="https://undocs.org/ar/S/RES/1373(2001)">(2001)</a>، وإذ يؤكد من جديد قراراته <a href="https://undocs.org/ar/S/RES/1267(1999)">1267</a><a href="https://undocs.org/ar/S/RES/1267(1999)"> </a><a href="https://undocs.org/ar/S/RES/1267(1999)">(1999)</a> و <a href="https://undocs.org/ar/S/RES/1325(2000)">1325</a><a href="https://undocs.org/ar/S/RES/1325(2000)"> </a><a href="https://undocs.org/ar/S/RES/1325(2000)">(2000)</a> و <a href="https://undocs.org/ar/S/RES/1368(2001)">1368</a><a href="https://undocs.org/ar/S/RES/1368(2001)"> </a><a href="https://undocs.org/ar/S/RES/1368(2001)">(2001)</a> و <a href="https://undocs.org/ar/S/RES/1566(2004)">1566</a><a href="https://undocs.org/ar/S/RES/1566(2004)"> </a><a href="https://undocs.org/ar/S/RES/1566(2004)">(2004)</a> و <a href="https://undocs.org/ar/S/RES/1624(2005)">1624</a><a href="https://undocs.org/ar/S/RES/1624(2005)"> </a><a href="https://undocs.org/ar/S/RES/1624(2005)">(2005)</a> و <a href="https://undocs.org/ar/S/RES/1894(2009)">1894</a><a href="https://undocs.org/ar/S/RES/1894(2009)"> </a><a href="https://undocs.org/ar/S/RES/1894(2009)">(2009)</a> و <a href="https://undocs.org/ar/S/RES/2106(2013)">2106</a><a href="https://undocs.org/ar/S/RES/2106(2013)"> </a><a href="https://undocs.org/ar/S/RES/2106(2013)">(2013)</a> و <a href="https://undocs.org/ar/S/RES/2122(2013)">2122</a><a href="https://undocs.org/ar/S/RES/2122(2013)"> </a><a href="https://undocs.org/ar/S/RES/2122(2013)">(2013)</a> و <a href="https://undocs.org/ar/S/RES/2133(2014)">2133</a><a href="https://undocs.org/ar/S/RES/2133(2014)"> </a><a href="https://undocs.org/ar/S/RES/2133(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2150(2014)">2150</a><a href="https://undocs.org/ar/S/RES/2150(2014)"> </a><a href="https://undocs.org/ar/S/RES/2150(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2170(2014)">2170</a><a href="https://undocs.org/ar/S/RES/2170(2014)"> </a><a href="https://undocs.org/ar/S/RES/2170(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2178(2014)">2178</a><a href="https://undocs.org/ar/S/RES/2178(2014)"> </a><a href="https://undocs.org/ar/S/RES/2178(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2185(2014)">2185</a><a href="https://undocs.org/ar/S/RES/2185(2014)"> </a><a href="https://undocs.org/ar/S/RES/2185(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2195(2015)">2195</a><a href="https://undocs.org/ar/S/RES/2195(2015)"> </a><a href="https://undocs.org/ar/S/RES/2195(2015)">(2015)</a> و <a href="https://undocs.org/ar/S/RES/2199(2015)">2199</a><a href="https://undocs.org/ar/S/RES/2199(2015)"> </a><a href="https://undocs.org/ar/S/RES/2199(2015)">(2015)</a> و <a href="https://undocs.org/ar/S/RES/2220(2015)">2220</a><a href="https://undocs.org/ar/S/RES/2220(2015)"> </a><a href="https://undocs.org/ar/S/RES/2220(2015)">(2015)</a> و <a href="https://undocs.org/ar/S/RES/2242(2015)">2242</a><a href="https://undocs.org/ar/S/RES/2242(2015)"> </a><a href="https://undocs.org/ar/S/RES/2242(2015)">(2015)</a> و <a href="https://undocs.org/ar/S/RES/2249(2015)">2249</a><a href="https://undocs.org/ar/S/RES/2249(2015)"> </a><a href="https://undocs.org/ar/S/RES/2249(2015)">(2015)</a> و <a href="https://undocs.org/ar/S/RES/2253(2015)">2253</a><a href="https://undocs.org/ar/S/RES/2253(2015)"> </a><a href="https://undocs.org/ar/S/RES/2253(2015)">(2015)</a> و <a href="https://undocs.org/ar/S/RES/2309(2016)">2309</a><a href="https://undocs.org/ar/S/RES/2309(2016)"> </a><a href="https://undocs.org/ar/S/RES/2309(2016)">(2016)</a> و <a href="https://undocs.org/ar/S/RES/2322(2016)">2322</a><a href="https://undocs.org/ar/S/RES/2322(2016)"> </a><a href="https://undocs.org/ar/S/RES/2322(2016)">(2016)</a> و <a href="https://undocs.org/ar/S/RES/2331(2016)">2331</a><a href="https://undocs.org/ar/S/RES/2331(2016)"> </a><a href="https://undocs.org/ar/S/RES/2331(2016)">(2016)</a> و <a href="https://undocs.org/ar/S/RES/2341(2017)">2341</a><a href="https://undocs.org/ar/S/RES/2341(2017)"> </a><a href="https://undocs.org/ar/S/RES/2341(2017)">(2017)</a> و <a href="https://undocs.org/ar/S/RES/2347(2017)">2347</a><a href="https://undocs.org/ar/S/RES/2347(2017)"> </a><a href="https://undocs.org/ar/S/RES/2347(2017)">(2017)</a> و <a href="https://undocs.org/ar/S/RES/2354(2017)">2354</a><a href="https://undocs.org/ar/S/RES/2354(2017)"> </a><a href="https://undocs.org/ar/S/RES/2354(2017)">(2017)</a> و <a href="https://undocs.org/ar/S/RES/2368(2017)">2368</a><a href="https://undocs.org/ar/S/RES/2368(2017)"> </a><a href="https://undocs.org/ar/S/RES/2368(2017)">(2017)</a> و <a href="https://undocs.org/ar/S/RES/2370(2017)">2370</a><a href="https://undocs.org/ar/S/RES/2370(2017)"> </a><a href="https://undocs.org/ar/S/RES/2370(2017)">(2017)</a> و <a href="https://undocs.org/ar/S/RES/2379(2017)">2379</a><a href="https://undocs.org/ar/S/RES/2379(2017)"> </a><a href="https://undocs.org/ar/S/RES/2379(2017)">(2017)</a>، و <a href="https://undocs.org/ar/S/RES/2388(2017)">2388</a><a href="https://undocs.org/ar/S/RES/2388(2017)"> </a><a href="https://undocs.org/ar/S/RES/2388(2017)">(2017)</a> و <a href="https://undocs.org/ar/S/RES/2396(2017)">2396</a><a href="https://undocs.org/ar/S/RES/2396(2017)"> </a><a href="https://undocs.org/ar/S/RES/2396(2017)">(2017)</a> و <a href="https://undocs.org/ar/S/RES/2462(2019)">2462</a><a href="https://undocs.org/ar/S/RES/2462(2019)"> </a><a href="https://undocs.org/ar/S/RES/2462(2019)">(2019)</a> و <a href="https://undocs.org/ar/S/RES/2482(2019)">2482</a><a href="https://undocs.org/ar/S/RES/2482(2019)"> </a><a href="https://undocs.org/ar/S/RES/2482(2019)">(2019)</a>، وبيانات رئيسه ذات الصلة،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_3">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد من جديد</span> أن الإرهاب بجميع أشكاله ومظاهره يمثل أحد أشد الأخطار التي تهدد السلام والأمن الدوليين وأن أي عمل إرهابي هو عملٌ إجرامي لا يمكن تبريره بغض النظر عن دوافعه، وبصرف النظر عن توقيته أو هوية مرتكبيه، وإذ يظل مصمما على مواصلة الإسهام في تعزيز فعالية مجمل الجهود الرامية إلى مكافحة هذه الآفة على الصعيد العالمي،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_4">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يسلّم</span> بأن الإرهاب يشكل تهديدا للسلام والأمن الدوليين، وأن مكافحة هذا التهديد تتطلب بذل جهود جماعية على الصعد الوطني والإقليمي والدولي تقوم على أساس احترام القانون الدولي وميثاق الأمم المتحدة، </p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_5">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يسلّم</span> بأن الإرهاب لن يُهزَم بالقوة العسكرية وتدابير إنفاذ القانون والعمليات الاستخباراتية وحدها، <span class="bold italic">وإذ يشدد</span> على الحاجة إلى معالجة الظروف المؤدية إلى انتشار الإرهاب، على النحو المبين في الركيزتين الأولى والرابعة من استراتيجية الأمم المتحدة العالمية لمكافحة الإرهاب (<a href="https://undocs.org/ar/A/RES/60/288">A</a><a href="https://undocs.org/ar/A/RES/60/288">/</a><a href="https://undocs.org/ar/A/RES/60/288">RES</a><a href="https://undocs.org/ar/A/RES/60/288">/</a><a href="https://undocs.org/ar/A/RES/60/288">60</a><a href="https://undocs.org/ar/A/RES/60/288">/</a><a href="https://undocs.org/ar/A/RES/60/288">288</a>) بسبل منها على سبيل المثال لا الحصر ضرورة تكثيف الجهود المبذولة من أجل منع نشوء نزاعات طويلة الأمد بنجاح وحلها سلميا، وضرورة تعزيز سيادة القانون وحماية حقوق الإنسان والحريات الأساسية والحكم الرشيد والتسامح وإشراك الجميع من أجل توفير بديل صالح لأولئك الذين يمكن أن يُجنَّدوا لأغراض إرهابية وأن يسلكوا طريق التطرف المفضي إلى العنف،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_6">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يسلم </span>بأن اتباع نهج شامل لهزم الإرهاب يقتضي اتخاذ إجراءات وطنية وإقليمية ودون إقليمية ومتعددة الأطراف، <span class="bold italic">وإذ يؤكد من جديد</span> أهمية معالجة الظروف الكامنة التي تفضي إلى انتشار الإرهاب والتطرف المفضي إلى الإرهاب من خلال تبني نهج شامل،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_7">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد من جديد</span> أن تعزيز حقوق الإنسان للجميع وحمايتها وسيادة القانون تشكل عناصر أساسية في مكافحة الإرهاب، وإذ ‏يقر بأن اتخاذ تدابير فعالة لمكافحة الإرهاب وحماية حقوق الإنسان هدفان لا يتعارضان، بل هما متكاملان ويعزز كل منهما الآخر، ‏وإذ يؤكد ضرورة تعزيز حقوق ضحايا الإرهاب وحمايتها،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_8">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد من جديد</span> أن الدول الأعضاء يجب أن تكفل امتثال أي تدابير تُتخذ من أجل مكافحة الإرهاب لجميع التزاماتها بموجب القانون الدولي، ولا سيما القانون الدولي لحقوق الإنسان والقانون الدولي للّاجئين والقانون الدولي الإنساني، <span class="bold italic">وإذ يؤكد </span>على أن اتخاذ تدابير فعالة لمكافحة الإرهاب واحترام حقوق الإنسان والحريات الأساسية وسيادة القانون أمور يكمل كل منها الآخر ويدعمه وتشكل جزءا أساسيا من أي جهود ناجحة لمكافحة الإرهاب، وإذ يلاحظ أهمية احترام سيادة القانون من أجل منع ومكافحة الإرهاب بصورة فعالة،</p>
+      </container>
+      <container name="وإذ يدين" eId="container_9">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يدين</span> بأشد العبارات الإرهاب بجميع أشكاله ومظاهره، وجميع الأعمال الإرهابية، بما فيها تلك القائمة على كراهية الأجانب والعنصرية وغيرها من أشكال التعصب أو التي تُرتكب باسم الدين أو المعتقد، <span class="bold italic">وإذ يؤكد من جديد</span> أن الإرهاب لا ينبغي ربطه بأي دين أو جنسية أو حضارة أو فئة،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_10">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشدد </span>على أن المسؤولية الرئيسية عن مكافحة الأعمال الإرهابية والتطرف العنيف المفضي إلى الإرهاب تقع على عاتق الدول الأعضاء،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_11">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد من جديد</span> التزامه بسيادة جميع الدول وسلامة أراضيها واستقلالها السياسي وفقا لميثاق الأمم المتحدة،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_12">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد من جديد</span> دعوته جميع الدول إلى أن تصبح أطرافا في الاتفاقيات والبروتوكولات الدولية لمكافحة الإرهاب في أقرب وقت ممكن، وأن تنفذ على نحو كامل التزاماتها بموجب الصكوك التي هي طرف فيها،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_13">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد</span> على الدور المحوري للأمم المتحدة في مكافحة الإرهاب على الصعيد العالمي، <span class="bold italic">ويرحب</span> بالاستعراض السابع لاستراتيجية الأمم المتحدة العالمية لمكافحة الإرهاب (الاستراتيجية العالمية) (الوثيقة <a href="https://undocs.org/ar/A/RES/75/291">A</a><a href="https://undocs.org/ar/A/RES/75/291">/</a><a href="https://undocs.org/ar/A/RES/75/291">RES</a><a href="https://undocs.org/ar/A/RES/75/291">/</a><a href="https://undocs.org/ar/A/RES/75/291">75</a><a href="https://undocs.org/ar/A/RES/75/291">/</a><a href="https://undocs.org/ar/A/RES/75/291">291</a> المؤرخة 2 تموز/يوليه 2021)، الذي أكد أهمية تنفيذ الركائز الأربع للاستراتيجية العالمية بطريقة متكاملة ومتوازنة، <span class="bold italic">وإذ يعرب عن تأييده</span> لأنشطة مكتب الأمم المتحدة لمكافحة الإرهاب (مكتب مكافحة الإرهاب)، وفقا لقرار الجمعية العامة <a href="https://undocs.org/ar/A/RES/71/291">71</a><a href="https://undocs.org/ar/A/RES/71/291">/</a><a href="https://undocs.org/ar/A/RES/71/291">291</a> المؤرخ 15 حزيران/يونيه 2017، ودوره المحوري في تعزيز التنفيذ المتوازن للاستراتيجية العالمية،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_14">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد</span> على أهمية التنسيق والتعاون الوطيدين بين المديرية التنفيذية ومكتب مكافحة الإرهاب، في إطار عملهما ضمن الولايات المسندة إلى كل منهما ووفقا للأدوار المتميزة لكل منهما، من أجل كفالة انخراط الأمم المتحدة بفعالية مع الدول الأعضاء في العمل على تحسين تنفيذ الاستراتيجية العالمية على نحو متوازن إلى جانب القرارات الأخرى المتعلقة بمكافحة الإرهاب، ولكفالة انخراط الأمم المتحدة بفعالية مع سائر المنظمات الدولية والإقليمية ودون الإقليمية المعنية، ومع الشركاء الرئيسيين من قبيل المنتدى العالمي لمكافحة الإرهاب (المنتدى العالمي) والجهات الأخرى التي تبذل جهودا بالغة الأهمية لمنع ومكافحة الإرهاب، ومنها الجهات المعنية من المجتمع المدني والأوساط الأكاديمية ومراكز الفكر والقطاع الخاص، <span class="bold italic">وإذ يلاحظ</span> أهمية التفاعل، حسب الاقتضاء، مع الهيئات النسائية والشبابية والمحلية،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_15">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يعرب عن بالغ القلق</span> من أن المقاتلين الإرهابيين الأجانب الذين انضموا إلى كيانات مثل تنظيم الدولة الإسلامية في العراق والشام، المعروف أيضا باسم داعش، والقاعدة، وجبهة النصرة وسائر خلايا تنظيم الدولة الإسلامية أو القاعدة أو الجماعات المرتبطة بهما أو المنشقة عنهما أو المتفرعة منهما، قد يسعون إلى العودة إلى بلدانهم الأصلية أو البلدان التي يحملون جنسياتها، أو الانتقال إلى بلدان ثالثة، <span class="bold italic">وإذ يشير</span> إلى أن جميع الدول سوف تتخذ، وفقا لالتزاماتها الدولية ذات الصلة، بما في ذلك القانون الدولي لحقوق الإنسان، إجراءات محددة للتصدي للخطر الذي يشكله المقاتلون الإرهابيون الأجانب، <span class="bold italic">إذ يؤكد</span> على الحاجة الملحة إلى التنفيذ الكامل والفوري للقرارين <a href="https://undocs.org/ar/S/RES/2178(2014)">2178</a><a href="https://undocs.org/ar/S/RES/2178(2014)"> </a><a href="https://undocs.org/ar/S/RES/2178(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2396(2017)">2396</a><a href="https://undocs.org/ar/S/RES/2396(2017)"> </a><a href="https://undocs.org/ar/S/RES/2396(2017)">(2017)</a>، بما في ذلك أحكامهما بشأن وضع استراتيجيات شاملة ومكيَّفة للمقاضاة وإعادة التأهيل وإعادة الإدماج، <span class="bold italic">وإذ يؤكد</span> أهمية مساعدة النساء والأطفال المرتبطين بالمقاتلين الإرهابيين الأجانب، الذين قد يكونون ضحايا للإرهاب،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_16">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يرحب</span> بالتطورات المستجدة والمبادرات المضطلع بها على الصعد الدولي والإقليمي ودون الإقليمي لمنع الإرهاب الدولي وقمعه، بما في ذلك مبادئ مدريد التوجيهية التي اعتمدتها لجنة مكافحة الإرهاب في عام 2015، وإضافتها لعام 2018، بما يشمل الضمانات الخاصة والآليات القانونية لحماية الأطفال، </p>
+      </container>
+      <container name="وإذ يكرر كذلك تأكيد" eId="container_17">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يكرر كذلك تأكيد</span> التزام الدول الأعضاء بمنع تحركات الإرهابيين أو الجماعات الإرهابية، بطرق منها فرض ضوابط فعالة عند الحدود، <span class="bold italic">وإذ يحث</span> الدول الأعضاء في هذا السياق على تبادل المعلومات على وجه السرعة وتحسين التعاون بين السلطات المختصة لمنع دخول الإرهابيين والجماعات الإرهابية إلى أراضيها وخروجهم منها وتزويد الإرهابيين بالسلاح وتوفير التمويل الذي من شأنه أن يدعم الإرهابيين والجماعات الإرهابية، <span class="bold italic">وإذ يؤكد</span> أن الملاذات الآمنة المتاحة للإرهابيين تظل مصدر قلق بالغ وأن الدول الأعضاء كافة يجب أن تتعاون تعاونا تاما في مكافحة الإرهاب من أجل العثور على أي شخص يدعم أو ييسر تمويل الأعمال الإرهابية أو التخطيط أو التحضير لها أو ارتكابها أو توفير الملاذ الآمن، أو يشارك أو يحاول المشاركة في ذلك، وعدم منح الملاذ الآمن لذلك الشخص، وتقديمه إلى العدالة أو تسليمه أو مقاضاته وفقا للقانون الدولي الواجب التطبيق،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_18">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يسلم</span> بالحاجة إلى تحسين جمع المعلومات والمواد التي تجمعها القوات العسكرية أو تتلقاها، والتي يشار إليها أيضا بـ ”الأدلة المستمدة من ساحة المعركة“، ومعالجتها والاحتفاظ بها وتعميمها، بما ينسجم وأحكام القانون الدولي، لضمان إمكانية التحقيق مع المقاتلين الإرهابيين الأجانب الذين ارتكبوا جرائم ومقاضاتهم إذا تطلب الأمر، <span class="bold italic">وإذ يؤكد</span> أن جمع الأدلة والاحتفاظ بها، على النحو المنصوص عليه في الأطر القانونية المحلية المعنية، أمر ضروري لمقاضاة مرتكبي الجرائم الإرهابية والحكم عليهم ومعاقبتهم، <span class="bold italic">وإذ يؤكد كذلك</span> على قيمة ”الأدلة المستمدة من ساحة المعركة“ باعتبارها أداة أساسية في الملاحقات القضائية ولتحديد العقوبة المناسبة على الجرائم الإرهابية، عند الحصول عليها واستخدامها على النحو الصحيح، كجزء من الجهود الرامية إلى محاسبة الإرهابيين على جرائمهم، <span class="bold italic">وإذ يؤكد كذلك</span> على الحاجة إلى تثقيف وتدريب الممارسين المعنيين بشأن الإجراءات الواجب تطبيقها في عمليات جمع ”الأدلة المستمدة من ساحة المعركة“ والاحتفاظ بها واستخدامها، <span class="bold italic">وإذ يلاحظ</span> أهمية وضوح السلطات والأنظمة والممارسات القانونية لأغراض جمع هذا النوع من الأدلة وتبادلها واستعمالها في المحاكم الوطنية، في ظل الاحترام الكامل لضمانات المحاكمة العادلة للمتهمين، وبما يتماشى مع القانون الدولي لحقوق الإنسان، حسب الاقتضاء، <span class="bold italic">وإذ يلاحظ كذلك</span> المبادئ التوجيهية للمديرية التنفيذية لتيسير استخدام المعلومات التي تجمعها القوات العسكرية وتعالجها وتحتفظ بها وتُعمّمها ولتيسير مقبوليتها كأدلة في المحاكم الجنائية الوطنية لمقاضاة مرتكبي الجرائم الإرهابية،</p>
+      </container>
+      <container name="وإذ يلاحظ بقلق" eId="container_19">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يلاحظ بقلق</span> تزايد إساءة استخدام الإرهابيين للمنظومات الجوية غير المأهولة على الصعيد العالمي لشن هجمات على الهياكل الأساسية التجارية والحكومية المحظورة والأماكن العامة والتوغل فيها، <span class="bold italic">وإذ يقر</span> بالحاجة إلى تحقيق التوازن بين تعزيز الابتكار ومنع إساءة استخدام المنظومات الجوية غير المأهولة في ظل توسع تطبيقاتها، <span class="bold italic">وإذ يلاحظ </span>الجهود الدولية التي تسهم في زيادة الوعي باستخدام المنظومات الجوية غير المأهولة للأغراض الإرهابية والتأهب لها في ظل تزايد سهولة الوصول إلى هذه التكنولوجيا واتساع نطاق استخدامها في القطاعين العام والخاص، بما في ذلك منشور <span class="italic">حماية الهياكل الأساسية الحيوية من الهجمات الإرهابية: مجموعة الممارسات الجيدة،</span> الذي أعدته المديرية التنفيذية بالتعاون مع مكتب مكافحة الإرهاب والإنتربول <span class="italic">ومذكرة برلين بشأن الممارسات الجيدة لمكافحة استخدام الإرهابيين للمنظومات الجوية غير المأهولة</span> الصادرة عن المنتدى العالمي لمكافحة الإرهاب،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_20">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشدد</span> على أن إنشاء نظم منصفة وفعالة للعدالة الجنائية والحفاظ عليها، في ظل الاحترام الكامل لحقوق الإنسان والحريات الأساسية والالتزام بها في إطار سيادة القانون، يجب أن يكونا في صلب أي استراتيجية ناجحة لمنع الإرهاب ومكافحته، <span class="bold italic">وإذ يلاحظ</span> أهمية منظورات الدول الأعضاء، <span class="bold italic">وإذ يشير</span> إلى الدور الهام الذي يضطلع به كل من مكتب الأمم المتحدة المعني بالمخدرات والجريمة ومعهد الأمم المتحدة الأقاليمي لبحوث الجريمة والعدالة، بالتنسيق مع سائر وكالات الأمم المتحدة المعنية وأصحاب المصلحة ذوي الصلة، وإلى ريادتهما في مجال بناء القدرات، بناءً على طلب الدول الأعضاء، وإلى خبراتهما في هذا المجال، <span class="bold italic">وإذ يشجع</span> المديرية التنفيذية على التعاون الوثيق مع هذين الكيانين، </p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_21">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يعرب عن قلقه</span> من أن الجماعات الإرهابية تسعى سعيا حثيثا إلى إيجاد سبل تمكنها من التغلب على تدابير أمن الطيران أو الالتفاف عليها، <span class="bold italic">وإذ يؤكد</span> الدور الذي تقوم به منظمة الطيران المدني الدولي بوصفها منظمة تابعة للأمم المتحدة مسؤولة عن وضع معايير أمن الطيران الدولي ورصد تنفيذها من جانب الدول، ودورها في مساعدة الدول في الامتثال لهذه المعايير، <span class="bold italic">وإذ يرحب</span> بموافقة منظمة الطيران المدني الدولي على الخطة العالمية لأمن الطيران بوصفها الإطار العالمي لتعزيز أمن الطيران تدريجيا، <span class="bold italic">وإذ يشجع</span> المديرية التنفيذية على التعاون الوثيق مع منظمة الطيران المدني الدولي،</p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_22">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يسلّم</span> بالتحديات التي تواجه الدول الأعضاء فيما يتعلق بالتعامل مع الإرهابيين المشتبه بهم والمدانين المحتجزين، <span class="bold italic">وإذ يشجع</span> الدول الأعضاء على التعاون وتبادل أفضل الممارسات فيما يتعلق بحسن إدارة بيئات الاحتجاز التي تحترم فيها حقوق الإنسان وتبذل فيها جهود من أجل إعادة تأهيل الإرهابيين المدانين وإعادة إدماجهم، <span class="bold italic">وإذ يلاحظ</span> في هذا الصدد الأعمال التي يضطلع بها مكتب الأمم المتحدة المعني بالمخدرات والجريمة، ومعهد الأمم المتحدة الأقاليمي لأبحاث الجريمة والعدالة، وغيرهما من الجهات المعنية صاحبة المصلحة،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_23">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يعرب عن قلقه</span> من الصلات التي تربط في بعض الحالات بين الإرهاب والجريمة المنظمة عبر الوطنية، بما في ذلك الاتجار غير المشروع بالمخدرات والأسلحة والأشخاص، وكذلك غسل الأموال والاتجار بالممتلكات الثقافية، <span class="bold italic">وإذ يشدد</span> على ضرورة تحسين تنسيق الجهود على الصعد المحلي والوطني ودون الإقليمي والإقليمي والدولي بهدف التصدي لهذا التحدي الخطير، وفقا للقانون الدولي، وفي سياق نظم العدالة الجنائية وإنفاذ القانون مع احترام حقوق الإنسان والحريات الأساسية وسيادة القانون احتراما كاملا،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_24">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشدد</span> على ضرورة التصدي بفعالية للطرق التي يستخدم بها تنظيم الدولة الإسلامية وتنظيم القاعدة ومن يرتبط بهما من أفراد وجماعات ومؤسسات وكيانات خطابهم لتحريض الآخرين على ارتكاب أعمال إرهابية وتجنيدهم لذلك، <span class="bold italic">وإذ يشير كذلك</span> في هذا الصدد إلى القرار <a href="https://undocs.org/ar/S/RES/2354(2017)">2354</a><a href="https://undocs.org/ar/S/RES/2354(2017)"> </a><a href="https://undocs.org/ar/S/RES/2354(2017)">(2017)</a> و ”الإطار الدولي الشامل لمكافحة الخطاب الإرهابي“ (<a href="https://undocs.org/ar/S/2017/375">S</a><a href="https://undocs.org/ar/S/2017/375">/</a><a href="https://undocs.org/ar/S/2017/375">2017</a><a href="https://undocs.org/ar/S/2017/375">/</a><a href="https://undocs.org/ar/S/2017/375">375</a>) الذي يتضمن المبادئ التوجيهية والممارسات الجيدة الموصى بها، </p>
+      </container>
+      <container name="وإذ يكرر تأكيد" eId="container_25">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يكرر تأكيد</span> التزام الدول الأعضاء بمنع تمويل الأعمال الإرهابية وقمعه، وبتجريم القيام عمدا بتوفير أو جمع الأموال بواسطة رعاياها أو في إقليمها، بأية وسيلة كانت، مباشرة أو غير مباشرة، بنية استخدام تلك الأموال للقيام بأعمال إرهابية أو مع العلم بأنها ستستخدم لذلك الغرض، <span class="bold italic">وإذ يؤكد من جديد أيضا</span> التزام الدول الأعضاء بالقيام دونما تأخير بتجميد الأموال وغيرها من الأصول المالية أو الموارد الاقتصادية المملوكة لجهات، من أشخاص أو كيانات، ترتكب أعمالا إرهابية أو تشرع في ارتكابها أو تشارك فيها أو تعمل على تيسيرها، <span class="bold italic">وإذ يؤكد من جديد كذلك</span> التزام الدول الأعضاء بأن تحظر على رعاياها أو على أي أشخاص وكيانات داخل أراضيها إتاحة أي أموال أو أصول مالية أو موارد اقتصادية أو خدمات مالية أو غيرها من الخدمات المتصلة بها، بصورة مباشرة أو غير مباشرة، لصالح تنظيمات إرهابية أو فرادى الإرهابيين لأي غرض من الأغراض، بما يشمل، على سبيل المثال لا الحصر، التجنيد أو التدريب أو السفر، حتى وإن لم يكن لذلك صلة بعمل إرهابي محدد، وللكيانات التي يملكها أو يتحكم فيها، بصورة مباشرة أو غير مباشرة، هؤلاء الأشخاص ولجهات، من أشخاص وكيانات، تعمل باسم هؤلاء الأشخاص أو بتوجيه منهم،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_26">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يسلم</span> بأن الابتكارات في التكنولوجيات والمنتجات والخدمات المالية يمكن أن توفر فرصا اقتصادية كبيرة ولكنها تنطوي أيضاً على خطر إساءة استعمالها لأغراض مختلفة من بينها تمويل الإرهاب،</p>
+      </container>
+      <container name="وإذ يعترف" eId="container_27">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يعترف</span> بالعمل الهام الذي تضطلع به في مجال مكافحة تمويل الإرهاب كياناتُ الأمم المتحدة وغيرها من الهيئات والمحافل المتعددة الأطراف، <span class="bold italic">وإذ يكرر تأكيد</span> الدور الأساسي الذي تضطلع به فرقة العمل المعنية بالإجراءات المالية في وضع المعايير العالمية المتعلقة بمنع ومكافحة غسل الأموال وتمويل الإرهاب وتمويل الانتشار، وشبكتها العالمية من الهيئات الإقليمية المناظرة لها، <span class="bold italic">وإذ يشجع</span> المديرية التنفيذية على توطيد تعاونها مع تلك الكيانات،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_28">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشير</span> إلى قراره أن تعمل الدول على وقف إمدادات الأسلحة، بما فيها الأسلحة الصغيرة والأسلحة الخفيفة، إلى الإرهابيين، وكذلك دعوته الدولَ أن تستكشف السبل الكفيلة بتكثيف وتسريع تبادل المعلومات العملياتية المتصلة بالاتجار بالأسلحة، وأن تحسن تنسيق الجهود المبذولة على كل من الصعيد الوطني ودون الإقليمي والإقليمي والدولي، <span class="bold italic">وإذ يحث</span> في هذا الصدد الدول على تنفيذ التدابير الواردة في القرار <a href="https://undocs.org/ar/S/RES/2370(2017)">2370</a><a href="https://undocs.org/ar/S/RES/2370(2017)"> </a><a href="https://undocs.org/ar/S/RES/2370(2017)">(2017)</a> تنفيذا كاملا، </p>
+      </container>
+      <container name="وإذ يسلّم" eId="container_29">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يسلّم</span> بضرورة أن تمنع الدول الأعضاء، باستخدام نهج قائم على تقييم المخاطر، إساءة استغلال الإرهابيين للمنظمات غير الحكومية وغير الربحية والخيرية لصالحهم، <span class="bold italic">وإذ يهيب</span> بالمنظمات غير الحكومية وغير الربحية والخيرية أن تعمل، حسب الاقتضاء، على منع المحاولات التي يقوم بها الإرهابيون لإساءة استغلال مركز تلك المنظمات والتصدي لتلك المحاولات من خلال اتخاذ تدابير لتخفيف المخاطر، <span class="bold italic">ويذكِّر</span> في الوقت نفسه بأهمية الاحترام التام لحقوق الأفراد في التعبير وفي تكوين الجمعيات في المجتمع المدني، وحرية الدين أو المعتقد، <span class="bold italic">وإذ يلاحظ مرة أخرى</span> التوصية والوثائق التوجيهية التي أصدرتها في هذا الصدد فرقة العمل المعنية بالإجراءات المالية، <span class="bold italic">وإذ يكرر التأكيد </span>على أن الدول ينبغي لها أن تحدد وتتخذ، وفقا للقانون الدولي، إجراءات فعالة ومناسبة ضد المنظمات غير الربحية التي يستغلها إرهابيون أو منظمات إرهابية أو التي تدعم عن علم هؤلاء الإرهابيين أو المنظمات الإرهابية، مع مراعاة خصوصيات الحالة، </p>
+      </container>
+      <container name="وإذ يدين" eId="container_30">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يدين</span> تدمير التراث الثقافي الذي ترتكبه الجماعات الإرهابية، سواء أكان هذا التدمير عرضيا أو متعمدا، <span class="bold italic">وإذ يشدد مجددا</span> على أن التدمير غير المشروع للتراث الثقافي، ونهب وتهريب الممتلكات الثقافية من جانب الجماعات الإرهابية، ومحاولة حجب الجذور التاريخية ومنع التنوع الثقافي في هذا السياق يمكن أن تؤجج النزاع وتؤدي إلى تفاقمه وتعرقل المصالحة الوطنية بعد انتهاء النزاع، مما يقوض الأمن والاستقرار والحكم الرشيد والتنمية الاجتماعية والاقتصادية والثقافية للدول المتضررة،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_31">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما</span> بالعمل الذي يقوم به المنتدى العالمي لمكافحة الإرهاب، دعما للتنفيذ المتوازن للاستراتيجية العالمية لمكافحة الإرهاب، ولا سيما إصداره عدة وثائق إطارية وممارسات جيدة، في مجالات منها منع ومكافحة التطرف العنيف عندما يفضي إلى الإرهاب، وأمن الحدود، والإدراج في قوائم المراقبة، والأمن البحري، وحماية الأهداف غير المحصّنة، والأفراد الذين يعتنقون الفكر المتشدد المفضي إلى العنف أو يخضعون لتوجيه من المقاتلين الإرهابيين الأجانب، والضحايا، والعدالة الجنائية وسيادة القانون، وعودة المقاتلين الإرهابيين الأجانب وأفراد أسرهم الذين سافروا برفقتهم وتغيير محل إقامتهم، والإرهابيون المحليون من حيث المنشأ، وبناء القدرات في أفريقيا، والملاحقة القضائية، وإعادة التأهيل وإعادة الإدماج، والاختطاف طلبا للفدية، وذلك استكمالا للعمل الذي تضطلع به في تلك المجالات كيانات الأمم المتحدة المعنية بمكافحة الإرهاب، <span class="bold italic">وإذ يشجع</span> المديرية التنفيذية على مواصلة تفاعلها مع المنتدى العالمي من أجل تعزيز التنفيذ الكامل للقرارات <a href="https://undocs.org/ar/S/RES/1373(2001)">1373</a><a href="https://undocs.org/ar/S/RES/1373(2001)"> </a><a href="https://undocs.org/ar/S/RES/1373(2001)">(2001)</a>، و <a href="https://undocs.org/ar/S/RES/1624(2005)">1624</a><a href="https://undocs.org/ar/S/RES/1624(2005)"> </a><a href="https://undocs.org/ar/S/RES/1624(2005)">(2005)</a> و <a href="https://undocs.org/ar/S/RES/2178(2014)">2178</a><a href="https://undocs.org/ar/S/RES/2178(2014)"> </a><a href="https://undocs.org/ar/S/RES/2178(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2396(2017)">2396</a><a href="https://undocs.org/ar/S/RES/2396(2017)"> </a><a href="https://undocs.org/ar/S/RES/2396(2017)">(2017)</a> والقرارات الأخرى ذات الصلة بمكافحة الإرهاب،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_32">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يسلم</span> بأهمية المجتمع المدني، بما في ذلك منظمات المجتمع المدني الأهلية والمنظمات ذات القواعد الشعبية والقطاع الخاص والأوساط الأكاديمية ومراكز الفكر ووسائط الإعلام والشباب والمرأة والزعماء في المجالين الثقافي والتربوي والزعماء الدينيون، في إذكاء الوعي بالأخطار التي يشكلها الإرهاب والتصدي لها بقدر أكبر من الفعالية،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_33">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشدد </span>على ضرورة أن تعمل الدول الأعضاء بشكل تعاوني لمنع ومكافحة استخدام تكنولوجيا المعلومات والاتصالات، بما في ذلك الإنترنت، لأغراض إرهابية مثل التجنيد والتحريض على ارتكاب الأعمال الإرهابية، وكذلك تمويل أنشطتهم والتخطيط والتحضير لها، بالشراكة مع القطاع الخاص والمجتمع المدني وأصحاب المصلحة الآخرين، حسب الاقتضاء، مع احترام حقوق الإنسان والحريات الأساسية وسيادة القانون، <span class="bold italic">وإذ يشجع</span> المديرية التنفيذية على تعميق تواصلها وتعاونها مع كيانات القطاع الخاص ذات الصلة،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_34">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يحيط علما</span> بدعوة كراستشيرش إلى العمل وبيان مؤتمر قمة أوساكا لقادة مجموعة العشرين بشأن منع استغلال الإنترنت لأغراض الإرهاب والتطرف العنيف الذي يفضي إلى الإرهاب،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_35">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد </span>حاجة الدول الأعضاء إلى العمل في إطار من التعاون لمنع الإرهابيين من استغلال تكنولوجيات المعلومات والاتصالات، وكذلك حاجة الدول الأعضاء إلى مواصلة تعاونها الطوعي مع القطاع الخاص والمجتمع المدني من أجل تطوير وتنفيذ وسائل أكثر فعالية للتصدي لاستخدام الإنترنت لأغراض إرهابية، بما في ذلك عن طريق تطوير خطاب مناهض للإرهاب ومن خلال إيجاد حلول تكنولوجية، مع العمل في الوقت نفسه على احترام حقوق الإنسان والحريات الأساسية والامتثال للقانون المحلي والقانون الدولي، <span class="bold italic">وإذ يحيط علما</span> بمنتدى الإنترنت العالمي لمكافحة الإرهاب الذي تتولى زمامه الدوائر الصناعية، <span class="bold italic">وإذ يدعو</span> منتدى الإنترنت العالمي إلى الاستمرار في زيادة عمله مع الحكومات وشركات التكنولوجيا على الصعيد العالمي، <span class="bold italic">وإذ ينوه</span> بجهود المبادرة التابعة للأمم المتحدة بشأن تسخير التكنولوجيا لمكافحة الإرهاب من أجل تعزيز التعاون مع ممثلين من قطاع التكنولوجيا، بما في ذلك شركات التكنولوجيا الصغرى والمجتمع المدني والأوساط الأكاديمية والحكومات، وذلك بهدف تعطيل قدرة الإرهابيين على استخدام الإنترنت تحقيقا لأغراض إرهابية، مع العمل في نفس الوقت على احترام حقوق الإنسان والحريات الأساسية،</p>
+      </container>
+      <container name="وإذ يحث" eId="container_36">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحث</span> الدول الأعضاء ومنظومة الأمم المتحدة على اتخاذ التدابير اللازمة، عملا بالقانون الدولي، لمعالجة الظروف المؤدية إلى انتشار الإرهاب والتطرف العنيف عندما يفضي إلى الإرهاب، <span class="bold italic">وإذ يشدد كذلك</span> على أن مكافحة التطرف العنيف عندما يفضي إلى الإرهاب، بما في ذلك منع نشر الفكر المتطرف المفضي إلى العنف بين الأفراد وتجنيدهم وتعبئتهم لينضموا إلى الجماعات الإرهابية، تشكل عاملا أساسيا من عوامل التصدي للخطر الذي يشكله الإرهاب على السلم والأمن الدوليين، بطريقة متوازنة على النحو المبين في الاستراتيجية العالمية لمكافحة الإرهاب،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_37">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يؤكد من جديد</span> ضرورة زيادة الاهتمام بمسائل المرأة والشباب في جميع الأعمال المتعلقة بالتهديدات التي يتعرض لها السلام والأمن الدوليان من جراء الأعمال الإرهابية، <span class="bold italic">وإذ يشير</span> إلى أهمية إدراج مشاركة النساء والشباب في وضع استراتيجيات لمنع ومكافحة الإرهاب والتطرف العنيف الذي يمكن أن يفضي إلى الإرهاب، <span class="bold italic">وإذ يشدد</span> على ضرورة مواصلة الجهود الرامية إلى ضمان مشاركة المرأة والشباب مشاركة كاملة ومتساوية ومجدية في جميع نُهج واستراتيجيات مكافحة الإرهاب والتطرف العنيف المفضي إلى الإرهاب،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_38">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشدد </span>على أهمية اتباع نهج يشمل كافة مكونات الحكومة، <span class="bold italic">ويقر</span> بالدور المهم الذي يمكن أن تؤديه منظمات المجتمع المدني، بما في ذلك في قطاعات الصحة والرعاية الاجتماعية والتعليم، من حيث الإسهام في إعادة تأهيل المقاتلين الإرهابيين الأجانب وأفراد أسرهم المرافقين لهم وإعادة إدماجهم، بالنظر إلى ما قد يكون لدى تلك المنظمات من دراية بأحوال المجتمعات المحلية وإمكانية الوصول إليها والتواصل معها مما يمكّن من التصدي لتحديات التجنيد وتغذية نزعة التطرف المفضي إلى العنف، <span class="bold italic">وإذ يشجع</span> الدول الأعضاء على أن تبادر إلى العمل مع منظمات المجتمع المدني عند وضع استراتيجيات إعادة التأهيل وإعادة الإدماج،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_39">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يلاحظ</span> الدور الحاسم الذي تضطلع به المديرية التنفيذية لمكافحة الإرهاب داخل الأمم المتحدة وخبرتها في تقييم مسائل مكافحة الإرهاب وفي دعم وضع وتعزيز تدابير مستنيرة لمكافحة الإرهاب، <span class="bold italic">وإذ يحث</span> مكتب مكافحة الإرهاب وسائر هيئات الأمم المتحدة المعنية على أن تأخذ في الاعتبار توصيات وتحليلات المديرية التنفيذية في مجال تنفيذ برامجها وولاياتها،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_40">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يرحب</span> بالتعاون المستمر في جهود مكافحة الإرهاب بين المديرية التنفيذية ومنظمة الطيران المدني الدولي ومكتب الأمم المتحدة المعني بالمخدرات والجريمة وسائر هيئات الأمم المتحدة المعنية، والمنظمة الدولية للشرطة الجنائية (الإنتربول)، لا سيما فيما يتعلق بالمساعدة التقنية وبناء القدرات، <span class="bold italic">وإذ يشجع بقوة</span> مواصلة تعاون هذه الهيئات مع مكتب مكافحة الإرهاب من أجل ضمان التنسيق والاتساق الشاملين في جهود مكافحة الإرهاب التي تبذلها منظومة الأمم المتحدة،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_41">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يحيط علما </span>”بالدليل التقني لتنفيذ قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/1373(2001)">1373</a><a href="https://undocs.org/ar/S/RES/1373(2001)"> </a><a href="https://undocs.org/ar/S/RES/1373(2001)">(2001)</a> والقرارات الأخرى ذات الصلة بالموضوع“ الذي عملت المديرية التنفيذية على تحديثه،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>1 -</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد</span> أن الهدفَ العام للجنة مكافحة الإرهاب هو كفالة التنفيذ التام للقرار <a href="https://undocs.org/ar/S/RES/1373(2001)">1373</a><a href="https://undocs.org/ar/S/RES/1373(2001)"> </a><a href="https://undocs.org/ar/S/RES/1373(2001)">(2001)</a> <span class="bold italic">ويشير</span> إلى الدور المحوري الذي تقوم به المديرية التنفيذية لمكافحة الإرهاب في دعم اللجنة في الاضطلاع بولايتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>2 -</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> أن تواصل المديرية التنفيذية لمكافحة الإرهاب العمل بوصفها بعثة سياسية خاصة تعمل في إطار التوجيه السياساتي الصادر عن لجنة مكافحة الإرهاب للفترة المنتهية في 31 كانون الأول/ ديسمبر 2025، <span class="bold italic">ويقرر كذلك</span> إجراء استعراض مؤقت بحلول 31 كانون الأول/ديسمبر 2023؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>3 -</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="bold italic">يلاحظ </span>”تقرير لجنة مكافحة الإرهاب المقدم إلى مجلس الأمن من أجل نظره الشامل في أعمال المديرية التنفيذية للجنة مكافحة الإرهاب للفترة 2017-2021“ الذي سيصدر قريبا؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>4 -</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="bold italic">يؤكد</span> على أن تقييم الخبراء المحايد لتنفيذ القرارات <a href="https://undocs.org/ar/S/RES/1373(2001)">1373</a><a href="https://undocs.org/ar/S/RES/1373(2001)"> </a><a href="https://undocs.org/ar/S/RES/1373(2001)">(2001)</a> و <a href="https://undocs.org/ar/S/RES/1624(2005)">1624</a><a href="https://undocs.org/ar/S/RES/1624(2005)"> </a><a href="https://undocs.org/ar/S/RES/1624(2005)">(2005)</a> و <a href="https://undocs.org/ar/S/RES/2178(2014)">2178</a><a href="https://undocs.org/ar/S/RES/2178(2014)"> </a><a href="https://undocs.org/ar/S/RES/2178(2014)">(2014)</a> وغيرها من القرارات ذات الصلة هو المهمة الأساسية التي تقوم بها المديرية التنفيذية، وأن التحليلات والتوصيات المستمدة من هذه التقييمات تشكل وسيلة قيِّمة لمساعدة الدول الأعضاء في تحديد ومعالجة الثغرات في مجال التنفيذ والقدرات، <span class="bold italic">ويدعو</span> مكتب مكافحة الإرهاب وسائر صناديق الأمم المتحدة وبرامجها ذات الصلة والدول الأعضاء والجهات المانحة والبلدان المستفيدة إلى استخدام تقييمات الخبراء هذه عند تصميم جهودها في مجال المساعدة التقنية وبناء القدرات، بما يحقق في جملة أمور التنفيذ المتوازن للاستراتيجية العالمية لمكافحة الإرهاب بركائزها الأربع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>5 -</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بتعاون المديرية التنفيذية مع الكيانات المنضوية في اتفاق الأمم المتحدة العالمي لتنسيق مكافحة الإرهاب وسائر هيئات الأمم المتحدة والمنظمات الإقليمية المعنية، <span class="bold italic">ويحث</span> المديرية التنفيذية على مواصلة ضمان دعوة ممثلي هذه الهيئات إلى المشاركة في أعمال التقييم التي تضطلع بها، كي تواصل الإسهام في وضع التوصيات ذات الأولوية لبناء قدرات الدول الأعضاء في أكثر المجالات إلحاحا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>6 -</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> المديرية التنفيذية أن تقوم، حسب الاقتضاء، بتقييم الجهود التي تبذلها الدول الأعضاء في التصدي لجميع أشكال الإرهاب والتطرف العنيف المفضي إلى الإرهاب، بما فيها تلك القائمة على كراهية الأجانب والعنصرية وغيرها من أشكال التعصب، أو التي تُرتكب باسم الدين أو المعتقد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>7 -</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="bold italic">يدعو</span> المديرية التنفيذية إلى تقييم تنفيذ الدول الأعضاء للأحكام الواردة في قراري مجلس الأمن <a href="https://undocs.org/ar/S/RES/2178(2014)">2178</a><a href="https://undocs.org/ar/S/RES/2178(2014)"> </a><a href="https://undocs.org/ar/S/RES/2178(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2396(2017)">2396</a><a href="https://undocs.org/ar/S/RES/2396(2017)"> </a><a href="https://undocs.org/ar/S/RES/2396(2017)">(2017)</a> اللذين يدعو فيهما إلى تعزيز الجهود الرامية إلى التصدي للتهديد المتغير الذي يشكله المقاتلون الإرهابيون الأجانب ومكافحة سفر الإرهابيين، بما في ذلك من خلال جمع واستخدام وتبادل المعلومات المسبقة عن الركاب وبيانات سجلات أسماء الركاب والبيانات البيومترية، وإدراج الإرهابيين المعروفين أو المشتبه فيهم في قوائم المراقبة، وتقديم تقرير عن تنفيذ تلك الأحكام على الصعيد العالمي بحلول كانون الأول/ديسمبر 2022، مع الإحاطة علما في هذا الصدد بالممارسات الجيدة والتوصيات، ومن ضمنها مبادئ مدريد التوجيهية بشأن المقاتلين الإرهابيين الأجانب والإضافة الملحقة بها؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>8 -</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> المديرية التنفيذية لمكافحة الإرهاب أن تنظر، حسب الاقتضاء، في الثغرات والاحتياجات ذات الصلة في مجال سياسات الدول الأعضاء وقدراتها في الاستخدام الفعال للأدلة التي يجمعها العسكريون والتي يشار إليها أيضا باسم ”الأدلة المستمدة من ساحة المعركة“ لتيسير قيام الكيانات المنضوية في اتفاق الأمم المتحدة العالمي لتنسيق مكافحة الإرهاب، بما فيها مكتب الأمم المتحدة المعني بالمخدرات والجريمة، حسب الاقتضاء، بتوفير التدريب والمساعدة لقطاعات العدالة الجنائية في الدول الأعضاء، ومساعدة الدول الأعضاء على وضع وتنفيذ استراتيجيات شاملة تتيح جمع ”الألة المستمدة من ساحة المعركة“، والاحتفاظ بها وتعميمها واستخدامها على النحو السليم، بما ينسجم وأحكام القانون الدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>9 -</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">
+            <span class="bold italic">	يشجع</span> المديرية التنفيذية أن تقوم، حسب الاقتضاء، بتقييم جهود الدول الأعضاء لضمان تجريم الأعمال الإرهابية وفقا لالتزاماتها بموجب القانون الدولي وملاحقة الجناة قضائيا، وإلى النظر في تعزيز ما يتعلق بتحديد العقوبات من سياسات أو ممارسات أو مبادئ توجيهية وطنية لمعاملة الجناة، بحيث تكون عقوبة الجناة متناسبة مع خطورة الجرم، وفقا للتشريعات الوطنية، مع معاملة من تجري ملاحقتهم قضائيا في جرائم إرهابية أو أدينوا بارتكاب جرائم إرهابية معاملة إنسانية واحترام حقوقهم الإنسانية، وفقا للقانون الدولي، والنظر في اتخاذ تدابير للحد من معاودة الإجرام، بما في ذلك، عند الاقتضاء ووفقا لقوانينها المحلية السارية، إعادة تأهيل السجناء وإعادة إدماجهم في المجتمع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>10 -</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="bold italic">يسلّم</span> بأن ما تجريه المديرية التنفيذية من زيارات قطرية وتقييمات شاملة وما تقوم به من أنشطة المتابعة ذات الصلة تعود بفائدة متبادلة على الدول الأعضاء ولجنة مكافحة الإرهاب ومكتب مكافحة الإرهاب وسائر الكيانات المشاركة في اتفاق الأمم المتحدة العالمي لتنسيق مكافحة الإرهاب وغير ذلك من كيانات الأمم المتحدة والمنظمات الشريكة ذات الصلة لأنها تتيح إجراء حوار مستمر بين الجهات الفاعلة الوطنية وخبراء مكافحة الإرهاب من جميع أنحاء منظومة الأمم المتحدة ومن المنظمات الشريكة ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>11 -</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى المديرية التنفيذية أن تقوم، في غضون ستة أشهر من اتخاذ هذا القرار وبالتشاور مع لجنة مكافحة الإرهاب، باستعراض تنفيذ ولاية المديرية التنفيذية وتقديم توصيات فيما يتعلق بفعالية زياراتها القطرية وتقييماتها وتوصياتها بشأن سياسات وممارسات الدول الأعضاء في مجال مكافحة الإرهاب وحسن توقيتها وأثرها، بما يشمل خيارات لتعزيز الشفافية والكفاءة والشمولية، والدروس المستفادة من أثر جائحة كوفيد-19، وأن تقدمها إلى لجنة مكافحة الإرهاب لتنظر فيها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>12 -</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="bold italic">يوعز</span> إلى لجنة مكافحة الإرهاب، بدعم من المديرية التنفيذية، أن تضع قائمة سنوية بالدول الأعضاء التي ينبغي للمديرية التنفيذية أن تطلب الموافقة على زيارتها بغرض إجراء التقييمات، <span class="bold italic">ويؤكد</span> على أن تشكيل القائمة ينبغي أن يُتبع فيه نهج قائم على تقييم المخاطر يقر بالثغرات القائمة والقضايا الناشئة والاتجاهات والأحداث والتحليلات، وأن تراعَى فيه أيضا الطلبات المقدمة والموافقات المعرب عنها سابقا من الدول الأعضاء، فضلا عن أن هناك عددا من الدول الأعضاء لم تسبق زيارتها على الإطلاق، <span class="bold italic">ويشدد كذلك</span> على أن لجنة مكافحة الإرهاب قد تقرر، بدعم من المديرية التنفيذية، وبعد اعتماد القائمة، إدخال تغييرات على تشكيلها، حسب الاقتضاء، مؤكداً على لزوم توخي الشفافية في التخطيط للزيارات، بسُبل منها إتاحة الجدول الزمني لزياراتها القطرية قبل موعد تلك الزيارات، وإعداد التقارير اللاحقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxt">
+        <num>13 -</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="bold italic">يوعز</span> إلى المديرية التنفيذية، من خلال الزيارات والتقييمات والأعمال التحليلية التي تقوم بها بشأن القضايا الناشئة والاتجاهات والتطورات، أن تدعم الدول الأعضاء وكيانات الأمم المتحدة في اتخاذ التدابير اللازمة، وفقا للقانون الدولي، لمعالجة الظروف المؤدية إلى الإرهاب والتطرف العنيف عندما يفضي إلى الإرهاب، وفقا لاستراتيجية الأمم المتحدة العالمية لمكافحة الإرهاب، بالتنسيق مع مكتب مكافحة الإرهاب وبدعم منه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>14 -</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="bold italic">يوعز</span> إلى المديرية التنفيذية أن تقدم تقريرا إلى لجنة مكافحة الإرهاب بحلول 30 آذار/ مارس 2023 عن سبل مواصلة تعزيز عملية التقييم، بما في ذلك من خلال النظر في إجراء زيارات متابعة محددة الأهداف ومركزة من أجل استكمال التقييمات الشاملة التي تجريها المديرية التنفيذية، وذلك باتّباع نهج قائم على تقييم المخاطر في مواجهة التهديدات المتغيرة، حسب الاقتضاء ومع مراعاة الولاية العالمية المنوطة بالمديرية التنفيذية، والقيام، حيثما أمكن، باختزال الجداول الزمنية لصياغة التقارير واستعراضها، مع مراعاة الاختلافات في قدرات الدول الأعضاء، وتعزيز الإنصاف والاتساق في تطبيق أدوات التقييم، والتواصل، بناء على إيعاز من الدول الأعضاء، مع الخبراء في المجتمع المدني والأوساط الأكاديمية ومراكز الفكر والقطاع الخاص، بما في ذلك في أثناء الزيارات التي تجرى إلى الدول الأعضاء وعمليات التقييم التي تخضع لها وفي أثناء تلك الزيارات وعمليات التقييم وبعدها، استكمالا للتواصل الرئيسي مع الجهات الفاعلة التابعة للدول الأعضاء لتمكينها من إلقاء الضوء على ما يُبذل من جهود مثمرة في مجال مكافحة الإرهاب، بحيث تكون التقييمات أكثر فائدة وأيسر منالا وأكثر تركيزا على جمهور معيّن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxt">
+        <num>15 -</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بالتعاون الوثيق بين المديرية التنفيذية ومكتب مكافحة الإرهاب في وضع وتنفيذ المبادرات المضطلع بها على نطاق الأمم المتحدة برمتها من أجل دعم جهود الدول الأعضاء لتنفيذ قرارات مجلس الأمن ذات الصلة، <span class="bold italic">ويوعز</span> إلى المديرية التنفيذية أن تواصل دعم هذه الأنشطة، <span class="bold italic">ويحث</span> مكتب مكافحة الإرهاب وسائر هيئات الأمم المتحدة المعنية على أن تأخذ في الاعتبار توصيات وتحليلات لجنة مكافحة الإرهاب في سياق تنفيذ برامجها وولاياتها،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_162" class="SingleTxt">
+        <num>16 -</num>
+        <content eId="para_162__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى رئيس لجنة مكافحة الإرهاب أن يدعو كبار المسؤولين في الدول الأعضاء الخاضعة للتقييم إلى حضور اجتماعات لجنة مكافحة الإرهاب ذات الصلة، <span class="bold italic">ويطلب كذلك</span> إلى الرئيس أن يدعو الدول الأعضاء الخاضعة للتقييم إلى التنسيق مع المديرية التنفيذية ومكتب مكافحة الإرهاب بشأن تنفيذ توصيات المديرية التنفيذية، ولكي يتسنى للمديرية التنفيذية تقديم تقرير في غضون 12 شهرا من صدور تقرير التقييم الأولي المقدم إلى لجنة مكافحة الإرهاب بشأن الخطوات المتخذة لتنفيذ التوصيات الواردة في التقييم، مع مراعاة الاختلافات في القدرات وتوافر الموارد، وكذلك الحاجة إلى المساعدة التقنية في مجال تنفيذ بعض التوصيات، <span class="bold italic">ويوعز</span> إلى المديرية التنفيذية أن تقدم توصيات إلى لجنة مكافحة الإرهاب عن الحاجة إلى مزيد من أنشطة المتابعة، حسب الاقتضاء، لمواصلة تنفيذ التوصيات المتعلقة بالتقييم، بما في ذلك، حسب الاقتضاء، تقديم مساعدة تقنية إضافية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_178" class="SingleTxt">
+        <num>17 -</num>
+        <content eId="para_178__content">
+          <p xml:space="preserve">	<span class="bold italic">يوعز</span> إلى المديرية التنفيذية أن تقدم تقاريرها إلى لجنة مكافحة الإرهاب في الوقت المناسب وبصورة منتظمة أو عندما تطلب اللجنة إليها ذلك، من خلال إحاطات شفوية و/أو خطية عن أعمال المديرية، بما يشمل زياراتها للدول الأعضاء، وحالة التنسيق مع هيئات الأمم المتحدة المعنية والتواصل مع الجهات الفاعلة المعنية غير التابعة للأمم المتحدة، وعملية إجراء التقييمات، وتمثيل لجنة مكافحة الإرهاب في مختلف الاجتماعات الدولية والإقليمية وغير ذلك من الأنشطة التي تقوم بها، بما في ذلك في مراحل التخطيط لتلك الأنشطة، وأن تجري استعراضا سنويا وتضع خطة مبدئية سنوية للأنشطة الرامية إلى تسهيل تنفيذ القرارات <a href="https://undocs.org/ar/S/RES/1373(2001)">1373</a><a href="https://undocs.org/ar/S/RES/1373(2001)"> </a><a href="https://undocs.org/ar/S/RES/1373(2001)">(2001)</a> و <a href="https://undocs.org/ar/S/RES/1624(2005)">1624</a><a href="https://undocs.org/ar/S/RES/1624(2005)"> </a><a href="https://undocs.org/ar/S/RES/1624(2005)">(2005)</a> و <a href="https://undocs.org/ar/S/RES/2178(2014)">2178</a><a href="https://undocs.org/ar/S/RES/2178(2014)"> </a><a href="https://undocs.org/ar/S/RES/2178(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2396(2017)">2396</a><a href="https://undocs.org/ar/S/RES/2396(2017)"> </a><a href="https://undocs.org/ar/S/RES/2396(2017)">(2017)</a> وغيرها من القرارات ذات الصلة، وفي هذا السياق، <span class="bold italic">يطلب</span> إلى لجنة مكافحة الإرهاب أن تواصل، بدعم من المديرية التنفيذية، عقد اجتماعات دورية تجمع كل الدول الأعضاء، بما يشمل اجتماعات ذات مجال تركيز إقليمي أو مواضيعي، <span class="bold italic">ويشدد</span> على أهمية عمل المديرية التنفيذية بالنسبة للجنة مكافحة الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_195" class="SingleTxt">
+        <num>18 -</num>
+        <content eId="para_195__content">
+          <p xml:space="preserve">	<span class="bold italic">يطلب</span> إلى لجنة مكافحة الإرهاب أن تقدم إلى المجلس مرة واحدة في السنة على أقل تقدير تقريرا يعرضه رئيسها عن حالة مجمل الأعمال التي تقوم بها اللجنة والمديرية التنفيذية، وأن يقترن ذلك حسب الاقتضاء بالتقارير التي يقدمها رئيس اللجنة المنشأة عملا بالقرارين <a href="https://undocs.org/ar/S/RES/1267(1999)">1267</a><a href="https://undocs.org/ar/S/RES/1267(1999)"> </a><a href="https://undocs.org/ar/S/RES/1267(1999)">(1999)</a> و <a href="https://undocs.org/ar/S/RES/1989(2011)">1989</a><a href="https://undocs.org/ar/S/RES/1989(2011)"> </a><a href="https://undocs.org/ar/S/RES/1989(2011)">(2011)</a> ورئيس اللجنة المنشأة عملا بالقرار <a href="https://undocs.org/ar/S/RES/1540(2004)">1540</a><a href="https://undocs.org/ar/S/RES/1540(2004)"> </a><a href="https://undocs.org/ar/S/RES/1540(2004)">(2004)</a>، مع مراعاة جهودها الرامية إلى تعزيز التنسيق مع هيئات الأمم المتحدة الأخرى، وتيسير الحصول على موافقة الدول الأعضاء لإجراء الزيارات إليها وإعداد التقارير القطرية، وتحسين تنفيذ التوصيات، والكيفية التي أسهمت بها أعمالها التقييمية والتحليلية في إدخال تحسينات على جهود الدول الأعضاء في مجال مكافحة الإرهاب، <span class="bold italic">ويعرب عن اعتزامه</span> عقد مشاورات غير رسمية مرة واحدة على الأقل سنويا عن أعمال اللجنة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="SingleTxt">
+        <num>19 -</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve">	<span class="bold italic">يوعز</span> إلى المديرية التنفيذية أن تتيح الاطلاع على التقييمات القطرية والتوصيات والدراسات الاستقصائية والمنتجات التحليلية على نطاق منظومة الأمم المتحدة، وبخاصة لمكتب مكافحة الإرهاب ووكالات الأمم المتحدة وصناديقها وبرامجها ذات الصلة بمكافحة الإرهاب، من أجل تحسين مواءمة أنشطة الأمم المتحدة فيما يتعلق بالمساعدة التقنية وبناء القدرات مع الثغرات التي حددتها المديرية التنفيذية في مجال التنفيذ والقدرات، وكذلك لدعم التنفيذ المتوازن للاستراتيجية العالمية لمكافحة الإرهاب، باستثناء الحالات التي تطلب فيها الدول الأعضاء الخاضعة للتقييم إبقاء معلومات مختارة طي السرية، <span class="bold italic">ويوعز كذلك</span> إلى المديرية التنفيذية أن تحسن عملية تبادل النتائج التي تخلص إليها مع الدول الأعضاء والشركاء المعنيين بمكافحة الإرهاب، حسب الاقتضاء وبالتشاور مع لجنة مكافحة الإرهاب، وفي المنظمات الدولية والإقليمية ودون الإقليمية، والمنتدى العالمي لمكافحة الإرهاب، والأوساط الأكاديمية ومراكز الفكر والمجتمع المدني والقطاع الخاص، بما في ذلك من خلال تحسين فرص الوصول إلى الشبكة، وأنشطة التوعية، وحلقات العمل، والإحاطات الإعلامية المفتوحة، والاستفادة من شبكة البحوث العالمية لمكافحة الإرهاب التابعة للمديرية التنفيذية، مع الإشارة إلى أهمية تنوعها الجغرافي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_232" class="SingleTxt">
+        <num>20 -</num>
+        <content eId="para_232__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر تأكيد</span> الدور المحوري الذي تضطلع به المديرية التنفيذية داخل الأمم المتحدة لتحديد وتقييم القضايا والاتجاهات والتطورات المتصلة بتنفيذ القرارات <a href="https://undocs.org/ar/S/RES/1373(2001)">1373</a><a href="https://undocs.org/ar/S/RES/1373(2001)"> </a><a href="https://undocs.org/ar/S/RES/1373(2001)">(2001)</a> و <a href="https://undocs.org/ar/S/RES/1624(2005)">1624</a><a href="https://undocs.org/ar/S/RES/1624(2005)"> </a><a href="https://undocs.org/ar/S/RES/1624(2005)">(2005)</a> و <a href="https://undocs.org/ar/S/RES/2178(2014)">2178</a><a href="https://undocs.org/ar/S/RES/2178(2014)"> </a><a href="https://undocs.org/ar/S/RES/2178(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2396(2017)">2396</a><a href="https://undocs.org/ar/S/RES/2396(2017)"> </a><a href="https://undocs.org/ar/S/RES/2396(2017)">(2017)</a> و <a href="https://undocs.org/ar/S/RES/2462(2019)">2462</a><a href="https://undocs.org/ar/S/RES/2462(2019)"> </a><a href="https://undocs.org/ar/S/RES/2462(2019)">(2019)</a> و <a href="https://undocs.org/ar/S/RES/2482(2019)">2482</a><a href="https://undocs.org/ar/S/RES/2482(2019)"> </a><a href="https://undocs.org/ar/S/RES/2482(2019)">(2019)</a>، وغيرها من القرارات ذات الصلة، وللقيام، بالتعاون مع مكتب مكافحة الإرهاب، بدعم تنفيذ استراتيجية الأمم المتحدة العالمية لمكافحة الإرهاب تنفيذا متوازنا، وإسداء المشورة أيضا إلى لجنة مكافحة الإرهاب بشأن السبل العملية التي يمكن للدول الأعضاء أن تتبعها لتنفيذ تلك القرارات، ويكرر أيضا تأكيد أهمية العمل مع الشركاء ذوي الصلة في هذا المجال، بسبل منها شبكة البحوث العالمية لمكافحة الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_252" class="SingleTxt">
+        <num>21 -</num>
+        <content eId="para_252__content">
+          <p xml:space="preserve">	<span class="bold italic">ينوّه</span> بالعلاقات القائمة بين المديرية التنفيذية والخبراء والممارسين المختصين في الدول الأعضاء، والمنظمات الدولية والإقليمية ودون الإقليمية ذات الصلة، والأوساط الأكاديمية، ومراكز الفكر، والمجتمع المدني، والقطاع الخاص، <span class="bold italic">ويحيط علما</span> بأهمية هؤلاء الخبراء والممارسين في الإحاطات، وحلقات العمل، وشبكة البحوث العالمية لمكافحة الإرهاب، والاجتماعات المفتوحة الرامية إلى دعم جهود لجنة مكافحة الإرهاب المبذولة للدفع قدما بتنفيذ القرارات <a href="https://undocs.org/ar/S/RES/1373(2001)">1373</a><a href="https://undocs.org/ar/S/RES/1373(2001)"> </a><a href="https://undocs.org/ar/S/RES/1373(2001)">(2001)</a> و <a href="https://undocs.org/ar/S/RES/1624(2005)">1624</a><a href="https://undocs.org/ar/S/RES/1624(2005)"> </a><a href="https://undocs.org/ar/S/RES/1624(2005)">(2005)</a> و <a href="https://undocs.org/ar/S/RES/2178(2014)">2178</a><a href="https://undocs.org/ar/S/RES/2178(2014)"> </a><a href="https://undocs.org/ar/S/RES/2178(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2396(2017)">2396</a><a href="https://undocs.org/ar/S/RES/2396(2017)"> </a><a href="https://undocs.org/ar/S/RES/2396(2017)">(2017)</a> وغيرها من القرارات ذات الصلة بمكافحة الإرهاب، ولتشجيع تحليل التهديدات والاتجاهات والتطورات الناشئة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_273" class="SingleTxt">
+        <num>22 -</num>
+        <content eId="para_273__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> الدول الأعضاء على أن تنظر في وضع استراتيجيات وطنية شاملة ومتكاملة لمكافحة الإرهاب وآليات فعالة لتنفيذها تشمل إيلاء الاهتمام للظروف المؤدية إلى الإرهاب، وفقا لالتزاماتها بموجب القانون الدولي، <span class="bold italic">ويشجع كذلك</span> المديرية التنفيذية على التعاون مع الدول الأعضاء والمنظمات الدولية والإقليمية ودون الإقليمية، ومع الشركاء الآخرين ذوي الصلة، بناء على الطلب، من أجل إجراء تقييمات لها وإسداء المشورة إليها بشأن صياغة استراتيجيات وطنية وإقليمية شاملة ومتكاملة لمكافحة الإرهاب وآليات لتنفيذها، بتعاون وثيق مع مكتب مكافحة الإرهاب وغيره من وكالات الأمم المتحدة ذات الصلة، بغية ضمان اتساق الجهود وتكاملها وتفادي أي ازدواجية في الجهود المبذولة لمواصلة تنفيذ القرار <a href="https://undocs.org/ar/S/RES/1373(2001)">1373</a><a href="https://undocs.org/ar/S/RES/1373(2001)"> </a><a href="https://undocs.org/ar/S/RES/1373(2001)">(2001)</a> وغيره من القرارات ذات الصلة، ودعم تنفيذ الاستراتيجية العالمية لمكافحة الإرهاب تنفيذا متوازنا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_295" class="SingleTxt">
+        <num>23 -</num>
+        <content eId="para_295__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب </span>باعتماد لجنة مكافحة الإرهاب، وفقا للقرار <a href="https://undocs.org/ar/S/RES/2395(2017)">2395</a><a href="https://undocs.org/ar/S/RES/2395(2017)"> </a><a href="https://undocs.org/ar/S/RES/2395(2017)">(2017)</a>، للنسخ المستكملة من الدراسات الاستقصائية العالمية عن تنفيذ القرارَين <a href="https://undocs.org/ar/S/RES/1373(2001)">1373</a><a href="https://undocs.org/ar/S/RES/1373(2001)"> </a><a href="https://undocs.org/ar/S/RES/1373(2001)">(2001)</a> و <a href="https://undocs.org/ar/S/RES/1624(2005)">1624</a><a href="https://undocs.org/ar/S/RES/1624(2005)"> </a><a href="https://undocs.org/ar/S/RES/1624(2005)">(2005)</a>، <span class="bold italic">ويحيط علما</span> بأوجه القصور التي حُددت فيما يتعلق بتنفيذ القرارَين السالفي الذكر، <span class="bold italic">ويرحب أيضا</span> باعتماد لجنة مكافحة الإرهاب الدراسة الاستقصائية الإلكترونية المفصلة عن التنفيذ، والاستعراض العام المنقح لتقييم التنفيذ، <span class="bold italic">ويدعو</span> المديرية التنفيذية إلى إتاحة التحليل الكمي والنوعي الذي توفره هذه الأدوات للدول الأعضاء والجهات المانحة والمتلقية ومكتب مكافحة الإرهاب وسائر وكالات الأمم المتحدة، لغرض تحديد ما يُقدَّم من المساعدة التقنية والدعم في مجال بناء القدرات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_318" class="SingleTxt">
+        <num>24 -</num>
+        <content eId="para_318__content">
+          <p xml:space="preserve">	<span class="bold italic">يشدد</span> على وجوب أن يعقد رئيسا المديرية التنفيذية ومكتب مكافحة الإرهاب اجتماعات منتظمة لتدارُس المجالات ذات الاهتمام المشترك وإدماج توصيات المديرية التنفيذية وتحليلاتها في عمل مكتب مكافحة الإرهاب، وبالأخص فيما يتعلق بتنفيذ المساعدة التقنية وبناء القدرات، <span class="bold italic">ويوعز</span> إلى مكتب مكافحة الإرهاب والمديرية التنفيذية أن يعدا تقريرا مشتركا بحلول 30 آذار/مارس 2022 يستعرض الخطوات العملية التي يتعين على الهيئتين اتخاذها لضمان إدماج توصيات المديرية التنفيذية وتحليلاتها في عمل مكتب مكافحة الإرهاب، لكي تنظر فيه لجنة مكافحة الإرهاب، وكذلك الجمعية العامة في سياق استعراض الاستراتيجية العالمية لمكافحة الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_342" class="SingleTxt">
+        <num>25 -</num>
+        <content eId="para_342__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> رئيس لجنة مكافحة الإرهاب على دعوة مكتب مكافحة الإرهاب على أعلى مستوى إلى إطلاع اللجنة مرتين كل سنة على ما يضطلع به المكتب من أعمال، ولا سيما التقدم المحرز في إدماج توصيات المديرية التنفيذية وتحليلاتها في تنفيذ برامجه وولاياته، ويشجع كذلك رئيس اللجنة على القيام، بمساعدة من المديرية التنفيذية، بعقد اجتماعات متابعة مع المكتب بشأن التنسيق مع المديرية التنفيذية، وكذلك على دعوة المكتب إلى المشاركة بانتظام في الاجتماعات التي تُعقد بشأن القضايا ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_367" class="SingleTxt">
+        <num>26 -</num>
+        <content eId="para_367__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> المديرية التنفيذية على أن تقدم الدعم أيضا إلى عمل مكتب مكافحة الإرهاب، بإسداء المشورة إلى قيادته والمساعدة في مجال إعداد المعلومات عن مكافحة الإرهاب التي يجري تبادلها مع الأمين العام وكبار القادة الآخرين في الأمم المتحدة، وكذلك بتقديم الدعم إلى قيادة مكتب مكافحة الإرهاب، حسب الاقتضاء، والانضمام إليها في التحضير لعقد حلقات العمل والمؤتمرات والمشاركة فيها واستضافتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_393" class="SingleTxt">
+        <num>27 -</num>
+        <content eId="para_393__content">
+          <p xml:space="preserve">	<span class="bold italic">يذكّر</span> الدول الأعضاء بأن فعاليةَ تدابير منع ومكافحة الإرهاب والتطرف العنيف عندما يفضي إلى الإرهاب واحترامَ حقوق الإنسان، أمران يكمّلان ويعززان بعضهما البعض، ولا غنى عنهما لتحقيق النجاح المنشود، <span class="bold italic">ويلاحظ</span> أهمية احترام سيادة القانون لتتسنى مكافحة الإرهاب بفعالية، <span class="bold italic">ويرحب</span> بالدور الذي تؤديه، في هذا الصدد، مؤسسات المجتمع المدني المعنية والأوساط الأكاديمية ومراكز الفكر والقطاع الخاص، ولا سيما الجهات الفاعلة النسائية والشبابية والمحلية، <span class="bold italic">ويشجع</span> المديرية التنفيذية على مواصلة تطوير أنشطتها لضمان معالجة جميع قضايا حقوق الإنسان وسيادة القانون ذات الصلة بتنفيذ القرارات <a href="https://undocs.org/ar/S/RES/1373(2001)">1373</a><a href="https://undocs.org/ar/S/RES/1373(2001)"> </a><a href="https://undocs.org/ar/S/RES/1373(2001)">(2001)</a> و <a href="https://undocs.org/ar/S/RES/1624(2005)">1624</a><a href="https://undocs.org/ar/S/RES/1624(2005)"> </a><a href="https://undocs.org/ar/S/RES/1624(2005)">(2005)</a> و <a href="https://undocs.org/ar/S/RES/2178(2014)">2178</a><a href="https://undocs.org/ar/S/RES/2178(2014)"> </a><a href="https://undocs.org/ar/S/RES/2178(2014)">(2014)</a> و <a href="https://undocs.org/ar/S/RES/2396(2017)">2396</a><a href="https://undocs.org/ar/S/RES/2396(2017)"> </a><a href="https://undocs.org/ar/S/RES/2396(2017)">(2017)</a>، وغيره من القرارات ذات الصلة، باعتبارها تشكل عنصرا هاما مما تقوم به المديرية التنفيذية من زيارات قطرية، وعمليات تقييم، وتحليل للقضايا والاتجاهات والتطورات الناشئة، وتيسير تقديم المساعدة التقنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_420" class="SingleTxt">
+        <num>28 -</num>
+        <content eId="para_420__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر تأكيدَ </span>التزام الدول الأعضاء بالامتناع عن تقديم أي شكل من أشكال الدعم، الصريح أو الضمني، للضالعين في الأعمال الإرهابية من أشخاص أو كيانات، بسبل منها منع تجنيد أعضاء الجماعات الإرهابية وقطع إمدادات الأسلحة الواردة إلى الإرهابيين، <span class="bold italic">ويشجع</span> المديرية التنفيذية على أن تستمر في وضع هذا الالتزام في الحسبان في سياق جميع أنشطتها، <span class="bold italic">ويؤكد</span> أهمية التنفيذ الكامل والفعال للقرارات ذات الصلة والقيام على نحو ملائم بمعالجة المسائل المتصلة بعدم تنفيذها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="SingleTxt">
+        <num>29 -</num>
+        <content eId="para_448__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> المديرية التنفيذية على أن تواصل، في ظل تعاون وثيق مع مكتب مكافحة الإرهاب، إيلاء عناية فائقة للقرار <a href="https://undocs.org/ar/S/RES/1624(2005)">1624</a><a href="https://undocs.org/ar/S/RES/1624(2005)"> </a><a href="https://undocs.org/ar/S/RES/1624(2005)">(2005)</a> في سياق حوارها مع الدول الأعضاء وعلى أن تعمل مع تلك الدول، وفقا لالتزاماتها بموجب القانون الدولي، على وضع استراتيجيات تشمل التصدي للتحريض على ارتكاب أعمال إرهابية بدافع التطرف العنيف والتعصب وتيسير تقديم المساعدة التقنية لتنفيذها، على النحو المطلوب في القرار <a href="https://undocs.org/ar/S/RES/1624(2005)">1624</a><a href="https://undocs.org/ar/S/RES/1624(2005)"> </a><a href="https://undocs.org/ar/S/RES/1624(2005)">(2005)</a> واستراتيجية الأمم المتحدة العالمية لمكافحة الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_477" class="SingleTxt">
+        <num>30 -</num>
+        <content eId="para_477__content">
+          <p xml:space="preserve">	<span class="bold italic">يعرب</span> عن تضامنه العميق مع ضحايا الإرهاب وأُسرهم، <span class="bold italic">ويشجع</span> المديرية التنفيذية على أن تنظر، بتعاون وثيق مع مكتب مكافحة الإرهاب، في الدور الهام الذي يمكن أن يؤديه الضحايا وشبكاتهم في مجال مكافحة الإرهاب، لا سيما بفضل مصداقية أصواتهم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_507" class="SingleTxt">
+        <num>31 -</num>
+        <content eId="para_507__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرّ</span> بخبرة فرقة العمل المعنية بالإجراءات المالية في مكافحة تمويل الإرهاب، ولا سيما تحديد الدول الأعضاء التي تعاني من أوجه قصور استراتيجية في مجال مكافحة غسل الأموال وتمويل الإرهاب والتعاون معها، <span class="bold italic">ويرحب</span> بتقرير فرقة العمل عن تمويل تنظيم الدولة الإسلامية في العراق والشام وتنظيم القاعدة والجهات المنتسبة إليها (الصادر في عام 2021) والعمل الذي تقوم به فرقة العمل حاليا فيما يتعلق بتمويل الإرهاب، ويدعو فرقة العمل إلى أن تضطلع بمزيد من العمل المتعلق بتحديد السبل الكفيلة بتحسين التنفيذ العالمي لتدابير مكافحة تمويل الإرهاب، <span class="bold italic">ويحث بقوة</span> جميع الدول الأعضاء على أن تنفذ المعايير الدولية الشاملة التي تتضمنها التوصيات الأربعون لمكافحة غسل الأموال وتمويل الإرهاب والانتشار بصيغتها المنقحة الصادرة عن فرقة العمل المعنية بالإجراءات المالية، <span class="bold italic">ويشجع</span> المديرية التنفيذية على أن تتعاون على نحو وثيق مع فرقة العمل من أجل تعزيز تنفيذ التوصيات المتعلقة بمكافحة تمويل الإرهاب تنفيذا فعالا، ولا سيما فيما يتعلق بالتوصية 6: الجزاءات المالية المحددة الهدف المتعلقة بالإرهاب وتمويله، وتحسين استخدام الدول الأعضاء لهذه الأداة الرئيسية لمكافحة تمويل الإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_538" class="SingleTxt">
+        <num>32 -</num>
+        <content eId="para_538__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> المديرية التنفيذية على إذكاء الوعي بأهمية تعاون الدول الأعضاء في التحقيقات والملاحقات القضائية وإجراءات الحجز والمصادرة المتعلقة بالممتلكات الثقافية المهربة أو المصدرة أو المستوردة بطرق غير مشروعة أو المسروقة أو المنهوبة أو المستخرجة بطرق غير مشروعة أو المتاجر بها بطرق غير مشروعة، وكذلك في عودتها وردها وإعادتها إلى بلدانها الأصلية، وذلك من خلال القنوات المناسبة ووفقا للأطر القانونية ذات الصلة فضلا عن اتفاقية الأمم المتحدة لمكافحة الجريمة المنظمة عبر الوطنية وبروتوكولاتها والاتفاقات الإقليمية ودون الإقليمية والثنائية ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_570" class="SingleTxt">
+        <num>33 -</num>
+        <content eId="para_570__content">
+          <p xml:space="preserve">	<span class="bold italic">يعرب عن قلقه</span> من استخدام الإرهابيين للمنظومات الجوية غير المأهولة، <span class="bold italic">ويشجع</span> المديرية التنفيذية على التوعية بالأخطار التي يشكلها استخدام الإرهابيين للمنظومات الجوية غير المأهولة لشن هجمات أو للاتجار بالمخدرات أو الأسلحة، وبالحاجة إلى أن تتصدى الدول الأعضاء لهذه الأخطار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_603" class="SingleTxt">
+        <num>34 -</num>
+        <content eId="para_603__content">
+          <p xml:space="preserve">	<span class="bold italic">ينوّه</span> بعمل المديرية التنفيذية في مجال مكافحة استخدام الإنترنت والأشكال الأخرى من تكنولوجيا المعلومات والاتصالات وسائر التكنولوجيات الناشئة لأغراض إرهابية، مع احترام حقوق الإنسان والحريات الأساسية، ومع مراعاة امتثال الدول الأعضاء للالتزامات الواجبة التطبيق بمقتضى القانون الدولي، وضرورة الحفاظ على قابلية الاتصال الإلكتروني على الصعيد العالمي والتدفق الحر والمأمون للمعلومات، بما ييسّر التنمية الاقتصادية والاتصال والمشاركة وإمكانية الحصول على المعلومات، <span class="bold">ويشدد</span> على أهمية التعاون مع المجتمع المدني والقطاع الخاص في هذا المسعى؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_637" class="SingleTxt">
+        <num>35 -</num>
+        <content eId="para_637__content">
+          <p xml:space="preserve">	<span class="bold italic">يرحب</span> بالتعاون بين المديرية التنفيذية وفريق الدعم التحليلي ورصد الجزاءات المنبثق من لجنة القرار 1267، <span class="bold italic">ويكرر تأكيد</span> الحاجة إلى توطيد التعاون الجاري بين لجنة مكافحة الإرهاب والمديرية التنفيذية وهيئات مكافحة الإرهاب التابعة لمجلس الأمن بالأمم المتحدة، بما في ذلك اللجنة المنشأة عملاً بالقرارَين <a href="https://undocs.org/ar/S/RES/1267(1999)">1267</a><a href="https://undocs.org/ar/S/RES/1267(1999)"> </a><a href="https://undocs.org/ar/S/RES/1267(1999)">(1999)</a> و <a href="https://undocs.org/ar/S/RES/1989(2011)">1989</a><a href="https://undocs.org/ar/S/RES/1989(2011)"> </a><a href="https://undocs.org/ar/S/RES/1989(2011)">(2011)</a> و <a href="https://undocs.org/ar/S/RES/2255(2015)">2255</a><a href="https://undocs.org/ar/S/RES/2255(2015)"> </a><a href="https://undocs.org/ar/S/RES/2255(2015)">(2015)</a>، واللجنة المنشأة عملاً بالقرار <a href="https://undocs.org/ar/S/RES/1540(2004)">1540</a><a href="https://undocs.org/ar/S/RES/1540(2004)"> </a><a href="https://undocs.org/ar/S/RES/1540(2004)">(2004)</a>، وكذلك أفرقة الخبراء التابعة لكل منها، بسبل تشمل تحسين تبادل المعلومات، والتنسيق بشأن زيارات البلدان، والتنسيق بشأن تيسير المساعدة التقنية ورصدها، وغير ذلك من تدابير التعاون لتقديم المساعدة إلى الدول الأعضاء فيما تبذله من جهود سعيا إلى الامتثال لالتزاماتها بموجب القرارات الصادرة في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_672" class="SingleTxt">
+        <num>36 -</num>
+        <content eId="para_672__content">
+          <p xml:space="preserve">	<span class="bold italic">يكرر تأكيد</span> دعوة المديرية التنفيذية إلى إدراج مسألة الاعتبارات الجنسانية بوصفها مسألة شاملة لعدة قطاعات في جميع أنشطتها، بما في ذلك في التقييمات والتقارير القطرية والتوصيات التي تُقدم إلى الدول الأعضاء، وفي سياق تيسير تقديم المساعدة التقنية إلى الدول الأعضاء، وفي الإحاطات الإعلامية التي تقدم إلى المجلس، <span class="bold italic">ويطلب إلى</span> المديرية التنفيذية أن تجري مشاورات مع النساء والمنظمات النسائية لتسترشد بها في أعمالها، <span class="bold italic">ويحث</span> المديرية التنفيذية على أن تقوم، بالتعاون مع هيئة الأمم المتحدة للمرأة وغيرها من الكيانات المعنية المنضوية في اتفاق الأمم المتحدة العالمي لتنسيق مكافحة الإرهاب، بإجراء البحوث وجمع البيانات المراعية للاعتبارات الجنسانية وجمع البيانات عن دوافع التشدد التي تفضي بالمرأة إلى الإرهاب، والآثار التي تخلّفها استراتيجيات مكافحة الإرهاب على المرأة والفتاة وعلى حقوق الإنسان الواجبة للمرأة والمنظمات النسائية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_708" class="SingleTxt">
+        <num>37 -</num>
+        <content eId="para_708__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> المديرية التنفيذية على أن تُدرج في أعمالها الآثار التي يخلّفها الإرهاب على الأطفال وحقوقهم، حسب الاقتضاء، ولا سيما فيما يتعلق بالمسائل المتصلة بأُسر المقاتلين الإرهابيين الأجانب العائدين والمنتقلين إلى أماكن جديدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_745" class="SingleTxt">
+        <num>38 -</num>
+        <content eId="para_745__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> على مواصلة وتوثيق التعاون بين منظمة الطيران المدني الدولي والمديرية التنفيذية، بطرق منها على الخصوص العمل معاً على تحديد الثغرات وأوجه الضعف المتصلة بمكافحة الإرهاب وأمن الطيران، والترويج لعمل وأدوات كل وكالة على حدة، والتنسيق بشكل وثيق بشأن التقييمات التي تجريها المديرية التنفيذية ووضع التوصيات، <span class="bold italic">ويشير</span> إلى أن المرفقين 9 و 17 لاتفاقية الطيران المدني الدولي يتضمنان المعايير والممارسات الموصى بها ذات الصلة بكشف ومنع الأخطار الإرهابية المتصلة بالطيران المدني، بما في ذلك فحص البضائع، <span class="bold italic">ويرحب</span> بما وضعته منظمة الطيران المدني الدولي من معايير وممارسات موصى بها بشأن جمع وتحليل واستخدام الدول الأعضاء فيها المعلومات المسبقة عن الركاب وبيانات سجلات أسماء الركاب، <span class="bold italic">ويؤكد من جديد</span> التزام الدول الأعضاء بإنشاء قدرات لجمع بيانات سجلات أسماء الركاب وتجهيزها وتحليلها، تعزيزا لمعايير لمنظمة الطيران المدني الدولي وممارساتها الموصى بها، وبضمان أن تَستخدم جميعُ سلطاتها الوطنية المختصة هذه البيانات وتطّلع عليها، مع الاحترام الكامل لحقوق الإنسان والحريات الأساسية بغرض منع الجرائم الإرهابية وما يتصل بها من سفر الإرهابيين وكشفهما والتحقيق فيهما؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_783" class="SingleTxt">
+        <num>39 -</num>
+        <content eId="para_783__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> المديرية التنفيذية على العمل مع الشركاء ذوي الصلة، بما في ذلك مكتب الأمم المتحدة المعني بالمخدرات والجريمة ومكتب مكافحة الإرهاب، بالتشاور مع لجنة مكافحة الإرهاب، بهدف تجنب ازدواجية الجهود ودعم الجهود المبذولة لتحسين التعاون القضائي الدولي والتعان الدولي في مجال إنفاذ القانون، بجملة وسائل منها تحديد المجالات التي يكون من المناسب فيها تقديم المساعدة التقنية إلى الدول الأعضاء، بناء على طلبها، بما في ذلك بتدريب المدعين العامين والقضاة وغيرهم من المسؤولين المعنيين المشاركين في التعاون الدولي، ولا سيما عن طريق توفير التحليل بشأن أوجه القصور في القدرات والتوصيات التي تستند إلى تقييمات المديرية التنفيذية وتحليلاتها، بما في ذلك بشأن تعيين الهيئات المركزية أو الهيئات الأخرى ذات الصلة في مجال العدالة الجنائية المشاركة في تبادل المساعدة القانونية وأنشطة تسليم المطلوبين، ولضمان أن يكون لدى هذه الهيئات ما يكفي من الموارد والتدريب والسلطة القانونية، ولا سيما بالنسبة للجرائم المتصلة بالإرهاب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_822" class="SingleTxt">
+        <num>40 -</num>
+        <content eId="para_822__content">
+          <p xml:space="preserve">	<span class="bold italic">يشجع</span> المديرية التنفيذية على أن تقدم الدعم إلى الدول الأعضاء في وضع أو مواصلة تحسين استراتيجياتها للحد من مخاطر تعرُّض الهياكل الأساسية الحيوية والأهداف غير المحصّنة لهجمات إرهابية، على أن تشمل تلك الاستراتيجيات، في جملة أمور، تقييم المخاطر ذات الصلة والتوعية بها، واتخاذ تدابير للتأهب، بما يشمل التصدي الفعال لتلك الهجمات والقدرة على الصمود في مواجهتها، وتشجيع الارتقاء بقابلية التشغيل البيني فيما بين جميع مستويات الحكومة وكذلك مع الدوائر الصناعية الخاصة والمجتمع المدني، حسب الاقتضاء، تمشيا مع قرار مجلس الأمن <a href="https://undocs.org/ar/S/RES/2341(2017)">2341</a><a href="https://undocs.org/ar/S/RES/2341(2017)"> </a><a href="https://undocs.org/ar/S/RES/2341(2017)">(2017)</a> وبالتعاون مع مكتب مكافحة الإرهاب من أجل استحداث الممارسات الجيدة وتشجيع استخدامها، <span class="bold italic">ويشير</span> إلى اعتماد المنتدى العالمي لمكافحة الإرهاب ”مذكرة أنطاليا المتعلقة بحماية الأهداف غير المحصّنة في سياق مكافحة الإرهاب“، <span class="bold italic">ويشجع</span> المديرية التنفيذية على أن تضعها في اعتبارها، بما في ذلك عند تيسير تقديم المساعدة التقنية إلى الدول الأعضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_862" class="SingleTxt">
+        <num>41 -</num>
+        <content eId="para_862__content">
+          <p xml:space="preserve">	<span class="bold italic">يقرر</span> أن يبقي المسألة قيد نظره الفعلي.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
