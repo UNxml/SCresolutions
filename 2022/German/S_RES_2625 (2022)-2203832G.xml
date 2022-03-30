@@ -1,0 +1,839 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/"></FRBRuri>
+          <FRBRdate date="2022-03-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/deu@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/deu@/"></FRBRuri>
+          <FRBRdate date="2022-03-15" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="deu"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/deu@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/deu@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-30" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Mission in South Sudan" showAs="UN Mission in South Sudan" dictionary="DHLAUTH"></keyword>
+        <keyword value="Revitalized Agreement on the Resolution of Conflict in the Republic of South Sudan (2018)" showAs="Revitalized Agreement on the Resolution of Conflict in the Republic of South Sudan (2018)" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" showAs="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOUTH SUDAN" showAs="SOUTH SUDAN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[216]" showAs="UN MISSION IN SOUTH SUDAN" shortForm="UN MISSION IN SOUTH SUDAN" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="[223]" showAs="SOUTH SUDAN--POLITICAL CONDITIONS" shortForm="SOUTH SUDAN--POLITICAL CONDITIONS" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="Reports of the Secretary-General on the Sudan and South Sudan." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2625 (2022) [on extension of the mandate of the UN Mission in South Sudan (UNMISS) until 15 Mar. 2023]" showAs="Security Council resolution 2625 (2022) [on extension of the mandate of the UN Mission in South Sudan (UNMISS) until 15 Mar. 2023]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-03-16" outcome="draftResolution" as="S/2022/219" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-15" outcome="adopted" as="S/PV.8994" by="Adopted 13-0-2, 8994th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+            <count value="013" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="002" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-03832 (G)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Vereinte Nationen</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2625 (2022)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Sicherheitsrat</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Verteilung: Allgemein</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-15" class="rightSmall" refersTo="#dateOfIssuance">15. März 2022</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2625 (2022)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">verabschiedet auf der <inline name="adoptionMeeting" title="8994.">8994. Sitzung des Sicherheitsrats </inline>am <docDate date="2022-03-15" refersTo="#adoptionDate">15. März 2022</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Der Sicherheitsrat</span>,</p>
+      </formula>
+      <container name="unter Hinweis" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">unter Hinweis</span> auf seine früheren Resolutionen, die Erklärungen seiner Präsidentschaft und seine Presseerklärungen betreffend die Situation in Südsudan,</p>
+      </container>
+      <container name="in Bekräftigung" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	in Bekräftigung </span>seines nachdrücklichen Bekenntnisses zur Souveränität, Unabhängigkeit, territorialen Unversehrtheit und nationalen Einheit der Republik Südsudan und unter Hinweis auf die Wichtigkeit der Grundsätze der Nichteinmischung, der guten Nachbarschaft und der regionalen Zusammenarbeit,</p>
+      </container>
+      <container name="in Bekräftigung" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">in Bekräftigung </span>seiner Unterstützung für das Neubelebte Abkommen über die Bei-legung des Konflikts in der Republik Südsudan („Neubelebtes Abkommen“),</p>
+      </container>
+      <container name="betonend" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">betonend</span>, dass der Friedensprozess nur tragfähig bleibt, wenn sich alle Parteien voll zu ihm bekennen, in dieser Hinsicht <span class="italic">unter Begrüßung </span>der ermutigenden Entwicklungen im Friedensprozess in Südsudan und des von den Parteien des Neubelebten Abkommens unter Beweis gestellten politischen Willens, um die notwendigen Voraussetzungen für die Förderung des Friedensprozesses zu schaffen, einschließlich der Einigung auf die Ernennung von Gouverneuren und weiterer Fortschritte beim Aufbau gliedstaatlicher und lokaler Regierungsstrukturen, sowie der weiteren Gewährleistung der Sicherheit der nicht mehr als Schutzorte für Zivilpersonen ausgewiesenen Orte und der Wiedereinsetzung der Nationalen Gesetzgebenden Übergangsversammlung,</p>
+      </container>
+      <container name="anerkennend" eId="container_6">
+          <p xml:space="preserve">	<span class="italic">anerkennend</span>, dass die Gewalt zwischen den Unterzeichnerparteien des Neubelebten Abkommens abgenommen hat und die dauerhafte Waffenruhe in den meisten Landesteilen eingehalten wurde,</p>
+      </container>
+      <container name="mit dem Ausdruck" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">mit dem Ausdruck </span>seines Dankes für die Führungsrolle, die die Zwischenstaatliche Behörde für Entwicklung dabei wahrnimmt, den Friedensprozess für Südsudan voranzubringen, und <span class="italic">unter Begrüßung </span>des Engagements und der Anstrengungen der Zwischenstaatlichen Behörde für Entwicklung und ihrer Mitgliedstaaten, der Rekonstituierten gemeinsamen Überwachungs- und Evaluierungskommission, der Afrikanischen Union, einschließlich des Friedens- und Sicherheitsrats der Afrikanischen Union, der Vereinten Nationen und der Länder in der Region, auch weiterhin auf die südsudanesischen Führungsverantwortlichen einzuwirken, um die gegenwärtige Krise zu beheben, und sie <span class="italic">ermutigend</span>, sich weiter proaktiv zu engagieren,</p>
+      </container>
+      <container name="unter Begrüßung" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">unter Begrüßung</span> der laufenden Moderation des politischen Dialogs zwischen den Unterzeichnern und Nichtunterzeichnern des Neubelebten Abkommens durch die Gemeinschaft Sant’Egidio und allen Parteien <span class="italic">nahelegend</span>, ihre Anstrengungen zur friedlichen Beilegung von Streitigkeiten fortzuführen, um so einen alle Seiten einschließenden und dauerhaften Frieden herbeizuführen,</p>
+      </container>
+      <container name="mit dem erneuten Ausdruck" eId="container_9">
+          <p xml:space="preserve">	<span class="italic">mit dem erneuten Ausdruck </span>seiner tiefen Besorgnis angesichts der politischen, Sicherheits-, Wirtschafts- und humanitären Krise in Südsudan, <span class="italic">Kenntnis nehmend </span>von den Auswirkungen der COVID-19-Pandemie und <span class="italic">betonend</span>, dass es keine militärische Lösung für die Situation in Südsudan geben kann,</p>
+      </container>
+      <container name="unter nachdrücklicher Verurteilung" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">unter nachdrücklicher Verurteilung</span> aller Kampfhandlungen, einschließlich der Gewalt und der Todesopfer infolge der jüngsten Überläufe, und jeglicher Verstöße gegen das Abkommen vom 21. Dezember 2017 über die Einstellung der Feindseligkeiten, den Schutz von Zivilpersonen und den humanitären Zugang und die Bestimmungen des Neubelebten Abkommens über die dauerhafte Waffenruhe, <span class="italic">unter Begrüßung </span>der raschen Beurteilung der Verstöße durch den Mechanismus zur Überwachung und Verifikation der Waffenruhe und der Einhaltung der Übergangs-Sicherheitsbestimmungen, die Zwischenstaatliche Behörde für Entwicklung <span class="italic">ermutigend</span>, Berichte rasch an den Sicherheitsrat weiterzuleiten, und davon <span class="italic">Kenntnis nehmend</span>, dass die Afrikanische Union, die Zwischenstaatliche Behörde für Entwicklung und der Sicherheitsrat der Vereinten Nationen verlangt haben, dass die Parteien, die gegen das Abkommen verstoßen, zur Rechenschaft gezogen werden müssen,</p>
+      </container>
+      <container name="mit dem Ausdruck" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">mit dem Ausdruck </span>seiner ernsten Besorgnis über die Zunahme der Gewalt zwischen bewaffneten Gruppen in manchen Teilen Südsudans, bei der Tausende getötet und vertrieben wurden, und <span class="italic">unter Verurteilung </span>der Mobilisierung dieser Gruppen durch Konfliktparteien, unter anderem durch Angehörige der Regierungsstreitkräfte und bewaffneter Oppositionsgruppen,</p>
+      </container>
+      <container name="mit dem Ausdruck" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">mit dem Ausdruck </span>seiner ernsten Besorgnis darüber, dass es nach wie Berichte über sexuelle und geschlechtsspezifische Gewalt gibt, darunter die Feststellungen im Bericht des Generalsekretärs an den Sicherheitsrat über sexuelle Gewalt im Zusammenhang mit Konflikten (<a href="https://undocs.org/ot/S/2021/312">S/2021/312</a>), wonach die Anwendung sexueller Gewalt von den Konfliktparteien als Taktik gegen die Zivilbevölkerung in Südsudan benutzt wird, einschließlich der Anwendung von Vergewaltigung und sexueller Sklaverei zur Einschüchterung und Bestrafung auf der Grundlage einer mutmaßlichen politischen Zugehörigkeit und als Teil einer gezielt gegen Angehörige ethnischer Gruppen gerichteten Strategie, und wonach auch nach der Unterzeichnung des Neubelebten Abkommens nach wie vor sexuelle Gewalt im Zusammenhang mit Konflikten und andere Formen der Gewalt gegen Frauen und Mädchen verübt werden, wie im Bericht des Hohen Kommissariats der Vereinten Nationen für Menschenrechte von Februar 2021 über den Zugang zu Gesundheitsversorgung für Überlebende sexueller Gewalt im Zusammenhang mit Konflikten in Südsudan dokumentiert, <span class="italic">feststellend</span>, dass südsudanesische Parteien dank der Durchführung von Aktionsplänen gegen sexuelle Gewalt in Konflikten gewisse Fortschritte beobachtet haben, und <span class="italic">unterstreichend</span>, wie dringend notwendig und wichtig es ist, rasche Ermittlungen durchzuführen, damit die Verantwortlichen besser zur Rechenschaft gezogen werden können, und den Überlebenden und Opfern sexueller und geschlechtsspezifischer Gewalt Hilfe und Schutz zu bieten,</p>
+      </container>
+      <container name="mit dem erneuten Ausdruck seiner Beunruhigung" eId="container_13">
+          <p xml:space="preserve">	<span class="italic">mit dem erneuten Ausdruck seiner Beunruhigung </span>angesichts der katastrophalen humanitären Lage, der hochgradigen Ernährungsunsicherheit in dem Land und der in manchen Gebieten zu erwartenden Hungersnot, insbesondere der schätzungsweise 8,3 Millionen Menschen, die dem Welternährungsprogramm zufolge von schwerer Ernährungsunsicherheit betroffen sind, <span class="italic">unter Hinweis</span> auf seine Resolution <a href="https://undocs.org/ot/S/RES/2417(2018)">2417 (2018)</a>, in der er die Notwendigkeit anerkannte, den Teufelskreis zwischen bewaffneten Konflikten und Ernährungsunsicherheit zu durchbrechen, <span class="italic">unter Verurteilung</span> der Angriffe auf die Existenzgrundlagen und der vorsätzlichen Verweigerung des Zugangs zu Nahrungsmitteln, die Kriegsverbrechen darstellen könnten, <span class="italic">ferner verurteilend</span>, dass alle Parteien die Bewegungsfreiheit von Zivilpersonen und den Zugang der humanitären Akteure zu hilfebedürftigen Zivilpersonen behindern, <span class="italic">mit dem Ausdruck </span>seiner ernsten Besorgnis über die Erhebung von Steuern und rechtswidrigen Gebühren, die die Bereitstellung humanitärer Hilfe im gesamten Land behindern, und mit Besorgnis von Berichten <span class="italic">Kenntnis nehmend</span>, wonach Vertreibungen und die Verweigerung des humanitären Zugangs die Ernährungsunsicherheit für die Zivilbevölkerung verschärfen,</p>
+      </container>
+      <container name="mit dem Ausdruck" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">mit dem Ausdruck </span>seiner ernsten und dringlichen Sorge darüber, dass nahezu 2 Millionen Menschen vertrieben wurden und die humanitäre Krise andauert, dass der Humanitären Bedarfsübersicht für Südsudan von 2022 zufolge 8,4 Millionen Menschen humanitäre Hilfe benötigen und dass Mitte 2021 laut dem im Februar 2022 herausgegebenen Bericht <span class="italic">Hunger Hotspots - FAO-WFP Early Warnings on Acute Food Insecurity</span> (Brennpunkte des Hungers –  Frühwarnungen der Ernährungs- und Landwirtschaftsorganisation der Vereinten Nationen und des Welternährungsprogramms zu akuter Ernährungsunsicherheit) schätzungsweise 7,2 Millionen Menschen unter erheblicher Ernährungsunsicherheit litten, und <span class="italic">in Würdigung </span>der Anstrengungen der humanitären Hilfsorganisationen der Vereinten Nationen, der Partner und der Geber zur umgehenden und koordinierten Bereitstellung von Unterstützung für die Bevölkerung,</p>
+      </container>
+      <container name="unter nachdrücklicher Verurteilung" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">unter nachdrücklicher Verurteilung </span>aller Angriffe auf humanitäres Personal und humanitäre Einrichtungen, die seit Dezember 2013 zum Tod von mindestens 131 Angehörigen dieses Personals geführt haben, einschließlich des Angriffs vom 11. Juli 2016 auf die Wohnanlage „Terrain“, der Tötung fünf humanitärer Helferinnen und Helfer im Jahr 2021, und der Angriffe auf Sanitätspersonal und Krankenhäuser, <span class="italic">höchst beunruhigt </span>über die zunehmende Drangsalierung und Einschüchterung humanitären Personals und <span class="italic">unter Hinweis </span>darauf, dass die Angriffe auf humanitäres Personal und auf für die Zivilbevölkerung lebensnotwendige Objekte Verstöße gegen das humanitäre Völkerrecht darstellen können,</p>
+      </container>
+      <container name="unter nachdrücklicher Verurteilung" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">unter nachdrücklicher Verurteilung</span> aller Menschenrechtsverletzungen und -übergriffe und Verstöße gegen das humanitäre Völkerrecht durch alle Parteien, einschließlich bewaffneter Gruppen und nationaler Sicherheitskräfte, sowie der Aufstachelung zur Begehung derartiger Übergriffe und Rechtsverletzungen, unter anderem derjenigen in Tambura im Staat Westäquatoria, <span class="italic">ferner unter Verurteilung </span>der gegen die Zivilgesellschaft, humanitäres Personal und Journalistinnen und Journalisten gerichteten Drangsalierungen, Angriffe und Zensur, <span class="italic">betonend</span>, dass diejenigen, die für Verstöße gegen das humanitäre Völkerrecht und Menschenrechtsverletzungen und -übergriffe verantwortlich sind, zur Rechenschaft gezogen werden müssen und dass die Regierung Südsudans die Hauptverantwortung dafür trägt, die Bevölkerungsgruppen in dem Land vor Völkermord, Kriegsverbrechen, ethnischer Säuberung und Verbrechen gegen die Menschlichkeit zu schützen, und <span class="italic">mit dem Ausdruck seiner Besorgnis</span> darüber, dass trotz der Unterzeichnung des Neubelebten Abkommens auch weiterhin Rechtsverletzungen und Missbrauchshandlungen, einschließlich Vergewaltigung und sexueller Gewalt, begangen werden, die möglicherweise internationale Verbrechen, einschließlich Kriegsverbrechen und Verbrechen gegen die Menschlichkeit, darstellen,</p>
+      </container>
+      <container name="mit dem Ausdruck" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">mit dem Ausdruck</span> seiner ernsten Besorgnis angesichts der Berichte der Mission der Vereinten Nationen in der Republik Südsudan (UNMISS) und des Generalsekretärs über die Menschenrechtssituation in Südsudan, darunter zutiefst verstörende Berichte über Fälle außergerichtlicher Hinrichtungen in den Staaten Warrap und Lakes, <span class="italic">ferner mit dem Ausdruck</span> seiner großen Besorgnis angesichts des am 27. Oktober 2015 herausgegebenen Berichts der Untersuchungskommission der Afrikanischen Union über Südsudan und der am 23. Februar 2018, am 20. Februar 2019, am 20. Februar 2020 und am 19. Februar 2021 herausgegebenen Berichte der Kommission für die Menschenrechte in Südsudan, laut denen möglicherweise Kriegsverbrechen und Verbrechen gegen die Menschlichkeit begangen wurden, seine Erwartung <span class="italic">hervorhebend</span>, dass alle Mechanismen für Unrechtsaufarbeitung für Südsudan, einschließlich der mit dem Neubelebten Abkommen eingerichteten Mechanismen, diese und andere glaubwürdige Berichte gebührend behandeln werden, <span class="italic">betonend</span>, wie wichtig es ist, Beweismittel zu erheben und zu bewahren, die später von dem Hybriden Gerichtshof für Südsudan und anderen Rechenschaftsmechanismen verwendet werden können, und zu diesbezüglichen Maßnahmen <span class="italic">ermutigend</span>,</p>
+      </container>
+      <container name="erneut erklärend" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">erneut erklärend</span>, dass es dringend notwendig ist, die Straflosigkeit in Südsudan zu beenden und alle diejenigen, die für Verstöße gegen das humanitäre Völkerrecht sowie Menschenrechtsverletzungen und -übergriffe verantwortlich sind, vor Gericht zu stellen, <span class="italic">hervorhebend</span>, wie wichtig die in Kapitel V des Neubelebten Abkommens enthaltenen Maßnahmen der Unrechtsaufarbeitung sind, um die Straflosigkeit zu beenden und die Tatverantwortlichen zur Rechenschaft zu ziehen, die nationale Aussöhnung und Heilung zu ermöglichen und einen dauerhaften Frieden zu gewährleisten, insbesondere die von der unter dem Mandat der Vereinten Nationen stehenden Kommission für die Menschenrechte in Südsudan unternommenen Anstrengungen, in dieser Hinsicht <span class="italic">anerkennend</span>, dass die Justiz Südsudans einen Gerichtshof für geschlechtsspezifische Gewalt und Jugendstrafsachen operationalisiert hat, <span class="italic">zur Kenntnis nehmend</span>, dass die Regierung Südsudans die Einrichtung von Mechanismen der Unrechtsaufarbeitung, einschließlich des Hybriden Gerichtshofs für Südsudan, genehmigt hat, und<span class="italic"> ferner anerkennend</span>, dass die Regierung Südsudans Konsultationen über die Kommission für Wahrheit, Aussöhnung und Heilung aufgenommen hat, ihr nahelegend, mit allen Interessenträgern konstruktive Konsultationen zu führen und dabei die volle, gleichberechtigte und konstruktive Mitwirkung von Frauen sowie die Einbeziehung von jungen Menschen, Opfern, Menschen mit Behinderungen und Binnenvertriebenen sicherzustellen,</p>
+      </container>
+      <container name="unterstreichend" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">unterstreichend</span>, dass jede Obstruktion der UNMISS durch irgendeine Partei inakzeptabel ist, insbesondere die Einschränkungen der Bewegungsfreiheit, die Angriffe auf Personal der UNMISS und die Einschränkungen der Einsätze der Mission, insbesondere die Einschränkungen der Patrouillentätigkeit und der Anstrengungen der UNMISS, unter anderem die Menschenrechtslage zu überwachen, die vielfach laut Berichten des Generalsekretärs Verstöße gegen das Abkommen über die Rechtsstellung der Truppen durch die Regierung Südsudans darstellten, davon <span class="italic">Kenntnis nehmend</span>, dass es 2021 weniger Verstöße gegen das Abkommen über die Rechtsstellung der Truppen gab, und <span class="italic">mit der nachdrücklichen Aufforderung </span>an die Regierung Südsudans, diesbezüglich weitere Fortschritte zu erzielen, und dar-an <span class="italic">erinnernd</span>, dass der UNMISS sowie ihren Auftragnehmern gemäß dem Abkommen über die Rechtsstellung der Truppen in ganz Südsudan auf dem direktestmöglichen Weg und ohne Reisegenehmigung oder vorherige Genehmigung oder Ankündigung unverzüglich volle und uneingeschränkte Bewegungsfreiheit zu gewähren ist und dass sie das Recht haben, Ausrüstung, Verpflegung, Versorgungsgüter, Brennstoff, Materialien und andere Güter frei von Zöllen, Steuern, Gebühren und Abgaben und sonstigen Verboten und Beschränkungen einzuführen,</p>
+      </container>
+      <container name="unter Hinweis" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">unter Hinweis </span>auf seine Resolution <a href="https://undocs.org/ot/S/RES/2117 (2013)">2117 (2013)</a> und <span class="italic">mit dem Ausdruck</span> seiner ernsten Besorgnis über die Bedrohung des Friedens und der Sicherheit in Südsudan, die durch den unerlaubten Transfer, die destabilisierende Anhäufung und den Missbrauch von Kleinwaffen und leichten Waffen entsteht, und <span class="italic">ferner mit dem Ausdruck seiner Sorge</span>, dass der unerlaubte Handel mit und die Umleitung von Rüstungsgütern und sonstigem Wehrmaterial jeder Art die Rechtsstaatlichkeit untergraben und die Achtung des humanitären Völkerrechts aushöhlen könnten, die Bereitstellung humanitärer Hilfe behindern können und weitreichende negative humanitäre und sozioökonomische Folgen haben,</p>
+      </container>
+      <container name="Kenntnis nehmend" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Kenntnis nehmend</span> von den vom Sicherheitsrat in Resolution <a href="https://undocs.org/ot/S/RES/2428(2018)">2428 (2018)</a> verabschiedeten und in den Resolutionen <a href="https://undocs.org/ot/S/RES/2471(2019)">2471 (2019)</a>, <a href="https://undocs.org/ot/S/RES/2521(2020)">2521 (2020)</a> und <a href="https://undocs.org/ot/S/RES/2577(2021)">2577 (2021)</a> verlängerten Maßnahmen, daran <span class="italic">erinnernd</span>, dass Personen oder Einrichtungen, die für Handlungen oder Politiken, die den Frieden, die Sicherheit oder die Stabilität Südsudans bedrohen, unmittelbar oder mittelbar verantwortlich sind, daran mitbeteiligt waren oder sie vorgenommen haben, für zielgerichtete Sanktionen benannt werden können, <span class="italic">ferner unter Hinweis </span>auf seine Bereitschaft, gezielte Sanktionen zu verhängen, <span class="italic">betonend</span>, wie entscheidend wichtig die wirksame Anwendung des Sanktionsregimes ist, einschließlich der darin enthaltenen Reiseverbote, und welche Schlüsselrolle die Nachbarstaaten sowie regionale und subregionale Organisationen in dieser Hinsicht spielen können, zu Anstrengungen zur weiteren Verstärkung der Zusammenarbeit <span class="italic">ermutigend </span>und <span class="italic">erneut </span>seine Bereitschaft <span class="italic">bekundend</span>, eine Anpassung der Maßnahmen in Erwägung zu ziehen, unter anderem durch Änderung, Aussetzung, Aufhebung oder Verstärkung von Maßnahmen, um auf die Situation zu reagieren,</p>
+      </container>
+      <container name="nachdrücklich darauf hinweisend" eId="container_22">
+          <p xml:space="preserve">	<span class="italic">nachdrücklich darauf hinweisend</span>, dass die fortbestehenden Hindernisse für die volle Durchführung der Resolution <a href="https://undocs.org/ot/S/RES/1325(2000)">1325 (2000)</a> und späterer Resolutionen über Frauen und Frieden und Sicherheit, namentlich Resolution <a href="https://undocs.org/ot/S/RES/2242 (2015)">2242 (2015)</a>, nur durch entschlossenes Eintreten für die Stärkung der Selbstbestimmung der Frauen, ihre Teilhabe und ihre Menschenrechte, konzertierte Führungsanstrengungen, konsequente Informationsarbeit und Maßnahmen sowie Unterstützung zugunsten der vollen, gleichberechtigten und konstruktiven Mitwirkung von Frauen auf allen Ebenen der Entscheidungs- und Führungsprozesse abgebaut werden können,</p>
+      </container>
+      <container name="in Anerkennung" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	in Anerkennung </span>der Bedeutung der Ratifikation des Fakultativprotokolls zum Übereinkommen über die Rechte des Kindes betreffend die Beteiligung von Kindern an bewaffneten Konflikten durch die Regierung Südsudans und <span class="italic">begrüßend</span>, dass die Regierung Süd-sudans den Umfassenden Aktionsplan zur Beendigung und Verhütung aller schweren Rechtsverletzungen an Kindern unterzeichnet hat,</p>
+      </container>
+      <container name="mit dem Ausdruck" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">mit dem Ausdruck </span>seiner anhaltenden Besorgnis über die schwerwiegenden Einschränkungen der Meinungsfreiheit, des Rechts der freien Meinungsäußerung und der Vereinigungsfreiheit, <span class="italic">in Anerkennung </span>der wichtigen Rolle, die denjenigen, die die Menschenrechte schützen und fördern, den zivilgesellschaftlichen Organisationen, Journalistinnen und Journalisten und anderen Medienschaffenden bei der Förderung und dem Schutz der Meinungsfreiheit und des Rechts der freien Meinungsäußerung zukommt, und in dieser Hinsicht <span class="italic">mit dem Ausdruck</span> seiner tiefen Besorgnis darüber, dass nach wie vor Verletzungen und Missbräuche der Meinungsfreiheit und des Rechts der freien Meinungsäußerung begangen werden, und <span class="italic">unter Verurteilung </span>der Verwendung der Medien zur Verbreitung von Hassparolen und zur Übertragung von Botschaften, die zu Gewalt gegen eine bestimmte ethnische Gruppe anstiften, eine Praxis, die zu ausgedehnter Gewalt führen und bewaffnete Konflikte verschärfen kann, insbesondere in Anbetracht der in Südsudan bevorstehenden Wahlen,</p>
+      </container>
+      <container name="mit dem Ausdruck" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">mit dem Ausdruck </span>seiner ernsten Besorgnis über die schreckliche Lage der Menschen mit Behinderungen in Südsudan, namentlich über Aussetzung, Gewalt und fehlenden Zugang zu grundlegenden Diensten, und unter Betonung der Notwendigkeit, sicherzustellen, dass bei den humanitären Maßnahmen den besonderen Bedürfnissen von Menschen mit Behinderungen Rechnung getragen wird,</p>
+      </container>
+      <container name="im Bewusstsein" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">im Bewusstsein </span>der nachteiligen Auswirkungen, die klimatische und ökologische Veränderungen und Naturkatastrophen, neben anderen Faktoren, auf die humanitäre Lage und die Stabilität in Südsudan haben, <span class="italic">betonend</span>, wie wichtig es ist, dass die Regierung Südsudans und die Vereinten Nationen über umfassende Risikobewertungen und Strategien für das Risikomanagement verfügen, um eine Informationsgrundlage für Programme im Zusammenhang mit diesen Faktoren zu schaffen, und<span class="italic"> in Anerkennung </span>des Rahmenübereinkommens der Vereinten Nationen über Klimaänderungen und des Übereinkommens von Paris,</p>
+      </container>
+      <container name="in Würdigung" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">in Würdigung </span>der Tätigkeit der UNMISS und mit dem Ausdruck seiner höchsten Anerkennung für die Maßnahmen, die die Friedenssicherungskräfte und die truppen- und polizeistellenden Länder der UNMISS ergriffen haben, um das Mandat der UNMISS in einem problematischen Umfeld wahrzunehmen und unter anderem von körperlicher Gewalt bedrohte Zivilpersonen, einschließlich ausländischer Staatsangehöriger, zu schützen und die Sicherheitslage innerhalb und außerhalb der Standorte der UNMISS zu stabilisieren, und <span class="italic">ferner mit dem Ausdruck</span> großer Dankbarkeit an das Personal der UNMISS für seine außerordentlichen Anstrengungen angesichts der COVID-19-Pandemie und ihrer Folgen,</p>
+      </container>
+      <container name="in Anerkennung" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">in Anerkennung</span> der Bedeutung der strategischen Kommunikation für Friedenssicherungseinsätze, in der Erkenntnis, dass ihr effizienter Einsatz für die wirksame Durchführung des Mandats der UNMISS entscheidend ist, <span class="italic">betonend</span>, dass die Kapazitäten der UNMISS für strategische Kommunikation weiter verbessert werden müssen, damit die Mission auch künftig in der Lage ist, ihre schutzbezogenen, politischen und humanitären Ziele zu erreichen, und die Entschlossenheit des Generalsekretärs <span class="italic">begrüßend</span>, strategische Kommunikationstätigkeiten sowohl in die Planung als auch in die täglichen operativen Entscheidungen von Missionen, einschließlich der UNMISS, durchgängig zu integrieren, wie in seinem Plan „Action for Peacekeeping Plus“ (Aktion für Friedenssicherung Plus) erklärt,</p>
+      </container>
+      <container name="begrüßend" eId="container_29">
+          <p xml:space="preserve">	<span class="italic">begrüßend</span>, dass der Generalsekretär entschlossen ist, seine Nulltoleranzpolitik gegenüber sexueller Ausbeutung und sexuellem Missbrauch streng anzuwenden, von den verschiedenen Maßnahmen zur Bekämpfung sexueller Ausbeutung und sexuellen Missbrauchs <span class="italic">Kenntnis nehmend</span>, die die UNMISS und die truppen- und polizeistellenden Länder ergriffen haben, zugleich jedoch <span class="italic">mit dem Ausdruck </span>seiner anhaltenden Besorgnis über die Vorwürfe, wonach Friedenssicherungskräfte in Südsudan sexuelle Ausbeutung und sexuellen Missbrauch begangen haben sollen,</p>
+      </container>
+      <container name="unter nachdrücklicher Verurteilung" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">unter nachdrücklicher Verurteilung </span>der Angriffe von Regierungs- und Oppositionskräften und anderen Gruppen auf Personal und Einrichtungen der Vereinten Nationen und der Zwischenstaatlichen Behörde für Entwicklung, des Angriffs auf den Schutzort für Zivilpersonen in Malakal im Februar 2016, des Angriffs auf den Schutzort für Zivilpersonen in Juba im Juli 2016 und des Angriffs auf die Wohnanlage „Terrain“, der Inhaftierung und Entführung von Personal der Vereinten Nationen und beigeordnetem Personal, der wiederholten Angriffe auf die Lager der UNMISS in Bor, Bentiu, Malakal und Melut, und des angeblich von der Sudanesischen Volksbefreiungsarmee verursachten Verschwindens und Todes dreier den Vereinten Nationen angeschlossener nationaler Bediensteter und eines nationalen Auftragnehmers im Staat Oberer Nil und der Inhaftierung und Misshandlung eines Teams des Mechanismus zur Überwachung und Verifikation der Waffenruhe und der Einhaltung der Übergangs-Sicherheitsbestimmungen durch Amtsträger der Regierung Südsudans im Dezember 2018 und <span class="italic">mit der Aufforderung</span> an die Regierung Südsudans, ihre Untersuchung dieser Angriffe rasch und gründlich zu Ende zu führen und die Verantwortlichen zur Rechenschaft zu ziehen,</p>
+      </container>
+      <container name="Kenntnis nehmend" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Kenntnis nehmend </span>von dem Schreiben des Generalsekretärs vom 15. Juli 2021 zur Bedarfsermittlung für die Wahlen (<a href="https://undocs.org/ot/S/2021/661">S/2021/661</a>) sowie <span class="italic">Kenntnis nehmend </span>von dem Bericht des Generalsekretärs vom 25. Februar 2022 (<a href="https://undocs.org/ot/S/2022/156">S/2022/156</a>),</p>
+      </container>
+      <container name="feststellend" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">feststellend</span>, dass die Situation in Südsudan nach wie vor eine Bedrohung des Weltfriedens und der internationalen Sicherheit in der Region darstellt,</p>
+      </container>
+      <container name="tätig werdend" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">tätig werdend </span>nach Kapitel VII der Charta der Vereinten Nationen,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_34" class="SingleTxt">
+        <content eId="para_34__content">
+          <p xml:space="preserve">
+            <span class="bold italic">Mandat der UNMISS</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">beschließt</span>, das Mandat der UNMISS bis zum 15. März 2023 zu verlängern;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">beschließt</span>, dass das Mandat der UNMISS darauf ausgerichtet ist, die in Resolution <a href="https://undocs.org/ot/S/RES/2567(2021)">2567 (2021)</a> festgelegte, auf drei Jahre angelegte strategische Vision voranzubringen, um einen erneuten Bürgerkrieg in Südsudan zu verhindern, auf lokaler und nationaler Ebene einen dauerhaften Frieden herbeizuführen und eine inklusive und rechenschaftspflichtige Regierungs- und Verwaltungsführung zu unterstützen sowie freie, faire und friedliche Wahlen im Einklang mit dem Neubelebten Abkommen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>3.</num>
+        <list eId="para_38_list">
+          <intro eId="para_38_list_intro">
+            <p xml:space="preserve">	<span class="italic">beschließt</span>, dass die UNMISS das folgende Mandat hat, und <span class="italic">ermächtigt </span>die UNMISS, alle erforderlichen Mittel einzusetzen, um ihr Mandat wahrzunehmen:</p>
+          </intro>
+          <point eId="para_38_list_point_a">
+            <num>a)</num>
+            <content eId="para_38_list_point_a_content">
+              <p xml:space="preserve">	<span class="italic">Schutz von Zivilpersonen</span>:</p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_a_sublist">
+            <point eId="para_38_list_point_a_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_38_list_point_a_sublist_point_i_content">
+                <p xml:space="preserve">	im Rahmen ihrer Möglichkeiten und innerhalb ihrer Einsatzgebiete Zivilpersonen zu schützen, denen körperliche Gewalt droht, gleichviel von wem diese Gewalt ausgeht, auch im Zusammenhang mit den Wahlen, mit besonderem Schutz für Frauen und Kinder, namentlich durch den fortgesetzten und anhaltenden Einsatz der Beratungsfachkräfte der UNMISS für Kinderschutz, ihrer Beratungsfachkräfte für Frauenschutz und ihrer uniformierten und zivilen Beratungsfachkräfte für Geschlechter- und Gleichstellungsfragen, deren Stellen rasch besetzt werden sollen, und zum Zweck des Kapazitätsaufbaus bewährte Verfahren mit den maßgeblichen lokalen Interessenträgern auszutauschen;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_38_list_point_a_sublist_point_ii_content">
+                <p xml:space="preserve">	von Gewalt gegen Zivilpersonen, einschließlich ausländischer Staatsangehöriger, abzuschrecken, insbesondere durch proaktive Einsätze, durch aktive Patrouillentätigkeit, wobei besondere Aufmerksamkeit auf Binnenvertriebene und Flüchtlinge, unter anderem, aber nicht nur, diejenigen an Schutzorten und in Lagern, sowie auf humanitäres Personal und Menschenrechtsverteidigerinnen und -verteidiger zu richten ist, und durch die Ermittlung gegen Zivilpersonen gerichteter Drohungen und Angriffe, namentlich auch durch die Umsetzung einer missionsweiten Strategie für Frühwarnung und rasche Reaktion, die sich auf eine robuste, konfliktsensible Analyse, regelmäßige Kontakte zu Zivilpersonen, einschließlich zu Assistentinnen und Assistenten für die Verbindungsarbeit zur lokalen Bevölkerung, und enge Zusammenarbeit mit humanitären, zivilgesellschaftlichen, Menschenrechts- und Entwicklungsorganisationen stützt, in Gebieten mit hohem Konfliktrisiko, insbesondere wenn die Regierung Südsudans nicht in der Lage ist oder es unterlässt, diese Sicherheit zu gewährleisten;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_iii">
+              <num>iii)</num>
+              <content eId="para_38_list_point_a_sublist_point_iii_content">
+                <p xml:space="preserve">	die öffentliche Sicherheit der Schutzorte der UNMISS für Zivilpersonen und innerhalb dieser Orte sowie der nicht mehr als Schutzorte für Zivilpersonen ausgewiesenen Orte zu gewährleisten, um eine flexible Kräfteaufstellung zu bewahren, die an eine Gefährdungsanalyse, Eventualpläne für den Schutz in einer Krise befindlicher Orte und die Fähigkeit gebunden ist, die Präsenz in den nicht mehr als Schutzorte für Zivilpersonen ausgewiesenen Orten und deren Schutz im Fall einer Verschlechterung der Sicherheitslage zu verstärken;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_iv">
+              <num>iv)</num>
+              <content eId="para_38_list_point_a_sublist_point_iv_content">
+                <p xml:space="preserve">	im Rahmen ihrer Möglichkeiten und innerhalb ihrer Einsatzgebiete von sexueller und geschlechtsspezifischer Gewalt abzuschrecken und sie zu verhüten und zu bekämpfen, so auch durch Erleichterung des Zugangs zu Organisationen, die Dienste und Unterstützung für Überlebende anbieten, darunter medizinische Dienste, Dienste auf dem Gebiet der sexuellen, reproduktiven und psychischen Gesundheit und psychosoziale sowie rechtliche und sozioökonomische Dienste;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_v">
+              <num>v)</num>
+              <content eId="para_38_list_point_a_sublist_point_v_content">
+                <p xml:space="preserve">	durch Gute Dienste, Vertrauensbildung und Moderation die Schutzstrategie der UNMISS zu unterstützen, insbesondere im Hinblick auf Frauen und Kinder, und dabei auch die Verhütung, Milderung und Beilegung von Gewalt zwischen Bevölkerungsgruppen zu erleichtern, unter anderem durch die Unterstützung von den Gemeinwesen getragener Prozesse im Bereich des Friedensdialogs, im Einklang mit faktengestützten bewährten Verfahren und auf der Grundlage einer geschlechtersensiblen Analyse des Konflikts und der politischen Ökonomie sowie einer konfliktsensiblen Analyse, durch Vermittlung und durch die Einbindung der lokalen Bevölkerung, um eine dauerhafte lokale und nationale Aussöhnung zu fördern, was ein unverzichtbarer Bestandteil der Gewaltprävention und der langfristigen Maßnahmen im Bereich der Staatsbildung ist;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_vi">
+              <num>vi)</num>
+              <content eId="para_38_list_point_a_sublist_point_vi_content">
+                <p xml:space="preserve">	in Zusammenarbeit und Abstimmung mit Entwicklungspartnern und Vertretern der Gemeinwesen die zuständigen nationalen und bundesstaatlichen Behörden und zivilgesellschaftlichen Organisationen bei der Entwicklung und Umsetzung geschlechtersensibler Programme zur Minderung der Gewalt in den Gemeinwesen zu unterstützen, um zur Deeskalation der Gewalt zwischen den Bevölkerungsgruppen beizutragen und lokale Entwaffnungsinitiativen zu ergänzen, mit besonderem Augenmerk auf Mitgliedern bewaffneter Gruppen, die nicht in die Erforderlichen Vereinten Streitkräfte integriert werden können oder wollen, sowie auf Frauen und jungen Menschen;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_vii">
+              <num>vii)</num>
+              <content eId="para_38_list_point_a_sublist_point_vii_content">
+                <p xml:space="preserve">	technische Hilfe und Kapazitätsaufbau zu nutzen, um die Regierung Südsudans bei der Ausweitung und Reform des Rechtsstaats und des Justizsektors auf konfliktsensible Weise und im Einklang mit den Bestimmungen des Friedensabkommens zu unterstützen, mit dem Ziel, den Schutz von Zivilpersonen zu stärken, die Straflosigkeit zu bekämpfen und die für Rechtsverletzungen Verantwortlichen verstärkt zur Rechenschaft zu ziehen, unter anderem mithilfe der Untersuchung und strafrechtlichen Verfolgung geschlechtsspezifischer Gewalt, einschließlich sexueller Gewalt im Zusammenhang mit Konflikten, und von Menschenrechtsverletzungen und -übergriffen, unter Verwendung eines Ansatzes, der die Überlebenden in den Mittelpunkt stellt;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_viii">
+              <num>viii)</num>
+              <content eId="para_38_list_point_a_sublist_point_viii_content">
+                <p xml:space="preserve">	ein sicheres Umfeld für die sichere, in Kenntnis der Sachlage erfolgende, freiwillige und würdevolle Rückkehr, Umsiedlung, Neuansiedlung oder Integration von Binnenvertriebenen und Flüchtlingen in Aufnahmegesellschaften zu fördern, in Fällen und an Orten, in denen günstige Bedingungen bestehen, unter anderem durch die Überwachung der Menschenrechtssituation und die Förderung der Menschenrechtseinhaltung, die Koordinierung mit der Polizei, mit Sicherheits- und staatlichen Institutionen und mit zivilgesellschaftlichen Akteuren bei relevanten und auf den Schutz gerichteten Aktivitäten, die Untersuchung und strafrechtliche Verfolgung sexueller und geschlechtsspezifischer Gewalt und sexueller Gewalt im Zusammenhang mit Konflikten sowie anderer Menschenrechtsverletzungen und -übergriffe, mit dem Ziel, den Schutz von Zivilpersonen zu stärken, die Straflosigkeit zu bekämpfen und die für Rechtsverletzungen Verantwortlichen verstärkt zur Rechenschaft zu ziehen, wobei zu jeder Zeit die Richtlinien der Vereinten Nationen für menschenrechtliche Sorgfaltspflicht einzuhalten sind;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_ix">
+              <num>ix)</num>
+              <content eId="para_38_list_point_a_sublist_point_ix_content">
+                <p xml:space="preserve">	die Bedingungen für die sichere und freie Bewegung nach, aus und um Juba schaffen zu helfen, unter anderem an den Wegen in die Stadt und aus der Stadt sowie den Hauptkommunikations- und -verkehrswegen innerhalb Jubas, einschließlich des Flughafens;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_x">
+              <num>x)</num>
+              <content eId="para_38_list_point_a_sublist_point_x_content">
+                <p xml:space="preserve">	rasch und wirksam gegen alle Akteure einzuschreiten, bei denen glaubhaft festgestellt wird, dass sie Angriffe auf Zivilpersonen, Lager für Binnenvertriebene, Schutzorte der UNMISS für Zivilpersonen, andere Räumlichkeiten der Vereinten Nationen, Personal der Vereinten Nationen oder internationale und nationale humanitäre Akteure vorbereiten, oder die solche Angriffe begehen;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_38_list_point_b">
+            <num>b)</num>
+            <content eId="para_38_list_point_b_content">
+              <p xml:space="preserve">
+                <span class="italic">	Schaffung förderlicher Bedingungen für die Bereitstellung humanitärer Hilfe:</span> </p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_b_sublist">
+            <point eId="para_38_list_point_b_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_38_list_point_b_sublist_point_i_content">
+                <p xml:space="preserve">	in enger Abstimmung mit den humanitären Akteuren zur Schaffung von Sicherheitsbedingungen beizutragen, die für die Bereitstellung humanitärer Hilfe förderlich sind, um im Einklang mit dem Völkerrecht, einschließlich des anwendbaren humanitären Völkerrechts, und den Leitgrundsätzen der Vereinten Nationen für die humanitäre Hilfe, namentlich Menschlichkeit, Unparteilichkeit, Neutralität und Unabhängigkeit, den vollen, sicheren und ungehinderten Zugang des gesamten humanitären Personals zu allen Hilfebedürftigen in Südsudan und die rasche Bereitstellung humanitärer Hilfe, insbesondere für Binnenvertriebene und Flüchtlinge, zu ermöglichen und zu diesem Zweck auch geschlechtersensible Risikobewertungen zu den nachteiligen Auswirkungen des Klimawandels bereitzustellen;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_b_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_38_list_point_b_sublist_point_ii_content">
+                <p xml:space="preserve">	die Sicherheit und Bewegungsfreiheit des Personals der Vereinten Nationen beziehungsweise des beigeordneten Personals zu gewährleisten und die Sicherheit der zur Durchführung der mandatsmäßigen Aufgaben erforderlichen Anlagen und Ausrüstung zu gewährleisten;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_38_list_point_c">
+            <num>c)</num>
+            <content eId="para_38_list_point_c_content">
+              <p xml:space="preserve">
+                <span class="italic">	Unterstützung der Durchführung des Neubelebten Abkommens und des Friedensprozesses:</span>
+              </p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_c_sublist">
+            <point eId="para_38_list_point_c_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_38_list_point_c_sublist_point_i_content">
+                <p xml:space="preserve">	Gute Dienste zu nutzen, um den Friedensprozess und die Durchführung des Neubelebten Abkommens zu unterstützen, unter anderem durch Beratung, technische Hilfe und Abstimmung mit den in Betracht kommenden regionalen Akteuren;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_38_list_point_c_sublist_point_ii_content">
+                <p xml:space="preserve">	alle Parteien darin zu unterstützen, die volle, gleichberechtigte und konstruktive Beteiligung der Frauen am Friedensprozess, an den Organen und Institutionen der Übergangsregierung, an allen Maßnahmen zur Konfliktbeilegung und Friedenskonsolidierung, an der Unrechtsaufarbeitung und am Verfassungsgebungsprozess sowie die Einbeziehung der Jugend, der Glaubensgemeinschaften und der Zivilgesellschaft darin sicherzustellen;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_iii">
+              <num>iii)</num>
+              <content eId="para_38_list_point_c_sublist_point_iii_content">
+                <p xml:space="preserve">	an dem Mechanismus zur Überwachung und Verifikation der Waffenruhe und der Einhaltung der Übergangs-Sicherheitsbestimmungen, der Rekonstituierten gemeinsamen Überwachungs- und Evaluierungskommission und anderen Durchführungsmechanismen mitzuwirken und sie bei der Erfüllung ihrer Mandate zu unterstützen, auch auf subnationaler Ebene;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_iv">
+              <num>iv)</num>
+              <content eId="para_38_list_point_c_sublist_point_iv_content">
+                <p xml:space="preserve">	technische Hilfe, auch auf dem Gebiet des Kapazitätsaufbaus, zu nutzen, um die Mechanismen des Neubelebten Abkommens zu unterstützen, so auch zur Unterstützung der Anstrengungen Südsudans im Hinblick auf die Ausarbeitung einer Verfassung, die Übergangs-Sicherheitsbestimmungen und die Entwicklung eines soliden Regulierungsrahmens;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_v">
+              <num>v)</num>
+              <content eId="para_38_list_point_c_sublist_point_v_content">
+                <p xml:space="preserve">	technische Hilfe, auch auf dem Gebiet des Kapazitätsaufbaus, und logistische Unterstützung für den Wahlprozess bereitzustellen, soweit angezeigt, in Abstimmung mit dem Landesteam der Vereinten Nationen und den regionalen und internationalen Partnern, sowie Sicherheitsunterstützung zur Erleichterung des Wahlzyklus, im Einklang mit dem Neubelebten Abkommen, unter Hinweis darauf, dass die Unterstützung für die UNMISS unter anderem die Unterstützung der südsudanesischen Behörden bei ihren Anstrengungen zur Ausarbeitung einer ständigen Verfassung, zur Minderung des Potenzials für Spannungen während des gesamten Wahlzeitraums, zur Gewährleistung der vollen, gleichberechtigten, konstruktiven und sicheren Teilhabe von Kandidatinnen und Wählerinnen auf allen Ebenen und in allen Phasen des Wahlprozesses sowie zur Gewährleistung der Beteiligung südsudanesischer Binnenvertriebener und Flüchtlinge umfasst, und <span class="italic">stellt fest</span>, dass die Unterstützung der UNMISS je nach den von den südsudanesischen Behörden erzielten Fortschritten im Hinblick auf die in den Ziffern 6, 7 und 8 genannten Elemente laufend bewertet und überprüft werden wird;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_38_list_point_d">
+            <num>d)</num>
+            <content eId="para_38_list_point_d_content">
+              <p xml:space="preserve">
+                <span class="italic">	Beobachtung und Untersuchung von Verstößen gegen das humanitäre Völkerrecht und Menschenrechtsverletzungen und -übergriffen sowie Berichterstattung darüber</span>:</p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_d_sublist">
+            <point eId="para_38_list_point_d_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_38_list_point_d_sublist_point_i_content">
+                <p xml:space="preserve">	Menschenrechtsübergriffe und -verletzungen und Verstöße gegen das humanitäre Völkerrecht, einschließlich derjenigen, die Kriegsverbrechen oder Verbrechen gegen die Menschlichkeit darstellen können, zu beobachten, zu untersuchen, zu verifizieren und sofort öffentlich und regelmäßig darüber Bericht zu erstatten;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_d_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_38_list_point_d_sublist_point_ii_content">
+                <p xml:space="preserve">	an Frauen und Kindern begangene Rechtsverletzungen und Missbrauchshandlungen, einschließlich aller Formen der sexuellen und geschlechtsspezifischen Gewalt in bewaffneten Konflikten, zu beobachten, zu untersuchen, zu verifizieren und spezifisch und öffentlich darüber Bericht zu erstatten und die Umsetzung der Regelungen zur Überwachung, Analyse und Berichterstattung betreffend sexuelle Gewalt im Zusammenhang mit Konflikten zu beschleunigen und zu diesem Zweck unter anderem sicherzustellen, dass diese Regelungen zeitnahe Maßnahmen zur Abschreckung von und zur Verhütung und Bekämpfung sexueller Gewalt fördern, und den Überwachungs- und Berichterstattungsmechanismus für Rechtsverletzungen und Missbrauchshandlungen an Kindern zu stärken;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_d_sublist_point_iii">
+              <num>iii)</num>
+              <content eId="para_38_list_point_d_sublist_point_iii_content">
+                <p xml:space="preserve">	in Zusammenarbeit mit der Sonderberaterin der Vereinten Nationen für die Verhütung von Völkermord Fälle von Hassparolen und Aufstachelung zu Gewalt zu beobachten, zu untersuchen und darüber Bericht zu erstatten;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_d_sublist_point_iv">
+              <num>iv)</num>
+              <content eId="para_38_list_point_d_sublist_point_iv_content">
+                <p xml:space="preserve">	sich nach Bedarf mit den internationalen, regionalen und nationalen Mechanismen und den maßgeblichen lokalen Interessenträgern, die Verstöße gegen das humanitäre Völkerrecht und Menschenrechtsverletzungen und -übergriffe, einschließlich derjenigen, die Kriegsverbrechen oder Verbrechen gegen die Menschlichkeit darstellen können, beobachten und untersuchen und darüber Bericht erstatten, abzustimmen, geeignete Informationen mit ihnen auszutauschen und ihnen gegebenenfalls technische Unterstützung, auch auf dem Gebiet des Kapazitätsaufbaus, zu leisten;</p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">beschließt</span>, die Gesamttruppenstärke der UNMISS mit einer Obergrenze von 17.000 Soldatinnen und Soldaten und eine Obergrenze von 2.101 Polizeikräften, einschließlich 88 Strafvollzugsbediensteter, beizubehalten, und <span class="italic">bekundet </span>seine Bereitschaft, Anpassungen der Truppenstärke und der Aufgaben zum Kapazitätsaufbau auf der Grundlage der Sicherheitsbedingungen vor Ort und der Durchführung der in Ziffer 9 genannten vorrangigen Maßnahmen zu erwägen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <content eId="para_42__content">
+          <p xml:space="preserve">
+            <span class="bold italic">Friedensprozess in Südsudan</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">verlangt</span>, dass alle Konfliktparteien und andere bewaffnete Akteure die Kampfhandlungen in ganz Südsudan umgehend einstellen und einen politischen Dialog aufnehmen, <span class="italic">weist </span>die Behörden Südsudans darauf <span class="italic">hin</span>, dass sie die Hauptverantwortung für den Schutz von Zivilpersonen in Südsudan tragen, und <span class="italic">verlangt ferner</span>, dass die Führungsverantwortlichen Südsudans die in dem Neubelebten Abkommen erklärte dauerhafte Waffenruhe und alle früheren Waffenruhevereinbarungen und Abkommen über die Einstellung der Feindseligkeiten umsetzen, einschließlich der in der Erklärung von Rom eingegangenen Verpflichtungen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">bringt </span>seine tiefe Besorgnis über die Verzögerungen bei der Umsetzung des Neubelebten Abkommens <span class="italic">zum Ausdruck</span>, <span class="italic">fordert </span>die Parteien <span class="italic">auf</span>, das Neubelebte Abkommen uneingeschränkt umzusetzen, so auch indem sie die notwendigen finanziellen Mittel bereitstellen, die mit ihm eingesetzten Institutionen unverzüglich einzurichten und die volle, gleichberechtigte und konstruktive Beteiligung der Frauen sowie die Einbeziehung der Jugend, der Glaubensgemeinschaften und der Zivilgesellschaft an allen Maßnahmen zur Konfliktbeilegung und Friedenskonsolidierung zu gewährleisten, <span class="italic">betont</span>, dass zügig Sicherheits-bestimmungen abgeschlossen, alle Übergangsinstitutionen eingerichtet und Fortschritte bei den Übergangsreformen erzielt werden müssen, so auch im Hinblick auf die Schaffung eines freien und offenen zivilgesellschaftlichen Raums, einen alle Seiten einbeziehenden Prozess der Ausarbeitung einer Verfassung sowie wirtschaftliche Transparenz und eine Reform der öffentlichen Finanzverwaltung, <span class="italic">anerkennt </span>die nachteiligen Auswirkungen der Korruption und des Missbrauchs öffentlicher Gelder auf die Fähigkeit der Regierung Südsudans, Dienstleistungen für ihre Bevölkerung bereitzustellen, und <span class="italic">betont ferner</span>, dass die Wirtschaftslenkung verbessert werden muss, um wirksame nationale Strukturen für die Steuereinziehung und die Korruptionsbekämpfung zu gewährleisten und so die Durchführung des Neubelebten Abkommens zu finanzieren, insbesondere auch die Vorbereitung und Abhaltung von Wahlen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">betont</span>, dass die Durchführung freier und fairer Wahlen, die den Willen aller Menschen in Südsudan widerspiegeln und unter voller, gleichberechtigter und konstruktiver Beteiligung von Frauen und unter Einbeziehung von jungen Menschen, Menschen mit Behinderungen, südsudanesischen Binnenvertriebenen, Flüchtlingen und Angehörigen aller politischen Gruppen stattfinden, von entscheidender Bedeutung für einen Übergang zu einem stabilen, inklusiven, demokratischen und selbstständigen Staat sein wird, <span class="italic">unterstreicht </span>in diesem Zusammenhang, dass den Wahlen ein inklusiver, transparenter Prozess der Ausarbeitung einer Verfassung vorausgehen muss, <span class="italic">fordert </span>die südsudanesischen Behörden <span class="italic">auf</span>, im Einklang mit dem Neubelebten Abkommen sofortige und konkrete Fortschritte bei den wichtigsten Zwischenzielen zur Erleichterung eines friedlichen Wahlprozesses zu erreichen, darunter die Verabschiedung der ständigen Verfassung, die Verabschiedung der erforderlichen Rechtsvorschriften, Übergangs-Sicherheitsbestimmungen und die Einsetzung einer unabhängigen Wahlkommission, und das Potenzial für Spannungen während des gesamten Wahlzeitraums zu mindern, zugleich erklärend, wie wichtig es ist, dass die südsudanesischen Behörden und alle maßgeblichen Parteien förderliche Voraussetzungen schaffen, um es der UNMISS zu ermöglichen, den Wahlprozesses zu unterstützen, wie in Ziffer 3 vorgesehen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">fordert </span>die Regierung Südsudans sowie alle maßgeblichen Parteien <span class="italic">auf</span>, für ein Umfeld zu sorgen, das einem freien, fairen, inklusiven, transparenten, friedlichen und fristgerechten Wahlvorgang förderlich ist, der mit dem Neubelebten Abkommen im Einklang steht und eine freie und konstruktive politische Debatte, das Recht auf Meinungsfreiheit und freie Meinungsäußerung, einschließlich für die Zivilgesellschaft, Oppositionsparteien und Mitglieder der Presse, Versammlungsfreiheit, gleichen Zugang zu den Medien, einschließlich staatlicher Medien, die Sicherheit aller politischen Akteurinnen und Akteure, Bewegungsfreiheit für alle Kandidatinnen und Kandidaten sowie die Präsenz einheimischer und internationaler Wahlbeobachter und Zeugen, Journalisten, Menschenrechtsaktivisten und Akteure der Zivilgesellschaft, einschließlich Frauen, beinhaltet;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">fordert </span>die Regierung Südsudans und alle maßgeblichen Akteure <span class="italic">auf</span>, Maßnahmen zu ergreifen, um vor Ende des laufenden Mandats der UNMISS die folgenden vorrangigen Aufgaben zu erfüllen:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <content eId="para_54__content">
+          <p xml:space="preserve">in einer ihren Verpflichtungen aus den internationalen Menschenrechtsnormen und dem humanitären Völkerrecht entsprechenden Weise die Sicherheit der nicht mehr als Schutzorte für Zivilpersonen ausgewiesenen Orte zu gewährleisten, gegen die Bewohnerinnen und Bewohner dieser Lager gerichtete Gewalt oder Kriminalität zu verhindern und zu bekämpfen und alle an diesen Orten eingesetzten Sicherheitskräfte in angemessener Weise zu überprüfen,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <content eId="para_55__content">
+          <p xml:space="preserve">einen Prozess der Erarbeitung einer ständigen Verfassung mit breit angelegten, alle Seiten einschließenden öffentlichen Konsultationen einzuleiten und zu beaufsichtigen,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <content eId="para_56__content">
+          <p xml:space="preserve">Fortschritte mit Blick auf die wichtigsten Zwischenziele bei den Vorbereitungen freier und fairer Wahlen zu erreichen, im Einklang mit <a href="https://undocs.org/ot/S/PRST/2021/20">S/PRST/2021/20</a>,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <content eId="para_57__content">
+          <p xml:space="preserve">alle Obstruktionen der UNMISS zu beenden, unter anderem die Obstruktionen, die die UNMISS an der Wahrnehmung ihres Mandats, Menschenrechtsverletzungen und  -übergriffe zu überwachen und zu untersuchen, hindern, und sofort damit aufzuhören, internationale und nationale humanitäre Akteure daran zu hindern, Zivilpersonen zu helfen, und die Bewegungsfreiheit für den Mechanismus zur Überwachung und Verifikation der Waffenruhe und der Einhaltung der Übergangs-Sicherheitsbestimmungen zu ermöglichen,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <content eId="para_58__content">
+          <p xml:space="preserve">die Ausbildung der erforderlichen vereinten Streitkräfte abzuschließen, ihre wirksame Neudislozierung einzuleiten und ihre gemeinsame Kommandostruktur anzunehmen,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <content eId="para_59__content">
+          <p xml:space="preserve">ohne weitere Verzögerung eine Vereinbarung mit der Afrikanischen Union über die Schaffung des Hybriden Gerichtshofs für Südsudan zu schließen, seine effektive Einrichtung einzuleiten und die Kommission für Wahrheit, Aussöhnung und Heilung und die Behörde für Entschädigung und Wiedergutmachung einzurichten,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">fordert </span>die Regierung Südsudans <span class="italic">erneut auf</span>, die in dem Abkommen über die Rechtsstellung der Truppen zwischen der Regierung Südsudans und den Vereinten Nationen festgelegten Verpflichtungen einzuhalten und umgehend aufzuhören, die UNMISS bei der Durchführung ihres Mandats zu behindern, <span class="italic">stellt mit Besorgnis fest</span>, dass Verstöße gegen das Abkommen über die Rechtsstellung der Truppen den Schutz und die Sicherheit von Personal der Vereinten Nationen, das in Friedenssicherungseinsätzen dient, gravierend gefährden können, <span class="italic">fordert </span>die Regierung Südsudans <span class="italic">auf</span>, Maßnahmen zur Abschreckung von feindseligen oder anderen Handlungen zu ergreifen, die die UNMISS oder internationale und nationale humanitäre Akteure behindern, und die für solche Handlungen Verantwortlichen zur Rechenschaft zu ziehen und auch weiterhin alle geeigneten Maßnahmen zu ergreifen, um den Schutz und die Sicherheit sowie die Bewegungsfreiheit des Personals der UNMISS und ihren ungehinderten und sofortigen Zugang zu gewährleisten, <span class="italic">erinnert </span>die Regierung Südsudans daran, dass die UNMISS gemäß dem Abkommen über die Rechtsstellung der Truppen keine vorherige Genehmigung oder Erlaubnis benötigt, um ihre mandatsmäßigen Aufgaben wahrzunehmen, <span class="italic">erklärt</span>, dass die UNMISS, um ihr Mandat ausführen zu können, unbedingt in der Lage sein muss, Verstöße gegen das humanitäre Völkerrecht sowie Menschenrechtsverletzungen und -übergriffe zu beobachten, zu untersuchen und darüber Bericht zu erstatten und alle ihre Stützpunkte uneingeschränkt zu nutzen, unter anderem auch ihren Stützpunkt in Tomping, der an den internationalen Flughafen von Juba angrenzt und für die Einsätze und die Sicherheit der UNMISS unverzichtbar ist, und <span class="italic">fordert </span>die Regierung Südsudans <span class="italic">nachdrücklich auf</span>, den reibungslosen Betrieb aller UNMISS-Stütz-punkte zu erleichtern und ein Umfeld wechselseitiger Zusammenarbeit zu schaffen, in dem die UNMISS und ihre Partner ihre Arbeit durchführen können;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">verlangt</span>, dass alle Parteien alle Formen der Gewalt, Menschenrechtsverletzungen und -übergriffe sowie Verstöße gegen das humanitäre Völkerrecht, einschließlich Vergewaltigung und anderer Formen sexueller und geschlechtsspezifischer Gewalt, sofort einstellen, <span class="italic">fordert </span>die Regierung Südsudans <span class="italic">auf</span>, die für die Begehung und Anordnung dieser Rechtsverletzungen und Übergriffe Verantwortlichen zur Rechenschaft zu ziehen, um den herrschenden Kreislauf der Straflosigkeit zu durchbrechen, und verstärkte Anstrengungen zu unternehmen, um die laufenden Untersuchungen der behaupteten Menschenrechtsverletzungen und -übergriffe in einer ihren internationalen Verpflichtungen entsprechenden Weise zügig und transparent abzuschließen, <span class="italic">ermutigt </span>sie, die Berichte über diese Untersuchungen zu veröffentlichen, und <span class="italic">fordert </span>die Regierung Südsudans <span class="italic">auf</span>, die Zunahme von Hetzparolen und ethnisch motivierter Gewalt sofort zu verurteilen und zu bekämpfen und die Aussöhnung unter der Bevölkerung zu fördern;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">verlangt</span>, dass alle Parteien im Einklang mit dem Völkerrecht, einschließlich des anwendbaren humanitären Völkerrechts, den raschen, sicheren und ungehinderten Zugang von Hilfspersonal, -ausrüstung und -lieferungen zu allen Hilfebedürftigen in ganz Südsudan, insbesondere Binnenvertriebenen und Flüchtlingen, sowie die rasche Bereitstellung humanitärer Hilfe für diese gestatten und damit aufhören, Krankenhäuser, Schulen und andere zivile Räumlichkeiten für Zwecke zu verwenden, die sie zu Angriffszielen machen könnten, <span class="italic">betont </span>die Verpflichtung, das gesamte Sanitätspersonal und ausschließlich medizinische Aufgaben wahrnehmende humanitäre Personal, seine Transportmittel und Ausrüstung sowie Krankenhäuser und andere medizinische Einrichtungen zu schonen und zu schützen, <span class="italic">betont </span>außerdem, dass jede Rückkehr von Binnenvertriebenen oder Flüchtlingen freiwillig, in Kenntnis der Sachlage und in Würde und Sicherheit erfolgen muss und dass dieses Gebot auch für alle anderen dauerhaften Lösungen gilt, die sie betreffen, und <span class="italic">stellt fest</span>, dass die Bewegungsfreiheit der Zivilpersonen und ihr Recht, Asyl zu suchen, geachtet werden sollen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">fordert </span>die Regierung Südsudans <span class="italic">auf</span>, Fragen betreffend Wohnraum, Boden und Grundbesitz zu klären, um dauerhafte Lösungen für Binnenvertriebene und Flüchtlinge herbeizuführen, auch durch Maßnahmen zur Ausarbeitung einer Nationalen Bodenpolitik, und ein sicheres Umfeld für die sichere, in Kenntnis der Sachlage erfolgende, freiwillige und würdevolle Rückkehr, Umsiedlung, Neuansiedlung oder Integration von südsudanesischen Binnenvertriebenen und Flüchtlingen in Aufnahmegemeinschaften zu schaffen, in Fällen und an Orten, in denen günstige Bedingungen bestehen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">fordert </span>die Parteien <span class="italic">auf</span>, die volle, wirksame und konstruktive Teilhabe und Mitwirkung der Frauen in allen Bereichen und auf allen Ebenen der politischen Führung, des Friedensprozesses, der Übergangsregierung und der andauernden Reformprozesse im Rahmen des Friedensabkommens sicherzustellen, und <span class="italic">fordert </span>die Parteien <span class="italic">ferner auf</span>, die Notwendigkeit anzuerkennen, von Frauen geführte Organisationen und Akteurinnen auf dem Gebiet der Friedenskonsolidierung vor Bedrohungen und Vergeltungsakten zu schützen und ein sicheres Umfeld zu schaffen, in dem sie ihre Arbeit sicher und frei durchführen können, und ihren in dem Neubelebten Abkommen eingegangenen Verpflichtungen bezüglich Inklusivität, unter anderem im Hinblick auf nationale Vielfalt, Geschlecht, Jugend und regionale Vertretung nachzukommen, einschließlich der Mindestquote von 35 Prozent für die Vertretung von Frauen auf allen Ebenen, die bislang noch nicht verwirklicht wurde;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">verurteilt </span>die anhaltenden sexuellen Gewalthandlungen und <span class="italic">verlangt</span>, dass alle Konfliktparteien und alle anderen bewaffneten Akteure die weitere Begehung sexueller Gewalttaten verhindern und die in Resolution <a href="https://undocs.org/ot/S/RES/2467(2019)">2467 (2019)</a> geforderten Maßnahmen umsetzen, um einen Ansatz zur Verhütung und Bekämpfung sexueller Gewalt in Konflikt- und Postkonfliktsituationen zu verfolgen, der die Überlebenden in den Mittelpunkt stellt, und die Verantwortlichen zur Rechenschaft ziehen, insbesondere gegebenenfalls durch zügige Ermittlungen, die strafrechtliche Verfolgung und Bestrafung der Tatverantwortlichen sowie durch entsprechende Wiedergutmachung für die Opfer, und <span class="italic">fordert </span>die Verteidigungskräfte des südsudanesischen Volkes, die Sudanesische Volksbefreiungsarmee in Opposition und die Nationale Heilsfront <span class="italic">mit allem Nachdruck auf</span>, ihre gemeinsamen und einseitigen Verpflichtungen sowie Aktionspläne zur Verhinderung sexueller Gewalt im Zusammenhang mit Konflikten vollständig umzusetzen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">fordert </span>alle an bewaffneten Konflikten in Südsudan beteiligten Parteien mit <span class="italic">großem Nachdruck auf</span>, die Maßnahmen durchzuführen, die in den von der Arbeitsgruppe des Sicherheitsrats für Kinder und bewaffnete Konflikte am 5. März 2021 verabschiedeten Schlussfolgerungen über Kinder und bewaffnete Konflikte in Südsudan gefordert werden, <span class="italic">fordert </span>alle Parteien <span class="italic">nachdrücklich auf</span>, den Umfassenden Aktionsplan von Januar 2020 zur Beendigung und Verhütung aller schweren Rechtsverletzungen an Kindern vollständig durchzuführen, und <span class="italic">fordert </span>die Regierung Südsudans <span class="italic">auf</span>, das Fakultativprotokoll zum Übereinkommen über die Rechte des Kindes betreffend die Beteiligung von Kindern an bewaffneten Konflikten durchzuführen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">fordert </span>die Regierung Südsudans <span class="italic">auf</span>, unter Kenntnisnahme des Kapitels V Artikel 3.2.2 des Neubelebten Abkommens, alle diejenigen, die für Menschenrechtsverletzungen und -übergriffe und Verstöße gegen das humanitäre Völkerrecht verantwortlich sind, zur Rechenschaft zu ziehen, allen Opfern sexueller Gewalt den gleichen Schutz durch das Gesetz und den gleichen Zugang zur Justiz zu gewährleisten und die gleiche Achtung der Menschenrechte von Frauen und Mädchen im Rahmen dieser Prozesse durch die Bereitstellung rechtlicher und medizinischer Unterstützung und psychosozialer Beratung zu sichern, <span class="italic">stellt fest</span>, dass die Durchführung von Maßnahmen der Unrechtsaufarbeitung, insbesondere der in dem Neubelebten Abkommen enthaltenen Maßnahmen, Schlüsselvoraussetzung für Heilung und Aussöhnung ist, <span class="italic">fordert </span>die Regierung Südsudans <span class="italic">nachdrücklich auf</span>, dem Ausbau und der Reform des Rechtsstaates und des Justizsektors Vorrang einzuräumen, so auch auf der subnationalen Ebene, um den Schutz von Zivilpersonen zu stärken, die Straflosigkeit zu bekämpfen und die für Rechtsverletzungen Verantwortlichen verstärkt zur Rechenschaft zu ziehen, <span class="italic">fordert </span>die internationale Gemeinschaft <span class="italic">auf</span>, Unterstützung für die Schaffung des Hybriden Gerichtshofs für Südsudan zu leisten, und <span class="italic">fordert </span>die Regierung Südsudans und die Afrikanische Union <span class="italic">auf</span>, ihren derzeitigen Stillstand zu überwinden und den Hybriden Gerichtshof für den Südsudan einzurichten;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">bekundet </span>seine Absicht, verdeutlicht durch die Verabschiedung der Resolutionen <a href="https://undocs.org/ot/S/RES/2206(2015)">2206 (2015)</a>, <a href="https://undocs.org/ot/S/RES/2290(2016)">2290 (2016)</a>, <a href="https://undocs.org/ot/S/RES/2353(2017)">2353 (2017)</a>, <a href="https://undocs.org/ot/S/RES/2428(2018)">2428 (2018)</a>, <a href="https://undocs.org/ot/S/RES/2471(2019)">2471 (2019)</a>, <a href="https://undocs.org/ot/S/RES/2521(2020)">2521 (2020)</a> und <a href="https://undocs.org/ot/S/RES/2577(2021)">2577 (2021)</a>, alle geeigneten Maßnahmen gegen diejenigen zu erwägen, deren Handeln den Frieden, die Stabilität und die Sicherheit Südsudans untergräbt, <span class="italic">betont </span>die Unantastbarkeit der Schutzorte der Vereinten Nationen, <span class="italic">unterstreicht</span>, dass Personen oder Einrichtungen, die für Angriffe auf Personal und Räumlichkeiten der UNMISS und auf jegliches humanitäre Personal verantwortlich sind oder daran mitbeteiligt waren, möglicherweise die Benennungskriterien erfüllen, <span class="italic">nimmt Kenntnis </span>von dem Sonderbericht des Generalsekretärs vom 20. Februar 2018 über die Verlängerung des Mandats der Mission der Vereinten Nationen in Südsudan (<a href="https://undocs.org/ot/S/2018/143">S/2018/143</a>), laut dem die ständige weitere Lieferung von Waffen und Munition nach Südsudan die Sicherheit des Personals der Vereinten Nationen und die Fähigkeit der UNMISS zur Ausführung ihres Mandats unmittelbar beeinträchtigt hat, <span class="italic">nimmt ferner Kenntnis </span>von dem Kommuniqué des Friedens- und Sicherheitsrats der Afrikanischen Union vom 8. Februar 2018, laut dem den Unterzeichnern des Abkommens über die Einstellung der Feindseligkeiten, den Schutz von Zivilpersonen und den humanitären Zugang die Mittel zur Fortsetzung der Kampfhandlungen entzogen werden sollen, <span class="italic">unterstreicht </span>die vom Sicherheitsrat in Resolution <a href="https://undocs.org/ot/S/RES/2428(2018)">2428 (2018)</a> verabschiedeten Maßnahmen, einschließlich des Waffenembargos, um den Parteien die Mittel zur Fortsetzung der Kampfhandlungen zu entziehen und um Verstöße gegen das Abkommen zu verhindern, und <span class="italic">verlangt</span>, dass alle Mitgliedstaaten ihren Verpflichtungen nachkommen, zu verhindern, dass Rüstungsgüter und sonstiges Wehrmaterial jeder Art auf direktem oder indirektem Weg in das Hoheitsgebiet Südsudans geliefert, verkauft oder weitergegeben werden, wie in den einschlägigen Resolutionen des Sicherheitsrats festgelegt;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <content eId="para_97__content">
+          <p xml:space="preserve">
+            <span class="bold italic">Einsätze der UNMISS</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="italic">verweist </span>auf seine Resolution <a href="https://undocs.org/ot/S/RES/2086(2013)">2086 (2013)</a>, <span class="italic">bekräftigt </span>die in der Erklärung seiner Präsidentschaft <a href="https://undocs.org/ot/S/PRST/2015/22">S/PRST/2015/22</a> dargelegten Grundprinzipien der Friedenssicherung, dar-unter die Zustimmung der Parteien, die Unparteilichkeit und die Nichtanwendung von Gewalt außer zur Selbstverteidigung und zur Verteidigung des Mandats, und <span class="italic">stellt fest</span>, dass das Mandat jeder Friedenssicherungsmission auf die Bedürfnisse und die Situation des jeweiligen Landes zugeschnitten ist und der Sicherheitsrat die volle Durchführung der von ihm erteilten Mandate erwartet;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxt">
+        <num>20.</num>
+        <list eId="para_99_list">
+          <intro eId="para_99_list_intro">
+            <p xml:space="preserve">	<span class="italic">ersucht </span>den Generalsekretär, bei der Planung und Durchführung der Einsätze der UNMISS im Rahmen ihres Mandats und ihres Einsatzgebiets und im Einklang mit den bestehenden Richtlinien und Vorschriften der Vereinten Nationen die folgenden Tätigkeiten uneingeschränkt durchzuführen und die bestehenden Verpflichtungen zu erfüllen:</p>
+          </intro>
+          <point eId="para_99_list_point_a">
+            <num>a)</num>
+            <content eId="para_99_list_point_a_content">
+              <p xml:space="preserve">	die Umsetzung einer missionsweiten Strategie für Frühwarnung und rasche Reaktion zu stärken, als Teil eines koordinierten Ansatzes für die Informationsbeschaffung, Ereignisverfolgung und -analyse, Überwachung, Verifikation, Frühwarnung und Verbreitung sowie Reaktionsmechanismen, einschließlich Mechanismen für die Reaktion auf gegen Zivilpersonen gerichtete Drohungen und Angriffe, die mit Menschenrechtsverletzungen und -übergriffen oder Verstößen gegen das humanitäre Völkerrecht verbunden sein können, sowie zur Vorbereitung auf weitere mögliche Angriffe auf Personal und Einrichtungen der Vereinten Nationen, und dafür zu sorgen, dass in alle Frühwarn- und Konfliktpräventionsmaßnahmen durchgehend eine geschlechtersensible Konfliktanalyse integriert wird;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_b">
+            <num>b)</num>
+            <content eId="para_99_list_point_b_content">
+              <p xml:space="preserve">	zum Einsatz der Vertrauensbildung, Moderation, Vermittlung, Einbindung der lokalen Bevölkerung und strategischer Kommunikation zu ermutigen, um die Durchführung des Mandats der Mission und die Tätigkeiten der Mission für den Schutz, die Informationsbeschaffung und das Situationsbewusstsein zu unterstützen und um gegen Desinformation und Fehlinformationen vorzugehen, die die Fähigkeit der Mission zur Durchführung ihres Mandats beeinträchtigen könnten;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_c">
+            <num>c)</num>
+            <content eId="para_99_list_point_c_content">
+              <p xml:space="preserve">	einer größeren Mobilität der Mission und einer aktiven Patrouillentätigkeit Vorrang einzuräumen, damit sie ihr Mandat in Gebieten besser durchführen kann, in denen neue Schutzrisiken oder Bedrohungen entstehen, auch an entlegenen Orten, und die Entsendung von Truppen mit geeigneten Luft-, Land- und Wassertransportmitteln vorrangig zu behandeln, um die Tätigkeiten der Mission für den Schutz, die Informationsbeschaffung und das Situationsbewusstsein zu unterstützen;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_d">
+            <num>d)</num>
+            <content eId="para_99_list_point_d_content">
+              <p xml:space="preserve">	die Aufklärungs- und Analysekapazitäten der UNMISS im Bereich der Friedenssicherung, einschließlich Überwachungs- und Beobachtungskapazitäten, im Rahmen ihres Mandats zu verbessern;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_e">
+            <num>e)</num>
+            <content eId="para_99_list_point_e_content">
+              <p xml:space="preserve">	wirksamere Verfahren für den Abtransport von Toten und Verwundeten und medizinische Evakuierungen durchzuführen sowie mehr Kapazitäten für die medizinische Evakuierung bereitzustellen;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_f">
+            <num>f)</num>
+            <content eId="para_99_list_point_f_content">
+              <p xml:space="preserve">	aktive und wirksame Maßnahmen zur Verbesserung der Planung und Funktionsweise der Sicherheitseinrichtungen und -vorkehrungen der UNMISS zu ergreifen;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_g">
+            <num>g)</num>
+            <content eId="para_99_list_point_g_content">
+              <p xml:space="preserve">	sicherzustellen, dass künftige Entscheidungen, die Ausweisung von Schutzorten für Zivilpersonen zu ändern, auf der Grundlage umfassender Bewertungen der Sicherheitslage erfolgen, in deren Rahmen die erforderlichen Sicherheitsbedingungen bestimmt werden, wobei die Behörden Südsudans die Hauptverantwortung dafür wahrnehmen, Zivilpersonen zu schützen, und ihre Fähigkeit unter Beweis stellen, den Binnenvertriebenen am jeweiligen Standort ohne Diskriminierung Schutz zu gewähren, und die umfassende Einbindung der lokalen Bevölkerung, den koordinierten Übergang der Leistungserbringung und die Unterstützung der Regierung Südsudans bei der Verhütung und Bekämpfung von Gewalt oder Kriminalität gegenüber den Bewohnerinnen und Bewohnern dieser Lager fortzuführen;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_h">
+            <num>h)</num>
+            <content eId="para_99_list_point_h_content">
+              <p xml:space="preserve">	die Tätigkeiten der Mission zur Verhütung und Bekämpfung sexueller und geschlechtsspezifischer Gewalt im Einklang mit Resolution <a href="https://undocs.org/ot/S/RES/2467(2019)">2467 (2019)</a> zu verstärken, unter anderem indem sie den Parteien bei Aktivitäten im Einklang mit Resolution <a href="https://undocs.org/ot/S/RES/2467(2019)">2467 (2019)</a> hilft und sicherstellt, dass die Gefahr sexueller und geschlechtsspezifischer Gewalt in ihre Datenerhebungs-, Gefahrenanalyse- und Frühwarnsysteme einbezogen wird, und zu diesem Zweck auf ethisch vertretbare Weise mit den Überlebenden und Opfern geschlechtsspezifischer Gewalt und mit Frauenorganisationen zusammenarbeitet;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_i">
+            <num>i)</num>
+            <content eId="para_99_list_point_i_content">
+              <p xml:space="preserve">	dem Ausschuss nach Ziffer 16 der Resolution <a href="https://undocs.org/ot/S/RES/2206(2015)">2206 (2015)</a> und der mit derselben Resolution eingesetzten Sachverständigengruppe bezüglich der in Resolution <a href="https://undocs.org/ot/S/RES/2521(2020)">2521 (2020)</a> verabschiedeten Maßnahmen, einschließlich der darin enthaltenen Bestimmungen im Zusammenhang mit dem Waffenembargo, behilflich zu sein, insbesondere einen zeitnahen Informationsaustausch zwischen der UNMISS und der Sachverständigengruppe anregend;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_j">
+            <num>j)</num>
+            <content eId="para_99_list_point_j_content">
+              <p xml:space="preserve">	den mandatsmäßigen Schutztätigkeiten bei Beschlüssen über den Einsatz der innerhalb der Mission verfügbaren Kapazitäten und Ressourcen im Einklang mit Resolution <a href="https://undocs.org/ot/S/RES/1894(2009)">1894 (2009)</a> Vorrang einzuräumen;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_k">
+            <num>k)</num>
+            <content eId="para_99_list_point_k_content">
+              <p xml:space="preserve">	die in Resolution <a href="https://undocs.org/ot/S/RES/1325(2000)">1325 (2000)</a> und allen einschlägigen Resolutionen festgelegten Prioritäten im Hinblick auf Frauen und Frieden und Sicherheit umzusetzen, so auch indem im Einklang mit Resolution <a href="https://undocs.org/ot/S/RES/2538 (2020)">2538 (2020)</a> auf die Erhöhung des Frauenanteils in der UNMISS hingewirkt sowie die volle, gleichberechtigte und produktive Mitwirkung von Frauen an allen Aspekten der Einsätze gewährleistet wird, unter anderem durch die Gewährleistung eines sicheren, förderlichen und geschlechtergerechten Arbeitsumfelds für Frauen in Friedenssicherungseinsätzen, und indem im gesamten Mandat der Mission geschlechtsspezifischen Gesichtspunkten als Querschnittsthema umfassend Rechnung getragen wird, und bekräftigend, wie wichtig uniformierte und zivile Beratungsfachkräfte für Geschlechter- und Gleichstellungsfragen, Gleichstellungsbeauftragte in allen Missionskomponenten, Sachkenntnisse in Geschlechterfragen und Kapazitätsaufbau sind, um das Mandat der Mission geschlechtersensibel auszuführen;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_l">
+            <num>l)</num>
+            <content eId="para_99_list_point_l_content">
+              <p xml:space="preserve">	die Agenda für Jugend und Frieden und Sicherheit gemäß Resolution <a href="https://undocs.org/ot/S/RES/2250(2015)">2250 (2015)</a> umzusetzen, um kontextspezifische Strategien zu Jugend und Frieden und Sicherheit zu erarbeiten und umzusetzen und um die volle, wirksame und konstruktive Teilhabe der Jugend zu gewährleisten, in dem Bewusstsein ihrer entscheidenden Rolle bei der Verhütung und Beilegung von Konflikten und bei der Friedenskonsolidierung;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_m">
+            <num>m)</num>
+            <content eId="para_99_list_point_m_content">
+              <p xml:space="preserve">	mit den Konfliktparteien weiter einen Dialog über die Ausarbeitung und Umsetzung von Aktionsplänen gemäß Resolution <a href="https://undocs.org/ot/S/RES/1612(2005)">1612 (2005)</a> und späteren Resolutionen über Kinder und bewaffnete Konflikte zu führen und Anstrengungen zu unterstützen, die darauf gerichtet sind, mit bewaffneten Gruppen und Streitkräften verbundene Kinder in allen Landesteilen freizulassen;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_n">
+            <num>n)</num>
+            <content eId="para_99_list_point_n_content">
+              <p xml:space="preserve">	die in den Resolutionen <a href="https://undocs.org/ot/S/RES/2378(2017)">2378 (2017)</a> und <a href="https://undocs.org/ot/S/RES/2436(2018)">2436 (2018)</a> festgelegten Leistungsanforderungen in der Friedenssicherung sowie die in Resolution <a href="https://undocs.org/ot/S/RES/2518(2020)">2518 (2020)</a> vorgesehenen Erhöhungen der Sicherheit und den Aktionsplan für die Erhöhung der Sicherheit im Zusammenhang mit dem Bericht über die Erhöhung der Sicherheit der Friedenssicherungskräfte der Vereinten Nationen umzusetzen und die Grundsätze für die Impfung der Uniformierten gegen COVID-19 am Einsatzort und vor ihrer Entsendung zu befolgen, im Einklang mit den Leitlinien und den bewährten Verfahren der Vereinten Nationen zur Erhöhung der Sicherheit der Friedenssicherungskräfte;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_o">
+            <num>o)</num>
+            <content eId="para_99_list_point_o_content">
+              <p xml:space="preserve">	die Nulltoleranzpolitik der Vereinten Nationen gegenüber schweren Verfehlungen, sexueller Ausbeutung, sexuellem Missbrauch und sexueller Belästigung sowie alle Maßnahmen nach Resolution <a href="https://undocs.org/ot/S/RES/2272(2016)">2272 (2016)</a> umzusetzen und dem Sicherheitsrat im Falle solcher Verfehlungen Bericht zu erstatten;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_p">
+            <num>p)</num>
+            <content eId="para_99_list_point_p_content">
+              <p xml:space="preserve">	sicherzustellen, dass jede Unterstützung für nicht zu den Vereinten Nationen gehörende Sicherheitskräfte unter strenger Einhaltung der Richtlinien für menschenrechtliche Sorgfaltspflicht bei der Unterstützung der Vereinten Nationen für nicht zu den Vereinten Nationen gehörende Sicherheitskräfte bereitgestellt wird, auch im Hinblick auf die Überwachung dessen und die Berichterstattung darüber, wie die Unterstützung genutzt wird und wie Maßnahmen für die Folgenbegrenzung umgesetzt werden;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_q">
+            <num>q)</num>
+            <content eId="para_99_list_point_q_content">
+              <p xml:space="preserve">	sich mit allen Organisationen, Fonds und Programmen der Vereinten Nationen für Südsudan sowie mit den Regionalorganisationen und anderen in Betracht kommenden Interessenträgern, einschließlich des humanitären Landesteams und der mit ihm verbundenen Organe, abzustimmen;</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_r">
+            <num>r)</num>
+            <content eId="para_99_list_point_r_content">
+              <p xml:space="preserve">	Übergangsprozesse so früh wie möglich gemeinsam mit den Residierenden Koordinatorinnen oder Koordinatoren, dem Landesteam der Vereinten Nationen und anderen Organisationen, Fonds und Programmen der Vereinten Nationen, dem Gaststaat und anderen nationalen Interessenträgern, einschließlich der Zivilgesellschaft, integriert zu planen und zu koordinieren, im Einklang mit Resolution <a href="https://undocs.org/ot/S/RES/2594(2021)">2594 (2021)</a>;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxt">
+        <content eId="para_100__content">
+          <p xml:space="preserve">
+            <span class="bold">Unterstützung der Vereinten Nationen und der internationalen Gemeinschaft:</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	<span class="italic">ersucht </span>und <span class="italic">ermutigt </span>den Sonderbeauftragten des Generalsekretärs, die Operationen einer integrierten UNMISS zu leiten und alle Tätigkeiten des Systems der Vereinten Nationen in der Republik Südsudan zu koordinieren und durch seine Guten Dienste eine führende Rolle im System der Vereinten Nationen in Südsudan zur Unterstützung der Afrikanischen Union, der Zwischenstaatlichen Behörde für Entwicklung, der Rekonstituierten gemeinsamen Überwachungs- und Evaluierungskommission, des Mechanismus zur Überwachung und Verifikation der Waffenruhe und der Einhaltung der Übergangs-Sicherheitsbestimmungen und anderer Akteure sowie der Parteien bei der Durchführung des Neubelebten Abkommens wahrzunehmen und den Frieden und die Aussöhnung zu fördern, <span class="italic">unterstreicht </span>in dieser Hinsicht die entscheidende Rolle des Mechanismus zur Überwachung und Verifikation der Waffenruhe und der Einhaltung der Übergangs-Sicherheitsbestimmungen sowie die Bedeutung der ihm von der UNMISS bereitgestellten Unterstützung bei der Erfüllung seines Mandats und <span class="italic">bekräftigt </span>in dieser Hinsicht die entscheidende Rolle, die die Vereinten Nationen in Abstimmung mit den Regionalorganisationen und anderen Akteuren spielen, um den politischen Dialog zwischen den Parteien voranzubringen, zur Erwirkung einer dauerhaften Einstellung der Feindseligkeiten beizutragen und die Parteien zu einem alle Seiten einschließenden Friedensprozess zu führen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="italic">legt </span>der Zwischenstaatlichen Behörde für Entwicklung, der Afrikanischen Union, dem Friedens- und Sicherheitsrat der Afrikanischen Union und den Ländern in der Region <span class="italic">nahe</span>, weiter entschlossen darauf hinzuwirken, dauerhafte Lösungen für die Herausforderungen im Bereich Frieden und Sicherheit in Südsudan zu finden und die Führungsverantwortlichen Südsudans nachdrücklich aufzufordern, alle in den Abkommen über die Einstellung der Feindseligkeiten und dem Neubelebten Abkommen eingegangenen Verpflichtungen unverzüglich zu erfüllen, und <span class="italic">regt ferner </span>zu Konsultationen zwischen den regionalen Institutionen und dem Generalsekretär und seinem Sonderbeauftragten betreffend einen Aktionsplan und gemeinsame Botschaften zu diesem Zweck <span class="italic">an</span>, <span class="italic">unterstreicht</span>, dass die Zwischenstaatliche Behörde für Entwicklung in Zusammenarbeit mit den Vereinten Nationen und der Afrikanischen Union den nationalen Dialog unterstützt, und <span class="italic">fordert </span>die Zwischenstaatliche Behörde für Entwicklung <span class="italic">nachdrücklich auf</span>, eine Vorsitzende oder einen Vorsitzenden der Rekonstituierten gemeinsamen Überwachungs- und Evaluierungskommission zu ernennen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">fordert </span>alle Parteien und Mitgliedstaaten sowie die internationalen, regionalen und subregionalen Organisationen <span class="italic">nachdrücklich auf</span>, die Zusammenarbeit mit der mit Resolution <a href="https://undocs.org/ot/S/RES/2206(2015)">2206 (2015)</a> eingerichteten Sachverständigengruppe zu gewährleisten, und <span class="italic">fordert ferner </span>alle beteiligten Mitgliedstaaten <span class="italic">nachdrücklich auf</span>, die Sicherheit der Mitglieder der Sachverständigengruppe und ihren ungehinderten Zugang, insbesondere zu Personen, Dokumenten und Orten, zu gewährleisten, damit die Sachverständigengruppe ihr Mandat ausführen kann;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	<span class="italic">ersucht </span>den Generalsekretär, der Kommission der Afrikanischen Union und der Regierung Südsudans auch weiterhin technische Hilfe bei der Schaffung des Hybriden Gerichtshofs für Südsudan und bei der Durchführung weiterer Aspekte des Kapitels V des Neubelebten Abkommens, insbesondere im Hinblick auf die Schaffung der Kommission für Wahrheit, Aussöhnung und Heilung und der Behörde für Entschädigung und Wiedergutmachung, bereitzustellen, betonend, dass die Maßnahmen geschlechtersensibel, inklusiv, barrierefrei und vollständig finanziert sein und unter voller und konstruktiver Teilhabe und unter Führungsverantwortung von Frauen konzipiert und umgesetzt werden sollen, und <span class="italic">bittet </span>die Afrikanische Union, Informationen über die Fortschritte bei der Schaffung des Hybriden Gerichtshofs für Südsudan an den Generalsekretär weiterzugeben;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">würdigt </span>die Entschlossenheit der truppen- und polizeistellenden Länder zur Wahrnehmung des Mandats der Mission in einem problematischen Umfeld und <span class="italic">betont </span>in diesem Zusammenhang, dass der Generalsekretär keine nationalen Vorbehalte, die die wirksame Wahrnehmung des Mandats beeinträchtigen, annehmen soll, <span class="italic">ersucht </span>die truppen- und polizeistellenden Länder, die einschlägigen Bestimmungen der Resolution <a href="https://undocs.org/ot/S/RES/2538(2020)">2538 (2020)</a> und aller anderen einschlägigen Resolutionen über die Erhöhung der Mitwirkung der Frauen auf allen Ebenen und in allen Positionen der Friedenssicherung und über die Beseitigung der diesbezüglichen Hindernisse umzusetzen, auch indem sie ein sicheres, förderliches und geschlechtergerechtes Arbeitsumfeld für Frauen in Friedenssicherungseinsätzen gewährleisten, und <span class="italic">hebt hervor</span>, dass die gemeinsame Verantwortung für die wirksame Wahrnehmung des Mandats durch das Fehlen einer wirksamen Einsatzführung, durch Befehlsverweigerung, das Versäumnis, auf Angriffe auf Zivilpersonen zu reagieren, die Weigerung, an Patrouillen zur Fernaufklärung in abgelegenen Landesteilen teilzunehmen oder diese durchzuführen, und durch unzureichende Ausrüstung und Finanzmittel beeinträchtigt werden kann;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="italic">fordert </span>die truppen- und polizeistellenden Länder <span class="italic">nachdrücklich auf</span>, sexueller Ausbeutung und sexuellem Missbrauch auch weiterhin durch geeignete Maßnahmen vorzubeugen, insbesondere auch durch die Überprüfung sämtlichen Personals und ein einsatzvorbereitendes und -begleitendes Sensibilisierungstraining für dieses Personal, sicherzustellen, dass ihr an solchen Handlungen beteiligtes Personal voll zur Rechenschaft gezogen wird, einschließlich durch rasche, die Überlebenden in den Mittelpunkt stellende Untersuchungen von Vorwürfen sexueller Ausbeutung und sexuellen Missbrauchs, Einheiten zu repatriieren, wenn glaubwürdige Beweise für weit verbreitete oder systemische Akte sexueller Ausbeutung und sexuellen Missbrauchs durch diese Einheiten vorliegen, entsprechende Disziplinarmaßnahmen zu ergreifen und den Vereinten Nationen umfassend und zügig über die von ihnen ergriffenen Maßnahmen Bericht zu erstatten;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="italic">fordert </span>die internationale Gemeinschaft <span class="italic">auf</span>, die humanitäre Hilfe für das Volk Südsudans aufzustocken, um den dringenden und vielfältiger werdenden humanitären Bedürfnissen gerecht zu werden;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="italic">betont</span>, dass die bilateralen und multilateralen Partner auch weiterhin eng mit der Regierung Südsudans zusammenarbeiten müssen, um die COVID-19-Pandemie zu bekämpfen, und dass sie in Partnerschaft mit den Organisationen des Entwicklungssystems der Vereinten Nationen internationale Hilfe sowie Hilfe für nachhaltige Entwicklung leisten müssen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="SingleTxt">
+        <content eId="para_130__content">
+          <p xml:space="preserve">
+            <span class="bold">Berichterstattung</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	ersucht den Generalsekretär, auch weiterhin monatlich über Verstöße gegen das Abkommen über die Rechtsstellung der Truppen und über Obstruktionen der UNMISS Bericht zu erstatten;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	ersucht den Generalsekretär, dem Sicherheitsrat in einem umfassenden schriftlichen Bericht, der innerhalb von 90 Tagen nach dem Datum der Verabschiedung dieser Resolution und danach alle 90 Tage vorzulegen ist, über die Wahrnehmung des Mandats der UNMISS und über die Obstruktionen Bericht zu erstatten, auf die die UNMISS dabei stößt, und unterstreicht, dass diese Berichterstattung integrierte, fakten- und datengestützte Analysen, strategische Bewertungen und offenen Rat für den Sicherheitsrat enthalten und Folgendes umfassen soll:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <content eId="para_133__content">
+          <p xml:space="preserve">Angaben dazu, ob und wie die gemäß Ziffer 3 von ihr durchgeführten Aktivitäten zum Voranbringen der in Ziffer 2 beschriebenen strategischen Vision beigetragen haben und welchen Herausforderungen und Hindernissen sich die Mission dabei gegenübersah, wobei die Daten heranzuziehen sind, die durch das Umfassende Planungs- und Leistungsbewertungssystem, die Umsetzung des Integrierten Rahmens für die Ergebnismessung und die Rechenschaftslegung in der Friedenssicherung durch die Mission und andere Instrumente zur strategischen Planung und Leistungsmessung erhoben und analysiert wurden, um die Wirksamkeit der Mission und ihre Gesamtleistung zu beschreiben, einschließlich Informationen über nicht erklärte Vorbehalte und Weigerungen, an Patrouillen teilzunehmen oder diese durchzuführen, und deren Auswirkung auf die Mission sowie darüber, wie mit den gemeldeten Fällen von ungenügender Leistung umgegangen wird,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxt">
+        <content eId="para_134__content">
+          <p xml:space="preserve">Angaben zu den Fortschritten in Bezug auf die unter den Ziffern 5, 6, 7 und 8 genannten Elemente,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxt">
+        <content eId="para_135__content">
+          <p xml:space="preserve">Angaben zur Durchführung der in Ziffer 9 genannten vorrangigen Maßnahmen,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="SingleTxt">
+        <content eId="para_136__content">
+          <p xml:space="preserve">Angaben zur Umsetzung der in Ziffer 20 genannten Kapazitäten und Verpflichtungen bei der Planung und Durchführung der Einsätze der Mission,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxt">
+        <content eId="para_137__content">
+          <p xml:space="preserve">gegebenenfalls Empfehlungen an den Sicherheitsrat für Maßnahmen zur Bewältigung von Hindernissen, die durch Instrumente zur strategischen Planung und Leistungsbewertung ermittelt wurden;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">beschließt</span>, mit der Angelegenheit befasst zu bleiben.	</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
