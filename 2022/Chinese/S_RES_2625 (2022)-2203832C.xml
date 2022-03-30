@@ -1,0 +1,827 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/"></FRBRuri>
+          <FRBRdate date="2022-03-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/zho@/"></FRBRuri>
+          <FRBRdate date="2022-03-15" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/zho@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-30" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Mission in South Sudan" showAs="UN Mission in South Sudan" dictionary="DHLAUTH"></keyword>
+        <keyword value="Revitalized Agreement on the Resolution of Conflict in the Republic of South Sudan (2018)" showAs="Revitalized Agreement on the Resolution of Conflict in the Republic of South Sudan (2018)" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" showAs="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOUTH SUDAN" showAs="SOUTH SUDAN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[216]" showAs="UN MISSION IN SOUTH SUDAN" shortForm="UN MISSION IN SOUTH SUDAN" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="[223]" showAs="SOUTH SUDAN--POLITICAL CONDITIONS" shortForm="SOUTH SUDAN--POLITICAL CONDITIONS" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="Reports of the Secretary-General on the Sudan and South Sudan." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2625 (2022) [on extension of the mandate of the UN Mission in South Sudan (UNMISS) until 15 Mar. 2023]" showAs="Security Council resolution 2625 (2022) [on extension of the mandate of the UN Mission in South Sudan (UNMISS) until 15 Mar. 2023]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-03-16" outcome="draftResolution" as="S/2022/219" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-15" outcome="adopted" as="S/PV.8994" by="Adopted 13-0-2, 8994th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+            <count value="013" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="002" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-03832 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2625 (2022)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">安全理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-15" class="rightSmall" refersTo="#dateOfIssuance">15 March 2022</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		第2625(2022)号决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <docDate date="2022-03-15" refersTo="#adoptionDate">2022年3月15日</docDate>
+          <inline name="adoptionMeeting" title="8994">8994次会议通过</inline>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">安全理事会，</span>
+        </p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其以往有关南苏丹局势的各项决议、主席声明和新闻谈话，</p>
+      </container>
+      <container name="重申" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">重申</span>坚定致力于南苏丹共和国的主权、独立、领土完整和国家统一，并回顾互不干涉、睦邻和区域合作等原则的重要性，</p>
+      </container>
+      <container name="申明" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">申明</span>安理会支持2018年《解决南苏丹共和国冲突重振协议》(《重振协议》)，</p>
+      </container>
+      <container name="强调指出" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">强调指出</span>，和平进程只有在各当事方全力以赴的情况下才能可行，在这方面欢迎南苏丹和平进程出现令人鼓舞的情况，并欢迎《重振协议》各当事方表现出政治意愿，以便为推进和平进程创造必要条件，包括就州长任命达成一致以及在组建州和地方政府机构方面取得其他进展，继续为重新指定的平民保护点提供安保，重组过渡期国民议会，</p>
+      </container>
+      <container name="认识到" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">认识到</span>《重振协议》签署方之间的暴力有所减少，永久停火在该国大部分地区得以维持，</p>
+      </container>
+      <container name="表示" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">表示</span>赞赏政府间发展组织(伊加特)在推动南苏丹和平进程方面发挥领导作用，欢迎伊加特及其成员国、重组后的联合监测和评价委员会、非洲联盟(非盟)，包括非洲联盟和平与安全理事会(非盟和安会)，联合国以及该区域各国作出承诺和努力，继续与南苏丹领导人互动协作以应对当前的危机，鼓励他们继续积极互动，</p>
+      </container>
+      <container name="欢迎" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>圣艾智德团体持续促进《重振协议》签署方与非签署方之间的政治对话，鼓励所有当事方继续努力地和平解决争端，以便实现包容、可持续的和平，</p>
+      </container>
+      <container name="重申" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">重申</span>深为关切南苏丹的政治、安全、经济和人道主义危机，表示注意到冠状病毒病疫情的影响，强调南苏丹局势不可能有军事解决办法，</p>
+      </container>
+      <container name="强烈谴责" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">强烈谴责</span>一切战斗，包括近期叛逃活动所致的暴力和伤亡，以及任何违反2017年12月21日《停止敌对行动、保护平民和人道主义援助准入协定》和《重振协议》永久停火规定的行为，欢迎停火和过渡期安全安排监测和核查机制迅速评估违反行为，鼓励伊加特迅速与安全理事会分享报告，注意到非洲联盟、伊加特和联合国安全理事会要求必须追究违反《停止敌对行动、保护平民和人道主义援助准入协定》的各当事方的责任，</p>
+      </container>
+      <container name="表示" eId="container_11">
+        <p xml:space="preserve">	<span class="bold">表示</span>严重关切南苏丹一些地区内武装团体之间的暴力活动有所增加，造成数千人死亡和流离失所，谴责冲突各方、包括政府军和武装反对派团体成员动用此类团体，</p>
+      </container>
+      <container name="表示" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">表示</span>严重关切不断有关于南苏丹境内性暴力和性别暴力的报告，包括秘书长提交安全理事会的与冲突有关性暴力问题报告(<a href="https://undocs.org/ch/S/2021/312">S/2021/312</a>)中所载调查结果，即冲突各方基于据认为的政治派别对南苏丹平民使用性暴力作为一种策略，包括使用强奸和性奴役进行恐吓和惩罚，并以此作为针对族裔群体成员的战略的一部分，与冲突有关的性暴力和其他形式暴力侵害妇女和女孩行为在《重振协议》签署后持续存在，2021年2月联合国人权事务高级专员办事处(人权高专办)发布的“南苏丹境内与冲突有关的性暴力幸存者获得卫生服务的机会”报告对此有所记录，注意到南苏丹各当事方通过实施应对冲突中性暴力问题行动计划取得一些进展，着重指出及时进行调查以支持追责并向性暴力和性别暴力行为幸存者和受害者提供援助和保护的紧迫性和重要性，</p>
+      </container>
+      <container name="重申震惊于" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">重申震惊于</span>该国严峻的人道主义局势，粮食高度不安全，一些地区可能出现饥荒，据世界粮食计划署的信息，估计有830万人面临严重粮食不安全状况，回顾安理会第<a href="https://undocs.org/ch/S/RES/2417(2018)">2417(2018)</a>号决议，其中认识到需打破武装冲突与粮食不安全之间的恶性循环，谴责袭击生计手段和蓄意剥夺粮食获取机会等可构成战争罪的行为，还谴责各当事方阻挠平民通行及阻挠人道主义行为体接触需要援助的平民，表示严重关切征税和非法收费问题妨碍在全国各地提供人道主义援助，关切地注意到有报道称，强迫流离失所和剥夺人道主义援助机会正在加剧平民的粮食不安全状况，</p>
+      </container>
+      <container name="表示" eId="container_14">
+          <p xml:space="preserve">	<span class="bold">表示</span>严重和紧急关切近200万流离失所者和持续的人道主义危机，根据2022年南苏丹人道主义需求概览，有840万人需要人道主义援助，根据2022年2月“饥饿热点——粮食及农业组织和世界粮食计划署(粮农组织-粮食署)严重粮食不安全预警”报告，2021年年中估计有720万人面临严重粮食不安全状况，赞扬联合国人道主义机构、合作伙伴和捐助方努力为民众提供紧急和协调一致的支持，</p>
+      </container>
+      <container name="强烈谴责" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">强烈谴责</span>一切针对人道主义工作人员和设施的袭击，自2013年12月以来，这类袭击已导致至少131人死亡，包括2016年7月11日对特伦大院的袭击、2021年有5名人道主义工作者被杀害以及对医护人员和医院的袭击，震惊地注意到骚扰和恐吓人道主义工作人员行为日益增加的趋势，回顾指出，对人道主义工作人员和平民生存必需物体的袭击可能构成违反国际人道法的行为，</p>
+      </container>
+      <container name="强烈谴责" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">强烈谴责</span>所有当事方、包括武装团体和国家安全部队的一切侵犯践踏人权和违反国际人道法行为以及煽动实施这些侵权违法行为，包括在西赤道州坦布拉的此类行为，还谴责骚扰民间社会、人道主义工作人员和记者、以他们为攻击目标并进行检查的行为，强调必须追究违反国际人道法和侵犯践踏人权行为责任者的责任，强调南苏丹政府负有保护民众不受灭绝种族、战争罪、族裔清洗和危害人类罪危害的首要责任，表示关切的是，虽说《重振协议》已签署，但强奸和性暴力等违法侵权行为继续发生，可能构成国际罪行，包括战争罪和危害人类罪，</p>
+      </container>
+      <container name="表示" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">表示</span>严重关切联合国南苏丹特派团(南苏丹特派团)和秘书长发布的关于南苏丹人权状况的报告，包括关于据报发生在瓦拉卜州和湖泊州的法外处决案例的令人深为不安的报告，还表示严重关切的是，根据非盟调查委员会2015年10月27日发布的南苏丹报告以及南苏丹人权状况委员会2018年2月23日、2019年2月20日、2020年2月20日和2021年2月19日发布的报告，可能发生了战争罪和危害人类罪，强调安理会期望这些和其他可信报告都能得到任何南苏丹过渡期正义机制、包括《重振协议》所设机制的应有审议，强调指出必须收集和保留证据，最终供南苏丹问题混合法庭和其他问责机制使用，鼓励在这方面做出努力，</p>
+      </container>
+      <container name="重申" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">重申</span>亟需消除南苏丹境内有罪不罚现象，将所有应对违反国际人道法和侵犯践踏人权行为负责者绳之以法，强调指出，过渡期正义措施，包括《重振协议》第五章所载措施，特别是联合国授权的南苏丹人权状况委员会所作的努力，对于消除有罪不罚和推动问责、促进民族和解及愈合创伤并确保可持续和平具有重要意义，在此方面认识到南苏丹司法部门已使性别暴力和少年犯法庭运作，知悉南苏丹政府已批准设立过渡期正义机制，包括南苏丹问题混合法庭，还认识到南苏丹政府已开始就真相、和解和消除创伤委员会进行协商，鼓励政府与所有利益攸关方切实协商，包括使妇女充分、平等和切实参与，并将青年、受害者、残疾人和境内流离失所者纳入其中，</p>
+      </container>
+      <container name="着重指出" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">着重指出</span>，任何当事方对南苏丹特派团的任何阻扰，包括限制南苏丹特派团人员行动自由、袭击南苏丹特派团人员和制约特派团行动，包括限制巡逻和限制南苏丹特派团努力开展监测人权状况等活动，都不可接受，秘书长报告指出，其中许多阻挠行为是南苏丹政府违反《部队地位协定》的行为，肯定违反《部队地位协定》行为在2021年有所减少，敦促南苏丹政府在此方面继续取得进展，回顾指出，根据《部队地位协定》，南苏丹特派团及其订约人应享有充分和不受限制的行动自由，不受拖延地沿尽可能直接的路线在整个南苏丹境内行动，无需旅行许可或事先获准或通知，并享有免税、免收费且不受其他禁止和限制地进口设备、供应品、用品、燃料、材料和其他物品的权利，</p>
+      </container>
+      <container name="回顾" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">回顾</span>安理会第<a href="https://undocs.org/ch/S/RES/2117(2013)">2117(2013)</a>号决议，表示严重关切小武器和轻武器非法转让、不利于稳定的积累和滥用对南苏丹和平与安全构成威胁，还表示关切非法贩运和转用各类军火及相关物资破坏法治，有可能破坏国际人道法得以遵守，可能妨碍人道主义援助的提供并产生广泛、不利的人道主义和社会经济后果，</p>
+      </container>
+      <container name="注意到" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">注意到</span>安全理事会第<a href="https://undocs.org/ch/S/RES/2428(2018)">2428(2018)</a>号决议通过并经第<a href="https://undocs.org/ch/S/RES/2471(2019)">2471(2019)</a>、<a href="https://undocs.org/ch/S/RES/2521(2020)">2521(2020)</a>和<a href="https://undocs.org/ch/S/RES/2577(2021)">2577(2021)</a>号决议延长的措施，回顾指出，可对那些直接或间接负责、共谋或参与威胁南苏丹和平、安全或稳定的行动或政策的个人或实体进行指认并实施定向制裁，还回顾安理会愿意实施定向制裁，强调指出有效执行制裁制度包括旅行禁令措施极为重要，邻国以及区域和次区域组织可在这方面发挥重大作用，鼓励为进一步加强合作而努力，重申安理会随时准备考虑调整措施，包括修改、暂停、取消或加强措施以应对局势，</p>
+      </container>
+      <container name="强调" eId="container_22">
+        <p xml:space="preserve">	<span class="bold">强调</span>，要消除有碍全面执行关于妇女与和平与安全的第<a href="https://undocs.org/ch/S/RES/1325(2000)">1325(2000)</a>号决议及其后各项决议(包括第<a href="https://undocs.org/ch/S/RES/2242(2015)">2242(2015)</a>号决议)的持续障碍，就必须执着致力于增强妇女权能、妇女的参与和人权、协调一致的领导、一致的信息和行动及支持，以推动妇女充分、平等和切实参与各级决策和领导，</p>
+      </container>
+      <container name="肯定" eId="container_23">
+        <p xml:space="preserve">	<span class="bold">肯定</span>南苏丹政府批准《儿童权利公约关于儿童卷入武装冲突问题的任择议定书》的重要意义，欢迎南苏丹政府签署《制止和预防所有严重侵害儿童行为全面行动计划》，</p>
+      </container>
+      <container name="表示" eId="container_24">
+          <p xml:space="preserve">	<span class="bold">表示</span>持续关切对意见、表达和结社等自由的严重限制，肯定保护和促进人权者、民间社会组织、记者和其他媒体工作者在促进和保护意见和表达自由权方面的重要作用，在此方面表示深为关切侵犯践踏意见和表达自由权的行为继续发生，谴责利用媒体传播仇恨言论和传递煽动暴力侵害特定族裔群体的信息，这种做法有可能导致广泛暴力、加剧武装冲突，尤其是在南苏丹即将举行选举的情况下，</p>
+      </container>
+      <container name="表示" eId="container_25">
+        <p xml:space="preserve">	<span class="bold">表示</span>严重关切南苏丹残疾人的艰难困境，包括被遗弃、遭受暴力和无法获得基本服务，强调有必要确保人道主义对策满足残疾人的特殊需要，</p>
+      </container>
+      <container name="认识到" eId="container_26">
+        <p xml:space="preserve">	<span class="bold">认识到</span>气候变化、生态变化和自然灾害等因素对南苏丹人道主义局势和稳定的不利影响，强调南苏丹政府和联合国有必要开展全面风险评估并制定风险管理战略，以便为与这些因素有关的方案提供参考，确认《联合国气候变化框架公约》和《巴黎协定》，</p>
+      </container>
+      <container name="赞扬" eId="container_27">
+        <p xml:space="preserve">	<span class="bold">赞扬</span>南苏丹特派团的工作，表示深为感谢南苏丹特派团维和人员以及部队和警察派遣国采取行动，在充满挑战性的环境中执行南苏丹特派团的任务，包括保护遭受人身暴力威胁的平民，包括外国国民，并在南苏丹特派团营地内外稳定安全局势，还表示深为感谢南苏丹特派团人员面对冠状病毒病疫情及其后果而作出非凡努力，</p>
+      </container>
+      <container name="认识到" eId="container_28">
+        <p xml:space="preserve">	<span class="bold">认识到</span>战略沟通对维持和平行动至关重要，承认有效利用战略沟通对南苏丹特派团有效执行任务至关重要，强调需要继续提高南苏丹特派团的战略沟通能力，以保持特派团实现其保护、政治和人道主义目标的能力，欢迎秘书长致力于按其“以行动促维和+”计划所述，将战略沟通活动纳入包括南苏丹特派团在内各个特派团的规划和日常业务决定的主流，</p>
+      </container>
+      <container name="欢迎" eId="container_29">
+        <p xml:space="preserve">	<span class="bold">欢迎</span>秘书长致力于严格实行对性剥削和性虐待的零容忍政策，注意到南苏丹特派团及部队和警察派遣国已采取各种措施打击性剥削和性虐待行为，同时表示继续严重关切关于南苏丹境内维和人员据报实施性剥削和性虐待的指控，</p>
+      </container>
+      <container name="强烈谴责" eId="container_30">
+        <p xml:space="preserve">	<span class="bold">强烈谴责</span>政府和反对派部队及其他团体袭击联合国和伊加特的人员和设施、2016年2月袭击马拉卡勒平民保护点、2016年7月袭击朱巴平民保护点、袭击特伦大院；拘留和绑架联合国人员和有关人员；一再袭击南苏丹特派团驻博尔、本提乌、马拉卡勒和梅卢特营地；据称苏丹人民解放军(苏人解)部队造成人员失踪；3名联合国所属本国工作人员和1名南苏丹承包商在上尼罗州遇害死亡；2018年12月南苏丹政府官员拘留和虐待停火和过渡期安全安排监测和核查机制小组成员；促请南苏丹政府迅速完成对这些袭击的彻底调查并追究责任人的责任，</p>
+      </container>
+      <container name="表示注意到" eId="container_31">
+        <p xml:space="preserve">	<span class="bold">表示注意到</span>秘书长2021年7月15日关于选举需求评估的信函(<a href="https://undocs.org/ch/S/2021/661">S/2021/661</a>)，又表示注意到秘书长2022年2月25日的报告(<a href="https://undocs.org/ch/S/2022/156">S/2022/</a><a href="https://undocs.org/ch/S/2022/156">156</a>)，</p>
+      </container>
+      <container name="认定" eId="container_32">
+        <p xml:space="preserve">	<span class="bold">认定</span>南苏丹局势继续对该区域国际和平与安全构成威胁，</p>
+      </container>
+      <container name="采取行动" eId="container_33">
+        <p xml:space="preserve">	根据《联合国宪章》第七章<span class="bold">采取行动</span>，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <content eId="para_34__content">
+          <p xml:space="preserve">		南苏丹特派团的任务</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>将南苏丹特派团任务期延长至2023年3月15日；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>，南苏丹特派团的任务旨在推进第<a href="https://undocs.org/ch/S/RES/2567(2021)">2567(2021)</a>号决议所确定的一项三年期战略愿景，防止南苏丹重陷内战，在地方和国家各级建设持久和平，并支持根据《重振协议》进行包容、责任到位的治理及举行自由、公平与和平的选举；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="MercuryDocument">
+        <num>3.</num>
+        <list eId="para_38_list">
+          <intro eId="para_38_list_intro">
+            <p xml:space="preserve">	<span class="bold">决定</span>南苏丹特派团的任务如下，并授权南苏丹特派团使用一切必要手段执行任务：</p>
+          </intro>
+          <point eId="para_38_list_point_a">
+            <num>(a)</num>
+            <content eId="para_38_list_point_a_content">
+              <p xml:space="preserve">	保护平民：</p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_a_sublist">
+            <point eId="para_38_list_point_a_sublist_point_㈠">
+              <num>㈠</num>
+              <content eId="para_38_list_point_a_sublist_point_㈠_content">
+                <p xml:space="preserve">	在南苏丹特派团能力范围内及部署区内，包括在选举背景下，保护受到人身暴力威胁的平民，无论这种暴力来自何方，特别保护妇女和儿童，包括为此而继续始终如一地使用和部署南苏丹特派团的儿童保护顾问和妇女保护顾问以及军警和文职性别平等问题顾问，这些职位应迅速予以填补，并与相关的地方利益攸关方分享最佳做法以建设能力；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_㈡">
+              <num>㈡</num>
+              <content eId="para_38_list_point_a_sublist_point_㈡_content">
+                <p xml:space="preserve">	遏制针对平民、包括外国国民的暴力，特别是为此而在冲突易发地区，特别是在南苏丹政府无法或未提供安全保障的情况下，预先进行部署，积极开展巡逻，尤其关注境内流离失所者和难民，其中包括但不限于保护点和难民营内的民众，以及人道主义工作人员和人权维护者，查明针对平民的威胁和袭击，包括为此而实施基于对冲突敏感的扎实分析的全特派团预警和应对战略，定期与平民，包括与社区联络助理沟通互动，并与人道主义组织、人权组织、民间社会和发展组织密切合作；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_㈢">
+              <num>㈢</num>
+              <content eId="para_38_list_point_a_sublist_point_㈢_content">
+                <p xml:space="preserve">	维护南苏丹特派团平民保护点和保护点内的公共安全和安保，对于重新指定的平民保护点，维持与威胁分析、保护点危机应急规划相联系的灵活态势，维持在安全局势恶化时扩大重新指定点的力量和保护的能力；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_㈣">
+              <num>㈣</num>
+              <content eId="para_38_list_point_a_sublist_point_㈣_content">
+                <p xml:space="preserve">	在特派团能力范围内和部署区内遏制、预防和应对性暴力和性别暴力，包括为此而便利接触向幸存者提供服务和支持的组织，诸如医疗、性健康和生殖健康、心理社会和精神健康、法律和社会经济等服务；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_㈤">
+              <num>㈤</num>
+              <content eId="para_38_list_point_a_sublist_point_㈤_content">
+                <p xml:space="preserve">	进行斡旋，建立信任和提供协助，以支持南苏丹特派团的保护战略，特别是有关妇女和儿童的保护战略，特别是为此根据基于证据的最佳做法，并根据对性别问题有敏感认识的冲突和政治经济分析以及对冲突敏感的分析，支持社区主导的和平对话进程，并通过调解和社区互动等途径协助预防、缓解和解决族群间暴力，以便在地方和国家一级促进可持续和解，以此作为防止暴力和长期国家政权建设活动的一个重要部分；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_㈥">
+              <num>㈥</num>
+              <content eId="para_38_list_point_a_sublist_point_㈥_content">
+                <p xml:space="preserve">	支持相关的国家和州级当局和民间社会组织制定和执行对性别问题有敏感认识的社区减少暴力方案，与发展伙伴和社区代表合作和协调，帮助缓解族群间暴力并辅之以社区解除武装举措，尤其重视无资格或不愿整编加入必要的联合部队的武装团体成员以及妇女和青年；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_㈦">
+              <num>㈦</num>
+              <content eId="para_38_list_point_a_sublist_point_㈦_content">
+                <p xml:space="preserve">	利用技术援助和能力建设支持南苏丹政府以对冲突问题有敏感认识的方式并按照《和平协议》的规定扩大和改革法治和司法部门，以加强对平民的保护，打击有罪不罚，推动问责，包括采取以幸存者为中心的办法调查和起诉性别暴力，包括与冲突有关的性暴力，以及侵犯践踏人权行为；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_㈧">
+              <num>㈧</num>
+              <content eId="para_38_list_point_a_sublist_point_㈧_content">
+                <p xml:space="preserve">	协助创造安全环境，以便境内流离失所者和难民在条件适宜情况下安全、知情、自愿和有尊严地返回、异地安置、重新安置或融入条件适宜的收容社区，包括为此而监督和促进尊重人权，与警察部门、安全和政府机构以及民间社会行为体协调开展相关的注重保护的活动，调查和起诉性暴力和性别暴力及与冲突有关的性暴力以及其他侵犯践踏人权行为，以便加强对平民的保护，打击有罪不罚，推动问责，在任何时候都按照联合国人权尽职政策(人权尽职政策)开展工作；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_㈨">
+              <num>㈨</num>
+              <content eId="para_38_list_point_a_sublist_point_㈨_content">
+                <p xml:space="preserve">	协助为安全和自由地出入朱巴及其周围地区创造条件，包括在进出朱巴的途径以及市内主要交通和运输线及机场创造条件；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_㈩">
+              <num>㈩</num>
+              <content eId="para_38_list_point_a_sublist_point_㈩_content">
+                <p xml:space="preserve">	迅速有效地抗衡有可信理由认为正准备袭击或参与袭击平民、境内流离失所者营地、南苏丹特派团平民保护点、其他联合国房地、联合国人员、国际和国内人道主义行为体的任何行为体；</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_38_list_point_b">
+            <num>(b)</num>
+            <content eId="para_38_list_point_b_content">
+              <p xml:space="preserve">	为提供人道主义援助创造有利条件：</p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_b_sublist">
+            <point eId="para_38_list_point_b_sublist_point_㈠">
+              <num>㈠</num>
+              <content eId="para_38_list_point_b_sublist_point_㈠_content">
+                <p xml:space="preserve">	与人道主义行为体密切协调，协助创造有利于提供人道主义援助的安全条件，包括提供对性别问题有敏感认识的气候变化不利影响风险评估，以便所有人道主义工作人员能够根据国际法，包括适用的国际人道法，依据人道、公正、中立和独立等联合国人道主义援助指导原则，充分、安全和不受阻碍地接触南苏丹所有有需要者，及时提供人道主义援助，包括向境内流离失所者和难民提供；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_b_sublist_point_㈡">
+              <num>㈡</num>
+              <content eId="para_38_list_point_b_sublist_point_㈡_content">
+                <p xml:space="preserve">	确保联合国人员和酌情包括有关人员的安全和行动自由，保障执行规定任务所需的设施和设备的安全；</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_38_list_point_c">
+            <num>(c)</num>
+            <content eId="para_38_list_point_c_content">
+              <p xml:space="preserve">	支持《重振协议》执行工作及和平进程：</p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_c_sublist">
+            <point eId="para_38_list_point_c_sublist_point_㈠">
+              <num>㈠</num>
+              <content eId="para_38_list_point_c_sublist_point_㈠_content">
+                <p xml:space="preserve">	利用斡旋支持和平进程和《重振协议》的执行，包括为此提供咨询、技术援助，并与相关区域行为体协调；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_㈡">
+              <num>㈡</num>
+              <content eId="para_38_list_point_c_sublist_point_㈡_content">
+                <p xml:space="preserve">	协助所有当事方确保妇女充分、平等和切实参与和平进程、过渡期政府机关和机构以及所有解决冲突和建设和平工作、过渡期正义和制宪进程，并将青年、信仰团体和民间社会纳入其中；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_㈢">
+              <num>㈢</num>
+              <content eId="para_38_list_point_c_sublist_point_㈢_content">
+                <p xml:space="preserve">	参与并支持停火和过渡期安全安排监测和核查机制、重组后的联合监测和评价委员会和其他执行机制开展工作以执行任务，包括在地方一级；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_㈣">
+              <num>㈣</num>
+              <content eId="para_38_list_point_c_sublist_point_㈣_content">
+                <p xml:space="preserve">	利用技术援助，包括能力建设，以支持《重振和平协议》各机制，包括支持南苏丹在宪法起草进程、过渡期安全安排和建立健全监管框架方面的努力；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_㈤">
+              <num>㈤</num>
+              <content eId="para_38_list_point_c_sublist_point_㈤_content">
+                <p xml:space="preserve">	与联合国国家工作队以及区域和国际伙伴协调，酌情为选举进程提供技术援助，包括能力建设，以及后勤支助，并提供安全支助，以便促进符合《重振协议》的选举周期，同时指出，南苏丹特派团的支助除其他外将包括支持南苏丹当局努力起草永久宪法、缓解整个选举期间可能出现的紧张局势、使妇女候选人和选民充分、平等、切实和安全地参与各级选举进程的各个阶段，使南苏丹境内流离失所者和难民参与其中，指出，将根据南苏丹当局在下文第6、7和8段所述方面取得的进展情况不断评估和审查南苏丹特派团的支助工作；</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_38_list_point_d">
+            <num>(d)</num>
+            <content eId="para_38_list_point_d_content">
+              <p xml:space="preserve">	监测、调查和报告违反国际人道法和侵犯践踏人权的行为：</p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_d_sublist">
+            <point eId="para_38_list_point_d_sublist_point_㈠">
+              <num>㈠</num>
+              <content eId="para_38_list_point_d_sublist_point_㈠_content">
+                <p xml:space="preserve">	监测、调查、核实并立即、公开和定期报告侵犯践踏人权和违反国际人道法的行为，包括可能构成战争罪或危害人类罪的行为；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_d_sublist_point_㈡">
+              <num>㈡</num>
+              <content eId="para_38_list_point_d_sublist_point_㈡_content">
+                <p xml:space="preserve">	监测、调查、核实并具体和公开报告侵害和虐待妇女和儿童的行为，包括武装冲突中一切形式的性暴力和性别暴力行为，加快落实针对与冲突有关的性暴力的监测、分析和报告安排，包括为此确保这些安排及时推动采取行动来遏制、预防和应对性暴力，并加强对侵害和虐待儿童行为的监测和报告机制；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_d_sublist_point_㈢">
+              <num>㈢</num>
+              <content eId="para_38_list_point_d_sublist_point_㈢_content">
+                <p xml:space="preserve">	与联合国防止灭绝种族罪行特别顾问合作，监测、调查和报告发表仇恨言论和煽动暴力事件；</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_d_sublist_point_㈣">
+              <num>㈣</num>
+              <content eId="para_38_list_point_d_sublist_point_㈣_content">
+                <p xml:space="preserve">	酌情与监测、调查和报告违反国际人道法和侵犯践踏人权行为、包括可能构成战争罪或危害人类罪的行为的国际、区域和国家机制以及相关的地方利益攸关方进行协调，分享适当的信息并提供技术支持，包括能力建设；</p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>维持南苏丹特派团部队总人数，兵力上限为17 000人，警力上限为2 101人，其中包括88名惩戒干事，表示随时准备根据实地安全状况和下文第9段所列优先措施的执行情况考虑调整南苏丹特派团的兵力和能力建设任务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="MercuryDocument">
+        <content eId="para_42__content">
+          <p xml:space="preserve">		南苏丹和平进程</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="bold">要求</span>冲突各方和其他武装行为体立即终止南苏丹全境的战斗，进行政治对话，提醒南苏丹当局负有保护南苏丹境内平民的首要责任，还要求南苏丹领导人执行《重振协议》和以往所有停火和停止敌对行动协议中宣布的永久停火，包括《罗马宣言》中的承诺；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="bold">表示</span>深为关切《重振协议》的执行出现延迟，促请各当事方全面执行《重振协议》，包括为此而分配必要的财政资源，毫不拖延地设立该协议规定的机构，确保妇女充分、平等和切实参与所有解决冲突和建设和平工作，并将青年、信仰团体和民间社会纳入其中，强调指出有必要迅速敲定安全安排，建立所有过渡机构，并在过渡改革方面取得进展，包括建立自由和开放的公民空间，开展包容各方的宪法起草工作，经济透明，实施公共财政管理改革，确认腐败和滥用公共资金对南苏丹政府为民众提供服务的能力产生不利影响，还强调指出需加强良好的经济治理，确保有效的国家税收和反腐败结构，以便为执行《重振协议》、包括筹备和举行选举提供经费；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>，举行自由公平的选举，反映所有南苏丹人的意愿，使妇女充分、平等和切实参与，将青年、残疾人、南苏丹境内流离失所者、难民和所有政治团体成员纳入其中，这对过渡走向一个稳定、包容、民主和自力更生的国家至关重要，为此特别指出，在举行选举之前，需要有一个包容、透明的宪法起草进程，呼吁南苏丹当局根据《重振协议》，立即在促进和平选举进程的关键里程碑方面取得具体进展，包括颁布《永久宪法》、通过必要的立法、作出过渡期安全安排和设立一个独立选举委员会，并在整个选举期间缓解可能出现的紧张局势，同时申明，南苏丹当局和所有相关各方必须创造有利条件，以便南苏丹特派团能够按照上文第3段的规定支持选举进程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>南苏丹政府以及所有相关当事方根据《重振协议》，确保创造一个有利于自由、公平、包容、透明、和平和及时的选举进程的环境，其中要素包括自由和建设性的政治辩论、意见和表达自由，包括对民间社会、反对派政党和媒体成员而言，还有和平集会自由、公平使用国家媒体等各种媒体、所有政治行为者的安全、所有候选人的行动自由，以及为了国内和国际选举观察员和证人、记者、人权活动人士和包括妇女在内的民间社会行为体的参与而这么做；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>南苏丹政府和所有相关行为体采取行动，在南苏丹特派团当前任务期结束前落实以下优先措施：</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="MercuryDocument">
+        <content eId="para_54__content">
+          <p xml:space="preserve">	以符合国际人权法和国际人道法义务的方式为重新指定的平民保护点提供安全保障，预防和应对这些营地内居民所面临的暴力或犯罪活动，并妥善审查参与在重新指定点提供安全保障的所有安全部队人员，</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="MercuryDocument">
+        <content eId="para_55__content">
+          <p xml:space="preserve">	启动并监督永久宪法制宪进程，开展基础广泛、包容的公众协商，</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="MercuryDocument">
+        <content eId="para_56__content">
+          <p xml:space="preserve">		根据<a href="https://undocs.org/ch/S/PRST/2021/20">S/PRST/2021/20</a>号安理会主席声明，在筹备自由和公平选举的关键里程碑方面取得进展，</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="af7">
+        <content eId="para_57__content">
+          <p xml:space="preserve">	停止对南苏丹特派团的一切阻挠，特别是停止阻挠南苏丹特派团执行监测和调查侵犯践踏人权行为的任务，立即停止阻挠国际和国内人道主义行为体援助平民，为停火和过渡期安全安排监测和核查机制的行动自由提供便利，</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="MercuryDocument">
+        <content eId="para_58__content">
+          <p xml:space="preserve">	落实必要的联合部队毕业进程，开始予以有效部署，并采用其统一指挥结构，</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="MercuryDocument">
+        <content eId="para_59__content">
+          <p xml:space="preserve">	不再拖延地与非洲联盟缔结设立南苏丹问题混合法庭的谅解备忘录，切实启动法庭设立工作，并设立真相、和解和消除创伤委员会以及补偿和赔偿局，</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="bold">再次促请</span>南苏丹政府履行其与联合国之间的《部队地位协定》规定的义务，立即停止阻挠南苏丹特派团执行任务，关切地指出，违反《部队地位协定》的行为可能给参加维和行动的联合国人员的安全和安保带来严重风险，促请南苏丹政府采取行动遏止妨碍南苏丹特派团或国际和国内人道主义行为体的任何敌对行动或其他行动，追究这些行动责任人的责任，并继续采取一切适当措施确保南苏丹特派团人员的安全保障、行动自由和不受阻碍的即时准入和接触，提醒南苏丹政府，根据《部队地位协定》，南苏丹特派团执行规定任务不需要事先授权或许可，申明南苏丹特派团必须能够不受限制地监测、调查和报告违反国际人道法以及侵犯践踏人权行为，能够不受限制地使用其所有基地，以便执行任务，包括但不限于朱巴国际机场附近的通平基地，这对特派团的行动和安全至关重要，敦促南苏丹政府便利南苏丹特派团所有基地的顺利运作，并为南苏丹特派团及其合作伙伴开展工作营造相互合作的环境；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="bold">要求</span>所有当事方立即停止一切形式的暴力、侵犯践踏人权和违反国际人道法的行为，包括强奸和其他形式的性暴力和性别暴力，促请南苏丹政府追究实施和指挥此类违法侵权行为责任人的责任，以打破目前的有罪不罚现象周而复始的局面，并加大力度，以符合国际义务的方式迅速、透明地完成现有针对侵犯践踏人权的指控的调查，鼓励南苏丹政府发布关于这些调查的报告，促请南苏丹政府立即谴责和打击日益增多的仇恨言论和族裔暴力，促进人民之间的和解；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="bold">要求</span>所有当事方根据国际法、包括适用的国际人道法，给予救济人员、设备和用品迅速、安全和不受阻碍的准入，便利及时为南苏丹各地所有需要援助者、特别是为境内流离失所者和难民提供人道主义援助，停止将医院、学校和其他民用房地用于可使其遭受袭击的目的，强调指出有义务尊重和保护所有医护人员和专门履行医护职责的人道主义工作人员及其交通工具和设备以及医院和其他医疗设施，又强调指出境内流离失所者或难民的任何回返或其他持久解决办法必须在保障尊严和安全的情况下自愿知情地进行，指出平民行动自由及其寻求庇护的权利必须得到尊重；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>南苏丹政府解决住房、土地和财产问题，为境内流离失所者和难民落实持久解决办法，包括努力制定国家土地政策，并为南苏丹境内流离失所者和难民在条件适宜情况下安全、知情、自愿和有尊严地返回、异地安置、重新安置或融入条件适宜的收容社区创造一个安全环境；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>各当事方确保妇女充分、有效和切实参加和参与各个领域和各级政治领导层、和平进程、过渡政府和根据和平协议正在实施的改革进程，还促请各当事方认识到需要保护妇女领导的组织和妇女建设和平者免受威胁和报复，提供安全环境以便她们安全和自由地开展工作，并履行关于包容性的承诺，包括《重振协议》中关于民族多样性、性别、青年和地区代表性的承诺以及尚未落实的各级最低35%妇女代表比例的承诺；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="bold">谴责</span>继续发生性暴力行为，要求冲突各方和其他武装行为体防止进一步实施性暴力，落实第<a href="https://undocs.org/ch/S/RES/2467(2019)">2467(2019)</a>号决议要求采取的行动，采取以幸存者为中心的办法，预防和应对冲突和冲突后相关局势中的性暴力，追究责任人的责任，包括为此而迅速调查、起诉和惩处行为人，酌情赔偿受害者，强烈敦促南苏丹人民国防军、苏人解反对派和民族拯救阵线充分履行它们作出的防止与冲突有关的性暴力的联合和单方承诺及行动计划；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="bold">强烈敦促</span>南苏丹武装冲突各方执行安全理事会儿童与武装冲突问题工作组2021年3月5日通过的关于南苏丹儿童与武装冲突问题的结论中呼吁采取的行动，敦促所有当事方充分执行2020年1月《制止和预防所有严重侵害儿童行为全面行动计划》，促请南苏丹政府执行《儿童权利公约关于儿童卷入武装冲突问题的任择议定书》；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>南苏丹政府考虑到《重振协议》第五章第3.2.2段，追究所有对侵犯践踏人权和违反国际人道法行为负有责任者的责任，通过提供法律援助、医疗支持和心理社会咨询，确保所有性暴力受害者得到法律的平等保护，享有平等诉诸司法的机会，在这些过程中保障妇女和儿童的人权得到平等尊重，指出执行过渡期正义措施、包括《重振协议》所载措施，是愈合创伤和实现和解的关键，敦促南苏丹政府优先扩大和改革法治和司法部门，包括在国家以下一级，以便加强对平民的保护、打击有罪不罚现象、促进问责，促请国际社会支持设立南苏丹问题混合法庭，并促请南苏丹政府和非洲联盟克服当前的僵局，设立该混合法庭；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="bold">表示</span>打算按照第<a href="https://undocs.org/ch/S/RES/2206(2015)">2206(2015)</a>、<a href="https://undocs.org/ch/S/RES/2290(2016)">2290(2016)</a>、<a href="https://undocs.org/ch/S/RES/2353(2017)">2353(2017)</a>、<a href="https://undocs.org/ch/S/RES/2428(2018)">2428(2018)</a>、<a href="https://undocs.org/ch/S/RES/2471(2019)">2471(2019)</a>、<a href="https://undocs.org/ch/S/RES/2521(2020)">2521(2020)</a>和<a href="https://undocs.org/ch/S/RES/2577(2021)">2577(2021)</a>号决议获得通过所表明的意向，考虑对危害南苏丹和平、稳定和安全的行为者采取一切适当措施，强调指出联合国保护点不可侵犯，特别指出那些负责或共谋袭击南苏丹特派团人员、房地和任何人道主义工作人员的行为的个人或实体可能符合指认标准，表示注意到秘书长2018年2月20日关于延长联合国南苏丹特派团任务期的特别报告(<a href="https://undocs.org/ch/S/2018/143">S/2018/143</a>)，其中表示武器弹药重新持续不断流向南苏丹直接影响到联合国人员的安全和南苏丹特派团执行任务的能力，还表示注意到非盟和安会2018年2月8日公报申明应使《停止敌对行动、保护平民和人道主义援助准入协定》各签署方失去继续战斗的手段，特别指出安全理事会第<a href="https://undocs.org/ch/S/RES/2428(2018)">2428(2018)</a>号决议通过的旨在使各当事方失去继续战斗的手段并防止出现违反《停止敌对行动、保护平民和人道主义援助准入协定》情况的措施，包括军火禁运，要求所有会员国遵守安全理事会相关决议规定的义务，防止直接或间接向南苏丹领土供应、出售或转让军火和相关各类材料，包括武器和弹药；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="MercuryDocument">
+        <content eId="para_97__content">
+          <p xml:space="preserve">		南苏丹特派团的行动</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>安理会第<a href="https://undocs.org/ch/S/RES/2086(2013)">2086(2013)</a>号决议，重申<a href="https://undocs.org/ch/S/PRST/2015/22">S/PRST/2015/22</a>号安理会主席声明所述的维和基本原则，包括当事方同意、中立、非自卫和履行授权不使用武力等原则，确认每个维和特派团的任务都是针对有关国家的具体需要和情况而制订，安全理事会期待其授权的任务得以充分执行；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="MercuryDocument">
+        <num>20.</num>
+        <list eId="para_99_list">
+          <intro eId="para_99_list_intro">
+            <p xml:space="preserve">	<span class="bold">请</span>秘书长在规划和实施南苏丹特派团在任务范围和行动区内根据现有联合国准则和规章开展的行动中充分落实以下活动和现有义务：</p>
+          </intro>
+          <point eId="para_99_list_point_a">
+            <num>(a)</num>
+            <content eId="para_99_list_point_a_content">
+              <p xml:space="preserve">	加强实施全特派团预警和应对战略，作为开展收集情报、跟踪和分析事件、监测、核查、预警和传播等工作的协调一致方针的一部分，加强实施应对机制，包括应对针对平民且可能涉及侵犯践踏人权或违反国际人道法行为的威胁和袭击的机制，以及为联合国人员和设施可能进一步遭受袭击做好防范准备的机制，并确保对性别问题有敏感认识的冲突分析纳入所有预警和冲突预防工作的主流；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_b">
+            <num>(b)</num>
+            <content eId="para_99_list_point_b_content">
+              <p xml:space="preserve">	鼓励利用建立信任、促进、调解、社区互动和战略沟通等举措支持特派团任务的执行及特派团的保护、信息收集和态势感知活动，消除可能有碍特派团执行任务能力的错误信息和虚假信息；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_c">
+            <num>(c)</num>
+            <content eId="para_99_list_point_c_content">
+              <p xml:space="preserve">	优先加强特派团机动性，积极巡逻，以便更好地在新出现保护风险和新威胁的地区，包括在偏远地区执行任务，优先部署拥有适当的空中、陆地和水上资产的部队，以支持特派团的保护、信息收集和态势感知活动；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_d">
+            <num>(d)</num>
+            <content eId="para_99_list_point_d_content">
+              <p xml:space="preserve">	提高南苏丹特派团在任务范围内的维和情报和分析能力，包括侦查和监测能力；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_e">
+            <num>(e)</num>
+            <content eId="para_99_list_point_e_content">
+              <p xml:space="preserve">	实施更有效的伤员和医疗后送程序，并部署经强化的医疗后送能力；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_f">
+            <num>(f)</num>
+            <content eId="para_99_list_point_f_content">
+              <p xml:space="preserve">	采取积极有效的措施，改善南苏丹特派团安全和安保设施及安排的规划和运作；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_g">
+            <num>(g)</num>
+            <content eId="para_99_list_point_g_content">
+              <p xml:space="preserve">	确保今后重新指定任何平民保护点基于以下考虑：旨在确定必要安全条件的全面安全评估；南苏丹当局担起保护平民的首要职责并表明有能力根据具体地点情况向流离失所者提供非歧视性保护，继续开展全面的社区互动；服务供应协调过渡；支持南苏丹政府预防和应对这些营地内居民所面临的暴力或犯罪活动；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_h">
+            <num>(h)</num>
+            <content eId="para_99_list_point_h_content">
+              <p xml:space="preserve">	根据第<a href="https://undocs.org/ch/S/RES/2467(2019)">2467(2019)</a>号决议加强特派团预防和应对性暴力和性别暴力的活动，包括协助各当事方开展符合第<a href="https://undocs.org/ch/S/RES/2467(2019)">2467(2019)</a>号决议的活动，并以合乎职业道德的方式与性别暴力幸存者和受害者以及妇女组织互动，确保将性暴力和性别暴力风险纳入特派团的数据收集、威胁分析和预警系统；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_i">
+            <num>(i)</num>
+            <content eId="para_99_list_point_i_content">
+              <p xml:space="preserve">	就第<a href="https://undocs.org/ch/S/RES/2521(2020)">2521(2020)</a>号决议通过的措施，包括其中有关军火禁运的规定，为第<a href="https://undocs.org/ch/S/RES/2206(2015)">2206(2015)</a>号决议第16段所设委员会和同一决议所设专家小组提供协助，尤其鼓励南苏丹特派团与专家小组及时交流信息，</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_j">
+            <num>(j)</num>
+            <content eId="para_99_list_point_j_content">
+              <p xml:space="preserve">	根据第<a href="https://undocs.org/ch/S/RES/1894(2009)">1894(2009)</a>号决议，在决定如何使用特派团现有能力和资源时，优先考虑规定的保护活动；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_k">
+            <num>(k)</num>
+            <content eId="para_99_list_point_k_content">
+              <p xml:space="preserve">	执行关于妇女与和平与安全的第<a href="https://undocs.org/ch/S/RES/1325(2000)">1325(2000)</a>号决议和所有相关决议规定的妇女与和平与安全优先事项，包括为此而努力根据第<a href="https://undocs.org/ch/S/RES/2538(2020)">2538(2020)</a>号决议增加南苏丹特派团内妇女人数，并确保妇女充分、平等和切实参与行动各个方面，包括为此而确保维和行动中妇女有一个安全、有利和对性别问题有敏感认识的工作环境，同时在整个任务期充分考虑到性别问题这一贯穿各领域的问题，重申军警和文职性别平等问题顾问、特派团所有构成部分的性别平等问题协调人、性别平等问题专长和加强能力对于以促进性别平等的方式执行特派团任务的重要性；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_l">
+            <num>(l)</num>
+            <content eId="para_99_list_point_l_content">
+              <p xml:space="preserve">	根据第<a href="https://undocs.org/ch/S/RES/2250(2015)">2250(2015)</a>号决议执行青年与和平与安全议程，制定和执行针对具体情况的青年与和平与安全战略，并确保青年充分、有效和切实参与，确认青年在预防和解决冲突及建设和平中的至关重要作用；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_m">
+            <num>(m)</num>
+            <content eId="para_99_list_point_m_content">
+              <p xml:space="preserve">	继续根据关于儿童与武装冲突问题的第<a href="https://undocs.org/ch/S/RES/1612(2005)">1612(2005)</a>号决议及其后相关决议，就制定和执行行动计划与冲突各方进行对话，并支持在全国各地努力使与武装团体和部队有关联儿童获释放；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_n">
+            <num>(n)</num>
+            <content eId="para_99_list_point_n_content">
+              <p xml:space="preserve">	落实第<a href="https://undocs.org/ch/S/RES/2378(2017)">2378(2017)</a>和<a href="https://undocs.org/ch/S/RES/2436(2018)">2436(2018)</a>号决议规定的维和业绩要求以及第<a href="https://undocs.org/ch/S/RES/2518(2020)">2518(2020)</a>号决议规定的改善安全和安保要求，并实施与“改善联合国维和人员安保”报告有关的加强安全和安保行动计划以及根据联合国改善维和人员安全准则和最佳做法在行动区内和部署前为军警人员接种冠状病毒病疫苗的指导原则；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_o">
+            <num>(o)</num>
+            <content eId="para_99_list_point_o_content">
+              <p xml:space="preserve">	执行联合国对严重不当行为、性剥削和性虐待及性骚扰行为的零容忍政策，采取第<a href="https://undocs.org/ch/S/RES/2272(2016)">2272(2016)</a>号决议规定的所有行动，如出现此类不当行为案例即报告安全理事会；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_p">
+            <num>(p)</num>
+            <content eId="para_99_list_point_p_content">
+              <p xml:space="preserve">	确保向非联合国安全部队提供任何支持都严格遵守人权尽职政策，包括监测和报告所提供的支持的使用情况以及缓解措施的执行情况；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_q">
+            <num>(q)</num>
+            <content eId="para_99_list_point_q_content">
+              <p xml:space="preserve">	就南苏丹问题与联合国所有机构、基金和方案进行协调，并与区域组织和其他相关利益攸关方、包括人道主义国家工作队及其联系机构进行协调；</p>
+            </content>
+          </point>
+          <point eId="para_99_list_point_r">
+            <num>(r)</num>
+            <content eId="para_99_list_point_r_content">
+              <p xml:space="preserve">	就过渡综合规划和协调工作，在尽可能早的阶段与驻地协调员、联合国国家工作队和其他联合国机构、基金和方案以及东道国和民间社会等其他国内利益攸关方互动，包括根据第<a href="https://undocs.org/ch/S/RES/2594(2021)">2594(2021)</a>号决议开展互动；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_100" class="MercuryDocument">
+        <content eId="para_100__content">
+          <p xml:space="preserve">		联合国和国际社会的支持：</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	<span class="bold">请</span>并<span class="bold">鼓励</span>秘书长特别代表领导综合一体的南苏丹特派团开展行动，协调联合国系统在南苏丹共和国的所有活动，并开展斡旋，领导南苏丹境内联合国系统协助非盟、伊加特、重组后的联合监测和评价委员会、停火和过渡期安全安排监测和核查机制和其他行为体以及各当事方执行《重振协议》，促进和平与和解，在此方面特别指出停火和过渡期安全安排监测和核查机制的关键作用和南苏丹特派团为其执行任务而提供支持的重要性，为此重申联合国与区域组织和其他行为体协调，为推进各当事方之间的政治对话、推动实现持久停止敌对行动以及领导各当事方开展包容性和平进程所发挥的关键作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>伊加特、非盟、非盟和安会和该区域各国继续坚定地互动协作，为南苏丹的和平与安全挑战找到持久解决办法，并敦促南苏丹领导人毫不拖延地履行根据停止敌对行动协议和《重振协议》作出的所有承诺，还鼓励区域实体与秘书长及其特别代表为此协商行动计划和共同发出信息，着重指出伊加特与联合国和非盟合作为全国对话提供的支持，敦促伊加特为重组后的联合监测和评价委员会任命一位主席；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>所有当事方和所有会员国以及国际、区域和次区域组织确保与第<a href="https://undocs.org/ch/S/RES/2206(2015)">2206(2015)</a>号决议所设专家小组合作，还敦促所有相关会员国确保专家小组成员安全、通行不受阻碍，尤其是在接触人员、获取文件和出入有关场地方面，以便专家小组执行任务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长继续为非洲联盟委员会和南苏丹政府提供设立南苏丹问题混合法庭方面的技术援助，并继续为执行《重振协议》第五章的其他规定，包括为设立真相、和解和消除创伤委员会及补偿和赔偿局提供技术援助，强调相关措施应具有性别敏感性、包容、可及、资源充足并在妇女充分和切实参与和领导下拟订和实施，邀请非洲联盟与秘书长分享南苏丹问题混合法庭设立进展情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="bold">赞扬</span>部队和警察派遣国致力于在充满挑战的环境中执行特派团任务，在此方面强调指出，秘书长不应接受任何对有效执行任务产生不利影响的国内限制条件，请部队和警察派遣国执行第<a href="https://undocs.org/ch/S/RES/2538(2020)">2538(2020)</a>号决议和所有其他相关决议关于减少障碍、增加妇女在维和各级和所有职位上的参与的相关规定，包括为此而确保维和行动中妇女有一个安全、有利和对性别问题有敏感认识的工作环境，重点指出，缺乏有效的指挥和控制、拒绝服从命令、未能对袭击平民行为作出反应、拒绝在南苏丹偏远地区参加或进行远距离巡逻、装备不足和财政资源拮据等因素可能对共同负责有效执行任务产生不利影响；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>部队和警察派遣国继续采取适当行动防止性剥削和性虐待，包括对所有人员进行审查及进行部署前和特派团内提高认识培训，确保在发生此类行为时全面追究本国涉案人员的责任，包括为此而及时以幸存者为中心调查性剥削和性虐待指控，在有可信证据表明部队存在普遍或整体性剥削和性虐待行为时将部队遣返回国，采取适当的纪律措施，并向联合国全面、迅速报告所采取的行动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>国际社会加大对南苏丹人民的人道主义响应力度，以满足日益扩大的重大人道主义需求；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>指出双边和多边伙伴持续需要与南苏丹政府密切协作应对冠状病毒病疫情，与联合国发展系统各机构合作提供国际援助以及可持续发展援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="MercuryDocument">
+        <content eId="para_130__content">
+          <p xml:space="preserve">		报告：</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长继续每月报告违反《部队地位协定》或阻挠南苏丹特派团的行为；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长在本决议通过后90天内、其后每90天通过全面的书面报告向安全理事会报告南苏丹特派团任务执行情况以及南苏丹特派团执行任务时受到的阻扰，特别指出，报告应向安全理事会提供综合、基于证据和由数据驱动的分析、战略评估和坦率建议，关注的方面应包括：</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="MercuryDocument">
+        <content eId="para_133__content">
+          <p xml:space="preserve">	根据第3段开展的每项活动是否以及如何有助于推进第2段所述的战略愿景，特派团在推进战略愿景方面面临哪些挑战和障碍，利用通过全面规划和业绩评估系统(全面业绩评估系统) 收集和分析的数据、特派团实施维和业绩和问责综合框架的情况和其他战略规划和业绩衡量工具来说明特派团的影响力和总体业绩，包括关于未申明的限制条件、拒绝参加或进行巡逻及其对特派团的影响以及如何处理据报的业绩不良情况等方面信息；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="MercuryDocument">
+        <content eId="para_134__content">
+          <p xml:space="preserve">	上文[第5、6、7和8]段落所述方面取得的进展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="MercuryDocument">
+        <content eId="para_135__content">
+          <p xml:space="preserve">	上文第9段所述优先措施的执行情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="MercuryDocument">
+        <content eId="para_136__content">
+          <p xml:space="preserve">	特派团在规划和开展行动时如何落实第20段所述的能力和义务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="MercuryDocument">
+        <content eId="para_137__content">
+          <p xml:space="preserve">	酌情提出安全理事会行动建议，以解决通过战略规划和业绩衡量工具查明的障碍；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续积极处理此案。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
