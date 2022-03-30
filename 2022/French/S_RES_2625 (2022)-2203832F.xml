@@ -1,0 +1,861 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/"></FRBRuri>
+          <FRBRdate date="2022-03-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/fra@/"></FRBRuri>
+          <FRBRdate date="2022-03-15" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-03-15/2625-2022/fra@.xml"></FRBRuri>
+          <FRBRdate date="2022-03-30" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Mission in South Sudan" showAs="UN Mission in South Sudan" dictionary="DHLAUTH"></keyword>
+        <keyword value="Revitalized Agreement on the Resolution of Conflict in the Republic of South Sudan (2018)" showAs="Revitalized Agreement on the Resolution of Conflict in the Republic of South Sudan (2018)" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" showAs="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOUTH SUDAN" showAs="SOUTH SUDAN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[216]" showAs="UN MISSION IN SOUTH SUDAN" shortForm="UN MISSION IN SOUTH SUDAN" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="[223]" showAs="SOUTH SUDAN--POLITICAL CONDITIONS" shortForm="SOUTH SUDAN--POLITICAL CONDITIONS" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="Reports of the Secretary-General on the Sudan and South Sudan." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2625 (2022) [on extension of the mandate of the UN Mission in South Sudan (UNMISS) until 15 Mar. 2023]" showAs="Security Council resolution 2625 (2022) [on extension of the mandate of the UN Mission in South Sudan (UNMISS) until 15 Mar. 2023]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-03-16" outcome="draftResolution" as="S/2022/219" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-15" outcome="adopted" as="S/PV.8994" by="Adopted 13-0-2, 8994th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+            <count value="013" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="002" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-03832 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2625 (2022)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil de sécurité</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-15" class="rightSmall" refersTo="#dateOfIssuance">15 mars 2022</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Résolution 2625 (2022)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adoptée par le Conseil de sécurité à sa <inline name="adoptionMeeting" title="8994e">8994e séance</inline>, le <docDate date="2022-03-15" refersTo="#adoptionDate">15 mars 2022</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil de sécurité</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> ses précédentes résolutions, les déclarations de sa présidence et les déclarations à la presse concernant la situation au Soudan du Sud,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> son ferme attachement à la souveraineté, à l’indépendance, à l’intégrité territoriale et à l’unité nationale au Soudan du Sud, et rappelant l’importance des principes de non-ingérence, de bon voisinage et de coopération régionale,</p>
+      </container>
+      <container name="Affirmant" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Affirmant</span> son soutien à « l’Accord revitalisé sur le règlement du conflit en République du Soudan du Sud » (l’Accord revitalisé), conclu en 2018,</p>
+      </container>
+      <container name="Soulignant" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> que la viabilité du processus de paix ne pourra être assurée sans l’adhésion totale de toutes les parties, <span class="italic">se félicitant</span> à cet égard des avancées encourageantes réalisées dans le cadre du processus de paix au Soudan du Sud et de la volonté politique des parties à l’Accord revitalisé de créer les conditions nécessaires pour faire avancer le processus de paix, notamment l’accord sur la nomination des gouverneurs et autres progrès accomplis dans la mise en place des structures de gouvernance au niveau des États et des collectivités locales, ainsi que le maintien de la sécurité des sites de protection des civils réaffectés et la reconstitution de l’Assemblée législative nationale de transition,</p>
+      </container>
+      <container name="Prenant note" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Prenant note</span> de la diminution des violences entre les parties signataires de l’Accord revitalisé et du respect du cessez-le-feu permanent dans la majeure partie du pays,</p>
+      </container>
+      <container name="Constatant" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Constatant </span>avec satisfaction que la direction de l’Autorité intergouvernementale pour le développement (IGAD) contribue au processus de paix au Soudan du Sud, <span class="italic">se félicitan</span>t que l’IGAD et ses États membres, la Commission mixte de suivi et d’évaluation reconstituée, l’Union africaine, notamment son Conseil de paix et de sécurité, l’Organisation des Nations Unies et les pays de la région se soient engagés et s’emploient à dialoguer avec les dirigeants sud-soudanais afin de résoudre la crise actuelle, et <span class="italic">encourageant</span> la poursuite d’une collaboration active,</p>
+      </container>
+      <container name="Se félicitant" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Se félicitant</span> de la médiation entreprise par la Communauté de Sant’Egidio pour favoriser un dialogue politique entre les parties signataires et non signataires de l’Accord revitalisé et <span class="italic">encourageant</span> toutes les parties à poursuivre leur action de règlement pacifique des différends en vue de parvenir à une paix inclusive et durable,</p>
+      </container>
+      <container name="Se disant à nouveau" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Se disant à nouveau</span> profondément préoccupé par la situation politique, économique, humanitaire et en matière de sécurité au Soudan du Sud, <span class="italic">prenant note</span> de l’impact de la pandémie de maladie à coronavirus 2019 (COVID‑19), et <span class="italic">soulignant</span> qu’il ne peut y avoir de solution militaire à la situation au Soudan du Sud,</p>
+      </container>
+      <container name="Condamnant fermement" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Condamnant fermement</span> tous les combats, notamment les violences et les pertes en vies humaines résultant des défections récentes, et toute violation de l’Accord sur la cessation des hostilités, la protection des civils et l’accès humanitaire du 21 décembre 2017 et des dispositions de l’Accord revitalisé relatives au cessez-le-feu permanent, <span class="italic">se félicitant</span> de la prompte évaluation desdites violations faite par le Mécanisme de vérification et de surveillance du cessez-le-feu et du suivi de l’application des dispositions transitoires de sécurité, <span class="italic">invitant</span> l’IGAD à lui communiquer rapidement ses rapports et <span class="italic">notant</span> que l’Union africaine, l’IGAD et lui-même ont exigé que les parties qui commettent des violations des dispositions de l’Accord soient tenues d’en répondre,</p>
+      </container>
+      <container name="Exprimant" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Exprimant</span> sa profonde inquiétude face à l’augmentation des violences entre groupes armés dans certaines régions du Soudan du Sud, qui ont fait des milliers de morts et de déplacés, et <span class="italic">condamnant</span> l’utilisation de ces groupes par des parties au conflit, y compris par des membres des forces gouvernementales et de groupes d’opposition armés,</p>
+      </container>
+      <container name="Se déclarant" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant</span> vivement préoccupé par les rapports faisant état d’actes de violence sexuelle et fondée sur le genre, notamment par les constations figurant dans le rapport sur les violences sexuelles liées aux conflits (<a href="https://undocs.org/fr/S/2021/312">S/2021/312</a>) que lui a présenté le Secrétaire général concernant le recours par les parties au conflit aux violences sexuelles comme tactique contre la population civile au Soudan du Sud, y compris le viol et l’esclavage sexuel à des fins d’intimidation et de punition, sur la base de l’appartenance politique supposée, et dans le cadre d’une stratégie ciblant les membres de certains groupes ethniques, les violences sexuelles liées au conflit et autres formes de violence contre les femmes et les filles se poursuivant depuis la signature de l’Accord revitalisé, comme il ressort du rapport de février 2021 publié par le Haut-Commissariat des Nations Unies aux droits de l’homme sur l’accès aux soins de santé pour les victimes de violences sexuelles liées au conflit au Soudan du Sud, <span class="italic">notant</span> que des progrès ont été observés dans ce domaine par plusieurs parties sud-soudanaises à la suite de la mise en œuvre de plans d’action visant à combattre les violences sexuelles en période de conflit, et <span class="italic">soulignant</span> qu’il importe de mener d’urgence des enquêtes rapides et de fournir assistance et protection aux personnes rescapées et aux victimes de violences sexuelles et fondées sur le genre,</p>
+      </container>
+      <container name="Se déclarant de nouveau alarmé" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant de nouveau alarmé</span> par la situation humanitaire désastreuse, les niveaux élevés d’insécurité alimentaire dans le pays et la famine probable dans certaines régions, notamment par la grave insécurité alimentaire que devraient connaître 8,3 millions de personnes, d’après les estimations du Programme alimentaire mondial, <span class="italic">rappelant</span> sa résolution <a href="https://undocs.org/fr/S/RES/2417(2018)">2417 (2018)</a>, dans laquelle il se dit conscient de la nécessité de mettre fin au cercle vicieux du conflit armé et de l’insécurité alimentaire, <span class="italic">condamnant</span> les attaques contre les moyens de subsistance et le refus intentionnel d’accès à la nourriture, qui pourraient être assimilés à des crimes de guerre, <span class="italic">condamnant en outre</span> le fait que toutes les parties entravent la circulation des civils et les déplacements des acteurs humanitaires qui cherchent à atteindre les civils ayant besoin d’assistance, <span class="italic">se déclarant</span> vivement préoccupé par l’imposition de taxes et de frais illégaux qui entravent le déploiement de l’aide humanitaire à travers le pays, <span class="italic">notant</span> avec inquiétude les informations selon lesquelles les déplacements forcés et le refus d’accès humanitaire aggravent l’insécurité alimentaire de la population civile,</p>
+      </container>
+      <container name="Se déclarant" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant</span> profondément alarmé et préoccupé face aux quelque 2 millions de personnes déplacées et à la crise humanitaire en cours, aux 8,4 millions de personnes qui nécessitent une aide humanitaire selon l’aperçu des besoins humanitaires au Soudan du Sud pour 2022, et aux 7,2 millions de personnes qui, selon le rapport de l’Organisation des Nations Unies pour l’alimentation et l’agriculture et du Programme alimentaire mondial sur les foyers de famine intitulé « Hunger Hotspots FAO-WFP Early Warnings on AcuteFood Insecurity » et publié en février 2022, auraient été confrontées à une grave insécurité alimentaire à la mi-2021, et <span class="italic">félicitant</span> les organismes humanitaires des Nations Unies, les partenaires et les donateurs pour leurs efforts visant à apporter un soutien urgent et coordonné à la population,</p>
+      </container>
+      <container name="Condamnant fermemen" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Condamnant fermemen</span>t toutes les attaques dirigées contre le personnel et les installations humanitaires, qui ont entraîné la mort d’au moins 131 agents depuis décembre 2013, y compris l’attaque perpétrée contre le complexe hôtelier Terrain le 11 juillet 2016, l’assassinat de cinq humanitaires en 2021 et les attaques dirigées contre du personnel médical et des hôpitaux, <span class="italic">notant</span> avec une vive inquiétude la fréquence croissante des actes de harcèlement et d’intimidation dirigés contre des agents humanitaires, et <span class="italic">rappelant</span> que les attaques visant le personnel et les biens humanitaires indispensables à la survie de la population civile peuvent constituer des violations du droit international humanitaire,</p>
+      </container>
+      <container name="Condamnant énergiquement" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Condamnant énergiquement</span> toutes les violations des droits humains, atteintes à ces droits et violations du droit international humanitaire par toutes les parties, y compris les groupes armés et les forces de sécurité nationale, ainsi que l’incitation à commettre de telles atteintes et violations, notamment à Tamboura, dans l’État de l’Équatoria-Occidental, <span class="italic">condamnant également</span> les actes de harcèlement dirigés contre les membres de la société civile, le personnel humanitaire et les journalistes et les actes qui les prennent pour cible ou visent à les faire taire, <span class="italic">soulignant</span> que quiconque est responsable de violations du droit international humanitaire, de violations des droits humains et d’atteintes à ces droits doit être amené à répondre de ses actes et qu’il incombe au premier chef au Gouvernement sud-soudanais de protéger les populations contre le génocide, les crimes de guerre, le nettoyage ethnique et les crimes contre l’humanité, et <span class="italic">se déclarant préoccupé</span> que la signature de l’Accord revitalisé n’ait pas mis un terme aux infractions susceptibles de constituer des crimes internationaux, y compris des crimes de guerre et des crimes contre l’humanité, notamment aux viols et aux violences sexuelles,</p>
+      </container>
+      <container name="Se déclarant" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant</span> profondément préoccupé par les rapports sur la situation des droits de l’homme au Soudan du Sud publiés par la Mission des Nations Unies au Soudan du Sud (MINUSS) et le Secrétaire général, en particulier par les informations extrêmement inquiétantes faisant état d’exécutions extrajudiciaires dans l’État de Ouarrap et l’État des Lacs, <span class="italic">constatant</span> avec une vive inquiétude que, selon certains rapports, notamment le rapport de la Commission d’enquête de l’Union africaine sur le Soudan du Sud, publiés le 27 octobre 2015, et les rapports de la Commission sur les droits de l’homme au Soudan du Sud, publiés le 23 février 2018, le 20 février 2019, le 20 février 2020 et le 19 février 2021, des crimes de guerre et des crimes contre l’humanité avaient pu être commis, <span class="italic">soulignant</span> qu’il compte que ces rapports et les autres rapports crédibles sur la question seront dûment pris en considération par les mécanismes de justice transitionnelle du Soudan du Sud, y compris ceux qu’établit l’Accord revitalisé, <span class="italic">soulignant également</span> qu’il importe de recueillir et de conserver les preuves afin que le Tribunal mixte pour le Soudan du Sud et d’autres mécanismes d’établissement des responsabilités puissent les utiliser, et <span class="italic">encourageant</span> les efforts à cet égard,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant </span>qu’il est urgent de mettre fin à l’impunité au Soudan du Sud et de traduire en justice tous les responsables de violations du droit international humanitaire et de violations des droits humains et autres atteintes portées à ceux-ci et <span class="italic">soulignant</span> l’importance des mesures de justice transitionnelle énoncées au chapitre V de l’Accord revitalisé, en vue de mettre un terme à l’impunité et de promouvoir le principe de responsabilité, de faciliter la réconciliation nationale et l’apaisement et d’instaurer une paix durable, en particulier celle de l’action menée par la Commission sur les droits de l’homme au Soudan du Sud, autorisée par l’Organisation des Nations Unies, et, à cet égard, <span class="italic">prenant acte</span> de la création par les autorités judiciaires sud-soudanaises d’un tribunal pour mineurs chargé de juger les affaires de violence fondée sur le genre, <span class="italic">notant</span> que le Gouvernement sud-soudanais a approuvé la création de mécanismes de justice transitionnelle, dont le Tribunal mixte pour Soudan du Sud, et <span class="italic">notant également</span> que le Gouvernement sud-soudanais a engagé des consultations sur la Commission vérité, réconciliation et apaisement, l’encourageant à tenir de véritables consultations avec l’ensemble des parties prenantes, avec la participation pleine, égale et véritable des femmes, et la participation des jeunes, des victimes, des personnes handicapées et des déplacés,</p>
+      </container>
+      <container name="Soulignant" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant </span>qu’il est inacceptable qu’une partie fasse obstacle de quelque manière que ce soit aux activités de la MINUSS, notamment par des restrictions à la liberté de circulation, des attaques contre son personnel et l’imposition de contraintes à ses opérations, y compris des restrictions aux patrouilles et aux efforts faits par la MINUSS pour surveiller entre autres la situation des droits humains, dont un grand nombre a été qualifié par le Secrétaire général de violations par le Gouvernement de l’Accord sur le statut des forces, <span class="italic">constatant </span>que leur nombre a diminué en 2021 et demandant instamment au Gouvernement sud-soudanais de continuer de faire des progrès à cet égard, et <span class="italic">rappelant</span> que, conformément audit accord, la MINUSS et ses fournisseurs doivent jouir de la liberté de circuler sans entrave sur tout le territoire sud-soudanais en empruntant la route la plus directe possible, sans avoir besoin de permis de voyage ou de toute autre autorisation ou notification préalable, et du droit d’importer, en franchise de droits, taxes, redevances et frais, sans interdictions ou restrictions, du matériel, des fournitures, des carburants, des matériaux et d’autres biens,</p>
+      </container>
+      <container name="Rappelant" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>sa résolution <a href="https://undocs.org/fr/S/RES/2117(2013)">2117 (2013)</a> et <span class="italic">se déclarant</span> vivement préoccupé par la menace que le transfert illicite, l’accumulation déstabilisante et le détournement d’armes légères et de petit calibre font peser sur la paix et la sécurité au Soudan du Sud, <span class="italic">se déclarant préoccupé </span>par le fait que le trafic illicite et le détournement d’armements et de matériels connexes de tous types portent atteinte à l’état de droit, qu’ils peuvent compromettre le respect du droit international humanitaire et entraver l’acheminement de l’aide humanitaire et qu’ils ont de nombreuses répercussions sur les plans humanitaire et socioéconomique,</p>
+      </container>
+      <container name="Rappelant également" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant également</span> les mesures qu’il a adoptées par sa résolution <a href="https://undocs.org/fr/S/RES/2428(2018)">2428 (2018)</a> et renouvelées par ses résolutions <a href="https://undocs.org/fr/S/RES/2471(2019)">2471 (2019)</a>, <a href="https://undocs.org/fr/S/RES/2521(2020)">2521 (2020)</a> et <a href="https://undocs.org/fr/S/RES/2577(2021)">2577 (2021)</a>, en vertu desquelles les personnes ou entités qui sont responsables d’activités ou de politiques faisant peser une menace sur la paix, la sécurité ou la stabilité du Soudan du Sud, qui en sont complices ou qui y prennent part directement ou indirectement peuvent faire l’objet de sanctions ciblées, <span class="italic">rappelant en outre</span> qu’il est prêt à imposer des telles sanctions, et <span class="italic">soulignant </span>que l’application effective du régime de sanctions, notamment des mesures d’interdiction de voyager, est d’une importance capitale, tout comme le rôle clef que les États voisins, ainsi que les organisations régionales et sous-régionales, peuvent jouer à cet égard, <span class="italic">encourageant</span> les efforts visant à renforcer la coopération, et <span class="italic">réaffirmant</span> qu’il est prêt à envisager d’ajuster les mesures, notamment en modifiant, en suspendant, en levant ou en renforçant les mesures prises pour faire face à la situation,</p>
+      </container>
+      <container name="Soulignant" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> que les obstacles persistants à la pleine application de la résolution <a href="https://undocs.org/fr/S/RES/1325(2000)">1325 (2000)</a> et aux résolutions ultérieures sur les femmes et la paix et la sécurité, notamment la résolution <a href="https://undocs.org/fr/S/RES/2242(2015)">2242</a><a href="https://undocs.org/fr/S/RES/2242(2015)"> </a><a href="https://undocs.org/fr/S/RES/2242(2015)">(2015)</a>, ne seront éliminés qu’au moyen d’un engagement ferme en faveur de l’autonomisation et de la participation des femmes et du respect des droits humains, d’orientations concertées, d’informations et d’activités cohérentes et d’un appui, afin que la participation pleine, égale et effective des femmes à tous les niveaux de responsabilité et de la prise de décisions soit renforcée,</p>
+      </container>
+      <container name="Conscient" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Conscient </span>de l’importance de la ratification, par le Gouvernement sud-soudanais, du Protocole facultatif à la Convention relative aux droits de l’enfant, concernant l’implication d’enfants dans les conflits armés, et <span class="italic">saluant</span> la signature, par le Gouvernement sud-soudanais, du Plan d’action global visant à faire cesser et à prévenir toutes les violations graves contre les enfants,</p>
+      </container>
+      <container name="Se déclarant" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant</span> toujours préoccupé par la restriction sévère des libertés d’opinion, d’expression et d’association, <span class="italic">reconnaissant</span> le rôle important des défenseurs et défenseuses des droits humains, des organisations de la société civile, des journalistes et autres professionnels des médias dans la promotion et la protection du droit à la liberté d’opinion et d’expression et, dans ce contexte, <span class="italic">exprimant</span> sa profonde inquiétude quant à la poursuite des violations du droit à la liberté d’opinion et d’expression et des atteintes à ce droit, et <span class="italic">condamnant</span> l’utilisation des médias pour diffuser des discours de haine et véhiculer des messages incitant à la violence contre un groupe ethnique particulier, cette pratique pouvant conduire à une violence généralisée et exacerber le conflit armé, en particulier à l’approche d’élections au Soudan du Sud,</p>
+      </container>
+      <container name="Se déclarant" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant</span> vivement préoccupé par la situation tragique des personnes handicapées au Soudan du Sud qui sont notamment négligées, soumises à des violences et privées de l’accès aux services de base, et soulignant que les besoins particuliers des personnes handicapées doivent être pris en charge dans le cadre des interventions humanitaires,</p>
+      </container>
+      <container name="Constatant" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	Constatant</span> les effets néfastes des changements climatiques, des changements écologiques et des catastrophes naturelles, entre autres, sur la situation humanitaire et la stabilité au Soudan du Sud, <span class="italic">soulignant</span> qu’il importe que le Gouvernement sud-soudanais et l’Organisation des Nations Unies élaborent des stratégies globales d’évaluation et de gestion des risques afin de mieux définir les programmes relatifs à ces phénomènes, et <span class="italic">prenant note</span> de la Convention-cadre des Nations Unies sur les changements climatiques et de l’Accord de Paris,</p>
+      </container>
+      <container name="Saluant" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	Saluant</span> le travail de la MINUSS et <span class="italic">exprimant</span> sa profonde gratitude envers les soldats de la paix de la Mission et les pays fournisseurs de contingents et de personnel de police pour les mesures qu’ils prennent dans le cadre de l’exécution du mandat de la Mission dans un environnement difficile, notamment afin de protéger les civils menacés de violences physiques, y compris les ressortissants étrangers, et de sécuriser le périmètre des sites de la MINUSS et au‑delà, et <span class="italic">remerciant</span> vivement le personnel de la MINUSS pour le travail exceptionnel qu’il accomplit malgré la pandémie de COVID‑19 et ses conséquences,</p>
+      </container>
+      <container name="Conscient" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	Conscient </span>de l’importance de la communication stratégique pour les opérations de maintien de la paix, sachant que son utilisation efficace est essentielle à la bonne exécution du mandat de la MINUSS, <span class="italic">soulignant</span> qu’il faut continuer d’améliorer les capacités de la Mission dans ce domaine afin que celle-ci reste en mesure d’atteindre ses objectifs en matière de protection et en ce qui concerne la situation politique et humanitaire, et <span class="italic">notant avec satisfaction</span> l’engagement pris par le Secrétaire général d’intégrer les activités de communication stratégique dans la planification ainsi que dans les décisions opérationnelles quotidiennes des missions, dont la MINUSS, comme précisé dans son plan Action pour le maintien de la paix Plus,</p>
+      </container>
+      <container name="Accueillant avec satisfaction" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	Accueillant avec satisfaction</span> l’engagement pris par le Secrétaire général d’appliquer rigoureusement sa politique de tolérance zéro à l’égard de l’exploitation et des atteintes sexuelles, <span class="italic">prenant note</span> des différentes mesures prises par la MINUSS et les pays fournisseurs de contingents et de personnel de police pour combattre l’exploitation et les atteintes sexuelles, tout en <span class="italic">se déclarant </span>toujours préoccupé par les allégations d’exploitation et d’atteintes sexuelles imputées à des soldats de la paix au Soudan du Sud,</p>
+      </container>
+      <container name="Condamnant fermement" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">	Condamnant fermement</span> les attaques commises contre le personnel et les installations des Nations Unies et de l’IGAD par les forces gouvernementales, les forces de l’opposition et d’autres groupes, l’attaque de février 2016 contre le site de protection des civils de Malakal, les attaques de juillet 2016 contre le site de protection des civils de Djouba et le complexe hôtelier Terrain, le rapt et la détention de membres du personnel des Nations Unies et du personnel associé, les multiples attaques contre les camps de la Mission à Bor, Bentiu, Malakal et Melout, la disparition, imputée à l’Armée populaire de libération du Soudan (APLS), et la mort de trois membres du personnel des Nations Unies recrutés sur le plan local et d’un vacataire local dans l’État du Haut-Nil, ainsi que la détention, en décembre 2018, des membres du Mécanisme de vérification et de surveillance du cessez-le-feu et du suivi de l’application des dispositions transitoires de sécurité, et les abus commis à cette occasion par des représentants du Gouvernement sud-soudanais, et <span class="italic">demandant</span> à ce dernier de mener à bien en toute diligence les enquêtes qu’il a ouvertes sur ces attaques et de poursuivre les responsables en justice,</p>
+      </container>
+      <container name="Prenant note" eId="container_31">
+        <p xml:space="preserve">
+          <span class="italic">	Prenant note </span>de la lettre du Secrétaire général datée du 15 juillet 2021 concernant l’évaluation des besoins électoraux (<a href="https://undocs.org/fr/S/2021/661">S/2021/661</a>) et<span class="italic"> prenant note </span>également du rapport du Secrétaire général daté du 25 février 2022 (<a href="https://undocs.org/fr/S/2022/156">S/202</a><a href="https://undocs.org/fr/S/2022/156">2</a><a href="https://undocs.org/fr/S/2022/156">/</a><a href="https://undocs.org/fr/S/2022/156">156</a>),</p>
+      </container>
+      <container name="Constatant" eId="container_32">
+        <p xml:space="preserve">
+          <span class="italic">	Constatant </span>que la situation au Soudan du Sud continue de menacer la paix et la sécurité internationales dans la région,</p>
+      </container>
+      <container name="Agissant" eId="container_33">
+        <p xml:space="preserve">
+          <span class="italic">	Agissant </span>en vertu du Chapitre VII de la Charte des Nations Unies,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_34" class="H23">
+        <subheading>		Mandat de la MINUSS</subheading>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de proroger le mandat de la MINUSS jusqu’au 15 mars 2023 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> que le mandat de la MINUSS est conçu pour faire avancer la vision stratégique triennale, définie dans la résolution <a href="https://undocs.org/fr/S/RES/2567(2021)">2567</a><a href="https://undocs.org/fr/S/RES/2567(2021)"> </a><a href="https://undocs.org/fr/S/RES/2567(2021)">(2021)</a>, visant à prévenir un retour à la guerre civile au Soudan du Sud, à construire une paix durable aux niveaux local et national, à favoriser une gouvernance inclusive et responsable et à appuyer la tenue d’élections libres, équitables et pacifiques, conformément à l’Accord revitalisé ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>3.</num>
+        <list eId="para_38_list">
+          <intro eId="para_38_list_intro">
+            <p xml:space="preserve">	<span class="italic">Décide</span> que la MINUSS s’acquittera du mandat ci-dessous et <span class="italic">autorise</span> celle-ci à utiliser tous les moyens nécessaires à l’exécution de son mandat :</p>
+          </intro>
+          <point eId="para_38_list_point_a">
+            <num>a)</num>
+            <content eId="para_38_list_point_a_content">
+              <p xml:space="preserve"> <span class="italic">Assurer la protection des civils </span>:</p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_a_sublist">
+            <point eId="para_38_list_point_a_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_38_list_point_a_sublist_point_i_content">
+                <p xml:space="preserve"> Protéger les civils se trouvant sous la menace de violences physiques, quelle qu’en soit la source, dans les limites de ses moyens et de ses zones de déploiement, notamment dans le cadre des élections, et particulièrement les femmes et les enfants, notamment en continuant de régulièrement faire intervenir et déployer ses conseillers pour la protection de l’enfance, ses conseillers pour la protection des femmes et ses conseillers pour les questions de genre, civils ou militaires, les postes vacants dans ces domaines devant être pourvus dans les plus brefs délais, et partager les meilleures pratiques avec les acteurs locaux concernés aux fins du renforcement des capacités ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_38_list_point_a_sublist_point_ii_content">
+                <p xml:space="preserve">	User de dissuasion à l’égard de toute violence contre les civils, y compris les ressortissants étrangers, en particulier en procédant à des déploiements préventifs et en patrouillant activement, en accordant une attention particulière aux déplacés et aux réfugiés, notamment mais non exclusivement à ceux qui se trouvent dans des sites de protection et des camps, au personnel humanitaire et aux défenseurs des droits humains et en répertoriant les menaces et attaques contre la population civile, y compris par la mise en œuvre d’une stratégie d’alerte et de réponse rapides à l’échelle de la mission, qui s’appuie sur une solide analyse tenant compte des risques de conflit, par des échanges réguliers avec les civils, notamment des assistants chargés de la liaison avec la population locale, et une collaboration étroite avec les organisations humanitaires, de défense des droits humains et de développement et les organisations de la société civile dans les zones à risque de conflit élevé, en particulier là où le Gouvernement sud-soudanais est incapable d’assurer une telle sécurité ou ne le fait pas ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_iii">
+              <num>iii)</num>
+              <content eId="para_38_list_point_a_sublist_point_iii_content">
+                <p xml:space="preserve">	Assurer la sûreté et la sécurité publiques à l’intérieur des sites de protection des civils de la MINUSS et, pour les sites dont la supervision a été réaffectée, assurer une veille basée sur l’analyse des menaces, l’application des plans d’intervention en cas de crise, et le renforcement de la présence et des activités de protection en cas de détérioration de la situation ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_iv">
+              <num>iv)</num>
+              <content eId="para_38_list_point_a_sublist_point_iv_content">
+                <p xml:space="preserve">	Décourager, prévenir et combattre les violences sexuelles et fondées sur le genre, dans les limites de ses moyens et de ses zones de déploiement, notamment en facilitant l’accès aux organisations qui fournissent des services et une aide aux personnes rescapées, y compris des services médicaux, psychosociaux, juridiques, socioéconomiques, de santé mentale et de santé sexuelle et procréative ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_v">
+              <num>v)</num>
+              <content eId="para_38_list_point_a_sublist_point_v_content">
+                <p xml:space="preserve"> User de bons offices et de mesures de confiance et d’encouragement pour appuyer la stratégie de protection de la MINUSS, en particulier en ce qui concerne les femmes et les enfants, notamment en aidant à prévenir et atténuer les violences intercommunautaires et à y mettre fin, notamment grâce à des dialogues pour la paix menés par les communautés, dans le droit fil des pratiques exemplaires fondées sur des données d’observation, et en s’appuyant sur une analyse du conflit et de l’économie politique tenant compte des questions de genre et sur une analyse tenant compte des risques de conflit, à la médiation et au dialogue avec les populations, afin de favoriser une réconciliation durable à l’échelle locale et nationale, élément essentiel de la prévention de la violence et de l’édification de l’État à long terme ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_vi">
+              <num>vi)</num>
+              <content eId="para_38_list_point_a_sublist_point_vi_content">
+                <p xml:space="preserve">	Aider les autorités nationales et les autorités des États compétentes et les organisations de la société civile à élaborer et mettre en place des programmes de lutte contre la violence au sein de la collectivité qui tiennent compte des questions de genre, en vue de désamorcer les violences intercommunautaires et de renforcer les initiatives de désarmement local, en coopération et en coordination avec les partenaires de développement et les représentants locaux, en particulier les membres des groupes armés ne pouvant pas ou ne souhaitant pas être intégrés aux Forces unifiées nécessaires, les femmes et les jeunes ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_vii">
+              <num>vii)</num>
+              <content eId="para_38_list_point_a_sublist_point_vii_content">
+                <p xml:space="preserve">	Fournir une assistance technique et un appui au renforcement des capacités pour aider le Gouvernement sud-soudanais à renforcer l’état de droit et à réformer le secteur de la justice, en tenant compte des risques de conflit et conformément aux dispositions de l’Accord de paix, afin de renforcer la protection des civils, de lutter contre l’impunité et de promouvoir le principe de responsabilité, notamment dans le cadre des enquêtes et des poursuites concernant des faits de violence fondée sur le genre, y compris la violence sexuelle liée aux conflits et les violations des droits humains ou d’atteinte à ces droits, en adoptant une approche axée sur les personnes rescapées ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_viii">
+              <num>viii)</num>
+              <content eId="para_38_list_point_a_sublist_point_viii_content">
+                <p xml:space="preserve">	Créer des conditions de sécurité propices au retour, à la réinstallation et à l’intégration librement consentis dans les communautés d’accueil, en connaissance de cause, en toute sécurité et dans la dignité, des déplacés et des réfugiés, lorsque les circonstances s’y prêtent, y compris en contrôlant et en favorisant le respect des droits humains, en coordination avec les services de police, les institutions chargées de la sécurité, les organismes publics et les acteurs de la société civile, dans le cadre d’activités adaptées et axées sur la protection, en appuyant les enquêtes et les poursuites concernant les cas de violences sexuelles et fondées sur le genre et de violences sexuelles liées aux conflits ainsi que d’autres violations des droits humains ou atteintes à ceux-ci, afin de renforcer la protection des civils, de combattre l’impunité et de promouvoir l’application du principe de responsabilité, en se conformant en toute circonstance à la politique de diligence voulue des Nations Unies en matière de droits humains ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_ix">
+              <num>ix)</num>
+              <content eId="para_38_list_point_a_sublist_point_ix_content">
+                <p xml:space="preserve">	Favoriser les conditions susceptibles de garantir la libre circulation, à l’intérieur, en dehors et autour de Djouba, notamment aux points d’entrée et de sortie de la ville et sur les principales voies de communication et de transport à l’intérieur de Djouba, y compris l’aéroport ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_a_sublist_point_x">
+              <num>x)</num>
+              <content eId="para_38_list_point_a_sublist_point_x_content">
+                <p xml:space="preserve"> Combattre rapidement et efficacement tout acteur qui, selon des informations crédibles, prépare ou mène des attaques contre des civils, des camps de déplacés, des sites de protection des civils de la MINUSS, d’autres locaux des Nations Unies, du personnel des Nations Unies ou des intervenants humanitaires internationaux et nationaux ;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_38_list_point_b">
+            <num>b)</num>
+            <content eId="para_38_list_point_b_content">
+              <p xml:space="preserve"> <span class="italic">Créer les conditions nécessaires à l’acheminement de l’aide humanitaire </span>:</p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_b_sublist">
+            <point eId="para_38_list_point_b_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_38_list_point_b_sublist_point_i_content">
+                <p xml:space="preserve"> Contribuer, en étroite coordination avec les intervenants humanitaires, à créer des conditions de sécurité propices à l’acheminement de l’aide humanitaire, afin de permettre l’accès sans entraves et en toute sécurité du personnel de secours à toutes les populations qui se trouvent dans le besoin au Soudan du Sud, notamment les déplacés et les réfugiés, et l’acheminement en temps voulu de l’aide humanitaire, conformément au droit international, y compris le droit international humanitaire applicable, et aux principes directeurs des Nations Unies concernant l’aide humanitaire, dont l’humanité, l’impartialité, la neutralité et l’indépendance, y compris en fournissant des estimations des risques tenant compte des questions de genre concernant les effets néfastes des changements climatiques ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_b_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_38_list_point_b_sublist_point_ii_content">
+                <p xml:space="preserve">	Garantir la sécurité et la liberté de circulation du personnel des Nations Unies et du personnel associé, le cas échéant, et la sécurité de leurs installations et du matériel nécessaire à l’exécution des tâches prescrites ;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_38_list_point_c">
+            <num>c)</num>
+            <content eId="para_38_list_point_c_content">
+              <p xml:space="preserve"> <span class="italic">Appuyer l’exécution de l’Accord revitalisé et le processus de paix </span>:</p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_c_sublist">
+            <point eId="para_38_list_point_c_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_38_list_point_c_sublist_point_i_content">
+                <p xml:space="preserve"> User de ses bons offices pour appuyer le processus de paix et la mise en œuvre de l’Accord revitalisé, en fournissant notamment des conseils ou une assistance technique, et en assurant la coordination avec les acteurs régionaux compétents ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_38_list_point_c_sublist_point_ii_content">
+                <p xml:space="preserve">	Aider toutes les parties à assurer la participation pleine, égale et effective des femmes, et la participation des jeunes, des groupes confessionnels et de la société civile au processus de paix, aux organes et institutions du Gouvernement de transition et à tous les efforts de règlement du conflit et de consolidation de la paix, à la justice transitionnelle et à l’élaboration de la Constitution ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_iii">
+              <num>iii)</num>
+              <content eId="para_38_list_point_c_sublist_point_iii_content">
+                <p xml:space="preserve">	Participer et concourir aux travaux du Mécanisme de vérification et de surveillance du cessez-le-feu et du suivi de l’application des dispositions transitoires de sécurité, de la Commission mixte de suivi et d’évaluation reconstituée et autres mécanismes de mise en œuvre, en particulier au niveau sous-national ; </p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_iv">
+              <num>iv)</num>
+              <content eId="para_38_list_point_c_sublist_point_iv_content">
+                <p xml:space="preserve">	Offrir une assistance technique, notamment en matière de renforcement des capacités, aux mécanismes issus de l’Accord revitalisé, y compris en soutenant l’action que le Soudan du Sud mène en ce qui concerne l’élaboration de la Constitution, les dispositions transitoires de sécurité et l’établissement d’un cadre réglementaire solide ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_c_sublist_point_v">
+              <num>v)</num>
+              <content eId="para_38_list_point_c_sublist_point_v_content">
+                <p xml:space="preserve"> Fournir une assistance technique, notamment en matière de renforcement des capacités, et un appui logistique dans le cadre du processus électoral, selon qu’il convient, en coordination avec l’équipe de pays des Nations Unies et les partenaires régionaux et internationaux, ainsi qu’un appui en matière de sécurité afin de faciliter le déroulement du cycle électoral, conformément à l’Accord revitalisé, en notant que la MINUSS soutiendra, entre autres, les efforts que les autorités sud-soudanaises font en vue d’élaborer une constitution permanente, d’atténuer les risques de tensions tout au long de la période électorale, d’assurer la participation pleine, égale et effective, en toute sécurité, des candidates et des électrices, à tous les niveaux et à toutes les phases du processus électoral, et la participation des déplacés et réfugiés sud-soudanais, et <span class="italic">note</span> que le soutien apporté par la MINUSS sera évalué et réexaminé en permanence en fonction des progrès accomplis par les autorités sud-soudanaises concernant les éléments énoncés aux paragraphes 6, 7 et 8 ci-dessous ;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_38_list_point_d">
+            <num>d)</num>
+            <content eId="para_38_list_point_d_content">
+              <p xml:space="preserve"> <span class="italic">Mener des activités de surveillance, d’enquête et de signalement s’agissant des cas de violations du droit international humanitaire et des cas de violations et d’atteintes aux droits humains </span>:</p>
+            </content>
+          </point>
+          <sublist eId="para_38_list_point_d_sublist">
+            <point eId="para_38_list_point_d_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_38_list_point_d_sublist_point_i_content">
+                <p xml:space="preserve"> Suivre les cas de violations des droits humains, d’atteintes à ces droits et de violations du droit international humanitaire, enquêter sur toutes atteintes et violations, les constater et en rendre compte immédiatement, publiquement et régulièrement, notamment lorsqu’elles peuvent constituer des crimes de guerre ou des crimes contre l’humanité ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_d_sublist_point_ii">
+              <num>ii)</num>
+              <content eId="para_38_list_point_d_sublist_point_ii_content">
+                <p xml:space="preserve">	Suivre les cas de violations et de sévices commis sur la personne de femmes et d’enfants, y compris toutes formes de violence sexuelle et fondée sur le genre commises en période de conflit armé, enquêter sur ces cas, les vérifier et en rendre compte expressément et publiquement en accélérant la mise en œuvre des arrangements de suivi, d’analyse et de communication de l’information sur la violence sexuelle liée aux conflits, notamment en veillant à ce que ceux-ci aident à prendre sans retard des mesures visant à décourager, prévenir et combattre les violences sexuelles, et en renforçant le mécanisme de surveillance et de communication de l’information concernant les violations et sévices commis contre les enfants ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_d_sublist_point_iii">
+              <num>iii)</num>
+              <content eId="para_38_list_point_d_sublist_point_iii_content">
+                <p xml:space="preserve">	Suivre les cas de discours haineux et d’incitation à la violence, enquêter sur ces cas et en rendre compte, en coopération avec la Conseillère spéciale pour la prévention du génocide ;</p>
+              </content>
+            </point>
+            <point eId="para_38_list_point_d_sublist_point_iv">
+              <num>iv)</num>
+              <content eId="para_38_list_point_d_sublist_point_iv_content">
+                <p xml:space="preserve">	Agir en coordination avec les mécanismes internationaux, régionaux et nationaux et les acteurs locaux chargés de suivre les violations du droit international humanitaire et les violations des droits humains et les atteintes à ces droits, notamment lorsqu’elles peuvent constituer des crimes de guerre ou des crimes contre l’humanité, d’enquêter sur celles‑ci et de les signaler, partager des informations avec ces mécanismes et leur apporter un concours technique, notamment en matière de renforcement des capacités, selon que de besoin ;</p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de maintenir l’effectif global de la MINUSS à un maximum de 17 000 militaires et 2 101 policiers, dont 88 agents pénitentiaires, et <span class="italic">se déclare</span> prêt à envisager des ajustements de ces effectifs et des tâches de renforcement des capacités en fonction des conditions de sécurité sur le terrain et de la mise en œuvre des mesures prioritaires énoncées au paragraphe 9 ci-dessous ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="H23">
+        <subheading>		Processus de paix au Soudan du Sud</subheading>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Exige </span>de toutes les parties au conflit et autres acteurs armés qu’ils mettent immédiatement un terme aux combats dans l’ensemble du Soudan du Sud et engagent un dialogue politique, <span class="italic">rappelle</span> aux autorités sud-soudanaises qu’il leur incombe au premier chef de protéger les civils au Soudan du Sud, et <span class="italic">enjoint</span> aux dirigeants sud-soudanais de mettre en œuvre le cessez-le-feu permanent décrété dans l’Accord revitalisé et les cessez-le-feu et tous les accords de cessez-le-feu et de cessation des hostilités précédents, y compris les engagements pris en vertu de la déclaration de Rome ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">
+            <span class="italic">	Constate avec une vive inquiétude</span> les retards pris dans la mise en œuvre de l’Accord revitalisé, <span class="italic">invite</span> les parties à appliquer pleinement l’Accord revitalisé, notamment en allouant les ressources financières nécessaires, à mettre en place sans délai les institutions prévues par celui‑ci et à assurer la participation pleine, égale et effective des femmes et la participation des jeunes, des groupes confessionnels et de la société civile à tous les efforts de règlement du conflit et de consolidation de la paix, <span class="italic">souligne </span>qu’il importe de rapidement finaliser les arrangements en matière de sécurité, de mettre en place toutes les institutions, de faire avancer les réformes, notamment en ce qui concerne la création d’un espace civique libre et ouvert, un processus d’élaboration de la constitution ouvert à tous, ainsi que la transparence économique et la réforme de la gestion des finances publiques, <span class="italic">est conscient</span> que la corruption et le détournement de fonds publics nuisent à la capacité du Gouvernement sud-soudanais de fournir des services à la population, et<span class="italic"> souligne</span> que la gouvernance économique doit être améliorée de façon à garantir l’efficacité des structures nationales de perception des recettes et de lutte contre la corruption en vue de financer la mise en œuvre de l’Accord revitalisé, notamment pour préparer et organiser les élections ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que la tenue d’élections libres et régulières, qui reflètent la volonté de l’ensemble de la population sud-soudanaise, avec la participation pleine, égale et véritable des femmes, et la participation des jeunes, des personnes handicapées, des déplacés et réfugiés sud-soudanais et des membres de tous les groupes politiques, sera essentielle pour permettre une transition vers un État stable, inclusif, démocratique et autonome et, à cet égard, <span class="italic">souligne</span> également que les élections devront être précédées d’un processus de rédaction de la Constitution inclusif et transparent, <span class="italic">demande </span>aux autorités sud-soudanaises, conformément à l’Accord revitalisé, de faire des progrès immédiats et tangibles sur les points clefs afin de contribuer à ce que les élections se déroulent de manière pacifique, notamment par l’adoption de la Constitution permanente et de la législation nécessaire, des dispositions transitoires de sécurité et la mise en place d’une commission électorale indépendante, et d’atténuer les risques de tensions tout au long de la période électorale, tout en affirmant qu’il importe que les autorités sud-soudanaises et l’ensemble des parties concernées créent des conditions qui permettent à la MINUSS de faciliter le processus électoral, comme prévu au paragraphe 3 ci‑dessus ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Exhorte</span> le Gouvernement sud-soudanais et toutes les autres parties concernées à créer les conditions nécessaires pour que le processus électoral soit libre, régulier, inclusif, transparent, pacifique et se déroule en temps voulu, conformément à l’Accord revitalisé, qu’il s’accompagne d’un débat politique libre et constructif, et que soient assurés la liberté d’opinion et d’expression, y compris pour la société civile, les partis d’opposition, et les membres de la presse, la liberté de réunion pacifique, un accès équitable aux médias, notamment aux médias d’État, la sécurité de toutes les acteurs politiques, la liberté de circulation de tous les candidats, ainsi que la présence d’observateurs électoraux et témoins nationaux et internationaux, de journalistes, de militants des droits humains et d’acteurs de la société civile, notamment des femmes ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>9.</num>
+        <list eId="para_53_list">
+          <intro eId="para_53_list_intro">
+            <p xml:space="preserve">	<span class="italic">Appelle </span>le Gouvernement sud-soudanais et tous les acteurs concernés à prendre des dispositions pour appliquer les mesures prioritaires ci‑après, avant la fin du mandat actuel de la MINUSS :</p>
+          </intro>
+          <point eId="para_53_list_point_1">
+            <num>•</num>
+            <content eId="para_53_list_point_1_content">
+              <p xml:space="preserve">	Assurer la sécurité des sites de protection des civils qui ont été réaffectés, et prévenir et combattre la violence ou la criminalité dirigées contre les personnes vivant dans ces camps, dans le respect des obligations qui lui incombent en vertu du droit international des droits de l’homme et du droit international humanitaire, et procéder à des vérifications idoines pour tous les membres des forces de sécurité affectés à ces sites,</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_2">
+            <num>•</num>
+            <content eId="para_53_list_point_2_content">
+              <p xml:space="preserve">	Lancer et superviser un processus d’élaboration de la Constitution permanente qui donne lieu à de larges consultations publiques ouvertes à tous, </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_3">
+            <num>•</num>
+            <content eId="para_53_list_point_3_content">
+              <p xml:space="preserve">	Faire des progrès sur les points clefs pour la préparation d’élections libres et régulières, conformément à la déclaration de son président <a href="https://undocs.org/fr/S/PRST/2021/20">S/PRST/2021/20</a>, </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_4">
+            <num>•</num>
+            <content eId="para_53_list_point_4_content">
+              <p xml:space="preserve">	Mettre fin à toutes les entraves imposées à l’action de la MINUSS, notamment celles qui l’empêchent d’exécuter son mandat de surveillance et d’enquête en ce qui concerne les violations des droits humains et les atteintes à ces droits, lever immédiatement les obstacles qui empêchent les intervenants humanitaires internationaux et nationaux de venir en aide aux civils et faciliter la liberté de circulation du Mécanisme de vérification et de surveillance du cessez-le-feu et du suivi de l’application des dispositions transitoires de sécurité,</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_5">
+            <num>•</num>
+            <content eId="para_53_list_point_5_content">
+              <p xml:space="preserve">	Achever la formation des forces unifiées nécessaires, initier leur redéploiement effectif et adopter la structure de commandement unifiée,</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_6">
+            <num>•</num>
+            <content eId="para_53_list_point_6_content">
+              <p xml:space="preserve">	Conclure sans plus attendre un mémorandum d’accord avec l’Union africaine qui porte création du Tribunal mixte pour le Soudan du Sud, initier la mise en place effective du Tribunal et mettre en place la Commission vérité, réconciliation et apaisement ainsi que l’Autorité d’indemnisation et de réparation ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Demande de nouveau</span> au Gouvernement sud-soudanais de respecter les obligations énoncées dans l’Accord sur le statut des forces qu’il a conclu avec l’Organisation des Nations Unies et de cesser immédiatement d’entraver l’accomplissement du mandat de la MINUSS, <span class="italic">note avec préoccupation</span> les risques graves que les violations de l’Accord sur le statut des forces peuvent représenter pour la sûreté et la sécurité du personnel des Nations Unies affecté à des opérations de maintien de la paix, <span class="italic">demande</span> au Gouvernement sud-soudanais de prendre des mesures pour dissuader quiconque d’entreprendre une action hostile ou autre susceptible d’entraver la Mission ou les acteurs humanitaires internationaux ou nationaux, et pour que les responsables de telles actions répondent de leurs actes, de continuer de prendre toutes les mesures appropriées pour garantir la sûreté et la sécurité et la liberté de circulation du personnel de la MINUSS et pour accorder à ce dernier un accès immédiat et sans entrave, <span class="italic">rappelle</span> au Gouvernement sud-soudanais que, conformément à l’Accord sur le statut des forces, la MINUSS n’a pas besoin d’autorisation ou de permission préalable pour entreprendre les tâches qui lui sont confiées, <span class="italic">affirme</span> qu’il est crucial que, pour l’exécution de son mandat, la MINUSS puisse surveiller et signaler les violations du droit international humanitaire et les violations des droits humains et atteintes à ces droits et enquêter à leur sujet, et utiliser toutes ses bases sans restriction, notamment sa base de Tomping, qui jouxte l’aéroport international de Djouba et s’avère essentielle aux opérations et à la sécurité de la MINUSS, et <span class="italic">demande instamment</span> au Gouvernement sud-soudanais de faciliter le bon fonctionnement de toutes les bases de la MINUSS et de créer un environnement de coopération mutuelle qui permette à la MINUSS et à ses partenaires de mener à bien leurs missions ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Exige </span>que toutes les parties mettent fin immédiatement à toutes formes de violence, de violation des droits humains et d’atteinte à ces droits et de violation du droit international humanitaire, notamment aux viols et aux autres formes de violence sexuelle et fondée sur le genre, et <span class="italic">demande </span>au Gouvernement sud-soudanais d’amener les auteurs de tels actes et ceux ayant ordonné qu’ils soient commis à rendre des comptes afin de rompre le cycle de l’impunité qui prédomine actuellement et de redoubler d’efforts en vue de mener à bien en toute diligence et transparence les enquêtes sur les allégations de violations des droits humains et d’atteintes à ces droits, dans le respect de ses obligations internationales, et l’<span class="italic">invite</span> à publier les comptes rendus de ces enquêtes, et <span class="italic">appelle</span> le Gouvernement sud-soudanais à condamner et à contrecarrer immédiatement l’augmentation des discours haineux et des violences ethniques, et à promouvoir la réconciliation entre les Sud-Soudanais ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">Exige</span> de toutes les parties qu’elles permettent, conformément au droit international et aux dispositions applicables du droit international humanitaire, l’accès rapide, sûr et libre du personnel, du matériel et des fournitures de secours, et l’acheminement rapide de l’aide humanitaire à tous ceux qui se trouvent dans le besoin partout au Soudan du Sud, en particulier aux déplacés et aux réfugiés, et qu’elles cessent d’utiliser les hôpitaux, écoles et autres bâtiments publics à des fins susceptibles d’en faire les cibles d’attaques<span class="italic">, souligne</span> l’obligation de respecter et de protéger tout le personnel médical et tous les agents humanitaires dont l’activité est d’ordre exclusivement médical, leurs moyens de transport et leur équipement ainsi que les hôpitaux et les autres installations médicales, <span class="italic">souligne </span>également que tout retour doit se faire volontairement, en connaissance de cause et dans la dignité et la sécurité, et qu’il en va de même de toute autre solution durable concernant les déplacés et les réfugiés, et <span class="italic">note</span> qu’il faut respecter la liberté de mouvement des civils et leur droit de demander asile ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>au Gouvernement sud-soudanais de résoudre les problèmes liés au logement et à la propriété foncière afin de trouver des solutions durables pour les personnes déplacées et les réfugiés, notamment par l’élaboration d’une politique foncière nationale et de créer des conditions de sécurité propices au retour, à la réinstallation et à l’intégration librement consentis dans les communautés d’accueil, en connaissance de cause, en toute sécurité et dans la dignité, des déplacés et des réfugiés sud-soudanais, lorsque les circonstances s’y prêtent ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>aux parties de garantir la participation pleine, effective et véritable des femmes dans toutes les sphères et à tous les niveaux de l’action politique, du processus de paix et du Gouvernement de transition et aux réformes actuellement menées dans le cadre de l’accord de paix, <span class="italic">demande également</span> aux parties de convenir qu’il faut protéger contre les menaces et les représailles les organisations dirigées par des femmes et les femmes qui œuvrent pour la paix et créer un environnement sûr leur permettant de mener leurs activités librement et en toute sécurité, et de s’acquitter des engagements pris dans l’Accord revitalisé en matière d’ouverture, notamment en ce qui concerne la diversité nationale, le genre, les jeunes et la représentation des différentes régions, y compris le minimum de 35 % concernant la représentation des femmes à tous les niveaux, qui n’a pas encore été atteint ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="italic">Condamne</span> la poursuite des actes de violence sexuelle et <span class="italic">exige</span> de toutes les parties au conflit et autres acteurs armés qu’ils empêchent la poursuite des violences sexuelles, qu’ils appliquent les mesures prévues dans sa résolution <a href="https://undocs.org/fr/S/RES/2467(2019)">2467 (2019)</a> afin d’adopter une approche axée sur les personnes rescapées afin de prévenir et de combattre les violences sexuelles en période de conflit et d’après-conflit, et qu’ils amènent les auteurs de tels actes à en répondre, notamment en diligentant rapidement des enquêtes, en ouvrant des poursuites et en punissant les coupables, ainsi qu’en accordant des réparations aux victimes, le cas échéant, et <span class="italic">demande très instamment</span> aux Forces sud-soudanaises de défense du peuple, à l’Armée populaire de libération du Soudan dans l’opposition et au Front de salut national de donner pleinement effet aux engagements et plans d’action qu’ils ont adoptés conjointement et unilatéralement en vue de la prévention de la violence sexuelle liée au conflit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">Demande instamment</span> à toutes les parties au conflit armé de mettre en œuvre les mesures prescrites dans les Conclusions sur la question des enfants et du conflit armé au Soudan du Sud adoptées par le Groupe de travail du Conseil de sécurité sur les enfants et les conflits armés le 5 mars 2021, <span class="italic">exhorte</span> toutes les parties à appliquer pleinement le Plan d’action global de janvier 2020 visant à faire cesser et à prévenir toutes les violations graves contre les enfants, et <span class="italic">invite</span> le Gouvernement sud-soudanais à appliquer le Protocole facultatif à la Convention relative aux droits de l’enfant, concernant l’implication d’enfants dans les conflits armés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">Demande </span>au Gouvernement sud-soudanais, tout en prenant note du paragraphe 3.2.2 du chapitre V de l’Accord revitalisé, d’amener tous les responsables de violations des droits humains, d’atteintes à ces droits et de violations du droit international humanitaire à répondre de leurs actes, de garantir à toutes les victimes de violence sexuelle une protection égale au regard de la loi et l’égalité d’accès à la justice, et d’assurer la protection des droits fondamentaux des femmes et des filles dans le cadre de ces procédures, en leur fournissant une aide juridique, un soutien médical et des conseils psychosociaux, <span class="italic">note </span>que la mise en œuvre de mesures de justice transitionnelle, y compris celles prévues dans l’Accord revitalisé, est essentielle à l’apaisement et à la réconciliation, <span class="italic">demande instamment </span>au Gouvernement sud-soudanais de donner la priorité au renforcement de l’état de droit et à la réforme du secteur de la justice, notamment au niveau infranational, afin de renforcer la protection des civils, de lutter contre l’impunité et de promouvoir le principe de responsabilité, <span class="italic">invite</span> la communauté internationale à appuyer la création du Tribunal mixte pour le Soudan du Sud et <span class="italic">engage</span> le Gouvernement sud-soudanais et l’Union africaine à sortir de l’impasse dans laquelle ils se trouvent actuellement et à créer le Tribunal mixte pour le Soudan du Sud ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="italic">Exprime </span>son intention d’envisager toutes les mesures appropriées, comme en témoigne l’adoption des résolutions <a href="https://undocs.org/fr/S/RES/2206(2015)">2206</a><a href="https://undocs.org/fr/S/RES/2206(2015)"> </a><a href="https://undocs.org/fr/S/RES/2206(2015)">(2015)</a>, <a href="https://undocs.org/fr/S/RES/2290(2016)">2290</a><a href="https://undocs.org/fr/S/RES/2290(2016)"> </a><a href="https://undocs.org/fr/S/RES/2290(2016)">(2016)</a>, <a href="https://undocs.org/fr/S/RES/2353(2017)">2353</a><a href="https://undocs.org/fr/S/RES/2353(2017)"> </a><a href="https://undocs.org/fr/S/RES/2353(2017)">(2017)</a>, <a href="https://undocs.org/fr/S/RES/2428(2018)">2428 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2471(2019)">2471 (2019)</a>, <a href="https://undocs.org/fr/S/RES/2521(2020)">2521 (2020)</a> et <a href="https://undocs.org/fr/S/RES/2577(2021)">2577 (2021)</a>, contre ceux qui agissent de manière à compromettre la paix, la stabilité et la sécurité du Soudan du Sud, <span class="italic">insiste </span>sur l’inviolabilité des sites de protection de l’Organisation des Nations Unies, <span class="italic">souligne</span> que les personnes et entités responsables ou complices d’attaques contre le personnel et les locaux de la MINUSS et le personnel des organisations humanitaires peuvent répondre aux critères de désignation, <span class="italic">prend note</span> du rapport spécial du Secrétaire général sur la prorogation du mandat de la Mission des Nations Unies au Soudan du Sud (<a href="https://undocs.org/fr/S/2018/143">S/2018/143</a>) daté du 20 février 2018, dans lequel il est indiqué que le réapprovisionnement régulier des parties en armes et en munitions au Soudan du Sud avait eu une incidence directe sur la sécurité du personnel des Nations Unies et la capacité de la Mission de s’acquitter de son mandat, <span class="italic">prend note </span>également du communiqué du Conseil de paix et de sécurité de l’Union africaine en date du 8 février 2018 dans lequel celui‑ci a indiqué qu’il faudrait veiller à ce que les signataires de l’Accord de cessation des hostilités soient privés des moyens de continuer de combattre, <span class="italic">insiste</span> sur les mesures adoptées par le Conseil de sécurité dans sa résolution <a href="https://undocs.org/fr/S/RES/2428(2018)">2428 (2018)</a>, notamment l’embargo sur les armes, pour priver les parties des moyens de continuer à combattre et prévenir toute violation de l’Accord de cessation des hostilités, et <span class="italic">exige</span> que tous les États Membres s’acquittent de l’obligation qui leur incombe d’empêcher la fourniture, la vente ou le transfert, directs ou indirects, d’armes et de matériel connexe de tous types, y compris de munitions, vers le territoire du Soudan du Sud, comme le prévoient les résolutions pertinentes du Conseil de sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="H23">
+        <subheading>		Opérations de la MINUSS</subheading>
+      </paragraph>
+      <paragraph eId="para_136" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_136__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> sa résolution <a href="https://undocs.org/fr/S/RES/2086(2013)">2086 (2013)</a>, <span class="italic">réaffirme</span> que les principes fondamentaux du maintien de la paix, tels qu’ils sont énoncés dans la déclaration de son président <a href="https://undocs.org/fr/S/PRST/2015/22">S/PRST/2015/22</a> sont le consentement des parties, l’impartialité, et le non-recours à la force, sauf en cas de légitime défense ou de défense du mandat, et <span class="italic">déclare </span>que le mandat de chaque mission de maintien de la paix correspond à la situation et aux besoins particuliers du pays concerné, et que les mandats qu’il autorise doivent être pleinement exécutés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxt">
+        <num>20.</num>
+        <list eId="para_137_list">
+          <intro eId="para_137_list_intro">
+            <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de mettre pleinement en œuvre les activités et obligations ci‑après dans la planification et la conduite des opérations de la MINUSS, dans les limites de son mandat et de sa zone d’opérations et conformément aux directives et réglementations existantes de l’Organisation des Nations Unies :</p>
+          </intro>
+          <point eId="para_137_list_point_a">
+            <num>a)</num>
+            <content eId="para_137_list_point_a_content">
+              <p xml:space="preserve"> Renforcer l’application, à l’échelle de la Mission, d’une stratégie d’alerte et de réponse rapides coordonnant la collecte, la localisation et l’analyse des faits survenus, le suivi, la vérification, la notification immédiate et la diffusion des informations et les mécanismes de réaction, notamment pour riposter à des menaces ou à des attaques contre les civils qui peuvent donner lieu à des violations des droits humains, à des exactions ou à des violations du droit international humanitaire, ainsi que pour parer à l’éventualité d’attaques futures contre le personnel et les installations des Nations Unies, et veiller à ce que l’analyse des conflits tenant compte des questions de genre soit intégrée dans tous les mécanismes d’alerte précoce et de prévention des conflits ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_b">
+            <num>b)</num>
+            <content eId="para_137_list_point_b_content">
+              <p xml:space="preserve"> Encourager le recours au renforcement de la confiance, à la facilitation, à la médiation, au dialogue avec les populations locales et à la communication stratégique afin d’appuyer l’exécution du mandat de la Mission et les activités de protection, de collecte d’informations et d’appréciation de la situation menées par la Mission, et de lutter contre la désinformation et la mésinformation qui pourraient empêcher celle-ci de s’acquitter des tâches prescrites ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_c">
+            <num>c)</num>
+            <content eId="para_137_list_point_c_content">
+              <p xml:space="preserve"> Donner la priorité au renforcement de la mobilité et aux patrouilles actives afin de permettre à la Mission de mieux exécuter son mandat dans les zones où apparaissent de nouveaux risques et de nouvelles menaces, y compris dans les lieux isolés, et donner la priorité au déploiement de forces dotées de moyens aériens, terrestres et maritimes adaptés, afin d’appuyer les activités de protection, de collecte d’informations et d’appréciation de la situation menées par la Mission ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_d">
+            <num>d)</num>
+            <content eId="para_137_list_point_d_content">
+              <p xml:space="preserve"> Renforcer les capacités de la MINUSS en matière de renseignement aux fins du maintien de la paix et d’analyse, y compris ses moyens de surveillance et d’observation, dans les limites de son mandat ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_e">
+            <num>e)</num>
+            <content eId="para_137_list_point_e_content">
+              <p xml:space="preserve"> Appliquer des procédures d’évacuation sanitaire primaire et secondaire plus efficaces et déployer davantage de capacités d’évacuation sanitaire secondaire ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_f">
+            <num>f)</num>
+            <content eId="para_137_list_point_f_content">
+              <p xml:space="preserve"> Prendre des mesures énergiques et efficaces pour améliorer la planification et le fonctionnement des installations et des dispositifs de sûreté et de sécurité de la MINUSS ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_g">
+            <num>g)</num>
+            <content eId="para_137_list_point_g_content">
+              <p xml:space="preserve"> Veiller à ce que toute nouvelle réaffectation de site de protection des civils se fonde sur une évaluation exhaustive des conditions de sécurité, les autorités sud-soudanaises devant assumer au premier chef la responsabilité de la protection des civils et faire preuve de leur capacité à assurer la protection des personnes déplacées sur le site concerné, sans discrimination, et continuer d’échanger avec l’ensemble des populations locales, d’assurer la transition coordonnée de la prestation de services et d’aider le Gouvernement sud-soudanais à prévenir et à combattre la violence et les actes criminels visant les habitants de ces camps ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_h">
+            <num>h)</num>
+            <content eId="para_137_list_point_h_content">
+              <p xml:space="preserve"> Renforcer ses activités de prévention de la violence sexuelle et fondée sur le genre et de lutte contre celle-ci, conformément à la résolution <a href="https://undocs.org/fr/S/RES/2467(2019)">2467 (2019)</a>, notamment en aidant les parties à mener des activités conformes à la résolution <a href="https://undocs.org/fr/S/RES/2467(2019)">2467 (2019)</a>, et en veillant à ce que les risques de violence sexuelle et fondée sur le genre soient pris en compte dans les systèmes de collecte de données, d’analyse des menaces et d’alerte rapide de la Mission, en entamant une collaboration éthique avec des survivants et des victimes de ce type de violence, ainsi que des organisations de femmes ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_i">
+            <num>i)</num>
+            <content eId="para_137_list_point_i_content">
+              <p xml:space="preserve"> Aider le Comité créé en application du paragraphe 16 de la résolution <a href="https://undocs.org/fr/S/RES/2206(2015)">2206 (2015)</a> et le Groupe d’experts créé par la même résolution en ce qui concerne les mesures adoptées dans la résolution <a href="https://undocs.org/fr/S/RES/2521(2020)">2521 (2020)</a>, notamment les dispositions relatives à l’embargo sur les armes, et encourager tout particulièrement l’échange rapide d’informations entre la MINUSS et le Groupe d’experts ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_j">
+            <num>j)</num>
+            <content eId="para_137_list_point_j_content">
+              <p xml:space="preserve"> Donner la priorité aux activités de protection prévues dans le mandat de la Mission dans les décisions concernant l’utilisation des capacités et ressources disponibles de cette dernière, conformément à la résolution <a href="https://undocs.org/fr/S/RES/1894(2009)">1894 (2009)</a> ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_k">
+            <num>k)</num>
+            <content eId="para_137_list_point_k_content">
+              <p xml:space="preserve"> Mettre en œuvre les priorités relatives aux femmes et la paix et la sécurité qui ont été définies dans la résolution <a href="https://undocs.org/fr/S/RES/1325(2000)">1325 (2000)</a> et dans toutes les résolutions pertinentes, notamment en cherchant à augmenter le nombre de femmes au sein de la MINUSS, conformément à la résolution <a href="https://undocs.org/fr/S/RES/2538(2020)">2538</a><a href="https://undocs.org/fr/S/RES/2538(2020)"> </a><a href="https://undocs.org/fr/S/RES/2538(2020)">(2020)</a>, ainsi qu’en veillant à la participation pleine, égale et effective de ces dernières à tous les aspects des opérations, notamment en garantissant aux femmes un environnement de travail sûr, favorable et qui tienne compte des questions de genre dans le cadre des opérations de maintien de la paix, en tenant pleinement compte, dans toutes les activités inscrites au mandat de la Mission, de la question transversale du genre, et en réaffirmant l’importance des conseillers civils et en tenue pour les questions de genre, des coordonnateurs pour les questions de genre dans toutes les composantes de la Mission, des compétences en matière de genre et du renforcement des capacités s’agissant d’exécuter le mandat de la Mission en tenant compte des questions de genre ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_l">
+            <num>l)</num>
+            <content eId="para_137_list_point_l_content">
+              <p xml:space="preserve"> Mettre en œuvre le programme relatif aux jeunes et à la paix et à la sécurité prévu dans la résolution <a href="https://undocs.org/fr/S/RES/2250(2015)">2250</a><a href="https://undocs.org/fr/S/RES/2250(2015)"> </a><a href="https://undocs.org/fr/S/RES/2250(2015)">(2015)</a> afin d’élaborer et d’appliquer des stratégies adaptées au contexte dans ce domaine et d’assurer la participation pleine, effective et véritable des jeunes, compte tenu du rôle essentiel que jouent ces derniers dans la prévention et la résolution des conflits, et dans la consolidation de la paix ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_m">
+            <num>m)</num>
+            <content eId="para_137_list_point_m_content">
+              <p xml:space="preserve"> Continuer d’engager le dialogue avec les parties au conflit en ce qui concerne l’élaboration et l’exécution de plans d’action, en application de sa résolution <a href="https://undocs.org/fr/S/RES/1612(2005)">1612 (2005)</a> et de ses résolutions ultérieures sur les enfants et les conflits armés, et d’appuyer les efforts visant à libérer les enfants associés à des groupes et forces armés sur l’ensemble du territoire sud-soudanais ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_n">
+            <num>n)</num>
+            <content eId="para_137_list_point_n_content">
+              <p xml:space="preserve"> Assurer les prestations de maintien de la paix prévues au titre des résolutions <a href="https://undocs.org/fr/S/RES/2378(2017)">2378 (2017)</a> et <a href="https://undocs.org/fr/S/RES/2436(2018)">2436 (2018)</a>, et mettre en œuvre les améliorations en matière de sûreté et de sécurité prévues au titre de la résolution <a href="https://undocs.org/fr/S/RES/2518(2020)">2518 (2020)</a> et du plan d’action pour l’amélioration de la sûreté et de la sécurité lié au rapport sur l’amélioration de la sécurité des Casques bleus des Nations Unies, et appliquer les principes relatifs à la vaccination contre la COVID‑19 du personnel en tenue sur le théâtre des opérations et avant le déploiement, conformément aux directives et aux meilleures pratiques de l’Organisation des Nations Unies, afin d’améliorer la sécurité des soldats de la paix ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_o">
+            <num>o)</num>
+            <content eId="para_137_list_point_o_content">
+              <p xml:space="preserve"> Mettre en œuvre la politique de tolérance zéro de l’Organisation des Nations Unies à l’égard des fautes graves, de l’exploitation et des atteintes sexuelles et du harcèlement sexuel, ainsi que toutes les mesures prévues par la résolution <a href="https://undocs.org/fr/S/RES/2272(2016)">2272 (2016)</a> et le tenir informé de tous cas de conduite répréhensible au regard de cette politique ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_p">
+            <num>p)</num>
+            <content eId="para_137_list_point_p_content">
+              <p xml:space="preserve"> Veiller à ce que tout appui fourni à des forces de sécurité non onusiennes soit strictement conforme à la politique de diligence voulue en matière de droits humains, en assurant notamment un suivi sur la manière dont cet appui est utilisé et sur la mise en œuvre de mesures d’atténuation, et en communiquant des informations à ce sujet ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_q">
+            <num>q)</num>
+            <content eId="para_137_list_point_q_content">
+              <p xml:space="preserve"> Assurer la coordination avec tous les organismes, fonds et programmes des Nations Unies pour le Soudan du Sud, ainsi qu’avec les organisations régionales et les autres acteurs concernés, y compris l’équipe de pays pour l’action humanitaire et ses organes associés ;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_r">
+            <num>r)</num>
+            <content eId="para_137_list_point_r_content">
+              <p xml:space="preserve"> Entamer le plus tôt possible une planification et une coordination intégrées de la transition avec les coordonnateurs résidents, les équipes de pays des Nations Unies, les autres organismes, fonds et programmes des Nations Unies, l’État hôte et les autres parties prenantes nationales, dont la société civile, conformément à la résolution <a href="https://undocs.org/fr/S/RES/2594(2021)">2594 (2021)</a> ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_138" class="H23">
+        <subheading>		Appui des Nations Unies et de la communauté internationale</subheading>
+      </paragraph>
+      <paragraph eId="para_139" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_139__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>et <span class="italic">encourage </span>le Représentant spécial du Secrétaire général à diriger les opérations d’une MINUSS intégrée, à coordonner toutes les activités du système des Nations Unies dans la République du Soudan du Sud et à exercer ses bons offices en jouant un rôle de premier plan dans le cadre de l’assistance prêtée par les entités du système des Nations Unies présentes au Soudan du Sud à l’Union africaine, à l’IGAD, à la Commission mixte de suivi et d’évaluation reconstituée, au Mécanisme de vérification et de surveillance du cessez-le-feu et du suivi de l’application des dispositions transitoires de sécurité et aux autres intervenants, ainsi qu’aux parties, aux fins de la mise en œuvre de l’Accord revitalisé et de la promotion de la paix et de la réconciliation, <span class="italic">souligne</span> à cet égard le rôle central du Mécanisme de surveillance du cessez-le-feu et du suivi de l’application des dispositions transitoires de sécurité ainsi que l’importance de l’aide que celui‑ci reçoit de la MINUSS pour exécuter son mandat, et <span class="italic">réaffirme</span> à cet égard le rôle crucial que l’Organisation des Nations Unies assume en coordination avec les organisations régionales et d’autres intervenants pour favoriser un dialogue politique entre les parties, contribuer à œuvrer à la cessation des hostilités et amener les parties à un processus de paix ouvert à tous ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> l’IGAD, l’Union africaine, le Conseil de paix et de sécurité et les pays de la région à continuer de s’engager résolument afin de trouver des solutions durables aux problèmes qui menacent la paix et la sécurité au Soudan du Sud, et d’amener les dirigeants sud-soudanais à honorer sans plus attendre tous les engagements qu’ils ont pris dans le cadre des accords de cessation des hostilités et de l’Accord revitalisé, <span class="italic">encourage également</span> la tenue de consultations entre les entités régionales et le Secrétaire général et son représentant spécial en vue de l’élaboration d’un plan d’action et de messages communs à ces fins, <span class="italic">souligne</span> l’appui apporté par l’IGAD au dialogue national, en coopération avec l’ONU et l’Union africaine, et <span class="italic">prie instamment </span>l’IGAD de pourvoir la présidence de la Commission mixte de suivi et d’évaluation reconstituée ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	<span class="italic">Demande instamment</span> à toutes les parties et aux États Membres, ainsi qu’aux organisations internationales, régionales et sous-régionales, de coopérer avec le Groupe d’experts créé par la résolution <a href="https://undocs.org/fr/S/RES/2206(2015)">2206 (2015)</a>, et <span class="italic">prie instamment</span> tous les États Membres concernés de garantir la sécurité des membres du Groupe d’experts et de leur donner libre accès, notamment aux personnes, documents et lieux pertinents pour l’exécution de leur mandat ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_145" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_145__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de continuer à fournir une assistance technique à la Commission de l’Union africaine et au Gouvernement sud-soudanais pour la mise en place du Tribunal mixte pour le Soudan du Sud et l’application des autres parties du chapitre V de l’Accord revitalisé, notamment en ce qui concerne l’établissement de la Commission vérité, réconciliation et apaisement et de l’Autorité d’indemnisation et de réparation, sachant que les mesures adoptées doivent tenir compte des questions de genre, être inclusives, accessibles, pleinement financées, et conçues et mises en œuvre avec la participation pleine et entière de femmes, notamment à des postes de direction, et <span class="italic">invite</span> l’Union africaine à communiquer au Secrétaire général des informations sur les progrès accomplis dans la mise en place du Tribunal mixte pour le Soudan du Sud ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="italic">Salue</span> la détermination dont font preuve les pays fournisseurs de contingents et d’effectifs de police dans l’exécution du mandat de la Mission dans un environnement difficile, et, à cet égard, <span class="italic">souligne </span>que le Secrétaire général ne devrait accepter aucune restriction nationale qui nuise à l’efficacité de l’application du mandat, <span class="italic">demande</span> aux pays fournisseurs de contingents et d’effectifs de police d’appliquer les dispositions de la résolution <a href="https://undocs.org/fr/S/RES/2538(2020)">2538</a><a href="https://undocs.org/fr/S/RES/2538(2020)"> </a><a href="https://undocs.org/fr/S/RES/2538(2020)">(2020)</a> et de toutes les autres résolutions pertinentes relatives à la réduction des obstacles à la participation des femmes à tous les niveaux et à tous les postes dans les opérations de maintien de la paix et à l’accroissement de cette participation, notamment en garantissant aux femmes un environnement de travail sûr, favorable et qui tienne compte des questions de genre dans le cadre des opérations de maintien de la paix, et <span class="italic">souligne</span> que l’absence d’un commandement efficace, le refus d’obéir aux ordres, l’inaction face aux attaques perpétrées contre des civils, le refus de participer à des patrouilles de longue distance dans des régions isolées du pays ou de mener de telles patrouille, et l’insuffisance des équipements et des ressources financières risquent de compromettre l’exécution efficace du mandat dont chacun partage la responsabilité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	<span class="italic">Demande instamment</span> aux pays fournisseurs de contingents et d’effectifs de police de continuer à prendre des mesures appropriées pour prévenir l’exploitation et les atteintes sexuelles, notamment en vérifiant les antécédents de tous les membres du personnel et en organisant une formation de sensibilisation à l’intention de ces derniers avant et pendant le déploiement, de faire en sorte que les membres de leurs contingents qui se rendraient coupables de tels actes aient à en répondre pleinement, en menant rapidement un travail d’enquête axé sur les personnes rescapées lorsque des allégations sont portées contre des membres de leurs unités, afin que les unités concernées soient rapatriées lorsqu’il existe des preuves crédibles que celles‑ci ont commis des actes d’exploitation et d’atteintes sexuelles de manière généralisée ou systématique, de prendre les mesures disciplinaires voulues, et de signaler sans délai à l’Organisation des Nations Unies toutes les mesures prises à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="italic">Appelle</span> la communauté internationale à intensifier l’action humanitaire en faveur de la population sud-soudanaise afin de répondre aux besoins humanitaires graves et croissants ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_167" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_167__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> la nécessité, pour les partenaires bilatéraux et multilatéraux, de continuer à travailler en étroite collaboration avec le Gouvernement sud-soudanais pour lutter contre la pandémie de COVID‑19, et de fournir une assistance internationale ainsi qu’une aide au développement durable, en partenariat avec les organismes du système des Nations Unies pour le développement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_168" class="H23">
+        <subheading>		Rapports</subheading>
+      </paragraph>
+      <paragraph eId="para_169" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_169__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>le Secrétaire général de continuer de lui faire rapport tous les mois sur les violations de l’Accord sur le statut des forces ou sur les manœuvres d’obstruction visant la MINUSS ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_170" class="SingleTxt">
+        <num>30.</num>
+        <list eId="para_170_list">
+          <intro eId="para_170_list_intro">
+            <p xml:space="preserve">	<span class="italic">Prie également</span> le Secrétaire général de lui rendre compte de l’exécution du mandat de la MINUSS et des manœuvres d’obstruction qu’elle rencontre dans l’exécution de son mandat, dans un rapport écrit détaillé devant être <span class="italic">soumis</span> dans les 90 jours suivant l’adoption de la présente résolution, puis tous les 90 jours par la suite, et souligne que ce rapport devra lui fournir des évaluations stratégiques intégrées, reposant sur des données factuelles, et des conseils francs et devra notamment comprendre :</p>
+          </intro>
+          <point eId="para_170_list_point_1">
+            <num>•</num>
+            <content eId="para_170_list_point_1_content">
+              <p xml:space="preserve">	des informations permettant de déterminer si les activités entreprises au titre du paragraphe 3 ci‑dessus ont contribué à la réalisation de la vision stratégique énoncée au paragraphe 2, et dans quelle mesure, ainsi que des informations sur les obstacles à la réalisation de cette vision que rencontre la Mission, en utilisant les données recueillies et analysées au moyen du Système complet de planification et d’évaluation de la performance, la mise en œuvre par la Mission du cadre intégré de responsabilité et de gestion de la performance dans les missions de maintien de la paix et d’autres outils de planification stratégique et de mesure des performances, afin de déterminer l’impact et la performance globale de la Mission, y compris des informations sur les restrictions non déclarées, le refus de participer à des patrouilles ou de mener des patrouilles et leurs incidences sur la Mission, et sur la manière dont les signalements de résultats insuffisants sont traités,</p>
+            </content>
+          </point>
+          <point eId="para_170_list_point_2">
+            <num>•</num>
+            <content eId="para_170_list_point_2_content">
+              <p xml:space="preserve">	des informations sur les progrès accomplis concernant les éléments énoncés aux paragraphes [5, 6, 7 et 8] ci‑dessus,</p>
+            </content>
+          </point>
+          <point eId="para_170_list_point_3">
+            <num>•</num>
+            <content eId="para_170_list_point_3_content">
+              <p xml:space="preserve">	des informations sur l’exécution des mesures prioritaires énoncées au paragraphe 9 ci‑dessus,</p>
+            </content>
+          </point>
+          <point eId="para_170_list_point_4">
+            <num>•</num>
+            <content eId="para_170_list_point_4_content">
+              <p xml:space="preserve">	des informations sur la manière dont la Mission a mis en œuvre les capacités et obligations décrites au paragraphe 20 ci‑dessus dans la planification et la conduite de ses opérations,</p>
+            </content>
+          </point>
+          <point eId="para_170_list_point_5">
+            <num>•</num>
+            <content eId="para_170_list_point_5_content">
+              <p xml:space="preserve">	des recommandations, le cas échéant, sur les mesures à adopter pour lever les obstacles recensés grâce aux outils de planification stratégique et de mesure des performances ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_172" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_172__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>de rester activement saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
