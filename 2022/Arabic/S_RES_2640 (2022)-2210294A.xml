@@ -1,0 +1,973 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-06-29/2640-2022/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-06-29/2640-2022/"></FRBRuri>
+          <FRBRdate date="2022-06-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-06-29/2640-2022/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-06-29/2640-2022/ara@/"></FRBRuri>
+          <FRBRdate date="2022-06-29" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-06-29/2640-2022/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-06-29/2640-2022/ara@.xml"></FRBRuri>
+          <FRBRdate date="2022-07-05" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Multidimensional Integrated Stabilization Mission in Mali" showAs="UN Multidimensional Integrated Stabilization Mission in Mali" dictionary="DHLAUTH"></keyword>
+        <keyword value="Group of Five for the Sahel. Joint Force" showAs="Group of Five for the Sahel. Joint Force" dictionary="DHLAUTH"></keyword>
+        <keyword value="Agreement on Peace and Reconciliation in Mali emanating from the Algiers Process (2015)" showAs="Agreement on Peace and Reconciliation in Mali emanating from the Algiers Process (2015)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Charter of the United Nations (1945). Chapter VII" showAs="Charter of the United Nations (1945). Chapter VII" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACE AGREEMENTS" showAs="PEACE AGREEMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MALI" showAs="MALI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[226]" showAs="UN MULTIDIMENSIONAL INTEGRATED STABILIZATION MISSION IN MALI" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="[225]" showAs="MALI--POLITICAL CONDITIONS" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation in Mali." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2640 (2022) [on extension of the mandate of the UN Multidimensional Integrated Stabilization Mission in Mali (MINUSMA) until 30 June 2023]" showAs="Security Council resolution 2640 (2022) [on extension of the mandate of the UN Multidimensional Integrated Stabilization Mission in Mali (MINUSMA) until 30 June 2023]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-06-29" outcome="draftResolution" as="S/2022/517" by="France" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-06-29" outcome="adopted" as="S/PV.9082" by="Adopted 13-0-2, 9082nd meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+            <count value="013" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="002" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-10294 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2640 (2022)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">مجلس الأمن</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-06-29" class="rightSmall" refersTo="#dateOfIssuance">29 June 2022</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		القرار 2640 (2022)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">الذي اتخذه مجلس الأمن في <inline name="adoptionMeeting" title="9082">جلسته 9082</inline>، المعقودة في <docDate date="2022-06-29" refersTo="#adoptionDate">29 حزيران/يونيه 2022</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن مجلس الأمن</span>،</p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يشير</span> إلى جميع قراراته وبياناته الرئاسية والصحفية السابقة بشأن الحالة في مالي،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعيد تأكيد</span> التزامه القوي بسيادة مالي ووحدتها وسلامتها الإقليمية، <span class="bold italic">وإذ يشدد</span> على أن سلطات مالي هي المسؤولة بالدرجة الأولى عن توفير الاستقرار والأمن وحماية المدنيين في جميع أنحاء إقليم مالي، <span class="bold italic">وإذ يحث</span> سلطات مالي على مواصلة جهودها للوفاء بالتزاماتها في هذا الصدد، <span class="bold italic">وإذ يعرب</span> عن بالغ القلق إزاء الأعمال العنيفة والأحادية الجانب التي تقوم بها الجهات الفاعلة غير التابعة للدول فتعيق عودة سلطة الدولة والخدمات الاجتماعية الأساسية،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعيد تأكيد</span> المبادئ الأساسية لحفظ السلام، بما في ذلك موافقة الأطراف والحياد وعدم استعمال القوة، إلا في حالة الدفاع عن النفس والدفاع عن الولاية، <span class="bold italic">وإذ يسلّم</span> بأن ولاية كل بعثة من بعثات حفظ السلام تُحدّد بحسب حاجة البلد المعني ووضعه، <span class="bold italic">وإذ يشير</span> إلى بيانه الرئاسي المؤرخ 14 أيار/مايو 2018 (<a href="https://undocs.org/ar/S/PRST/2018/10">S/PRST/2018/10</a>)،</p>
+      </container>
+      <container name="وإذ يعرب عن بالغ القلق" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن بالغ القلق</span> من استمرار تدهور الحالة السياسية، والأمنية والإنسانية في مالي، لأسباب منها استمرار شن هجمات بوتيرة عالية على يد الجماعات الإرهابية، بما فيها جماعة نصرة الإسلام والمسلمين وتنظيم الدولة الإسلامية في الصحراء الكبرى، في الشمال وفي الوسط، واستمرار أعمال العنف القبلي في الوسط، وانتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني، مما تسبب في إزهاق العديد من الأرواح البريئة، بما في ذلك مؤخرا بالقرب من ميناكا وغاو وبانكاس، حيث قتل عشرات المدنيين، وتشريد العديد من الأشخاص داخليا ولجوء الكثيرين إلى البلدان المجاورة، ونشوء حاجة ماسة إلى المساعدة لدى الناس، وحرمان الأطفال من التعليم بسبب إغلاق المدارس، وإعاقة وصول المساعدات الإنسانية، <span class="bold italic">وإذ يدين</span> استخدام المرتزقة وما يرتكبونه من انتهاكات للقانون الدولي الإنساني وانتهاكات وتجاوزات لحقوق الإنسان، <span class="bold italic">وإذ يعرب</span> عن القلق من تمدد انعدام الأمن إلى جنوبي مالي، <span class="bold italic">وإذ يعرب كذلك</span> عن القلق من تأثير جائحة كوفيد-19، وأزمة الغذاء المستمرة في مالي، <span class="bold italic">وإذ يعرب كذلك</span> عن بالغ القلق لأن الحالة في مالي تؤثر سلبا على حالة البلدان المجاورة وعلى منطقة الساحل،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على أن الأمن والاستقرار في مالي يرتبطان ارتباطا وثيقا بالأمن والاستقرار في منطقتي الساحل وغرب أفريقيا وفي ليبيا وشمال أفريقيا،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يرحب</span> بالجهود التي تبذلها البلدان المجاورة وكذلك الجهات الفاعلة الإقليمية، ولا سيما الجماعة الاقتصادية لدول غرب أفريقيا والاتحاد الأفريقي، لتعزيز دعمها لضمان قيام أصحاب المصلحة في مالي ببناء أسس بلد أكثر استقرارا وسلاما،</p>
+      </container>
+      <container name="وإذ يدين بقوة" eId="container_8">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يدين بقوة</span> استمرار الهجمات ضد المدنيين وممثلي المؤسسات المحلية والإقليمية والحكومية وقوات الأمن الوطنية والدولية والقوات التابعة للأمم المتحدة، بما في ذلك قوات الدفاع والأمن المالية، والقوة المشتركة التابعة للمجموعة الخماسية لمنطقة الساحل، وبعثة الأمم المتحدة المتكاملة المتعددة الأبعاد لتحقيق الاستقرار في مالي، والقوات الفرنسية، وبعثة الاتحاد الأوروبي العسكرية للمساهمة في تدريب القوات المسلحة المالية، <span class="bold italic">وإذ يشيد</span> بشجاعة الجنود المشاركين في مالي والساحل وبما قدموه من تضحيات، ولا سيما الجنود الذين جادوا بأرواحهم،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم</span> بالدور المحوري الذي تضطلع به قوات الدفاع والأمن المالية في مكافحة الإرهاب في مالي، <span class="bold italic">وإذ يحيط</span> علما بتكثيف تلك قوات لعمليات مكافحة الإرهاب في وسط مالي، <span class="bold italic">وإذ يدعو</span> إلى الاحترام الكامل للقانون الدولي لحقوق الإنسان والقانون الدولي الإنساني في هذه العمليات،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على أن السلام والأمن الدائمين في منطقة الساحل لن يتحققا من دون تآلف الجهود المبذولة على صعد السياسة، والأمن، وبناء السلام والتنمية المستدامة التي تعود بالفائدة على جميع المناطق في مالي، ومن دون التنفيذ الكامل والفعال والشامل للجميع لاتفاق السلام والمصالحة في مالي المنبثق عن عملية الجزائر (”الاتفاق“)، بما يكفل مشاركة المرأة والشباب مشاركة كاملة ومتساوية ومجدية، <span class="bold italic">وإذ يرحب</span> في هذا الصدد بزيادة تمثيل المرأة في لجنة متابعة الاتفاق،</p>
+      </container>
+      <container name="وإذ يعرب عن تقديره" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن تقديره</span> لإسهام القوات الفرنسية في تحقيق الاستقرار في مالي، وإذ يلاحظ أيضا إسهام فرقة عمل تاكوبا، <span class="bold italic">وإذ يرحب</span> بالخطوات المتخذة للنهوض بعمل ”الائتلاف المعني بمنطقة الساحل“، الرامي إلى مكافحة الإرهاب، وتعزيز القدرات العسكرية لدول منطقة الساحل، ودعم استعادة سلطة الدولة في جميع أرجاء الإقليم، وتعزيز المساعدة الإنمائية، والشراكة من أجل الأمن والاستقرار في منطقة الساحل والتحالف من أجل منطقة الساحل،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما</span> بقرار الحكومة الانتقالية في مالي تمديد الفترة الانتقالية لمدة 24 شهرا ابتداء من 26 آذار/مارس 2022، إثر عدم إنجاز الجدول الزمني المتفق عليه للانتقال ومدته 18 شهرا، <span class="bold italic">وإذ يلاحظ</span> بعض الأعمال المنجزة لتعزيز الحوار ووضع الأسس للإصلاحات، <span class="bold italic">وإذ يكرر تأكيد</span> دعمه لجهود الوساطة التي تبذلها الجماعة الاقتصادية لدول غرب أفريقيا ووسيطها، وإذ يشجع على المشاركة في المفاوضات بحسن نية، قبل انعقاد مؤتمر قمة الجماعة الاقتصادية المقرر عقده في 3 تموز/يوليه 2022، من أجل التوصل إلى اتفاق بشأن جداول زمنية موثوقة ومقبولة لإجراء انتخابات شاملة وحرة ونزيهة وشفافة والعودة سريعا إلى النظام الدستوري،</p>
+      </container>
+      <container name="وإذ يكرر تأكيد" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يكرر تأكيد</span> أن الأمم المتحدة والشركاء الدوليين الآخرين لا يزالان ملتزمان التزاما راسخا بتنفيذ الاتفاق باعتباره وسيلة لتحقيق السلام والاستقرار على المدى الطويل في مالي، <span class="bold italic">وإذ يسلّم با</span>لجهود التي يبذلها رئيس وأعضاء لجنة متابعة الاتفاق لتعزيز تنفيذ الاتفاق، <span class="bold italic">وإذ يعرب عن قلقه</span> لأن عدم مشاركة الحكومة الانتقالية في مالي والجماعات المسلحة التابعة للائتلاف والتنسيقية (”الأطراف المالية“) قد حال دون أن تجتمع لجنة متابعة الاتفاق منذ تشرين الأول/أكتوبر 2021، <span class="bold italic">وإذ يعرب</span> مع ذلك عن نفاد صبر كبير تجاه الأطراف بسبب استمرار حالات التأخير في تنفيذ الاتفاق، التي تسهم في حدوث فراغ سياسي وأمني يهدد استقرار مالي وتنميتها، <span class="bold italic">وإذ يؤكد</span> ضرورة تعزيز الملكية وتحديد الأولويات في تنفيذ الاتفاق، <span class="bold italic">وإذ يكرر تأكيد</span> أن الانخراط في أعمال قتالية انتهاكا للاتفاق واتخاذ إجراءات تعرقل تنفيذ الاتفاق أو تعرقله بالتأخير المطول أو تهدد تنفيذه يشكلان مسوغا للإدراج في قائمة الجزاءات بموجب القرار <a href="https://undocs.org/ar/S/RES/2374(2017)">2374 (2017)</a>، من جملة معايير أخرى للإدراج في القائمة،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_14">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد</span> أن استقرار الحالة في وسط مالي يتطلب من سلطات مالي وأصحاب المصلحة المعنيين الاتفاق على استراتيجية شاملة بقيادة سياسية وتنفيذها بفعالية، ومواصلة العمل المتزامن والمنسق بشأن الأمن، والحوكمة، والتنمية المستدامة، والمصالحة، والمساءلة، وكذلك حماية حقوق الإنسان وتعزيزها،</p>
+      </container>
+      <container name="وإذ يدين بقوة" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يدين بقوة</span> كل ما يرتكب من انتهاكات وتجاوزات للقانون الدولي لحقوق الإنسان وانتهاكات للقانون الدولي الإنساني، بما في ذلك تلك المنطوية على حالات الإعدام خارج نطاق القضاء والإعدام بإجراءات موجزة، وحالات الاعتقال والاحتجاز التعسفيين وإساءة معاملة السجناء، والعنف الجنسي والجنساني، والاتجار بالأشخاص، والقتل والتشويه، وتجنيد الأطفال واستخدامهم، والهجمات على المدارس والعاملين في مجال المساعدة الإنسانية وخدماتها، والموظفين الطبيين والبنى التحتية التي تعتبر مرافق طبية، <span class="bold italic">وإذ يهيب</span> بجميع الأطراف أن تضع حدا لهذه الانتهاكات والتجاوزات وأن تمتثل لالتزاماتها بموجب القانون الدولي الواجب التطبيق،</p>
+      </container>
+      <container name="وإذ يكرر التأكيد" eId="container_16">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يكرر التأكيد</span>، في هذا الصدد، على أهمية محاسبة جميع المسؤولين عن ارتكاب تلك الأعمال، وعلى أن بعض الأعمال المشار إليها في الفقرة أعلاه قد تشكل جرائم تقع تحت طائلة نظام روما الأساسي، <span class="bold italic">وإذ يحيط علما</span> بأن المدعية العامة للمحكمة الجنائية الدولية قد قامت في 16 كانون الثاني/يناير 2013، بناءً على إحالة من السلطات الانتقالية في مالي مؤرخة 13 تموز/يوليه 2012، بفتح تحقيق في الجرائم التي يزعم أنها ارتكبت على أراضي مالي منذ كانون الثاني/يناير 2012، <span class="bold italic">وإذ يحيط علما كذلك</span> بإنجاز عمل لجنة التحقيق الدولية المنشأة وفقا للاتفاق وعلى نحو ما طلبه القرار <a href="https://undocs.org/ar/S/RES/2364(2017)">2364 (2017)</a>،</p>
+      </container>
+      <container name="وإذ يؤكد" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد</span> أهمية التنمية الاجتماعية - الاقتصادية لاستدامة السلام في مالي من خلال التنمية الاقتصادية المستدامة، بما في ذلك تطوير البنية التحتية والتصنيع والقضاء على الفقر وإيجاد فرص العمل والتحديث الزراعي وتشجيع تنظيم المشاريع، <span class="bold italic">وإذ يعرب</span> عن الحاجة إلى مواصلة تقديم الدعم لمالي مع مراعاة أولوياتها واحتياجاتها الوطنية، <span class="bold italic">وإذ يشدد</span> على أهمية سيادة القانون دعما للتنمية الاجتماعية والاقتصادية، <span class="bold italic">وإذ يشير</span> إلى أن سياسة الاتحاد الأفريقي لإعادة الإعمار والتنمية بعد انتهاء النزاع تسلط الضوء على ضرورة بناء المؤسسات على نحو شامل لتعزيز الإدارة الاقتصادية الجيدة عن طريق تقوية مؤسسات الإدارة الضريبية والمالية دعما لفعالية تحصيل الإيرادات وآليات الرصد والتقييم وهياكل مكافحة الفساد من أجل ضمان المساءلة والشفافية، <span class="bold italic">وإذ يشير</span> إلى ضرورة تعزيز تنفيذ استراتيجية الأمم المتحدة المتكاملة لمنطقة الساحل وخطة الأمم المتحدة لدعم منطقة الساحل، <span class="bold italic">وإذ يرحب</span> بزيادة تركيز صندوق بناء السلام على المشاريع العابرة للحدود في منطقة الساحل،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشدد</span> على ضرورة قيام الحكومة الانتقالية في مالي والأمم المتحدة بإجراء تقييم وافٍ للمخاطر المحدقة بأمن واستقرار مالي نتيجة للتغيرات الإيكولوجية والكوارث الطبيعية والجفاف والتصحر وتدهور التربة وانعدام الأمن الغذائي وسبل الحصول على الطاقة وتغير المناخ، من جملة عوامل أخرى، وبوضع استراتيجيات لإدارة تلك المخاطر،</p>
+      </container>
+      <container name="وإذ يثني" eId="container_19">
+          <p xml:space="preserve">	<span class="bold italic">وإذ يثني</span> على البلدان المساهمة بقوات وأفراد شرطة في البعثة المتكاملة لما تقدمه من إسهامات، <span class="bold italic">وإذ يشيد</span> بحفظة السلام الذين يخاطرون بحياتهم وبمن دفع حياته ثمنا في هذا الصدد،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_20">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن قلقه</span> من أن بعض المهام المسندة إلى البعثة المتكاملة قد أُعيقت، بأساليب منها القيود المفروضة على حرية التنقل، والقيود المفروضة على عمليات البعثات، وانتهاكات اتفاق مركز القوات، التي يمكن أيضا أن تشكل خطرا على أمن وسلامة حفظة السلام،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_21">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن قلقه</span> من الأنباء التي تفيد بوجود بعض النقص في تدريب وحدات البعثة المتكاملة وفي قدراتها، ومحاذير غير معلنة، وعدم الامتثال للأوامر، <span class="bold italic">وإذ يشدد</span> على أهمية الشفافية والمساءلة في أداء البعثة،</p>
+      </container>
+      <container name="وإذ يسلم" eId="container_22">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يسلم</span> بأهمية الاتصالات الاستراتيجية الفعالة في تنفيذ ولاية البعثة المتكاملة وسلامة وأمن أفرادها، <span class="bold italic">وإذ يشدد</span> على الحاجة إلى مواصلة تعزيز قدرات البعثة في هذا الصدد،</p>
+      </container>
+      <container name="وإذ يرحب" eId="container_23">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يرحب</span> بالاستعراض الاستراتيجي المستقل بشأن استجابات عمليات الأمم المتحدة لحفظ السلام للأجهزة المتفجرة (<a href="https://undocs.org/ar/S/2021/1042">S/2021/1042</a>)<span class="bold italic"> وإذ يلاحظ</span> أن توصياته قد تكون توجيها مفيدا للبلدان المساهمة بقوات وبأفراد شرطة في البعثة المتكاملة،</p>
+      </container>
+      <container name="وإذ يحيط علما" eId="container_24">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يحيط علما</span> بتقرير الأمين العام (<a href="https://undocs.org/ar/S/2022/446">S/2022/446</a>) وبرسالة الأمين العام (<a href="https://undocs.org/ar/S/2022/448">S/2022/448</a>)،</p>
+      </container>
+      <container name="وإذ يقرر" eId="container_25">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقرر</span> أن الحالة في مالي لا تزال تشكل خطراً يهدد السلام والأمن الدوليين،</p>
+      </container>
+      <container name="وإذ يتصرف" eId="container_26">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يتصرف</span> بموجب الفصل السابع من ميثاق الأمم المتحدة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_27" class="H23">
+        <subheading>		تنفيذ اتفاق السلام والمصالحة في مالي والحالة السياسية والانتخابات</subheading>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <content eId="para_28__content">
+          <p xml:space="preserve">	1 -	<span class="bold italic">يحث</span> الأطراف المالية على العمل من أجل استئناف اجتماعات جميع الهيئات المنفذة للاتفاق وعلى القيام سريعا باتخاذ تدابير هامة ومجدية وملموسة ولا رجعة فيها لتنفيذ الأحكام السياسية والأمنية والمتعلقة بالمصالحة والتنمية الواردة في الاتفاق، <span class="bold italic">ويشير</span> إلى استعداده للرد باتخاذ تدابير عملا بالقرار <a href="https://undocs.org/ar/S/RES/2374(2017)">2374 (2017)</a> إذا ما دخلت الأطراف في أعمال قتالية في انتهاك للاتفاق، أو اتخذت إجراءات تعرقل تنفيذ الاتفاق أو تعوقه بالتأخير المطول أو تهدد تنفيذه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <content eId="para_29__content">
+          <p xml:space="preserve">	2 -	<span class="bold italic">يكرر التأكيد</span> على أن سلطات مالي تقع عليها المسؤولية الأساسية عن حماية المدنيين في مالي، <span class="bold italic">ويحث</span> هذه السلطات على اتخاذ إجراءات عاجلة لحماية المدنيين في جميع أنحاء البلد، ولمنع الأضرار التي يمكن أن تصيب المدنيين من جراء العمليات التي تضطلع بها قوات الدفاع والأمن المالية والتقليل من هذه الأضرار إلى أدنى حد ومعالجتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <content eId="para_30__content">
+          <p xml:space="preserve">	3 -	<span class="bold italic">يدعو</span> سلطات مالي وجميع الأطراف في مالي إلى ضمان المشاركة الكاملة والمتساوية والمجدية للمرأة في الآليات المنشأة بموجب الاتفاق لدعم ورصد تنفيذه، بما في ذلك عن طريق زيادة التمثيل المجدي للمرأة في جميع آليات لجنة متابعة الاتفاق، وتفعيل مرصد المرأة وفروعه الإقليمية، وضمان تنفيذه بفعالية، وضمان المشاركة الكاملة والمتساوية والمجدية للمرأة في عملية الانتقال السياسي والعمليات الانتخابية، كمرشحات وناخبات على حد سواء، بسبل من قبيل بلوغ الحصة التي لا تقل عن 30 في المائة من جميع الوظائف والمناصب السياسية للنساء حسبما هو محدد في تشريعات مالي، والتصدي لخطر الضرر، بما في ذلك جميع أشكال التهديد والعنف وخطاب الكراهية، وضمان الحماية اللازمة للمرأة في هذه الأدوار، وتقديم أدلة على التقدم المحرز نحو تحقيق الأهداف المتعلقة بالاتفاق المنصوص عليها في الخطة الوطنية الثالثة لمالي (2019-2023) لتنفيذ القرار <a href="https://undocs.org/ar/S/RES/1325(2000)">1325</a><a href="https://undocs.org/ar/S/RES/1325(2000)"> </a><a href="https://undocs.org/ar/S/RES/1325(2000)">(2000)</a>، <span class="bold italic">ويطلب</span> إلى الأمين العام إيلاء اهتمام خاص لهذه النقاط في تقاريره الدورية عن البعثة المتكاملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <content eId="para_31__content">
+          <p xml:space="preserve">	4 -	<span class="bold italic">يشجع</span> فريق الخبراء المنشأ عملا بالقرار <a href="https://undocs.org/ar/S/RES/2374(2017)">2374 (2017)</a> على تحديد الأطراف المسؤولة عن الإجراءات أو السياسات المشار إليها في الفقرة 8 من القرار <a href="https://undocs.org/ar/S/RES/2374(2017)">2374 (2017)</a> من خلال تقاريره المنتظمة والمرحلية المُحدّثة، <span class="bold italic">ويعرب</span> عن عزمه، في حالة تحديد المسؤولية عن الإجراءات أو السياسات، الرد على ذلك باتخاذ تدابير عملا بالقرار <a href="https://undocs.org/ar/S/RES/2374(2017)">2374 (2017)</a>، <span class="bold italic">ويؤكد</span> أن الجهات من الأفراد والكيانات المدرجة في قائمة الجزاءات المفروضة بموجب القرار 2374 لن تستفيد من أي دعم مالي أو تشغيلي أو لوجستي من كيانات الأمم المتحدة المنتشرة في مالي ما لم ترفع أسماؤها من القائمة ودون الإخلال بالاستثناءات المحددة في الفقرات 2 و 5 و 6 و 7 من القرار <a href="https://undocs.org/ar/S/RES/2374(2017)">2374 (2017)</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <content eId="para_32__content">
+          <p xml:space="preserve">	5 -	<span class="bold italic">يهيب</span> بجميع الأطراف في مالي أن تتقيد تقيدا صارما بالترتيبات المتخذة لوقف الأعمال القتالية، <span class="bold italic">ويطالب</span> الجماعات المسلحة كافة بنبذ العنف، وقطع جميع صلاتها بالتنظيمات الإرهابية والجريمة المنظمة عبر الوطنية، واتخاذ خطوات ملموسة لمنع انتهاكات حقوق الإنسان المرتكبة ضد المدنيين، ووضع حد لتجنيد الجنود الأطفال واستخدامهم، ووقف أي أنشطة تعوق إعادة بسط سلطة الدولة وتقديم الخدمات الاجتماعية الأساسية مجددا، والاعتراف دون شروط بوحدة دولة مالي وسلامة أراضيها في إطار الاتفاق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <content eId="para_33__content">
+          <p xml:space="preserve">	6 -	<span class="bold italic">يحث</span> جميع الأطراف في مالي على أن تتعاون تعاونا تاما مع الممثل الخاص للأمين العام والبعثة المتكاملة في تنفيذ الاتفاق، وكفالة سلامة أفراد البعثة المتكاملة وأمنهم وحرية تنقلهم ووصولهم فورا ودون عراقيل إلى جميع أراضي مالي، ودخول وتناوب حفظة السلام العسكريين وأفراد الشرطة الدوليين التابعين للبعثة في الوقت المناسب، <span class="bold italic">ويشير</span> إلى أحكام اتفاق مركز القوات، <span class="bold italic">ويدعو</span> إلى وقف جميع القيود المفروضة على حرية التنقل عن طريق البر والجو، وحملات التضليل الإعلامي، وسائر الأنشطة المزعزعة للاستقرار، وإجراء حوار بنّاء بين سلطات مالي والبعثة المتكاملة لضمان وقف جميع تلك القيود وسائر الأنشطة المزعزعة للاستقرار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <content eId="para_34__content">
+          <p xml:space="preserve">	7 -	<span class="bold italic">يدعو</span> إلى إدراج برامج في الاستراتيجيات الوطنية والإقليمية ترمي إلى منع العنف الجنسي والجنساني ومعالجة وصمته، وتوفير العدالة للضحايا والناجين من آثارهما، ودعم إعادة إدماجهم في مجتمعاتهم المحلية، <span class="bold italic">ويدعو كذلك</span> إلى مراعاة آراء الضحايا والناجين في تصميم هذه البرامج ووضعها وتنفيذها ورصدها وتقييمها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <content eId="para_35__content">
+          <p xml:space="preserve">	8 -	<span class="bold italic">يحث</span> على التفاعل بين الأطراف المالية على نحو أكثر تنظيما فيما بين دورات لجنة متابعة الاتفاق، <span class="bold italic">ويعترف</span> بدور اللجنة في تسوية الخلافات بين الأطراف المالية، <span class="bold italic">ويشير</span> إلى أحكام ميثاق السلام الموقّع في 15 تشرين الأول/أكتوبر 2018 بين الحكومة الانتقالية في مالي والأمم المتحدة الذي يسلّم بوجوب إنفاذ المقررات وقرارات التحكيم الصادرة عن فريق الوساطة الدولية في حالة اختلاف الآراء بشأن تنفيذ الاتفاق، <span class="bold italic">ويدعو</span> الدول الأعضاء في اللجنة والشركاء الدوليين الآخرين ذوي الصلة إلى تعزيز انخراطهم في دعم تنفيذ الاتفاق بالتنسيق مع الممثل الخاص للأمين العام والبعثة المتكاملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <content eId="para_36__content">
+          <p xml:space="preserve">	9 -	<span class="bold italic">يهيب</span> بالمراقب المستقل أن يواصل نشر تقارير دورية، بوسائل منها تقديمها إلى لجنة متابعة الاتفاق، تتضمن توصيات عملية بشأن الخطوات التي يتعين على جميع الأطراف اتخاذها للتعجيل بتنفيذ الاتفاق على نحو كامل وفعال وشامل للجميع، <span class="bold italic">ويهيب كذلك</span> بجميع الأطراف أن تتعاون تعاونا تاما مع مركز كارتر بغية تيسير تنفيذ ولايته كمراقب مستقل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <content eId="para_37__content">
+          <p xml:space="preserve">	10 -	<span class="bold italic">يهيب</span> بالأطراف المالية أن تتفق على آلية وطنية وتقيمها من أجل متابعة توصيات لجنة التحقيق الدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <content eId="para_38__content">
+          <p xml:space="preserve">	11 -	<span class="bold italic">يشجع</span> جميع الوكالات المعنية التابعة للأمم المتحدة والشركاء الثنائيين والإقليميين والمتعددي الأطراف على تقديم الدعم اللازم للإسهام في تنفيذ الاتفاق من جانب الأطراف المالية، ولا سيما أحكامه المتصلة بالتنمية المستدامة وإطلاق المشاريع الستة عشر الموافق عليها في إطار خطة صندوق التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <content eId="para_39__content">
+          <p xml:space="preserve">	12 -	<span class="bold italic">يحث</span> سلطات مالي، قبل انتهاء الولاية الحالية للبعثة، على الاتفاق على استراتيجية شاملة وجامعة ومركزة على السياسة، تعالج الأسباب الجذرية للنزاع العنيف ودوافعه، وتحمي المدنيين، وتحد من العنف القبلي، وتعيد ترسيخ وجود الدولة وسلطتها، وكذلك الخدمات الاجتماعية الأساسية في وسط مالي، وتعالج الحاجة إلى توفير حماية إضافية للنساء والأطفال الذين يعيشون في أوضاع هشة والفئات المهمشة، وعلى تنفيذ تلك الاستراتيجية بفعالية، <span class="bold italic">ويحث كذلك</span> سلطات مالي على مكافحة الإفلات من العقاب على انتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني، من خلال التحقيق في الحالات المزعومة لانتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني، وذلك بضمان حرية التنقل حتى تنفذ البعثة المتكاملة ولايتها الحالية في مجال حقوق الإنسان، وبإجراء المحاكمات ذات الصلة، وبإبلاغ شعب مالي بالتقدم المحرز في هذه التحقيقات والمحاكمات، بما في ذلك أسر الضحايا، والحد من التدفقات غير المشروعة للأسلحة، ونزع سلاح جميع الميليشيات دون إبطاء من خلال برامج نزع السلاح والتسريح وإعادة الإدماج، وتعزيز مبادرات المصالحة، والنهوض بجهود الحد من العنف المجتمعي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <content eId="para_40__content">
+          <p xml:space="preserve">	13 -	<span class="bold italic">يشجع</span> سلطات مالي على مواصلة السعي، بمساعدة شركائها، إلى تحقيق التنمية الاجتماعية الاقتصادية المستدامة والشاملة للجميع في وسط مالي، ولا سيما من خلال المشاريع الإنمائية في مجالات التعليم والبنى التحتية والصحة العامة، مع إيلاء اهتمام خاص للشباب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <content eId="para_41__content">
+          <p xml:space="preserve">	14 -	<span class="bold italic">يدعو</span> الحكومة الانتقالية في مالي إلى إحراز تقدم ملموس، تراقبه آلية رصد قوية تلتزم بها الحكومة، لتحقيق الانتقال السياسي، والعودة السريعة إلى النظام الدستوري وتسليم السلطة إلى سلطات مدنية منتخبة ديمقراطيا، بالتعاون مع الجماعة الاقتصادية لدول غرب أفريقيا من أجل التوصل إلى اتفاق، عن طريق تنظيم انتخابات حرة ونزيهة والقيام، حسب الاقتضاء، بتنظيم استفتاء دستوري، يُجرى على نحو شفاف وشامل للجميع، وبمشاركة كاملة ومتساوية ومجدية للنساء والشباب واللاجئين والمشردين داخليا من الماليين، <span class="bold italic">ويشجع كذلك</span> الحكومة الانتقالية على ضمان أن تكون جميع العمليات الانتخابية متسقة مع المعايير الدولية لحقوق الإنسان المتعلقة بالانتخابات، بما في ذلك ما يتعلق بأعضاء أحزاب المعارضة ووسائط الإعلام والمجتمع المدني، <span class="bold italic">ويكرر تأكيد</span> القرارات التي تقضي بضرورة ألا يكون الرئيس في الفترة الانتقالية ورئيس الوزراء في الفترة الانتقالية تحت أي ظرف من الظروف مرشّحيْن للانتخابات الرئاسية المقبلة، <span class="bold italic">ويصر</span> على ضرورة الثقة والحوار والحلول التوفيقية، من أجل تحقيق انتقال توافقي وشامل للجميع يرسي الأسس لبلد أكثر استقرارا وديمقراطية وسلاما؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="H23">
+        <subheading>		الولاية المسندة إلى البعثة المتكاملة</subheading>
+      </paragraph>
+      <paragraph eId="para_43" class="H23">
+        <subheading>		مبادئ عامة</subheading>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <content eId="para_44__content">
+          <p xml:space="preserve">	15 -	<span class="bold italic">يقرر</span> تمديد ولاية البعثة المتكاملة حتى 30 حزيران/يونيه 2023؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <content eId="para_45__content">
+          <p xml:space="preserve">	16 -	<span class="bold italic">يقرر</span> أن تظل البعثة المتكاملة بقوام يصل تعداده إلى 289 13 من الأفراد العسكريين و 920 1 من أفراد الشرطة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <content eId="para_46__content">
+          <p xml:space="preserve">	17 -	<span class="bold italic">يأذن</span> للبعثة المتكاملة بأن تستخدم جميع الوسائل اللازمة للاضطلاع بولايتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <content eId="para_47__content">
+          <p xml:space="preserve">	18 -	<span class="bold italic">يقرر</span> أن تظل أولى الأولويات الاستراتيجية للبعثة المتكاملة متمثلة في دعم تنفيذ الاتفاق من جانب الأطراف المالية، فضلا عن أصحاب المصلحة الماليين الآخرين ذوي الصلة، والانتقال السياسي، <span class="bold italic">ويقرر كذلك</span> أن تتمثل ثاني الأولويات الاستراتيجية للبعثة المتكاملة في تيسير تنفيذ الجهات الفاعلة في مالي لاستراتيجية شاملة وجامعة وذات تركيز سياسي تعالج الأسباب الجذرية للنزاع العنيف ودوافعه، وحماية المدنيين، والحد من العنف القبلي، وإعادة ترسيخ وجود الدولة وسلطتها، فضلا عن توفير الخدمات الاجتماعية الأساسية في وسط مالي، من خلال المهام المسندة إليها بموجب ولايتها، <span class="bold italic">ويطلب</span> إلى الأمين العام أن يراعي ترتيب الأولويات هذا في نشر البعثة وأن يخصص موارد الميزانية لها وفقا لذلك، <span class="bold italic">ويؤكد</span> أنه ينبغي إتاحة المرونة الكافية للممثل الخاص للأمين العام ليقوم، بالتشاور مع قائد القوة ومفوض الشرطة، بنشر وحدات البعثة المتكاملة فيما بين القطاعات من أجل التصدي بسرعة، وفقا لولاية البعثة المتكاملة، للحالة الأمنية المتغيرة في كل من شمال ووسط مالي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <content eId="para_48__content">
+          <p xml:space="preserve">	19 -	<span class="bold italic">يطلب</span> إلى البعثة المتكاملة أن تواصل تنفيذ ولايتها في مجال حفظ السلام باعتماد موقف استباقي وصارم مع توخي المرونة والسرعة، مع فهم وتفسير واضحين للأدوار والمسؤوليات فيما بين موظفيها المدنيين وأفرادها النظاميين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <content eId="para_49__content">
+          <p xml:space="preserve">	20 -	<span class="bold italic">يطلب</span> إلى البعثة المتكاملة أن تكفل سلامة وأمن وحرية تنقل أفراد الأمم المتحدة والأفراد المرتبطين بها، وأن تحمي المنشآت والمعدات، وأن تستعرض، في هذا السياق، كافة تدابير السلامة والأمن بصورة دورية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <content eId="para_50__content">
+          <p xml:space="preserve">	21 -	<span class="bold italic">يعرب</span> عن دعمه الكامل لمواصلة تنفيذ خطة التكيف التي وضعها البعثة المتكاملة، <span class="bold italic">ويطلب</span> إلى الأمين العام اتخاذ جميع التدابير المناسبة للتعجيل بهذا التنفيذ، خاصة في مجال تشكيل الأصول المطلوبة، <span class="bold italic">ويشجع</span> الدول الأعضاء على المساهمة في الخطة عن طريق توفير القدرات اللازمة لنجاحها، ولا سيما العتاد الجوي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <content eId="para_51__content">
+          <p xml:space="preserve">	22 -	<span class="bold italic">يشجع</span> الأمين العام على تنفيذ الإطار الاستراتيجي المتكامل المحدِّد للرؤية الشاملة للأمم المتحدة، والأولويات المشتركة وتقسيم العمل الداخلي من أجل الحفاظ على السلام في مالي، وعلى الاستمرار في تحديثه، بما يشمل تعزيز التنسيق مع الجهات المانحة، <span class="bold italic">ويطلب</span> إلى الأمين العام ضمان الكفاءة في تقسيم المهام وتكامل الجهود فيما بين البعثة المتكاملة، وصندوقها الاستئماني، وصندوق بناء السلام، وفريق الأمم المتحدة القطري والكيانات الأخرى التابعة للأمم المتحدة، على أساس ولاياتها وميزاتها النسبية، وكذلك تعديل توزيعها باستمرار وفقا للتقدم المحرز في تنفيذ ولاية البعثة المتكاملة، مع تأكيد أهمية توفير ما يكفي من الموارد والقدرات للفريق القطري، <span class="bold italic">ويؤكد</span> ما لتعزيز وجود وأنشطة الفريق القطري في منطقتي شمال ووسط مالي من أهمية حاسمة لتيسير التكامل على نطاق منظومة الأمم المتحدة وبناء السلام على المدى الطويل، ويطلب أن يشمل الإطار أيضا تخطيطا مبكرا وشاملا ومتكاملا للعمليات الانتقالية بما يتماشى مع القرار <a href="https://undocs.org/ar/S/RES/2594(2021)">2594 (2021)</a> وخريطة الطريق التي وضعها الأمين العام في 25 آذار/ مارس 2021، <span class="bold italic">ويدعو</span> الدول الأعضاء والمنظمات المعنية إلى النظر في التبرع بالأموال اللازمة لهذا الغرض؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <content eId="para_52__content">
+          <p xml:space="preserve">	23 -	<span class="bold italic">يطلب</span> إلى البعثة المتكاملة مضاعفة جهودها المبذولة من أجل تحسين التنسيق بين العنصر المدني والعنصر العسكري وعنصر الشرطة فيها، بتعزيز النهج المتكامل الذي تتبعه في التخطيط للعمليات وجمع المعلومات الاستخبارية، وعن طريق الآليات المكرسة للتنسيق داخل البعثة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <content eId="para_53__content">
+          <p xml:space="preserve">	24 -	<span class="bold italic">يطلب</span> إلى الأمين العام أن يستمر في كفالة التنسيق الوثيق وتبادل المعلومات، حسب الاقتضاء، بين البعثة المتكاملة ومكتب الأمم المتحدة لغرب أفريقيا ومنطقة الساحل والمنظمات دون الإقليمية، بما في ذلك الجماعة الاقتصادية لدول غرب أفريقيا والمجموعة الخماسية لمنطقة الساحل والدول الأعضاء في المنطقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <content eId="para_54__content">
+          <p xml:space="preserve">	25 -	<span class="bold italic">يطلب</span> إلى البعثة المتكاملة تحسين جهودها في مجال الاتصالات لدعم تنفيذ ولايتها، وتعزيز حمايتها، ومن أجل التوعية بشأن ولايتها ودورها، والتأكيد على دور سلطات مالي ومسؤولياتها في حماية المدنيين وتنفيذ الاتفاق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="H23">
+        <subheading>		المهام ذات الأولوية</subheading>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <content eId="para_56__content">
+          <p xml:space="preserve">	26 -	<span class="bold italic">يقرر</span> أن تشمل ولاية البعثة المتكاملة المهام التالية ذات الأولوية:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>(أ)</num>
+        <list eId="para_57_list">
+          <intro eId="para_57_list_intro">
+            <p xml:space="preserve">	<span class="italic">دعم تنفيذ اتفاق السلام والمصالحة في مالي والتحقيق الكامل للانتقال السياسي</span></p>
+          </intro>
+          <point eId="para_57_list_point_’1‘">
+            <num>’1‘</num>
+            <content eId="para_57_list_point_’1‘_content">
+              <p xml:space="preserve">	الاستعانة بالمساعي الحميدة التي يبذلها الممثل الخاص للأمين العام، وبناء الثقة، وتيسير الحوار والوساطة على الصعيدين الوطني والمحلي، من أجل دعم الحوار مع جميع أصحاب المصلحة وفيما بينهم من أجل تحقيق المصالحة والتماسك الاجتماعي، وتشجيع ودعم التنفيذ الكامل للاتفاق، ولا سيما من خلال ترأس أمانة لجنة متابعة الاتفاق، وتقديم الدعم في إنجاز عملية الانتقال السياسي كاملة؛</p>
+            </content>
+          </point>
+          <point eId="para_57_list_point_’2‘">
+            <num>’2‘</num>
+            <content eId="para_57_list_point_’2‘_content">
+              <p xml:space="preserve">	دعم تنفيذ الإصلاحات السياسية والمؤسسية التي ينص عليها الاتفاق، وخاصة في الجزء الثاني منه، ولا سيما لدعم جهود الحكومة الانتقالية من أجل استعادة سلطة الدولة وسيادة القانون وبسطهما فعليا في جميع أنحاء الإقليم، بسبل منها دعم أداء الإدارات المؤقتة لوظائفها بفعالية في شمال مالي وفقا للشروط المحددة في الاتفاق؛</p>
+            </content>
+          </point>
+          <point eId="para_57_list_point_’3‘">
+            <num>’3‘</num>
+            <content eId="para_57_list_point_’3‘_content">
+              <p xml:space="preserve">	دعم تنفيذ تدابير الدفاع والأمن المنصوص عليها في الاتفاق، وخاصة في الجزء الثالث والمرفق 2 منه، ولا سيما ما يلي:</p>
+            </content>
+          </point>
+          <sublist eId="para_57_list_point_’3‘_sublist">
+            <point eId="para_57_list_point_’3‘_sublist_point_1">
+              <num>-</num>
+              <content eId="para_57_list_point_’3‘_sublist_point_1_content">
+                <p xml:space="preserve">	دعم ورصد وقف إطلاق النار والإشراف عليه، بوسائل منها مواصلة تنفيذ تدابير مراقبة حركة الجماعات المسلحة الموقعة للاتفاق وأسلحتها، بما في ذلك في المناطق المنزوعة السلاح المحددة، وتقديم تقرير إلى مجلس الأمن بشأن انتهاكاته،</p>
+              </content>
+            </point>
+            <point eId="para_57_list_point_’3‘_sublist_point_2">
+              <num>-</num>
+              <content eId="para_57_list_point_’3‘_sublist_point_2_content">
+                <p xml:space="preserve">	دعم تجميع الجماعات المسلحة ونزع سلاحها وتسريحها وإعادة إدماجها، بوسائل منها إدماج عناصر الجماعات المسلحة الموقعة للاتفاق في قوات الدفاع والأمن المالية كتدبير مؤقت، ومواصلة تنفيذ برنامج للحد من العنف على صعيد المجتمعات المحلية، في إطار إصلاح قطاع الأمن بمشاركة الجميع وبتوافق الآراء، مع مراعاة الاحتياجات الخاصة للنساء والأطفال والأشخاص المنتمين إلى الفئات المهمشة مثل الأشخاص ذوي الإعاقة، ودون المساس بالخطط المرتقبة للجان المعنية بالتسريح ونزع السلاح وإعادة الإدماج والإدماج،</p>
+              </content>
+            </point>
+            <point eId="para_57_list_point_’3‘_sublist_point_3">
+              <num>-</num>
+              <content eId="para_57_list_point_’3‘_sublist_point_3_content">
+                <p xml:space="preserve">	تقديم الدعم لكي تضع جميع الأطراف المالية ذات الصلة خطة شاملة لإعادة نشر قوات الدفاع والأمن المالية بعد إصلاحها وإعادة تشكيلها في شمال مالي، لأغراض منها تمكينها من تولي المسؤولية عن الأمن، ودعم إعادة النشر هذه بسبل منها توفير الدعم التشغيلي واللوجستي والدعم في مجال النقل أثناء العمليات المنسقة والمشتركة، والتخطيط، وتعزيز تبادل المعلومات، والإجلاء الطبي، في حدود الموارد المتاحة ودون المساس بمبادئ حفظ السلام الأساسية،</p>
+              </content>
+            </point>
+            <point eId="para_57_list_point_’3‘_sublist_point_4">
+              <num>-</num>
+              <content eId="para_57_list_point_’3‘_sublist_point_4_content">
+                <p xml:space="preserve">	كفالة اتساق الجهود الدولية، بتعاون وثيق مع الجهات الأخرى من الشركاء الثنائيين والجهات المانحة والمنظمات الدولية، بما في ذلك الاتحاد الأوروبي، العاملة في هذه المجالات، من أجل إعادة بناء قطاع الأمن في مالي، ضمن الإطار المحدد في الاتفاق،</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_57_list_point_’4‘">
+            <num>’4‘</num>
+            <content eId="para_57_list_point_’4‘_content">
+              <p xml:space="preserve">	دعم تنفيذ تدابير المصالحة والعدالة المنصوص عليها في الاتفاق، وبخاصة في الجزء الخامس منه، بما في ذلك لدعم عمليات لجنة الحقيقة والعدالة والمصالحة ومتابعة توصيات لجنة التحقيق الدولية، والمساعدة على ضمان فعالية مسؤولي العدالة والإصلاحيات والسلطات القضائية المالية، ولا سيما فيما يتصل باحتجاز الأفراد المشتبه في تورطهم في جرائم تتعلق بالإرهاب أو في فظائع جماعية أو أنشطة تندرج في إطار الجريمة المنظمة عبر الوطنية (بما فيها الاتجار بالأشخاص والأسلحة والمخدرات والموارد الطبيعية وتهريب المهاجرين) والتحقيق معهم ومحاكمتهم، وتوقيع العقوبة على من تثبت مسؤوليتهم عن تلك الأعمال؛</p>
+            </content>
+          </point>
+          <point eId="para_57_list_point_’5‘">
+            <num>’5‘</num>
+            <content eId="para_57_list_point_’5‘_content">
+              <p xml:space="preserve">	تشجيع ودعم التنفيذ الكامل للاتفاق من جانب الأطراف المالية وجميع العناصر الفاعلة ذات الصلة غير الموقّعة للاتفاق، بسبل منها تشجيع المشاركة المجدية لمنظمات المجتمع المدني، بما فيها المنظمات النسائية، وبانيات السلام، والمنظمات الشبابية وبناة السلام من الشباب، ومساعدة الحكومة الانتقالية في مالي على التوعية بشأن مضمون الاتفاق وأهدافه؛</p>
+            </content>
+          </point>
+          <point eId="para_57_list_point_’6‘">
+            <num>’6‘</num>
+            <content eId="para_57_list_point_’6‘_content">
+              <p xml:space="preserve">	مساعدة الحكومة الانتقالية في مالي، بالاشتراك مع فريق الأمم المتحدة القطري، ضمن إطار آلية رصد قوية تلتزم بها الحكومة، على إجراء انتخابات حرة ونزيهة، في بيئة سلمية وبطريقة شفافة وشاملة للجميع، بما في ذلك انتخابات إقليمية ومحلية وتشريعية ورئاسية، وإجراء استفتاء دستوري، حسب الاقتضاء، بالتعاون مع الجماعة الاقتصادية لدول غرب أفريقيا من أجل التوصل إلى اتفاق، وبالمشاركة الكاملة والمتساوية والمجدية للمرأة، وإدماج الشباب واللاجئين والمشردين داخليا من مالي، بسبل منها توفير المساعدة التقنية والترتيبات الأمنية لتحقيق السلام المستدام؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>(ب)</num>
+        <list eId="para_58_list">
+          <intro eId="para_58_list_intro">
+            <p xml:space="preserve">	<span class="italic">دعم تحقيق الاستقرار وإعادة بسط سلطة الدولة في وسط مالي</span></p>
+          </intro>
+          <point eId="para_58_list_point_’1‘">
+            <num>’1‘</num>
+            <content eId="para_58_list_point_’1‘_content">
+              <p xml:space="preserve">	دعم سلطات مالي في الاتفاق على استراتيجية شاملة وجامعة ومركزة على السياسة، تعالج الأسباب الجذرية للنزاع العنيف ودوافعه، وتحمي المدنيين، وتحد من العنف القبلي، وتعيد ترسيخ وجود الدولة وسلطة الدولة والخدمات الاجتماعية الأساسية في وسط مالي، وعلى تنفيذ تلك الاستراتيجية؛</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_’2‘">
+            <num>’2‘</num>
+            <content eId="para_58_list_point_’2‘_content">
+              <p xml:space="preserve">	تيسير استعادة وجود الدولة وسلطتها واستئناف تقديم الخدمات الاجتماعية الأساسية في وسط مالي، وكفالة تعزيز التنسيق بين العنصرين المدني والعسكري للبعثة، ومع المجتمعات المحلية والإقليمية، والجماعات والسلطات العسكرية والمدنية، ودعم إعادة نشر قوات الدفاع والأمن المالية فيه، بوسائل منها مواصلة تقديم الدعم التشغيلي واللوجستي والدعم في مجال النقل أثناء العمليات المنسقة والمشتركة، على أساس تخطيط واضح ومتماسك ومرن، وتعزيز تبادل المعلومات والاستخبارات والإجلاء الطبي، في حدود الموارد المتاحة؛</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_’3‘">
+            <num>’3‘</num>
+            <content eId="para_58_list_point_’3‘_content">
+              <p xml:space="preserve">	دعم سلطات مالي في كفالة محاسبة المسؤولين عن انتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني وتقديمهم إلى العدالة دون إبطاء؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>(ج)</num>
+        <list eId="para_60_list">
+          <intro eId="para_60_list_intro">
+            <p xml:space="preserve">	<span class="italic">حماية المدنيين</span></p>
+          </intro>
+          <point eId="para_60_list_point_’1‘">
+            <num>’1‘</num>
+            <content eId="para_60_list_point_’1‘_content">
+              <p xml:space="preserve">	حماية السكان المدنيين المعرضين لتهديد بالعنف المادي، دون المساس بالمسؤولية الرئيسية الواقعة على عاتق سلطات مالي؛</p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_’2‘">
+            <num>’2‘</num>
+            <content eId="para_60_list_point_’2‘_content">
+              <p xml:space="preserve">	اتخاذ خطوات فعالة، دعما لسلطات مالي، من أجل استباق وردع التهديدات المحدقة بالسكان المدنيين والتصدي لها بفعالية، ولا سيما في شمال ووسط مالي، باتباع نهج شامل ومتكامل، والقيام في هذا الصدد بما يلي:</p>
+            </content>
+          </point>
+          <sublist eId="para_60_list_point_’2‘_sublist">
+            <point eId="para_60_list_point_’2‘_sublist_point_1">
+              <num>-</num>
+              <content eId="para_60_list_point_’2‘_sublist_point_1_content">
+                <p xml:space="preserve">	تعميق فهم آليات الإنذار المبكر والاستجابة على نطاق البعثة وتعزيزها وتسجيل معدل استجابة البعثة المتكاملة وتحليله بصورة منهجية،</p>
+              </content>
+            </point>
+            <point eId="para_60_list_point_’2‘_sublist_point_2">
+              <num>-</num>
+              <content eId="para_60_list_point_’2‘_sublist_point_2_content">
+                <p xml:space="preserve">	تعزيز مشاركة المجتمعات المحلية وآليات الحماية، بما في ذلك التفاعل مع المدنيين، والتواصل المجتمعي، والمصالحة، والوساطة، ودعم حل النزاعات المحلية والقبلية، والمشاريع السريعة الأثر، والإعلام،</p>
+              </content>
+            </point>
+            <point eId="para_60_list_point_’2‘_sublist_point_3">
+              <num>-</num>
+              <content eId="para_60_list_point_’2‘_sublist_point_3_content">
+                <p xml:space="preserve">	اتخاذ تدابير قابلة للتكييف ومرنة ومحكمة واستباقية لحماية المدنيين، بسبل منها مواصلة نشر فرقة عمل متنقلة، وإعطاء الأولوية لنشر العتاد البري والجوي، حسب توافره، في المناطق التي يكون فيها المدنيون أكثر عرضة للخطر، مع توقع أن تضطلع سلطات مالي بمسؤولياتها في المناطق المعنية،</p>
+              </content>
+            </point>
+            <point eId="para_60_list_point_’2‘_sublist_point_4">
+              <num>-</num>
+              <content eId="para_60_list_point_’2‘_sublist_point_4_content">
+                <p xml:space="preserve">	التخفيف من المخاطر التي تحدق بالمدنيين قبل وأثناء وبعد أي عملية عسكرية أو عملية للشرطة، بسبل منها تتبع ما يلحق بالمدنيين من ضرر من جراء عمليات البعثة والحيلولة دون وقوعه والتقليل إلى أدنى حد منه ومعالجته،</p>
+              </content>
+            </point>
+            <point eId="para_60_list_point_’2‘_sublist_point_5">
+              <num>-</num>
+              <content eId="para_60_list_point_’2‘_sublist_point_5_content">
+                <p xml:space="preserve">	منع عودة العناصر المسلحة النشطة إلى المراكز السكنية الرئيسية والمناطق الأخرى التي يتعرض فيها المدنيون للخطر، وعدم الانخراط في عمليات مباشرة إلا لمواجهة التهديدات الخطيرة والموثوقة؛</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_60_list_point_’3‘">
+            <num>’3‘</num>
+            <content eId="para_60_list_point_’3‘_content">
+              <p xml:space="preserve">	توفير حماية خاصة للنساء والأطفال المتضررين من النزاع المسلح، بسبل منها نشر مستشارين معنيين بالحماية ومستشارين معنيين بحماية الطفل ومستشارين معنيين بحماية المرأة، وإجراء مشاورات مع المنظمات النسائية، وتلبية احتياجات ضحايا العنف الجنسي والجنساني في النزاع المسلح؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>(د)</num>
+        <list eId="para_63_list">
+          <intro eId="para_63_list_intro">
+            <p xml:space="preserve">	<span class="italic">تعزيز حقوق الإنسان وحمايتها</span></p>
+          </intro>
+          <point eId="para_63_list_point_’1‘">
+            <num>’1‘</num>
+            <content eId="para_63_list_point_’1‘_content">
+              <p xml:space="preserve">	مساعدة سلطات مالي في جهودها الرامية إلى تعزيز حقوق الإنسان وحمايتها، ولا سيما في مجالي العدالة والمصالحة، بما في ذلك دعم الجهود التي تضطلع بها هذه سلطات مالي، حسب الإمكان والاقتضاء وبما لا يخل بمسؤولياتها، من أجل تقديم المسؤولين عن الانتهاكات أو التجاوزات الجسيمة لحقوق الإنسان أو عن انتهاكات القانون الدولي الإنساني، ولا سيما جرائم الحرب والجرائم ضد الإنسانية في مالي إلى العدالة دون تأخير لا مبرر له، مع مراعاة أن السلطات الانتقالية في مالي كانت قد أحالت الوضع في بلدها منذ كانون الثاني/يناير 2012 إلى المحكمة الجنائية الدولية؛</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_’2‘">
+            <num>’2‘</num>
+            <content eId="para_63_list_point_’2‘_content">
+              <p xml:space="preserve">	رصد وتوثيق ما يرتكب في جميع أنحاء مالي من انتهاكات للقانون الدولي الإنساني وانتهاكات وتجاوزات لحقوق الإنسان، بما في ذلك جميع أشكال العنف الجنسي والجنساني، والاتجار بالأشخاص، والانتهاكات والتجاوزات المرتكبة ضد النساء والأطفال، وإجراء بعثات لتقصي الحقائق بشأن هذه الانتهاكات والتجاوزات، والمساعدة على التحقيق فيها، وإبلاغ مجلس الأمن بها علنا وفصليا، والإسهام في الجهود الرامية إلى منع حدوثها، بوسائل منها الاتصال بالشركاء المعنيين، حسب الاقتضاء؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>(ه)</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">المساعدة الإنسانية</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxt">
+        <content eId="para_68__content">
+          <p xml:space="preserve">	 المساهمة، في سياق تقديم الدعم لسلطات مالي، في تهيئة بيئة آمنة لإيصال المساعدة الإنسانية بشكل مأمون وبقيادة مدنية، وفقا للمبادئ الإنسانية، وفي تحقيق عودة المشردين داخليا واللاجئين أو إدماجهم محليا أو إعادة توطينهم على نحو طوعي ومأمون وكريم، وذلك بالتنسيق الوثيق مع الجهات الفاعلة في مجال المساعدة الإنسانية، بما يشمل الوكالات المعنية التابعة للأمم المتحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="H23">
+        <subheading>		مهام أخرى</subheading>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <content eId="para_70__content">
+          <p xml:space="preserve">	27 -	<span class="bold italic">يأذن كذلك </span>للبعثة المتكاملة، دون المساس بقدرتها على تنفيذ مهامها ذات الأولوية، باستخدام قدراتها الحالية للمساعدة في تنفيذ المهام الأخرى التالية على نحو مبسط ومتسلسل، على أن يوضع في الاعتبار أن المهام ذات الأولوية والمهام الثانوية يعزز كل منهما الآخر:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>(أ)</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">المشاريع السريعة الأثر</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <content eId="para_72__content">
+          <p xml:space="preserve">	 الإسهام في تهيئة بيئة آمنة للمشاريع السريعة الأثر المضطلع بها لدعم تنفيذ الاتفاق بشكل مباشر في الشمال أو لتلبية الاحتياجات الخاصة في الوسط على أساس تحليل محكم للنزاع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>(ب)</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">التعاون مع لجان الجزاءات</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <content eId="para_74__content">
+          <p xml:space="preserve">	  تقديم المساعدة إلى لجنة الجزاءات وفريق الخبراء المنشأ عملا بالقرار <a href="https://undocs.org/ar/S/RES/2374(2017)">2374 (2017)</a> وتبادل المعلومات معهما وكذلك تقديم المساعدة في التوعية بشأن دوريهما وولايتيهما؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <content eId="para_75__content">
+          <p xml:space="preserve">	  -تقديم المساعدة إلى لجنة الجزاءات المفروضة على تنظيم الدولة الإسلامية (داعش) وتنظيم القاعدة العاملة بموجب القرارات 1267/1989/2253 وإلى فريق الدعم التحليلي ورصد الجزاءات المنشأ بالقرار <a href="https://undocs.org/ar/S/RES/1526(2004)">1526 (2004)</a>، بطرق من بينها تقديم المعلومات المتصلة بتنفيذ التدابير الواردة في الفقرة 1 من القرار <a href="https://undocs.org/ar/S/RES/2368(2017)">2368 (2017)</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>(ج)</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">إدارة الأسلحة والذخيرة</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxt">
+        <content eId="para_77__content">
+          <p xml:space="preserve">	  مساعدة سلطات مالي في إزالة الألغام والأجهزة المتفجرة الأخرى وتدميرها وفي إدارة الأسلحة والذخيرة، في حدود الموارد المتاحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="H23">
+        <subheading>		الكيانات الأمنية الأخرى في مالي ومنطقة الساحل</subheading>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <content eId="para_79__content">
+          <p xml:space="preserve">	28 -	<span class="bold italic">يطلب</span> إلى الأمين العام أن يكفل القدر الكافي من التنسيق وتبادل المعلومات، ومن الدعم عند الاقتضاء، بين البعثة المتكاملة وقوات الدفاع والأمن المالية والقوة المشتركة التابعة للمجموعة الخماسية لمنطقة الساحل والقوات الفرنسية، حتى النهاية المقررة لوجودها في مالي، وبعثات الاتحاد الأوروبي في مالي، كل بحسب الولاية المنوطة به ومن خلال الآليات القائمة، <span class="bold italic">ويطلب كذلك</span> إلى البعثة المتكاملة أن تعقد اجتماعات منتظمة <span class="italic">لهيئة التنسيق في مالي</span> بوصفها المحفل الرئيسي لأعمال التنسيق وتبادل المعلومات والدعم المذكورة، وأن تستعمل أيضا هذا المحفل لمساعدة مالي في الإلمام الشامل بالأعمال التي تقوم بها هذه القوات الأمنية، في حدود الموارد المتاحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <content eId="para_80__content">
+          <p xml:space="preserve">	29 -	<span class="bold italic">يؤكد</span> أن أشكال التصدي الأمني للتهديدات التي تواجه مالي لا يمكن أن تكون فعالة إلا إذا تمت في إطار الامتثال الكامل للقانون الدولي، ومع اتخاذ الاحتياطات الممكنة للتقليل إلى أدنى حد ممكن من خطر إيذاء المدنيين في جميع مناطق العمليات، <span class="bold italic">ويهيب</span> بجميع قوات الأمن غير التابعة للأمم المتحدة التي تتلقى الدعم من القوة المتكاملة أن تواصل التعاون مع الأمم المتحدة وآليات الرصد والإبلاغ المعنية في تنفيذ سياسة بذل العناية الواجبة في مراعاة حقوق الإنسان عند تقديم دعم الأمم المتحدة إلى قوات أمنية غير تابعة لها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="H23">
+        <subheading>		قوات الدفاع والأمن المالية</subheading>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <content eId="para_82__content">
+          <p xml:space="preserve">	30 -	<span class="bold italic">يحث</span> البعثة المتكاملة والحكومة الانتقالية في مالي على مضاعفة جهودهما لضمان التنفيذ السريع والكامل والفعال لمذكرة التفاهم المتعلقة بتقديم الدعم في إعادة نشر قوات الدفاع والأمن المالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <content eId="para_83__content">
+          <p xml:space="preserve">	31 -	<span class="bold italic">يعرب عن قلقه البالغ</span> إزاء المزاعم المتكررة والمتزايدة بوقوع انتهاكات وتجاوزات للقانون الدولي لحقوق الإنسان وانتهاكات للقانون الدولي الإنساني على أيدي قوات الدفاع والأمن المالية لدى تنفيذ عمليات مكافحة الإرهاب، على النحو الذي وثقته البعثة المتكاملة، بما في ذلك في المذكرة الفصلية المنشورة في 30 أيار/مايو 2022، <span class="bold italic">ويحيط علما</span> بالتدابير التي أُعلن عنها للتصدي لتلك المزاعم، <span class="bold italic">ويحث</span> الحكومة الانتقالية في مالي على مواصلة تنفيذ تدابير للتصدي لهذه المزاعم، ولا سيما بإجراء تحقيقات شفافة وذات مصداقية وفي الوقت المناسب ومحاسبة المسؤولين عنها، <span class="bold italic">ويحث كذلك</span> الحكومة الانتقالية على اتخاذ تدابير لمنع المزيد من الانتهاكات والتجاوزات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <content eId="para_84__content">
+          <p xml:space="preserve">	32 -	<span class="bold italic">يحث</span> البعثة المتكاملة على أن تكفل الامتثال، في الدعم الذي تقدّمه إلى قوات الدفاع والأمن المالية في شمال ووسط مالي، لسياسة بذل العناية الواجبة في مراعاة حقوق الإنسان في جميع مراحل العمليات، بما في ذلك رصد وتقييم كيفية استخدام الدعم وفعالية تدابير التخفيف، ورهنا بتحديد البعثة المتكاملة لامتثال الجهات المستفيدة لاتفاق مركز القوات الخاص بالبعثة وحقوق الإنسان والقانون الدولي الإنساني، <span class="bold italic">ويحث</span> البعثة المتكاملة <span class="bold italic">كذلك</span> على ضمان خضوع هذا الدعم للرقابة المناسبة، ولا سيما في سياق المزاعم المتزايدة بوقوع انتهاكات وتجاوزات للقانون الدولي لحقوق الإنسان وانتهاكات للقانون الدولي الإنساني في وسط مالي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <content eId="para_85__content">
+          <p xml:space="preserve">	33 -	<span class="bold italic">يهيب</span> بالحكومة الانتقالية في مالي أن تنفذ جميع التوصيات التي قدمتها البعثة المتكاملة في إطار سياسة بذل العناية الواجبة في مراعاة حقوق الإنسان، <span class="bold italic">ويشجع</span> الشركاء الدوليين على التمسك باحترام القانون الدولي لحقوق الإنسان والقانون الدولي الإنساني وبالمساءلة كشرط لازم لشراكاتهم مع قوات الدفاع والأمن المالية أو غيرها من الجهات الفاعلة المسلحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="H23">
+        <subheading>		القوة المشتركة التابعة للمجموعة الخماسية لمنطقة الساحل</subheading>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <content eId="para_87__content">
+          <p xml:space="preserve">	34 -	<span class="bold italic">يعرب</span> عن تأييده للدعم الذي تقدمه البعثة للقوة المشتركة التابعة للمجموعة الخماسية لمنطقة الساحل، وفقا للشروط المنصوص عليها في القرارين <a href="https://undocs.org/ar/S/RES/2391(2017)">2391 (2017)</a> و <a href="https://undocs.org/ar/S/RES/2531(2020)">2531 (2020)</a>، وفي الاتفاق التقني بين الأمم المتحدة والاتحاد الأوروبي والمجموعة الخماسية لمنطقة الساحل، من خلال أنشطة الإجلاء الطبي وإجلاء المصابين وإتاحة المواد الاستهلاكية للدعم المعيشي، واستخدام معدات المصانع الهندسية وموادها ووحداتها التمكينية، دون التأثير على قدرة البعثة على تنفيذ ولايتها وأولوياتها الاستراتيجية المشار إليها في الفقرة 18، <span class="bold italic">ويشير</span> إلى أن هذا الدعم كان يعتبر دائما تدبيرا مؤقتا يُقدّم في امتثال صارم لسياسة بذل العناية الواجبة في مراعاة حقوق الإنسان، ويكرر دعوته إلى القوة المشتركة التابعة للمجموعة الخماسية إلى مواصلة تطوير قدرتها الخاصة على دعم نفسها، <span class="bold italic">ويحيط علما</span> بأن الاتحاد الأوروبي قرر تعليق بعض تمويله مؤقتا وعلى نحو يمكن الرجوع عنه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <content eId="para_88__content">
+          <p xml:space="preserve">	35 -	<span class="bold italic">يطلب</span> أن يتضمن تقرير الأمين العام المقبل عن القوة المشتركة التابعة للمجموعة الخماسية معلومات محدثة، حسب الاقتضاء، بشأن التقييم الاستراتيجي للفريق المستقل الرفيع المستوى المعني بالأمن والتنمية في منطقة الساحل، وفرعا يُقيِّم كيفية تأثير قرار مالي بالانسحاب من المجموعة الخماسية لمنطقة الساحل على الدعم المشار إليه في الفقرة 35 أعلاه، <span class="bold italic">ويعرب</span> عن اعتزامه اتخاذ قرار بشأن استمرار هذا الدعم مع الإحاطة علما بهذا التقرير وقرارات المجموعة الخماسية والاتحاد الأوروبي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <content eId="para_89__content">
+          <p xml:space="preserve">	36 -	<span class="bold italic">يطلب</span> إلى الأمين العام أن يعزز تبادل المعلومات بين البعثة المتكاملة ودول المجموعة الخماسية لمنطقة الساحل، من خلال تقديم المعلومات الاستخباراتية ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxt">
+        <content eId="para_90__content">
+          <p xml:space="preserve">	37 -	<span class="bold italic">يشير</span> إلى أن التقيد بإطار الامتثال المشار إليه في القرار <a href="https://undocs.org/ar/S/RES/2391(2017)">2391 (2017)</a> أمر أساسي في ضمان الثقة اللازمة في أوساط السكان، ومن ثم ضمان فعالية ومشروعية القوة المشتركة التابعة للمجموعة الخماسية، <span class="bold italic">ويؤكد</span> الحاجة إلى استمرار دعم مفوضية الأمم المتحدة لحقوق الإنسان لتفعيل إطار الامتثال بالكامل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="H23">
+        <subheading>		مساهمة الاتحاد الأوروبي</subheading>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxt">
+        <content eId="para_92__content">
+          <p xml:space="preserve">	38 -	<span class="bold italic">يشجع</span> الاتحاد الأوروبي، ولا سيما ممثله الخاص لمنطقة الساحل وبعثته للمساهمة في تدريب القوات المسلحة المالية وبعثته للسياسة المشتركة للأمن والدفاع في مالي، كل في نطاق ولايته، على مواصلة جهوده الرامية إلى دعم سلطات مالي في مجال إصلاح قطاع الأمن وإعادة بسط سلطة الدولة ووجودها في جميع أرجاء الأراضي المالية، <span class="bold italic">ويشجع كذلك</span> على تنسيق هذه الجهود عن كثب مع البعثة المتكاملة، <span class="bold italic">ويطلب</span> إلى الأمين العام أن يعزز التعاون بين البعثة المتكاملة وبعثة الاتحاد الأوروبي العسكرية للمساهمة في تدريب القوات المسلحة المالية وبعثته للسياسة المشتركة للأمن والدفاع في مالي، بوسائل منها إيجاد مزيد من التكامل بين البعثات واستكشاف طرائق الدعم المتبادل المحتملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="H23">
+        <subheading>		قدرات البعثة المتكاملة وسلامة وأمن أفرادها</subheading>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <content eId="para_94__content">
+          <p xml:space="preserve">	39 -	<span class="bold italic">يشدد</span> على أهمية تزويد البعثة المتكاملة بالقدرات اللازمة لكي تضطلع بولايتها في بيئة أمنية معقدة تنطوي على أخطار غير متناظرة تحدق بأفرادها، <span class="bold italic">ويطلب</span> إلى الأمين العام، والدول الأعضاء والحكومة الانتقالية في مالي اتخاذ جميع التدابير المناسبة لضمان أفضل مستوى ممكن من السلامة والأمن لأفراد البعثة المتكاملة، وفقا للقرار <a href="https://undocs.org/ar/S/RES/2518(2020)">2518 (2020)</a>، ومبادئ توجيه تلقيح الأفراد النظاميين في مسرح العمليات وقبل نشرهم ضد كوفيد-19 وفقا للمبادئ التوجيهية للأمم المتحدة وأفضل الممارسات المتبعة لتحسين سلامة حفظة السلام، مع الإشارة أيضا إلى خطة العمل المتعلقة بتحسين السلامة والأمن المتصلة بالتقرير عن ”تحسين أمن حفظة السلام التابعين للأمم المتحدة“؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="SingleTxt">
+        <content eId="para_95__content">
+          <p xml:space="preserve">	40 -	<span class="bold italic">يسلم</span> بأن التنفيذ الفعَّال لولايات حفظ السلام مسؤولية تقع على جميع أصحاب المصلحة وهي مرهونة بعدة عوامل أساسية، منها وجود الولايات المحددة جيدا والواقعية والقابلة للإنجاز، وتوافر الإرادة السياسية، وضمان القيادة والأداء والمساءلة على جميع المستويات، وتوفر الموارد الكافية، ووضع السياسات، وإجراء التخطيط، ووضع المبادئ التوجيهية التشغيلية، وتوفير التدريب والمعدات، وفي هذا الصدد، <span class="bold italic">يشجع</span> البعثة المتكاملة على تنفيذ الإطار المتكامل للأداء والمساءلة في مجال حفظ السلام والنظام الشامل للتخطيط وتقييم الأداء بغية كفالة تقييم أداء البعثة بكاملها وفقا لتنفيذ ولاية البعثة، <span class="bold italic">ويحث</span> الدول الأعضاء على أن تسهم بقوات وأفراد شرطة يتوافر لهم ما يكفي من القدرات، منها ما يتعلق بالمهارات اللغوية والتدريب السابق للنشر، والتدريب في المواقع عند الاقتضاء، ومنها ما يتعلق بالمعدات، بما في ذلك العناصر الداعمة الخاصة ببيئة العمل، <span class="bold italic">ويطلب</span> من البلدان المساهمة بقوات وقوات شرطة تنفيذ الأحكام ذات الصلة من القرار <a href="https://undocs.org/ar/S/RES/2538(2020)">2538 (2020)</a>، <span class="bold italic">ويلاحظ</span> الآثار السلبية التي يمكن أن تطال تنفيذ الولاية بسبب المحاذير الوطنية التي لم يُعلن عنها ولم يوافق عليها الأمين العام قبل النشر، <span class="bold italic">ويؤكد</span> أن القيادة والتحكم الفعالين، والامتثال للأوامر، والاستجابة في الوقت المناسب للهجمات على المدنيين، والمشاركة في الدوريات تعد عناصر أساسية في تنفيذ الولاية بفعالية، <span class="bold italic">ويدعو</span> الدول الأعضاء إلى الإعلان عن جميع المحاذير، وإلى التقليل إلى أدنى حد ممكن من المحاذير التي تعلنها عند الإسهام بقوات وبأفراد شرطة، وإلى تنفيذ أحكام مذكرات التفاهم الموقعة مع الأمم المتحدة بصورة تامة وفعالة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxt">
+        <content eId="para_96__content">
+          <p xml:space="preserve">	41 -	<span class="bold italic">يطلب</span> إلى الأمين العام أن ينفذ كل ما يلزم لإعمال ما يلي من قدرات يتعين اكتسابها والتزامات قائمة في مجال تخطيط وإجراء عمليات البعثة:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	تنفيذ متطلبات الأداء في مجال حفظ السلام بموجب القرارين <a href="https://undocs.org/ar/S/RES/2378(2017)">2378 (2017)</a> و <a href="https://undocs.org/ar/S/RES/2436(2018)">2436 (2018)</a>،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	تحسين قدرات البعثة المتكاملة في مجال الاستخبارات والتحليل، بما في ذلك قدراتها في مجال المراقبة والرصد، فضلا عن عمليات الاستخبارات الخاصة بالتخلص من الذخائر المتفجرة، وتعزيز القدرة على استغلال الأدلة الجنائية المتعلقة بالتخلص من الذخائر المتفجرة، في حدود ولايتها،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	التحقق من أن الوحدات مدربة ومجهزة وفقا لمعايير الأمم المتحدة لمكافحة الأجهزة المتفجرة، لضمان اتخاذ إجراءات علاجية حسب الاقتضاء، بما في ذلك التدريب والمعرفة والمعدات اللازمة وفقا للاحتياجات الحالية للقوة،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	تحسين اللوجستيات في البعثة، ولا سيما باتخاذ جميع التدابير اللازمة لتأمين طرق الإمداد اللوجستي التي تستخدمها البعثة، بوسائل منها مواصلة نشر كتائب قتالية واستخدام تكنولوجيات حديثة، من قبيل أجهزة الاستشعار المتعددة ودمج المعلومات الاستخباراتية والمنظومات الجوية غير المأهولة، وكذلك عن طريق البحث عن طرق بديلة ممكنة للإمداد اللوجستي،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	تعزيز حماية المعسكرات، بما في ذلك من خلال النشر العاجل، عند الحاجة، لأنظمة تكنولوجية مناسبة، مثل أجهزة الإنذار بالهجوم بالنيران غير المباشرة، وأجهزة الإنذار المبكر، ورادارات الإنذار الأرضي،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	تنفيذ إجراءات أكثر فعالية لإجلاء المصابين والإجلاء الطبي، بما في ذلك إجراءات التشغيل الموحدة المتعلقة بالإجلاء اللامركزي للمصابين، فضلاً عن نشر قدرات معززة في مجال الإجلاء الطبي،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	اتخاذ إجراءات فعلية وناجعة لتحسين التخطيط والتشغيل في مرافق البعثة المتكاملة وترتيباتها المتعلقة بالسلامة والأمن، </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_125__content">
+          <p xml:space="preserve">	كفالة وضع مخططات طويلة الأجل لتناوب القدرات الحيوية، فضلا عن استكشاف خيارات مبتكرة لتعزيز الشراكات بين البلدان المساهمة بمعدات وبقوات وأفراد شرطة، </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	تعزيز تنفيذ الإنذار المبكر والاستجابة على نطاق البعثة، في إطار نهج منسَّق لجمع المعلومات وتتبع الحوادث وتحليلها، والرصد والتحقق والإنذار المبكر وتعميم المعلومات، وإيجاد آليات للتصدي،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	تعزيز قدراتها على رصد المعلومات المضللة والمعلومات المغلوطة التي قد تعوق قدرة البعثة على تنفيذ ولايتها وتهدد سلامة وأمن حفظة السلام وعلى التصدي لتلك المعلومات،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve">	تعزيز أنشطتها المتعلقة بمنع العنف الجنسي والجنساني والتصدي له بما يتماشى مع القرار <a href="https://undocs.org/ar/S/RES/2467(2019)">2467</a><a href="https://undocs.org/ar/S/RES/2467(2019)"> </a><a href="https://undocs.org/ar/S/RES/2467(2019)">(2019)</a>،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	تنفيذ القرار <a href="https://undocs.org/ar/S/RES/1325(2000)">1325 (2000)</a> وجميع القرارات التي تتناول المرأة والسلام والأمن، بما في ذلك عن طريق السعي إلى زيادة عدد النساء في البعثة المتكاملة بما يتماشى مع القرار <a href="https://undocs.org/ar/S/RES/2538(2020)">2538 (2020)</a>، مع مراعاة الاعتبارات الجنسانية مراعاة تامة بوصفها مسألة شاملة طوال فترة ولايتها،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_175__content">
+          <p xml:space="preserve">	مراعاة حماية الطفل مراعاة تامة باعتبارها مسألة شاملة،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_188" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_188__content">
+          <p xml:space="preserve">	تنفيذ الخطة المتعلقة بالشباب والسلام والأمن بموجب القرارات <a href="https://undocs.org/ar/S/RES/2250(2015)">2250 (2015)</a> و <a href="https://undocs.org/ar/S/RES/2419(2018)">2419 (2018)</a> و <a href="https://undocs.org/ar/S/RES/2535(2020)">2535 (2020)</a>،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_202" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_202__content">
+          <p xml:space="preserve">	تنفيذ سياسة الأمم المتحدة بشأن عدم التسامح إطلاقا إزاء سوء السلوك الجسيم والاستغلال والانتهاك الجنسيين والتحرش الجنسي، وجميع الإجراءات المنصوص عليها بموجب القرار <a href="https://undocs.org/ar/S/RES/2272(2016)">2272</a><a href="https://undocs.org/ar/S/RES/2272(2016)"> </a><a href="https://undocs.org/ar/S/RES/2272(2016)">(2016)</a>، وإبلاغ مجلس الأمن في حالة حدوث حالات سوء سلوك من هذا القبيل،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	إعطاء الأولوية لأنشطة الحماية الصادر بها تكليف عند اتخاذ القرارات المتعلقة باستخدام القدرات والموارد المتاحة داخل البعثة، وفقا للقرار <a href="https://undocs.org/ar/S/RES/1894(2009)">1894 (2009)</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="SingleTxt">
+        <content eId="para_218__content">
+          <p xml:space="preserve">	42 -	<span class="bold italic">يدين</span> بأشد العبارات جميع الهجمات والاستفزازات والتحريض على العنف التي تستهدف حفظة السلام التابعين للبعثة المتكاملة وغيرهم من موظفي الأمم المتحدة والأفراد المرتبطين بها، <span class="bold italic">ويشدد</span> على أن هذه الهجمات قد تشكل جرائم حرب بموجب القانون الدولي، <span class="bold italic">ويدعو</span> جميع الأطراف إلى احترام الالتزامات الملقاة على عاتقها بموجب القانون الدولي، <span class="bold italic">ويؤكد</span> أن المسؤولين عن هذه الأعمال ينبغي أن يخضعوا للمساءلة، <span class="bold italic">ويدعو</span> الحكومة الانتقالية في مالي إلى اتخاذ جميع التدابير الممكنة لمباشرة التحقيقات بسرعة واعتقال مرتكبي هذه الأعمال وملاحقتهم قضائيا وتقديمهم إلى العدالة، كي لا يشجع الإفلات من العقاب على ارتكاب أعمال عنف ضد حفظة السلام في المستقبل، بما في ذلك بما يتماشى مع القرارين <a href="https://undocs.org/ar/S/RES/2518(2018)">2518</a><a href="https://undocs.org/ar/S/RES/2518(2018)"> </a><a href="https://undocs.org/ar/S/RES/2518(2018)">(2018)</a> و <a href="https://undocs.org/ar/S/RES/2589(2021)">2589 (2021)</a>، <span class="bold italic">ويهيب</span> بالبعثة المتكاملة أن تقدم الدعم إلى الحكومة الانتقالية في مالي لهذا الغرض، <span class="bold italic">ويطلب كذلك</span> إلى الأمين العام أن يكفل حصول البلدان المساهمة بقوات على المعلومات الكافية ذات الصلة بالأساليب والتقنيات والإجراءات المحدثة المتبعة في الحد من خسائر القوات في بيئة غير متناظرة قبل نشرها في مالي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_219" class="SingleTxt">
+        <content eId="para_219__content">
+          <p xml:space="preserve">	43 -	<span class="bold italic">يناشد</span> الدول الأعضاء، ولا سيما دول المنطقة، كفالة تنقل جميع الأفراد، وكذلك المعدات والمؤن والإمدادات وغيرها من السلع التي يكون استخدامها مقصورا على البعثة المتكاملة ومهامها الرسمية، بحرية ومن دون عراقيل وعلى نحو سريع من مالي وإليها، وذلك لتيسير إيصال الإمدادات اللوجستية للبعثة في الوقت المناسب وبفعالية من حيث التكلفة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="SingleTxt">
+        <content eId="para_220__content">
+          <p xml:space="preserve">	44 -	<span class="bold italic">يطلب</span> إلى البلدان المساهمة بقوات وبأفراد شرطة أن تنفذ الأحكام ذات الصلة من القرار <a href="https://undocs.org/ar/S/RES/2538(2020)">2538 (2020)</a> وجميع القرارات الأخرى ذات الصلة بشأن تقليل العوائق أمام مشاركة المرأة على جميع المستويات وفي جميع المناصب في عمليات حفظ السلام وزيادة مشاركتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_221" class="H23">
+        <subheading>		الالتزامات القائمة بموجب القانون الدولي وقانون حقوق الإنسان والجوانب ذات الصلة</subheading>
+      </paragraph>
+      <paragraph eId="para_222" class="SingleTxt">
+        <content eId="para_222__content">
+          <p xml:space="preserve">	45 -	<span class="bold italic">يحث</span> سلطات مالي على تعزيز الجهود الرامية إلى تشديد المساءلة وكفالة محاسبة جميع المسؤولين عن الجرائم التي تقع فيها انتهاكات وتجاوزات لحقوق الإنسان وانتهاكات للقانون الدولي الإنساني، بما يشمل تلك التي تنطوي على عنف جنسي وجنساني واتجار بالأشخاص، وتقديمهم إلى العدالة دون تأخير لا مبرر له، وعلى كفالة الإبلاغ على نحو فعال عن التقدم المحرز في التحقيقات والمحاكمات والنتائج التي تفضي إليها، وعلى كفالة إمكانية لجوء جميع ضحايا العنف الجنسي والناجين من آثاره في حالات النزاع وما بعد النزاع إلى العدالة، <span class="bold italic">ويلاحظ</span> في هذا الصدد أن سلطات مالي تواصل التعاون مع المحكمة الجنائية الدولية في المسائل التي تخضع لولايتها القضائية تمشياً مع التزامات مالي بموجب نظام روما الأساسي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_223" class="SingleTxt">
+        <content eId="para_223__content">
+          <p xml:space="preserve">	46 -	<span class="bold italic">يحث</span> جميع الأطراف على الوفاء بالتزاماتها التي ينص عليها القانون الدولي الإنساني باحترام وحماية جميع المدنيين، بما يشمل موظفي المساعدة الإنسانية والأعيان المدنية، وكذلك جميع الأفراد العاملين في المجال الطبي والإنساني الذين يقومون حصرا بمهام طبية، ووسائل تنقلهم ومعداتهم، فضلا عن المستشفيات وسائر المرافق الطبية، على واتخاذ جميع الخطوات اللازمة التي تسمح لجهات العمل الإنساني بإيصال المساعدات إلى جميع المحتاجين إليها على أكمل وجه وبشكل آمن وفوري ومن دون عوائق والتي تسهّل على تلك الجهات القيام بذلك، مع احترام مبادئ العمل الإنساني وأحكام القانون الدولي الواجبة التطبيق؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_224" class="SingleTxt">
+        <content eId="para_224__content">
+          <p xml:space="preserve">	47 -	<span class="bold italic">يؤكد</span> من جديد قراراته السابقة بشأن حماية المدنيين في النزاعات المسلحة، بما في ذلك القرار <a href="https://undocs.org/ar/S/RES/1894(2009)">1894 (2009)</a>، والأطفال والنزاع المسلح، والمرأة والسلام والأمن، والشباب والسلام والأمن، <span class="bold italic">ويهيب</span> بجميع القوات العسكرية العاملة في مالي أن تضع المدنيين في الاعتبار وأن تلتزم بالقانون الدولي الإنساني، والقانون الدولي لحقوق الإنسان والقانون الدولي للاجئين، حسب الاقتضاء، <span class="bold italic">ويذكّر</span> بأهمية التدريب في هذا المجال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_225" class="SingleTxt">
+        <content eId="para_225__content">
+          <p xml:space="preserve">	48 -	<span class="bold italic">يرحب</span> باعتماد سلطات مالي خطة عمل ثالثة لتنفيذ القرار <a href="https://undocs.org/ar/S/RES/1325(2000)">1325 (2000)</a>، <span class="bold italic">ويدعو</span> سلطات مالي إلى ضمان تنفيذها وتنقيحها على نحو فعال، <span class="bold italic">ويطلب</span> إلى البعثة المتكاملة أن تساعد سلطات مالي على كفالة مشاركة النساء وانخراطهن وتمثيلهن على نحو كامل ومتساو ومجد وعلى جميع المستويات في اتخاذ القرارات وتنفيذ الاتفاق، وذلك في مجالات شتى من بينها إصلاح قطاع الأمن، وعمليات نزع السلاح والتسريح وإعادة الإدماج، وكذلك المصالحة، وعملية الانتقال السياسي والعمليات الانتخابية، <span class="bold italic">ويدعو</span> الأطراف في مالي إلى التصدي لضرورة توفير حماية إضافية للنساء والأطفال الذين يعيشون في أوضاع هشة باعتبارها مسألة شاملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_226" class="SingleTxt">
+        <content eId="para_226__content">
+          <p xml:space="preserve">	49 -	<span class="bold italic">يحث</span> جميع الأطراف على تنفيذ الاستنتاجات المتعلقة بالأطفال والنزاع المسلح في مالي التي اعتمدها الفريق العامل التابع لمجلس الأمن في 17 كانون الأول/ديسمبر 2020، وعلى الإفراج فورا، دون شروط مسبقة، عن جميع الأطفال من صفوفها، وتسليمهم إلى الجهات الفاعلة المدنية المعنية بحماية الطفل، وإنهاء ومنع المزيد من تجنيد الأطفال واستخدامهم، وعلى ضمان مراعاة حماية حقوق الطفل في تنفيذ الاتفاق، وفي عمليات نزع السلاح والتسريح وإعادة الإدماج وفي إصلاح قطاع الأمن، <span class="bold italic">ويشجع</span> الحكومة الانتقالية في مالي على مواصلة جهودها الرامية إلى تعزيز الإطار القانوني المتعلق بحماية الطفل، بسبل من قبيل التقيد بالتزاماتها بموجب البروتوكول الاختياري لاتفاقية حقوق الطفل بشأن إشراك الأطفال في المنازعات المسلحة، والانتهاء من تنقيحات قانون حماية الطفل، وتنفيذ الالتزامات التي تعهدت بها لما اعتمدت إعلان المدارس الآمنة وتحديد المدارس التي أغلقت أو استهدفت أو تعرضت للتهديد، <span class="bold italic">ويحث</span> جميع الجماعات المسلحة على وضع وتنفيذ خطط عمل لإنهاء ومنع جميع الانتهاكات الخطيرة الستة التي تُرتكب ضد الأطفال، على النحو الذي حدده الأمين العام، بما في ذلك تجنيد الأطفال واستخدامهم والعنف الجنسي ضد الأطفال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_227" class="SingleTxt">
+        <content eId="para_227__content">
+          <p xml:space="preserve">	50 -	<span class="bold italic">يحث</span> جميع الأطراف على منع العنف الجنسي في حالات النزاع وما بعد النزاع والقضاء عليه، <span class="bold italic">ويشجع</span> على تنفيذ البيان المشترك المتعلق بالعنف الجنسي والعنف الجنساني الذي وقعته الأمم المتحدة وحكومة مالي في آذار/مارس 2019، <span class="bold italic">ويشجع كذلك</span> سلطات مالي على مواصلة اتخاذ خطوات بغية سن مشروع القانون المتعلق بمنع العنف الجنساني ومقاضاة مرتكبيه والتصدي له، <span class="bold italic">ويهيب</span> بالجماعة المسلحة المسماة ”الائتلاف“ أن تنفذ الالتزامات الواردة في بيانها الصادر في حزيران/يونيه 2016 بشأن منع العنف الجنسي المرتبط بالنزاع في مالي، وبالجماعة المسلحة المسماة ”التنسيقية“ أن تعلن التزامات مماثلة، <span class="bold italic">ويطلب</span> إلى البعثة المتكاملة تقديم الدعم للجهود المبذولة في هذا الصدد، بما في ذلك دعم توفير الخدمات الطبية وخدمات الصحة الجنسية والإنجابية، والصحة النفسية الاجتماعية، والصحة العقلية، والخدمات القانونية والاجتماعية الاقتصادية لجميع الناجين من آثار العنف الجنسي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_228" class="SingleTxt">
+        <content eId="para_228__content">
+          <p xml:space="preserve">	51 -	<span class="bold italic">يحث</span> البلدان المساهمة بقوات وأفراد الشرطة على مواصلة اتخاذ الإجراءات المناسبة لمنع الاستغلال والانتهاك الجنسيين، بما في ذلك فحص السجلات الشخصية والتدريب للتوعية لصالح جميع الموظفين قبل النشر وأثناء البعثة، لكفالة المساءلة التامة في حال إتيان الأفراد التابعين لها أي سلوك من هذا القبيل، بوسائل منها إجراء التحقيقات في الوقت المناسب في جميع ادعاءات الاستغلال والانتهاك الجنسيين، وإعادة الوحدات إلى أوطانها عندما تكون هناك أدلة موثوقة على قيام تلك الوحدات باستغلال وانتهاك جنسيين على نطاق واسع أو بشكل منهجي، واتخاذ التدابير التأديبية المناسبة، وإبلاغ الأمم المتحدة فورا بجميع الإجراءات المتخذة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_229" class="SingleTxt">
+        <content eId="para_229__content">
+          <p xml:space="preserve">	52 -	<span class="bold italic">يدعو</span> الدول الأعضاء والمنظمات الدولية والإقليمية إلى الاستجابة بسرعة للأزمة الغذائية والإنسانية الكبيرة في مالي من خلال زيادة المساهمات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_230" class="H23">
+        <subheading>		المسائل البيئية</subheading>
+      </paragraph>
+      <paragraph eId="para_231" class="SingleTxt">
+        <content eId="para_231__content">
+          <p xml:space="preserve">	53 -	<span class="bold italic">يطلب</span> إلى البعثة المتكاملة أن تنظر في الآثار البيئية لعملياتها عند اضطلاعها بالمهام الموكلة إليها، وأن تقوم في هذا السياق بإدارة هذه الآثار على النحو المناسب ووفقا لقرارات الجمعية العامة ذات الصلة وقواعد الأمم المتحدة وأنظمتها السارية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_232" class="SingleTxt">
+        <content eId="para_232__content">
+          <p xml:space="preserve">	54 -	<span class="bold italic">يشدد</span> على أن استدامة الدعم المقدم في مجال السلام والأمن تتحسن بتنفيذ الاستراتيجية البيئية لإدارة الدعم العملياتي بالأمم المتحدة (المرحلة الثانية)، التي تشدد على حسن إدارة الموارد وعلى أن تترك البعثة إرثا إيجابيا، وتتوخى تحقيق هدف توسيع نطاق استخدام الطاقة المتجددة في البعثات لتعزيز السلامة والأمن، وتوفير التكاليف وزيادة الكفاءة وتحقيق فوائد للبعثة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_233" class="H23">
+        <subheading>		التخفيف من حدة أخطار الأسلحة الصغيرة والأسلحة الخفيفة والذخيرة المتفجرة</subheading>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxt">
+        <content eId="para_234__content">
+          <p xml:space="preserve">	55 -	<span class="bold italic">يهيب</span> بسلطات مالي أن تتصدى لمسألة انتشار الأسلحة الصغيرة والأسلحة الخفيفة والاتجار غير المشروع بها، بسبل منها كفالة إدارة المخزونات من الأسلحة والذخيرة وتخزينها وتأمينها بطريقة مأمونة وفعالة وفقا لاتفاقية الجماعة الاقتصادية لدول غرب أفريقيا المتعلقة بالأسلحة الصغيرة والأسلحة الخفيفة وذخائرها وغيرها من المواد ذات الصلة، ولبرنامج عمل الأمم المتحدة المتعلق بالأسلحة الصغيرة والأسلحة الخفيفة، وللقرارين <a href="https://undocs.org/ar/S/RES/2220(2015)">2220 (2015)</a> و <a href="https://undocs.org/ar/S/RES/2616(2021)">2616 (2021)</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_235" class="SingleTxt">
+        <content eId="para_235__content">
+          <p xml:space="preserve">	56 -	<span class="bold italic">يهيب</span> بسلطات مالي أن تعزز التعاون مع الأمم المتحدة، والمنظمات الإقليمية ودون الإقليمية، والمجتمع المدني والقطاع الخاص من أجل التصدي بأنسب السبل لتهديد الذخائر المتفجرة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_236" class="H23">
+        <subheading>		التقارير المقدمة من الأمين العام</subheading>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxt">
+        <content eId="para_237__content">
+          <p xml:space="preserve">	57 -	<span class="bold italic">يطلب</span> إلى الأمين العام أن يقدم إلى مجلس الأمن، مرة كل ثلاثة أشهر بعد اتخاذ هذا القرار، تقريرا عن تنفيذ القرار يركز فيه على ما يلي:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_238" class="SingleTxt">
+        <num>’1‘</num>
+        <content eId="para_238__content">
+          <p xml:space="preserve">	الحالة في مالي، بما في ذلك التطورات السياسية والأمنية الرئيسية، والتهديد الإرهابي، وتنفيذ الاتفاق، وحالة حقوق الإنسان، بما في ذلك حقوق المرأة، والتخفيف من خطر الأسلحة الصغيرة والأسلحة الخفيفة والذخائر المتفجرة، حسب الاقتضاء، وما إذا كانت أنشطة البعثة قد أسهمت في تحقيق المهام ذات الأولوية الاستراتيجية للبعثة المشار إليها في الفقرة 26، وكيفية إسهام تلك الأنشطة في ذلك،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_239" class="SingleTxt">
+        <num>’2‘</num>
+        <content eId="para_239__content">
+          <p xml:space="preserve">	التنسيق وتبادل المعلومات، والدعم التشغيلي واللوجستي المتبادل عند اللزوم، بين البعثة المتكاملة وقوات الدفاع والأمن المالية والقوة المشتركة التابعة للمجموعة الخماسية لمنطقة الساحل والقوات الفرنسية حتى النهاية المقررة لوجودها في مالي وبعثات الاتحاد الأوروبي في مالي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_241" class="SingleTxt">
+        <num>’3‘</num>
+        <content eId="para_241__content">
+          <p xml:space="preserve">	الأداء العام، بما في ذلك تنفيذ خطة التكيف، واستخدام الإطار المتكامل للأداء والمساءلة في مجال حفظ السلام والنظام الشامل للتخطيط وتقييم الأداء، وتحسين وأداء نظام إجلاء المصابين، وعمليات تناوب الأفراد النظاميين، بما في ذلك المعلومات المتعلقة بالمحاذير غير المعلنة، ورفض المشاركة في الدوريات أو تسييرها وأثر ذلك على البعثة، وكيفية معالجة حالات التقصير في الأداء المبلغ عنها،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_244" class="SingleTxt">
+        <num>’4‘</num>
+        <content eId="para_244__content">
+          <p xml:space="preserve">	قدرات البعثة المتكاملة، بما في ذلك سلامة أفراد البعثة وأمنهم وإمكانية وصولهم وحرية تنقلهم، والحالات التي لم تتمكن فيها البعثة من الوصول إلى المدنيين لتنفيذ الأنشطة المسندة إليها والتصدي للتهديدات المحتملة للحماية، وجميع حالات التدخل في أنشطة البعثة من جانب جميع الجهات الفاعلة، بما في ذلك انتهاكات اتفاق مركز القوات، ورفض منح تراخيص الطيران وشن الهجمات والاستفزازات والتحريض على الكراهية والعنف وحملات المعلومات المضللة والمعلومات المغلوطة ضد البعثة، والجهود المبذولة لمحاسبة مرتكبي هذه الأعمال، حسب الاقتضاء،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_248" class="SingleTxt">
+        <num>’5‘</num>
+        <content eId="para_248__content">
+          <p xml:space="preserve">	التدابير الرامية إلى تحسين الاتصالات الخارجية للبعثة ومكافحة المعلومات المضللة والمعلومات المغلوطة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_249" class="SingleTxt">
+        <content eId="para_249__content">
+          <p xml:space="preserve">	58 -	<span class="bold italic">يعرب عن تأييده</span> لاقتراح الأمين العام بإجراء استعراض داخلي للبعثة المتكاملة، دون المساس بتنفيذ ولايتها الحالية وما يتخذه مجلس الأمن من قرارات في المستقبل، <span class="bold italic">ويطلب</span> إحالة هذا الاستعراض في موعد أقصاه 13 كانون الثاني/يناير 2023 وتقديم ما يلي:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_250" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_250__content">
+          <p xml:space="preserve">	تحليل مفصل للتحديات السياسية والأمنية التي أثرت في قدرة البعثة على تنفيذ ولايتها،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_251" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_251__content">
+          <p xml:space="preserve">	تقييم للتعاون مع السلطات المضيفة والقيود المفروضة على الحركة،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_253__content">
+          <p xml:space="preserve">	توصيات بشأن الظروف اللازمة لكي تواصل البعثة المتكاملة عملها، ودعم تحسين الحالة السياسية والأمنية، وإنجاز المهام المسندة إليها لتعزيز متانة موقفها وقدرتها العملياتية على حماية المدنيين، بما يتفق تماما مع مبادئ حفظ السلام،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_256" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_256__content">
+          <p xml:space="preserve">	خيارات بشأن تشكيل البعثة المتكاملة، ومستويات قوتها، والحد الأقصى للأفراد النظاميين فيها في المستقبل؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_257" class="SingleTxt">
+        <content eId="para_257__content">
+          <p xml:space="preserve">59 -	<span class="bold italic">يقرر</span> أن يبقي المسألة قيد نظره الفعلي.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
