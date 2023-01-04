@@ -1,0 +1,758 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/"></FRBRuri>
+          <FRBRdate date="2022-12-20" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/rus@/"></FRBRuri>
+          <FRBRdate date="2022-12-20" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/rus@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-03" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Organization Stabilization Mission in the Democratic Republic of the Congo" showAs="UN Organization Stabilization Mission in the Democratic Republic of the Congo" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Group of Experts Established pursuant to Resolution 1533 (2004)" showAs="UN. Group of Experts Established pursuant to Resolution 1533 (2004)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" showAs="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Charter of the United Nations (1945). Chapter VII" showAs="Charter of the United Nations (1945). Chapter VII" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEBUILDING" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" showAs="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO" showAs="DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[104]" showAs="UN ORGANIZATION STABILIZATION MISSION IN THE DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="[102]" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation concerning the Democratic Republic of the Congo." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2666 (2022) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 20 Dec. 2023]" showAs="Security Council resolution 2666 (2022) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 20 Dec. 2023]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-12-20" outcome="draftResolution" as="S/2022/960" by="France" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-12-20" outcome="adopted" as="S/PV.9226" by="Adopted unanimously, 9226th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-29059 (R)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2666 (2022)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Совет Безопасности</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-12-20" class="rightSmall" refersTo="#dateOfIssuance">20 December 2022</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Резолюция 2666 (2022),</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">принятая Советом Безопасности на его <inline name="adoptionMeeting" title="9226-м">9226-м заседании </inline><docDate date="2022-12-20" refersTo="#adoptionDate">20 декабря 2022 года</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Совет Безопасности</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">ссылаясь</span> на свои предыдущие резолюции и заявления своего Председателя, касающиеся Демократической Республики Конго (ДРК), в особенности на свои предыдущие резолюции, касающиеся мандата Миссии Организации Объединенных Наций по стабилизации в ДРК (МООНСДРК) и санкционного режима, введенного резолюциями <a href="https://undocs.org/ru/S/RES/1493(2003)">1493 (2003)</a> и <a href="https://undocs.org/ru/S/RES/1807(2008)">1807 (2008)</a>,</p>
+      </container>
+      <container name="подтверждая" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> основные принципы деятельности по поддержанию мира, включая согласие сторон, беспристрастность и неприменение силы, кроме случаев, когда это необходимо в целях самообороны и защиты мандата,</p>
+      </container>
+      <container name="подтверждая также" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">подтверждая также</span> свою твердую приверженность суверенитету, независимости, единству и территориальной целостности ДРК и всех государств этого региона и <span class="italic">особо отмечая</span> безотлагательную необходимость полного соблюдения принципов невмешательства, добрососедства и регионального сотрудничества,</p>
+      </container>
+      <container name="напоминая" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о том, что правительство ДРК несет главную ответственность за защиту гражданских лиц, находящихся на его территории и под его юрисдикцией, в том числе их защиту от международных преступлений, признавая хронические проблемы безопасности, создающие угрозу для мирного населения, и особо отмечая важность национальных усилий по восстановлению государственной власти во всех районах страны в целях преодоления угроз, создаваемых вооруженными группами,</p>
+      </container>
+      <container name="отмечая" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">отмечая</span>, что ДРК по‑прежнему страдает от повторяющихся и видоизменяющихся циклов конфликта и непрекращающегося насилия со стороны иностранных и национальных вооруженных групп и что это обостряет крайне тревожную кризисную ситуацию в плане безопасности и прав человека и в гуманитарной сфере, а также усиливает межобщинное насилие и насилие со стороны ополченцев в некоторых районах ДРК,</p>
+      </container>
+      <container name="выражая обеспокоенность" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">выражая обеспокоенность</span> сообщениями о связях между Альянсом демократических сил (АДС) и террористическими сетями в восточной части ДРК, <span class="italic">подчеркивая</span>, что такие связи могут еще более усугублять конфликты и вести к подрыву государственной власти, и <span class="italic">особо отмечая</span> невозможность решения этих проблем исключительно военными средствами, а также важность целостного подхода к борьбе с терроризмом, реализуемого в соответствии с применимым международным правом,</p>
+      </container>
+      <container name="отмечая" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">отмечая</span> усилия правительства и народа ДРК, направленные на достижение мира и обеспечение национального развития, а также региональную поддержку и взаимодействие и <span class="italic">отмечая также</span> усилия Вооруженных сил ДРК (ВСДРК) и МООНСДРК по устранению угрозы, создаваемой вооруженными группами в ДРК,</p>
+      </container>
+      <container name="будучи по‑прежнему глубоко обеспокоен" eId="container_9">
+          <p xml:space="preserve">	<span class="italic">будучи по‑прежнему глубоко обеспокоен</span> многочисленными нарушениями и ущемлениями прав человека и нарушениями норм международного гуманитарного права, которые совершаются всеми сторонами, в частности вооруженными группами, в некоторых районах страны, а также эскалацией межобщинного насилия, подпитываемого использованием языка ненависти и распространением недостоверной и заведомо ложной информации, в том числе в социальных сетях,</p>
+      </container>
+      <container name="подтверждая" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">подтверждая</span> важную роль женщин и молодежи в предотвращении, регулировании и разрешении конфликтов, а также в миростроительстве и избирательных процессах и подчеркивая важность их всестороннего, равноправного, эффективного, значимого и безопасного участия во всех усилиях, направленных на поддержание и укрепление мира и безопасности в ДРК,</p>
+      </container>
+      <container name="выражая серьезную обеспокоенность" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">выражая серьезную обеспокоенность</span> ухудшением гуманитарной ситуации, которое привело к тому, что в гуманитарной помощи нуждается, по оценкам, 27 миллионов конголезцев, увеличением численности внутренне перемещенных лиц в ДРК, которая на сегодняшний день составляет, по оценкам, 5,7 миллиона человек, и тем, что в результате продолжающихся боевых действий число беженцев в ДРК составило 523 000 человек, а число беженцев из ДРК в Африке — свыше 1 миллиона человек, <span class="italic">призывая</span> государства-члены взять на себя обязательство по более справедливому распределению бремени и ответственности в связи с приемом и поддержкой беженцев в ДРК в рамках комплекса мер в отношении беженцев, <span class="italic">призывая также</span> ДРК и все государства этого региона содействовать созданию мирных условий, благоприятствующих долговременному урегулированию положения беженцев и внутренне перемещенных лиц, в том числе их добровольному, безопасному и достойному возвращению и реинтеграции в ДРК, при поддержке со стороны страновой группы Организации Объединенных Наций и <span class="italic">подчеркивая</span>, что любые варианты такого урегулирования должны согласовываться с соответствующими обязательствами по международному беженскому праву, международному гуманитарному праву и международному праву прав человека,</p>
+      </container>
+      <container name="напоминая" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">напоминая</span> о руководящих принципах Организации Объединенных Наций в области оказания чрезвычайной гуманитарной помощи,</p>
+      </container>
+      <container name="ссылаясь" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на резолюции <a href="https://undocs.org/ru/S/RES/2532(2020)">2532 (2020)</a> и <a href="https://undocs.org/ru/S/RES/2565(2021)">2565 (2021)</a>, в которых содержится требование о незамедлительном всеобщем прекращении боевых действий во всех ситуациях, фигурирующих в повестке дня Совета, и призыв ко всем сторонам вооруженных конфликтов незамедлительно сделать длительную гуманитарную паузу, с тем чтобы обеспечить безопасную, своевременную, беспрепятственную и систематическую доставку гуманитарной помощи в соответствии с гуманитарными принципами гуманности, нейтралитета, беспристрастности и независимости,</p>
+      </container>
+      <container name="отмечая" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	отмечая </span>важность коммерческой торговли продовольствием, топливом и другими товарами первой необходимости для удовлетворения основных жизненных потребностей гражданского населения,</p>
+      </container>
+      <container name="ссылаясь" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">ссылаясь </span>на все свои соответствующие резолюции о женщинах, мире и безопасности, о молодежи, мире и безопасности, о детях и вооруженных конфликтах и о защите гражданских лиц в вооруженном конфликте, <span class="italic">с удовлетворением отмечая</span> усилия правительства ДРК в этой связи и усилия по осуществлению резолюции <a href="https://undocs.org/ru/S/RES/1325(2000)">1325 (2000)</a>, <span class="italic">ссылаясь также</span> на выводы по вопросу о детях и вооруженном конфликте в ДРК, принятые 10 декабря 2020 года Рабочей группой Совета Безопасности по вопросу о детях и вооруженных конфликтах в отношении сторон вооруженных конфликтов в ДРК, <span class="italic">выражая </span>серьезную обеспокоенность по поводу многочисленных нарушений в отношении детей, совершаемых силами безопасности, в том числе по поводу сексуального и гендерного насилия, и <span class="italic">призывая</span> все стороны содействовать реабилитации и реинтеграции детей, ранее связанных с вооруженными группами и силами,</p>
+      </container>
+      <container name="признавая" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">признавая</span> неблагоприятные последствия изменения климата, экологических изменений, стихийных бедствий и отсутствия доступа к энергоресурсам, среди прочих факторов, для стабильности ДРК, <span class="italic">с удовлетворением отмечая</span> руководящую роль ДРК в разработке национальных стратегий в целях решения этих проблем и сохранения лесов бассейна реки Конго, <span class="italic">выражая обеспокоенность</span> по поводу деятельности вооруженных групп в охраняемых районах, которая наносит ущерб окружающей среде, и <span class="italic">учитывая</span> Рамочную конвенцию Организации Объединенных Наций об изменении климата и Парижское соглашение,</p>
+      </container>
+      <container name="вновь заявляя" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">вновь заявляя</span>, что МООНСДРК необходимо полностью выполнять свой мандат, определенный в соответствующих резолюциях Совета Безопасности, используя все имеющиеся в ее распоряжении средства для эффективного устранения угрозы, создаваемой вооруженными группами, и других угроз безопасности в условиях эскалации вооруженного конфликта в ДРК,</p>
+      </container>
+      <container name="вновь призывая" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">вновь призывая</span> все стороны всецело сотрудничать с МООНСДРК и сохранять приверженность полному и объективному выполнению мандата Миссии, <span class="italic">подтверждая</span> важность дальнейшего выполнения Соглашения о статусе сил и свое осуждение всех без исключения нападений на миротворцев, которые могут составлять военные преступления, и <span class="italic">подчеркивая</span>, что лица, виновные в таких нападениях, должны быть привлечены к ответственности,</p>
+      </container>
+      <container name="вновь обращая внимание" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">вновь обращая внимание</span> на важность обеспечения операций Организации Объединенных Наций в пользу мира достаточными ресурсами на этапе преобразования миссий и <span class="italic">ссылаясь</span> в этой связи на резолюцию <a href="https://undocs.org/ru/S/RES/2594(2021)">2594 (2021)</a> о преобразовании операций Организации Объединенных Наций в пользу мира,</p>
+      </container>
+      <container name="особо отмечая" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	особо отмечая </span>важность стратегической коммуникации для выполнения МООНСДРК своего мандата и для защищенности и безопасности миротворцев в ее составе,</p>
+      </container>
+      <container name="определяя" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">определяя</span>, что ситуация в ДРК продолжает создавать угрозу международному миру и безопасности в этом регионе,</p>
+      </container>
+      <container name="действуя" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">действуя</span> на основании главы VII Устава Организации Объединенных Наций,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_23" class="H23">
+            <subheading>		Политическая ситуация</subheading>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> усилия правительства ДРК, направленные на удовлетворение потребностей конголезского народа, <span class="italic">настоятельно призывает</span> все конголезские политические стороны прилагать все усилия к осуществлению критически важных реформ в сферах управления, безопасности и экономики, предусмотренных в программе действий правительства на 2021–2023 годы, <span class="italic">подтверждает</span> важность выполнения обязательств президента Чисекеди и его правительства по обеспечению национального единства, укреплению верховенства права и уважению прав человека, включая право на свободу мнений и их свободное выражение, право на свободу печати и право на мирные собрания, по борьбе с коррупцией, осуществлению национальных программ развития в целях значительного сокращения масштабов нищеты, дальнейшему обеспечению всеобщего участия в политической жизни и содействию миростроительству и <span class="italic">рекомендует</span> МООНСДРК продолжать содействовать — путем предоставления добрых услуг — мирным, транспарентным, всеохватным и внушающим доверие политическим процессам;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает также</span> усилия президента Чисекеди и его правительства по обеспечению примирения, мира и стабильности в ДРК, <span class="italic">рекомендует</span> ему продолжать взаимодействие с государствами этого региона в целях выстраивания хороших отношений с соседними странами и содействия укреплению мира и безопасности и региональной интеграции, <span class="italic">отмечает</span>, что решающее значение для установления прочного мира в ДРК имеют поддержание политической стабильности и безопасности, а также расширение государственного присутствия в зонах конфликта, включая, прежде всего, восточную часть ДРК, <span class="italic">призывает</span> власти ДРК работать при поддержке со стороны МООНСДРК и страновой группы Организации Объединенных Наций в направлении стабилизации и укрепления потенциала государственных учреждений, особенно в зонах конфликта, с целью обеспечить реализацию прав и удовлетворение потребностей всего конголезского народа, <span class="italic">призывает также </span>все политические стороны продолжать работать при поддержке МООНСДРК над установлением мирных, транспарентных, всеохватных и внушающих доверие процедур для проведения на всей территории ДРК запланированных на 2023 год президентских и парламентских выборов в соответствии с Конституцией и избирательным законодательством и обеспечивать всестороннее, равноправное, эффективное и значимое участие женщин на всех этапах этой работы и <span class="italic">с удовлетворением отмечает</span> представление правительством ДРК продуманного бюджета, предусматривающего удовлетворение потребностей конголезского народа, финансирование избирательного процесса 2023 года и содействие проведению свободных и справедливых выборов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря и <span class="italic">призывает</span> региональные организации оказывать политическую поддержку в целях укрепления государственных учреждений в ДРК и восстановления доверия в отношениях между различными сторонами, в том числе на основе оказания ими своих добрых услуг, в целях укрепления мира и безопасности, устранения первопричин конфликта в первоочередных областях и достижения широкого национального консенсуса в отношении ключевых реформ в сферах государственного управления и безопасности, а также в целях борьбы с незаконной эксплуатацией природных ресурсов и поддержки текущей реформы и других избирательных процессов в соответствии с национальными первоочередными задачами, определенными правительством ДРК;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="H23">
+            <subheading>		Права человека</subheading>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> обязательства и действия президента Чисекеди по обеспечению правительством ДРК защиты и соблюдения прав человека и основных свобод, а также по борьбе с безнаказанностью во всех областях, <span class="italic">с удовлетворением отмечает также</span> шаги, предпринятые правительством ДРК для начала национального процесса отправления правосудия переходного периода, в том числе начало консультаций в нескольких провинциях, <span class="italic">призывает</span> правительство ДРК выполнять эти обязательства и обеспечить, чтобы осадное положение, объявленное им в Итури и Северном Киву в рамках его дальнейших усилий по устранению угрозы со стороны вооруженных групп и восстановлению государственной власти, подлежало регулярной оценке с учетом хода достижения его четко определенных целей и чтобы оно поддерживалось при полном соблюдении норм международного права прав человека и международного гуманитарного права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> правительство ДРК привлекать к ответственности лиц, совершающих нарушения международного гуманитарного права или, сообразно обстоятельствам, нарушения и ущемления прав человека, в частности такие, которые могут быть квалифицированы как геноцид, военные преступления и преступления против человечности, и <span class="italic">особо отмечает </span>как региональное сотрудничество, так и сотрудничество ДРК с Международным уголовным судом, налаженное после того, как в 2004 году ДРК передала ему вопрос о ситуации в ДРК, а также сотрудничество с Африканским судом по правам человека и народов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">рекомендует</span> правительству ДРК продолжать предпринимать шаги для привлечения к ответственности персонал сил безопасности за нарушения прав человека и борьбы с безнаказанностью в рядах этих сил, <span class="italic">призывает</span> конголезские власти обеспечивать предание суду виновных в этих действиях лиц, <span class="italic">призывает также</span> правительство ДРК обеспечивать в соответствии с ранее достигнутыми договоренностями представителям Совместного отделения по правам человека в ДРК полный и беспрепятственный доступ ко всем центрам содержания под стражей, больницам и моргам и, сообразно обстоятельствам, всем другим объектам, который необходим для документального оформления случаев нарушения прав человека, <span class="italic">подчеркивает</span> необходимость того, чтобы правительство ДРК продолжало добиваться повышения профессионализма своих сил безопасности, в том числе обеспечивать проверку и подготовку персонала и укрепление его потенциала в целях полного соблюдения им норм внутригосударственного и международного права прав человека и международного гуманитарного права, и <span class="italic">особо отмечает</span> важность соблюдения принципа верховенства права;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">решительно осуждает</span> всякое сексуальное насилие в условиях конфликта и в постконфликтных ситуациях, совершаемое в ДРК, в частности вооруженными группами, <span class="italic">с удовлетворением отмечает</span> усилия, прилагаемые правительством ДРК для пресечения и предупреждения сексуального насилия в условиях конфликта и в постконфликтных ситуациях, в том числе успехи, достигнутые в борьбе с безнаказанностью, в частности арест, судебное преследование и осуждение виновных из числа военнослужащих ВСДРК и сотрудников КНП, усилия, направленные на принятие закона о возмещении ущерба и создание национального фонда возмещения ущерба, причиненного жертвам сексуального насилия и других преступлений и лицам, пережившим их, <span class="italic">настоятельно призывает</span> правительство ДРК продолжать наращивать усилия по борьбе с безнаказанностью за совершение сексуального насилия в условиях конфликта и в постконфликтных ситуациях, в том числе за акты сексуального насилия, совершенные военнослужащими ВСДРК и сотрудниками КНП, и предоставлять пережившим такое насилие лицам, жертвам и свидетелям все необходимые услуги и защиту, в частности оказывать им медицинские услуги, услуги по охране сексуального и репродуктивного здоровья, психосоциальную и психиатрическую помощь, а также юридические и социально-экономические услуги, <span class="italic">рекомендует</span> правительству ДРК активизировать осуществление Совместного коммюнике о борьбе с сексуальным насилием в условиях конфликта, принятого в 2013 году, и добавления к нему, подписанного в 2019 году, и выделять достаточные финансовые ресурсы для выполнения этих обязательств, <span class="italic">с удовлетворением отмечает</span> дальнейший прогресс в реализации ВСДРК и КНП своих соответствующих планов действий по борьбе с сексуальным насилием и <span class="italic">напоминает</span> о важности сотрудничества с Канцелярией Специального представителя Генерального секретаря по вопросу о сексуальном насилии в условиях конфликта;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> результаты усилий правительства ДРК по закреплению успехов, достигнутых в осуществлении плана действий по предотвращению и прекращению вербовки и использования детей и по ускорению его осуществления в целях прекращения и предотвращения всех нарушений и ущемлений прав детей и обеспечения того, чтобы дети не подвергались задержанию за их предполагаемую связь с вооруженными группами, а передавались сторонам, занимающимся защитой детей, <span class="italic">призывает</span> правительство ДРК продолжать эти усилия, добиваясь привлечения к ответственности всех лиц, виновных в совершении любых таких нарушений и ущемлений, включая персонал сил безопасности, и <span class="italic">напоминает</span> о важности сотрудничества с Канцелярией Специального представителя Генерального секретаря по вопросу о детях и вооруженных конфликтах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="H23">
+            <subheading>		Вооруженные группы</subheading>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">решительно осуждает</span> все действующие в ДРК вооруженные группы, включая M23, Кооператив в интересах развития Конго (КОДЕКО), Альянс демократических сил (АДС), Демократические силы освобождения Руанды (ДСОР), группу «Сопротивление во имя создания правового государства» (СПГ-Табара), группы «майи-майи» и некоторые другие национальные и иностранные вооруженные группы, и совершаемые ими нарушения норм международного гуманитарного права и других применимых норм международного права и ущемления прав человека, <span class="italic">вновь заявляет</span> о своем осуждении нападений на гражданское население, персонал Организации Объединенных Наций и связанный с ней персонал, субъектов гуманитарной деятельности и медицинский персонал и медицинские учреждения, а также суммарных казней и нанесения людям увечий, сексуального и гендерного насилия и вербовки и использования детей, похищения детей и гуманитарного персонала, нападений на школы и на связанных со школами гражданских лиц, включая детей и учителей, а также на больницы со стороны вооруженных групп и ополчений в нарушение применимых норм международного права, использования гражданских лиц в качестве живого щита, массового насильственного перемещения гражданского населения, внесудебных казней и произвольных арестов и неизбирательного применения самодельных взрывных устройств и <span class="italic">вновь заявляет также</span>, что виновные должны быть привлечены к ответственности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">требует</span>, чтобы все вооруженные группы немедленно прекратили насилие во всех его формах, другую дестабилизирующую деятельность, незаконную эксплуатацию природных ресурсов и незаконную торговлю ими, <span class="italic">требует также</span>, чтобы M23 немедленно вывело свои силы из всех занятых им районов в соответствии с договоренностью, достигнутой в рамках осуществляемого при поддержке Африканского союза Луандийского процесса, и чтобы все члены вооруженных групп немедленно и окончательно самораспустились, сложили оружие, отказались от насилия, прекратили и предотвращали нарушения, совершаемые в отношении детей, и вывели детей из своих рядов, <span class="italic">настоятельно призывает</span> все конголезские вооруженные группы принимать участие без каких-либо условий в Найробийском процессе, осуществляемом при ведущей роли Восточноафриканского сообщества, для создания политических условий в рамках подготовки к реализации программы разоружения, демобилизации, восстановления на уровне общин и стабилизации (ПРДВОС), а иностранные вооруженные группы — вернуться в страны своего происхождения и <span class="italic">призывает</span> правительство ДРК предпринимать дальнейшие действия для устранения угрозы, создаваемой вооруженными группами, сочетая военные и невоенные подходы в соответствии с нормами международного права, включая международное гуманитарное право и международное право прав человека;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает </span>правительство ДРК и его партнеров, включая международные финансовые учреждения, в срочном порядке оказать надлежащую и своевременную поддержку в целях скорейшего и эффективного осуществления разоружения, демобилизации и реинтеграции бывших комбатантов, отвечающих установленным требованиям, на основе координации в рамках ПРДВОС, по линии инициатив в области разоружения, демобилизации и реинтеграции, осуществляемых на уровне общин с учетом конкретных условий и предполагающих создание реалистичных экономических альтернатив и возможностей, и при обеспечении того, чтобы неотъемлемыми элементами этих процессов были привлечение к ответственности за нарушения и ущемления прав человека и международные преступления, инициативы в сфере правосудия переходного периода и защита прав детей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">осуждает</span> продолжение вооруженными группами и поддерживающими их преступными сообществами незаконной эксплуатации и незаконного оборота природных ресурсов, в особенности так называемых «конфликтных» полезных ископаемых, таких как олово, тантал, вольфрам, золото, алмазы, кобальт и колтан, а также какао, древесного угля, древесины и объектов дикой флоры и фауны, и негативное воздействие вооруженного конфликта на охраняемые природные районы, подрывающее перспективы прочного мира и развития в ДРК, <span class="italic">рекомендует</span> правительству ДРК укреплять усилия по обеспечению охраны этих районов, <span class="italic">призывает</span> государства — члены Международной конференции по району Великих озер (МКРВО) и региональных экономических сообществ вести совместную борьбу с незаконной эксплуатацией природных ресурсов и незаконной торговлей ими посредством повышения и укрепления безопасности в горнодобывающих районах, принятия мер к сближению между горнодобывающими общинами, местными властями и субъектами, обеспечивающими безопасность, в интересах разрешения конфликтов и содействия соблюдению прав людей, принадлежащих к общинам, которые проживают вблизи горнодобывающих районов, <span class="italic">рекомендует</span> им содействовать транспарентному и законному использованию природных ресурсов, в том числе установить целевые показатели доли государственных поступлений, направляемых на цели финансирования развития, создать надежные нормативно-правовые и таможенные механизмы и обеспечивать должную осмотрительность в цепочке поставок минеральных ресурсов, и <span class="italic">ссылается</span> в этой связи на свои резолюции <a href="https://undocs.org/ru/S/RES/2457(2019)">2457 (2019)</a> и <a href="https://undocs.org/ru/S/RES/2389(2017)">2389 (2017)</a>, а также на заявление своего Председателя <a href="https://undocs.org/ru/S/PRST/2021/19">S/PRST/2021/19</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">с удовлетворением отмечает</span> обязательства и меры, принятые президентом Чисекеди и его правительством для содействия реформированию сектора безопасности, укреплению государственной власти, примирению и продвижению толерантности и демократии, <span class="italic">особо отмечает</span>, что благодаря этим предварительным мерам расширились возможности для взаимодействия и координации действий между МООНСДРК и конголезскими силами безопасности, <span class="italic">призывает</span> конголезские власти выполнять эти обязательства и ускорить ротацию войск, объявленную президентом Чисекеди, <span class="italic">призывает также</span> правительство ДРК продолжать целенаправленно работать над обеспечением защиты гражданского населения посредством скорейшего создания подотчетных и надежных профессиональных сил безопасности, соблюдающих нормы международного гуманитарного права, а также внутригосударственного и международного права прав человека, развертывания подотчетных органов конголезской гражданской администрации, в частности полицейских подразделений, судебных органов, пенитенциарных учреждений и территориальных административных органов, укрепления верховенства права и поощрения и защиты прав человека, в том числе на основе выделения необходимых финансовых ресурсов, при обеспечении всестороннего, равноправного, эффективного и значимого участия женщин и их безопасности и <span class="italic">рекомендует</span> международным партнерам расширять поддержку, оказываемую в этих целях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> продолжать предпринимать на национальном уровне усилия по борьбе с угрозой, создаваемой незаконной передачей, дестабилизирующим накоплением и неправомерным применением стрелкового оружия и легких вооружений и перенаправлением оружия вооруженным группам в ДРК, для чего, в частности, обеспечивать безопасное и эффективное управление запасами оружия и боеприпасов, их хранение, отслеживание и сохранность и противодействовать — сообразно обстоятельствам и в пределах имеющихся ресурсов — незаконному обороту и перенаправлению оружия, в том числе путем наращивания потенциала и борьбы с безнаказанностью, при неизменной поддержке со стороны МООНСДРК, <span class="italic">призывает</span> правительство ДРК расширить поддержку, оказываемую Национальной комиссии по контролю за стрелковым оружием и легкими вооружениями и сокращению масштабов вооруженного насилия, и <span class="italic">рекомендует</span> Организации Объединенных Наций и международным партнерам активизировать оказание поддержки правительству ДРК для улучшения управления запасами оружия и боеприпасов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="H23">
+            <subheading>		Региональная поддержка</subheading>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">напоминает</span>, что устранение угрозы, создаваемой вооруженными группами, требует применения комплексного регионального подхода и активного политического участия правительства ДРК, Африканского союза (АС), Восточноафриканского сообщества (ВАС), МКРВО и Сообщества по вопросам развития стран юга Африки (САДК), <span class="italic">подтверждает</span> свою поддержку национальных и региональных усилий по укреплению мира и стабильности в ДРК и этом регионе, опирающихся на обязательства, принятые странами региона в соответствии с Рамочной программой мира, безопасности и сотрудничества для ДРК и региона, которая остается одним из важнейших механизмов для достижения прочного мира и стабильности, <span class="italic">особо отмечает</span> закрепленные в Рамочном соглашении обязательства стран региона не оказывать помощь или поддержку вооруженным группам и не допускать оказания им помощи или поддержки в какой бы то ни было форме, <span class="italic">решительно осуждает</span> любую внешнюю поддержку негосударственных вооруженных субъектов, включая М23, и <span class="italic">призывает</span> немедленно прекратить такую поддержку;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">высоко оценивает</span> Найробийский процесс, осуществляемый при ведущей роли ВАС, <span class="italic">отмечает</span> применяемый в его рамках двухвекторный подход, <span class="italic">с удовлетворением отмечает</span> текущее посредничество, осуществляемое в соответствии с мандатом АС под эгидой президента Анголы, и дополнительные усилия по обеспечению взаимодополняемости этих инициатив, включая поддержку со стороны МООНСДРК и Канцелярии Специального посланника Генерального секретаря по району Великих озер, <span class="italic">рекомендует</span> продолжать усилия по реализации «дорожной карты» МКРВО в отношении процесса установления мира в восточной части ДРК и заключительного коммюнике мини-саммита по вопросам мира и безопасности в восточной части ДРК и по разрешению разногласий путем диалога, отмечает усилия, прилагаемые в рамках расширенного механизма совместного контроля МКРВО и функционирующего под руководством Анголы специального механизма совместного контроля, и призывает обеспечивать всестороннее, равноправное, эффективное и значимое участие женщин в этих процессах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> оказывать поддержку, сообразно обстоятельствам, региональным силам ВАС и <span class="italic">подчеркивает</span> важность защиты гражданских лиц, тесной координации действий и обмена информацией между силами ВАС, ВСДРК, Силами национальной обороны Бурунди, Народными силами обороны Уганды и МООНСДРК, в том числе в целях недопущения конфликтных ситуаций в ходе проведения операций и обеспечения выполнения мандата МООНСДРК, а также необходимость проведения всех этих операций, будь то совместных или односторонних, в строгом соответствии с нормами международного права, включая применимые нормы международного гуманитарного права и международного права прав человека, и механизмом обеспечения соблюдения прав человека Африканского союза;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">призывает также</span> государства, подписавшие Рамочное соглашение о мире, безопасности и сотрудничестве, брать на себя ответственность и проявлять политическую волю в деле эффективной реализации Стратегии Организации Объединенных Наций по укреплению мира и предотвращению и урегулированию конфликтов в районе Великих озер и связанного с ней плана действий, <span class="italic">полностью поддерживает</span> усилия Специального посланника Генерального секретаря по району Великих озер по выполнению им своего мандата в целях решения остающихся проблем, связанных с осуществлением Рамочного соглашения, и укрепления мира и стабильности в регионе, <span class="italic">призывает</span> Специального посланника продолжать проводить работу на региональном и международном уровнях в поддержку полного осуществления Рамочного соглашения, в том числе посредством оказания добрых услуг, реализации скоординированных стратегий и обмена информацией с МООНСДРК, ЮНОЦА и другими структурами Организации Объединенных Наций, и <span class="italic">настоятельно призывает</span> МООНСДРК сотрудничать с Канцелярией Специального посланника по району Великих озер в поиске политических решений с целью остановить трансграничные потоки вооруженных комбатантов, оружия и природных ресурсов, создающие угрозу миру и стабильности в ДРК, в частности на основе согласования стратегий, обмена информацией и координации представляемой ими информации;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="H23">
+            <subheading>		Мандат МООНСДРК</subheading>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продлить до 20 декабря 2023 года мандат МООНСДРК в ДРК, включая — в порядке исключения, не создавая прецедента и при том понимании, что это не должно сказываться на соблюдении основных принципов деятельности по поддержанию мира, — мандат ее бригады оперативного реагирования;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">постановляет также</span>, что санкционированная предельная численность личного состава МООНСДРК будет составлять 13 500 военнослужащих, 660 военных наблюдателей и штабных офицеров, 591 полицейского и 1410 полицейских в составе сформированных полицейских подразделений, и <span class="italic">предлагает</span> Секретариату рассмотреть вопрос о дальнейшем сокращении численности развернутых воинских контингентов МООНСДРК в соответствии с совместной стратегией постепенного и поэтапного сокращения численности личного состава МООНСДРК (<a href="https://undocs.org/ru/S/2020/1041">S/2020/1041</a>);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">постановляет далее</span>, что стратегическими приоритетами МООНСДРК являются: i) содействие защите гражданского населения; и ii) поддержка процесса стабилизации и укрепления государственных институтов в ДРК и ключевых реформ в сферах государственного управления и безопасности;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">уполномочивает</span> МООНСДРК принимать все необходимые меры для выполнения своего мандата в целях решения поставленных в нем задач в соответствии с основными принципами деятельности по поддержанию мира;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span> необходимость проведения всех операций, будь то совместных или односторонних, в строгом соответствии с нормами международного права, включая применимые нормы международного гуманитарного права и международного права прав человека, и <span class="italic">просит</span> МООНСДРК обеспечивать, чтобы любая поддержка операций, проводимых национальными силами безопасности, в том числе в виде снабжения пайками и топливом, предоставлялась только для совместно планируемых и проводимых операций и подлежала соответствующему надзору и контролю в строгом соответствии с проводимой Организацией Объединенных Наций политикой должной осмотрительности в вопросах прав человека, в том числе со стороны страновой группы Организации Объединенных Наций, в отсутствие чего такая поддержка должна быть приостановлена;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="H23">
+            <subheading>		Задачи в порядке очередности</subheading>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>24.</num>
+        <list eId="para_78_list">
+          <intro eId="para_78_list_intro">
+          <p xml:space="preserve">	<span class="italic">постановляет, </span>что мандат МООНСДРК будет включать следующие задачи, изложенные в порядке очередности в пунктах 24–34, <span class="italic">подчеркивает</span>, что все поставленные перед МООНСДРК задачи должны выполняться при соблюдении прав человека и основных свобод, и <span class="italic">подчеркивает также</span>, что при принятии решений об использовании имеющихся возможностей и ресурсов приоритет должен отдаваться защите гражданских лиц;</p>
+          </intro>
+          <point eId="para_78_list_point_i">
+        <num>i)</num>
+            <content eId="para_78_list_point_i_content">
+          <p xml:space="preserve">	<span class="bold">Защита гражданских лиц, подвергающихся угрозе физического насилия, путем принятия всех необходимых мер для обеспечения их реальной, своевременной, динамичной и комплексной защиты</span></p>
+            </content>
+          </point>
+          <sublist eId="para_78_list_point_i_sublist">
+            <point eId="para_78_list_point_i_sublist_point_a">
+          <num>a)</num>
+              <content eId="para_78_list_point_i_sublist_point_a_content">
+          <p xml:space="preserve">	предотвращать, сдерживать и пресекать применение насилия в отношении населения всеми вооруженными группами и местными ополчениями, для чего, в частности не допускать захвата любыми вооруженными группами или местными ополчениями крупных населенных пунктов, совершения ими нападений на такие пункты или их взятия в кольцо, в том числе в поддержку усилий конголезских властей, а также разоружать такие группы и ополчения, оказывать добрые услуги и проводить и поддерживать посредническую работу на местном уровне и информационно-пропагандистские мероприятия на национальном уровне, направленные на предотвращение эскалации насилия и противодействие использованию языка ненависти и распространению заведомо ложной и недостоверной информации, уделяя при этом особое внимание гражданским лицам, которые находятся в лагерях для перемещенных лиц и лагерях беженцев, участникам мирных демонстраций, сотрудникам гуманитарных организаций и правозащитникам в соответствии с основными принципами деятельности по поддержанию мира и принимая меры к снижению рисков для гражданского населения до любых военных и полицейских операций и во время и после их проведения;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_i_sublist_point_b">
+          <num>b)</num>
+              <content eId="para_78_list_point_i_sublist_point_b_content">
+          <p xml:space="preserve">	проводить целенаправленные наступательные операции в ДРК для нейтрализации вооруженных групп с задействованием боеспособной бригады оперативного реагирования сил, находящейся в полном подчинении у Командующего силами, для содействия уменьшению угрозы, создаваемой вооруженными группами для государственной власти и безопасности гражданского населения, и создания возможностей для деятельности по стабилизации, либо самостоятельно, либо совместно с конголезскими силами безопасности;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_i_sublist_point_c">
+          <num>c)</num>
+              <content eId="para_78_list_point_i_sublist_point_c_content">
+          <p xml:space="preserve">	более активно проводить эффективные совместные операции с конголезскими силами безопасности, включающие совместное планирование и тактическое сотрудничество, в соответствии с мандатом МООНСДРК и при неукоснительном соблюдении политики должной осмотрительности в вопросах прав человека Организации Объединенных Наций с целью обеспечить принятие всех возможных мер для предотвращения, сдерживания и пресечения деятельности вооруженных групп;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_i_sublist_point_d">
+          <num>d)</num>
+              <content eId="para_78_list_point_i_sublist_point_d_content">
+          <p xml:space="preserve">	сохранять возможности для упреждающего развертывания и мобильную, гибкую, надежную и функциональную структуру, в том числе проводить активное пешее и мобильное патрулирование, особенно в районах повышенного риска;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_i_sublist_point_e">
+          <num>e)</num>
+              <content eId="para_78_list_point_i_sublist_point_e_content">
+          <p xml:space="preserve">	взаимодействовать с правительством ДРК и гуманитарными работниками в целях выявления угроз для гражданского населения, проводить в жизнь совместные планы предупреждения и реагирования и укреплять сотрудничество между гражданскими и военными в целях обеспечения защиты гражданского населения от ущемлений и нарушений прав человека и нарушений норм международного гуманитарного права, в том числе от всех форм сексуального и гендерного насилия и нарушений и ущемлений прав детей и людей с инвалидностью;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_i_sublist_point_f">
+          <num>f)</num>
+              <content eId="para_78_list_point_i_sublist_point_f_content">
+          <p xml:space="preserve">	активизировать взаимодействие с гражданским населением на уровне общин и использование стратегических средств коммуникации, включая совместную с правительством ДРК коммуникацию, для повышения уровня осведомленности и углубления понимания ее мандата и деятельности по защите гражданского населения, укрепить свой механизм раннего предупреждения, в том числе в целях предотвращения кампаний по распространению заведомо ложной и недостоверной информации, направленных на подрыв авторитета Миссии и воспрепятствование выполнению ею своего мандата;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_78_list_point_ii">
+          <num>ii)</num>
+            <content eId="para_78_list_point_ii_content">
+          <p xml:space="preserve">	<span class="bold">Разоружение, демобилизация, реинтеграция (РДР) и стабилизация</span></p>
+            </content>
+          </point>
+          <sublist eId="para_78_list_point_ii_sublist">
+            <point eId="para_78_list_point_ii_sublist_point_g">
+          <num>g)</num>
+              <content eId="para_78_list_point_ii_sublist_point_g_content">
+          <p xml:space="preserve">	предоставлять в тесном сотрудничестве с международными и местными партнерами правительству ДРК добрые услуги, консультации и поддержку в связи с осуществлением Найробийского процесса при ведущей роли ВАС и в целях реализации ПРДВОС согласно распоряжению № 21/038 от 5 июля 2021 года и в области разоружения, демобилизации и реинтеграции конголезских и иностранных комбатантов, которые не подозреваются в совершении геноцида, военных преступлений, преступлений против человечности и нарушений прав человека, с тем чтобы они вернулись к мирной гражданской жизни, уделяя при этом особое внимание потребностям женщин и детей, которые ранее были связаны с вооруженными силами и группами;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_ii_sublist_point_h">
+          <num>h)</num>
+              <content eId="para_78_list_point_ii_sublist_point_h_content">
+          <p xml:space="preserve">	поддерживать процесс разоружения, демобилизации, репатриации, расселения и реинтеграции (РДРРР) в целях обеспечения возвращения и реинтеграции иностранных комбатантов, которые не подозреваются в совершении международных преступлений и нарушений прав человека, а также их иждивенцев, с тем чтобы они вернулись к мирной гражданской жизни в стране своего происхождения или в принимающей третьей стране, уделяя при этом особое внимание потребностям женщин и детей, которые ранее были связаны с вооруженными силами и группами;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_ii_sublist_point_i">
+          <num>i)</num>
+              <content eId="para_78_list_point_ii_sublist_point_i_content">
+          <p xml:space="preserve">	оказывать консультационную помощь и поддержку властям ДРК в утилизации оружия и боеприпасов разоруженных конголезских и иностранных комбатантов во исполнение соответствующих резолюций Совета Безопасности, а также применимых международных договоров о контроле над вооружениями;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_ii_sublist_point_j">
+          <num>j)</num>
+              <content eId="para_78_list_point_ii_sublist_point_j_content">
+          <p xml:space="preserve">	предоставлять правительству ДРК технические рекомендации в деле укрепления эффективной национальной гражданской структуры, которая контролирует ключевые горнодобывающие операции и осуществляет на справедливой и эффективной основе управление добычей природных ресурсов, их переработкой, транспортировкой и торговлей ими в восточных районах ДРК, в координации с усилиями по оказанию технической помощи, предпринимаемыми Специальным посланником по району Великих озер;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_ii_sublist_point_k">
+          <num>k)</num>
+              <content eId="para_78_list_point_ii_sublist_point_k_content">
+          <p xml:space="preserve">	продолжать сотрудничество с правительством ДРК в целях закрепления успехов, достигнутых в осуществлении плана действий по предотвращению и прекращению вербовки и использования детей, и в целях ускорения осуществления этого плана и продолжать диалог со всеми перечисленными в нем сторонами для того, чтобы заручиться их дальнейшей поддержкой и добиться принятия ими мер по предотвращению и пресечению нарушений и ущемлений прав детей;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_78_list_point_iii">
+        <num>iii)</num>
+            <content eId="para_78_list_point_iii_content">
+          <p xml:space="preserve">	<span class="bold">Реформирование сектора безопасности</span></p>
+            </content>
+          </point>
+          <sublist eId="para_78_list_point_iii_sublist">
+            <point eId="para_78_list_point_iii_sublist_point_l">
+        <num>l)</num>
+              <content eId="para_78_list_point_iii_sublist_point_l_content">
+            <p xml:space="preserve">	оказывать добрые услуги и предоставлять, сообразно обстоятельствам, стратегические и технические консультации правительству ДРК и играть свою роль в координации поддержки, оказываемой международными и двусторонними партнерами и системой Организации Объединенных Наций, в консультации с правительством ДРК в целях:</p>
+              </content>
+            </point>
+            <sublist eId="para_78_list_point_iii_sublist_point_l_sublist">
+              <point eId="para_78_list_point_iii_sublist_point_l_sublist_point_1">
+            <num>–</num>
+                <content eId="para_78_list_point_iii_sublist_point_l_sublist_point_1_content">
+              <p xml:space="preserve">	содействия тому, чтобы правительство скорее взяло под национальную ответственность задачу реформирования сектора безопасности, направленного на обеспечение безопасности и правосудия для всех через независимые, подотчетные и функционирующие институты правосудия и безопасности, которые учитывают важность всестороннего, равноправного, эффективного и значимого участия женщин и их безопасности,</p>
+                </content>
+              </point>
+              <point eId="para_78_list_point_iii_sublist_point_l_sublist_point_2">
+            <num>–</num>
+                <content eId="para_78_list_point_iii_sublist_point_l_sublist_point_2_content">
+              <p xml:space="preserve">	поощрения и облегчения процесса проведения реформ в военной, полицейской, судебной и пенитенциарной сферах в целях повышения подотчетности и оперативной эффективности сектора правосудия и безопасности и борьбы с безнаказанностью, в том числе на основе подготовки по вопросам прав человека;</p>
+                </content>
+              </point>
+              <point eId="para_78_list_point_iii_sublist_point_l_sublist_point_3">
+            <num>–</num>
+            <content eId="para_78_list_point_iii_sublist_point_l_sublist_point_3_content">
+              <p xml:space="preserve">	оказания поддержки по линии Службы по вопросам деятельности, связанной с разминированием, в укреплении потенциала конголезских сил безопасности, в том числе в управлении запасами оружия и боеприпасов, противодействии угрозе самодельных взрывных устройств и утилизации боеприпасов взрывного действия, а также в проведении базовых расследований и криминалистической экспертизы в связи с самодельными взрывными устройствами;</p>
+            </content>
+              </point>
+            </sublist>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_79__content">
+                <p xml:space="preserve">	<span class="italic">уполномочивает</span> МООНСДРК отслеживать нарушения и ущемления прав человека и нарушения норм международного гуманитарного права, случаи ограничения возможностей для участия в политической жизни и случаи применения насилия, в том числе в связи с проведением выборов, незамедлительно доводить информацию о них до сведения Совета Безопасности и принимать дальнейшие меры в связи с ними;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>26.</num>
+        <list eId="para_81_list">
+          <intro eId="para_81_list_intro">
+          <p xml:space="preserve">	<span class="italic">уполномочивает также </span>МООНСДРК — при том понимании, что это не должно сказываться на ее способности выполнять свои первоочередные задачи, — использовать имеющиеся у нее возможности для упорядоченного и последовательного выполнения следующих задач исключительно в сотрудничестве со страновой группой Организации Объединенных Наций, принимая во внимание, что все задачи являются взаимодополняющими:</p>
+          </intro>
+          <point eId="para_81_list_point_a">
+            <subheading>		Поддержка в организации избирательного процесса 2023 года</subheading>
+        <num>a)</num>
+            <content eId="para_81__content_list_point_a">
+          <p xml:space="preserve">	оказывать по официальной просьбе конголезских властей поддержку в организации избирательного процесса 2023 года в трех провинциях, в которых МООНСДРК сохраняет присутствие, в том числе оказывать ограниченную логистическую поддержку, сообразно обстоятельствам и в координации с конголезскими властями, страновой группой Организации Объединенных Наций и региональными и международными партнерами, для содействия мирному проведению избирательного цикла, в частности путем поддержания диалога с ННИК, при том понимании, что это не должно сказываться на способности МООНСДРК выполнять свои первоочередные задачи;</p>
+            </content>
+          </point>
+          <point eId="para_81_list_point_b">
+            <subheading>		Поддержка судебной системы ДРК и борьба с безнаказанностью</subheading>
+        <num>b)</num>
+            <content eId="para_81__content_list_point_b">
+          <p xml:space="preserve">	проводить работу с властями ДРК, задействуя имеющиеся у системы Организации Объединенных Наций возможности и экспертный ресурс, для укрепления и поддержки судебной системы ДРК в целях проведения расследований и привлечения к судебной ответственности всех лиц, подозреваемых в совершении геноцида, военных преступлений, преступлений против человечности, нарушений норм международного гуманитарного права и нарушений или ущемлений прав человека в стране, в том числе в рамках сотрудничества с государствами региона и МУС;</p>
+        </content>
+        </point>
+          <point eId="para_81_list_point_c">
+        <num>c)</num>
+            <content eId="para_81__content_list_point_c">
+          <p xml:space="preserve">	предоставлять правительству ДРК добрые услуги, консультации и поддержку для того, чтобы содействовать осуществлению прав человека, в том числе гражданских и политических прав, и бороться с безнаказанностью, в том числе посредством проведения в жизнь принятой правительством политики абсолютной нетерпимости к нарушению дисциплины, прав человека и норм международного гуманитарного права персоналом сектора безопасности, и инициировать и поощрять посреднические усилия на местном уровне в целях содействия достижению прочного мира;</p>
+        </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_204" class="H4">
+            <subheading>		Защита Организации Объединенных Наций</subheading>
+      </paragraph>
+      <paragraph eId="para_205" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_205__content">
+          <p xml:space="preserve">	обеспечивать защиту персонала, помещений, объектов и имущества Организации Объединенных Наций и безопасность и свободу передвижения персонала Организации Объединенных Наций и связанного с ней персонала;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_206" class="H4">
+            <subheading>		Защита детей</subheading>
+      </paragraph>
+      <paragraph eId="para_207" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_207__content">
+          <p xml:space="preserve">	<span class="italic">просит</span>, чтобы МООНСДРК всецело учитывала вопрос о защите детей, рассматривая его как непременный атрибут всех элементов своего мандата, в частности в процессах разоружения, демобилизации и реинтеграции и реформирования сектора безопасности, а также в ходе мероприятий по выводу детей из состава вооруженных групп, в целях прекращения и предотвращения нарушений и ущемлений прав детей и продолжала обеспечивать эффективное функционирование механизмов мониторинга и отчетности по вопросу о детях и вооруженных конфликтах, и <span class="italic">признает</span> исключительно важную роль действующих в составе МООНСДРК советников Организации Объединенных Наций по вопросам защиты детей;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="H4">
+            <subheading>		Гендерная проблематика и сексуальное насилие</subheading>
+      </paragraph>
+      <paragraph eId="para_209" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_209__content">
+          <p xml:space="preserve">	<span class="italic">просит также</span>, чтобы МООНСДРК всецело учитывала гендерные аспекты, рассматривая их как непременный атрибут всех элементов своего мандата, и оказывала помощь правительству ДРК и другим соответствующим заинтересованным сторонам в создании правовых, политических и социально-экономических условий, благоприятствующих всестороннему, равноправному, эффективному и значимому участию и полной вовлеченности и представленности женщин на всех уровнях, в том числе тех, кто пережил сексуальное и гендерное насилие, в целях поддержания и укрепления мира и безопасности, защиты гражданского населения, в том числе на основе привлечения женских сетей в качестве партнеров в деле защиты, и содействия усилиям по разоружению, демобилизации и реинтеграции, реформированию сектора безопасности и стабилизации, <span class="italic">просит</span> МООНСДРК оказывать правительству поддержку в содействии всестороннему, равноправному, эффективному и значимому участию женщин в политической жизни, в том числе в достижении предусмотренной в Конституции 30-процентной квоты представленности женщин, и <span class="italic">признает</span> исключительно важную роль действующих в составе МООНСДРК советников Организации Объединенных Наций по вопросам защиты женщин;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_210" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_210__content">
+          <p xml:space="preserve">	<span class="italic">вновь подчеркивает</span> настоятельную необходимость безотлагательного привлечения к ответственности всех лиц, виновных в нарушении норм международного гуманитарного права, и <span class="italic">просит</span> МООНСДРК ускорить скоординированное осуществление процедур мониторинга, анализа и представления отчетности по вопросам сексуального насилия в условиях конфликта и в постконфликтных ситуациях;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_211" class="H23">
+            <subheading>		Гуманитарный доступ и гуманитарный призыв</subheading>
+      </paragraph>
+      <paragraph eId="para_212" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_212__content">
+          <p xml:space="preserve">	<span class="italic">ссылается</span> на все свои соответствующие резолюции о защите гуманитарного и медицинского персонала, включая резолюции <a href="https://undocs.org/ru/S/RES/2439(2018)">2439 (2018)</a> и <a href="https://undocs.org/ru/S/RES/2286(2016)">2286 (2016)</a>, и <span class="italic">требует</span>, чтобы все стороны разрешали и облегчали, согласно соответствующим нормам международного права и в соответствии с гуманитарными принципами, полный, безопасный, незамедлительный и беспрепятственный доступ для гуманитарного персонала, имущества и предметов снабжения и своевременную доставку гуманитарной помощи нуждающемуся населению, в частности беженцам и внутренне перемещенным лицам, на всей территории ДРК;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> государства-члены и международные и региональные организации оперативно принять меры для удовлетворения гуманитарных потребностей, изложенных в плане гуманитарного реагирования, увеличив свои взносы, и обеспечить, чтобы все объявленные взносы были внесены в полном объеме и своевременно;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_215" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_215__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span> важность дальнейшего оказания международной поддержки и содействия в финансовом и техническом плане и в натуральной форме для оперативного реагирования на вспышки инфекционных заболеваний и <span class="italic">просит</span> все соответствующие подразделения системы Организации Объединенных Наций эффективно координировать принимаемые ими в соответствии со своими мандатами и обязанностями меры реагирования на вспышки Эболы и COVID‑19 и другие возможные вспышки заболеваний;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_216" class="H23">
+            <subheading>		Режим санкций</subheading>
+      </paragraph>
+      <paragraph eId="para_217" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> МООНСДРК осуществлять контроль за соблюдением оружейного эмбарго, о котором говорится в пункте 1 резолюции <a href="https://undocs.org/ru/S/RES/2293(2016)">2293 (2016)</a>, в сотрудничестве с Группой экспертов, учрежденной резолюцией <a href="https://undocs.org/ru/S/RES/1533(2004)">1533 (2004)</a>, в частности осуществлять наблюдение за потоками военнослужащих, оружия и связанных с ним материальных средств через восточную границу ДРК и предоставлять соответствующую информацию, в том числе посредством использования, как об этом говорится в письме Совета от 22 января 2013 года (<a href="https://undocs.org/ru/S/2013/44">S/2013/44</a>), средств наблюдения, обеспечиваемых беспилотными авиационными системами, изымать, собирать, регистрировать и утилизовать оружие и связанные с ним материальные средства, доставленные на территорию ДРК в нарушение мер, введенных пунктом 1 резолюции <a href="https://undocs.org/ru/S/RES/2293(2016)">2293 (2016)</a>, а также оказывать содействие Группе экспертов и обмениваться с ней соответствующей информацией;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218" class="H23">
+            <subheading>		Эффективность Миссии и защищенность и безопасность миротворцев</subheading>
+      </paragraph>
+      <paragraph eId="para_219" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_219__content">
+          <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря предоставлять МООНСДРК необходимые силы и средства, с тем чтобы она могла эффективно выполнять свой мандат в сложной обстановке в плане безопасности, для которой характерны, в частности, асимметричные угрозы ее персоналу, и обеспечивать готовность, обученность и оснащенность всех миротворцев на местах для результативного и безопасного выполнения ими поставленных перед ними задач, <span class="italic">просит также</span> Генерального секретаря, государства-члены и правительство ДРК принимать все надлежащие меры для обеспечения максимально возможного уровня защищенности и безопасности персонала МООНСДРК согласно резолюции <a href="https://undocs.org/ru/S/RES/2518(2020)">2518 (2020)</a> и принципам вакцинации от COVID‑19 военного и полицейского персонала на театре военных действий и до развертывания в соответствии с руководящими положениями и передовым опытом Организации Объединенных Наций в целях повышения безопасности миротворцев, <span class="italic">с обеспокоенностью отмечает</span> серьезную опасность, которую могут создавать нарушения Соглашения о статусе сил для обеспечения защищенности и безопасности персонала Организации Объединенных Наций, служащего в операциях по поддержанию мира, <span class="italic">подчеркивает</span>, что главную ответственность за обеспечение защищенности и безопасности персонала и сохранности имущества Организации Объединенных Наций несет принимающее государство, <span class="italic">особо отмечает</span> важность эффективной коммуникации между операциями Организации Объединенных Наций по поддержанию мира и правительствами принимающих стран для укрепления доверия и взаимопонимания и <span class="italic">просит</span> Генерального секретаря выполнять положения резолюции <a href="https://undocs.org/ru/S/RES/2589(2021)">2589 (2021)</a> в целях привлечения к ответственности за преступления, совершаемые против миротворцев;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	<span class="italic">просит также</span> Генерального секретаря осуществлять мероприятия, перечисленные в пункте 42 резолюции <a href="https://undocs.org/ru/S/RES/2612(2021)">2612 (2021)</a>, при планировании и проведении операций МООНСДРК в пределах ее мандата и района операций и в соответствии с действующими руководящими принципами и нормами Организации Объединенных Наций, а также пунктом 44 резолюции <a href="https://undocs.org/ru/S/RES/2612(2021)">2612 (2021)</a>, <span class="italic">просит далее</span> МООНСДРК выполнять пункт 45 резолюции <a href="https://undocs.org/ru/S/RES/2612(2021)">2612 (2021)</a>, а страны, предоставляющие воинские и полицейские контингенты, — выполнять пункты 46 и 47 резолюции <a href="https://undocs.org/ru/S/RES/2612(2021)">2612 (2021)</a> и <span class="italic">принимает к сведению</span> экологическую стратегию Департамента оперативной поддержки Организации Объединенных Наций (этап II), в которой основное внимание уделяется рациональному использованию ресурсов и позитивному наследию миссий и поставлена цель расширения использования возобновляемых источников энергии в миссиях в целях повышения степени защищенности и безопасности, экономии средств, достижения большей эффективности и пользы для миссий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_222" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_222__content">
+          <p xml:space="preserve">	<span class="italic">настоятельно призывает</span> страны, предоставляющие воинские и полицейские контингенты, и далее принимать соответствующие меры для предотвращения случаев сексуальной эксплуатации и сексуальных надругательств, включая проверку всего персонала и проведение инструктажа перед развертыванием и в составе Миссии, обеспечивать всю полноту ответственности в случаях такого поведения их персонала, в том числе посредством своевременного расследования всех заявлений о предполагаемых случаях сексуальной эксплуатации и сексуальных надругательств странами, предоставляющими воинские и полицейские контингенты, для привлечения виновных к ответственности, репатриировать подразделения при наличии достоверных доказательств широко распространенных и систематических случаев сексуальной эксплуатации и сексуальных надругательств со стороны их персонала и оперативно представлять Организации Объединенных Наций всю информацию о принятых мерах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_223" class="H23">
+            <subheading>		Стратегия выхода</subheading>
+      </paragraph>
+      <paragraph eId="para_224" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_224__content">
+          <p xml:space="preserve">	<span class="italic">принимает к сведению</span> призыв правительства ДРК пересмотреть план на переходный период для МООНСДРК и <span class="italic">призывает</span> Организацию Объединенных Наций и правительство ДРК определить, взаимодействуя с гражданским обществом, конкретные реалистичные шаги, которые необходимо предпринять в первую очередь для создания минимальных условий в плане безопасности для ответственного и стабильного завершения деятельности МООНСДРК;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_225" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_225__content">
+          <p xml:space="preserve">	<span class="italic">призывает</span> МООНСДРК, страновую группу Организации Объединенных Наций и другие структуры Организации Объединенных Наций, действующие в ДРК, ускорить интеграцию и активизировать сотрудничество для осуществления приоритетных совместных действий, определенных в плане на переходный период, и обеспечить возможность наращивания программной деятельности страновой группы Организации Объединенных Наций в порядке подготовки к уходу МООНСДРК, в том числе путем разработки согласованной стратегии мобилизации ресурсов, и <span class="italic">приглашает</span> международное сообщество и доноров поддержать наращивание усилий и программной деятельности страновой группы и других структур Организации Объединенных Наций, работающих в ДРК, в том числе усилия по упрочению мира;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_227" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_227__content">
+          <p xml:space="preserve">	<span class="italic">призывает также</span> МООНСДРК тесно сотрудничать со страновой группой Организации Объединенных Наций в определении путей устранения пробелов в возможностях в порядке подготовки к уходу МООНСДРК и уточнении функций и обязанностей всех соответствующих структур Организации Объединенных Наций в соответствии с резолюцией <a href="https://undocs.org/ru/S/RES/2594(2021)">2594 (2021)</a>, <span class="italic">подчеркивает</span> необходимость постепенной передачи функций, в настоящее время выполняемых МООНСДРК, правительству ДРК, страновой группе Организации Объединенных Наций и другим соответствующим заинтересованным сторонам — сообразно обстоятельствам и согласно мандатам и ресурсам — для обеспечения ответственного и стабильного завершения деятельности МООНСДРК и <span class="italic">призывает</span> Генерального секретаря прекращать в надлежащих случаях выполнение функций, которые могут ответственно и надежно взять на себя другие заинтересованные стороны, и соответствующим образом оптимизировать МООНСДРК;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_230" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_230__content">
+          <p xml:space="preserve">	<span class="italic">подчеркивает</span>, что в условиях переходных процессов инициативный подход к стратегической коммуникации, в том числе совместное осуществление коммуникации МООНСДРК и правительством ДРК, может способствовать созданию условий, благоприятствующих плавной реорганизации присутствия Организации Объединенных Наций, и <span class="italic">просит</span> МООНСДРК и соответствующих партнеров продолжать изучать имеющиеся варианты содействия дальнейшему вещанию «Радио Окапи» в контексте передачи МООНСДРК своих функций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">особо отмечает</span>, что МООНСДРК должна осуществлять свою деятельность таким образом, чтобы снизить угрозу, создаваемую национальными и иностранными вооруженными группами, до такого уровня, при котором с ней смогут справляться силы безопасности ДРК, с целью создать условия для постепенного, ответственного и стабильного завершения своей деятельности на основе прогресса в достижении контрольных показателей и индикаторов, установленных в плане на переходный период, и с учетом положения на местах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_235" class="H23">
+            <subheading>		Доклады Генерального секретаря</subheading>
+      </paragraph>
+      <paragraph eId="para_236" class="SingleTxt">
+        <num>43.</num>
+        <list eId="para_236_list">
+          <intro eId="para_236_list_intro">
+            <p xml:space="preserve">	<span class="italic">просит</span> Генерального секретаря каждые три месяца представлять Совету:</p>
+          </intro>
+          <point eId="para_236_list_point_1">
+            <num>–</num>
+            <content eId="para_236_list_point_1_content">
+              <p xml:space="preserve">	информацию о ситуации в ДРК, в том числе о прогрессе в деле укрепления государственных институтов и проведения ключевых реформ в сферах государственного управления и безопасности;</p>
+            </content>
+          </point>
+          <point eId="para_236_list_point_2">
+            <num>–</num>
+            <content eId="para_236_list_point_2_content">
+              <p xml:space="preserve">	информацию о выполнении мандата МООНСДРК, включая качественные показатели эффективности деятельности, в том числе о выполнении задач по защите гражданских лиц, сотрудничестве между региональными силами безопасности, эффективности операций МООНСДРК, включая операции с задействованием бригады оперативного реагирования, и формировании полицейских и воинских контингентов, а также о том, каким образом деятельность Миссии позволяет ей выполнять свои первоочередные задачи, о которых говорится в пункте 24, и с какими трудностями и препятствиями она сталкивается в работе над этими первоочередными задачами, с использованием данных, собранных и проанализированных с помощью Комплексной системы планирования и оценки результативности, Комплексной системы показателей работы и подотчетности миротворческих миссий и других инструментов стратегического планирования и оценки деятельности, с тем чтобы охарактеризовать отдачу от деятельности Миссии и ее общую эффективность, в том числе информацию о необъявленных оговорках, отказе от участия в патрулировании или от его осуществления и о воздействии этих факторов на Миссию, а также о том, какие меры принимаются в связи с доводимыми до сведения случаями неудовлетворительной службы;</p>
+            </content>
+          </point>
+          <point eId="para_236_list_point_3">
+            <num>–</num>
+            <content eId="para_236_list_point_3_content">
+              <p xml:space="preserve">	информацию о действиях и результатах в области стратегической коммуникации в рамках предусмотренной мандатом деятельности;</p>
+            </content>
+          </point>
+          <point eId="para_236_list_point_4">
+            <num>–</num>
+            <content eId="para_236_list_point_4_content">
+              <p xml:space="preserve">	обновленную информацию об усилиях по обеспечению ресурсами описанных в плане на переходный период приоритетных совместных мероприятий со специализированными учреждениями, фондами и программами Организации Объединенных Наций и о прогрессе в осуществления этих мероприятий;</p>
+            </content>
+          </point>
+          <point eId="para_236_list_point_5">
+            <num>–</num>
+            <content eId="para_236_list_point_5_content">
+              <p xml:space="preserve">	обновленную информацию о постепенной передаче функций, выполняемых МООНСДРК, правительству ДРК, страновой группе Организации Объединенных Наций и другим соответствующим заинтересованным сторонам, в том числе, в соответствующих случаях, о прекращении выполнения функций, как это предусмотрено в пункте 40;</p>
+            </content>
+          </point>
+          <point eId="para_236_list_point_6">
+            <num>–</num>
+            <content eId="para_236_list_point_6_content">
+              <p xml:space="preserve">	раз в шесть месяцев — обновленную информацию о прогрессе в деле достижения контрольных показателей и индикаторов, установленных правительством и Организацией Объединенных Наций в плане на переходный период;</p>
+            </content>
+          </point>
+          <wrapUp eId="para_236_list_wrapup">
+          <p xml:space="preserve">и <span class="italic">просит также</span> Генерального секретаря включать во все доклады, представляемые Совету Безопасности, анализ гендерных аспектов;</p>
+          </wrapUp>
+        </list>
+      </paragraph>
+      <paragraph eId="para_238" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_238__content">
+          <p xml:space="preserve">	<span class="italic">просит также</span> Генерального секретаря представить Совету Безопасности после завершения совместного обзора плана на переходный период для МООНСДРК, но не позднее чем в июле 2023 года возможные варианты адаптации конфигурации гражданского, полицейского и военного компонентов МООНСДРК и будущей конфигурации присутствия Организации Объединенных Наций в ДРК после завершения нынешнего мандата МООНСДРК, принимая во внимание роль МООНСДРК в деятельности региональных сил ВАС и реализации других нынешних международных, региональных и двусторонних инициатив по оказанию поддержки ДРК;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_239" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_239__content">
+          <p xml:space="preserve">	<span class="italic">просит далее</span> Генерального секретаря представлять Совету Безопасности каждые шесть месяцев, координируя усилия со своим Специальным посланником по району Великих озер и своим Специальным представителем по ДРК, доклад о выполнении обязательств по Рамочному соглашению о мире, безопасности и сотрудничестве и о взаимосвязи хода выполнения этого соглашения с общей ситуацией в плане безопасности в районе Великих озер;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_241" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_241__content">
+          <p xml:space="preserve">	<span class="italic">постановляет</span> продолжать активно заниматься этим вопросом.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
