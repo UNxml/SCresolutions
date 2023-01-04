@@ -1,0 +1,816 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/"></FRBRuri>
+          <FRBRdate date="2022-12-20" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/deu@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/deu@/"></FRBRuri>
+          <FRBRdate date="2022-12-20" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="deu"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/deu@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/deu@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-03" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Organization Stabilization Mission in the Democratic Republic of the Congo" showAs="UN Organization Stabilization Mission in the Democratic Republic of the Congo" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Group of Experts Established pursuant to Resolution 1533 (2004)" showAs="UN. Group of Experts Established pursuant to Resolution 1533 (2004)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" showAs="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Charter of the United Nations (1945). Chapter VII" showAs="Charter of the United Nations (1945). Chapter VII" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEBUILDING" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" showAs="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO" showAs="DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[104]" showAs="UN ORGANIZATION STABILIZATION MISSION IN THE DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="[102]" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation concerning the Democratic Republic of the Congo." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2666 (2022) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 20 Dec. 2023]" showAs="Security Council resolution 2666 (2022) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 20 Dec. 2023]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-12-20" outcome="draftResolution" as="S/2022/960" by="France" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-12-20" outcome="adopted" as="S/PV.9226" by="Adopted unanimously, 9226th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-29059 (G)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Vereinte Nationen</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2666 (2022)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Sicherheitsrat</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Verteilung: Allgemein</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-12-20" class="rightSmall" refersTo="#dateOfIssuance">20. Dezember 2022</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2666 (2022)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">verabschiedet auf der <inline name="adoptionMeeting" title="9226.">9226. Sitzung des Sicherheitsrats </inline>am <docDate date="2022-12-20" refersTo="#adoptionDate">20. Dezember 2022</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Der Sicherheitsrat</span>,</p>
+      </formula>
+      <container name="unter Hinweis" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">unter Hinweis</span> auf seine früheren Resolutionen und die Erklärungen seiner Präsidentschaft betreffend die Demokratische Republik Kongo, insbesondere seine früheren Resolutionen betreffend das Mandat der Stabilisierungsmission der Organisation der Vereinten Nationen in der Demokratischen Republik Kongo (MONUSCO) und das mit den Resolutionen <a href="https://undocs.org/ot/S/RES/1493(2003)">1493 (2003)</a> und <a href="https://undocs.org/ot/S/RES/1807(2008)">1807 (2008)</a> eingerichtete Sanktionsregime,</p>
+      </container>
+      <container name="in Bekräftigung" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">in Bekräftigung</span> der Grundprinzipien der Friedenssicherung, darunter die Zustimmung der Parteien, die Unparteilichkeit und die Nichtanwendung von Gewalt außer zur Selbstverteidigung und zur Verteidigung des Mandats,</p>
+      </container>
+      <container name="in Bekräftigung" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">in Bekräftigung</span> seines nachdrücklichen Bekenntnisses zur Souveränität, Unabhängigkeit, Einheit und territorialen Unversehrtheit der Demokratischen Republik Kongo sowie aller Staaten in der Region und <span class="italic">unter Betonung</span> der dringenden Notwendigkeit, die Grund-sätze der Nichteinmischung, der guten Nachbarschaft und der regionalen Zusammenarbeit uneingeschränkt zu achten,</p>
+      </container>
+      <container name="unter Hinweis" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">unter Hinweis</span> darauf, dass die Regierung der Demokratischen Republik Kongo die Hauptverantwortung dafür trägt, alle in ihrem Hoheitsgebiet befindlichen und ihrer Hoheitsgewalt unterstehenden Zivilpersonen unter anderem vor internationalen Verbrechen zu schützen, in Anbetracht der anhaltenden Bedrohung der Sicherheit, die Zivilpersonen gefährdet, sowie unterstreichend, wie wichtig die nationalen Anstrengungen zur Wiederherstellung der staatlichen Autorität in allen Teilen des Landes sind, um die von bewaffneten Gruppen ausgehende Bedrohung zu beseitigen,</p>
+      </container>
+      <container name="feststellend" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">feststellend</span>, dass die Demokratische Republik Kongo nach wie vor unter immer wiederkehrenden und sich wandelnden Zyklen des Konflikts und anhaltender Gewalt durch aus- und inländische bewaffnete Gruppen, die eine zutiefst besorgniserregende Sicherheits-, Menschenrechts- und humanitäre Krise verschärfen, sowie unter Gewalt zwischen Bevölkerungsgruppen und durch Milizen in Teilen der Demokratischen Republik Kongo leidet,</p>
+      </container>
+      <container name="mit dem Ausdruck seiner Besorgnis" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">mit dem Ausdruck seiner Besorgnis</span> darüber, dass Berichten zufolge Verbindungen zwischen der Allianz der demokratischen Kräfte und terroristischen Netzen im Osten der Demokratischen Republik Kongo bestehen, <span class="italic">betonend</span>, dass diese Verbindungen die Konflikte weiter verschärfen und zur Untergrabung der staatlichen Autorität beitragen können, und <span class="italic">unter Betonung</span> dessen, dass es für diese Probleme keine rein militärische Lösung geben kann, und dessen, wie wichtig es ist, den Terrorismus im Rahmen eines ganzheitlichen, mit dem anwendbaren Völkerrecht im Einklang stehenden Ansatzes zu bekämpfen,</p>
+      </container>
+      <container name="in Anerkennung" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">in Anerkennung</span> der Anstrengungen der Regierung und des Volkes der Demokratischen Republik Kongo zur Herbeiführung von Frieden und Entwicklung in dem Land sowie der Unterstützung und des Engagements aus der Region, <span class="italic">ferner in Anerkennung</span> der Anstrengungen, die die Streitkräfte der Demokratischen Republik Kongo und die MONUSCO zur Bekämpfung der von bewaffneten Gruppen in der Demokratischen Republik Kongo ausgehenden Bedrohung unternehmen,</p>
+      </container>
+      <container name="weiter zutiefst besorgt" eId="container_9">
+          <p xml:space="preserve">	<span class="italic">weiter zutiefst besorgt</span> über die zahlreichen Menschenrechtsverletzungen und -übergriffe und Verstöße gegen das humanitäre Völkerrecht in Teilen des Landes, die von allen Parteien und insbesondere von bewaffneten Gruppen begangen werden, sowie über die durch Hetzparolen, Fehlinformationen und Desinformation, verbreitet unter anderem über soziale Medien, verursachte Verschärfung der Gewalt zwischen Bevölkerungsgruppen,</p>
+      </container>
+      <container name="in Bekräftigung" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">in Bekräftigung</span> der wichtigen Rolle der Frauen und jungen Menschen bei der Verhütung, Bewältigung und Beilegung von Konflikten und in Friedenskonsolidierungs- und Wahlprozessen, betonend, wie wichtig ihre volle, gleichberechtigte, wirksame, konstruktive und sichere Teilhabe an allen Anstrengungen zur Wahrung und Förderung des Friedens und der Sicherheit in der Demokratischen Republik Kongo ist,</p>
+      </container>
+      <container name="mit dem Ausdruck großer Besorgnis" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">mit dem Ausdruck großer Besorgnis</span> über die humanitäre Lage, aufgrund deren schätzungsweise 27 Millionen Kongolesinnen und Kongolesen humanitäre Hilfe benötigen, über die steigende Zahl an Binnenvertriebenen in der Demokratischen Republik Kongo, die derzeit auf 5,7 Millionen Menschen geschätzt wird, sowie über die 523.000 Flüchtlinge in der Demokratischen Republik Kongo und die mehr als 1 Million Flüchtlinge aus der Demokratischen Republik Kongo anderswo in Afrika infolge der anhaltenden Feindseligkeiten, den Mitgliedstaaten <span class="italic">nahelegend</span>, sich zu einer gerechteren Lasten- und Aufgabenteilung bei der Aufnahme und Unterstützung von Flüchtlingen in der Demokratischen Republik Kongo im Einklang mit dem Umfassenden Rahmenplan für Flüchtlingshilfemaßnahmen zu bekennen, <span class="italic">ferner</span> die Demokratische Republik Kongo und alle Staaten in der Region <span class="italic">auffordernd</span>, mit Unterstützung des Landesteams der Vereinten Nationen auf ein friedliches Umfeld hinzuarbeiten, das die Verwirklichung dauerhafter Lösungen für die Flüchtlinge und Binnenvertriebenen begünstigt, einschließlich ihrer freiwilligen Rückkehr und Wiedereingliederung in die Demokratische Republik Kongo in Sicherheit und Würde, und <span class="italic">betonend</span>, dass jede derartige Lösung mit den einschlägigen Verpflichtungen nach dem Flüchtlingsvölkerrecht, dem humanitären Völkerrecht und den internationalen Menschenrechtsnormen im Einklang stehen soll,</p>
+      </container>
+      <container name="unter Hinweis" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">unter Hinweis</span> auf die Leitgrundsätze der Vereinten Nationen für die humanitäre Nothilfe,</p>
+      </container>
+      <container name="unter Hinweis" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">unter Hinweis</span> auf die Resolutionen <a href="https://undocs.org/ot/S/RES/2532(2020)">2532 (2020)</a> und <a href="https://undocs.org/ot/S/RES/2565(2021)">2565 (2021)</a>, die in allen Situationen auf der Tagesordnung des Rates eine allgemeine und sofortige Einstellung der Feindseligkeiten verlangen und alle an einem bewaffneten Konflikt beteiligten Parteien auffordern, sofort eine dauerhafte humanitäre Pause einzulegen, um die sichere, zeitnahe, ungehinderte und anhaltende Bereitstellung humanitärer Hilfe entsprechend den humanitären Grundsätzen der Menschlichkeit, der Neutralität, der Unparteilichkeit und der Unabhängigkeit zu ermöglichen,</p>
+      </container>
+      <container name="feststellend" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">feststellend</span>, wie wichtig der gewerbliche Handel mit Nahrungsmitteln, Brennstoffen und anderen lebenswichtigen Gütern ist, um den Grundbedarf der Zivilbevölkerung zu decken,</p>
+      </container>
+      <container name="unter Hinweis" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">unter Hinweis</span> auf alle seine einschlägigen Resolutionen über Frauen und Frieden und Sicherheit, über Jugend und Frieden und Sicherheit, über Kinder und bewaffnete Konflikte und über den Schutz von Zivilpersonen in bewaffneten Konflikten, <span class="italic">unter Begrüßung</span> der Anstrengungen der Regierung der Demokratischen Republik Kongo in dieser Hinsicht und bei der Durchführung der Resolution <a href="https://undocs.org/ot/S/RES/1325(2000)">1325 (2000)</a> sowie <span class="italic">unter Hinweis</span> auf die am 10. Dezember 2020 von der Arbeitsgruppe des Sicherheitsrats für Kinder und bewaffnete Konflikte angenommenen Schlussfolgerungen betreffend Kinder und bewaffnete Konflikte in der Demokratischen Republik Kongo, die sich auf die an den bewaffneten Konflikten in dem Land beteiligten Parteien beziehen, <span class="italic">mit dem Ausdruck</span> großer Besorgnis über die zahlreichen Rechtsverletzungen, die gegen Kinder gerichtet sind, insbesondere sexuelle und geschlechtsspezifische Gewalthandlungen, die von Sicherheitskräften begangen werden, und <span class="italic">mit der Aufforderung</span> an alle Akteure, zur Rehabilitation und Wiedereingliederung der früher mit bewaffneten Gruppen und Kräften assoziierten Kinder beizutragen,</p>
+      </container>
+      <container name="im Bewusstsein" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">im Bewusstsein</span> der nachteiligen Auswirkungen, die klimatische und ökologische Veränderungen, Naturkatastrophen und mangelnder Zugang zu Energie, neben anderen Faktoren, auf die Stabilität der Demokratischen Republik Kongo haben, <span class="italic">begrüßend</span>, dass die Demokratische Republik Kongo bei der Entwicklung nationaler Strategien zur Bewältigung dieser Probleme und bei der Erhaltung der Wälder des Kongobeckens Führungsverantwortung übernommen hat, <span class="italic">mit dem Ausdruck seiner Besorgnis</span> über die Aktivitäten bewaffneter Gruppen in Schutzgebieten, die zur Schädigung der Umwelt führen, und <span class="italic">in Anerkennung</span> des Rahmenübereinkommens der Vereinten Nationen über Klimaänderungen und des Übereinkommens von Paris,</p>
+      </container>
+      <container name="erneut erklärend" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">erneut erklärend</span>, dass die MONUSCO ihr Mandat nach den einschlägigen Resolutionen des Sicherheitsrats unter Einsatz aller ihr zur Verfügung stehenden Mittel vollständig erfüllen muss, um wirksam gegen die Bedrohung anzugehen, die im Kontext zunehmenden bewaffneten Konflikts in der Demokratischen Republik Kongo von bewaffneten Gruppen und anderen Sicherheitsbedrohungen ausgeht,</p>
+      </container>
+      <container name="mit der erneuten Aufforderung" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">mit der erneuten Aufforderung</span> an alle Parteien, mit der MONUSCO uneingeschränkt zusammenzuarbeiten und sich weiter dafür einzusetzen, dass die Mission ihr Mandat vollständig und objektiv erfüllen kann, <span class="italic">ferner bekräftigend</span>, wie wichtig die durchgängige Einhaltung des Abkommens über die Rechtsstellung der Truppen ist, und dass er alle Angriffe auf Friedenssicherungskräfte – die Kriegsverbrechen darstellen können –, verurteilt, und <span class="italic">betonend</span>, dass die für diese Angriffe Verantwortlichen zur Rechenschaft gezogen werden müssen,</p>
+      </container>
+      <container name="erneut darauf hinweisend" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">erneut darauf hinweisend</span>, wie wichtig es ist, die Friedensmissionen der Vereinten Nationen in ihren Übergangsphasen mit ausreichenden Mitteln auszustatten, und in dieser Hinsicht <span class="italic">unter Hinweis</span> auf die Resolution <a href="https://undocs.org/ot/S/RES/2594(2021)">2594 (2021)</a> über den Übergang von Friedensmis-sionen der Vereinten Nationen,</p>
+      </container>
+      <container name="unter Hervorhebung" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">unter Hervorhebung</span> der Bedeutung der strategischen Kommunikation für die Erfüllung des Mandats der MONUSCO und für den Schutz und die Sicherheit ihrer Friedens-sicherungskräfte,</p>
+      </container>
+      <container name="feststellend" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">feststellend</span>, dass die Situation in der Demokratischen Republik Kongo nach wie vor eine Bedrohung des Weltfriedens und der internationalen Sicherheit in der Region darstellt,</p>
+      </container>
+      <container name="tätig werdend" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">tätig werdend</span> nach Kapitel VII der Charta der Vereinten Nationen,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <content eId="para_23__content">
+          <p xml:space="preserve">
+            <span class="bold">Politische Lage</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">begrüßt</span> die Bemühungen der Regierung der Demokratischen Republik Kongo, den Bedürfnissen des kongolesischen Volkes gerecht zu werden, <span class="italic">fordert</span> alle politischen Interessenträger des Landes <span class="italic">mit Nachdruck auf</span>, nichts unversucht zu lassen, um die im Aktionsprogramm 2021-2023 der Regierung enthaltenen entscheidenden Reformen auf den Gebieten Regierungsführung, Sicherheit und Wirtschaft durchzuführen, <span class="italic">erklärt erneut</span>, wie wichtig es ist, dass Präsident Tshisekedi und seine Regierung die von ihnen eingegangenen Verpflichtungen erfüllen, die nationale Einheit zu verwirklichen, die Rechtsstaatlichkeit und die Achtung der Menschenrechte zu stärken, einschließlich der Meinungsfreiheit und des Rechts der freien Meinungsäußerung, der Pressefreiheit und des Rechts, sich friedlich zu versammeln, sowie die Korruption zu bekämpfen, nationale Entwicklungsprogramme zur erheblichen Verringerung der Armut auf den Weg zu bringen und die politische Inklusivität und die Friedenskonsolidierung zu fördern, und <span class="italic">ermutigt</span> die MONUSCO, auch weiterhin ihre Guten Dienste zu nutzen, um friedliche, transparente, alle Seiten einschließende und glaubwürdige politische Prozesse zu unterstützen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">begrüßt</span> die Bemühungen Präsident Tshisekedis und seiner Regierung um Aussöhnung, Frieden und Stabilität in der Demokratischen Republik Kongo, <span class="italic">befürwortet</span> seine anhaltenden Bemühungen, gemeinsam mit Staaten in der Region gute Beziehungen zu den Nachbarländern aufzubauen und den Frieden, die Sicherheit und die regionale Integration voranzubringen, <span class="italic">stellt fest</span>, dass politische Stabilität, Sicherheit und eine erhöhte staatliche Präsenz in Konfliktgebieten, vorwiegend im Osten der Demokratischen Republik Kongo, für den dauerhaften Frieden in dem Land von entscheidender Bedeutung sind, <span class="italic">fordert</span> die Behörden der Demokratischen Republik Kongo <span class="italic">auf</span>, mit Unterstützung der MONUSCO und des Landesteams der Vereinten Nationen auf die Stabilisierung und die Stärkung der Kapazitäten der staatlichen Institutionen hinzuarbeiten, insbesondere in Konfliktgebieten, um die Rechte aller Kongolesinnen und Kongolesen zu gewährleisten und ihren Bedürfnissen zu entsprechen, <span class="italic">fordert ferner</span> alle politischen Interessenträger <span class="italic">auf</span>, mit Unterstützung der MONUSCO weiter auf friedliche, transparente, inklusive und glaubwürdige Prozesse für die für 2023 angesetzten Präsidentschafts- und Parlamentswahlen im ganzen Land hinzuwirken, im Einklang mit der Verfassung und dem Wahlgesetz, und in allen Phasen die volle, gleichberechtigte, wirksame und konstruktive Teilhabe der Frauen zu gewährleisten, und <span class="italic">begrüßt</span> es, dass die Regierung der Demokratischen Republik Kongo einen soliden Haushaltsplan vorgelegt hat, der den Bedürfnissen des kongolesischen Volkes gerecht werden soll, dafür sorgen soll, dass die Finanzmittel für den Wahlprozess 2023 bereitstehen, und freie und faire Wahlen erleichtern soll;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">ersucht</span> den Generalsekretär und <span class="italic">fordert</span> die Regionalorganisationen <span class="italic">auf</span>, unter anderem mittels ihrer Guten Dienste politische Unterstützung für die Stärkung der staat-lichen Institutionen in der Demokratischen Republik Kongo und die Wiederherstellung des Vertrauens zwischen den verschiedenen Parteien bereitzustellen, um den Frieden und die Sicherheit zu festigen, in vorrangigen Bereichen die tieferen Konfliktursachen anzugehen sowie einen breiten nationalen Konsens zu den wichtigsten Reformen in den Bereichen Regierungsführung und Sicherheit, Bekämpfung der illegalen Ausbeutung natürlicher Ressourcen und Unterstützung der laufenden Reform- und anderen Wahlprozesse entsprechend den nationalen Prioritäten der Regierung der Demokratischen Republik Kongo zu fördern;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="MercuryDocument">
+        <content eId="para_28__content">
+          <p xml:space="preserve">
+            <span class="bold">Menschenrechte</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">begrüßt</span> die Zusagen und Maßnahmen Präsident Tshisekedis, durch die sichergestellt werden soll, dass die Regierung der Demokratischen Republik Kongo die Menschenrechte und Grundfreiheiten schützt und achtet sowie die Straflosigkeit in allen Bereichen bekämpft, <span class="italic">begrüßt ferner</span> die von der Regierung der Demokratischen Republik Kongo unternommenen Schritte zur Einführung eines nationalen Prozesses für Unrechtsaufarbeitung, einschließlich der Aufnahme von Konsultationen in mehreren Provinzen, <span class="italic">fordert</span> die Regierung der Demokratischen Republik Kongo <span class="italic">auf</span>, diese Zusagen einzuhalten und dafür zu sorgen, dass der Belagerungszustand in Ituri und Nordkivu im Rahmen ihrer weiteren Anstrengungen zur Beseitigung der Bedrohung durch bewaffnete Gruppen und zur Wiederherstellung der staatlichen Autorität regelmäßig bewertet wird, sich nach den Fortschritten bei der Verwirklichung seiner klar definierten Ziele richtet und unter uneingeschränkter Achtung der internationalen Menschenrechtsnormen und des humanitären Völkerrechts umgesetzt wird;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">fordert</span> die Regierung der Demokratischen Republik Kongo <span class="italic">nachdrücklich auf</span>, diejenigen zur Rechenschaft zu ziehen, die für Verstöße gegen das humanitäre Völkerrecht beziehungsweise Menschenrechtsverletzungen und -übergriffe verantwortlich sind, insbesondere jene, die möglicherweise Völkermord, Kriegsverbrechen und Verbrechen gegen die Menschlichkeit darstellen, und <span class="italic">unterstreicht</span> sowohl die regionale Zusammenarbeit als auch die Zusammenarbeit der Demokratischen Republik Kongo mit dem Internationalen Strafgerichtshof, nachdem die Demokratische Republik Kongo 2004 die Situation in dem Land dem Gerichtshof unterbreitet hatte, und die Zusammenarbeit mit dem Afrikanischen Gerichtshof für Menschenrechte und Rechte der Völker;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">legt</span> der Regierung der Demokratischen Republik Kongo <span class="italic">nahe</span>, weitere Schritte zu unternehmen, um die Sicherheitskräfte für Menschenrechtsverletzungen zur Rechenschaft zu ziehen und die Straflosigkeit in ihren Reihen zu bekämpfen, <span class="italic">fordert</span> die kongolesischen Behörden <span class="italic">auf</span>, sicherzustellen, dass die für diese Handlungen Verantwortlichen vor Gericht gestellt werden, <span class="italic">fordert ferner</span> die Regierung der Demokratischen Republik Kongo <span class="italic">auf</span>, dem Gemeinsamen Menschenrechtsbüro in der Demokratischen Republik Kongo im Einklang mit früheren Vereinbarungen den vollen und ungehinderten Zugang zu allen Hafteinrichtungen, Krankenhäusern, Leichenhäusern und allen anderen Räumlichkeiten zu erleichtern, der für die Dokumentierung von Menschenrechtsverletzungen erforderlich ist, soweit anwendbar, <span class="italic">betont</span>, dass die Regierung der Demokratischen Republik Kongo auch weiterhin eine höhere Professionalität ihrer Sicherheitskräfte gewährleisten muss, einschließlich der Überprüfung und Schulung des Sicherheitspersonals und des Aufbaus seiner Kapazitäten zur vollen Achtung des innerstaatlichen Rechts, der internationalen Menschenrechtsnormen und des humanitären Völkerrechts, und <span class="italic">unterstreicht</span>, wie wichtig die Wahrung der Rechtsstaatlichkeit ist;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">verurteilt nachdrücklich</span> jede insbesondere von bewaffneten Gruppen begangene sexuelle Gewalt in Konflikt- und Postkonfliktsituationen in der Demokratischen Republik Kongo, <span class="italic">begrüßt</span> die Anstrengungen der Regierung der Demokratischen Republik Kongo, sexuelle Gewalt in Konflikt- und Postkonfliktsituationen zu bekämpfen und zu verhindern, insbesondere auch die Fortschritte, die im Kampf gegen die Straflosigkeit durch die Festnahme, strafrechtliche Verfolgung und Verurteilung von Tatverantwortlichen aus den Reihen der Streitkräfte der Demokratischen Republik Kongo und der Kongolesischen Natio-nalpolizei erzielt wurden, und die Fortschritte beim Erlass eines Gesetzes über Wiedergutmachung und bei der Einrichtung eines nationalen Wiedergutmachungsfonds für die Opfer und Überlebenden sexueller Gewalt und anderer Verbrechen, <span class="italic">fordert</span> die Regierung der Demokratischen Republik Kongo <span class="italic">nachdrücklich auf</span>, ihre Anstrengungen zur Bekämpfung der Straflosigkeit für sexuelle Gewalt in Konflikt- und Postkonfliktsituationen, einschließlich der von Angehörigen der Streitkräfte und der Nationalpolizei begangenen sexuellen Gewalt, weiter zu verstärken und den Überlebenden, den Opfern und den Zeuginnen und Zeugen alle erforderlichen Dienste und jeden notwendigen Schutz bereitzustellen, beispielsweise Dienste auf dem Gebiet der allgemeinen, der sexuellen und der reproduktiven Gesundheit, der psychischen Gesundheit sowie Dienste rechtlicher und soziökonomischer Art, <span class="italic">legt</span> der Regierung der Demokratischen Republik Kongo <span class="italic">nahe</span>, das 2013 angenommene Gemeinsame Kommuniqué zur Bekämpfung sexueller Gewalt in Konflikten und das 2019 unterzeichnete Addendum dazu verstärkt umzusetzen und sicherzustellen, dass genügend Finanzmittel für die Umsetzung dieser Verpflichtungen bereitstehen, <span class="italic">begrüßt</span> die weiteren Fortschritte, die die Streitkräfte der Demokratischen Republik Kongo und die Kongolesische Nationalpolizei bei der Umsetzung ihrer jeweiligen Aktionspläne gegen sexuelle Gewalt erzielt haben, und <span class="italic">erinnert</span> daran, wie wichtig die Kooperation mit dem Büro der Sonderbeauftragten des Generalsekretärs für sexuelle Gewalt in Konflikten ist;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">begrüßt</span> die Fortschritte, die die Regierung der Demokratischen Republik Kongo dabei erzielt hat, die Fortschritte in Bezug auf den Aktionsplan zur Verhütung und Beendigung der Einziehung und des Einsatzes von Kindern zu konsolidieren und seine Umsetzung zu beschleunigen, um alle Rechtsverletzungen und Missbrauchshandlungen an Kindern zu beenden und zu verhüten, und zu gewährleisten, dass Kinder nicht aufgrund ihrer mutmaßlichen Verbindung zu bewaffneten Gruppen in Haft genommen werden und dass sie an Kinderschutzakteure übergeben werden, <span class="italic">fordert</span> die Regierung der Demokratischen Republik Kongo <span class="italic">auf</span>, ihre Anstrengungen fortzusetzen und dabei sicherzustellen, dass die für alle Rechtsverletzungen und Missbrauchshandlungen Verantwortlichen, auch aus den Reihen der Sicherheitskräfte, zur Rechenschaft gezogen werden, und <span class="italic">erinnert</span> daran, wie wichtig die Kooperation mit dem Büro der Sonderbeauftragten des Generalsekretärs für Kinder und bewaffnete Konflikte ist;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <content eId="para_40__content">
+          <p xml:space="preserve">
+            <span class="bold">Bewaffnete Gruppen</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">verurteilt nachdrücklich</span> alle in der Demokratischen Republik Kongo operierenden bewaffneten Gruppen, einschließlich der M23, der Coopérative pour le développement du Congo (CODECO), der Allianz der demokratischen Kräfte, der Demokratischen Kräfte zur Befreiung Ruandas (FDLR), der Résistance pour un Etat de droit (RED-Tabara), Mai-Mai-Gruppen und mehrerer anderer in- und ausländischer bewaffneter Gruppen, sowie ihre Verstöße gegen das humanitäre Völkerrecht und das sonstige anwendbare Völkerrecht und ihre Verletzungen der Menschenrechte, <span class="italic">verurteilt erneut</span> die Angriffe auf die Zivilbevölkerung, Personal der Vereinten Nationen und beigeordnetes Personal und humanitäre Akteure, Sanitätspersonal und medizinische Einrichtungen sowie summarische Hinrichtungen und Verstümmelung, sexuelle und geschlechtsspezifische Gewalt und die Einziehung und den Einsatz von Kindern, die Entführung von Kindern und humanitärem Personal, Angriffe von bewaffneten Gruppen und Milizen auf Schulen und mit Schulen in Verbindung stehende Zivilpersonen, darunter Kinder und Lehrkräfte, und auf Krankenhäuser unter Verstoß gegen das anwendbare Völkerrecht, die Benutzung von Zivilpersonen als menschliche Schutzschilde, die Vertreibung zahlreicher Zivilpersonen, die außergerichtlichen Hinrichtungen und willkürlichen Festnahmen und den unterschiedslosen Einsatz behelfsmäßiger Sprengvorrichtungen und <span class="italic">erklärt ferner erneut</span>, dass die Verantwortlichen zur Rechenschaft gezogen werden müssen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">verlangt</span>, dass alle bewaffneten Gruppen sofort alle Formen von Gewalt und andere destabilisierende Aktivitäten, die illegale Ausbeutung natürlicher Ressourcen und den illegalen Handel damit einstellen, <span class="italic">verlangt ferner</span>, dass die M23 sich, wie in dem von der Afrikanischen Union unterstützten Prozess von Luanda vereinbart, sofort aus allen besetzten Gebieten zurückzieht und dass alle Mitglieder bewaffneter Gruppen diese Gruppen sofort und auf Dauer auflösen, ihre Waffen niederlegen, der Gewalt abschwören, Rechtsverletzungen an Kindern verhüten und beenden und die Kinder in ihren Reihen freilassen, <span class="italic">fordert</span> alle kongolesischen bewaffneten Gruppen <span class="italic">mit Nachdruck auf</span>, sich bedingungslos an dem unter Führung der Ostafrikanischen Gemeinschaft stehenden Prozess von Nairobi zu beteiligen, um die politischen Voraussetzungen für die Vorbereitung des Programms für Entwaffnung, Demobilisierung, Wiederaufbau der Gemeinschaft und Stabilisierung anzustreben, fordert die ausländischen bewaffneten Gruppen mit Nachdruck auf, in ihre Herkunftsländer zurückzukehren, und <span class="italic">fordert</span> die Regierung der Demokratischen Republik Kongo <span class="italic">auf</span>, im Einklang mit dem Völkerrecht, einschließlich des humanitären Völkerrechts und der internationalen Menschenrechtsnormen, militärische und nichtmilitärische Ansätze zu kombinieren, um der von bewaffneten Gruppen ausgehenden Bedrohung weiter zu begegnen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">fordert</span> die Regierung der Demokratischen Republik Kongo und ihre Partner, einschließlich der internationalen Finanzinstitutionen, <span class="italic">nachdrücklich auf</span>, dringend ausreichende und zeitnahe Unterstützung für die rasche und wirksame Durchführung der Entwaffnung, Demobilisierung und Wiedereingliederung der in Betracht kommenden ehemaligen Kombattantinnen und Kombattanten unter der Koordinierung des Programms für Entwaffnung, Demobilisierung, Wiederaufbau der Gemeinschaft und Stabilisierung bereitzustellen, und zwar durch maßgeschneiderte, lokale und kontextspezifische Initiativen mit zukunftsfähigen wirtschaftlichen Alternativen und Chancen und die Gewährleistung dessen, dass Rechenschaftspflicht für Menschenrechtsverletzungen und -übergriffe und internationale Verbrechen sowie Initiativen zur Unrechtsaufarbeitung und der Schutz der Rechte des Kindes fester Bestandteil dieser Prozesse sind;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">verurteilt</span>, dass bewaffnete Gruppen und die sie unterstützenden kriminellen Netzwerke nach wie vor natürliche Ressourcen, insbesondere sogenannte „Konfliktminerale“ wie Zinn, Tantal, Tungsten, Gold, Diamanten, Kobalt und Coltan sowie Kakao, Holzkohle, Holz und wildlebende Tiere und Pflanzen illegal ausbeuten und unerlaubten Handel damit treiben, sowie die negativen Auswirkungen bewaffneter Konflikte auf Naturschutzgebiete, wodurch ein dauerhafter Frieden und eine anhaltende Entwicklung in der Demokratischen Republik Kongo untergraben werden, <span class="italic">legt</span> der Regierung der Demokratischen Republik Kongo <span class="italic">nahe</span>, die Anstrengungen zur Sicherung dieser Gebiete zu verstärken, <span class="italic">fordert</span> die Mitgliedstaaten der Internationalen Konferenz über die Region der Großen Seen und der regionalen Wirtschaftsgemeinschaften <span class="italic">auf</span>, die illegale Ausbeutung natürlicher Ressourcen und den unerlaubten Handel damit gemeinsam zu bekämpfen, indem sie die Sicherheit um die Abbaugebiete verbessern und stärken, eine Annäherung zwischen den Abbaugemeinschaften, lokalen Behörden und Sicherheitsakteuren anstreben, um Konflikte beizulegen und die Rechte der in Gemeinschaften im Umkreis der Abbaugebiete lebenden Menschen zu fördern, und <span class="italic">ermutigt</span> sie, eine transparente und rechtmäßige Bewirtschaftung der natürlichen Ressourcen zu fördern, unter anderem durch die Festlegung von Zielen für Staatseinnahmen zugunsten der Entwicklungsfinanzierung, tragfähige Regulierungs- und Zollrahmen und Sorgfaltsmaßnahmen zur Förderung verantwortungsvoller Lieferketten für Minerale, und <span class="italic">erinnert</span> in dieser Hinsicht an seine Resolutionen <a href="https://undocs.org/ot/S/RES/2457(2019)">2457 (2019)</a> und <a href="https://undocs.org/ot/S/RES/2389(2017)">2389 (2017)</a> sowie die Erklärung seiner Präsidentschaft <a href="https://undocs.org/ot/S/PRST/2021/19">S/PRST/2021/19</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">begrüßt</span> die Zusagen und Maßnahmen Präsident Tshisekedis und seiner Regierung, um die Reform des Sicherheitssektors voranzubringen und die Konsolidierung der staatlichen Autorität, die Aussöhnung, die Toleranz und die Demokratie zu fördern, <span class="italic">unterstreicht</span>, dass, erleichtert durch diese ersten Maßnahmen, mehr Möglichkeiten für eine Zusammenarbeit und Abstimmung der MONUSCO mit kongolesischen Sicherheitskräften bestehen, <span class="italic">ermutigt</span> die kongolesischen Behörden, sich an diese Zusagen zu halten und die von Präsident Tshisekedi angekündigten Truppenrotationen zu beschleunigen, <span class="italic">fordert</span> die Regierung der Demokratischen Republik Kongo <span class="italic">auf</span>, uneingeschränkt an ihrer Entschlossenheit zum Schutz der Zivilbevölkerung festzuhalten, indem sie rasch professionelle, rechenschaftspflichtige und tragfähige Sicherheitskräfte aufstellt, die das humanitäre Völkerrecht, das innerstaatliche Recht und die internationalen Menschenrechtsnormen achten, eine rechenschaftspflichtige kongolesische Zivilverwaltung einsetzt, insbesondere Polizei, Richterschaft, Strafvollzug und eine Gebietsverwaltung, die Rechtsstaatlichkeit festigt und die Menschenrechte fördert und schützt, so auch indem sie die notwendigen finanziellen Mittel bereitstellt und der vollen, gleichberechtigten, wirksamen und konstruktiven Teilhabe und der Sicherheit der Frauen Rechnung trägt, und <span class="italic">ermutigt</span> die internationalen Partner, ihre diesbezügliche Unterstützung zu erhöhen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">fordert</span> anhaltende nationale Anstrengungen zur Bekämpfung der Bedrohung, die von dem unerlaubten Transfer, der destabilisierenden Anhäufung und dem Missbrauch von Kleinwaffen und leichten Waffen und der Umleitung von Waffen an bewaffnete Gruppen in der Demokratischen Republik Kongo ausgeht, unter anderem durch die Gewährleistung der sicheren und wirksamen Verwaltung, Lagerung, Überwachung und Sicherung ihrer Waffen- und Munitionsbestände und durch die Bekämpfung des illegalen Waffenhandels und der Umleitung von Waffen, auch durch den Aufbau von Kapazitäten und die Bekämpfung der Straflosigkeit, gegebenenfalls und im Rahmen der vorhandenen Ressourcen mit fortlaufender Unterstützung durch die MONUSCO, <span class="italic">fordert</span> die Regierung der Demokratischen Republik Kongo <span class="italic">auf</span>, die Nationale Kommission für die Kontrolle von Kleinwaffen und leichten Waffen und die Verringerung bewaffneter Gewalt stärker zu unterstützen, und <span class="italic">legt</span> den Vereinten Nationen und den internationalen Partnern <span class="italic">nahe</span>, die Regierung der Demokratischen Republik Kongo bei der Verbesserung des Waffen- und Munitionsmanagements verstärkt zu unterstützen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="MercuryDocument">
+        <content eId="para_57__content">
+          <p xml:space="preserve">
+            <span class="bold">Regionale Unterstützung</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">erinnert</span> daran, dass die Beseitigung der von bewaffneten Gruppen ausgehenden Bedrohung einen integrierten regionalen Ansatz und ein starkes politisches Engagement seitens der Regierung der Demokratischen Republik Kongo, der Afrikanischen Union, der Ostafrikanischen Gemeinschaft, der Internationalen Konferenz über die Region der Großen Seen und der Entwicklungsgemeinschaft des südlichen Afrika erfordert, <span class="italic">bekräftigt</span> seine Unterstützung für die nationalen und regionalen Anstrengungen zur Förderung von Frieden und Stabilität in der Demokratischen Republik Kongo und der Region auf der Grundlage der Verpflichtungen, die die Länder der Region nach dem Rahmenabkommen über Frieden, Sicherheit und Zusammenarbeit für die Demokratische Republik Kongo und die Region  eingegangen sind, das nach wie vor ein unverzichtbarer Mechanismus zur Herbeiführung dauerhaften Friedens und dauerhafter Stabilität ist, <span class="italic">unterstreicht</span> die im Rahmenabkommen eingegangenen Verpflichtungen der Region, bewaffnete Gruppen weder zu dulden noch ihnen irgendeine Hilfe oder Unterstützung zu gewähren, <span class="italic">verurteilt mit Nachdruck</span> jede externe Unterstützung nichtstaatlicher bewaffneter Akteure, einschließlich der M23, und <span class="italic">fordert</span> ein sofortiges Ende dieser Unterstützung;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">würdigt</span> den unter der Führung der Ostafrikanischen Gemeinschaft stehenden Prozess von Nairobi, <span class="italic">anerkennt</span> dessen zweigleisigen Ansatz, <span class="italic">würdigt</span> die von der Afrikanischen Union mandatierte laufende Vermittlung unter der Ägide Angolas und die ergänzenden Bemühungen, die sicherstellen sollen, dass diese Initiativen einander verstärken, darunter die Unterstützung seitens der MONUSCO und des Büros des Sondergesandten des Generalsekretärs für die Großen Seen, <span class="italic">befürwortet</span> weitere Anstrengungen zur Umsetzung des Fahrplans der Internationalen Konferenz über die Region der Großen Seen über den Prozess der Befriedung der östlichen Region der Demokratischen Republik Kongo und des Schlusskommuniqués des Minigipfels über Frieden und Sicherheit in der östlichen Region der Demokratischen Republik Kongo und zur Beilegung der Meinungsverschiedenheiten im Weg des Dialogs und nimmt Kenntnis von den Anstrengungen des Erweiterten gemeinsamen Verifikationsmechanismus der Internationalen Konferenz über die Region der Großen Seen und des von Angola geführten Gemeinsamen Ad-hoc-Verifikationsmechanismus und fordert die volle, gleichberechtigte und konstruktive Teilhabe der Frauen an diesen Prozessen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">ermutigt</span> nach Bedarf zur Unterstützung der regionalen Truppe der Ostafrikanischen Gemeinschaft und <span class="italic">unterstreicht</span> die Wichtigkeit des Schutzes von Zivilpersonen, einer engen Abstimmung und des Informationsaustauschs zwischen der Truppe der Ostafrikanischen Gemeinschaft, den Streitkräften der Demokratischen Republik Kongo, den Nationalen Verteidigungskräften Burundis, den Verteidigungskräften des Volkes Ugandas und der MONUSCO, unter anderem zur Abstimmung der Einsätze und zur Gewährleistung der Erfüllung des Mandats der MONUSCO, sowie die Notwendigkeit, alle Einsätze, ob gemeinsame oder einseitige, unter strenger Einhaltung des anwendbaren Völkerrechts, einschließlich des humanitären Völkerrechts und der internationalen Menschenrechtsnormen, soweit anwendbar, und des Einhaltungs- und Rechenschaftsrahmens der Afrikanischen Union durchzuführen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">legt</span> den Unterzeichnerstaaten des Rahmenabkommens <span class="italic">nahe</span>, Eigenverantwortung und politischen Willen zu zeigen, um die wirksame Umsetzung der Strategie der Vereinten Nationen für Friedenskonsolidierung, Konfliktprävention und Konfliktbeilegung in der Region der Großen Seen sowie ihres Aktionsplans zu gewährleisten, <span class="italic">unterstützt</span> den Sondergesandten des Generalsekretärs für die Region der Großen Seen <span class="italic">voll</span> darin, sein Mandat zur Bewältigung der verbleibenden Herausforderungen bei der Durchführung des Rahmenabkommens und zur Förderung von Frieden und Stabilität in der Region zu erfüllen, <span class="italic">fordert</span> den Sondergesandten <span class="italic">auf</span>, sein regionales und internationales Engagement für die Unterstützung der vollständigen Durchführung des Rahmenabkommens unter anderem über Gute Dienste, abgestimmte Strategien und den Informationsaustausch mit der MONUSCO, dem Regionalbüro der Vereinten Nationen für Zentralafrika und anderen Institutionen der Vereinten Nationen fortzusetzen, und <span class="italic">fordert</span> die MONUSCO <span class="italic">nachdrücklich auf</span>, gemeinsam mit dem Büro des Sondergesandten für die Region der Großen Seen auf politische Lösungen hinzuwirken, um den grenzüberschreitenden Strömen von bewaffneten Kombattantinnen und Kombattanten, Rüstungsgütern und natürlichen Ressourcen, die den Frieden und die Stabilität in der Demokratischen Republik Kongo bedrohen, Einhalt zu gebieten und zu diesem Zweck ihre Strategien abzustimmen, Informationen auszutauschen und ihre jeweilige Berichterstattung abzustimmen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="MercuryDocument">
+        <content eId="para_65__content">
+          <p xml:space="preserve">
+            <span class="bold">Mandat der MONUSCO</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">beschließt</span>, das Mandat der MONUSCO in der Demokratischen Republik Kongo, einschließlich ihrer Kräfteinterventionsbrigade, ausnahmsweise und ohne einen Präzedenzfall zu schaffen oder dass dadurch die Grundprinzipien der Friedenssicherung berührt werden, bis zum 20. Dezember 2023 zu verlängern;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">beschließt</span>, dass die MONUSCO eine genehmigte Truppenstärke von bis zu 13.500 Soldatinnen und Soldaten, 660 Militärbeobachterinnen und -beobachtern und Stabsoffizierinnen und -offizieren, 591 Polizeikräften und 1.410 Mitgliedern organisierter Polizeieinheiten umfassen wird, und <span class="italic">bittet</span> das Sekretariat, einen weiteren Abbau der militärischen Komponente der MONUSCO zu prüfen, im Einklang mit der Gemeinsamen Strategie für die stufenweise Verringerung der Personalstärke der MONUSCO (<a href="https://undocs.org/ot/S/2020/1041">S/2020/1041</a>);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">beschließt</span>, dass die strategischen Prioritäten der MONUSCO darin bestehen, i) zum Schutz von Zivilpersonen beizutragen und ii) die Stabilisierung und Stärkung der staatlichen Institutionen in der Demokratischen Republik Kongo und die wichtigsten Reformen der staatlichen Strukturen und der Sicherheitsstrukturen zu unterstützen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">ermächtigt</span> die MONUSCO, in Wahrnehmung ihrer mandatsmäßigen Aufgaben und im Einklang mit den Grundprinzipien der Friedenssicherung alle erforderlichen Maßnahmen zur Ausführung ihres Mandats zu treffen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">unterstreicht</span>, dass alle Einsätze, ob gemeinsame oder einseitige, unter strenger Einhaltung des anwendbaren Völkerrechts, einschließlich des humanitären Völkerrechts und der internationalen Menschenrechtsnormen, durchgeführt werden müssen, <span class="italic">ersucht</span> die MONUSCO, sicherzustellen, dass jede Unterstützung, die für Einsätze der nationalen Sicherheitskräfte bereitgestellt wird, einschließlich in Form von Verpflegung und Treibstoff, ausschließlich gemeinsamen Einsätzen dienen, gemeinsam geplant und ausgeführt werden und einer angemessenen Aufsicht und Prüfung unterliegen soll, unter strenger Einhaltung der Richtlinien der Vereinten Nationen für menschenrechtliche Sorgfaltspflicht, einschließlich durch das Landesteam der Vereinten Nationen; sind diese Voraussetzungen nicht gegeben, soll die Unterstützung ausgesetzt werden;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="MercuryDocument">
+        <content eId="para_77__content">
+          <p xml:space="preserve">
+            <span class="bold">Aufgaben (nach Priorität geordnet)</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="MercuryDocument">
+        <num>24.</num>
+        <list eId="para_78_list">
+          <intro eId="para_78_list_intro">
+            <p xml:space="preserve">	<span class="italic">beschließt</span>, dass das Mandat der MONUSCO die in den Ziffern 24 bis 34 genannten, nach Priorität geordneten Aufgaben umfasst, <span class="italic">betont ferner</span>, dass alle Aufgaben der MONUSCO unter Achtung der Menschenrechte und Grundfreiheiten wahrgenommen werden sollen, und <span class="italic">betont</span>, dass der Schutz von Zivilpersonen bei Entscheidungen über die Nutzung der verfügbaren Kapazitäten und Ressourcen Vorrang erhält:</p>
+          </intro>
+          <point eId="para_78_list_point_i">
+            <num>i)</num>
+            <content eId="para_78_list_point_i_content">
+              <p xml:space="preserve">	<span class="bold">alle notwendigen Maßnahmen zu ergreifen, um den wirksamen, raschen, dynamischen und integrierten Schutz von Zivilpersonen, denen körperliche Gewalt droht, zu gewährleisten</span></p>
+            </content>
+          </point>
+          <sublist eId="para_78_list_point_i_sublist">
+            <point eId="para_78_list_point_i_sublist_point_a">
+              <num>a)</num>
+              <content eId="para_78_list_point_i_sublist_point_a_content">
+                <p xml:space="preserve">	alle bewaffneten Gruppen und lokalen Milizen daran zu hindern und davon abzuschrecken und abzuhalten, an der Bevölkerung Gewalt zu verüben, und zu diesem Zweck unter anderem auch in Unterstützung der kongolesischen Behörden alle bewaffneten Gruppen und lokalen Milizen daran zu hindern, in große Bevölkerungszentren einzufallen, sie anzugreifen oder einzukesseln, und dazu diese Gruppen und Milizen zu entwaffnen, Gute Dienste zu leisten und lokale Vermittlungsbemühungen und Informations- und Kampagnenarbeit auf nationaler Ebene aufzunehmen und zu unterstützen, um eine Eskalation der Gewalt zu verhindern und Hetze, Desinformation und Fehlinformationen entgegenzuwirken, und dabei den in Vertriebenen- und Flüchtlingslagern versammelten Zivilpersonen, friedlich Protestierenden, humanitärem Personal und Menschenrechtsverteidigerinnen und -verteidigern besondere Aufmerksamkeit zu widmen, im Einklang mit den Grundprinzipien der Friedenssicherung, und vor, während und nach jedem Militär- oder Polizeieinsatz die Gefahren für Zivilpersonen zu mindern;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_i_sublist_point_b">
+              <num>b)</num>
+              <content eId="para_78_list_point_i_sublist_point_b_content">
+                <p xml:space="preserve">	gezielte Offensiveinsätze in der Demokratischen Republik Kongo zu führen, um bewaffnete Gruppen über eine wirksame Interventionsbrigade unter der vollen Befehlsgewalt des Kommandeurs der Truppe zu neutralisieren, zu dem Ziel beizutragen, die von bewaffneten Gruppen ausgehende Bedrohung für die staatliche Autorität und die Sicherheit von Zivilpersonen zu mindern und den Weg für Stabilisierungsmaßnahmen zu ebnen, und zwar entweder einseitig oder gemeinsam mit den kongolesischen Sicherheitskräften;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_i_sublist_point_c">
+              <num>c)</num>
+              <content eId="para_78_list_point_i_sublist_point_c_content">
+                <p xml:space="preserve">	vermehrte und wirksame gemeinsame Einsätze mit den kongolesischen Sicherheitskräften durchzuführen, die eine gemeinsame Planung und taktische Zusammenarbeit umfassen, im Einklang mit dem Mandat der MONUSCO und unter strenger Einhaltung der Richtlinien der Vereinten Nationen für menschenrechtliche Sorgfaltspflicht, um sicherzustellen, dass alle Möglichkeiten zur Prävention, Abschreckung und Unterbindung bewaffneter Gruppen ausgeschöpft werden;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_i_sublist_point_d">
+              <num>d)</num>
+              <content eId="para_78_list_point_i_sublist_point_d_content">
+                <p xml:space="preserve">	eine proaktive Entsendung und eine mobile, flexible, robuste und wirksame Aufstellung beizubehalten, einschließlich einer aktiven Patrouillentätigkeit zu Fuß und mit Fahrzeugen, insbesondere in Hochrisikogebieten;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_i_sublist_point_e">
+              <num>e)</num>
+              <content eId="para_78_list_point_i_sublist_point_e_content">
+                <p xml:space="preserve">	in Zusammenarbeit mit der Regierung der Demokratischen Republik Kongo und humanitärem Personal Bedrohungen für Zivilpersonen zu ermitteln, gemeinsame Präventions- und Reaktionspläne umzusetzen und die zivil-militärische Zusammenarbeit zu stärken, um sicherzustellen, dass Zivilpersonen vor Menschenrechtsübergriffen und -verletzungen sowie vor Verstößen gegen das humanitäre Völkerrecht, einschließlich aller Formen der sexuellen und geschlechtsspezifischen Gewalt und Rechtsverletzungen und Missbrauchshandlungen an Kindern und Menschen mit Behinderungen, geschützt sind;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_i_sublist_point_f">
+              <num>f)</num>
+              <content eId="para_78_list_point_i_sublist_point_f_content">
+                <p xml:space="preserve">	ihr Engagement mit der Zivilbevölkerung vor Ort und den Einsatz strategischer Kommunikation, auch durch gemeinsame Kommunikation mit der Regierung der Demokratischen Republik Kongo, zu verstärken, um das Bewusstsein und das Verständnis für ihr Mandat und ihre Aktivitäten zum Schutz von Zivilpersonen zu erhöhen und ihren Frühwarnmechanismus zu stärken, auch um Desinformationskampagnen und Fehlinformationen vorzubeugen, die darauf abzielen, die Glaubwürdigkeit der Mission zu untergraben und die Erfüllung ihres Mandats zu behindern;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_78_list_point_ii">
+            <num>ii)</num>
+            <content eId="para_78_list_point_ii_content">
+              <p xml:space="preserve">	<span class="bold">Entwaffnung, Demobilisierung, Wiedereingliederung und Stabilisierung</span></p>
+            </content>
+          </point>
+          <sublist eId="para_78_list_point_ii_sublist">
+            <point eId="para_78_list_point_ii_sublist_point_g">
+              <num>g)</num>
+              <content eId="para_78_list_point_ii_sublist_point_g_content">
+                <p xml:space="preserve">	der Regierung der Demokratischen Republik Kongo in enger Zusammenarbeit mit internationalen und lokalen Partnern Gute Dienste, Rat und Hilfe für den unter der Führung der Ostafrikanischen Gemeinschaft stehenden Prozess von Nairobi, die Durchführung des Programms für Entwaffnung, Demobilisierung, Wiederaufbau der Gemeinschaft und Stabilisierung gemäß Verfügung Nr. 21/038 vom 5. Juli 2021 und für die Entwaffnung, Demobilisierung und Wiedereingliederung kongolesischer und ausländischer Kombattantinnen und Kombattanten zu leisten, die nicht des Völkermords, Kriegsverbrechen, Verbrechen gegen die Menschlichkeit oder Menschenrechtsverletzungen verdächtig sind, in ein friedliches Zivilleben, wobei den Bedürfnissen der früher mit bewaffneten Gruppen und Kräften verbundenen Frauen und Kinder besondere Aufmerksamkeit zu widmen ist;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_ii_sublist_point_h">
+              <num>h)</num>
+              <content eId="para_78_list_point_ii_sublist_point_h_content">
+                <p xml:space="preserve">	den Prozess der Entwaffnung, Demobilisierung, Repatriierung, Neuansiedlung und Wiedereingliederung ausländischer Kombattantinnen und Kombattanten, die nicht verdächtigt werden, internationale Verbrechen oder Menschenrechtsverletzungen begangen zu haben, zu unterstützen, damit diese und ihre Angehörigen in ein friedliches Zivilleben in ihrem Herkunftsland oder einem aufnahmebereiten Drittland zurückgeführt und wieder eingegliedert werden, wobei den Bedürfnissen von ehemals mit Streitkräften und bewaffneten Gruppen verbundenen Frauen und Kindern besondere Aufmerksamkeit zu widmen ist;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_ii_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_78_list_point_ii_sublist_point_i_content">
+                <p xml:space="preserve">	die Behörden der Demokratischen Republik Kongo bei der Entsorgung der Waffen und Munition entwaffneter kongolesischer und ausländischer Kombattantinnen und Kombattanten gemäß den einschlägigen Resolutionen des Sicherheitsrats sowie gemäß den anwendbaren internationalen Rüstungskontrollverträgen zu beraten und zu unterstützen;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_ii_sublist_point_j">
+              <num>j)</num>
+              <content eId="para_78_list_point_ii_sublist_point_j_content">
+                <p xml:space="preserve">	in Abstimmung mit den Maßnahmen des Sondergesandten für die Region der Großen Seen im Bereich der technischen Hilfe die Regierung der Demokratischen Republik Kongo bei der Konsolidierung einer wirksamen nationalen zivilen Struktur, durch die die wichtigsten Bergbautätigkeiten kontrolliert und die Gewinnung, die Wertschöpfung und der Transport natürlicher Ressourcen sowie der Handel damit im Osten der Demokratischen Republik Kongo in ausgewogener und produktiver Weise gesteuert werden, technisch zu beraten;</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_ii_sublist_point_k">
+              <num>k)</num>
+              <content eId="para_78_list_point_ii_sublist_point_k_content">
+                <p xml:space="preserve">	mit der Regierung der Demokratischen Republik Kongo weiter zusammenzuarbeiten, um die Fortschritte im Rahmen des Aktionsplans zur Verhütung und Beendigung der Einziehung und des Einsatzes von Kindern zu konsolidieren und die Umsetzung des Plans zu beschleunigen und den Dialog mit allen gelisteten Parteien fortzusetzen, um weitere Zusagen zu erhalten, und auf die Verhütung und Beendigung der Rechtsverletzungen und Missbrauchshandlungen an Kindern hinzuarbeiten;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_78_list_point_iii">
+            <num>iii)</num>
+            <content eId="para_78_list_point_iii_content">
+              <p xml:space="preserve">	<span class="bold">Reform des Sicherheitssektors</span></p>
+            </content>
+          </point>
+          <sublist eId="para_78_list_point_iii_sublist">
+            <point eId="para_78_list_point_iii_sublist_point_l">
+              <num>l)</num>
+              <content eId="para_78_list_point_iii_sublist_point_l_content">
+                <p xml:space="preserve">	der Regierung der Demokratischen Republik Kongo nach Bedarf Gute Dienste zu leisten und sie strategisch und technisch zu beraten und in Abstimmung mit der Regierung der Demokratischen Republik Kongo eine Rolle bei der Koordinierung der von internationalen und bilateralen Partnern und dem System der Vereinten Nationen bereitgestellten Unterstützung zu übernehmen, um</p>
+              </content>
+            </point>
+            <sublist eId="para_78_list_point_iii_sublist_point_l_sublist">
+              <point eId="para_78_list_point_iii_sublist_point_l_sublist_point_1">
+                <num>–</num>
+                <content eId="para_78_list_point_iii_sublist_point_l_sublist_point_1_content">
+                  <p xml:space="preserve">	die Übernahme nationaler Eigenverantwortung für die Sicherheitssektorreform zu beschleunigen und so mittels unabhängiger, rechenschaftlicher und funktionsfähiger Justiz- und Sicherheitsinstitutionen, die die volle, gleichberechtigte, wirksame und konstruktive Teilhabe und die Sicherheit der Frauen berücksichtigen, Sicherheit und Gerechtigkeit für alle zu schaffen;</p>
+                </content>
+              </point>
+              <point eId="para_78_list_point_iii_sublist_point_l_sublist_point_2">
+                <num>–</num>
+                <content eId="para_78_list_point_iii_sublist_point_l_sublist_point_2_content">
+                  <p xml:space="preserve">	Militär-, Polizei-, Justiz- und Strafvollzugsreformen zu fördern und zu erleichtern, um die Rechenschaftlichkeit des Justiz- und Sicherheitssektors zu verbessern, und zu diesem Zweck die Bekämpfung der Straflosigkeit sowie die operative Wirksamkeit und Effizienz zu verbessern, unter anderem durch Ausbildung auf dem Gebiet der Menschenrechte;</p>
+                </content>
+              </point>
+              <point eId="para_78_list_point_iii_sublist_point_l_sublist_point_3">
+                <num>–</num>
+                <content eId="para_78_list_point_iii_sublist_point_l_sublist_point_3_content">
+                  <p xml:space="preserve">	über den Dienst der Vereinten Nationen für Antiminenprogramme den Ausbau der Kapazitäten der kongolesischen Sicherheitskräfte zu unterstützen, unter anderem auf dem Gebiet des Waffen- und Munitionsmanagements, der Bekämpfung behelfsmäßiger Sprengvorrichtungen und der Kampfmittelbeseitigung sowie grundlegender Untersuchungen und forensischer Auswertungen im Zusammenhang mit behelfsmäßigen Sprengvorrichtungen;</p>
+                </content>
+              </point>
+            </sublist>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">ermächtigt</span> die MONUSCO, Menschenrechtsverletzungen und -übergriffe und Verstöße gegen das humanitäre Völkerrecht in Bezug auf die Einschränkung des politischen Raums und auf Gewalt, auch im Kontext der Wahlen, zu überwachen, dem Sicherheitsrat sofort zu melden und weiterzuverfolgen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="MercuryDocument">
+        <num>26.</num>
+        <list eId="para_81_list">
+          <intro eId="para_81_list_intro">
+          <p xml:space="preserve">	<span class="italic">ermächtigt</span> die MONUSCO <span class="italic">ferner</span>, ohne Beeinträchtigung ihrer Fähigkeit zur Durchführung ihrer vorrangigen Aufgaben ihre vorhandenen Kapazitäten zu nutzen, um die folgenden Aufgaben auf gestraffte und abgestufte Weise und ausschließlich in Zusammenarbeit mit dem Landesteam der Vereinten Nationen durchzuführen, eingedenk dessen, dass alle Aufgaben einander verstärken:</p>
+          </intro>
+        <point eId="para_81_list_point_a">
+        <subheading>
+            <span class="italic">Unterstützung des Wahlprozesses 2023</span>
+        </subheading>
+        <num>a)</num>
+          <content eId="para_81__content_list_point_a">
+          <p xml:space="preserve">	auf offizielles Ersuchen der kongolesischen Behörden Unterstützung für den Wahlprozess 2023 in den drei Provinzen bereitzustellen, in denen die MONUSCO noch im Einsatz ist, einschließlich begrenzter logistischer Unterstützung unbeschadet der Fähigkeit der MONUSCO, ihre vorrangigen Aufgaben zu erfüllen, nach Bedarf und in Abstimmung mit den kongolesischen Behörden, dem Landesteam der Vereinten Nationen, regionalen und internationalen Akteuren, um einen friedlichen Wahlzyklus zu erleichtern, und zu diesem Zweck insbesondere einen Dialog mit der Unabhängigen Nationalen Wahlkommission zu führen;</p>
+          </content>
+        </point>
+          <point eId="para_81_list_point_b">
+            <subheading>
+            <span class="italic">Unterstützung des Justizsystems der Demokratischen Republik Kongo und Bekämpfung der Straflosigkeit</span>
+            </subheading>
+        <num>b)</num>
+            <content eId="para_81__content_list_point_b">
+          <p xml:space="preserve">	mit den Behörden der Demokratischen Republik Kongo und unter Nutzung der Kapazitäten und des Sachverstands im System der Vereinten Nationen dabei zusammenzuarbeiten, das Gerichtssystem der Demokratischen Republik Kongo zu stärken, um gegen alle diejenigen, die mutmaßlich für Völkermord, Kriegsverbrechen und Verbrechen gegen die Menschlichkeit sowie Verstöße gegen das humanitäre Völkerrecht und Menschenrechtsverletzungen oder -übergriffe in dem Land verantwortlich sind, zu ermitteln und sie strafrechtlich zu verfolgen, einschließlich durch die Zusammenarbeit mit den Staaten in der Region und dem Internationalen Strafgerichtshof;</p>
+            </content>
+          </point>
+          <point eId="para_81_list_point_c">
+        <num>c)</num>
+            <content eId="para_81__content_list_point_c">
+          <p xml:space="preserve">	der Regierung der Demokratischen Republik Kongo Gute Dienste, Rat und Unterstützung dabei zu leisten, die Menschenrechte, insbesondere die bürgerlichen und politischen Rechte, zu fördern und die Straflosigkeit zu bekämpfen, namentlich durch die Umsetzung der Nulltoleranzpolitik der Regierung in Bezug auf Disziplinarvergehen, Verletzungen der Menschenrechte und Verstöße gegen das humanitäre Völkerrecht, die von Elementen des Sicherheitssektors begangen wurden, und auf lokaler Ebene Vermittlungsbemühungen zu unternehmen und zu erleichtern, um auf einen dauerhaften Frieden hinzuwirken;</p>
+        </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_87" class="MercuryDocument">
+        <content eId="para_87__content">
+          <p xml:space="preserve">
+            <span class="italic">Schutz der Vereinten Nationen</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	den Schutz des Personals, der Einrichtungen, der Anlagen und der Ausrüstung der Vereinten Nationen sowie die Sicherheit und Bewegungsfreiheit des Personals der Vereinten Nationen und des beigeordneten Personals zu gewährleisten;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="MercuryDocument">
+        <content eId="para_89__content">
+          <p xml:space="preserve">
+            <span class="italic">Kinderschutz</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	ersucht die MONUSCO, in ihrem gesamten Mandat dem Kinderschutz als Querschnittsthema umfassend Rechnung zu tragen, unter anderem in den Prozessen der Entwaffnung, Demobilisierung und Wiedereingliederung und der Reform des Sicherheitssektors sowie während Interventionsmaßnahmen, die zur Trennung von Kindern von bewaffneten Gruppen führen, mit dem Ziel, Rechtsverletzungen und Missbrauchshandlungen an Kindern ein Ende zu setzen und zu verhindern, und auch weiterhin für die Wirksamkeit der Überwachungs- und Berichterstattungsmechanismen für Kinder und bewaffnete Konflikte zu sorgen, und <span class="italic">anerkennt</span> die ausschlaggebende Rolle der Beratungsfachkräfte der Vereinten Nationen für Kinderschutz bei der MONUSCO;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="MercuryDocument">
+        <content eId="para_91__content">
+          <p xml:space="preserve">
+            <span class="italic">Geschlechterfragen, sexuelle Gewalt</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">ersucht</span> die MONUSCO, in ihrem gesamten Mandat geschlechtsspezifischen Gesichtspunkten als Querschnittsthema umfassend Rechnung zu tragen und der Regierung der Demokratischen Republik Kongo und anderen maßgeblichen Interessenträgern dabei behilflich zu sein, ein rechtliches, politisches und sozioökonomisches Umfeld zu schaffen, das dazu beiträgt, die vollständige, gleichberechtigte, wirksame und produktive Teilhabe und volle Einbindung und Vertretung von Frauen auf allen Ebenen und von Überlebenden sexueller und geschlechtsspezifischer Gewalt bei der Wahrung und Förderung von Frieden und Sicherheit und beim Schutz von Zivilpersonen zu gewährleisten, unter anderem durch die Einbeziehung von Frauennetzwerken als Partner, bei der Unterstützung der Maßnahmen zur Entwaffnung, Demobilisierung und Wiedereingliederung und zur Sicherheitssektor- reform und der Unterstützung von Stabilisierungsmaßnahmen, <span class="italic">ersucht</span> die MONUSCO, die Regierung bei der Förderung der vollständigen, gleichberechtigten, wirksamen und konstruktiven politischen Teilhabe der Frauen zu unterstützen, insbesondere bei der Erreichung der in der Verfassung festgelegten Frauenquote von 30 Prozent, und <span class="italic">anerkennt</span> die ausschlaggebende Rolle der Beratungsfachkräfte der Vereinten Nationen für Frauenschutz bei der MONUSCO;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">erklärt erneut</span>, dass es dringend und zwingend geboten ist, alle diejenigen, die Verstöße gegen das humanitäre Völkerrecht begangen haben, zur Rechenschaft zu ziehen, und <span class="italic">ersucht</span> die MONUSCO, die Regelungen für die Überwachung, Analyse und Berichterstattung betreffend sexuelle Gewalt in Konflikten und in Postkonfliktsituationen beschleunigt und koordiniert umzusetzen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="MercuryDocument">
+        <content eId="para_94__content">
+          <p xml:space="preserve">
+            <span class="bold">Humanitärer Zugang und humanitärer Appell</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="MercuryDocument">
+        <num>31.</num>
+        <content eId="para_95__content">
+          <p xml:space="preserve">	<span class="italic">erinnert</span> an alle seine einschlägigen Resolutionen über den Schutz des humanitären Personals und des Sanitätspersonals, namentlich die Resolutionen <a href="https://undocs.org/ot/S/RES/2439(2018)">2439 (2018)</a> und <a href="https://undocs.org/ot/S/RES/2286(2016)">2286 (2016)</a>, und <span class="italic">verlangt</span>, dass alle Parteien im Einklang mit den einschlägigen Bestimmungen des Völkerrechts und den humanitären Grundsätzen den uneingeschränkten, sicheren, raschen und ungehinderten Zugang des humanitären Personals und humanitärer Ausrüstung und Versorgungsgüter und die zeitnahe Bereitstellung humanitärer Hilfe für notleidende Bevölkerungsgruppen, insbesondere Flüchtlinge und Binnenvertriebene, im gesamten Hoheitsgebiet der Demokratischen Republik Kongo gestatten und erleichtern;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="MercuryDocument">
+        <num>32.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">fordert</span> die Mitgliedstaaten und die internationalen und regionalen Organisationen <span class="italic">auf</span>, auf den im Plan für humanitäre Maßnahmen ermittelten humanitären Bedarf rasch mit erhöhten Beiträgen zu reagieren und sicherzustellen, dass alle Zusagen in vollem Umfang und zeitnah eingehalten werden;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="MercuryDocument">
+        <num>33.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="italic">betont</span>, wie wichtig es ist, die internationale Unterstützung und das internationale Engagement in Form von finanzieller und technischer Hilfe und Sachleistungen aufrechtzuerhalten, um rasch auf den Ausbruch von Infektionskrankheiten reagieren zu können, und <span class="italic">ersucht</span> alle zuständigen Stellen des Systems der Vereinten Nationen, ihre Maßnahmen zur Bekämpfung von Ebola, COVID-19 und anderen potenziellen Ausbrüchen nach Maßgabe ihrer Mandate und Verantwortungsbereiche wirksam abzustimmen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="MercuryDocument">
+        <content eId="para_99__content">
+          <p xml:space="preserve">
+            <span class="bold">Sanktionsregime</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="MercuryDocument">
+        <num>34.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	<span class="italic">ersucht</span> die MONUSCO, die Durchführung des in Ziffer 1 der Resolution <a href="https://undocs.org/ot/S/RES/2293(2016)">2293 (2016)</a> beschriebenen Waffenembargos in Zusammenarbeit mit der Sachverständigengruppe nach Resolution <a href="https://undocs.org/ot/S/RES/1533(2004)">1533 (2004)</a> zu überwachen und insbesondere die Ströme von Militärpersonal, Rüstungsgütern und sonstigem Wehrmaterial über die Ostgrenze der Demokratischen Republik Kongo hinweg zu beobachten und darüber Bericht zu erstatten, unter anderem unter Nutzung der in dem Schreiben des Rates vom 22. Januar 2013 (<a href="https://undocs.org/ot/S/2013/44">S/2013/44</a>) genannten Überwachungskapazitäten von unbemannten Flugsystemen, sowie Rüstungsgüter und sonstiges Wehrmaterial, die unter Verstoß gegen die mit Ziffer 1 der Resolution <a href="https://undocs.org/ot/S/RES/2293(2016)">2293 (2016)</a> verhängten Maßnahmen in die Demokratische Republik Kongo verbracht wurden, zu beschlagnahmen, einzusammeln, zu verzeichnen und zu entsorgen und der Sachverständigengruppe behilflich zu sein und sachdienliche Informationen mit ihr auszutauschen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="MercuryDocument">
+        <content eId="para_101__content">
+          <p xml:space="preserve">
+            <span class="bold">Wirksamkeit der Mission und Schutz und Sicherheit der Friedenssicherungskräfte</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="MercuryDocument">
+        <num>35.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="italic">ersucht</span> den Generalsekretär, der MONUSCO die erforderlichen Kapazitäten zur Erfüllung ihres Mandats in einem komplexen Sicherheitsumfeld bereitzustellen, das unter anderem durch asymmetrische Bedrohungen ihres Personals gekennzeichnet ist, und sicherzustellen, dass alle Friedenssicherungskräfte im Feld willens, fähig und gerüstet sind, ihr Mandat wirksam und sicher wahrzunehmen, <span class="italic">ersucht ferner</span> den Generalsekretär, die Mitgliedstaaten und die Regierung der Demokratischen Republik Kongo, alle geeigneten Maßnahmen zu ergreifen, um den höchstmöglichen Grad an Schutz und Sicherheit für das Personal der MONUSCO zu gewährleisten, im Einklang mit Resolution <a href="https://undocs.org/ot/S/RES/2518(2020)">2518 (2020)</a> und den Grundsätzen für die Impfung der Uniformierten gegen COVID-19 am Einsatzort und vor ihrer Entsendung entsprechend den Leitlinien und den bewährten Verfahren der Vereinten Nationen zur Erhöhung der Sicherheit der Friedenssicherungskräfte, <span class="italic">stellt mit Besorgnis fest</span>, dass Verstöße gegen das Abkommen über die Rechtsstellung der Truppen den Schutz und die Sicherheit von Personal der Vereinten Nationen, das in Friedenssicherungseinsätzen dient, gravierend gefährden können, <span class="italic">unterstreicht</span>, dass die Hauptverantwortung für den Schutz und die Sicherheit des Personals und des Geräts der Vereinten Nationen beim Gaststaat liegt, <span class="italic">hebt hervor</span>, wie wichtig eine wirksame Kommunikation zwischen den Friedenssicherungseinsätzen der Vereinten Nationen und den Gastregierungen ist, um Vertrauen und gegenseitiges Verständnis aufzubauen, und <span class="italic">ersucht</span> den Generalsekretär, die Bestimmungen der Resolution <a href="https://undocs.org/ot/S/RES/2589(2021)">2589 (2021)</a> zur Feststellung der Verantwortlichkeit für Verbrechen an Friedenssicherungskräften umzusetzen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="MercuryDocument">
+        <num>36.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="italic">ersucht</span> den Generalsekretär, die in Ziffer 42 der Resolution <a href="https://undocs.org/ot/S/RES/2612(2021)">2612 (2021)</a> aufgeführten Tätigkeiten bei der Planung und Durchführung der Einsätze der MONUSCO im Rahmen ihres Mandats und ihres Einsatzgebiets und im Einklang mit den bestehenden Richtlinien und Vorschriften der Vereinten Nationen sowie Ziffer 44 der Resolution <a href="https://undocs.org/ot/S/RES/2612(2021)">2612 (2021)</a> wahrzunehmen, <span class="italic">ersucht ferner</span> die MONUSCO, Ziffer 45 der Resolution <a href="https://undocs.org/ot/S/RES/2612(2021)">2612 (2021)</a> und die truppen- und polizeistellenden Länder, die Ziffern 46 und 47 der Resolution <a href="https://undocs.org/ot/S/RES/2612(2021)">2612 (2021)</a> durchzuführen, und <span class="italic">nimmt Kenntnis</span> von der Umweltstrategie der Hauptabteilung Operative Unterstützung der Vereinten Nationen (Phase II), deren Schwerpunkt auf einem verantwortungsvollen Umgang mit den Ressourcen und einem positiven Vermächtnis der Mission liegt und in der das Ziel festgelegt ist, in Missionen verstärkt erneuerbare Energien einzusetzen, um den Schutz und die Sicherheit zu erhöhen, Kosten zu sparen, die Effizienz zu steigern und der Mission zu nutzen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="MercuryDocument">
+        <num>37.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">fordert</span> die truppen- und polizeistellenden Länder <span class="italic">nachdrücklich auf</span>, sexueller Ausbeutung und sexuellem Missbrauch auch weiterhin durch geeignete Maßnahmen vorzubeugen, insbesondere durch die Überprüfung des gesamten Personals sowie ein einsatzvorbereitendes und -begleitendes Sensibilisierungstraining, und sicherzustellen, dass ihr an solchen Handlungen beteiligtes Personal voll zur Rechenschaft gezogen wird, unter anderem durch die rasche Untersuchung aller Vorwürfe sexueller Ausbeutung und sexuellen Missbrauchs durch die truppen- und polizeistellenden Länder, um die Tatverantwortlichen zur Rechenschaft zu ziehen, und Einheiten zu repatriieren, wenn glaubwürdige Beweise für weit verbreitete oder systemische Akte sexueller Ausbeutung und sexuellen Missbrauchs durch diese Einheiten vorliegen, und den Vereinten Nationen vollständig und umgehend über die getroffenen Maßnahmen Bericht zu erstatten;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="MercuryDocument">
+        <content eId="para_106__content">
+          <p xml:space="preserve">
+            <span class="bold">Ausstiegsstrategie</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="MercuryDocument">
+        <num>38.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	<span class="italic">nimmt Kenntnis</span> von der Aufforderung der Regierung der Demokratischen Republik Kongo zur Überprüfung des Übergangsplans für die MONUSCO und <span class="italic">legt</span> den Vereinten Nationen und der Regierung der Demokratischen Republik Kongo <span class="italic">nahe</span>, in Verbindung mit der Zivilgesellschaft so die mit Vorrang zu unternehmenden konkreten und realistischen Schritte zu ermitteln, um die Mindest-Sicherheitsbedingungen zu schaffen, die den verantwortungsvollen und nachhaltigen Ausstieg der MONUSCO ermöglichen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="MercuryDocument">
+        <num>39.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">fordert</span> die MONUSCO, das Landesteam der Vereinten Nationen und andere in der Demokratischen Republik Kongo tätige Institutionen der Vereinten Nationen <span class="italic">auf</span>, ihre Integration und Zusammenarbeit zu beschleunigen, um die im Übergangsplan genannten vorrangigen gemeinsamen Maßnahmen durchzuführen und eine verstärkte Programmplanung durch das Landesteam der Vereinten Nationen in Vorbereitung auf den Abzug der MONUSCO zu ermöglichen, so auch durch die Ausarbeitung einer kohärenten Strategie für die Mobilisierung von Ressourcen, und <span class="italic">legt</span> der internationalen Gemeinschaft und den Gebern <span class="italic">nahe</span>, die Ausweitung der Aktivitäten und Programme des Landesteams der Vereinten Nationen und anderer in der Demokratischen Republik Kongo tätiger Institutionen der Vereinten Nationen, einschließlich Friedenskonsolidierungsmaßnahmen, zu unterstützen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="MercuryDocument">
+        <num>40.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="italic">fordert</span> die MONUSCO <span class="italic">auf</span>, in enger Zusammenarbeit mit dem Landesteam der Vereinten Nationen Möglichkeiten der Schließung von Kapazitätslücken zu ermitteln und so den Ausstieg der MONUSCO vorzubereiten und die Rollen und Aufgaben aller maßgeblichen Akteure der Vereinten Nationen im Einklang mit Resolution <a href="https://undocs.org/ot/S/RES/2594(2021)">2594 (2021)</a> klarzustellen, <span class="italic">unterstreicht</span> die Notwendigkeit, die Aufgaben der MONUSCO schrittweise auf die Regierung der Demokratischen Republik Kongo, das Landesteam der Vereinten Nationen und andere maßgebliche Akteure zu übertragen, soweit dies angemessen und mit den Mandaten und Ressourcen vereinbar ist, um einen verantwortungsvollen und nachhaltigen Ausstieg der MONUSCO zu ermöglichen, und <span class="italic">ermutigt</span> den Generalsekretär, Aufgaben, die verantwortungsvoll und dauerhaft von anderen Akteuren übernommen werden können, gegebenenfalls einzustellen und die MONUSCO entsprechend zu straffen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="MercuryDocument">
+        <num>41.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="italic">hebt hervor</span>, dass in Situationen des Übergangs ein proaktiver Ansatz für die strategische Kommunikation, einschließlich gemeinsamer Kommunikation der MONUSCO und der Regierung der Demokratischen Republik Kongo, zur Schaffung von Bedingungen beitragen kann, die einer reibungslosen Umstrukturierung der Präsenz der Vereinten Nationen förderlich sind, und <span class="italic">ersucht</span> die MONUSCO und die maßgeblichen Partner, zu prüfen, wie das Programm von Radio Okapi im Rahmen des Übergangs der MONUSCO aufrechterhalten werden kann;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="MercuryDocument">
+        <num>42.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="italic">betont</span>, dass die Aktivitäten der MONUSCO darauf ausgerichtet sein sollen, die von in- und ausländischen bewaffneten Gruppen ausgehende Bedrohung auf ein Maß zu reduzieren, das die Sicherheitskräfte der Demokratischen Republik Kongo bewältigen können, und das ihr, beruhend auf dem Stand der Erfüllung der im Übergangsplan genannten Fortschrittskriterien und Indikatoren und unter Berücksichtigung der Lage vor Ort, den schrittweisen, verantwortungsvollen und nachhaltigen Ausstieg erleichtert;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="MercuryDocument">
+        <content eId="para_118__content">
+          <p xml:space="preserve">
+            <span class="bold">Berichte des Generalsekretärs</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="MercuryDocument">
+        <num>43.</num>
+        <list eId="para_119_list">
+          <intro eId="para_119_list_intro">
+            <p xml:space="preserve">	<span class="italic">ersucht</span> den Generalsekretär, dem Rat alle drei Monate Bericht zu erstatten und darin unter anderem Folgendes aufzunehmen:</p>
+          </intro>
+          <point eId="para_119_list_point_1">
+            <num>–</num>
+            <content eId="para_119_list_point_1_content">
+              <p xml:space="preserve">	Informationen zur Lage in der Demokratischen Republik Kongo, einschließlich der Fortschritte bei der Stärkung der staatlichen Institutionen und der wichtigsten Reformen der staatlichen Strukturen und der Sicherheitsstrukturen;</p>
+            </content>
+          </point>
+          <point eId="para_119_list_point_2">
+            <num>–</num>
+            <content eId="para_119_list_point_2_content">
+              <p xml:space="preserve">	Informationen samt qualitativen Leistungskenngrößen dazu, wie die MONUSCO ihr Mandat, darunter ihre Aufgaben zum Schutz von Zivilpersonen, die Zusammenarbeit zwischen den regionalen Sicherheitskräften, die Leistung der MONUSCO unter anderem bei den Einsätzen der Interventionsbrigade sowie Angaben zur Polizei- und Kräfteaufstellung und dazu, ob und wie die Aktivitäten der Mission zur Erfüllung ihrer in Ziffer 24 genannten vorrangigen Aufgaben beigetragen haben und welchen Herausforderungen und Hindernissen sich die Mission bei der Verfolgung ihrer vorrangigen Aufgaben gegenübersah, wobei die Daten heranzuziehen sind, die durch das Umfassende Planungs- und Leistungsbewertungssystem, die Umsetzung des Integrierten Rahmens für die Ergebnismessung und die Rechenschaftslegung in der Friedenssicherung durch die Mission und andere Instrumente zur strategischen Planung und Leistungsmessung erhoben und analysiert wurden, um die Wirksamkeit der Mission und ihre Gesamtleistung zu beschreiben, einschließlich Informationen über nicht erklärte Vorbehalte und Weigerungen, an Patrouillen teilzunehmen oder diese durchzuführen, und deren Auswirkung auf die Mission sowie darüber, wie mit gemeldeten Fällen von ungenügender Leistung umgegangen wird;</p>
+            </content>
+          </point>
+          <point eId="para_119_list_point_3">
+            <num>–</num>
+            <content eId="para_119_list_point_3_content">
+              <p xml:space="preserve">	Informationen über die Maßnahmen und die Auswirkungen strategischer Kommunikation auf die mandatsmäßigen Tätigkeiten;</p>
+            </content>
+          </point>
+          <point eId="para_119_list_point_4">
+            <num>–</num>
+            <content eId="para_119_list_point_4_content">
+              <p xml:space="preserve">	aktuelle Informationen zu den Bemühungen um eine angemessene Mittelausstattung und den Fortschritten bei der Durchführung der im Übergangsplan genannten, gemeinsam mit den Sonderorganisationen, Fonds und Programmen der Vereinten Nationen zu treffenden vorrangigen Maßnahmen;</p>
+            </content>
+          </point>
+          <point eId="para_119_list_point_5">
+            <num>–</num>
+            <content eId="para_119_list_point_5_content">
+              <p xml:space="preserve">	aktuelle Informationen zur schrittweisen Übertragung der Aufgaben der MONUSCO an die Regierung der Demokratischen Republik Kongo, das Landesteam der Vereinten Nationen und andere maßgebliche Interessenträger sowie gegebenenfalls die Einstellung von Aufgaben entsprechend dem Ersuchen in Ziffer 40;</p>
+            </content>
+          </point>
+          <point eId="para_119_list_point_6">
+            <num>–</num>
+            <content eId="para_119_list_point_6_content">
+              <p xml:space="preserve">	den Stand der Verwirklichung der von der Regierung und den Vereinten Nationen im Übergangsplan festgelegten Fortschrittskriterien und Indikatoren (alle sechs Monate);</p>
+            </content>
+          </point>
+          <wrapUp eId="para_119_list_wrapup">
+          <p xml:space="preserve">	und <span class="italic">ersucht</span> den Generalsekretär <span class="italic">ferner</span>, in alle Berichte an den Sicherheitsrat eine geschlechtsdifferenzierte Analyse einzubeziehen;</p>
+          </wrapUp>
+        </list>
+      </paragraph>
+      <paragraph eId="para_121" class="MercuryDocument">
+        <num>44.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">ersucht</span> den Generalsekretär, sobald die gemeinsame Überprüfung des Übergangsplans für die MONUSCO abgeschlossen ist, und spätestens im Juli 2023 dem Sicherheitsrat Optionen für die Anpassung der Konfiguration der zivilen, polizeilichen und militärischen Komponente der MONUSCO und über die künftige Konfiguration der Vereinten Nationen in der Demokratischen Republik Kongo über das aktuelle Mandat der MONUSCO hinaus vorzulegen und dabei die Rolle der MONUSCO im Hinblick auf die Regionalen Streitkräfte der Ostafrikanischen Gemeinschaft und andere bestehende internationale, regio-nale und bilaterale Initiativen zur Unterstützung der Demokratischen Republik Kongo zu berücksichtigen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="MercuryDocument">
+        <num>45.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="italic">ersucht</span> den Generalsekretär, dem Sicherheitsrat alle sechs Monate in Abstimmung mit dem Sondergesandten des Generalsekretärs für die Region der Großen Seen und der Sonderbeauftragten des Generalsekretärs für die Demokratische Republik Kongo über die Umsetzung der Verpflichtungen nach dem Rahmenabkommen über Frieden, Sicherheit und Zusammenarbeit für die Demokratische Republik Kongo und die Region und deren Verbindungen zur allgemeinen Sicherheitslage in der Region der Großen Seen Bericht zu erstatten;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">beschließt</span>, mit der Angelegenheit aktiv befasst zu bleiben.	</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
