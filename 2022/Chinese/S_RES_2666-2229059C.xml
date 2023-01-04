@@ -1,0 +1,762 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/"></FRBRuri>
+          <FRBRdate date="2022-12-20" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/zho@/"></FRBRuri>
+          <FRBRdate date="2022-12-20" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2022-12-20/2666-2022/zho@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-03" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Organization Stabilization Mission in the Democratic Republic of the Congo" showAs="UN Organization Stabilization Mission in the Democratic Republic of the Congo" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Group of Experts Established pursuant to Resolution 1533 (2004)" showAs="UN. Group of Experts Established pursuant to Resolution 1533 (2004)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" showAs="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Charter of the United Nations (1945). Chapter VII" showAs="Charter of the United Nations (1945). Chapter VII" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEBUILDING" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" showAs="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO" showAs="DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[104]" showAs="UN ORGANIZATION STABILIZATION MISSION IN THE DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="[102]" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation concerning the Democratic Republic of the Congo." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2666 (2022) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 20 Dec. 2023]" showAs="Security Council resolution 2666 (2022) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 20 Dec. 2023]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-12-20" outcome="draftResolution" as="S/2022/960" by="France" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-12-20" outcome="adopted" as="S/PV.9226" by="Adopted unanimously, 9226th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-29059 (C)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2666 (2022)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">安全理事会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-12-20" class="rightSmall" refersTo="#dateOfIssuance">20 December 2022</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		第2666(2022)号决议</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <docDate date="2022-12-20" refersTo="#adoptionDate">2022年12月20日</docDate>
+          <inline name="adoptionMeeting" title="9226">9226次会议通过</inline>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold">安全理事会，</span>
+        </p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	<span class="bold">回顾</span>其以往关于刚果民主共和国的各项决议和主席声明，特别是以往关于联合国组织刚果民主共和国稳定特派团(联刚稳定团)及第<a href="https://undocs.org/ch/S/RES/1493(2003)">1493(2003)</a>和<a href="https://undocs.org/ch/S/RES/1807(2008)">1807(2008)</a>号决议所设制裁制度的决议，</p>
+      </container>
+      <container name="重申" eId="container_3">
+        <p xml:space="preserve">	<span class="bold">重申</span>维持和平基本原则，包括当事方同意、中立以及非自卫和履行授权不使用武力，</p>
+      </container>
+      <container name="重申" eId="container_4">
+        <p xml:space="preserve">	<span class="bold">重申</span>对刚果民主共和国及其所在区域内各国的主权、独立、统一和领土完整的坚定承诺，强调迫切需要充分遵守不干涉、睦邻友好和区域合作等原则，</p>
+      </container>
+      <container name="回顾" eId="container_5">
+        <p xml:space="preserve">	<span class="bold">回顾</span>中非共和国政府对保护其境内受其管辖的平民负有首要责任，包括保护他们免遭国际罪行之害，认识到持续的安全挑战威胁平民，又着重指出必须开展国家努力，在全国所有地区恢复国家权力，以消除武装团体构成的威胁，</p>
+      </container>
+      <container name="注意到" eId="container_6">
+        <p xml:space="preserve">	<span class="bold">注意到</span>刚果民主共和国继续遭受外国和国内武装团体所致的周而复始和不断演变的冲突和持续暴力之害，冲突和暴力加剧了安全、人权和人道主义危机，令人深为关切，刚果民主共和国一些地区继续面临族群间暴力和民兵暴力，</p>
+      </container>
+      <container name="表示关切" eId="container_7">
+        <p xml:space="preserve">	<span class="bold">表示关切</span>据报民主同盟军与刚果民主共和国东部恐怖主义网络之间的联系，强调这种联系可能进一步加剧冲突，并助长破坏国家权力，此外强调这些问题不可能有纯粹的军事解决办法，而且必须根据适用的国际法，采取整体综合方针打击恐怖主义，</p>
+      </container>
+      <container name="确认" eId="container_8">
+        <p xml:space="preserve">	<span class="bold">确认</span>刚果民主共和国政府和人民为实现和平和国家发展所作的努力以及区域各方的支持和参与，还确认刚果民主共和国武装部队和联刚稳定团为应对刚果民主共和国境内武装团体构成的威胁所作的努力，</p>
+      </container>
+      <container name="仍深为关切" eId="container_9">
+        <p xml:space="preserve">	<span class="bold">仍深为关切</span>各当事方特别是武装团体在该国部分地区侵犯践踏人权和违反国际人道法行为大量存在，以及通过社交媒体平台等渠道传播仇恨言论、错误信息和虚假信息助燃的族群间暴力出现加剧，</p>
+      </container>
+      <container name="重申" eId="container_10">
+        <p xml:space="preserve">	<span class="bold">重申</span>妇女和青年在预防、管理和解决冲突及在建设和平和选举进程中的重要作用，强调指出妇女和青年充分、平等、有效、切实和安全地参与所有努力对于刚果民主共和国维护和促进和平与安全的重要性，</p>
+      </container>
+      <container name="表示非常关切" eId="container_11">
+          <p xml:space="preserve">	<span class="bold">表示非常关切</span>人道主义局势已导致大约2 700万刚果人需要人道主义援助，由于敌对行动持续不断，刚果民主共和国境内流离失所者人数不断增加，迄今估计已有570万人流离失所，刚果民主共和国境内有523 000名难民，非洲各地还有100多万来自刚果民主共和国的难民，鼓励会员国承诺依照难民问题全面响应框架更公平地分担收容和支助刚果民主共和国境内难民的负担和责任，还促请刚果民主共和国及区域内所有国家在联合国国家工作队的支持下努力营造有利的和平环境，持久解决难民和境内流离失所者问题，包括使他们能自愿、安全和有尊严地回返，在刚果民主共和国重新融入社会，强调指出此方面任何解决办法都应符合国际难民法、国际人道法和国际人权法规定的相关义务，</p>
+      </container>
+      <container name="回顾" eId="container_12">
+        <p xml:space="preserve">	<span class="bold">回顾</span>联合国人道主义紧急援助指导原则，</p>
+      </container>
+      <container name="回顾" eId="container_13">
+        <p xml:space="preserve">	<span class="bold">回顾</span>第<a href="https://undocs.org/ch/S/RES/2532(2020)">2532(2020)</a>和<a href="https://undocs.org/ch/S/RES/2565(2021)">2565(2021)</a>号决议要求在安理会议程所列所有局势中普遍、立即停止敌对行动，促请武装冲突所有各方立即实行持久的人道主义暂停，以便人道主义援助得以按人道、中立、公正和独立等人道主义原则，安全、及时、畅通无阻地持续运送，</p>
+      </container>
+      <container name="注意到" eId="container_14">
+        <p xml:space="preserve">	<span class="bold">注意到</span>粮食、燃料和其他基本商品的商业贸易对满足平民基本生存需求的重要性，</p>
+      </container>
+      <container name="回顾" eId="container_15">
+        <p xml:space="preserve">	<span class="bold">回顾</span>安理会关于妇女与和平与安全、青年与和平与安全、儿童与武装冲突以及武装冲突中保护平民的所有相关决议，欢迎刚果民主共和国政府努力开展这方面工作并执行第<a href="https://undocs.org/ch/S/RES/1325(2000)">1325(2000)</a>号决议，又回顾安全理事会儿童与武装冲突问题工作组2020年12月10日通过的与刚果民主共和国武装冲突当事方有关的刚果民主共和国境内儿童与武装冲突问题的结论，表示严重关切侵犯儿童行为大量存在，尤其是安全部队实施的性暴力和性别暴力，促请所有行为体为曾与武装团体和部队有关联的儿童的改造和重返社会作出贡献，</p>
+      </container>
+      <container name="认识到" eId="container_16">
+        <p xml:space="preserve">	<span class="bold">认识到</span>气候变化、生态变化、自然灾害和缺乏能源等因素对刚果民主共和国稳定的不利影响，欢迎刚果民主共和国在制定应对这些问题的国家战略和养护刚果盆地森林这两方面发挥领导作用，表示关切武装团体在保护区从事的活动导致环境遭受破坏，确认《联合国气候变化框架公约》和《巴黎协定》，</p>
+      </container>
+      <container name="重申" eId="container_17">
+        <p xml:space="preserve">	<span class="bold">重申</span>联刚稳定团必须按照安全理事会相关决议全面执行任务，在刚果民主共和国境内武装冲突出现加剧的情形下利用一切可用手段，有效应对武装团体构成的威胁以及其他安全威胁，</p>
+      </container>
+      <container name="再次促请" eId="container_18">
+        <p xml:space="preserve">	<span class="bold">再次促请</span>各当事方与联刚稳定团充分合作，继续致力于使稳定团的任务得以充分、客观地执行，还重申必须继续遵守《部队地位协定》，再次谴责针对维和人员的一切袭击，此种袭击可能构成战争罪，此外强调必须追究袭击行为负责人的责任，</p>
+      </container>
+      <container name="重申" eId="container_19">
+        <p xml:space="preserve">	<span class="bold">重申</span>在稳定团过渡期间必须为联合国和平行动提供适足资源，在这方面回顾关于联合国和平行动过渡的第<a href="https://undocs.org/ch/S/RES/2594(2021)">2594(2021)</a>号决议，</p>
+      </container>
+      <container name="强调" eId="container_20">
+        <p xml:space="preserve">	<span class="bold">强调</span>战略沟通对联刚稳定团任务执行和其维持和平人员安全与保障的重要性，</p>
+      </container>
+      <container name="认定" eId="container_21">
+        <p xml:space="preserve">	<span class="bold">认定</span>刚果民主共和国局势继续对该区域的国际和平与安全构成威胁，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_22" class="SingleTxt">
+        <content eId="para_22__content">
+          <p xml:space="preserve">	根据《联合国宪章》第七章采取行动，</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="H23">
+            <subheading>		政治局势</subheading>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>刚果民主共和国政府努力回应刚果人民的需求，强烈敦促刚果所有政治利益攸关方全力以赴实施政府2021-2023年行动纲领所载的关键治理、安全和经济改革，重申必须履行齐塞克迪总统及其政府的承诺，寻求民族团结，加强法治和尊重人权，包括尊重意见和表达自由、新闻自由及和平集会权，打击腐败，启动国内发展方案以大幅减少贫困，推进政治包容性及建设和平，鼓励联刚稳定团继续通过斡旋支持和平、透明、包容和可信的政治进程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>齐塞克迪总统及其政府为实现刚果民主共和国的和解及和平与稳定，鼓励他继续与区域各国一道努力建立同邻国的友好关系并推进和平、安全和区域一体化，指出政治稳定与安全以及增加国家在冲突地区，主要是刚果民主共和国东部的力量部署，对于刚果民主共和国的可持续和平至关重要，促请刚果民主共和国当局在联刚稳定团和联合国国家工作队的支持下努力实现国家机构稳定和加强国家机构能力，特别是在冲突地区，以实现所有刚果人民的权利和满足他们的需求，还促请所有政治利益攸关方继续在联刚稳定团的支持下，根据宪法和选举法，努力在刚果民主共和国各地为定于2023年举行的总统和立法选举开展和平、透明、包容和可信的进程，并确保妇女在所有阶段的充分、平等、有效和切实参与，欢迎刚果民主共和国政府提出一个稳健的预算，力求满足刚果人民的需求，确保2023年选举进程获得供资，并便利开展自由公正的选举；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长并促请区域组织通过斡旋等途径，为加强刚果民主共和国国家机构和恢复各方间信任提供政治支持，以便根据刚果民主共和国政府的国家优先事项巩固和平与安全，在优先领域解决冲突根源，并在关键的治理和安全改革、打击非法开采自然资源、支持当前的改革和其他选举进程等方面促进广泛的全国共识；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="H23">
+            <subheading>		人权</subheading>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>齐塞克迪总统作出承诺和采取行动以确保刚果民主共和国政府保护和尊重人权和基本自由并在所有领域打击有罪不罚现象，还欢迎刚果民主共和国政府采取步骤确立国家过渡期正义进程，包括在若干省份启动协商，促请刚果民主共和国政府遵守这些承诺，而且确保定期评估其为进一步消除武装团体的威胁和恢复国家权力而在伊图里和北基伍实行的戒严状态，根据在实现其明确界定的目标方面的进展情况予以调整，并在充分尊重国际人权法和国际人道法的情况下实施；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>刚果民主共和国政府视情对违反国际人道法或侵犯践踏人权行为的责任人，尤其是那些可能构成灭绝种族罪、战争罪和危害人类罪的行为责任人进行追责，强调指出需开展区域合作，鉴于刚果民主共和国2004年将本国局势问题提交国际刑事法院而需与该法院合作，以及与非洲人权和民族权法院合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>刚果民主共和国政府进一步采取步骤追究安全部队侵犯人权行为的责任，打击队伍中的有罪不罚现象，促请刚果当局确保将这些行为的责任人绳之以法，还促请刚果民主共和国政府按照以往协定，便利刚果民主共和国境内联合国联合人权办公室充分和不受阻碍地酌情出入所有拘留中心、医院和停尸房以及为记录侵犯人权行为而需出入的所有其他场所，强调指出刚果民主共和国政府需继续确保提高安全部队的专业性，包括审查、培训安全人员和建设他们的能力，使他们充分尊重国内和国际人权法以及国际人道法，着重指出遵守法治的重要性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="bold">强烈谴责</span>刚果民主共和国境内在冲突和冲突后局势中发生的所有性暴力，欢迎刚果民主共和国政府努力打击和防止冲突和冲突后局势中的性暴力，包括通过逮捕和起诉刚果民主共和国武装部队和刚果国家警察中的暴力行为人并将其定罪，在消除有罪不罚以及在颁布赔偿法律和为性暴力受害者和幸存者设立国家赔偿基金方面取得进展，敦促刚果民主共和国政府继续加大力度消除冲突和冲突后局势中的性暴力，包括刚果民主共和国武装部队和刚果国家警察人员性暴力行为不受惩罚的现象，并向幸存者、受害者和证人提供一切必要服务和保护，例如提供医疗、性健康和生殖健康、心理社会、精神健康、法律和社会经济等服务，鼓励刚果民主共和国政府加大力度执行2013年通过的《关于打击冲突中性暴力的联合公报》及2019年签署的公报增编，确保为落实这些承诺分配适足资金，欢迎刚果民主共和国武装部队和刚果国家警察在执行其各自打击性暴力行动计划方面取得进一步进展，并回顾与负责冲突中性暴力问题秘书长特别代表办公室合作的重要性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>刚果民主共和国政府在以下方面取得进展：巩固《消除和防止招募和使用儿童问题行动计划》成果，加快执行该计划，终止和防止针对儿童的一切侵犯虐待行为，确保儿童不因涉嫌与武装团体有关联而被拘留，并将儿童移交给儿童保护行为体，促请刚果民主共和国政府继续努力，为此确保追究包括安全部队人员在内所有侵犯和虐待行为实施者的责任，回顾同负责儿童与武装冲突问题秘书长特别代表办公室开展合作的重要性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="H23">
+            <subheading>		武装团体</subheading>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="bold">强烈谴责</span>在刚果民主共和国境内活动的所有武装团体，包括“3·23”运动、刚果发展合作社、民主同盟军、解放卢旺达民主力量(卢民主力量)、争取法治抵抗运动(法治塔巴拉)、马伊-马伊团体和其他几个国内外武装团体，及其违反国际人道法和其他适用国际法的行为和践踏人权行为，再次谴责武装团体和民兵违反适用国际法实施的袭击平民、联合国人员和有关人员及人道主义行为体以及医务人员和设施、即决处决和残害、性暴力和性别暴力、招募和使用儿童、绑架儿童和人道主义工作人员、袭击学校及儿童和教师等与学校有关系的平民和袭击医院等行为，谴责利用平民作为人盾、迫使大量平民流离失所、法外处决和任意逮捕、滥用简易爆炸装置的行为，还重申必须追究这些行为责任人的责任；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="bold">要求</span>所有武装团体立即停止一切形式暴力、其他破坏稳定活动以及非法开采和贩运自然资源行为，还要求“3·23”运动按照通过非洲联盟认可的罗安达进程达成的协议，立即撤出所有被占地区，并要求各武装团体所有成员立即永久解散，放下武器，摒弃暴力，停止和防止对儿童实施侵害行为，释放队伍中的儿童，敦促所有刚果武装团体无条件地参加由东非共同体牵头的内罗毕进程，以促成政治条件，为解除武装、复员、社区恢复和稳定方案做准备，敦促外国武装团体返回其原籍国，呼吁刚果民主共和国政府按照国际法，包括国际人道法和国际人权法，采取进一步行动，将军事和非军事办法结合起来，消除武装团体构成的威胁；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>刚果民主共和国政府和包括国际金融机构在内的合作伙伴紧急提供充分、及时的支持，以便在该方案的协调下，通过量身定制、基于社区和针对具体情况的复员方案举措，迅速有效地执行符合条件的前战斗人员复员方案，辅之以可持续的经济选择和机会，并确保对侵犯践踏人权行为和国际罪行追责、过渡期正义举措和保护儿童权利是这些进程的组成部分；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="bold">谴责</span>武装团体和支持它们的犯罪网络继续非法开采和贩运自然资源，特别是所谓的“冲突矿物”如锡、钽、钨、黄金、钻石、钴和钶钽铁矿石，以及可可、木炭、木材和野生生物，关切武装冲突对自然保护区带来消极影响，有损刚果民主共和国的持久和平与发展，鼓励刚果民主共和国政府加大力度保护这些地区，促请大湖区问题国际会议成员国和区域经济共同体成员国联合打击非法开采和交易自然资源，改善和加强矿区周边的安全，力求在采矿社区、地方当局和安全行为体之间建立和睦关系，以解决冲突并促进矿区周边社区成员的权利，鼓励其促进对自然资源进行透明和合法的管理，包括制定为发展供资的政府财政收入目标、可持续的监管和海关框架和负责任的矿物采购供应链尽职调查，并在这方面回顾安理会第<a href="https://undocs.org/ch/S/RES/2457(2019)">2457(2019)</a>和<a href="https://undocs.org/ch/S/RES/2389(2017)">2389(2017)</a>号决议及<a href="https://undocs.org/ch/S/PRST/2021/19">S/PRST/2021/19</a>号主席声明；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="bold">欢迎</span>齐塞克迪总统及其政府为推进安全部门改革以及促进巩固国家权力、和解、宽容和民主作出的承诺和采取的行动，着重指出这些初步行动为联刚稳定团与刚果安全部队的协作与协调提供了更多机会，鼓励刚果当局坚持履行这些承诺并加快落实齐塞克迪总统宣布的部队轮调，促请刚果民主共和国政府继续致力于保护平民，为此迅速建立尊重国际人道法及国内和国际人权法的专业、负责和可持续的安全部队，部署负责任的刚果民政机构，特别是警察、司法、监狱和领土行政管理机构，巩固法治，促进和保护人权，包括为此分配必要的财政资源，并考虑到妇女的充分、平等、有效和有意义的参与及妇女安全，鼓励国际合作伙伴加大这方面的支持力度；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="bold">呼吁</span>继续作出国家努力，在联刚稳定团酌情并在现有资源范围内继续提供支持下，应对非法转让、破坏稳定地积累和滥用轻小武器以及向刚果民主共和国境内武装团体移挪武器所构成的威胁，包括为此确保安全有效地管理、储存、监测和保管武器弹药库存，打击贩运和移挪军火行为，包括通过开展能力建设和打击有罪不罚现象，促请刚果民主共和国政府扩大对国家管制轻小武器及减少武装暴力委员会的支持，并鼓励联合国和国际伙伴增加对刚果民主共和国政府的支持，以强化武器弹药管理；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="H23">
+            <subheading>		区域支持</subheading>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>要消除武装团体构成的威胁，刚果民主共和国政府、非洲联盟、东非共同体、大湖区问题国际会议和南部非洲发展共同体就需要采取统筹的区域办法和作出强有力的政治参与，重申支持开展国家和区域努力，促进刚果民主共和国和该区域的和平与稳定，在《刚果民主共和国和该区域的和平、安全与合作框架》基础上进一步兑现该区域各国所作的承诺，这个框架依然是实现持久和平与稳定的一个重要机制，强调指出该区域根据该框架作出承诺，不容许存在武装团体，也不向其提供任何形式援助或支持，强烈谴责对包括“3·23”运动在内非国家武装行为体的一切外部支持，呼吁立即停止此类支持；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="bold">赞扬</span>东非共同体牵头的内罗毕进程，确认其双轨办法，赞扬目前正在安哥拉主持下进行的经非洲联盟授权的调解以及各方为确保这些举措相辅相成而作的补充努力，包括联刚稳定团和秘书长大湖区问题特使办公室提供的支持，鼓励进一步开展努力执行大湖区问题国际会议关于刚果民主共和国东部地区安抚进程的路线图及刚果民主共和国东部地区和平与安全问题小型峰会的最后公报，并通过对话解决分歧，注意到大湖区问题国际会议扩大联合核查机制和安哥拉牵头的特设联合核查机制所作的努力，呼吁让妇女充分、平等、有效和切实地参与这些进程；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>酌情为东非共同体区域部队提供支持，强调指出必须保护平民，东非共同体部队、刚果民主共和国武装部队、布隆迪国防军、乌干达人民国防军和联刚稳定团之间必须密切协调和分享信息，包括化解行动冲突以及确保联刚稳定团任务得到执行，强调指出在联合或单方面开展所有行动时都需严格遵守国际法，包括适用的国际人道法和国际人权法，以及非洲联盟合规框架；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="bold">鼓励</span>《和平、安全与合作框架》签署国展现自主性和政治意愿，切实执行《联合国大湖区巩固和平、预防冲突和解决冲突战略》及其行动计划，完全支持秘书长大湖区问题特使执行任务，应对《和平、安全与合作框架》执行工作中尚存的棘手问题，促进区域和平与稳定，促请特使继续进行区域和国际接触，支持全面执行《和平、安全与合作框架》，包括为此进行斡旋，协调战略以及与联刚稳定团、中部非洲区域办和其他联合国实体分享信息，此外敦促联刚稳定团通过战略衔接、分享信息和协调报告工作，与大湖区问题特使办公室一道努力寻求政治解决办法，制止威胁刚果民主共和国和平与稳定的武装战斗人员、军火和自然资源跨境流动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="H23">
+            <subheading>		联刚稳定团的任务规定</subheading>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>将联刚稳定团在刚果民主共和国的任务期限，包括作为例外并在不构成先例也无损基本维和原则的情况下将稳定团部队干预旅的任务期限，延长至2023年12月20日；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>联刚稳定团的核定兵力上限将包括13 500名军事人员、660名军事观察员和参谋人员、591名警务人员和1 410名建制警察部队人员，请秘书处考虑按照联刚稳定团逐步分阶段缩编联合战略(<a href="https://undocs.org/ch/S/2020/1041">S/2020/1041</a>)，进一步减少联刚稳定团的军事部署；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>联刚稳定团的战略优先事项是：㈠ 促进保护平民，㈡ 支持稳定和加强刚果民主共和国国家机构及支持关键的治理和安全改革；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="bold">授权</span>联刚稳定团在履行授权任务时根据基本维和原则采取一切必要措施执行任务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>在联合或单方面开展所有行动时都需严格遵守国际法，包括适用的国际人道法和国际人权法，请联刚稳定团确保为国家安全部队开展的行动所提供的任何支助，包括以口粮和燃料形式提供的支助，应仅限于联合规划和执行的联合行动，并严格遵守联合国人权尽职政策，接受适当的监督和审查，包括联合国国家工作队的监督和审查，否则应中止这种支助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="H23">
+            <subheading>		按优先顺序排列的工作</subheading>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>24.</num>
+        <list eId="para_78_list">
+          <intro eId="para_78_list_intro">
+            <p xml:space="preserve">	<span class="bold">决定</span>联刚稳定团的授权任务包括第24至34段按优先顺序排列的以下工作，还强调联刚稳定团的所有工作均应以符合尊重人权和基本自由的方式执行，并强调指出在决定如何使用现有能力和资源时应优先考虑保护平民：</p>
+          </intro>
+          <point eId="para_78_list_point_㈠">
+            <num>㈠</num>
+            <content eId="para_78_list_point_㈠_content">
+              <p xml:space="preserve">	采取一切必要措施，确保有效、及时、动态和综合地提供保护，从而保护受到人身暴力威胁的平民</p>
+            </content>
+          </point>
+          <sublist eId="para_78_list_point_㈠_sublist">
+            <point eId="para_78_list_point_㈠_sublist_point_a">
+              <num>(a)</num>
+              <content eId="para_78_list_point_㈠_sublist_point_a_content">
+                <p xml:space="preserve">	防止、威慑和制止所有武装团体和地方民兵对民众实施暴力，包括防止所有武装团体和地方民兵侵入、攻击或包围大型人口中心，包括以此支持刚果当局，解除其武装，进行斡旋，以及支持和开展地方调解工作和国家一级宣传倡导，以防止暴力升级并反击仇恨言论、虚假信息和错误信息，特别注意聚集在流离失所者和难民营的平民、和平示威者、人道主义人员和人权维护者，同时确保在任何军事或警察行动之前、期间和之后减轻平民面临的风险；</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_㈠_sublist_point_b">
+              <num>(b)</num>
+              <content eId="para_78_list_point_㈠_sublist_point_b_content">
+                <p xml:space="preserve">	在刚果民主共和国开展有针对性的进攻行动，通过一支有效的部队干预旅，在部队指挥官的全权领导下瓦解武装团体，帮助实现减少武装团体对国家权力和平民安全所构成威胁的目标，并为单方面或与刚果安全部队联合开展稳定活动创造空间；</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_㈠_sublist_point_c">
+              <num>(c)</num>
+              <content eId="para_78_list_point_㈠_sublist_point_c_content">
+                <p xml:space="preserve">	根据联刚稳定团的任务规定并严格按照联合国人权尽职政策，与刚果安全部队开展更多有效的联合行动，包括联合规划和战术合作，以确保尽一切努力防止、威慑和制止武装团体；</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_㈠_sublist_point_d">
+              <num>(d)</num>
+              <content eId="para_78_list_point_㈠_sublist_point_d_content">
+                <p xml:space="preserve">	保持积极主动的部署以及机动、灵活、强有力和有效的态势，包括积极进行徒步巡逻和乘车巡逻，特别是在高风险地区；</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_㈠_sublist_point_e">
+              <num>(e)</num>
+              <content eId="para_78_list_point_㈠_sublist_point_e_content">
+                <p xml:space="preserve">	与刚果民主共和国政府和人道主义工作者合作查明对平民的威胁，执行联合预防和应对计划，加强军民合作，确保保护平民不受践踏侵犯人权行为和违反国际人道法行为、包括一切形式性暴力、性别暴力和侵犯虐待儿童和残疾人行为的危害；</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_㈠_sublist_point_f">
+              <num>(f)</num>
+              <content eId="para_78_list_point_㈠_sublist_point_f_content">
+                <p xml:space="preserve">	增强其与平民的社区接触，强化利用战略沟通，包括与刚果民主共和国政府进行联合沟通，以提高对稳定团保护平民任务与活动的认识和了解，加强其预警机制，包括防止旨在破坏稳定团信誉及妨碍其执行任务的虚假信息宣传和错误信息散播；</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_78_list_point_㈡">
+            <num>㈡</num>
+            <content eId="para_78_list_point_㈡_content">
+              <p xml:space="preserve">	解除武装、复员和重返社会(复员方案)及稳定局势</p>
+            </content>
+          </point>
+          <sublist eId="para_78_list_point_㈡_sublist">
+            <point eId="para_78_list_point_㈡_sublist_point_g">
+              <num>(g)</num>
+              <content eId="para_78_list_point_㈡_sublist_point_g_content">
+                <p xml:space="preserve">	与国际和地方伙伴密切合作，为刚果民主共和国政府提供斡旋、咨询和协助，以促进由东非共同体牵头的内罗毕进程，按照2021年7月5日第<a href="https://undocs.org/ch/A/RES/21/038">21/038</a>号命令执行解除武装、复员、社区恢复和稳定方案，并让未涉嫌实施灭绝种族罪、战争罪、危害人类罪或践踏人权行为的刚果战斗人员和外国战斗人员解除武装、复员和重返社会，使其过上和平的平民生活，同时特别注意曾与武装部队和武装团体有关联的妇女和儿童的需求；</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_㈡_sublist_point_h">
+              <num>(h)</num>
+              <content eId="para_78_list_point_㈡_sublist_point_h_content">
+                <p xml:space="preserve">	为解除武装、复员、遣返、重新安置和重返社会(复员遣返方案)进程提供支助，使未涉嫌实施国际罪行或践踏人权行为的外国战斗人员及其家属回返和重返社会，在原籍国或接收他们的第三国过上和平的平民生活，同时特别注意曾与武装部队和武装团体有关联的妇女和儿童的需求；</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_㈡_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_78_list_point_㈡_sublist_point_i_content">
+                <p xml:space="preserve">	指导和支持刚果民主共和国当局按照安全理事会相关决议以及适用的国际军备控制条约，处置已解除武装的刚果战斗人员和外国战斗人员的武器弹药；</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_㈡_sublist_point_j">
+              <num>(j)</num>
+              <content eId="para_78_list_point_㈡_sublist_point_j_content">
+                <p xml:space="preserve">	与大湖区问题特使的技术援助工作相协调，为刚果民主共和国政府整合一个能够掌控主要采矿活动并以公平和有成效的方式管理刚果民主共和国东部自然资源开采、增值、运输和贸易的有效国家文职架构提供技术咨询；</p>
+              </content>
+            </point>
+            <point eId="para_78_list_point_㈡_sublist_point_k">
+              <num>(k)</num>
+              <content eId="para_78_list_point_㈡_sublist_point_k_content">
+                <p xml:space="preserve">	继续与刚果民主共和国政府协作，巩固《防止和消除招募和使用儿童问题行动计划》的成果，加速执行该计划，继续与被列名各方进行对话，促使它们作出进一步承诺并防止和消除侵犯虐待儿童行为；</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_78_list_point_㈢">
+            <num>㈢</num>
+            <content eId="para_78_list_point_㈢_content">
+              <p xml:space="preserve">	安全部门改革</p>
+            </content>
+          </point>
+          <sublist eId="para_78_list_point_㈢_sublist">
+            <point eId="para_78_list_point_㈢_sublist_point_l">
+              <num>(l)</num>
+              <content eId="para_78_list_point_㈢_sublist_point_l_content">
+                <p xml:space="preserve">	与刚果民主共和国政府协商，酌情向刚果民主共和国政府提供斡旋及战略和技术咨询，并在协调国际和双边伙伴以及联合国系统提供的支持方面发挥作用，以便：</p>
+              </content>
+            </point>
+            <sublist eId="para_78_list_point_㈢_sublist_point_l_sublist">
+              <point eId="para_78_list_point_㈢_sublist_point_l_sublist_point_1">
+                <num>–</num>
+                <content eId="para_78_list_point_㈢_sublist_point_l_sublist_point_1_content">
+                  <p xml:space="preserve">	加快国家对安全部门改革的自主掌控，通过顾及妇女充分、平等、有效和切实参与及妇女安全的独立、负责和良好运作的司法和安全机构，为所有人提供安全和正义；</p>
+                </content>
+              </point>
+              <point eId="para_78_list_point_㈢_sublist_point_l_sublist_point_2">
+                <num>–</num>
+                <content eId="para_78_list_point_㈢_sublist_point_l_sublist_point_2_content">
+                  <p xml:space="preserve">	促进和协助军事、警察、司法和监狱部门改革，以加强司法和安全部门的问责，消除有罪不罚现象，提高运作效力，包括为此开展人权培训；</p>
+                </content>
+              </point>
+              <point eId="para_78_list_point_㈢_sublist_point_l_sublist_point_3">
+                <num>–</num>
+                <content eId="para_78_list_point_㈢_sublist_point_l_sublist_point_3_content">
+                  <p xml:space="preserve">	通过联合国地雷行动司，支持加强刚果安全部队的能力，包括武器弹药管理、反简易爆炸装置、爆炸物处理方面以及与简易爆炸装置相关基本调查和法证开发方面的能力；</p>
+                </content>
+              </point>
+            </sublist>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="bold">授权</span>联刚稳定团监测并立即向安全理事会报告侵犯践踏人权行为和违反国际人道法行为以及限制政治空间和暴力行为，包括选举背景下的此类行为，并采取相关后续行动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>26.</num>
+        <list eId="para_81_list">
+          <intro eId="para_81_list_intro">
+          <p xml:space="preserve">	<span class="bold">还授权</span>联刚稳定团在不妨碍其执行优先工作的能力的情况下，与国家工作队合作并以精简有序的方式，利用其现有能力，专门执行以下工作，同时铭记所有工作均相辅相成：</p>
+          </intro>
+          <point eId="para_81_list_point_a">
+        <subheading>		支持2023年选举进程</subheading>
+        <num>(a)</num>
+            <content eId="para_83__content_list_point_a">
+          <p xml:space="preserve">	如果刚果当局正式提出请求，与刚果当局、国家工作队、区域和国际行为体协调，酌情在联刚稳定团仍有人员部署的三个省为2023年选举进程提供支持，包括在无损联刚稳定团执行其优先任务的能力的情况下提供有限后勤支持，以促成一个和平选举周期，特别是为此与全国独立选举委员会进行对话；</p>
+            </content>
+          </point>
+          <point eId="para_81_list_point_b">
+            <subheading>支持刚果民主共和国司法系统和打击有罪不罚现象</subheading>
+        <num>(b)</num>
+            <content eId="para_81__content_list_point_b">
+          <p xml:space="preserve">	与刚果民主共和国当局合作，利用联合国系统的能力和知识专长，加强和支持刚果民主共和国司法系统，以便调查和起诉被控应对该国境内发生的灭绝种族罪、战争罪和危害人类罪以及违反国际人道法行为和侵犯践踏人权行为负责的所有人员，包括为此与该区域各国和国际刑事法院合作；</p>
+            </content>
+          </point>
+          <point eId="para_81_list_point_c">
+        <num>(c)</num>
+            <content eId="para_81__content_list_point_c">
+          <p xml:space="preserve">	为刚果民主共和国政府开展斡旋并提供咨询和支持，以增进人权特别是公民和政治权利，消除有罪不罚现象，包括为此实施政府对安全部门人员违反纪律、侵犯人权和违反国际人道法行为的“零容忍政策”，同时开展和促进地方一级调解工作以推进可持续和平；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_87" class="H4">
+            <subheading>		保护联合国</subheading>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="bold">确保</span>联合国人员、设施、装置和装备得到保护，保障联合国人员及有关人员的安全和通行自由；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="H4">
+            <subheading>		保护儿童</subheading>
+      </paragraph>
+      <paragraph eId="para_90" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联刚稳定团于整个任务期间，在复员方案和安全部门改革等进程中以及在采取干预措施使儿童脱离武装团体的过程中充分考虑到保护儿童这一贯穿各领域的问题，以消除和防止侵犯虐待儿童行为，并继续确保儿童与武装冲突问题监测和报告机制的实效，此外确认派往联刚稳定团的联合国儿童保护顾问的至关重要作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="H4">
+            <subheading>		性别问题，性暴力</subheading>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联刚稳定团在整个任务期间充分考虑到性别因素这一贯穿各领域的问题，协助刚果民主共和国政府和其他相关利益攸关方创造有利的法律、政治和社会经济环境，确保妇女及性暴力和性别暴力幸存者在各级充分、平等、有效和有意义地参加、充分参与和享有代表性，以维护和促进和平与安全，保护平民，包括为此而使妇女网络作为保护工作的合作伙伴，支持复员方案和安全部门改革工作，支持稳定努力，请联刚稳定团支持政府推进妇女的充分、平等、有效和切实政治参与，特别是实现30%的宪法规定配额，此外确认派往联刚稳定团的联合国妇女保护顾问的至关重要作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="bold">重申</span>亟需和必须追究所有违反国际人道法行为责任人的责任，请联刚稳定团加快协调落实关于冲突和冲突后局势中性暴力问题的监测、分析和报告安排；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="H23">
+            <subheading>		人道主义援助准入和人道主义呼吁</subheading>
+      </paragraph>
+      <paragraph eId="para_95" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_95__content">
+          <p xml:space="preserve">	<span class="bold">回顾</span>其关于保护人道主义工作人员和医务人员的所有相关决议，包括第<a href="https://undocs.org/ch/S/RES/2439(2018)">2439(2018)</a>和<a href="https://undocs.org/ch/S/RES/2286(2016)">2286 (2016)</a>号决议，要求所有各方根据国际法相关条款及人道主义原则允许和便利人道主义工作人员、设备和物资在刚果民主共和国全境充分、安全、立即且不受阻碍地通行，允许和便利及时向有需要的民众特别是难民和境内流离失所者运送人道主义援助；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>会员国以及国际和区域组织迅速回应人道主义救援计划中确定的人道主义需求，增加捐助，并确保全额及时兑现认捐；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="bold">强调</span>必须在资金、技术和实物方面保持国际支持和参与，以便迅速应对传染病疫情，请联合国系统所有相关部门根据各自任务和责任有效协调活动以应对埃博拉、冠状病毒病和其他可能出现的疫情；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="H23">
+            <subheading>		制裁制度</subheading>
+      </paragraph>
+      <paragraph eId="para_100" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	<span class="bold">请</span>联刚稳定团与第<a href="https://undocs.org/ch/S/RES/1533(2004)">1533(2004)</a>号决议所设专家组合作，监测第<a href="https://undocs.org/ch/S/RES/2293(2016)">2293(2016)</a>号决议第1段所述军火禁运措施的执行情况，特别是观察和报告军事人员、军火和有关物资在刚果民主共和国东部跨境流动情况，包括为此按照安理会2013年1月22日的信(<a href="https://undocs.org/ch/S/2013/44">S/2013/44</a>)中所述办法利用无人机系统提供的监视能力，查扣、收缴、记录和处置违反第<a href="https://undocs.org/ch/S/RES/2293(2016)">2293(2016)</a>号决议第1段所定措施进入刚果民主共和国的军火和有关物资，此外协助专家组并与专家组交流相关信息；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="H23">
+            <subheading>		稳定团的效力及维持和平人员的安全和保障</subheading>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长为联刚稳定团提供必要的能力，使它能够在针对其人员的不对称威胁等复杂安全情况下完成任务，并确保实地所有维和人员愿意、能够且配有装备以有效、安全地执行任务，还请秘书长、会员国和刚果民主共和国政府采取一切适当措施，依照第<a href="https://undocs.org/ch/S/RES/2518(2020)">2518(2020)</a>号决议以及根据联合国改善维和人员安全准则和最佳做法在行动区内和部署前为军警人员接种冠状病毒病疫苗的指导原则，确保联刚稳定团人员的安全保障达到尽可能最佳程度，关切地注意到违反《部队地位协定》的行为可能给服务于维持和平行动的联合国人员的安全保障带来严重风险，着重指出东道国对联合国人员和资产的安全和保障负有首要责任，强调指出联合国维和行动必须与东道国政府进行有效沟通，以建立信任、相互了解，请秘书长落实第<a href="https://undocs.org/ch/S/RES/2589(2021)">2589(2021)</a>号决议关于追究针对维和人员实施罪行的责任的规定；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长在规划和实施联刚稳定团在任务规定和行动区范围内并依照现有联合国准则和条例以及第<a href="https://undocs.org/ch/S/RES/2612(2021)">2612(2021)</a>号决议第44段开展的行动时，落实第<a href="https://undocs.org/ch/S/RES/2612(2021)">2612(2021)</a>号决议第42段所列活动，还请联刚稳定团执行第<a href="https://undocs.org/ch/S/RES/2612(2021)">2612(2021)</a>号决议第45段并请部队和警察派遣国执行第<a href="https://undocs.org/ch/S/RES/2612(2021)">2612(2021)</a>号决议第46和47段，注意到联合国业务支助部的环境战略(第二阶段)，其中强调要对资源进行妥善管理而且稳定团要留下良好足迹，并确定了在各特派团扩大使用可再生能源的目标，以加强安全和安保，节约成本，提高效率，使稳定团受益；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="bold">敦促</span>部队和警察派遣国继续采取适当行动预防性剥削和性虐待行为，包括筛查所有人员、进行部署前和在岗提高认识培训，确保在发生此类行为时全面追究本国涉案人员的责任，包括为此而由部队和警察派遣国及时调查所有性剥削和性虐待指控，追究行为人责任，在有可信证据表明某些部队普遍或整体存在性剥削或性虐待行为时遣返这些部队，并向联合国全面、迅速报告所采取的行动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="H23">
+            <subheading>		撤出战略</subheading>
+      </paragraph>
+      <paragraph eId="para_107" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	<span class="bold">注意到</span>刚果民主共和国政府要求审查联刚稳定团的过渡计划，鼓励联合国和刚果民主共和国政府与民间社会联络，以此确定要优先采取的具体现实步骤，为使联刚稳定团能够负责任和可持续地撤出创造最起码的安全条件；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>联刚稳定团、国家工作队和在刚果民主共和国开展业务的其他联合国实体加快一体化与合作，以开展过渡计划中确定的优先协作行动，并使联合国国家工作队能够扩大方案编制，为联刚稳定团撤出做好准备，包括制定协调一致的资源调动战略，并鼓励国际社会和捐助方支持联合国国家工作队和在刚果民主共和国开展业务的其他联合国实体扩大活动和方案编制，包括建设和平活动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve">	<span class="bold">促请</span>联刚稳定团与联合国国家工作队密切合作，确定如何弥补能力差距，为联刚稳定团撤出做好准备，并且按照第<a href="https://undocs.org/ch/S/RES/2594(2021)">2</a><a href="https://undocs.org/ch/S/RES/2594(2021)">594(2021)</a>号决议明确所有相关联合国利益攸关方的作用和责任，特别指出需要酌情并根据任务规定和资源情况，逐步将联刚稳定团的任务移交给刚果民主共和国政府、联合国国家工作队和其他相关利益攸关方，以使联刚稳定团能够负责任和可持续地撤出，鼓励秘书长酌情停止可由其他利益攸关方负责任且可持续承担的任务，并相应精简联刚稳定团；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="bold">着重指出</span>，在过渡环境中积极主动地进行战略沟通办法，包括联刚稳定团与刚果民主共和国政府进行联合沟通，可能有助于创造有利于顺利重组联合国存在的条件，请联刚稳定团和相关伙伴继续探讨在联刚稳定团过渡背景下维持霍加狓电台节目的现有备选办法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="bold">强调指出</span>，联刚稳定团开展的活动应着眼于将国内和外国武装团体构成的威胁降至刚果民主共和国安全部队能够管控的程度，便于联刚稳定团根据实现过渡计划所定基准和指标方面的进展，在实地局势允许情况下逐步、负责任、可持续地撤出；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="H23">
+            <subheading>		秘书长的报告</subheading>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>43.</num>
+        <list eId="para_119_list">
+          <intro eId="para_119_list_intro">
+            <p xml:space="preserve">	<span class="bold">请</span>秘书长每三个月向安理会报告情况，包括：</p>
+          </intro>
+          <point eId="para_119_list_point_1">
+            <num>–</num>
+            <content eId="para_119_list_point_1_content">
+              <p xml:space="preserve">	刚果民主共和国局势，包括加强国家机构、关键治理和安全改革方面的进展情况；</p>
+            </content>
+          </point>
+          <point eId="para_119_list_point_2">
+            <num>–</num>
+            <content eId="para_119_list_point_2_content">
+              <p xml:space="preserve">	联刚稳定团执行任务包括保护平民任务、区域安全部队之间合作、联刚稳定团业绩包括部队干预旅行动的情况，警察和部队组建的情况，稳定团的活动是否及如何有助于完成第24段所述稳定团优先任务以及稳定团在执行优先任务过程中遇到哪些挑战与困难，利用通过全面规划和业绩评估系统收集和分析的数据、稳定团执行维和业绩和问责综合框架的情况以及其他战略规划和业绩衡量工具来说明稳定团的影响和稳定团的总体业绩，包括关于未申明限制条件、拒绝参加或进行巡逻及其对稳定团所造成影响的信息，以及对据报业绩不佳个案的处理情况；</p>
+            </content>
+          </point>
+          <point eId="para_119_list_point_3">
+            <num>–</num>
+            <content eId="para_119_list_point_3_content">
+              <p xml:space="preserve">	关于为获授权活动开展战略沟通行动及其影响的信息；</p>
+            </content>
+          </point>
+          <point eId="para_119_list_point_4">
+            <num>–</num>
+            <content eId="para_119_list_point_4_content">
+              <p xml:space="preserve">	为过渡计划中确定的与联合国各专门机构、基金和方案的优先协作行动努力提供适足资源及这些行动执行进展的最新情况；</p>
+            </content>
+          </point>
+          <point eId="para_119_list_point_5">
+            <num>–</num>
+            <content eId="para_119_list_point_5_content">
+              <p xml:space="preserve">	将联刚稳定团的任务逐步移交给刚果民主共和国政府、联合国国家工作队和其他相关利益攸关方的最新情况，包括酌情说明按照第40段要求停止相关任务的最新情况；</p>
+            </content>
+          </point>
+          <point eId="para_119_list_point_6">
+            <num>–</num>
+            <content eId="para_119_list_point_6_content">
+              <p xml:space="preserve">	每六个月提供关于实现政府和联合国在过渡计划中所定基准和指标的最新进展情况；</p>
+            </content>
+          </point>
+          <wrapUp eId="para_119_list_wrapup">
+        <p xml:space="preserve">		<span class="bold">还请</span>秘书长在提交安全理事会的所有报告中包含性别平等分析；</p>
+          </wrapUp>
+        </list>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长在联刚稳定团过渡计划联合审查结束后，至迟于2023年7月向安全理事会提出调整联刚稳定团文职、警察和军事部门配置的备选方案，并说明联刚稳定团目前任务期结束后联合国今后在刚果民主共和国的人员配置，同时考虑到联刚稳定团对东非共同体区域部队以及支持刚果民主共和国的其他现有国际、区域和双边举措的作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="bold">请</span>秘书长与秘书长大湖区问题特使和负责刚果民主共和国问题特别代表协调，每六个月向安全理事会报告根据《和平、安全与合作框架》所作承诺的履行情况及其与大湖区广泛安全局势的联系；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="bold">决定</span>继续积极处理此案。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
