@@ -1,0 +1,706 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2666-2022/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2666-2022/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2666-2022/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2666-2022/ara@/"></FRBRuri>
+          <FRBRdate date="2022-12-20" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2666-2022/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2666-2022/ara@.xml"></FRBRuri>
+          <FRBRdate date="2023-01-03" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Organization Stabilization Mission in the Democratic Republic of the Congo" showAs="UN Organization Stabilization Mission in the Democratic Republic of the Congo" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Group of Experts Established pursuant to Resolution 1533 (2004)" showAs="UN. Group of Experts Established pursuant to Resolution 1533 (2004)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" showAs="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Charter of the United Nations (1945). Chapter VII" showAs="Charter of the United Nations (1945). Chapter VII" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEBUILDING" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" showAs="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO" showAs="DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[104]" showAs="UN ORGANIZATION STABILIZATION MISSION IN THE DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="[102]" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="S/77"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation concerning the Democratic Republic of the Congo." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2666 (2022) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 20 Dec. 2023]" showAs="Security Council resolution 2666 (2022) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 20 Dec. 2023]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-12-20" outcome="draftResolution" as="S/2022/960" by="France" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-12-20" outcome="adopted" as="S/PV.9226" by="Adopted unanimously, 9226th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">KENYA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">22-29059 (A)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2666 (2022)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">مجلس الأمن</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-12-20" class="rightSmall" refersTo="#dateOfIssuance">20 December 2022</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		القرار 2666 (2022)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">الذي اتخذه مجلس الأمن في <inline name="adoptionMeeting"></inline><docDate date="0001-01-01" refersTo="#adoptionDate">جلسته 9226 المعقودة في 20 كانون الأوّل/ديسمبر 2022</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="bold italic">إن مجلس الأمن</span>،</p>
+      </formula>
+      <container name="إذ يشير" eId="container_2">
+        <p xml:space="preserve">	<span class="bold italic">إذ يشير</span> إلى قراراته السابقة وإلى بياناته الرئاسية بشأن جمهورية الكونغو الديمقراطية، ولا سيما قراراته السابقة بشأن ولاية بعثة منظمة الأمم المتحدة لتحقيق الاستقرار في جمهورية الكونغو الديمقراطية ونظام الجزاءات المنشأ عملا بالقرارين <a href="https://undocs.org/ar/S/RES/1493(2003)">1493 (2003)</a> و <a href="https://undocs.org/ar/S/RES/1807(2008)">1807 (2008)</a>،</p>
+      </container>
+      <container name="وإذ يعيد تأكيد" eId="container_3">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعيد تأكيد</span> المبادئ الأساسية لحفظ السلام، بما في ذلك موافقة الأطراف والحياد وعدم استعمال القوة، إلا في حالة الدفاع عن النفس والدفاع عن الولاية،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_4">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد</span> التزامه القوي بسيادة جمهورية الكونغو الديمقراطية وجميع دول المنطقة وباستقلالها ووحدتها وسلامتها الإقليمية، <span class="bold italic">وإذ يشدد</span> على الحاجة المحلة إلى إيلاء الاحترام التام لمبادئ عدم التدخل وحسن الجوار والتعاون الإقليمي،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_5">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى أن حكومة جمهورية الكونغو الديمقراطية تتحمل المسؤولية الأساسية عن حماية المدنيين الموجودين في إقليمها والخاضعين لولايتها، بما في ذلك حمايتهم من الجرائم الدولية، وإذ يسلّم بالتحدي الأمني المستمر الذي يهدد المدنيين، وإذ يشدد أيضا على أهمية الجهود الوطنية الرامية إلى إعادة بسط سلطة الدولة في جميع أجزاء البلد للتغلب على التهديدات التي تشكلها الجماعات المسلحة،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_6">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يلاحظ</span> أن جمهورية الكونغو الديمقراطية ما زالت تعاني من دوامات النزاع المتكررة والمتطورة ومن استمرار العنف الذي تمارسه الجماعات المسلحة الأجنبية والمحلية، مما يؤدي إلى تفاقم أزمة مثيرة للقلق البالغ في مجال الأمن وحقوق الإنسان والأوضاع الإنسانية، فضلا عن العنف القبلي وعنف الميليشيات في مناطق جمهورية الكونغو الديمقراطية،</p>
+      </container>
+      <container name="وإذ يعرب عن قلقه" eId="container_7">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن قلقه</span> إزاء الإفادات بوجود صلات بين القوات الديمقراطية المتحالفة والشبكات الإرهابية في شرق جمهورية الكونغو الديمقراطية، <span class="bold italic">وإذ يشدد</span> على أن هذه الصلات يمكن أن تزيد من تفاقم النزاعات وتساهم في تقويض سلطة الدولة، <span class="bold italic">وإذ يؤكد</span> على أنه لا يمكن أن يكون هناك حل عسكري صرف لهذه المشاكل، وأيضا على أهمية توخي نهج شمولي لمكافحة الإرهاب وفقا للقانون الدولي الواجب التطبيق،</p>
+      </container>
+      <container name="وإذ ينوِّه" eId="container_8">
+          <p xml:space="preserve">	<span class="bold italic">وإذ ينوِّه</span> بالجهود التي تبذلها حكومة وشعب جمهورية الكونغو الديمقراطية بهدف تحقيق السلام والتنمية الوطنية، وأيضا بالدعم والمشاركة الإقليميين، <span class="bold italic">وإذ ينوِّه كذلك</span> بالجهود التي تبذلها القوات المسلحة لجمهورية الكونغو الديمقراطية وبعثة منظمة الأمم المتحدة لتحقيق الاستقرار في جمهورية الكونغو الديمقراطية في التصدي للتهديد الذي تشكله الجماعات المسلحة في جمهورية الكونغو الديمقراطية،</p>
+      </container>
+      <container name="وإذ لا يزال يساوره بالغ القلق" eId="container_9">
+        <p xml:space="preserve">	<span class="bold italic">وإذ لا يزال يساوره بالغ القلق</span> إزاء ارتفاع مستويات انتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني في أجزاء من البلد، التي ترتكبها جميع الأطراف، ولا سيما الجماعات المسلحة، فضلا عن احتدام العنف القبلي الذي يغذيه خطاب الكراهية، والمعلومات المغلوطة والمعلومات المضللة، بما في ذلك من خلال منصات التواصل الاجتماعي،</p>
+      </container>
+      <container name="وإذ يؤكد من جديد" eId="container_10">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يؤكد من جديد</span> أهمية دور النساء والشباب في منع نشوب النزاعات وإداراتها وحلها، وكذلك في بناء السلام والعمليات الانتخابية، وإذ يشدد على أهمية مشاركة النساء والشباب مشاركة كاملة ومتساوية وفعَّالة ومجدية وآمنة في جميع الجهود الرامية إلى صون السلام والأمن وتعزيزهما في جمهورية الكونغو الديمقراطية،</p>
+      </container>
+      <container name="وإذ يعرب عن القلق الشديد" eId="container_11">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يعرب عن القلق الشديد</span> إزاء الحالة الإنسانية التي خلّفت ما يُقدّر بـ 27 مليون كونغولي في حاجة إلى المساعدة الإنسانية، وإزاء تزايد عدد النازحين في جمهورية الكونغو الديمقراطية، حيث يُقدَّر عدد المشردين حتى الآن بنحو 5,7 ملايين، إضافة إلى 000 523 من اللاجئين في جمهورية الكونغو الديمقراطية، وأزيد من مليون لاجئ من جمهورية الكونغو الديمقراطية في أفريقيا نتيجة لاستمرار الأعمال العدائية، <span class="bold italic">وإذ يشجع</span> الدول الأعضاء على الالتزام بتوخي مزيد من الإنصاف في تقاسم الأعباء والمسؤوليات المترتبة على استضافة ودعم اللاجئين في جمهورية الكونغو الديمقراطية بما يتماشى مع إطار التعامل الشامل مع مسألة اللاجئين، <span class="bold italic">وإذ يهيب كذلك</span> بجمهورية الكونغو الديمقراطية وبجميع دول المنطقة إلى العمل على تهيئة بيئة سلمية مؤاتية تفضي إلى إيجاد حلول مستدامة لصالح اللاجئين والنازحين، بما في ذلك تمكينهم من العودة الطوعية والآمنة والكريمة وإعادة إدماجهم في جمهورية الكونغو الديمقراطية، بدعم من فريق الأمم المتحدة القطري، <span class="bold italic">وإذ يشدِّد</span> على أن أي حل من هذا القبيل ينبغي أن يكون متوائما مع الالتزامات ذات الصلة المنصوص عليها في القانون الدولي للاجئين والقانون الدولي الإنساني والقانون الدولي لحقوق الإنسان،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_12">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى مبادئ الأمم المتحدة التوجيهية لتقديم المساعدة الإنسانية في حالات الطوارئ،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_13">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى القرارين <a href="https://undocs.org/ar/S/RES/2532(2020)">2532 (2020)</a> و <a href="https://undocs.org/ar/S/RES/2565(2021)">2565 (2021)</a> اللذين يطالبان بوقف عام وفوري للأعمال العدائية في جميع الحالات المدرجة على جدول أعمال المجلس ويدعوان جميع الأطراف في النزاعات المسلحة إلى الدخول فورا في هدنة إنسانية، من أجل إفساح المجال لإيصال المساعدات الإنسانية بشكل آمن وفي الوقت المناسب ودون عوائق ودون انقطاع بما يتواءم مع مبادئ العمل الإنساني المتمثلة في الإنسانية والحياد والنزاهة والاستقلال،</p>
+      </container>
+      <container name="وإذ يلاحظ" eId="container_14">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يلاحظ</span> أهمية التبادل التجاري للمواد الغذائية والوقود والسلع الأساسية الضرورية الأخرى في تلبية احتياجات المدنيين الأساسية لبقائهم،</p>
+      </container>
+      <container name="وإذ يشير" eId="container_15">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يشير</span> إلى جميع قراراته ذات الصلة بشأن المرأة والسلام والأمن، وبشأن الشباب والسلام والأمن، وبشأن الأطفال والنزاع المسلح، وبشأن حماية المدنيين في النزاعات المسلحة<span class="bold italic">، وإذ يرحب</span> بالجهود التي تبذلها حكومة جمهورية الكونغو الديمقراطية في هذا الصدد ومن أجل تنفيذ القرار <a href="https://undocs.org/ar/S/RES/1325(2000)">1325 (2000)</a>، <span class="bold italic">وإذ يشير أيضا</span> إلى الاستنتاجات بشأن الأطفال والنزاع المسلح في جمهورية الكونغو الديمقراطية التي اعتمدها في 10 كانون الأول/ديسمبر 2020 الفريق العامل التابع لمجلس الأمن المعني بالأطفال والنزاع المسلح فيما يتعلق بأطراف النزاع المسلح في جمهورية الكونغو الديمقراطية، <span class="bold italic">وإذ يعرب</span> عن بالغ القلق إزاء العدد المرتفع من الانتهاكات ضد الأطفال، لا سيما العنف الجنسي والجنساني، التي ترتكبها قوات الأمن، <span class="bold italic">وإذ يدعو</span> جميع الجهات الفاعلة إلى المساهمة في تأهيل وإعادة إدماج الأطفال المرتبطين سابقا بجماعات وقوات مسلحة،</p>
+      </container>
+      <container name="وإذ يسلِّم" eId="container_16">
+          <p xml:space="preserve">	<span class="bold italic">وإذ يسلِّم</span> بالآثار الضارة المترتبة على الاستقرار في جمهورية الكونغو الديمقراطية من تغير المناخ والتغيرات الإيكولوجية والكوارث الطبيعية وعدم الحصول على الطاقة، ضمن عوامل أخرى، <span class="bold italic">وإذ يرحب</span> بقيادة جمهورية الكونغو الديمقراطية في وضع استراتيجيات وطنية لمعالجة هذه المسائل وفي الحفاظ على غابات حوض نهر الكونغو، <span class="bold italic">وإذ يعرب عن القلق</span> إزاء ما تقوم به الجماعات المسلحة في المناطق المشمولة بالحماية من أنشطة مفضية إلى الإضرار بالبيئة، <span class="bold italic">وإذ ينوه</span> باتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ واتفاق باريس،</p>
+      </container>
+      <container name="وإذ يكرر تأكيد" eId="container_17">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يكرر تأكيد</span> ضرورة أن تنفذ البعثة ولايتها تنفيذا كاملا وفقا لقرارات مجلس الأمن ذات الصلة، وأن تستخدم كل ما هو متاح لها من وسائل من أجل التصدي بفعالية للتهديد الذي تشكله الجماعات المسلحة وللتهديدات الأمنية الأخرى، ضمن سياق تزايد النزاع المسلح في جمهورية الكونغو الديمقراطية،</p>
+      </container>
+      <container name="وإذ يكرر" eId="container_18">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يكرر</span> نداءه إلى جميع الأطراف بأن تتعاون بالكامل مع البعثة وأن تظل ملتزمة بتنفيذ الولاية المنوطة بالبعثة تنفيذاً كاملا وموضوعياً، <span class="bold italic">وإذ يكرر كذلك</span> التأكيد على أهمية مواصلة الامتثال لاتفاق مركز القوات، وإدانته لأي هجمات على حفظة السلام، قد تشكل جرائم حرب، <span class="bold italic">وإذ يؤكد</span> ضرورة محاسبة المسؤولين عن مثل هذه الهجمات،</p>
+      </container>
+      <container name="وإذ يكرر تأكيد" eId="container_19">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يكرر تأكيد</span> أهمية توفير الموارد الكافية لعمليات الأمم المتحدة لحفظ السلام خلال العمليات الانتقالية، <span class="bold italic">وإذ يشير</span> إلى القرار <a href="https://undocs.org/ar/S/RES/2594(2021)">2594 (2021)</a> بشأن الانتقال في عمليات الأمم المتحدة للسلام في هذا الصدد،</p>
+      </container>
+      <container name="وإذ يشدد" eId="container_20">
+        <p xml:space="preserve">
+          <span class="bold italic">	وإذ يشدد </span>على أهمية الاتصالات الاستراتيجية في تنفيذ ولاية البعثة وفي سلامة وأمن حفظة السلام التابعين لها،</p>
+      </container>
+      <container name="وإذ يقرر" eId="container_21">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يقرر</span> أن الحالة في جمهورية الكونغو الديمقراطية لا تزال تشكل خطراً يهدِّد السلام والأمن الدوليين في المنطقة،</p>
+      </container>
+      <container name="وإذ يتصرف" eId="container_22">
+        <p xml:space="preserve">	<span class="bold italic">وإذ يتصرف</span> بموجب الفصل السابع من ميثاق الأمم المتحدة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_23" class="H23">
+            <subheading>		الحالة السياسية</subheading>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <content eId="para_24__content">
+          <p xml:space="preserve">	1 -	<span class="bold italic">يرحب</span> بالجهود التي تبذلها حكومة جمهورية الكونغو الديمقراطية لتلبية احتياجات الشعب الكونغولي، <span class="bold italic">ويحث بشدة</span> جميع الجهات السياسية الفاعلة الكونغولية على عدم ادخار أي جهد في تنفيذ الإصلاحات الحاسمة في مجالات الحوكمة والأمن والاقتصاد الواردة في برنامج عمل الحكومة للفترة 2021-2023، <span class="bold italic">ويكرر تأكيد</span> أهمية تنفيذ التزامات الرئيس تشيسيكيدي وحكومته بالسعي لتحقيق الوحدة الوطنية، وتعزيز سيادة القانون واحترام حقوق الإنسان، بما في ذلك احترام حرية الرأي والتعبير، وحرية الصحافة والحق في التجمع السلمي، ومكافحة الفساد، والشروع في برامج التنمية المحلية للحد من الفقر بدرجة كبيرة، وتحقيق المزيد من الشمول السياسي وبناء السلام، <span class="bold italic">ويشجع</span> البعثة على مواصلة تقديم الدعم، من خلال مساعيها الحميدة، والعمليات السياسية السلمية، والشفافة، والشاملة للجميع والموثوقة التي تقوم بها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <content eId="para_25__content">
+          <p xml:space="preserve">	2 -	<span class="bold italic">يرحب</span> بالجهود التي يبذلها الرئيس تشيسيكيدي وحكومته من أجل تحقيق المصالحة والسلام والاستقرار في جمهورية الكونغو الديمقراطية، <span class="bold italic">ويشجع</span> جهوده المتواصلة مع دول المنطقة لإقامة علاقات طيبة مع البلدان المجاورة وتعزيز السلام والأمن والتكامل الإقليمي، <span class="bold italic">ويلاحظ </span>أن الاستقرار السياسي والأمن فضلا عن زيادة حضور الدولة في مناطق النزاع، ولا سيما في شرق جمهورية الكونغو الديمقراطية، أمور تكتسب أهمية بالغة لإحلال السلام المستدام في جمهورية الكونغو الديمقراطية، <span class="bold italic">ويدعو</span> سلطات جمهورية الكونغو الديمقراطية إلى العمل على تحقيق استقرار مؤسسات الدولة وتعزيز قدراتها، ولا سيما في مناطق النزاع، بدعم من البعثة وفريق الأمم المتحدة القطري، من أجل الوفاء بحقوق واحتياجات الشعب الكونغولي برمته، <span class="bold italic">ويدعو كذلك</span> جميع الأطراف السياسية الفاعلة إلى مواصلة العمل، بدعم من للبعثة، من أجل إنجاز عمليات تتسم بالسلمية والشفافية والشمول والمصداقية فيما يتعلق بإجراء الانتخابات الرئاسية والتشريعية المقرر إجراؤها في عام 2023، وفقا للدستور وقانون الانتخابات، في جميع أنحاء جمهورية الكونغو الديمقراطي، ومن أجل ضمان المشاركة الكاملة والمتساوية والفعالة والمجدية للمرأة في جميع المراحل، <span class="bold italic">ويرحب</span> بتقديم حكومة جمهورية الكونغو الديمقراطية لميزانية قوية تسعى إلى تلبية احتياجات الشعب الكونغولي وضمان تمويل العملية الانتخابية لعام 2023 وتيسير تنظيم انتخابات حرة ونزيهة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <content eId="para_26__content">
+          <p xml:space="preserve">	3 -	<span class="bold italic">يطلب</span> إلى الأمين العام، <span class="bold italic">ويناشد</span> المنظمات الإقليمية تقديم الدعم السياسي لتعزيز مؤسسات الدولة في جمهورية الكونغو الديمقراطية واستعادة الثقة بين مختلف الأطراف، بسبل منها بذل المساعي الحميدة، وذلك بغية توطيد السلام والأمن، ومعالجة أسباب النزاع الجذرية في المجالات ذات الأولوية، وكذلك بهدف التوصل إلى توافق وطني واسع على الإصلاحات الرئيسية في مجالات الحوكمة والأمن، ومكافحة الاستغلال غير القانوني للموارد الطبيعية، وتقديم الدعم لعملية الإصلاح الجارية والعمليات الانتخابية الأخرى، مع مراعاة الأولويات الوطنية لحكومة جمهورية الكونغو الديمقراطية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="H23">
+            <subheading>		حقوق الإنسان</subheading>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <content eId="para_28__content">
+          <p xml:space="preserve">	4 -	<span class="bold italic">يرحب</span> بما أعلنه الرئيس تشيسيكيدي من التزامات وبما اتخذه من تدابير بغية ضمان قيام حكومة جمهورية الكونغو الديمقراطية بحماية واحترام حقوق الإنسان والحريات الأساسية، فضلا عن مكافحة الإفلات من العقاب في جميع المجالات، <span class="bold italic">ويرحب كذلك</span> بالخطوات التي اتخذتها حكومة جمهورية الكونغو الديمقراطية نحو إرساء عملية وطنية للعدالة الانتقالية، بما في ذلك الشروع في إجراء مشاورات في العديد من المقاطعات، <span class="bold italic">ويدعو</span> حكومة جمهورية الكونغو الديمقراطية إلى أن تفي بهذه الالتزامات، وتحرص على أن تكون حالة الحصار في مقاطعتيْ إيتوري وكيفو الشمالية، بوصفها جزءا من جهودها الإضافية الرامية إلى القضاء على تهديد الجماعات المسلحة واستعادة سلطة الدولة، خاضعةً للتقييم المنتظم، ومستجيبة للتقدم المحرز في تحقيق أهدافها المحددة بوضوح، ومنفَّذةً في كنف الاحترام التام للقانون الدولي لحقوق الإنسان والقانون الدولي الإنساني؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <content eId="para_29__content">
+          <p xml:space="preserve">	5 -	<span class="bold italic">يحث</span> حكومة جمهورية الكونغو الديمقراطية على محاسبة المسؤولين عن انتهاكات القانون الدولي الإنساني أو انتهاكات وتجاوزات حقوق الإنسان، حسب الاقتضاء، ولا سيما تلك التي قد تبلغ حد الإبادة الجماعية وجرائم الحرب والجرائم ضد الإنسانية، <span class="bold italic">ويشدد</span> على التعاون الإقليمي وتعاون جمهورية الكونغو الديمقراطية مع المحكمة الجنائية الدولية على إثر قيام جمهورية الكونغو الديمقراطية بإحالة الحالة في جمهورية الكونغو الديمقراطية عام 2004، وعلى التعاون مع المحكمة الأفريقية لحقوق الإنسان والشعوب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <content eId="para_30__content">
+          <p xml:space="preserve">	6 -	<span class="bold italic">يشجّع</span> حكومة جمهورية الكونغو الديمقراطية على اتخاذ المزيد من الخطوات لمساءلة قوات الأمن عن انتهاكات حقوق الإنسان ولمكافحة الإفلات من العقاب ضمن صفوف هذه القوات، <span class="bold italic">ويدعو</span> السلطات الكونغولية إلى ضمان تقديم المسؤولين عن هذه الأفعال إلى العدالة، <span class="bold italic">ويدعو كذلك</span> حكومة جمهورية الكونغو الديمقراطية إلى القيام، تماشيا مع الاتفاقات السابقة، بتيسير وصول المكتب المشترك لحقوق الإنسان في جمهورية الكونغو الديمقراطية بشكل كامل ودون عوائق إلى جميع مراكز الاحتجاز والمستشفيات والمشارح وسائر الأماكن التي يتعين زيارتها لتوثيق انتهاكات حقوق الإنسان، حسب الاقتضاء، <span class="bold italic">ويشدد</span> على ضرورة مواصلة حكومة جمهورية الكونغو الديمقراطية الرفع من المهنية في صفوف قواتها الأمنية، بما في ذلك التحري عن سوابق أفراد الأمن وتدريبهم وبناء قدراتهم بهدف تحقيق الاحترام التام للقانون المحلي والقانون الدولي لحقوق الإنسان والقانون الدولي الإنساني، <span class="bold italic">ويؤكد</span> أهمية احترام سيادة القانون؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <content eId="para_31__content">
+          <p xml:space="preserve">	7 -	<span class="bold italic">يدين بشدة</span> كل أعمال العنف الجنسي في حالات النزاع وما بعد انتهاء النزاع في جمهورية الكونغو الديمقراطية، ولا سيما ما يرتكب منها على يد الجماعات المسلحة، <span class="bold italic">ويرحب</span> بالجهود التي تبذلها حكومة جمهورية الكونغو الديمقراطية من أجل مكافحة ومنع العنف الجنسي في حالات النزاع وما بعد انتهاء النزاع، بما في ذلك التقدم المحرز في مكافحة الإفلات من العقاب من خلال القبض على الجناة من أفراد القوات المسلحة لجمهورية الكونغو الديمقراطية والشرطة الوطنية الكونغولية ومحاكمتهم وإدانتهم، والتقدم المحرز صوب اعتماد قانون بشأن التعويضات وإنشاء صندوق وطني لتعويض ضحايا العنف الجنسي والجرائم الأخرى والناجين منهما، <span class="bold italic">ويحث</span> حكومة جمهورية الكونغو الديمقراطية على مواصلة تكثيف جهودها الرامية إلى مكافحة الإفلات من العقاب على العنف الجنسي في حالات النزاع وما بعد انتهاء النزاع، بما في ذلك العنف الجنسي الذي يرتكبه أفراد القوات المسلحة لجمهورية الكونغو الديمقراطية والشرطة الوطنية الكونغولية، وتوفير جميع الخدمات والحماية اللازمة للناجين والضحايا والشهود، ومنها مثلا توفير خدمات الرعاية الطبية والصحة الجنسية والإنجابية والصحة النفسية الاجتماعية والصحة العقلية والخدمات القانونية والاجتماعية الاقتصادية، <span class="bold italic">ويشجع</span> حكومة جمهورية الكونغو الديمقراطية على تعزيز تنفيذها للبيان المشترك بشأن مكافحة العنف الجنسي في حالات النزاع، المعتمد في عام 2013، وإضافته الموقعة في عام 2019، وعلى ضمان تخصيص التمويل الكافي لتنفيذ هذه الالتزامات، <span class="bold italic">ويرحب</span> بالتقدم الإضافي الذي أحرزته القوات المسلحة لجمهورية الكونغو الديمقراطية والشرطة الوطنية الكونغولية في تنفيذ خطط عمل كل منهما لمكافحة العنف الجنسي، <span class="bold italic">ويُشير</span> إلى أهمية التعاون مع مكتب الممثلة الخاصة للأمين العام المعنية بالعنف الجنسي في حالات النزاع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <content eId="para_32__content">
+          <p xml:space="preserve">	8 -	<span class="bold italic">يرحب</span> بالتقدم الذي أحرزته حكومة جمهورية الكونغو الديمقراطية لترسيخ المكاسب التي تحققت بفضل خطة العمل لإنهاء ومنع تجنيد الأطفال واستخدامهم والتعجيل بتنفيذها لإنهاء ومنع جميع الانتهاكات والتجاوزات ضد الأطفال، وكفالة عدم احتجاز الأطفال بدعوى ارتباطهم بالجماعات المسلحة وتسليمهم إلى الجهات المعنية بحماية الأطفال، <span class="bold italic">ويدعو</span> حكومة جمهورية الكونغو الديمقراطية إلى مواصلة جهودها بالحرص على مساءلة مرتكبي جميع الانتهاكات والتجاوزات، بما في ذلك داخل صفوف قوات الأمن، <span class="bold italic">ويشدد</span> على أهمية التعاون مع مكتب الممثلة الخاصة للأمين العام المعنية بالأطفال والنزاع المسلح؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="H23">
+            <subheading>		الجماعات المسلحة</subheading>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <content eId="para_34__content">
+          <p xml:space="preserve">	9 -	<span class="bold italic">يدين بشدة</span> كل الجماعات المسلحة التي تنشط في جمهورية الكونغو الديمقراطية، بمن فيها حركة 23 مارس، والتعاونية من أجل تنمية الكونغو، والقوات الديمقراطية المتحالفة، والقوات الديمقراطية لتحرير رواندا، والمقاومة من أجل دولة قانون في بوروندي، وجماعات ماي - ماي، والعديد من الجماعات المسلحة المحلية والأجنبية الأخرى، وما ترتكبه هذه الجماعات من انتهاكات للقانون الدولي الإنساني وغيره من القوانين الدولية الواجبة التطبيق، ومن انتهاكات لحقوق الإنسان، <span class="bold italic">ويكرر تأكيد إدانته</span> الهجمات على السكان المدنيين وموظفي الأمم المتحدة والأفراد المرتبطين بها والعاملين في المجال الإنساني، وكذلك على العاملين في القطاع الطبي والمرافق الطبية، وعمليات الإعدام بإجراءات موجزة والتشويه، وأعمال العنف الجنسي والجنساني، وتجنيد واستخدام الأطفال، واختطاف الأطفال والعاملين في المجال الإنساني، وشن الهجمات على المدارس والمدنيين المرتبطين بالمدارس، بمن فيهم الأطفال والمعلمون، والمستشفيات على يد الجماعات والميلشيات المسلحة في انتهاك لأحكام القانون الدولي الواجبة التطبيق، واستخدام المدنيين كدروع بشرية، والتشريد القسري لأعداد كبيرة من المدنيين، وعمليات الإعدام خارج نطاق القانون والاعتقالات التعسفية، والاستخدام العشوائي للأجهزة المتفجرة اليدوية الصنع، <span class="bold italic">ويكرر التأكيد كذلك</span> على أنّ المسؤولين عن تلك الأعمال يجب أن يُحاسبوا؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <content eId="para_35__content">
+          <p xml:space="preserve">	10 -	<span class="bold italic">يطالب</span> جميع الجماعات المسلحة بأن توقف فورا جميع أشكال العنف والأنشطة الأخرى المزعزعة للاستقرار والاستغلال غير المشروع للموارد الطبيعية والاتجار بها، <span class="bold italic">ويطالب كذلك</span> بالانسحاب الفوري لحركة 23 مارس من جميع المناطق المحتلة، على النحو المتفق عليه من خلال عملية لواندا التي أقرها الاتحاد الأفريقي، وبأن يفك جميع أعضاء تلك الجماعات ارتباطاتهم على الفور وبصفة دائمة، وأن يلقوا أسلحتهم، وينبذوا العنف، وينهوا ويمنعوا الانتهاكات المرتكبة ضد الأطفال، ويسرحوا الأطفال من صفوف جماعاتهم، <span class="bold italic">ويحث</span> جميع الجماعات المسلحة الكونغولية على المشاركة دون قيد أو شرط في عملية نيروبي التي تقودها جماعة شرق أفريقيا من أجل تهيئة الظروف السياسية استعدادا لبرنامج نزع السلاح والتسريح وإنعاش المجتمعات المحلية وتحقيق الاستقرار فيها، والجماعات المسلحة الأجنبية على العودة إلى بلدانها الأصلية، <span class="bold italic">ويدعو</span> حكومة جمهورية الكونغو الديمقراطية إلى اتخاذ مزيد من الإجراءات من أجل التصدي للتهديد الذي تشكله الجماعات المسلحة، وعلى الجمع بين النهج العسكرية وغير العسكرية بما يتفق مع القانون الدولي، بما في ذلك القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <content eId="para_36__content">
+          <p xml:space="preserve">	11 -	<span class="bold italic">يحث</span> حكومة جمهورية الكونغو الديمقراطية وشركاءها، بما في ذلك المؤسسات المالية الدولية، على التعجيل بتقديم الدعم الكافي وفي الوقت المناسب لأجل التنفيذ السريع والفعال لبرنامج نزع سلاح المقاتلين السابقين المؤهلين وتسريحهم وإعادة إدماجهم، وذلك بتنسيق من برنامج نزع السلاح والتسريح وإنعاش المجتمعات المحلية وتحقيق الاستقرار فيها، ومن خلال مبادرات مجتمعية مصممة خصيصا ومحددة السياق في مجال نزع السلاح والتسريح وإعادة الإدماج ذات بدائل وفرص اقتصادية مستدامة، مع الحرص على أن تكون المساءلة عن الانتهاكات والتجاوزات لحقوق الإنسان والجرائم الدولية، ومبادرات العدالة الانتقالية، وحماية حقوق الطفل جزءا لا يتجزأ من تلك العمليات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <content eId="para_37__content">
+          <p xml:space="preserve">	12 -	<span class="bold italic">يدين</span> استمرار استغلال الموارد الطبيعية والاتجار بها بطريقة غير قانونية، ولا سيما ما يعرف باسم ”المعادن المؤججة للنزاعات“ مثل القصدير والتنتالوم والتنغستن والذهب والماس والكوبالت والكولتان، وكذلك الكاكاو والفحم والخشب والأحياء البرية، من جانب الجماعات المسلحة والشبكات الإجرامية التي تدعمها، والأثر السلبي للنزاع المسلح على المناطق الطبيعية المحمية، الأمر الذي يقوِّض جهود إحلال سلام دائم وتحقيق التنمية في جمهورية الكونغو الديمقراطية، <span class="bold italic">ويشجع</span> حكومة جمهورية الكونغو الديمقراطية على تعزيز الجهود لحماية تلك المناطق، <span class="bold italic">ويدعو</span> الدول الأعضاء في المؤتمر الدولي المعني بمنطقة البحيرات الكبرى والجماعات الاقتصادية الإقليمية إلى العمل بصورة مشتركة على مكافحة استغلال الموارد الطبيعية والاتجار بها بطريقة غير قانونية بتحسين الأمن وتعزيزه حول مناطق التعدين، والسعي إلى تحقيق التقارب بين مجتمعات التعدين والسلطات المحلية والجهات الأمنية الفاعلة من أجل تسوية النزاعات وتعزيز حقوق الأشخاص المنتمين إلى المجتمعات المحلية حول مناطق التعدين، <span class="bold italic">ويشجعها</span> على تعزيز الشفافية والشرعية في إدارة الموارد الطبيعية، بما في ذلك اعتماد أهداف محددة للإيرادات الحكومية لتمويل التنمية، وإنشاء أطر تنظيمية وجمركية مستدامة، وبذل العناية الواجبة المسؤولة في تحري سلسلة الإمداد بالمعادن، <span class="bold italic">ويشير</span> في هذا الصدد إلى قراريه <a href="https://undocs.org/ar/S/RES/2457(2019)">2457 (2019)</a> و <a href="https://undocs.org/ar/S/RES/2389(2017)">2389 (2017)</a>، وكذلك بيانه الرئاسي <a href="https://undocs.org/ar/S/PRST/2021/19">S/PRST/2021/19</a>؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <content eId="para_38__content">
+          <p xml:space="preserve">	13 -	<span class="bold italic">يرحب</span> بالالتزامات والإجراءات التي اتخذها الرئيس تشيسيكيدي وحكومته للنهوض بإصلاح قطاع الأمن وتوطيد سلطة الدولة وترسيخ المصالحة والتسامح والديمقراطية، <span class="bold italic">ويشدد</span> على الفرص الموسعة للتعاون والتنسيق بين البعثة وقوات الأمن الكونغولية، التي تيسرها هذه الإجراءات الأولية، <span class="bold italic">ويشجع</span> السلطات الكونغولية على الوفاء بهذه الالتزامات وتسريع عمليات تناوب القوات التي أعلنها الرئيس تشيسيكيدي، <span class="bold italic">ويدعو</span> حكومة جمهورية الكونغو الديمقراطية إلى أن تظل ملتزمة بحماية السكان المدنيين من خلال الإسراع بإنشاء قوات أمن محترفة تخضع للمساءلة وتمتلك مقوِّمات الاستمرار وتحترم القانون الدولي الإنساني والقانون المحلي والدولي لحقوق الإنسان، وبسط إدارة مدنية كونغولية خاضعة للمساءلة، ولا سيما الشرطة والقضاء والسجون والإدارة الإقليمية، وتوطيد سيادة القانون وتعزيز حقوق الإنسان وحمايتها، بما في ذلك عن طريق تخصيص الموارد المالية اللازمة، مع مراعاة المشاركة الكاملة والمتساوية والفعالة والهادفة للنساء وسلامتهن، <span class="bold italic">ويشجّع</span> الشركاء الدوليين على زيادة دعمهم في هذا الصدد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <content eId="para_39__content">
+          <p xml:space="preserve">	14 -	<span class="bold italic">يدعو</span> إلى مواصلة الجهود الوطنية الرامية إلى التصدي للتهديد الذي يشكله النقل غير المشروع للأسلحة الصغيرة والأسلحة الخفيفة وتكديسها المزعزع للاستقرار وإساءة استخدامها، وتحويل الأسلحة إلى الجماعات المسلحة في جمهورية الكونغو الديمقراطية، وذلك بسبل منها كفالة إدارة المخزونات من الأسلحة والذخيرة وتخزينها ورصدها وتأمينها بطريقة مأمونة وفعالة، ومكافحة الاتجار بالأسلحة وتسريبها، بما في ذلك من خلال بناء القدرات ومكافحة الإفلات من العقاب، بدعم مستمر من البعثة، حسب الاقتضاء وفي حدود الموارد المتاحة، <span class="bold italic">ويدعو</span> حكومة جمهورية الكونغو الديمقراطية إلى توسيع نطاق الدعم الذي تقدمه إلى اللجنة الوطنية لمراقبة الأسلحة الصغيرة والأسلحة الخفيفة والحد من العنف المسلح، <span class="bold italic">ويشجع</span> الأمم المتحدة والشركاء الدوليين على زيادة دعمهم لحكومة جمهورية الكونغو الديمقراطية من أجل تعزيز إدارة الأسلحة والذخيرة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="H23">
+            <subheading>		الدعم الإقليمي</subheading>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <content eId="para_41__content">
+          <p xml:space="preserve">	15 -	<span class="bold italic">يشير</span> إلى أن القضاء على التهديد الذي تشكله الجماعات المسلحة يتطلب اتباع نهج إقليمي متكامل ومشاركة سياسية قوية من جانب حكومات جمهورية الكونغو الديمقراطية والاتحاد الأفريقي وجماعة شرق أفريقيا والمؤتمر الدولي المعني بمنطقة البحيرات الكبرى والجماعة الإنمائية للجنوب الأفريقي، <span class="bold italic">ويؤكد من جديد</span> دعمه للجهود الوطنية والإقليمية الرامية إلى تعزيز السلام والاستقرار في جمهورية الكونغو الديمقراطية وفي المنطقة، وذلك على أساس الالتزامات التي تعهدت بها بلدان المنطقة بموجب إطار السلام والأمن والتعاون لجمهورية الكونغو الديمقراطية والمنطقة، الذي يظلّ بمثابة آلية أساسية لتحقيق السلام والاستقرار الدائمين، <span class="bold italic">ويشدد</span> على الالتزامات التي تعهدت بها المنطقة، بموجب الاتفاق الإطاري بشأن السلام والأمن والتعاون لجمهورية الكونغو الديمقراطية والمنطقة، بعدم التسامح مع الجماعات المسلحة أو تقديم أي نوع من أنواع المساعدة أو الدعم لها، ويدين بشدة جميع أشكال الدعم الخارجي للجهات المسلحة من غير الدول، ومنها حركة 23 مارس، ويدعو إلى وضع حد فوري لهذا الدعم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <content eId="para_42__content">
+          <p xml:space="preserve">	16 -	<span class="bold italic">يثني</span> على عملية نيروبي التي تقودها جماعة شرق أفريقيا، <span class="bold italic">ويقر</span> بنهجها ذي المسارين، <span class="bold italic">ويثني </span>على الوساطة الجارية بتكليف من الاتحاد الأفريقي تحت رعاية أنغولا وعلى الجهود التكميلية لضمان التعاضد بين هذه المبادرات، بما في ذلك الدعم المقدم من البعثة ومكتب المبعوث الخاص للأمين العام إلى منطقة البحيرات الكبرى، <span class="bold italic">ويشجع</span> على بذل المزيد من الجهود لتنفيذ خريطة طريق المؤتمر الدولي المعني بمنطقة البحيرات الكبرى بشأن عملية إحلال السلام في المنطقة الشرقية من جمهورية الكونغو الديمقراطية، وتنفيذ البيان الختامي لمؤتمر القمة المصغر المعني بالسلام والأمن في المنطقة الشرقية من جمهورية الكونغو الديمقراطية، وعلى حل الخلافات بالحوار، ويلاحظ الجهود التي تبذلها الآلية المشتركة الموسعة للتحقق، التابعة للمؤتمر الدولي المعني بمنطقة البحيرات الكبرى، وآلية التحقق المشتركة المخصصة التي تقودها أنغولا، ويدعو إلى مشاركة المرأة بصورة كاملة ومتساوية وفعالة ومجدية في هذه العمليات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <content eId="para_43__content">
+          <p xml:space="preserve">	17 -	<span class="bold italic">يشجع</span> على تقديم الدعم للقوة الإقليمية التابعة لجماعة شرق أفريقيا، حسب الاقتضاء، <span class="bold italic">ويشدد</span> على أهمية حماية المدنيين، والتنسيق الوثيق وتبادل المعلومات بين قوة جماعة شرق أفريقيا، والقوات المسلحة لجمهورية الكونغو الديمقراطية، وقوات الدفاع الوطني البوروندية، وقوات الدفاع الشعبي الأوغندية، والبعثة، بما في ذلك للحيلولة دون تضارب العمليات ومن أجل تنفيذ ولاية البعثة، وعلى ضرورة تنفيذ جميع العمليات، المشتركة أو الانفرادية، في إطار التقيد الصارم بالقانون الدولي، بما في ذلك القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان، حسب الاقتضاء، وبإطار الاتحاد الأفريقي للامتثال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <content eId="para_44__content">
+          <p xml:space="preserve">	18 -	<span class="bold italic">يشجع</span> الدول الموقعة للاتفاق الإطاري بشأن السلام والأمن والتعاون على امتلاكها لزمام الأمور وتحلّيها بالإرادة السياسية من أجل التنفيذ الفعال لاستراتيجية الأمم المتحدة لتوطيد السلام ومنع نشوب النزاعات وحلها في منطقة البحيرات الكبرى، وكذلك خطة عملها، <span class="bold italic">ويؤيد تأييدا تاما</span> المبعوث الخاص للأمين العام لمنطقة البحيرات الكبرى في الوفاء بولايته لمعالجة التحديات المتبقية في تنفيذ الاتفاق الإطاري بشأن السلام والأمن والتعاون ولتعزيز السلام والاستقرار في المنطقة، <span class="bold italic">ويدعو</span> المبعوث الخاص إلى مواصلة مشاركته الإقليمية والدولية لدعم التنفيذ الكامل للاتفاق الإطاري بشأن السلام والأمن والتعاون لجمهورية الكونغو الديمقراطية والمنطقة، بما في ذلك من خلال المساعي الحميدة والاستراتيجيات المنسقة وتبادل المعلومات مع البعثة ومع مكتب الأمم المتحدة الإقليمي لوسط أفريقيا وكيانات الأمم المتحدة الأخرى، <span class="bold italic">ويحث</span> البعثة على العمل مع مكتب المبعوث الخاص لمنطقة البحيرات الكبرى من أجل إيجاد حلول سياسية لوقف التدفقات عبر الحدود للمقاتلين المسلحين والأسلحة والموارد الطبيعية التي تهدد السلام والاستقرار في جمهورية الكونغو الديمقراطية، من خلال مواءمة الاستراتيجيات وتبادل المعلومات وتنسيق التقارير التي يقدمها كل منهما؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="H23">
+            <subheading>		ولاية بعثة منظمة الأمم المتحدة لتحقيق الاستقرار في جمهورية الكونغو الديمقراطية</subheading>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <content eId="para_46__content">
+          <p xml:space="preserve">	19 -	<span class="bold italic">يقرر</span> تمديد ولاية البعثة في جمهورية الكونغو الديمقراطية، بما في ذلك لواء التدخل التابع لقوتها، على سبيل الاستثناء ودون أن يشكل ذلك سابقة أو مساساً بمبادئ حفظ السلام الأساسية، حتى 20 كانون الأول/ديسمبر 2023؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <content eId="para_47__content">
+          <p xml:space="preserve">	20 -	<span class="bold italic">يقرر</span> أن يتألف الحد الأقصى من القوات المأذون به للبعثة من 500 13 من الأفراد العسكريين، و 660 من المراقبين العسكريين وضباط الأركان، و 591 من أفراد الشرطة، و 410 1 من أفراد وحدات الشرطة المشكلة، <span class="bold italic">ويدعو</span> الأمانة العامة إلى النظر في مواصلة تخفيض مستوى نشر القوات العسكرية التابعة للبعثة، تمشيا مع الاستراتيجية المشتركة للخفض التدريجي والمرحلي للبعثة (<a href="https://undocs.org/ar/S/2020/1041">S/2020/1041</a>)؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <content eId="para_48__content">
+          <p xml:space="preserve">	21 -	<span class="bold italic">يقرر</span> أن الأولويات الاستراتيجية للبعثة هي: ’1‘ المساهمة في حماية المدنيين و ’2‘ المساعدة على بسط الاستقرار وتقوية مؤسسات الدولة في جمهورية الكونغو الديمقراطية، وعلى تنفيذ الإصلاحات الرئيسية في مجالي الحوكمة والأمن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <content eId="para_49__content">
+          <p xml:space="preserve">	22 -	<span class="bold italic">يأذن</span> للبعثة، في إطار سعيها إلى إنجاز المهام المنوطة بها وبما يتماشى مع المبادئ الأساسية لحفظ السلام، أن تتخذ جميع التدابير اللازمة لتنفيذ ولايتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <content eId="para_50__content">
+          <p xml:space="preserve">	23 -	<span class="bold italic">يشدد</span> على ضرورة تنفيذ جميع العمليات، المشتركة أو الانفرادية، في إطار التقيد الصارم بالقانون الدولي، بما في ذلك القانون الدولي الإنساني والقانون الدولي لحقوق الإنسان، حسب الاقتضاء، <span class="bold italic">ويطلب</span> إلى البعثة أن تكفل أن يكون أي دعم يقدَّم إلى العمليات التي تنفذها قوات الأمن الوطني، بما في ذلك على شكل حصص إعاشة ووقود، مقتصرا على أغراض العمليات المشتركة، التي يتم تخطيطها وتنفيذها على نحو مشترك، وأن يخضع لما يلزم من الرقابة والفحص، وأن يمتثل بشكل صارم لسياسة الأمم المتحدة بشأن بذل العناية الواجبة في مراعاة حقوق الإنسان، بما في ذلك من جانب فريق الأمم المتحدة القطري، وإلا فإنه ينبغي تعليق هذا الدعم؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="H23">
+            <subheading>		المهام بحسب ترتيب الأولويات</subheading>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <content eId="para_52__content">
+          <p xml:space="preserve">	24 -	<span class="bold italic">يقرر</span> أن تشمل ولاية البعثة المهام التالية  بحسب ترتيب الأولويات الوارد في الفقرات من 24 إلى 34، <span class="bold italic">ويشدد كذلك</span> على ضرورة تنفيذ جميع مهام البعثة بطريقة تتفق مع احترام حقوق الإنسان والحريات الأساسية، <span class="bold italic">ويشدد</span> على ضرورة إيلاء الأولوية لحماية المدنيين لدى اتخاذ القرارات المتعلقة باستخدام القدرات والموارد المتاحة:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="H23">
+        <num>’1‘</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="bold">حماية المدنيين المعرضين لخطر العنف البدني، باتخاذ جميع التدابير اللازمة لضمان توفير الحماية الفعالة والحيوية والمتكاملة في الوقت المناسب</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>(أ)</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	القيام بمنع كافة الجماعات المسلحة والميليشيات المحلية من ممارسة العنف على السكان وردعها وصدها عن ذلك، بوسائل منها منع هذه الجماعات من غزو المراكز السكانية الرئيسية أو مهاجمتها أو تطويقها، بما في ذلك في إطار دعم السلطات الكونغولية، ونزع سلاحها، واستخدام المساعي الحميدة، وتقديم الدعم وبذل جهود الوساطة على الصعيد المحلي والدعوة على المستوى الوطني للحيلولة دون تفاقم أعمال العنف ولمواجهة خطاب الكراهية والمعلومات المضللة والمعلومات المغلوطة، مع إيلاء اهتمام خاص لمن يتجمع من المدنيين في مخيمات النازحين واللاجئين، والمتظاهرين المسالمين، وموظفي العمل الإنساني، والمدافعين عن حقوق الإنسان، وبما يتفق مع المبادئ الأساسية لحفظ السلام، ثم مع الحرص في الوقت نفسه على التخفيف من المخاطر التي تحدق بالمدنيين قبل وأثناء وبعد أي عملية عسكرية أو شرطية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>(ب)</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	تنفيذ عمليات هجومية موجهة بدقة في جمهورية الكونغو الديمقراطية لتحييد الجماعات المسلحة، وذلك من خلال النجاعة في استخدام لواء التدخل التابع للقوة وتحت السلطة الكاملة لقائد القوة، وبغية الإسهام في هدف الحد من تهديد الجماعات المسلحة لسلطة الدولة وأمن المدنيين، وإفساح المجال أمام أنشطة تحقيق الاستقرار، إما بشكل أحادي أو بالاشتراك مع قوات الأمن الكونغولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>(ج)</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	القيام بعمليات مشتركة متزايدة وفعالة مع قوات الأمن الكونغولية، تشمل التخطيط المشترك والتعاون التكتيكي، وذلك وفقا لولاية البعثة وفي امتثال صارم لسياسة الأمم المتحدة بشأن بذل العناية الواجبة في مراعاة حقوق الإنسان، ومن أجل التأكد من بذل جميع الجهود الممكنة لمنع الجماعات المسلحة وردعها ووقفها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>(د)</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	البقاء على استعداد لتنفيذ عمليات انتشار استباقية وللتحرك بمرونة وبقوة وفعالية، بما يشمل تسيير الدوريات الراجلة والراكبة بفعالية، ولا سيما في المناطق العالية المخاطر؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxt">
+        <num>(ه)</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	العمل مع حكومة جمهورية الكونغو الديمقراطية والعاملين في المجال الإنساني على تحديد الأخطار التي تهدد المدنيين وتنفيذ خطط الوقاية والتصدي المشتركة وتعزيز التعاون بين المؤسسات المدنية والعسكرية، لضمان حماية المدنيين من تجاوزات وانتهاكات حقوق الإنسان وانتهاكات القانون الدولي الإنساني، بما في ذلك جميع أشكال العنف الجنسي والجنساني والانتهاكات والتجاوزات المرتكبة في حق الأطفال والأشخاص ذوي الإعاقة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>(و)</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	تعزيز تواصلها مع المجتمعات المحلية واستخدامها للاتصالات الاستراتيجية، بما في ذلك من خلال الاتصالات المشتركة مع حكومة جمهورية الكونغو الديمقراطية، وذلك بغية زيادة الوعي والفهم بشأن ولايتها وأنشطتها لحماية المدنيين، وتعزيز آلية الإنذار المبكر الخاصة بها، لأغراض منها منع حملات التضليل والمعلومات المغلوطة التي تهدف إلى تقويض مصداقية البعثة وعرقلة تنفيذ ولايتها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="H23">
+        <num>’2‘</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="bold">نزع السلاح والتسريح وإعادة الإدماج وتحقيق الاستقرار</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <num>(ز)</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	بذل المساعي الحميدة وتقديم المشورة والمساعدة إلى حكومة جمهورية الكونغو الديمقراطية، بالتعاون الوثيق مع الشركاء الدوليين والمحليين، وذلك من أجل عملية نيروبي التي تقودها جماعة شرق أفريقيا، وتنفيذ برنامج نزع السلاح والتسريح وإنعاش المجتمعات المحلية وتحقيق الاستقرار فيها وفقا للأمر رقم 038/21 المؤرخ 5 تموز/ يوليه 2021، ونزع سلاح المقاتلين الكونغوليين والأجانب غير المشتبه في ارتكابهم أعمال إبادة جماعية أو جرائم حرب أو جرائم ضد الإنسانية أو تجاوزات لحقوق الإنسان، وتسريحهم وإعادة إدماجهم في حياة مدنية سلمية، مع إيلاء اهتمام خاص لاحتياجات النساء والأطفال الذين كانوا مرتبطين سابقا بالقوات والجماعات المسلحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>(ح)</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	تقديم الدعم إلى عملية نزع السلاح والتسريح والإعادة إلى الوطن وإعادة التوطين وإعادة الإدماج بهدف إعادة المقاتلين الأجانب غير المشتبه في ارتكابهم جرائم دولية أو تجاوزات لحقوق الإنسان وإعادة إدماجهم هم ومعالوهم في الحياة المدنية السلميّة في بلدانهم الأصلية أو في بلدان أخرى تستضيفهم، مع إيلاء اهتمام خاص لاحتياجات النساء والأطفال الذين كانوا مرتبطين سابقا بالقوات والجماعات المسلحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>(ط)</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	إسداء المشورة لسلطات جمهورية الكونغو الديمقراطية ودعمها في التخلص من الأسلحة والذخائر التي تُنزع من المقاتلين الكونغوليين والأجانب امتثالا لقرارات مجلس الأمن ذات الصلة وأيضا لما يسري على الحالة من أحكام المعاهدات الدولية لتحديد الأسلحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="SingleTxt">
+        <num>(ي)</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	تقديم المشورة التقنية إلى حكومة جمهورية الكونغو الديمقراطية ومساعدتها في توطيد هيكل مدني وطني فعال يراقب أنشطة التعدين الرئيسية ويدير بطريقة منصفة ومنتجة استخراج الموارد الطبيعية في شرق جمهورية الكونغو الديمقراطية وإضافة القيمة لها ونقلها والمتاجرة بها، بالتنسيق مع جهود المبعوث الخاص لمنطقة البحيرات الكبرى في مجال تقديم المساعدة التقنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxt">
+        <num>(ك)</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	مواصلة التعاون مع حكومة جمهورية الكونغو الديمقراطية لترسيخ المكاسب التي تحققت بفضل خطة العمل الهادفة إلى منع وإنهاء تجنيد الأطفال واستخدامهم والتعجيل بتنفيذها، ومواصلة الحوار مع جميع الأطراف المشار إليها للحصول على المزيد من التعهدات ولمنع ووقف الانتهاكات والتجاوزات التي يتعرض لها الأطفال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="H23">
+        <num>’3‘</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	<span class="bold">إصلاح قطاع الأمن</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="SingleTxt">
+        <num>(ل)</num>
+        <list eId="para_158_list">
+          <intro eId="para_158_list_intro">
+            <p xml:space="preserve">	بذل المساعي الحميدة وتقديم المشورة الاستراتيجية والتقنية، حسب الاقتضاء، إلى حكومة جمهورية الكونغو الديمقراطية والقيام بدور قيادي في تنسيق الدعم المقدم من الشركاء الدوليين والثنائيين ومنظومة الأمم المتحدة، بالتشاور مع حكومة جمهورية الكونغو الديمقراطية، للقيام بما يلي:</p>
+          </intro>
+          <point eId="para_158_list_point_1">
+            <num>-</num>
+            <content eId="para_158_list_point_1_content">
+              <p xml:space="preserve">	تسريع الملكية الوطنية لإصلاح قطاع الأمن الذي يوفر الأمن والعدالة للجميع من خلال مؤسسات قضائية وأمنية مستقلة وفاعلة وخاضعة للمساءلة تأخذ في الاعتبار المشاركة الكاملة والمتساوية الفعالة والمجدية للمرأة وسلامتها؛</p>
+            </content>
+          </point>
+          <point eId="para_158_list_point_2">
+            <num>-</num>
+            <content eId="para_158_list_point_2_content">
+              <p xml:space="preserve">	تعزيز وتيسير الإصلاحات العسكرية والشرطية والإصلاحات في قطاع العدالة والسجون من أجل تعزيز المساءلة ومكافحة الإفلات من العقاب وتحقيق الفعالية التشغيلية في قطاعي العدالة والأمن، بما في ذلك من خلال التدريب على حقوق الإنسان؛</p>
+            </content>
+          </point>
+          <point eId="para_158_list_point_3">
+            <num>-</num>
+            <content eId="para_158_list_point_3_content">
+              <p xml:space="preserve">	تقديم المساعدة، عن طريق دائرة الأمم المتحدة للإجراءات المتعلقة بالألغام، لأجل تعزيز قدرات قوات الأمن الكونغولية، بما في ذلك قدراتها على إدارة الأسلحة والذخيرة، ومكافحة الأجهزة المتفجرة اليدوية الصنع، والتخلص من الذخائر المتفجرة، وأيضا على إجراء التحقيقات الأساسية واستغلال علم الأدلة الجنائية فيما يتعلق بهذه الأجهزة؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_159" class="SingleTxt">
+        <content eId="para_159__content">
+          <p xml:space="preserve">	25 -	<span class="bold italic">يأذن</span> للبعثة برصد انتهاكات وتجاوزات حقوق الإنسان وانتهاكات القانون الدولي الإنساني، وإبلاغ مجلس الأمن بها على الفور ومتابعتها، وكذلك ما يُفرض من قيود على الفضاء السياسي وما يُمارس من عنف، بما في ذلك في سياق الانتخابات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxt">
+        <content eId="para_160__content">
+          <p xml:space="preserve">	26 -	<span class="bold italic">يأذن كذلك</span> للبعثة، دون المساس بقدرتها على تنفيذ مهامها ذات الأولوية، باستخدام قدراتها الحالية في تنفيذ المهام التالية، وذلك بالتعاون الحصري مع فريق الأمم المتحدة القطري وبشكل مبسط ومتسلسل، على أن يوضع في الاعتبار أن جميع المهام متعاضدة:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_161" class="H4">
+            <subheading>		دعم العملية الانتخابية لعام 2023</subheading>
+      </paragraph>
+      <paragraph eId="para_162" class="SingleTxt">
+        <num>(أ)</num>
+        <content eId="para_162__content">
+          <p xml:space="preserve">	القيام، في حالة تلقي طلب رسمي من السلطات الكونغولية، بدعم العملية الانتخابية لعام 2023 في المقاطعات الثلاث التي لا تزال البعثة منتشرة فيها، بما في ذلك الدعم اللوجستي المحدود ودون المساس بقدرة البعثة على أداء مهامها ذات الأولوية، وذلك حسب الاقتضاء وبالتنسيق مع السلطات الكونغولية وفريق الأمم المتحدة القطري والجهات الفاعلة الإقليمية والدولية، حتى يتم تيسير إجراء دورة انتخابية سلمية، ولا سيما من خلال الدخول في حوار مع اللجنة الوطنية المستقلة للانتخابات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="H4">
+            <subheading>		 دعم النظام القضائي في جمهورية الكونغو الديمقراطية ومكافحة الإفلات من العقاب</subheading>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxt">
+        <num>(ب)</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	بالاستفادة من قدرات وخبرات منظومة الأمم المتحدة، العمل مع سلطات جمهورية الكونغو الديمقراطية من أجل تعزيز ودعم النظام القضائي في جمهورية الكونغو الديمقراطية ولإجراء التحقيقات ومقاضاة جميع من يُدعى أنهم مسؤولون عن أعمال الإبادة الجماعية وجرائم الحرب والجرائم ضد الإنسانية وانتهاكات القانون الدولي الإنساني وانتهاكات أو تجاوزات حقوق الإنسان في البلد، وذلك بسبل من بينها التعاون مع دول المنطقة ومع المحكمة الجنائية الدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_165" class="SingleTxt">
+        <num>(ج)</num>
+        <content eId="para_165__content">
+          <p xml:space="preserve">	بذل المساعي الحميدة وتقديم المشورة والدعم إلى حكومة جمهورية الكونغو الديمقراطية لتعزيز حقوق الإنسان، لا سيما الحقوق المدنية والسياسية، ولمكافحة الإفلات من العقاب، بسبل منها تنفيذ سياسة ”عدم التسامح مطلقا“ التي تتبعها الحكومة حيال مظاهر عدم الانضباط وانتهاكات حقوق الإنسان والقانون الدولي الإنساني التي ترتكبها عناصر من القطاع الأمني، ولبدء وتيسير جهود الوساطة على الصعيد المحلي من أجل تحقيق سلام مستدام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="H4">
+            <subheading>		حماية الأمم المتحدة</subheading>
+      </paragraph>
+      <paragraph eId="para_167" class="SingleTxt">
+        <content eId="para_167__content">
+          <p xml:space="preserve">	27 -	<span class="bold italic">ضمان</span> الحماية لموظفي الأمم المتحدة ومرافقها ومنشآتها ومعداتها والأمن وحرية التنقّل لموظفي الأمم المتحدة وللأفراد المرتبطين بها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_168" class="H4">
+            <subheading>		حماية الطفل</subheading>
+      </paragraph>
+      <paragraph eId="para_169" class="SingleTxt">
+        <content eId="para_169__content">
+          <p xml:space="preserve">	28 -	<span class="bold italic">يطلب</span> إلى البعثة أن تولي المراعاة التامة لحماية الأطفال باعتبارها مسألة شاملة طوال فترة ولايتها، وذلك ضمن مجالات من بينها عمليات نزع السلاح والتسريح وإعادة الإدماج وإصلاح قطاع الأمن، وكذلك أثناء التدخلات المؤدية إلى فصل الأطفال عن الجماعات المسلحة من أجل وضع حد للانتهاكات والتجاوزات المرتكبة في حق الأطفال ومنع حدوثها، وأن تواصل العمل على ضمان الفعالية في آليات الرصد والإبلاغ بشأن الأطفال والنزاع المسلح، <span class="bold italic">ويقرّ</span> بالدور البالغ الأهمية الذي يقوم به في البعثة مستشارو الأمم المتحدة لشؤون حماية الأطفال؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_170" class="H4">
+            <subheading>		الاعتبارات الجنسانية والعنف الجنسي</subheading>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxt">
+        <content eId="para_171__content">
+          <p xml:space="preserve">	29 -	<span class="bold italic">يطلب</span> إلى البعثة أن تراعي تماما الاعتبارات الجنسانية بوصفها مسألة شاملة طوال فترة ولايتها وأن تساعد حكومة جمهورية الكونغو الديمقراطية والجهات الأخرى المعنية صاحبة المصلحة في تهيئة بيئة قانونية وسياسية واجتماعية - اقتصادية تفضي إلى كفالة مشاركة النساء مشاركةً كاملة ومتساوية وفعالة ومجدية وانخراطهن وتمثيلهن الكاملين على جميع المستويات، إلى جانب ضحايا العنف الجنسي والجنساني، من أجل صون وتعزيز السلام والأمن، وحماية المدنيين، بسبل منها إشراك الشبكات النسائية بوصفها جهات شريكة في الحماية، ودعم جهود نزع السلاح والتسريح وإعادة الإدماج وإصلاح قطاع الأمن، ودعم جهود تحقيق الاستقرار، <span class="bold italic">ويطلب</span> إلى البعثة تقديم الدعم للحكومة في تعزيز المشاركة السياسية الكاملة والمتساوية والفعالة والمجدية للمرأة، ولا سيما تحقيق حصتها الدستورية المحددة بنسبة 30 في المائة، <span class="bold italic">ويقرّ</span> بالدور البالغ الأهمية الذي يقوم به في البعثة مستشارو الأمم المتحدة لشؤون حماية المرأة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_172" class="SingleTxt">
+        <content eId="para_172__content">
+          <p xml:space="preserve">	30 -	<span class="bold italic">يكرر تأكيد</span> الحاجة الماسة والضرورة الملحة لمساءلة جميع مرتكبي انتهاكات القانون الدولي الإنساني، <span class="bold italic">ويطلب</span> إلى البعثة أن تعجِّل بالتنفيذ المنسق لترتيبات الرصد والتحليل والإبلاغ المتعلقة بالعنف الجنسي في حالات النزاع وما بعد انتهاء النزاع؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="H23">
+            <subheading>		إمكانية وصول منظمات المساعدة الإنسانية والنداء الإنساني</subheading>
+      </paragraph>
+      <paragraph eId="para_174" class="SingleTxt">
+        <content eId="para_174__content">
+          <p xml:space="preserve">	31 -	<span class="bold italic">يشير</span> إلى جميع قراراته ذات الصلة بحماية العاملين في المجالين الإنساني والطبي، بما في ذلك القراران <a href="https://undocs.org/ar/S/RES/2439(2018)">2439 (2018)</a> و <a href="https://undocs.org/ar/S/RES/2286(2016)">2286 (2016)</a>، <span class="bold italic">ويطالب</span> جميع الأطراف بأن تقوم، وفقا لأحكام القانون الدولي ذات الصلة وبما يتواءم مع مبادئ العمل الإنساني، بإتاحة وتيسير وصول العاملين في المجال الإنساني والمعدات والإمدادات بشكل كامل ومأمون وفوري ودون معوقات وإيصال المساعدات الإنسانية في الوقت المناسب إلى السكان المحتاجين، ولا سيما إلى اللاجئين والمشردين داخليا، في جميع أنحاء إقليم جمهورية الكونغو الديمقراطية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxt">
+        <content eId="para_175__content">
+          <p xml:space="preserve">	32 -	<span class="bold italic">يدعو</span> الدول الأعضاء والمنظمات الدولية والإقليمية إلى الإسراع بتلبية الاحتياجات المحددة في خطة الاستجابة الإنسانية من خلال زيادة تبرعاتها وإلى كفالة الوفاء بجميع تعهداتها بالكامل وفي الوقت المناسب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="SingleTxt">
+        <content eId="para_176__content">
+          <p xml:space="preserve">	33 -	<span class="bold italic">يشدد</span> على أهمية استمرار الدعم والمشاركة على الصعيد الدولي، من النواحي المالية والتقنية والعينية، وذلك بغية التصدي بسرعة لتفشي الأمراض المعدية، <span class="bold italic">ويطلب</span> إلى كل الجهات المعنية في منظومة الأمم المتحدة أن تنسق أنشطتها بفعالية، وفقاً لولاياتها ومسؤولياتها، ومن أجل التصدي لتفشي فيروس إيبولا وكوفيد-19 وحالات التفشي الأخرى المحتملة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="H23">
+            <subheading>		نظام الجزاءات</subheading>
+      </paragraph>
+      <paragraph eId="para_178" class="SingleTxt">
+        <content eId="para_178__content">
+          <p xml:space="preserve">	34 -	<span class="bold italic">يطلب</span> إلى البعثة رصد تنفيذ حظر توريد الأسلحة على النحو المبين في الفقرة 1 من القرار <a href="https://undocs.org/ar/S/RES/2293(2016)">2293</a><a href="https://undocs.org/ar/S/RES/2293(2016)"> </a><a href="https://undocs.org/ar/S/RES/2293(2016)">(2016)</a> بالتعاون مع فريق الخبراء المنشأ بموجب القرار <a href="https://undocs.org/ar/S/RES/1533(2004)">1533 (2004)</a>، ولا سيما مراقبة تدفقات الأفراد العسكريين أو الأسلحة أو ما يتصل بها من عتاد عبر الحدود الشرقية لجمهورية الكونغو الديمقراطية والإبلاغ عن تلك التدفقات، بوسائل منها الاستعانة، على النحو المحدد في رسالة المجلس المؤرخة 22 كانون الثاني/يناير 2013 (<a href="https://undocs.org/ar/S/2013/44">S/2013/44</a>)، بقدرات المراقبة التي توفرها المنظومات الجوية غير المأهولة، وضبط الأسلحة أو ما يتصل بها من الأعتدة التي تجلب إلى جمهورية الكونغو الديمقراطية في انتهاكٍ للتدابير المفروضة بموجب الفقرة 1 من القرار <a href="https://undocs.org/ar/S/RES/2293(2016)">2293 (2016)</a> وجمعها وتسجيلها والتصرف فيها، وتقديم المساعدة لفريق الخبراء وتبادل المعلومات ذات الصلة معه؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="H23">
+            <subheading>		فعالية البعثة وسلامة حفظة السلام وأمنهم</subheading>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <content eId="para_180__content">
+          <p xml:space="preserve">	35 -	<span class="bold italic">يطلب</span> إلى الأمين العام تزويد البعثة بالقدرات اللازمة لكي تضطلع بولايتها في بيئة أمنية معقدة تنطوي على أخطار غير متناظرة تحدق بأفرادها، وكفالة أن يكون جميع حفظة السلام في الميدان مستعدين لتنفيذ الولاية المنوطة بهم وقادرين عليها ومجهزين لتنفيذها بفعالية وبأمان، <span class="bold italic">ويطلب أيضا</span> إلى الأمين العام، والدول الأعضاء وحكومة جمهورية الكونغو الديمقراطية اتخاذ جميع التدابير المناسبة لضمان أفضل مستوى ممكن من السلامة والأمن لأفراد البعثة، وفقا للقرار <a href="https://undocs.org/ar/S/RES/2518(2020)">2518 (2020)</a>، مع وجود مبادئ يُسترشد بها في تلقيح الأفراد النظاميين ضد كوفيد-19 في مسرح العمليات وقبل النشر وفقاً للمبادئ التوجيهية للأمم المتحدة وأفضل الممارسات لتحسين سلامة حفظة السلام، <span class="bold italic">ويلاحظ</span> <span class="bold italic">بقلق</span> المخاطر الجسيمة التي يمكن أن تشكلها انتهاكات اتفاق مركز القوات على سلامة وأمن موظفي الأمم المتحدة العاملين في عمليات حفظ السلام، <span class="bold italic">ويشدد</span> على أن المسؤولية الرئيسية عن سلامة وأمن موظفي الأمم المتحدة وأصولها تقع على عاتق الدولة المضيفة، <span class="bold italic">ويؤكد</span> أهمية التواصل الفعال بين عمليات الأمم المتحدة لحفظ السلام وبين الحكومات المضيفة لبناء الثقة والتفاهم، <span class="bold italic">ويطلب</span> إلى الأمين العام تنفيذ أحكام القرار <a href="https://undocs.org/ar/S/RES/2589(2021)">2589 </a><a href="https://undocs.org/ar/S/RES/2589(2021)">(</a><a href="https://undocs.org/ar/S/RES/2589(2021)">2021)</a> لإرساء المساءلة عن الجرائم المرتكبة ضد حفظة السلام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="SingleTxt">
+        <content eId="para_181__content">
+          <p xml:space="preserve">	36 -	<span class="bold italic">يطلب</span> إلى الأمين العام تنفيذ الأنشطة المدرجة في الفقرة 42 من القرار <a href="https://undocs.org/ar/S/RES/2612(2021)">2612 (2021)</a> عند تخطيط وتنفيذ عمليات البعثة في حدود الولاية ومنطقة العمل وبما يتواءم مع المبادئ التوجيهية والأنظمة القائمة للأمم المتحدة، وكذلك الفقرة 44 من القرار <a href="https://undocs.org/ar/S/RES/2612(2021)">2612 (2021)</a>، <span class="bold italic">ويطلب أيضا</span> إلى البعثة تنفيذ الفقرة 45 من القرار <a href="https://undocs.org/ar/S/RES/2612(2021)">2612 (2021)</a> وإلى البلدان المساهمة بقوات وبأفراد شرطة تنفيذ الفقرتين 46 و 47 من القرار <a href="https://undocs.org/ar/S/RES/2612(2021)">2612 (2021)</a>، <span class="bold italic">ويلاحظ</span> الاستراتيجية البيئية لإدارة الدعم العملياتي بالأمم المتحدة (المرحلة الثانية)، التي تشدد على حسن إدارة الموارد وعلى أن تترك البعثة إرثا إيجابيا، وتتوخى تحقيق هدف توسيع نطاق استخدام الطاقة المتجددة في البعثات لتعزيز السلامة والأمن، وتوفير التكاليف وزيادة الكفاءة وتحقيق فوائد للبعثة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_182" class="SingleTxt">
+        <content eId="para_182__content">
+          <p xml:space="preserve">	37 -	<span class="bold italic">يحث</span> البلدان المساهمة بقوات وبأفراد شرطة على مواصلة اتخاذ الإجراءات المناسبة لمنع الاستغلال والاعتداء الجنسيين، بما في ذلك فحص جميع الأفراد، والتدريب بغرض التوعية قبل النشر وأثناء النشر في البعثة، وكفالة المساءلة التامة في حال إتيان الأفراد التابعين لها أي سلوك من هذا القبيل، وذلك بوسائل منها قيام البلدان المساهمة بقوات وبأفراد شرطة في الوقت المناسب بإجراء تحقيقات في جميع الادعاءات المتعلقة بوقوع استغلال وانتهاك جنسيين من أجل محاسبة الجناة، وإعادة الوحدات إلى أوطانها عندما تكون هناك أدلة موثوقة على ارتكابها لاستغلال وانتهاك جنسيين على نطاق واسع أو بشكل منهجي، وإبلاغ الأمم المتحدة بشكل تام وعلى الفور بالإجراءات المتخذة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="H23">
+            <subheading>		استراتيجية الخروج</subheading>
+      </paragraph>
+      <paragraph eId="para_184" class="SingleTxt">
+        <content eId="para_184__content">
+          <p xml:space="preserve">	38 -	<span class="bold italic">يحيط علما</span> بالدعوة التي وجهتها حكومة جمهورية الكونغو الديمقراطية لاستعراض الخطة الانتقالية للبعثة، <span class="bold italic">ويشجع</span> الأمم المتحدة وحكومة جمهورية الكونغو الديمقراطية على أن تقوما تبعا لذلك، بالتنسيق مع المجتمع المدني، بتحديد الخطوات الملموسة والواقعية التي يتعين اتخاذها، على سبيل الأولوية، لتهيئة الحد الأدنى من الظروف الأمنية التي تمكّن البعثة من الخروج على نحو مسؤول ومستدام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_185" class="SingleTxt">
+        <content eId="para_185__content">
+          <p xml:space="preserve">	39 -	<span class="bold italic">يدعو</span> البعثة وفريق الأمم المتحدة القطري وكيانات الأمم المتحدة الأخرى العاملة في جمهورية الكونغو الديمقراطية إلى تسريع التكامل والتعاون من أجل الاضطلاع بالإجراءات التعاونية ذات الأولوية المحددة في الخطة الانتقالية وتمكين فريق الأمم المتحدة القطري من زيادة برامجه استعدادا لانسحاب البعثة، بما في ذلك عن طريق وضع استراتيجية متماسكة لتعبئة الموارد؛ <span class="bold italic">ويشجع</span> المجتمع الدولي والجهات المانحة على دعم زيادة أنشطة وبرامج فريق الأمم المتحدة القطري وكيانات الأمم المتحدة الأخرى العاملة في جمهورية الكونغو الديمقراطية، بما في ذلك أنشطة بناء السلام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_186" class="SingleTxt">
+        <content eId="para_186__content">
+          <p xml:space="preserve">	40 -	<span class="bold italic">يدعو</span> البعثة إلى العمل عن كثب مع فريق الأمم المتحدة القطري من أجل تحديد السبل الكفيلة بمعالجة الثغرات الموجودة على صعيد القدرات استعدادا لخروج البعثة وتوضيح أدوار ومسؤوليات جميع الجهات صاحبة المصلحة ذات الصلة في الأمم المتحدة وفقا للقرار <a href="https://undocs.org/ar/S/RES/2594(2021)">2594 (2021)</a>، <span class="bold italic">ويؤكد</span> على الحاجة إلى النقل التدريجي لمهام البعثة إلى حكومة جمهورية الكونغو الديمقراطية وفريق الأمم المتحدة القطري وأصحاب المصلحة الآخرين، حيثما كان ذلك مناسبا ومتسقا مع الولايات والموارد، وذلك من أجل تمكين البعثة من الخروج على نحو مسؤول ومستدام، <span class="bold italic">ويشجع</span> الأمين العام على القيام، عند الاقتضاء، بوقف المهام التي يمكن أن يتولاها أصحاب المصلحة الآخرون على نحو مسؤول ومستدام، وبترشيد البعثة وفقا لذلك؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_187" class="SingleTxt">
+        <content eId="para_187__content">
+          <p xml:space="preserve">	41 -	<span class="bold italic">يؤكّد</span> أنّ اتباع عمليات الأمم المتحدة لحفظ السلام، في السياقات الانتقالية، لنهج استباقي في التواصل الاستراتيجي، بما في ذلك الاتصالات المشتركة بين البعثة وحكومة جمهورية الكونغو الديمقراطية، قد يسهم في تهيئة الظروف المؤاتية التي تكفل سلاسة إعادة تنظيم وجود الأمم المتحدة، <span class="bold italic">ويطلب</span> إلى البعثة وإلى الشركاء المعنيين مواصلة استكشاف الخيارات المتاحة لمواصلة برامج إذاعة أوكابي في سياق العملية الانتقالية للبعثة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_188" class="SingleTxt">
+        <content eId="para_188__content">
+          <p xml:space="preserve">	42 -	<span class="bold italic">يشدد</span> على ضرورة تنفيذ أنشطة البعثة بشكل يحدّ من التهديد الذي تشكله الجماعات المسلحة المحلية والأجنبية ويصل به إلى مستوى تستطيع قوات الأمن في جمهورية الكونغو الديمقراطية التعامل معه، وذلك بغية تيسير خروج البعثة على نحو تدريجي ومسؤول ومستدام، استنادا إلى التقدم المحرز في الوفاء بالمعايير والمؤشرات المحددة ضمن الخطة الانتقالية وبمراعاة الحالة في الميدان؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_189" class="H23">
+            <subheading>		التقارير المقدمة من الأمين العام</subheading>
+      </paragraph>
+      <paragraph eId="para_190" class="SingleTxt">
+        <content eId="para_190__content">
+          <p xml:space="preserve">	43 -	<span class="bold italic">يطلب</span> إلى الأمين العام أن يقدم إلى المجلس تقريرا كل ثلاثة أشهر يتضمن ما يلي:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_191" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_191__content">
+          <p xml:space="preserve">	معلومات عن الحالة في جمهورية الكونغو الديمقراطية، بما في ذلك التقدم المحرز نحو تعزيز مؤسسات الدولة وإنجاز الإصلاحات الرئيسية في مجالي الحوكمة والأمن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">	معلومات، تشمل مقاييس أداء نوعية، عن تنفيذ ولاية البعثة، بما في ذلك حمايتها للمهام المدنية، والتعاون فيما بين قوات الأمن الإقليمية، وأداء البعثة ضمن مجالات تشمل عمليات لواء التدخل التابع للقوة، ومعلومات عن تكوين الشرطة والقوات، وعما إذا كانت أنشطة البعثة قد أسهمت في تحقيق مهامها ذات الأولوية المشار إليها في الفقرة 24، وعن كيفية ذلك الإسهام، وعن ماهية التحديات والعقبات التي واجهتها البعثة في النهوض بالمهام ذات الأولوية، وذلك باستخدام البيانات التي تجمع وتحلل من خلال النظام الشامل للتخطيط وتقييم الأداء، ومن خلال تنفيذ البعثة للإطار المتكامل للأداء والمساءلة في مجال حفظ السلام وغيره من أدوات التخطيط الاستراتيجي وقياس الأداء لوصف أثر البعثة وأدائها العام، بما في ذلك المعلومات المتعلقة بالمحاذير غير المعلنة، وبرفض المشاركة في الدوريات أو تسييرها وأثر ذلك على البعثة، وبكيفية معالجة حالات التقصير في الأداء المبلغ عنها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_194" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_194__content">
+          <p xml:space="preserve">	معلومات عن إجراءات التواصل الاستراتيجي وأثره بالنسبة للأنشطة الصادر بها تكليف؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_197" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_197__content">
+          <p xml:space="preserve">	معلومات مستكملة عن الجهود المبذولة لتوفير الموارد الكافية للإجراءات التعاونية ذات الأولوية مع الوكالات المتخصصة والصناديق والبرامج التابعة للأمم المتحدة المحددة في الخطة الانتقالية وعن التقدم المحرز في تنفيذ تلك الإجراءات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_201" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_201__content">
+          <p xml:space="preserve">	معلومات مستكملة عن النقل التدريجي لمهام البعثة إلى حكومة جمهورية الكونغو الديمقراطية وفريق الأمم المتحدة القطري والجهات المعنية الأخرى، تشمل، عند الاقتضاء، معلومات عن وقف المهام على النحو المطلوب في الفقرة 40؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_206" class="SingleTxt">
+        <num>-</num>
+        <content eId="para_206__content">
+          <p xml:space="preserve">	معلومات مستكملة، كل ستة أشهر، عن التقدم المحرز صوب تحقيق المعايير والمؤشرات التي وضعتها الحكومة والأمم المتحدة في الخطة الانتقالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_207" class="SingleTxt">
+        <content eId="para_207__content">
+          <p xml:space="preserve">
+            <span class="bold italic">		ويطلب كذلك</span> إلى الأمين العام أن يدرج التحليل الجنساني في جميع التقارير المقدمة إلى مجلس الأمن؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208" class="SingleTxt">
+        <content eId="para_208__content">
+          <p xml:space="preserve">	44 -	<span class="bold italic">يطلب</span> إلى الأمين العام أن يقدم إلى مجلس الأمن، بمجرد الانتهاء من الاستعراض المشترك للخطة الانتقالية للبعثة وفي موعد لا يتجاوز شهر تموز/يوليه 2023، خيارات بشأن تكييف تشكيلة عناصر البعثة، أي العنصر المدني وعنصر الشرطة والعنصر العسكري، وبشأن تشكيلة الأمم المتحدة للمستقبل في جمهورية الكونغو الديمقراطية ومن دون الولاية الحالية للبعثة، وذلك بمراعاة دور البعثة فيما يتعلق بالقوة الإقليمية التابعة لجماعة شرق أفريقيا وبغيرها من المبادرات الدولية والإقليمية والثنائية القائمة من أجل دعم جمهورية الكونغو الديمقراطية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_209" class="SingleTxt">
+        <content eId="para_209__content">
+          <p xml:space="preserve">	45 -	<span class="bold italic">يطلب</span> إلى الأمين العام أن يقدم إلى مجلس الأمن كل ستة أشهر، وبالتنسيق مع المبعوث الخاص للأمين العام لمنطقة البحيرات الكبرى والممثل الخاص للأمين العام المعني بجمهورية الكونغو الديمقراطية، تقريرا عن تنفيذ الالتزامات المنصوص عليها في الاتفاق الإطاري بشأن السلام والأمن والتعاون لجمهورية الكونغو الديمقراطية والمنطقة، وعن صلات هذا الاتفاق بالحالة الأمنية العامة في منطقة البحيرات الكبرى؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_210" class="SingleTxt">
+        <content eId="para_210__content">
+          <p xml:space="preserve">	46 -	<span class="bold italic">يقرر</span> أن يبقي المسألة قيد نظره الفعلي.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
