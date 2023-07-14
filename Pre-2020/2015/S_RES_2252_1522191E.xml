@@ -1,0 +1,650 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2252-2015/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2252-2015/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2252-2015/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2252-2015/eng@/"></FRBRuri>
+          <FRBRdate date="2015-12-15" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2252-2015/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2252-2015/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-20" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Mission in South Sudan" showAs="UN Mission in South Sudan" dictionary="DHLAUTH"></keyword>
+        <keyword value="Agreement on the Resolution of the Conflict in the Republic of South Sudan (2015)" showAs="Agreement on the Resolution of the Conflict in the Republic of South Sudan (2015)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POLITICAL CONDITIONS" showAs="POLITICAL CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISPLACED PERSONS" showAs="DISPLACED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[216]" showAs="UN MISSION IN SOUTH SUDAN" dictionary="S/70"></keyword>
+        <keyword refersTo="agenda" value="[223]" showAs="SOUTH SUDAN--POLITICAL CONDITIONS" dictionary="S/70"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2252 (2015) [on extension of the mandate of the UN Mission in the Republic of South Sudan (UNMISS) until 31 July 2016]" showAs="Security Council resolution 2252 (2015) [on extension of the mandate of the UN Mission in the Republic of South Sudan (UNMISS) until 31 July 2016]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2015-12-15" outcome="draftResolution" as="S/2015/967" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2015-12-15" outcome="adopted" as="S/PV.7581" by="Adopted 13-0-2, 7581st meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="013" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="002" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">VENEZUELA (BOLIVARIAN REPUBLIC OF)</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">15-22191 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2252 (2015)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2015-12-15" class="rightSmall" refersTo="#dateOfIssuance">15 December 2015</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2252 (2015)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its previous resolutions 1996 (2011), 2046 (2012), 2057 (2012), 2109 (2013), 2132 (2013), 2155 (2014), 2187 (2014), 2206 (2015), 2223 (2015), and 2241 (2015), and statements by its President <a href="http://undocs.org/S/PRST/2014/16">S/PRST/2014/16</a>, <a href="http://undocs.org/S/PRST/2014/26">S/PRST/2014/26</a> and <a href="http://undocs.org/S/PRST/2015/9">S/PRST/2015/9</a>, </p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, territorial integrity, and national unity of the Republic of South Sudan, and recalling the importance of the principles of non‑interference, good-neighbourliness, and regional cooperation, </p>
+      </container>
+      <container name="Welcoming" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the signing of the “Agreement on the Resolution of the Conflict in the Republic of South Sudan” (the “Agreement”) as contained in the annex to <a href="http://undocs.org/S/2015/654">S/2015/654</a>, by President Salva Kiir Mayardit, the Sudanese People’s Liberation Movement/Sudanese People’s Liberation Army in Opposition (SPLM/SPLA-IO) Chairman Dr. Riek Machar Teny, Former Detainees representative Mr. Pagan Amum Okiech, and other stakeholders, and <span class="italic">recognizing</span> these signatures as a commitment by the parties to implement the Agreement, without exception, <span class="italic">welcoming</span> the steps that the parties to the Agreement have taken towards implementation of the Agreement including the declarations of ceasefire and signing of the transitional security arrangements, and <span class="italic">calling</span> upon the parties, with support from the United Nations and the international community, to fully implement the Agreement, including its timelines, </p>
+      </container>
+      <container name="Expressing its concern" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Expressing its concern</span> with any statement or action by any party suggesting a lack of commitment to implement the Agreement, as contained exclusively in the annex to <a href="http://undocs.org/S/2015/654">S/2015/654</a>, and <span class="italic">noting with deep concern</span> reports of continued fighting, <span class="italic">calling upon</span> the parties to adhere to the permanent ceasefire immediately, and <span class="italic">noting with deep concern</span> the delays in implementing some other parts of the agreement including the establishment of a Transitional Government of National Unity (TGoNU), </p>
+      </container>
+      <container name="Commending" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the expanded efforts of the “IGAD-Plus” configuration in helping to facilitate the signing of the Agreement by the parties and <span class="italic">welcoming</span> its ongoing support to implement the Agreement; and <span class="italic">urging</span> enhanced support by the international community, in particular the Intergovernmental Authority on Development (IGAD) and the African Union (AU), during the peace implementation, </p>
+      </container>
+      <container name="Welcoming" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the appointment of former President of Botswana Festus Mogae as Chair of the Joint Monitoring and Evaluation Commission (JMEC), and the first meeting of the JMEC on 27 November 2015, and <span class="italic">urging</span> all parties and international partners to engage fully with the JMEC and other bodies created by the Agreement, </p>
+      </container>
+      <container name="Recognizing" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the important role played by civil society organizations, faith leaders, women, and youth in South Sudan in reaching the Agreement, and <span class="italic">underscoring</span> the importance of their participation — and that of other political parties — in implementing the Agreement, </p>
+      </container>
+      <container name="Recalling" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolution 2086 (2013) and <span class="italic">reaffirming</span> the basic principles of peacekeeping, including consent of the parties, impartiality, and non‑use of force, except in self-defence and defence of the mandate, <span class="italic">recognizing</span> that the mandate of each peacekeeping mission is specific to the need and situation of the country concerned, and <span class="italic">underlining</span> in this regard, that the basic principles are consistent with the mandates that the Security Council authorizes that seek to tackle new challenges faced by peacekeeping operations, such as force protection and safety and security, protection of civilians, and asymmetric threats, and that the Security Council expects full delivery of the mandates it authorizes, </p>
+      </container>
+      <container name="Reiterating its grave alarm and concern" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Reiterating its grave alarm and concern</span> regarding the political, security, economic, and humanitarian crisis in South Sudan, resulting from the internal Sudan People’s Liberation Movement (SPLM) political dispute, and subsequent violence caused by the country’s political and military leaders since December 2013, </p>
+      </container>
+      <container name="Recognizing" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that the safe return of all parties to Juba and the implementation of stable security arrangements in the capital during the transitional period are essential to the successful implementation of the Agreement as it will build confidence in the wider transitional security arrangements, and <span class="italic">encouraging</span> all parties to continue their efforts at reconciliation and building a democratic state, </p>
+      </container>
+      <container name="Taking note" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> with interest of the reports on the human rights situation in South Sudan issued by the United Nations Mission in the Republic of South Sudan (UNMISS) and the Secretary-General, <span class="italic">welcoming</span> the release of the AU Commission of Inquiry report on South Sudan and the Separate Opinion, and <span class="italic">emphasizing its hope </span>that these and other credible reporting will be duly considered by any transitional justice and reconciliation mechanisms for South Sudan including those established in the Agreement, </p>
+      </container>
+      <container name="Expressing grave concern" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Expressing grave concern</span> that according to some of these reports there are reasonable grounds to believe that war crimes and crimes against humanity, including those involving extrajudicial killings, rape and other acts of sexual violence, enforced disappearances, the use of children in armed conflict, arbitrary arrests and detention, and attacks on schools and hospitals have been committed by both government and opposition forces, and <span class="italic">noting</span> that crimes involving these actions threaten the peace, security and stability of South Sudan, </p>
+      </container>
+      <container name="Strongly condemning" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Strongly condemning</span> all human rights violations and abuses and violations of international humanitarian law, including those involving extrajudicial killings, ethnically targeted violence, rape and other forms of sexual and gender-based violence, recruitment and use of children, enforced disappearances, arbitrary arrests and detention, violence aimed at spreading terror among the civilian population, targeting of members of civil society, and attacks on schools, places of worship, hospitals, and United Nations and associated peacekeeping personnel, by all parties, including armed groups and national security forces, as well as the incitement to commit such abuses and violations, </p>
+      </container>
+      <container name="Stressing" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the increasingly urgent need to end impunity in South Sudan and to bring to justice all perpetrators of such crimes, and <span class="italic">further stressing</span> the importance of accountability, reconciliation and healing in ending impunity and ensuring a sustainable peace, </p>
+      </container>
+      <container name="Further condemning" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Further condemning</span> harassment and targeting of journalists, and the use of media to broadcast hate speech and transmit messages instigating violence against a particular ethnic group, a practice that has the potential to play a significant role in promoting mass violence and exacerbating conflict, <span class="italic">calling</span> on the Government of South Sudan to take all appropriate measures in order to deter such activity, and <span class="italic">further urging</span> all parties to desist from these actions and instead contribute to promoting peace and reconciliation among the communities, </p>
+      </container>
+      <container name="Emphasizing" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the importance of accountability for those responsible for violations of international humanitarian law and violations and abuses of human rights and that the Government of South Sudan bears the primary responsibility to protect its populations from crimes against humanity, war crimes, ethnic cleansing, and genocide, </p>
+      </container>
+      <container name="Expressing serious and urgent concern" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Expressing serious and urgent concern</span> over the approximately 2.4 million displaced persons and deepening humanitarian crisis, <span class="italic">stressing</span> the responsibility borne by all parties to the conflict for the suffering of the people of South Sudan, and the necessity of ensuring that the basic needs of the population are met, and <span class="italic">commending</span> United Nations humanitarian agencies, partners, and donors for their efforts to provide urgent and coordinated support to the population, </p>
+      </container>
+      <container name="Recalling" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the need for all parties to the conflict to allow and facilitate, in accordance with relevant provisions of international law and United Nations guiding principles of humanitarian assistance, the full, safe and unhindered access of relief personnel, equipment and supplies and timely delivery of humanitarian assistance, to all those in need, in particular to internally displaced persons (IDPs) and refugees, </p>
+      </container>
+      <container name="Condemning" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> all attacks against humanitarian personnel and facilities, including those that resulted in the deaths of at least 41 personnel since December 2013, and <span class="italic">recalling</span> that attacks against humanitarian personnel and depriving civilians of objects indispensable to their survival may amount to violations of international humanitarian law, </p>
+      </container>
+      <container name="Expressing its deep appreciation" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Expressing its deep appreciation</span> for the actions taken by UNMISS peacekeepers and troop- and police-contributing countries to protect civilians, including foreign nationals, under threat of physical violence and to stabilize the security situation within and beyond UNMISS sites, <span class="italic">recognizing</span> the significant resource and capacity challenges the Mission faces in implementing its mandate, <span class="italic">expressing appreciation</span> for UNMISS’s efforts to support IDPs seeking protection on its sites, while <span class="italic">underlining</span> the necessity to find sustainable solutions for IDPs including in alternative safe and secure locations, and in keeping with the Guiding Principles on Internal Displacement, and <span class="italic">underlining</span> in this regard need to extend its presence, including through proactive deployment and patrolling, to areas of displacement, return, and resettlement, </p>
+      </container>
+      <container name="Reaffirming" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that sustainable peace requires an integrated approach based on coherence between political, security, development, human rights, including gender equality, rule of law, and justice and reconciliation activities and, in this regard, <span class="italic">emphasizing</span> the importance of the rule of law as one of the key elements of conflict prevention, peacekeeping, conflict resolution and peacebuilding, </p>
+      </container>
+      <container name="Emphasizing" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> that individuals or entities responsible for or complicit in, or having engaged in, directly or indirectly, actions or policies that threaten the peace, security or stability of South Sudan, may be designated for targeted sanctions pursuant to resolution 2206 (2015), <span class="italic">recalling</span> its willingness to impose targeted sanctions and <span class="italic">noting with interest</span> the 26 September 2015 communiqué of the African Union Peace and Security Council expressing its determination to impose measures against all those who impede implementation of the Agreement, </p>
+      </container>
+      <container name="Emphasizing" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> that persistent barriers to full implementation of resolution 1325 (2000), and subsequent resolutions on women, peace, and security including 2242 (2015), will only be dismantled through dedicated commitment to women’s empowerment, participation, and human rights, and through concerted leadership, consistent information and action, and support, to build women’s engagement in all levels of decision-making, </p>
+      </container>
+      <container name="Expressing deep concern" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Expressing deep concern</span> at persistent restrictions placed upon the movement and operations of UNMISS, including through repeated violations of the Status of Forces Agreement (SOFA) and blocking the deployment of essential assets and enablers, and <span class="italic">underscoring</span> the importance of close cooperation and communication between UNMISS and the Government of South Sudan in addressing these issues, </p>
+      </container>
+      <container name="Strongly condemning" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Strongly condemning</span> the attacks by government and opposition forces and other groups on United Nations and IGAD personnel and facilities, including the December 2012 downing of a United Nations helicopter by the SPLA, the April 2013 attack on a United Nations convoy, the December 2013 attack on the UNMISS camp in Akobo, the August 2014 shooting down of a United Nations helicopter by unidentified armed groups, the August 2014 arrest and detention of an IGAD monitoring and verification team, the October 2015 seizure and detention of UNMISS personnel and equipment in Upper Nile State by opposition forces, the detention and kidnappings of United Nations and associated personnel, the repeated attacks on the UNMISS camps in Bor, Bentiu, Malakal and Melut, and the disappearance purportedly caused by SPLA forces, and deaths of three United Nations-affiliated national staff and one national contractor in Upper Nile State, and, <span class="italic">calling upon</span> the Government of South Sudan to complete its investigations of these attacks in a swift and thorough manner and to hold those responsible to account, </p>
+      </container>
+      <container name="Reiterating" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its request that UNMISS take additional measures, as appropriate, to ensure the security of its air operations in South Sudan, and report thereon to the Council, </p>
+      </container>
+      <container name="Stressing" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the importance of effective engagement and liaison with local communities, as well as humanitarian actors, both within and outside the Protection of Civilians sites, in order to fulfil UNMISS’s Protection of Civilians mandate, </p>
+      </container>
+      <container name="Expressing grave concern" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Expressing grave concern</span> regarding the threats made to oil installations, petroleum companies and their employees, and urging all parties to ensure the security of economic infrastructure, </p>
+      </container>
+      <container name="Recalling" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolution 2117 (2013) and <span class="italic">expressing grave concern</span> at the threat to peace and security in South Sudan arising from the illicit transfer, destabilizing accumulation and misuse of small arms and light weapons, </p>
+      </container>
+      <container name="Expressing its appreciation" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Expressing its appreciation</span> for IGAD’s operation of the Monitoring and Verification Mechanism (MVM) and <span class="italic">welcoming</span> its transition to the Ceasefire and Transitional Security Arrangements Monitoring Mechanism (CTSAMM), and <span class="italic">calling</span> for the withdrawal of armed groups invited by either side, consistent with the Agreement, </p>
+      </container>
+      <container name="Reaffirming" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its resolutions 1265 (1999), 1296 (2000), 1674 (2006), 1738 (2006), 1894 (2009), 2150 (2014) and 2222 (2015) on the protection of civilians in armed conflict, and 1502 (2003) and 2175 (2015) on the protection of humanitarian and United Nations personnel; resolutions 1612 (2005), 1882 (2009), 1998 (2011), 2068 (2012), 2143 (2014) and 2225 (2015) on children and armed conflict; resolutions 1325 (2000), 1820 (2008), 1888 (2009), 1889 (2009), 1960 (2010), 2106 (2013), and 2122 (2013) on women, peace, and security; resolution 2150 (2014) on the prevention and fight against genocide; resolution 2151 (2014) on security sector reform; and resolution 2171 (2014) on conflict prevention, </p>
+      </container>
+      <container name="Taking note" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the 23 November 2015 Secretary-General’s reports and letter (<a href="http://undocs.org/S/2015/903">S/2015/903</a>, <a href="http://undocs.org/S/2015/899">S/2015/899</a>, and <a href="http://undocs.org/S/2015/902">S/2015/902</a>) and the recommendations contained therein, </p>
+      </container>
+      <container name="Determining" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in South Sudan continues to constitute a threat to international peace and security in the region, </p>
+      </container>
+      <container name="Acting" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 	<span class="italic">Reiterates its endorsement</span> of the Cessation of Hostilities (CoH) Agreement accepted and signed by the Government of South Sudan and the SPLM/SPLA-IO on 23 January 2014, <span class="italic">further endorses</span> the “Agreement on the Resolution of the Conflict in the Republic of South Sudan”, as contained in the annex to <a href="http://undocs.org/S/2015/654">S/2015/654</a> (the “Agreement”), which is designed to bring this conflict to an end; <span class="italic">calls for</span> immediate and full implementation of the Agreements by the parties, and <span class="italic">expresses its intention</span> to consider all appropriate measures, as demonstrated by its 3 March 2015 unanimous adoption of resolution 2206 (2015), against those who take action that undermines the peace, stability, and security of South Sudan, including those who prevent the implementation of these agreements; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> 	<span class="italic">Urges</span> all parties to engage in an open and fully inclusive national dialogue seeking to implement lasting peace, reconciliation and good governance, including through the full and effective participation of youth, women, diverse communities, faith groups, civil society, and all political parties, and <span class="italic">encourages</span> the efforts of the JMEC, IGAD, the AU, and the United Nations to support implementation of the Agreement by the parties; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> and <span class="italic">encourages</span> the Special Representative of the Secretary-General to exercise her good offices to lead the UN system in South Sudan in assisting the JMEC, the AU and other actors, as well as the parties, with swift implementation of the Agreement and to promote reconciliation and <span class="italic">underscores</span> the importance of the SRSG’s good offices in de-escalation of any violence; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve"> 	<span class="italic">Decides</span> to extend the mandate of UNMISS until 31 July 2016; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve"> 	<span class="italic">Underscores</span> the importance of security in Juba for successful implementation of the Agreement, and <span class="italic">further underscores</span> the importance of the role of the Joint Integrated Police (JIP) to provide security in Juba, implementation of the security mechanisms called for in the Agreement, including the Joint Operations Centre, and implementation of arrangements agreed to in the Permanent Ceasefire and Transitional Security Arrangements workshop and subsequent meetings; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve"> 	<span class="italic">Affirms</span> its intention to consider future additional mandated tasks for UNMISS in support of the transitional security arrangements in Juba, and in this regard, requests the Secretary-General, to develop a plan for UNMISS to take appropriate action to deter and respond to any escalation of violence in and around Juba, in order to effectively protect civilians, and to protect critical infrastructure in Juba needed to facilitate the safe movement of humanitarian actors and other individuals in the event of such escalation, and to present his plan to the Security Council for consideration by 15 January 2016; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve"> 	<span class="italic">Decides</span> to increase the force levels of UNMISS up to a ceiling of 13,000 troops and 2,001 police personnel, including individual police officers, formed police units and 78 corrections officers, and <span class="italic">requests</span> the Secretary-General to take the necessary steps to expedite force and asset generation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>8.</num>
+        <list eId="para_64_list">
+          <intro eId="para_64_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">Decides</span> that the mandate of UNMISS shall be as follows, and <span class="italic">authorizes</span> UNMISS to use all necessary means to perform the following tasks: </p>
+          </intro>
+          <point eId="para_64_list_point_a">
+            <num>(a)</num>
+            <content eId="para_64_list_point_a_content">
+              <p xml:space="preserve">	<span class="italic">Protection of civilians</span>: </p>
+            </content>
+          </point>
+          <sublist eId="para_64_list_point_a_sublist">
+            <point eId="para_64_list_point_a_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_64_list_point_a_sublist_point_i_content">
+                <p xml:space="preserve">	To protect civilians under threat of physical violence, irrespective of the source of such violence, within its capacity and areas of deployment, with specific protection for women and children, including through the continued use of the Mission’s Child Protection and Women Protection Advisers; </p>
+              </content>
+            </point>
+            <point eId="para_64_list_point_a_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_64_list_point_a_sublist_point_ii_content">
+                <p xml:space="preserve">	To deter violence against civilians, including foreign nationals, especially through proactive deployment, active patrolling with particular attention to IDPs, including, but not limited to, those in protection sites and refugee camps, humanitarian personnel and human rights defenders, and identification of threats and attacks against civilians, including through regular interaction with civilians and working closely with humanitarian, human rights and development organizations, in areas at high risk of conflict including, as appropriate, schools, places of worship, hospitals, and the oil installations, in particular when the Government of the Republic of South Sudan is unable or failing to provide such security; </p>
+              </content>
+            </point>
+            <point eId="para_64_list_point_a_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_64_list_point_a_sublist_point_iii_content">
+                <p xml:space="preserve">	To implement a mission-wide early warning strategy, including a coordinated approach to information gathering, monitoring, verification, early warning and dissemination, and response mechanisms, including response mechanisms to threats and attacks against civilians that may involve violations and abuses of human rights or violations of international humanitarian law, as well as to prepare for further potential attacks on United Nations personnel and facilities; </p>
+              </content>
+            </point>
+            <point eId="para_64_list_point_a_sublist_point_iv">
+              <num>(iv)</num>
+              <content eId="para_64_list_point_a_sublist_point_iv_content">
+                <p xml:space="preserve">	To maintain public safety and security of and within UNMISS protection of civilians sites; </p>
+              </content>
+            </point>
+            <point eId="para_64_list_point_a_sublist_point_v">
+              <num>(v)</num>
+              <content eId="para_64_list_point_a_sublist_point_v_content">
+                <p xml:space="preserve">	To exercise good offices, confidence-building, and facilitation in support of the mission’s protection strategy, especially in regard to women and children, including to facilitate the prevention, mitigation and resolution of intercommunal conflict in order to foster sustainable local and national reconciliation as an essential part of preventing violence and long-term State-building activity; </p>
+              </content>
+            </point>
+            <point eId="para_64_list_point_a_sublist_point_vi">
+              <num>(vi)</num>
+              <content eId="para_64_list_point_a_sublist_point_vi_content">
+                <p xml:space="preserve">	To foster a secure environment for the eventual safe and voluntary return of IDPs and refugees including through monitoring of, ensuring respect for human rights by, and where compatible and in strict compliance with the United Nations Human Rights Due Diligence Policy (HRDDP), coordination with police services and civil society actors in relevant and protection-focused activities, such as sensitization to issues of sexual and gender-based violence, in order to strengthen protection of civilians; </p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_64_list_point_b">
+            <num>(b)</num>
+            <content eId="para_64_list_point_b_content">
+              <p xml:space="preserve">	<span class="italic">Monitoring, and investigating human rights</span>: </p>
+            </content>
+          </point>
+          <sublist eId="para_64_list_point_b_sublist">
+            <point eId="para_64_list_point_b_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_64_list_point_b_sublist_point_i_content">
+                <p xml:space="preserve">	To monitor, investigate, verify, and report publicly and regularly on abuses and violations of human rights and violations of international humanitarian law, including those that may amount to war crimes or crimes against humanity; </p>
+              </content>
+            </point>
+            <point eId="para_64_list_point_b_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_64_list_point_b_sublist_point_ii_content">
+                <p xml:space="preserve">	To monitor, investigate, verify and report specifically and publicly on violations and abuses committed against children and women, including those involving all forms of sexual and gender-based violence in armed conflict by accelerating the implementation of monitoring, analysis and reporting arrangements on conflict-related sexual violence and by strengthening the monitoring and reporting mechanism for violations and abuses against children; </p>
+              </content>
+            </point>
+            <point eId="para_64_list_point_b_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_64_list_point_b_sublist_point_iii_content">
+                <p xml:space="preserve">	To coordinate with, and provide technical support to international, regional, and national mechanisms engaged in monitoring, investigating, and reporting human rights violations, as appropriate; </p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_64_list_point_c">
+            <num>(c)</num>
+            <content eId="para_64_list_point_c_content">
+              <p xml:space="preserve"> 	<span class="italic">Creating the conditions conducive to the delivery of humanitarian assistance: </span></p>
+            </content>
+          </point>
+          <sublist eId="para_64_list_point_c_sublist">
+            <point eId="para_64_list_point_c_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_64_list_point_c_sublist_point_i_content">
+                <p xml:space="preserve">	To contribute, in close coordination with humanitarian actors, to the creation of security conditions conducive to the delivery of humanitarian assistance, confidence-building and facilitation, so as to allow, the rapid, safe and unhindered access of relief personnel to all those in need in South Sudan and timely delivery of humanitarian assistance, in particular to IDPs and refugees, recalling the need for compliance with the relevant provisions of international law and respect for the UN guiding principles of humanitarian assistance; </p>
+              </content>
+            </point>
+            <point eId="para_64_list_point_c_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_64_list_point_c_sublist_point_ii_content">
+                <p xml:space="preserve">	To ensure the security and freedom of movement of United Nations and associated personnel where appropriate, and to ensure the security of its installations and equipment necessary for implementation of mandated tasks; </p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_64_list_point_d">
+            <num>(d)</num>
+            <content eId="para_64_list_point_d_content">
+              <p xml:space="preserve">	<span class="italic">Supporting the Implementation of the Agreement</span>: </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <content eId="para_65__content">
+          <p xml:space="preserve">	To carry out, within its capabilities, the following tasks in support of the implementation of the Agreement: </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>(i)</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	To support the planning and establishment of agreed transitional security arrangements, including the establishment and operation of the Joint Operations Centre; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>(ii)</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	To support the work of a National Constitutional Amendment Committee (NCAC) and the incorporation of the Agreement into the Transitional Constitution of the Republic of South Sudan, upon request of the parties to the Agreement; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>(iii)</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	To support, as requested by the TGoNU, the permanent constitution-making process, consistent with the Agreement, including providing technical assistance to the National Constitutional Review Commission for the drafting process and supporting public consultations during the constitution-making process; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>(iv)</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	To assist the parties to develop a strategy to address disarmament, demobilization, reintegration (DDR) and security sector reform (SSR) activities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>(v)</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve"> 	To participate in and support the CTSAMM in implementation of its mandate to monitor the separation, assembly and cantonment of forces consistent with the Agreement, including to provide support for mobile and dedicated fixed site security; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>(vi)</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	To actively participate in and support the work of the JMEC; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>(vii)</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	To advise, and assist the National Elections Commission, in coordination with members of the United Nations country team, consistent with the Agreement, and once the TGoNU has taken office; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <num>(viii)</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	To provide training support and advisory assistance, to the JIP, consistent with the HRDDP, including for the development and implementation of a training curriculum and strategic planning; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_102" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_102__content">
+          <p xml:space="preserve"> 	<span class="italic">Encourages</span> the Secretary-General to assist the JMEC and the parties in the mass communication and dissemination of key messages in support of the Agreement’s implementation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve"> 	<span class="italic">Emphasizes</span> that protection of civilians, as described in paragraph 8 (a), must be given priority in decisions about the use of available capacity and resources within the mission; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> the Secretary-General, through his Special Representative, to continue to direct the operations of an integrated UNMISS and coordinate all activities of the United Nations system in the Republic of South Sudan, to deliver a coherent international approach to implementing peace in the Republic of South Sudan, and to use the United Nations’ good offices to engage with all stakeholders; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> that the Secretary-General provide detailed information on force generation, restructuring of the UNMISS force, logistical support and enablers, including as part of his regular reports, and <span class="italic">requests</span> the Secretary-General to review needs on the ground and provide an updated assessment of the force’s operations, deployment and future requirements in his regular reports to the Council; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> the Secretary-General to prioritize the complete deployment of UNMISS personnel to the authorized military and police strength, including tactical military helicopters and unarmed unmanned aerial systems; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> UNMISS to take fully into account gender considerations as a crosscutting issue throughout its mandate, in particular regarding women’s participation in implementation of the Agreement, including in support to the JIP, activities in support of constitution development, ceasefire monitoring, cantonment, disarmament, demobilization and security sector reform, and reiterates its request for enhanced reporting by UNMISS to the Council on this issue; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> UNMISS to continue to intensify its presence and active patrolling in areas of high risk of conflict, high concentrations of IDPs and refugees, including as guided by its early warning strategy, in both government and opposition-held areas, and key routes for population movement, to extend its presence, including through proactive deployment and patrolling, to areas of displacement, return, and resettlement, in order to foster a secure environment for the eventual safe and voluntary return of IDPs and refugees, and to conduct regular reviews of its geographic deployment to ensure that its forces are best placed to fulfil its mandate, and <span class="italic">requests</span> the Secretary-General provide an update to the Security Council on how the Mission is working towards fulfilling its protection of civilian duties, including, but not limited to new patrol areas and proactive deployment, and on the measures to be taken to transform the Mission to become more efficient and effective in implementing its mandate as part of his regular reports; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_186" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_186__content">
+          <p xml:space="preserve"> 	<span class="italic">Recalls</span> <a href="http://undocs.org/S/PRST/2015/22">S/PRST/2015/22</a>, and <span class="italic">further requests</span> the Secretary-General to take the necessary measures to ensure full compliance of UNMISS with the United Nations zero-tolerance policy on sexual exploitation and abuse and to keep the Council fully informed through his regular country-specific reports to the Council about the Mission’s progress in this regard, and <span class="italic">urges</span> troop- and police-contributing Countries to take appropriate preventive action including predeployment awareness training, and to ensure full accountability in cases of such conduct involving their personnel; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_202" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_202__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> UNMISS to ensure that any support provided to non‑United Nations security forces is provided in strict compliance with the HRDDP on United Nations Support to non‑United Nations security forces and <span class="italic">requests</span> the Secretary-General to include progress made in implementing the policy in his reports to the Council; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_219" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_219__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> UNMISS to assist the Committee, within existing resources, established pursuant to paragraph 16 of resolution 2206 (2015) and the Panel of Experts established by the same resolution; <span class="italic">further urges</span> all parties and Member States, as well as international, regional and subregional organizations to ensure cooperation with the Panel of Experts and further urges all Member States involved to ensure the safety of the members of the Panel of Experts and unhindered access, in particular to persons, documents and sites in order for the Panel of Experts to execute its mandate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve"> 	<span class="italic">Condemns</span> in the strongest terms attacks on and threats made to UNMISS personnel and United Nations facilities, as well as those of IGAD, such as the August 2014 shooting down of a United Nations helicopter, the August 2014 arrest and detention of an IGAD monitoring and verification team, the detention and kidnappings of United Nations and associated personnel, the October 2015 seizure and detention of UNMISS personnel and equipment in Upper Nile State by opposition forces, and the repeated attacks on the UNMISS camps in Bor, Bentiu, Malakal and Melut, <span class="italic">stresses</span> that such attacks may constitute violations of the SOFA and/or war crimes, <span class="italic">demands</span> that all parties respect the inviolability of United Nations premises and immediately desist and refrain from any violence against those gathered at United Nations facilities, <span class="italic">notes</span> that the TGoNU, when created, will be bound by the terms of the SOFA, and <span class="italic">further demands</span> the immediate and safe release of detained and kidnapped United Nations and associated personnel; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_256" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_256__content">
+          <p xml:space="preserve"> 	<span class="italic">Recalls</span> the designation criteria detailed in paragraph 7 of resolution 2206 (2015), <span class="italic">stresses</span> the sanctity of United Nations protection sites, and <span class="italic">specifically underscores </span>that individuals or entities that are responsible or complicit in, or have engaged in, directly or indirectly, attacks against United Nations missions, international security presences, or other peacekeeping operations, or humanitarian personnel, threaten the peace, security and stability of South Sudan and therefore may meet the designation criteria; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_276" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_276__content">
+          <p xml:space="preserve"> 	<span class="italic">Reiterates its request</span> that UNMISS take additional measures, as appropriate, to ensure the security of its air operations in South Sudan and report thereon to the Council; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve"> 	<span class="italic">Demands</span> that the Government of South Sudan comply fully and without delay with the SOFA with UNMISS and all relevant parties cooperate fully in the deployment, operations, and monitoring, verification, and reporting functions of UNMISS, in particular by guaranteeing the safety, security, and unrestricted freedom of movement of United Nations and associated personnel, throughout the territory of the Republic of South Sudan, and further calls upon the Government of South Sudan to ensure freedom of movement for IDPs, including those leaving and entering protection of civilian sites, and to continue to support UNMISS by the allocation of land for protection of civilian sites; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_319" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_319__content">
+          <p xml:space="preserve"> 	<span class="italic">Demands</span> that all parties allow, in accordance with relevant provisions of international law and United Nations guiding principles of emergency humanitarian assistance, the rapid, safe and unhindered access of relief personnel, equipment and supplies, and timely delivery of humanitarian assistance, to all those in need throughout South Sudan in particular to IDPs and refugees and stresses that any returns or other durable solutions for IDPs or refugees must be undertaken on a voluntary and informed basis in conditions of dignity and safety; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_342" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_342__content">
+          <p xml:space="preserve"> 	<span class="italic">Further demands</span> that all parties immediately cease all forms of violence, human rights violations and abuses, violations of international humanitarian law, including rape and other forms of sexual and gender-based violence; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_366" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_366__content">
+          <p xml:space="preserve"> 	<span class="italic">Condemns</span> all violations of applicable international law, including international humanitarian law and violations and abuses of international human rights committed by all parties to the conflict, in particular against children, such as those involving their recruitment and use as child soldiers, killing and maiming, and abduction as well as attacks against schools and hospitals, <span class="italic">urges</span> all parties to the conflict to implement the Conclusions on Children and Armed Conflict in South Sudan adopted by the Security Council Working Group on Children and Armed Conflict on 8 May 2015, <span class="italic">strongly urges</span> the Government to fully and immediately implement its revised action plan to end and prevent violations committed against children, and <span class="italic">further strongly urges</span> the SPLM/SPLA-IO to fully and immediately implement their commitment to end violations and abuses against children signed on 10 May 2014; <span class="italic">takes note</span> of the 29 October 2014 national launch of the campaign “Children, Not Soldiers” by the Government, and <span class="italic">welcomes</span> the release of children by the South Sudan Democratic Movement/Army Cobra faction; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_391" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_391__content">
+          <p xml:space="preserve"> 	<span class="italic">Expresses grave concern</span> at the findings of the Special Representative of the Secretary-General on Sexual Violence in Conflict of ongoing rampant sexual violence in South Sudan and <span class="italic">welcomes</span> the 11 October 2014 Joint Communiqué of the Government of South Sudan and the United Nations on Addressing Conflict-Related Sexual Violence, the December 2014 unilateral communiqué issued by the SPLM/A-IO on Preventing Conflict-Related Sexual Violence, and the signing of undertakings by senior commanders of the SPLA-IO as well as the development of an Implementation Plan in addressing conflict-related sexual violence in accordance with resolution 1960 (2010) and 2106 (2013), <span class="italic">urges</span> the SPLA and SPLA-IO to take concrete, specific and time-bound steps towards implementing their respective Communiqués with the support of the United Nations and other stakeholders; <span class="italic">calls upon</span> the Government of South Sudan to ensure the meaningful participation of the SPLA in all the discussions and processes aimed at implementing the Joint Communiqué, and <span class="italic">urges</span> the SPLA and SPLA-IO to prevent further commission of sexual violence and to show concrete steps taken to hold perpetrators within their ranks accountable; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_417" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_417__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> the Secretary-General to make available technical assistance for the implementation of Chapter V of the Agreement, including in the setting up of the Hybrid Court for South Sudan contemplated by the Agreement, to the Commission of the African Union and to the Transitional Government of National Unity, in consultation with them and consistent with Article 1.5 of Chapter V of the Agreement, and including with regard to the establishment of the Commission for Truth, Reconciliation, and Healing; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_444" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_444__content">
+          <p xml:space="preserve"> 	<span class="italic">Looks forward to</span> the Secretary-General’s report on the technical assistance provided consistent with paragraph 26 above to the African Union and the Transitional Government of National Unity with respect to Chapter V of the Agreement, including the Hybrid Court for South Sudan contemplated by the Agreement, and <span class="italic">invites</span> the African Union to share information on progress made with the Secretary-General to inform his report, and <span class="italic">expresses</span> the Security Council’s intention at that time to assess the work that has been done in the establishment of the Hybrid Court, in line with international standards; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_472" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_472__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> the Government of South Sudan to move forward expeditiously and transparently to complete the ongoing investigations of allegations of human rights violations and abuses in a manner consistent with its international obligations, and encourages it to release the reports of those investigations; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_501" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_501__content">
+          <p xml:space="preserve"> 	<span class="italic">Further calls upon</span> the Government of South Sudan, while taking note of paragraph 3.2.2 of Chapter V of the Agreement, to hold to account all those responsible for violations and abuses of human rights and violations of international humanitarian law, and to ensure that all victims of sexual violence have equal protection under the law and equal access to justice, and to safeguard equal respect for the rights of women and girls in these processes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_531" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_531__content">
+          <p xml:space="preserve"> 	<span class="italic">Calls upon</span> all parties to ensure women’s full and effective representation and leadership in all conflict resolution and peacebuilding efforts including through support to women’s civil society organizations; <span class="italic">further encourages</span> troop- and police-contributing countries to take measures to increase the deployment of women in the military, police, and civilian components of the mission, and <span class="italic">reaffirms</span> the importance of appropriate gender expertise and training in all missions mandated by the Security Council; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_562" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_562__content">
+          <p xml:space="preserve"> 	<span class="italic">Condemns</span> attacks on oil installations, petroleum companies and their employees, and the continued fighting around these facilities, and <span class="italic">urges</span> all parties to ensure the security of economic infrastructure; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_594" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_594__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests</span> that the Secretary-General report to the Security Council on the implementation of the UNMISS mandate, as well as information on violations of the Status of Forces Agreement, including on UNMISS responses to any such violations, in a written report to be submitted no later than 60 days from adoption of this resolution and every 60 days after that; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_627" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_627__content">
+          <p xml:space="preserve"> 	<span class="italic">Decides</span> to remain actively seized of the matter. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

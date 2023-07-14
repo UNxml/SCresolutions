@@ -1,0 +1,603 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2015-03-03/2206-2015/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2015-03-03/2206-2015/"></FRBRuri>
+          <FRBRdate date="2015-03-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2015-03-03/2206-2015/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2015-03-03/2206-2015/eng@/"></FRBRuri>
+          <FRBRdate date="2015-03-03" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2015-03-03/2206-2015/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2015-03-03/2206-2015/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-20" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Mission in South Sudan" showAs="UN Mission in South Sudan" dictionary="DHLAUTH"></keyword>
+        <keyword value="Sudan People's Liberation Movement/Army" showAs="Sudan People's Liberation Movement/Army" dictionary="DHLAUTH"></keyword>
+        <keyword value="Intergovernmental Authority on Development" showAs="Intergovernmental Authority on Development" dictionary="DHLAUTH"></keyword>
+        <keyword value="SANCTIONS COMPLIANCE" showAs="SANCTIONS COMPLIANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FROZEN ASSETS" showAs="FROZEN ASSETS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAVEL RESTRICTIONS" showAs="TRAVEL RESTRICTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACE AGREEMENTS" showAs="PEACE AGREEMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[223]" showAs="SOUTH SUDAN--POLITICAL CONDITIONS" dictionary="S/70"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2206 (2015) [on the situation in South Sudan]" showAs="Security Council resolution 2206 (2015) [on the situation in South Sudan]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2015-03-03" outcome="draftResolution" as="S/2015/153" by="Australia, Chile France, Lithuania, Luxembourg, New Zealand, Norway, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2015-03-03" outcome="adopted" as="S/PV.7396" by="Adopted unanimously, 7396th meeting" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VENEZUELA (BOLIVARIAN REPUBLIC OF)</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">15-03249 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2206 (2015)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2015-03-03" class="rightSmall" refersTo="#dateOfIssuance">3 March 2015</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2206 (2015)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="7396th">7396th meeting</inline>, on <docDate date="2015-03-03" refersTo="#adoptionDate">3 March 2015</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its previous resolutions and statements on South Sudan, in particular resolutions 2057 (2012), 2109 (2013), 2132 (2013), 2155 (2014) and 2187 (2014), </p>
+      </container>
+      <container name="Expressing" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> grave alarm and concern regarding the conflict between the Government of the Republic of South Sudan and opposition forces since December 2013 which emanated from internal political disputes among the country’s political and military leaders,</p>
+      </container>
+      <container name="Deeply concerned" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Deeply concerned</span> that the conflict has resulted in great human suffering, including significant loss of life, displacement of two million people, and the loss of property, further impoverishing and disadvantaging the people of South Sudan,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Strongly condemning</span> past and ongoing human rights violations and abuses and violations of international humanitarian law, including those involving targeted killings of civilians, ethnically-targeted violence, extrajudicial killings, rape, and other forms of sexual and gender-based violence, recruitment and use of children in armed conflict, abductions, enforced disappearances, arbitrary arrests and detention, violence aimed at spreading terror among the civilian population, and attacks on schools, places of worship and hospitals, as well as United Nations and associated peacekeeping personnel and objects, by all parties, including armed groups and national security forces, as well as the incitement to commit such abuses and violations, <span class="italic">further condemning</span> harassment and targeting of civil society, humanitarian personnel and journalists, and <span class="italic">emphasizing</span> that those responsible for violations of international humanitarian law and violations and abuses of human rights must be held accountable, and that the Government of South Sudan bears the primary responsibility to protect its population from genocide, war crimes, ethnic cleansing, and crimes against humanity,</p>
+      </container>
+      <container name="Expressing" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> deep concern over the large-scale displacement of persons and deepening humanitarian crisis, <span class="italic">stressing</span> the responsibility borne by all parties to the conflict for the suffering of the people of South Sudan, and the necessity of ensuring that the basic needs of the population are met, <span class="italic">commending</span> United Nations humanitarian agencies and partners for their efforts to provide urgent and coordinated support to the population, <span class="italic">calling upon</span> all parties to the conflict to allow and facilitate, in accordance with relevant provisions of international law and United Nations guiding principles of humanitarian assistance, the full, safe, and unhindered access of relief personnel, equipment and supplies to all those in need and the timely delivery of humanitarian assistance, in particular to internally displaced persons and refugees, <span class="italic">condemning</span> all attacks against humanitarian personnel and facilities and <span class="italic">recalling</span> that attacks against humanitarian personnel and depriving civilians of objects indispensable to their survival may amount to violations of international humanitarian law, </p>
+      </container>
+      <container name="Commending" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the Intergovernmental Authority on Development (IGAD) Ministerial Group’s initiative, as supported by the United Nations and African Union, in establishing a forum for political and security dialogue, and <span class="italic">expecting</span> all parties to participate in this process and respect the decisions reached by IGAD Assembly of Heads of State and Government on 13 March 2014, </p>
+      </container>
+      <container name="Welcoming" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the IGAD-mediated commitments made to resolve the crisis in South Sudan, namely the 23 January 2014 Cessation of Hostilities Agreement; 9 May 2014 Agreement to Resolve the Crisis in South Sudan; and the 1 February 2015 Areas of Agreement of the Establishment of the Transitional Government of National Unity (TGoNU) in the Republic of South Sudan,</p>
+      </container>
+      <container name="Welcoming" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the resolve indicated in the IGAD Assembly of Heads of State and Government Communiqué of 10 June 2014 and 25 August 2014 that IGAD Member States will take further collective action, including through the imposition of punitive measures, to pressure any party that fails to honour its commitments to date or acts contrary to the Communiqué of that Assembly, </p>
+      </container>
+      <container name="Welcoming" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the Communiqué of the African Union Peace and Security Council (AU PSC) of 12 June 2014, which, inter alia, reiterated the readiness of that Council, upon recommendation by IGAD, to immediately pursue targeted sanctions and other measures against any party that continues to undermine the search for a solution to the conflict and fails to honour its commitments,</p>
+      </container>
+      <container name="Welcoming" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> further the Communiqué of the AU PSC of 17 September 2014 which, inter alia, reiterated its determination, in coordination with IGAD, to take the necessary measures against any party that fails to honour its commitments and continues to undermine the search for a negotiated solution to the current crisis,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Strongly condemning</span> the Government of the Republic of South Sudan and the Sudan People’s Liberation Movement (SPLM) — in Opposition for failing to reach agreement to form a transitional government within the 60-day period outlined in the 26th Communiqué of 10 June 2014, </p>
+      </container>
+      <container name="Taking note" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the Communiqué of the 27th Extraordinary Session of the IGAD Assembly of Heads of State and Government in Addis Ababa on 25 August 2014, which inter alia: deplored the numerous violations of the agreements signed by the Parties to date, reiterated the need for an inclusive and broad-based approach to negotiations; expressed serious concerns over the worsening humanitarian situation in South Sudan; and called upon the stakeholders to negotiate and complete the agreement on a Transitional Government of National Unity within 45 days,</p>
+      </container>
+      <container name="Taking note" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the Communiqué of the 28th Extraordinary Session of the IGAD Assembly of Heads of State and Government in Addis Ababa on 7 November 2014, which inter alia: resolved that the Government of South Sudan and opposition forces commit to an unconditional, complete and immediate end to all hostilities; invited collective action by the States of the IGAD region to enact asset freezes and travel bans within the region, and denied the supply of arms and ammunition and any other materiel that could be used in war if the Government of South Sudan and opposition forces commit any violation of the cessation of hostilities; and called on the AU PSC, the United Nations Security Council, and the international community to render all possible assistance in the implementation of these measures, should it be necessary to implement these measures, </p>
+      </container>
+      <container name="Taking note" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the 21 January 2015 Agreement on the Reunification of the SPLM, agreed under the aegis of the Government of the United Republic of Tanzania, and 16 February 2015 Communiqué of the Meeting of the SPLM Tripartite Committee on the Implementation of Phase I of the Arusha SLPM Reunification Agreement,</p>
+      </container>
+      <container name="Taking note" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the AU PSC Communiqués dated 5 December 2014 and 29 January 2015 which, inter alia, stressed that sanctions will be imposed against all parties that continue to obstruct the political process and undermine the Cessation of Hostilities Agreement of 23 January 2014, </p>
+      </container>
+      <container name="Welcoming" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the China-mediated “Five-Point Plan” agreed upon by the representatives of the GRSS and the SPLM/A- in Opposition during the Special Consultation in Support of IGAD-led South Sudan Peace Process convened on 12 January in Khartoum, namely: (i) earnestly commit to the full implementation of all signed agreements; (ii) speed up the pace of negotiations towards the formation of a transitional government at an early date; (iii) take concrete steps to relieve the humanitarian situation in conflict-affected areas, and facilitate access of international humanitarian assistance; (iv) ensure the safety of all personnel and assets of all countries and international entities operating in South Sudan; and (v) provide strong support for and take active part in the IGAD-led mediation efforts, and, in this regard, <span class="italic">strongly urging</span> both parties to immediately implement the Five-Point Plan,</p>
+      </container>
+      <container name="Expressing" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> its deep appreciation for the actions taken by the United Nations Mission in South Sudan (UNMISS) peacekeepers and troop- and police-contributing countries to protect civilians, including foreign nationals, under threat of physical violence and to stabilize the security situation, </p>
+      </container>
+      <container name="Recognizing" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the importance of independent and public human rights monitoring, investigation and reporting for its useful role in laying the groundwork for justice, accountability, reconciliation and healing among all South Sudanese communities,</p>
+      </container>
+      <container name="Taking note with interest" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Taking note with interest</span> of the 21 February 2014 UNMISS Interim Human Rights report, and 8 May 2014 UNMISS “Conflict in South Sudan: A Human Rights Report,” and the 19 December 2014 UNMISS “Special Report: Attack on Bentiu, Unity State, 29 October 2014,” 29 October 2014 UNMISS “Special Report: Attack on Bentiu, Unity State” and the 9 January 2015 UNMISS Report on “Attacks on Civilians in Bentiu &amp; Bor”,</p>
+      </container>
+      <container name="Expressing" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> grave concern that, according to the UNMISS 8 May 2014 “Conflict in South Sudan: A Human Rights Report” there are reasonable grounds to believe that crimes against humanity, including extrajudicial killings, rape and other acts of sexual violence, enforced disappearances, and arbitrary detention have been committed by both government and opposition forces, and that war crimes have been committed, and, stressing the urgent and imperative need to end impunity in South Sudan and to bring to justice perpetrators of such crimes,</p>
+      </container>
+      <container name="Stressing" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the importance of accountability, reconciliation, and healing as prominent elements of a transitional agenda while taking note of the important role international investigations, and where appropriate, prosecutions can play with respect to holding those responsible for war crimes and crimes against humanity,</p>
+      </container>
+      <container name="Recognizing" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the work of the African Union Commission of Inquiry (AU COI) in investigating and documenting violations as well as abuses of international human rights law and international humanitarian law in South Sudan, <span class="italic">anticipating with interest</span> its findings and recommendations, <span class="italic">encouraging</span> the public release of its final report as soon as possible, and <span class="italic">welcoming</span> the further engagement of the African Union to ensure justice and accountability, as well as healing and reconciliation for South Sudan,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Strongly condemning</span> the use of media to broadcast hate speech and transmit messages instigating sexual violence against a particular ethnic group, which has the potential to play a significant role in promoting mass violence and exacerbating conflict, and <span class="italic">calling on</span> the Government of the Republic of South Sudan to take appropriate measures to address such activity, and further <span class="italic">urging</span> all parties to desist from these actions and instead contribute to promoting peace and reconciliation among the communities,</p>
+      </container>
+      <container name="Recognizing" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the important role played by civil society organizations, faith leaders, women, and youth in South Sudan, <span class="italic">underscoring</span> the importance of their participation — along with the former SPLM detainees and other political parties — to finding a sustainable solution to the crisis in the country, and <span class="italic">concerned</span> by efforts by the government to limit such participation including by preventing individuals from travelling to join the talks and by increased restrictions of freedom of expression,</p>
+      </container>
+      <container name="Reaffirming" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> all its relevant resolutions on women, peace, and security, on children and armed conflict, and the protection of civilians in armed conflict, as well as resolutions 1502 (2003) on the protection of humanitarian and United Nations personnel, resolution 2150 (2014) on the Prevention and Fight against Genocide, and resolution 2151 (2014) on security sector reform, </p>
+      </container>
+      <container name="Recalling" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> resolutions 1209 (1998) and 2117 (2013) and <span class="italic">expressing grave concern</span> at the threat to peace and security in South Sudan arising from the illicit transfer, destabilizing accumulation and misuse of small arms and light weapons and <span class="italic">emphasizing</span> the importance of strengthening efforts to combat the illicit circulation of such weapons,</p>
+      </container>
+      <container name="Expressing deep concern" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Expressing deep concern</span> at persistent restrictions placed upon the movement and operations of UNMISS, <span class="italic">strongly condemning</span> the attacks by government and opposition forces and other groups on United Nations and IGAD personnel and facilities, the detentions and kidnappings of United Nations and associated personnel and <span class="italic">calling upon</span> the Government of South Sudan to complete its investigations of these attacks in a swift and thorough manner and to hold those responsible to account,</p>
+      </container>
+      <container name="Determining" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in South Sudan continues to constitute a threat to international peace and security in the region, </p>
+      </container>
+      <container name="Acting" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Article 41 of Chapter VII of the Charter of the United Nations, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Endorses</span> the Cessation of Hostilities Agreements (“CoH Agreements”) accepted and signed by the Government of the Republic of South Sudan and SPLM — in Opposition on 23 January 2014, 6 May 2014 and 9 May 2014;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Expresses deep concern</span> at the failures of both parties to honour their commitments to date, to engage the peace process meaningfully toward political resolution of the crisis and to bring an end to the violence and, in particular, <span class="italic">condemns</span> the continued and flagrant violations of the CoH Agreements as documented by the IGAD Monitoring and Verification Mechanism;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> that the parties respect all aspects of the CoH Agreements and immediately implement the necessary modalities in accordance with the 9 May 2014 Agreement and other relevant Agreements, including the progressive withdrawal of foreign forces deployed in South Sudan since 15 December 2013, <span class="italic">calls upon</span> all parties to armed conflict in South Sudan to issue clear orders prohibiting all violations of international humanitarian law and human rights violations and abuses, and <span class="italic">underscores</span> the necessity for all parties to ensure immediate access to humanitarian agencies and further <span class="italic">demands</span> that the parties commit to finding a comprehensive agreement without further delay;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> that there is no military solution to the conflict;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="H23">
+        <subheading>		Sanctions Designation Criteria</subheading>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Underscores</span> its willingness to impose targeted sanctions in order to support the search for an inclusive and sustainable peace in South Sudan;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the provisions of paragraph 9 shall apply to individuals, and that the provisions of paragraph 12 shall apply to individuals and entities, as designated for such measures by the Committee established pursuant to paragraph 16 of this resolution (“the Committee”) pursuant to paragraphs 16 (c) and 16 (d), respectively, as responsible for or complicit in, or having engaged in, directly or indirectly, actions or policies that threaten the peace, security or stability of South Sudan; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>7.</num>
+        <list eId="para_42_list">
+          <intro eId="para_42_list_intro">
+            <p xml:space="preserve">	<span class="italic">Underscores</span> that such actions or policies as described in paragraph 6 above may include, but are not limited to:</p>
+          </intro>
+          <point eId="para_42_list_point_a">
+            <num>(a)</num>
+            <content eId="para_42_list_point_a_content">
+              <p xml:space="preserve">	Actions or policies that have the purpose or effect of expanding or extending the conflict in South Sudan or obstructing reconciliation or peace talks or processes, including breaches of the Cessation of Hostilities Agreement;</p>
+            </content>
+          </point>
+          <point eId="para_42_list_point_b">
+            <num>(b)</num>
+            <content eId="para_42_list_point_b_content">
+              <p xml:space="preserve">	Actions or policies that threaten transitional agreements or undermine the political process in South Sudan;</p>
+            </content>
+          </point>
+          <point eId="para_42_list_point_c">
+            <num>(c)</num>
+            <content eId="para_42_list_point_c_content">
+              <p xml:space="preserve">	Planning, directing, or committing acts that violate applicable international human rights law or international humanitarian law, or acts that constitute human rights abuses, in South Sudan;</p>
+            </content>
+          </point>
+          <point eId="para_42_list_point_d">
+            <num>(d)</num>
+            <content eId="para_42_list_point_d_content">
+              <p xml:space="preserve">	The targeting of civilians, including women and children, through the commission of acts of violence (including killing, maiming, torture, or rape or other sexual violence), abduction, enforced disappearance, forced displacement, or attacks on schools, hospitals, religious sites, or locations where civilians are seeking refuge, or through conduct that would constitute a serious abuse or violation of human rights or a violation of international humanitarian law;</p>
+            </content>
+          </point>
+          <point eId="para_42_list_point_e">
+            <num>(e)</num>
+            <content eId="para_42_list_point_e_content">
+              <p xml:space="preserve">	The use or recruitment of children by armed groups or armed forces in the context of the armed conflict in South Sudan;</p>
+            </content>
+          </point>
+          <point eId="para_42_list_point_f">
+            <num>(f)</num>
+            <content eId="para_42_list_point_f_content">
+              <p xml:space="preserve">	The obstruction of the activities of international peacekeeping, diplomatic, or humanitarian missions in South Sudan, including IGAD’s Monitoring and Verification Mechanism or of the delivery or distribution of, or access to, humanitarian assistance; </p>
+            </content>
+          </point>
+          <point eId="para_42_list_point_g">
+            <num>(g)</num>
+            <content eId="para_42_list_point_g_content">
+              <p xml:space="preserve">	Attacks against United Nations missions, international security presences, or other peacekeeping operations, or humanitarian personnel; or</p>
+            </content>
+          </point>
+          <point eId="para_42_list_point_h">
+            <num>(h)</num>
+            <content eId="para_42_list_point_h_content">
+              <p xml:space="preserve">	Acting for or on behalf of, directly or indirectly, an individual or entity designated by the Committee;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the provisions of paragraphs 9 and 12 shall apply to individuals, as designated for such measures by the Committee who are leaders of any entity, including any South Sudanese government, opposition, militia, or other group, that has, or whose members have, engaged in any of the activities described in paragraphs 6 and 7 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="H23">
+        <subheading>		Travel Ban</subheading>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that, for an initial period of one year from the date of adoption of this resolution, all Member States shall take the necessary measures to prevent the entry into or transit through their territories of any individuals who may be designated by the Committee, provided that nothing in this paragraph shall oblige a State to refuse its own nationals entry into its territory;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that designated individuals may have multiple nationalities or passports, <span class="italic">expresses</span> its concern that travel between the two States of which a designated individual has nationality or a passport may undermine the objectives of the travel ban imposed in paragraph 9, and <span class="italic">requests</span> that the Panel of Experts established in paragraph 18 of this resolution (the “Panel of Experts”) report to the Committee information about such travel;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>11.</num>
+        <list eId="para_50_list">
+          <intro eId="para_50_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that the measures imposed by paragraph 9 above shall not apply:</p>
+          </intro>
+          <point eId="para_50_list_point_a">
+            <num>(a)</num>
+            <content eId="para_50_list_point_a_content">
+              <p xml:space="preserve">	Where the Committee determines on a case-by-case basis that such travel is justified on the grounds of humanitarian need, including religious obligation;</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_b">
+            <num>(b)</num>
+            <content eId="para_50_list_point_b_content">
+              <p xml:space="preserve">	Where entry or transit is necessary for the fulfilment of a judicial process;</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_c">
+            <num>(c)</num>
+            <content eId="para_50_list_point_c_content">
+              <p xml:space="preserve">	Where the Committee determines on a case-by-case basis that an exemption would further the objectives of peace and national reconciliation in South Sudan and stability in the region;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_51" class="H23">
+        <subheading>		Asset Freeze</subheading>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that, for an initial period of one year from the date of adoption of this resolution, all Member States shall freeze without delay all funds, other financial assets and economic resources which are on their territories, which are owned or controlled, directly or indirectly, by any individuals or entities that may be designated by the Committee, or by any individuals or entities acting on their behalf or at their direction, or by entities owned or controlled by them, and <span class="italic">decides</span> further that all Member States shall for this initial period ensure that neither these nor any other funds, financial assets or economic resources are made available, directly or indirectly for such persons’ benefit, by their nationals or by persons within their territory;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>13.</num>
+        <list eId="para_53_list">
+          <intro eId="para_53_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that the measures imposed by paragraph 12 above do not apply to funds, other financial assets or economic resources that have been determined by relevant Member States:</p>
+          </intro>
+          <point eId="para_53_list_point_a">
+            <num>(a)</num>
+            <content eId="para_53_list_point_a_content">
+              <p xml:space="preserve">	To be necessary for basic expenses, including payment for foodstuffs, rent or mortgage, medicines and medical treatment, taxes, insurance premiums, and public utility charges or exclusively for payment of reasonable professional fees and reimbursement of incurred expenses associated with the provision of legal services in accordance with national laws, or fees or service charges, in accordance with national laws, for routine holding or maintenance of frozen funds, other financial assets and economic resources, after notification by the relevant State to the Committee of the intention to authorize, where appropriate, access to such funds, other financial assets or economic resources and in the absence of a negative decision by the Committee within five working days of such notification;</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_b">
+            <num>(b)</num>
+            <content eId="para_53_list_point_b_content">
+              <p xml:space="preserve">	To be necessary for extraordinary expenses, provided that such determination has been notified by the relevant State or Member States to the Committee and has been approved by the Committee; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_c">
+            <num>(c)</num>
+            <content eId="para_53_list_point_c_content">
+              <p xml:space="preserve">	To be the subject of a judicial, administrative or arbitral lien or judgment, in which case the funds, other financial assets and economic resources may be used to satisfy that lien or judgment provided that the lien or judgment was entered into prior to the date of the present resolution, is not for the benefit of a person designated by the Committee, and has been notified by the relevant State or Member States to the Committee; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that Member States may permit the addition to the accounts frozen pursuant to the provisions of paragraph 12 above of interest or other earnings due on those accounts or payments due under contracts, agreements or obligations that arose prior to the date on which those accounts became subject to the provisions of this resolution, provided that any such interest, other earnings and payments continue to be subject to these provisions and are frozen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the measures in paragraph 12 above shall not prevent a designated person from making payment due under a contract entered into prior to the listing of such a person, provided that the relevant States have determined that the payment is not directly or indirectly received by a person designated pursuant to paragraph 12 above, and after notification by the relevant States to the Committee of the intention to make or receive such payments or to authorize, where appropriate, the unfreezing of funds, other financial assets or economic resources for this purpose, ten working days prior to such authorization;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="H23">
+        <subheading>		Sanctions Committee/Panel of Experts</subheading>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>16.</num>
+        <list eId="para_60_list">
+          <intro eId="para_60_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> to establish, in accordance with rule 28 of its provisional rules of procedure, a Committee of the Security Council consisting of all the members of the Council (herein “the Committee”), to undertake the following tasks:</p>
+          </intro>
+          <point eId="para_60_list_point_a">
+            <num>(a)</num>
+            <content eId="para_60_list_point_a_content">
+              <p xml:space="preserve">	To monitor implementation of the measures imposed by paragraphs 9 and 12 of this resolution with a view to strengthening, facilitating and improving implementation of these measures by Member States; </p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_b">
+            <num>(b)</num>
+            <content eId="para_60_list_point_b_content">
+              <p xml:space="preserve">	To seek and review information regarding those individuals and entities who may be engaging in the acts described in paragraph 6 and 7 above; </p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_c">
+            <num>(c)</num>
+            <content eId="para_60_list_point_c_content">
+              <p xml:space="preserve">	To designate individuals subject to the measures imposed by paragraph 9 above and to consider requests for exemptions in accordance with paragraph 11 above; </p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_d">
+            <num>(d)</num>
+            <content eId="para_60_list_point_d_content">
+              <p xml:space="preserve">	To designate individuals and entities subject to the measures imposed by paragraph 12 above, and to consider requests for exemptions in paragraph 13 above;</p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_e">
+            <num>(e)</num>
+            <content eId="para_60_list_point_e_content">
+              <p xml:space="preserve">	To establish such guidelines as may be necessary to facilitate the implementation of the measures imposed above; </p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_f">
+            <num>(f)</num>
+            <content eId="para_60_list_point_f_content">
+              <p xml:space="preserve">	To report within 60 days to the Security Council on its work and thereafter to report as deemed necessary by the Committee; </p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_g">
+            <num>(g)</num>
+            <content eId="para_60_list_point_g_content">
+              <p xml:space="preserve">	To encourage a dialogue between the Committee and interested Member States, in particular those in the region, including by inviting representatives of such States to meet with the Committee to discuss implementation of the measures; </p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_h">
+            <num>(h)</num>
+            <content eId="para_60_list_point_h_content">
+              <p xml:space="preserve">	To seek from all States whatever information it may consider useful regarding the actions taken by them to implement effectively the measures imposed; and,</p>
+            </content>
+          </point>
+          <point eId="para_60_list_point_i">
+            <num>(i)</num>
+            <content eId="para_60_list_point_i_content">
+              <p xml:space="preserve">	To examine and take appropriate action on information regarding alleged violations or non‑compliance with the measures contained in this resolution;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all Member States to report to the Committee ninety days from the adoption of this resolution on the steps they have taken to implement effectively paragraphs 9 and 12 of this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>18.</num>
+        <list eId="para_63_list">
+          <intro eId="para_63_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests </span>the Secretary-General to create for an initial period, thirteen months from the adoption of this resolution, in consultation with the Committee, a group of up to five experts (“Panel of Experts”), under the direction of the Committee, and to make the necessary financial and security arrangements to support the work of the Panel, <span class="italic">expresses</span> its intent to consider the renewal of this mandate no later than March 2, 2016, and <span class="italic">decides</span> that the Panel shall carry out the following tasks:</p>
+          </intro>
+          <point eId="para_63_list_point_a">
+            <num>(a)</num>
+            <content eId="para_63_list_point_a_content">
+              <p xml:space="preserve">	Assist the Committee in carrying out its mandate as specified in this resolution, including through providing the Committee with information relevant to the potential designation of individuals and entities who may be engaging in the activities described in paragraphs 6 and 7 above;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_b">
+            <num>(b)</num>
+            <content eId="para_63_list_point_b_content">
+              <p xml:space="preserve">	Gather, examine and analyse information regarding the implementation of the measures decided in this resolution, in particular incidents of non‑compliance, with particular focus on the benchmarks outlined in paragraphs 21 and 22 below;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_c">
+            <num>(c)</num>
+            <content eId="para_63_list_point_c_content">
+              <p xml:space="preserve">	Gather, examine and analyse information regarding the supply, sale or transfer of arms and related materiel and related military or other assistance, including through illicit trafficking networks, to individuals and entities undermining political processes to reach a final peace agreement or participating in acts that violate international human rights law or international humanitarian law, as applicable; </p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_d">
+            <num>(d)</num>
+            <content eId="para_63_list_point_d_content">
+              <p xml:space="preserve">	Provide to the Council, after discussion with the Committee, an interim report by September 1, 2015, a final report by February 1, 2016, and except in the months when these reports are due, updates each month; and,</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_e">
+            <num>(e)</num>
+            <content eId="para_63_list_point_e_content">
+              <p xml:space="preserve">	Assist the Committee in refining and updating information on the list of individuals and entities subject to the measures imposed by this resolution, including through the provision of identifying information and additional information for the publicly-available narrative summary of reasons for listing;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all parties and all Member States, as well as international, regional and subregional organizations to ensure cooperation with the Panel of Experts and <span class="italic">further urges</span> all Member States involved to ensure the safety of the members of the Panel of Experts and unhindered access, in particular to persons, documents and sites in order for the Panel of Experts to execute its mandate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Special Representative of the Secretary-General for Children and Armed Conflict and the Special Representative for Sexual Violence in Conflict to share relevant information with the Committee in accordance with paragraph 7 of resolution 1960 (2010) and paragraph 9 of resolution 1998 (2011);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="H23">
+        <subheading>		Review</subheading>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its intent to review the situation after the IGAD-agreed deadline of March 5, 2015, and again after the envisioned start of the Pre-Transition Period on April 1, 2015, and at 60-day intervals thereafter or more frequently, as needed, and also expresses its intent to impose any sanctions that may then be appropriate to respond to the situation, which may include an arms embargo and the designation of senior individuals responsible for actions or policies that threaten the peace, security or stability of South Sudan, so as to encourage the Government of South Sudan and opposition forces to form a transitional government of national unity, take effective and comprehensive steps to cause forces under direct or indirect control to cease military operations, acts of violence, as well as violations of human rights, and enable full access for humanitarian assistance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> also that it shall be prepared to adjust the measures contained in this resolution, including by strengthening through additional measures, as well as modification, suspension or lifting of the measures, as may be needed at any time in light of the progress achieved in the peace, accountability, and reconciliation process, and in light of the implementation of the parties’ commitments, including the Cessation of Hostilities Agreement and other commitments specified in the preamble of this resolution, and compliance with this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

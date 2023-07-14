@@ -1,0 +1,973 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2217-2015/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2217-2015/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2217-2015/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2217-2015/eng@/"></FRBRuri>
+          <FRBRdate date="2015-04-28" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2217-2015/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2217-2015/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-20" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Communauté économique des Etats de l'Afrique centrale" showAs="Communauté économique des Etats de l'Afrique centrale" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Multidimensional Integrated Stabilization Mission in the Central African Republic" showAs="UN Multidimensional Integrated Stabilization Mission in the Central African Republic" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POLITICAL CONDITIONS" showAs="POLITICAL CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISARMAMENT" showAs="DISARMAMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY DEMOBILIZATION" showAs="MILITARY DEMOBILIZATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL INTEGRATION" showAs="SOCIAL INTEGRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SECURITY SECTOR REFORM" showAs="SECURITY SECTOR REFORM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RULE OF LAW" showAs="RULE OF LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NATURAL RESOURCES" showAs="NATURAL RESOURCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFF SECURITY" showAs="STAFF SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[227]" showAs="UN MULTIDIMENSIONAL INTEGRATED STABILIZATION MISSION IN THE CENTRAL AFRICAN REPUBLIC" dictionary="S/70"></keyword>
+        <keyword refersTo="agenda" value="[181]" showAs="CENTRAL AFRICAN REPUBLIC SITUATION" dictionary="S/70"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2217 (2015) [on extension of the mandate of the UN Multidimensional Integrated Stabilization Mission in the Central African Republic (MINUSCA) until 30 Apr. 2016]" showAs="Security Council resolution 2217 (2015) [on extension of the mandate of the UN Multidimensional Integrated Stabilization Mission in the Central African Republic (MINUSCA) until 30 Apr. 2016]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2015-04-28" outcome="draftResolution" as="S/2015/290" by="Angola, Chad, Chile, France, Jordan, Lithuania, Nigeria, Spain, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2015-04-28" outcome="adopted" as="S/PV.7434" by="Adopted unanimously, 7434th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">VENEZUELA (BOLIVARIAN REPUBLIC OF)</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2217 (2015)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2015-04-28" class="rightSmall" refersTo="#dateOfIssuance">28 April 2015</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2217 (2015)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its previous resolutions and statements on the Central African Republic (CAR), in particular resolutions 2121 (2013), 2127 (2013), 2134 (2014), 2149 (2014), 2181 (2014), 2196 (2015) and 2212 (2015),</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, unity and territorial integrity of the CAR, and recalling the importance of the principles of non‑interference, good-neighbourliness and regional cooperation,</p>
+      </container>
+      <container name="Reaffirming" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the basic principles of peacekeeping, including consent of the parties, impartiality, and non‑use of force, except in self-defence and defence of the mandate, and <span class="italic">recognizing</span> that the mandate of each peacekeeping mission is specific to the need and situation of the country concerned,</p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> that the Central African Republic authorities have the primary responsibility to protect all populations in the CAR in particular from genocide, war crimes, ethnic cleansing and crimes against humanity,</p>
+      </container>
+      <container name="Emphasizing" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> that any sustainable solution to the crisis in the CAR should be CAR-owned, including the political process, and should prioritize reconciliation of the Central African people,</p>
+      </container>
+      <container name="Further emphasizing" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Further emphasizing</span> that the continued role of the region, including the Chair of the Economic Community of Central African States (ECCAS) and its Mediator, as well as the African Union and the United Nations as members of the Mediation, remains critical for the promotion of lasting peace and stability in the CAR, and reiterates its appreciation for their ongoing efforts in this regard,</p>
+      </container>
+      <container name="Commending" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the African-led International Support Mission to the Central African Republic (MISCA), Sangaris and EUFOR RCA for the work done in laying the foundation for increased security ahead of and in support of the United Nations Integrated Multi-dimensional Mission in the Central African Republic (MINUSCA)’s deployment, commending also the transition from MISCA to MINUSCA on 15 September 2014, </p>
+      </container>
+      <container name="Noting with concern" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Noting with concern</span>, however, that while improving, the security situation in the CAR remains fragile, </p>
+      </container>
+      <container name="Condemning" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> the multiple violations of international humanitarian law and the widespread human rights violations and abuses, including those involving extrajudicial killings, enforced disappearances, arbitrary arrests and detention, torture, sexual violence against women and children, rape, recruitment and use of children and attacks against civilians, looting and destruction of property and attacks against places of worship, denial of humanitarian access, deliberate attacks against national and international personnel of humanitarian organisations, United Nations personnel and its associated personnel, and humanitarian assets, including supplies, facilities and transports committed by both former Seleka elements and militia groups, in particular the “anti‑Balaka”, </p>
+      </container>
+      <container name="Welcoming" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the submission of the report (<a href="http://undocs.org/S/2014/928">S/2014/928</a>) of the International Commission of Inquiry established by resolution 2127 (2013), noting with concern its finding that the main parties to the conflict, including ex-Seleka the anti‑Balaka, and elements from the CAR Armed Forces (FACA) who collaborated with armed groups committed violations of international humanitarian law and human rights violations and abuses since 1st January 2013, that may amount to war crimes and crimes against humanity, including ethnic cleansing by elements of the anti‑balaka militia, </p>
+      </container>
+      <container name="Condemning" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> in the strongest terms all attacks and provocations against MINUSCA contingents and other international forces by armed groups, underlining that attacks targeting peacekeepers may constitute war crimes, reminding all parties of their obligations under international humanitarian law and urging the CAR Transitional Authorities to take all possible measures to ensure the arrest and prosecution of perpetrators, </p>
+      </container>
+      <container name="Stressing" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the urgent and imperative need to end impunity in the CAR and to bring to justice perpetrators of violations of international humanitarian law and of abuses and violations of human rights, <span class="italic">underlining</span> in this regard the need to bolster national accountability mechanisms, and <span class="italic">underlining</span> its support for the work of the Independent Expert on human rights in the CAR,</p>
+      </container>
+      <container name="Welcoming" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> in this regard the Transitional Authorities’ efforts, in particular the adoption of the relevant legislation, to establish a Special Criminal Court within the national judicial system, with jurisdiction over serious violations of human rights and of international humanitarian law, consistent with the CAR’s international humanitarian law and international human rights law obligations,</p>
+      </container>
+      <container name="Urging" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Urging</span> the national authorities to take all appropriate steps to implement the law establishing a national Special Criminal Court, and reiterating the primary responsibility of the national authorities to ensure a conducive environment for the effective and independent investigation, prosecution and adjudication of all cases by the Special Criminal Court and its effective contribution to peace, justice and reconciliation in the country,</p>
+      </container>
+      <container name="Emphasizing" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the fact that the current security situation in the CAR provides a conducive environment for transnational criminal activity, such as that involving arms trafficking and the use of mercenaries as well as a potential breeding ground for radical networks,</p>
+      </container>
+      <container name="Acknowledging" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> in this respect the important contribution the Council-mandated arms embargo can make to countering the illicit transfer of arms and related materiel in the CAR and the region, and in supporting post-conflict peacebuilding, disarmament, demobilization and reintegration and security sector reform, and <span class="italic">recalling</span> its resolution 2196 (2015) and expressing grave concern at the threat to peace and security in the CAR arising from the illicit transfer, destabilizing accumulation and misuse of small arms and light weapons, and the use of such weapons against civilians affected by armed conflict,</p>
+      </container>
+      <container name="Reiterating" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> that illicit trade, exploitation and smuggling of natural resources including gold, diamonds and wildlife poaching and trafficking continues to threaten the peace and stability of the CAR,</p>
+      </container>
+      <container name="Emphasizing" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> that the targeted sanctions renewed by resolution 2196 (2015) aim at, inter alia, individuals and entities designated by the Committee as engaging in or providing support for acts that undermine the peace, stability or security of the CAR, that impede the political transition process or that fuel violence and at individuals and entities designated by the Committee as involved in planning, directing, or committing acts that violate international human rights law or international humanitarian law or that constitute human rights abuses or violations,</p>
+      </container>
+      <container name="Expressing concern" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> about reported travel by individuals designated pursuant to UNSC resolution 2127 (2013) and <span class="italic">noting</span> the critical importance of effective implementation of the sanctions regime, including the key role that neighbouring States, as well as regional and subregional organizations, can play in this regard and encouraging efforts to further enhance cooperation,</p>
+      </container>
+      <container name="Reiterating" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its serious concern at the dire humanitarian situation in the CAR, and emphasizing in particular the humanitarian needs of the more than 435,000 internally displaced persons (IDPs), of the thousands of civilians trapped in enclaves, and of the more than 450,000 refugees in neighbouring countries, a large number of whom are Muslim, and further <span class="italic">expressing</span> concern at the consequences of the flow of refugees on the situation in Chad, Cameroon and the Democratic Republic of the Congo, as well as other countries of the region,</p>
+      </container>
+      <container name="Recalling" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the responsibility of the Transitional Authorities to protect and promote the right to freedom of movement of all people in the CAR, including IDPs, without distinction, their freedom to choose where to reside, and to comply with their right to return to their own country or to leave in order to seek asylum in other States,</p>
+      </container>
+      <container name="Urging" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Urging</span> all parties to take the necessary steps to ensure the safety and security of humanitarian personnel, of United Nations and associated personnel and of United Nations installation, equipment and goods,</p>
+      </container>
+      <container name="Reiterating also its appreciation for" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Reiterating also its appreciation for</span> the efforts of the International Contact Group on the CAR, co-chaired by the AU and the Republic of Congo, taking note of the decision of the International Mediator in the CAR crisis, in accordance with the transitional national charter, to extend the transition for six months, until 15 August 2015, <span class="italic">welcoming</span> the communiqué issued at its 7th meeting held in Brazzaville, on 16 March 2015, and <span class="italic">encouraging</span> all stakeholders to pursue their efforts,</p>
+      </container>
+      <container name="Welcoming" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the commitment of the CAR Transitional Authorities to complete the transition process, including on reconciliation aspects, and calling upon the Transitional Authorities and the National Elections Authority, in accordance with the transitional national charter, to swiftly take the necessary steps to accelerate the preparation of the electoral process with a view to holding as a matter of urgency and as soon as possible the free, fair, and credible elections currently scheduled to take place by August 2015, </p>
+      </container>
+      <container name="Welcoming" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the holding of, and local participation in, grassroots consultations throughout the country between 21 January and 8 March 2015, which enabled thousands of people in the CAR to express their views on the future of their country, </p>
+      </container>
+      <container name="Recognizing" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the work of the Bangui Forum Preparatory Committee, and welcoming the setting of the date for the Bangui Forum, which is a critical step in the political transition process and offers an opportunity to address issues that are of critical importance to the future of the country, including peace and security, justice and reconciliation, governance and economic and social development,</p>
+      </container>
+      <container name="Welcoming" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the joint action of some domestic religious leaders at the national level in trying to pacify relations and end violence between religious communities and <span class="italic">noting</span> the need to amplify their voices at the local level, </p>
+      </container>
+      <container name="Recalling" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the need for an inclusive and effective disarmament, demobilization and reintegration process (DDR) as well as repatriation (DDRR) in the case of foreign fighters, including children formerly associated with armed forces and groups, while respecting the need to fight against impunity,</p>
+      </container>
+      <container name="Underlining" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the need to support national, and to coordinate international, efforts towards rebuilding the security sector in the CAR and <span class="italic">stressing</span> the important role of the internal security forces (police and gendarmerie) in the restoration of security in the CAR,</p>
+      </container>
+      <container name="Welcoming" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> in this regard the launching by the European Union (EU) of a military advice mission based in Bangui (EUMAM-RCA), which will support, at their request, the CAR Transitional Authorities, and will work closely with MINUSCA, by providing expert advice on reforming the FACA into a multi-ethnic, professional, and republican armed forces,</p>
+      </container>
+      <container name="Recalling" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions 1265 (1999), 1296 (2000), 1674 (2006), 1738 (2006) and 1894 (2009) on the protection of civilians in armed conflict, its resolutions 1612 (2005), 1882 (2009), 1998 (2011), 2068 (2012) and 2143 (2014) on Children and Armed Conflict and its resolutions 1325 (2000), 1820 (2008), 1888 (2009), 1889 (2009), 1960 (2010), 2106 (2013) and 2122 (2013) on Women, Peace and Security and calling upon all parties in the CAR to engage with the Special Representative on Children and Armed Conflict and the Special Representative on Sexual Violence in Conflict, </p>
+      </container>
+      <container name="Expressing its concern" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Expressing its concern</span> that children have continued to be victims of abuses committed by armed elements of the ex-Séléka and anti‑Balaka as well as the Lord’s resistance army, and that women continue to be violently targeted and victims of sexual and gender based violence in the CAR, </p>
+      </container>
+      <container name="Expressing serious concern" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Expressing serious concern</span> about the dire situation of persons with disabilities in the CAR, including abandonment, violence and lack of access to basic services, and <span class="italic">emphasizing</span> the need to ensure that the particular needs of persons with disabilities are addressed in the humanitarian response,</p>
+      </container>
+      <container name="Commending" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the ongoing role and contribution of the African Union (AU) to the stabilization of the CAR and welcoming the deployment of AU advisors to support the victims of sexual violence in the CAR,</p>
+      </container>
+      <container name="Welcoming" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the strong engagement of the European Union (EU) for the CAR, and further <span class="italic">welcoming</span> the contribution of the United States of America and of other Member States to the stabilization of the CAR,</p>
+      </container>
+      <container name="Encouraging" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Encouraging</span> the international community to swiftly follow through on pledges to continue providing support in response to the humanitarian situation in CAR, and to prepare for reconstruction with an approach linking relief, rehabilitation and development (LRRD),</p>
+      </container>
+      <container name="Calling on" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Calling on</span> international partners to assist the Transitional Authorities in building the institutional capacity of national police and customs authorities to effectively monitor the borders and points of entry, including to support the implementation of the measures renewed and modified by paragraph 1 of resolution 2196 (2015) and the disarmament and repatriation of foreign armed elements, </p>
+      </container>
+      <container name="Welcoming" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the World Bank’s plan for 2014 presented at the Central African Republic Peacebuilding Commission Country-Specific Configuration meeting on  19 February 2014 and strongly <span class="italic">encouraging</span> international financial institutions to continue to engage with the Transitional Authorities, and to increase their commitments to support the Transitional Authorities,</p>
+      </container>
+      <container name="Calling on" eId="container_40">
+        <p xml:space="preserve">	<span class="italic">Calling on</span> international partners to urgently provide financial contributions to support national dialogue and reconciliation, the preparation of elections, the extension of State authority, accountability, DDR/R and security sector reform (SSR) processes, as well as the restoration of the judicial and penal chains in order to fight against impunity,</p>
+      </container>
+      <container name="Underlining" eId="container_41">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the role of the Peace Building Commission CAR configuration in supporting the efforts of the Transitional Authorities towards national dialogue and reconciliation process, elections, accountability, as well as in addressing challenges facing the country, through mobilizing and sustaining the attention and commitment of partners’ efforts as well as the Peacebuilding Fund,</p>
+      </container>
+      <container name="Commending" eId="container_42">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the Transitional Authorities for the work done to balance the national budget and calls on them to continue their effort to strengthen public financial management, transparency and accountability, which will help create a conducive environment for the international community to increase budget and development support in 2015, </p>
+      </container>
+      <container name="Stressing" eId="container_43">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the need to implement MINUSCA’s mandate, based on the prioritization of tasks, and, when relevant, in a phased manner, </p>
+      </container>
+      <container name="Welcoming" eId="container_44">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the Secretary-General’s report of 1 April 2015 (<a href="http://undocs.org/S/2015/227">S/2015/227</a>),</p>
+      </container>
+      <container name="Taking note" eId="container_45">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the letter to the Security Council dated 8 April 2014, by which the President of the CAR conveyed views regarding MINUSCA’s mandate in terms of protection of civilians and urgent temporary Measures,</p>
+      </container>
+      <container name="Determining" eId="container_46">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in the CAR continues to constitute a threat to international peace and security in the region,</p>
+      </container>
+      <container name="Acting" eId="container_47">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_48" class="H4">
+        <subheading>		Political process</subheading>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its support to the Transitional Authorities under the leadership of Catherine Samba-Panza as Transitional Head of State, welcomes their commitment to complete the transition process and reiterates its call upon them to further accelerate its completion;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its support for the Libreville Agreements of 11 January 2013, the N’Djamena Declaration of 18 April 2013, the Constitutional Charter for the Transition of 18 July 2013 as well as the Cessation of Hostilities agreement signed in Brazzaville, Republic of the Congo, on 23 July 2014;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the important role of the region through the active leadership of the Economic Community of Central African States (ECCAS), in particular the mediation by the Republic of the Congo, and <span class="italic">encourages</span> ECCAS, through its Chairperson and its Mediator to continue to support the political transition process in the CAR outlined in the above-mentioned Declaration and agreements;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the initial measures taken by the AU and ECCAS to restore peace and stability in the CAR;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> that all militias and non‑state armed groups lay down their arms, cease all forms of violence and destabilizing activities immediately and release children from their ranks;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the Transitional Authorities and CAR stakeholders for the work done in revitalizing the political and reconciliation process in order to lay the ground for a sustainable end to the conflict, <span class="italic">welcomes</span> recent efforts by the Transitional Authorities to gather views of local citizens in advance of the Bangui Forum on National Reconciliation by holding inclusive grassroots level consultations, underlines the importance of the Forum to promote peace and stability, in particular through the signing of an agreement on the disarmament of armed groups, and further recalls the crucial role of civil society in the peace and reconciliation process;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the submission by Member States of listing requests to the Committee established by paragraph 57 of resolution 2127 (2013), including detailed evidentiary support for each request, of individuals and entities engaging in or providing support for acts that undermine the peace, stability or security of the CAR, that impede the transition process or that fuel violence; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the Transitional Authorities, as well as the National Elections Authority (NEA), in accordance with the transitional national charter, to accelerate the preparations in order to hold as a matter of urgency and as soon as possible the free, fair, transparent and inclusive presidential and legislative elections currently scheduled to take place by August 2015, ensuring the full, effective and equal participation of women, IDPs and CAR refugees, the return of whom should be an important objective;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> all actors in the CAR to respect the Transitional Constitutional Charter, particularly with respect to the preparation and holding of elections, including regarding candidate ineligibility;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the CAR transitional authorities, with the support of MINUSCA and EUMAM-RCA, to adopt a strategy for a comprehensive reform of the CAR Armed Forces (FACA) and internal security forces (police and gendarmerie) in order to put in place professional, ethnically representative and regionally balanced national defence and internal security forces, including through the adoption of appropriate human rights vetting procedures of all defence and security personnel as well as measures to absorb elements of armed groups meeting, rigorous selection and vetting criteria, and requests the Secretary-General to report to the Council on progress taken in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> the Central African authorities to take concrete steps, without delay and as a matter of priority, to strengthen justice institutions and to fight impunity in order to contribute to stabilization and reconciliation, and in this regard to swiftly implement the law establishing the Special Criminal Court; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">Also calls on</span> the Transitional Authorities to continue their efforts to redeploy State administration in the provinces, including through the effective restoration of the administration of the judiciary and the criminal justice system throughout the country, with the support of the international community;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> Member States, international and regional organizations to urgently provide support to the Transitional Authorities for the conduct of the transition and subsequent reforms, including contributions for the payment of salaries and other needs for the restoration of the State authority over the whole territory, as well as for the holding of elections through the UN trust fund, for the upcoming DDR/R and SSR programmes and for the restoration of the judiciary and the criminal justice system including the Special Criminal Court;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Transitional Authorities, with the support of the international community, in particular with IFIs leading international efforts, to keep consolidating, based on critical peace and State building goals, public financial management and accountability, including revenue collection, expenditure controls, public procurement and concession practices building on relevant international experiences and in a manner that fosters national ownership and respects the sovereignty of the CAR; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="H4">
+        <subheading>		Human rights</subheading>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> the urgent and imperative need to hold accountable all perpetrators of violations of international humanitarian law and human rights violations and abuses, irrespective of their status or political affiliation, and reiterates that some of those acts may amount to crimes under the Rome Statute of the International Criminal Court (ICC), to which the CAR is a State party; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_143" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_143__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the decision made by the Prosecutor of the ICC on 24 September 2014 to open, following the request of the national authorities, an investigation into alleged crimes committed since 2012, and <span class="italic">welcomes</span> the ongoing cooperation of the Transitional Authorities in this regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_145" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_145__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all parties to armed conflict in the CAR, including former Séléka elements and anti‑Balaka elements, to issue clear orders prohibiting all violations and abuses committed against children, in violation of applicable international law, including those involving their recruitment and use, rape and sexual violence, killing and maiming, abductions and attacks on schools and hospitals and further <span class="italic">calls upon</span> the Transitional Authorities to investigate swiftly alleged violations and abuses in order to hold perpetrators accountable and to ensure that those responsible for such violations and abuses are excluded from the security sector;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its demands that all parties protect and consider as victims those children who have been released or otherwise separated from armed forces and armed groups, and emphasizes the need to pay particular attention to the protection, release and reintegration of all children associated with armed forces and armed groups;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_152" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_152__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all parties to armed conflict in the CAR, including former Séléka and anti‑Balaka elements, to issue clear orders against sexual and gender based violence, and further calls upon the Transitional Authorities to investigate swiftly alleged abuses in order to hold perpetrators accountable, in line with its resolutions 1960 (2010) and 2106 (2013), to ensure that those responsible for such crimes are excluded from the security sector and prosecuted, and to facilitate immediate access for victims of sexual violence to available services;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_153" class="H4">
+        <subheading>		Peacekeeping Operation</subheading>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the transition of authority from MISCA to MINUSCA on  15 September 2014 and <span class="italic">welcomes</span> the re-hatting of former MISCA troops and police under MINUSCA;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_155" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_155__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the work of the Special Representative of the Secretary-General (SRSG) Babacar Gaye and <span class="italic">takes note</span> of the increased deployment of MINUSCA’s military, police and civilian components; the Mission’s initial work in implementing its mandate; and the establishment of the Bangui Task Force to ensure the stabilization of the capital;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend the mandate of MINUSCA until 30 April 2016; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that MINUSCA has an authorized troop ceiling of 10,750 military personnel, including 480 Military Observers and Military Staff Officers and 2,080 police personnel, including 400 Individual Police Officers and 40 corrections officers, recalls its intention to keep this number under continuous review in particular for the additional troops authorized by resolution 2212 (2015), <span class="italic">calls upon</span> Member States to provide troops and police with adequate capabilities and equipment in order to enhance the capacity of MINUSCA to operate and discharge its responsibilities effectively and <span class="italic">requests</span> the Secretary-General to accelerate the recruitment of qualified staff, who have the competencies, education, work experience and language skills appropriate to the tasks defined under applicable competency areas in paragraphs 32 to 34 below, bearing in mind the need to convey information and provide technical assistance in the most accessible manner to the desired audience; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to take all possible steps, including through the full use of existing authorities and at his discretion, to accelerate the deployments of MINUSCA’s civilian, police and military capabilities in the CAR, in order to best respond to the Council’s expectations and the needs of the CAR population and <span class="italic">requests</span> the Secretary-General to take the necessary steps to have MINUSCA reach its full operational capacity and ability to discharge its mandate over the entire territory of the CAR as soon as technically and logistically possible, with no further delay, including to regions in eastern CAR; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_169" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_169__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span>, to this end, the former MISCA troop and police contributing countries that have been re-hatted under MINUSCA to expedite the procurement and deployment of remaining additional contingent-owned equipment, in order to comply with United Nations standards for troops and police;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_175__content">
+          <p xml:space="preserve">	<span class="italic">Further urges</span> the Secretariat to continue to explore, on the basis of need, the use of specialized police teams together with specialized required equipment, for police and gendarmerie capacity building and development and operational support; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_182" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_182__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> that the Secretary-General and his Special Representative take the necessary steps to reinforce the capacity of the police component of MINUSCA and in particular the Bangui task force, within the authorized troop ceiling, including through the strengthening of the chain of command, the acceleration of the deployment across the whole territory and the recruitment and deployment of personnel trained for stabilization tasks in challenging urban environments; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_190" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_190__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the importance of expediting the deployment of the civilian component of MINUSCA in order to support the actions of the police and military components based on the needs of the mission;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> MINUSCA and all relevant United Nations bodies, to ensure unhindered access for the Panel of Experts, in particular to persons, documents and sites within their control in order for the Panel to execute its mandate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_209" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_209__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that MINUSCA’s mandate should be implemented based on a prioritization of tasks established in paragraphs 32 to 34 of this resolution, and, when relevant, in a phased manner, and further requests the Secretary-General to reflect this prioritization in the deployment and in the allocation of resources to the mission;	</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	<span class="italic">Authorizes</span> MINUSCA to take all necessary means to carry out its mandate within its capabilities and areas of deployment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_232" class="SingleTxt">
+        <num>32.</num>
+        <list eId="para_232_list">
+          <intro eId="para_232_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that the mandate of MINUSCA shall include the following immediate priority tasks:</p>
+          </intro>
+          <point eId="para_232_list_point_a">
+            <num>(a)</num>
+            <content eId="para_232_list_point_a_content">
+              <p xml:space="preserve">	<span class="italic">Protection of civilians</span></p>
+            </content>
+          </point>
+          <sublist eId="para_232_list_point_a_sublist">
+            <point eId="para_232_list_point_a_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_232_list_point_a_sublist_point_i_content">
+                <p xml:space="preserve">	To protect, without prejudice to the primary responsibility of the CAR authorities, the civilian population from threat of physical violence, within its capabilities and areas of deployment, including through active patrolling, and to mitigate risks to civilians posed by its military operations;</p>
+              </content>
+            </point>
+            <point eId="para_232_list_point_a_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_232_list_point_a_sublist_point_ii_content">
+                <p xml:space="preserve">	To provide specific protection for women and children affected by armed conflict, including through the deployment of Child Protection Advisers, Women Protection Advisers and Gender Advisers;</p>
+              </content>
+            </point>
+            <point eId="para_232_list_point_a_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_232_list_point_a_sublist_point_iii_content">
+                <p xml:space="preserve">	To identify and record threats and attacks against the civilian population, including through regular interaction with the civilian population and working closely with humanitarian and human rights organizations; </p>
+              </content>
+            </point>
+            <point eId="para_232_list_point_a_sublist_point_iv">
+              <num>(iv)</num>
+              <content eId="para_232_list_point_a_sublist_point_iv_content">
+                <p xml:space="preserve">	To fully implement and deliver, in close consultation with humanitarian and human rights organizations and other relevant partners, the mission-wide protection strategy;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_232_list_point_b">
+            <num>(b)</num>
+            <content eId="para_232_list_point_b_content">
+              <p xml:space="preserve">	<span class="italic">Support for the implementation of the transition process, the extension of State authority and the preservation of territorial integrity</span></p>
+            </content>
+          </point>
+          <sublist eId="para_232_list_point_b_sublist">
+            <point eId="para_232_list_point_b_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_232_list_point_b_sublist_point_i_content">
+                <p xml:space="preserve">	To take a leading role in international efforts to assist the Transitional Authorities working with ECCAS, the AU, the United Nations regional office for Central Africa (UNOCA), relevant stakeholders and the international community to devise, facilitate, coordinate and provide technical assistance to the successful and timely completion of the political transition;</p>
+              </content>
+            </point>
+            <point eId="para_232_list_point_b_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_232_list_point_b_sublist_point_ii_content">
+                <p xml:space="preserve">	To provide good offices and political support for the efforts to address root causes of the conflict and establish lasting peace and security in the CAR;</p>
+              </content>
+            </point>
+            <point eId="para_232_list_point_b_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_232_list_point_b_sublist_point_iii_content">
+                <p xml:space="preserve">	To provide appropriate support, in coordination with the Transitional Authorities, and based on the risks on the ground, for the provision of security for key national stakeholders, including members of the Transitional Government; </p>
+              </content>
+            </point>
+            <point eId="para_232_list_point_b_sublist_point_iv">
+              <num>(iv)</num>
+              <content eId="para_232_list_point_b_sublist_point_iv_content">
+                <p xml:space="preserve">	To assist the Transitional Authorities and, subsequently, the elected authorities, in mediation and reconciliation processes at both the national and local levels, working with relevant regional and local bodies and religious leaders, including through inclusive national dialogue, transitional justice and conflict-resolution mechanisms, while ensuring the full and effective participation of women; </p>
+              </content>
+            </point>
+            <point eId="para_232_list_point_b_sublist_point_v">
+              <num>(v)</num>
+              <content eId="para_232_list_point_b_sublist_point_v_content">
+                <p xml:space="preserve">	To devise, coordinate and provide technical, logistical and security assistance to the electoral process and make all necessary preparations, in support of the Transitional Authorities and working on an urgent basis with the NEA, for the holding, in accordance with the transitional national charter, as a matter of urgency and as soon as possible, of the free, fair, transparent and inclusive presidential and legislative elections currently scheduled to take place by August 2015, in order to complete the political transition in a timely manner, including the full and effective participation of women at all levels and at an early stage, in all phases of the electoral process, and the participation of CAR IDPs and refugees;</p>
+              </content>
+            </point>
+            <point eId="para_232_list_point_b_sublist_point_vi">
+              <num>(vi)</num>
+              <content eId="para_232_list_point_b_sublist_point_vi_content">
+                <p xml:space="preserve">	To devise, coordinate and provide technical, logistical and security assistance to the organization and the holding of the constitutional referendum, as appropriate;</p>
+              </content>
+            </point>
+            <point eId="para_232_list_point_b_sublist_point_vii">
+              <num>(vii)</num>
+              <content eId="para_232_list_point_b_sublist_point_vii_content">
+                <p xml:space="preserve">	To promote and support the rapid extension of State authority over the entire territory of the CAR, including by supporting the redeployment of the administration;</p>
+              </content>
+            </point>
+            <point eId="para_232_list_point_b_sublist_point_viii">
+              <num>(viii)</num>
+              <content eId="para_232_list_point_b_sublist_point_viii_content">
+                <p xml:space="preserve">	To actively seize, confiscate and destroy, as appropriate, the weapons and ammunitions of armed elements, including all militias and non‑state armed groups, who refuse or fail to lay down their arms;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_232_list_point_c">
+            <num>(c)</num>
+            <content eId="para_232_list_point_c_content">
+              <p xml:space="preserve">	<span class="italic">Facilitate the immediate, full, safe and unhindered delivery of  humanitarian assistance</span></p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_233" class="SingleTxt">
+        <content eId="para_233__content">
+          <p xml:space="preserve">	To enhance civil-military coordination within MINUSCA and improve coordination with humanitarian actors, to facilitate the creation of a secure environment for the immediate, full, safe and unhindered, civilian-led delivery of humanitarian assistance, in accordance with United Nations guiding humanitarian principles and relevant provisions of international law, and for the voluntary safe, dignified and sustainable return or local integration or resettlement of internally displaced persons or refugees in close coordination with humanitarian actors;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="H4">
+        <num>(d)</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">Protection of the United Nations</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_235" class="SingleTxt">
+        <content eId="para_235__content">
+          <p xml:space="preserve">	To protect the United Nations personnel, installations, equipment and goods and ensure the security and freedom of movement of United Nations and associated personnel;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_236" class="H4">
+        <num>(e)</num>
+        <content eId="para_236__content">
+          <p xml:space="preserve">	<span class="italic">Promotion and protection of human rights</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_237" class="SingleTxt">
+        <num>(i)</num>
+        <content eId="para_237__content">
+          <p xml:space="preserve">	To monitor, help investigate and report publicly and to the Security Council on violations of international humanitarian law and on violations and abuses of human rights committed throughout the CAR, in particular by different armed groups, including the former Seleka and the anti‑Balaka, as well as in connection with the Bangui Forum and the electoral process, and to contribute to efforts to identify and prosecute perpetrators, and to prevent such violations and abuses, including through the deployment of human rights observers;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_239" class="SingleTxt">
+        <num>(ii)</num>
+        <content eId="para_239__content">
+          <p xml:space="preserve">	To monitor, help investigate and report on violations and abuses committed against children, women as well as persons with disabilities, including rape and other forms of sexual violence in armed conflict, and to contribute to efforts to identify and prosecute perpetrators, and to prevent such violations and abuses;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_242" class="SingleTxt">
+        <num>(iii)</num>
+        <content eId="para_242__content">
+          <p xml:space="preserve">	To support the implementation of relevant recommendations of the International Commission of Inquiry;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_246" class="SingleTxt">
+        <num>(iv)</num>
+        <content eId="para_246__content">
+          <p xml:space="preserve">	To assist the CAR authorities in the effort to protect and promote human rights, including through the establishment of a national human rights commission and to strengthen the capacity of civil society organizations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_251" class="H4">
+        <num>(f)</num>
+        <content eId="para_251__content">
+          <p xml:space="preserve"> <span class="italic">	Urgent temporary measures (UTMs)</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_257" class="SingleTxt">
+        <num>(i)</num>
+        <content eId="para_257__content">
+          <p xml:space="preserve">	To continue to adopt, within the limits of its capacities and areas of deployment, at the formal request of the Transitional Authorities and in areas where national security forces or judicial authorities are not present or operational, urgent temporary measures on an exceptional basis and without creating a precedent and without prejudice to the agreed principles of peacekeeping operations, which are limited in scope, time bound and consistent with the objectives set out in paragraphs 32 (a) to 32 (e) above and 33 (a) below, to arrest and detain in order to maintain basic law and order and fight impunity; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_264" class="SingleTxt">
+        <num>(ii)</num>
+        <content eId="para_264__content">
+          <p xml:space="preserve">	Requests the Secretary-General to continue to report to the Security Council any measures that may be adopted on this basis;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_272" class="H4">
+        <num>(g)</num>
+        <content eId="para_272__content">
+          <p xml:space="preserve"> <span class="italic">	Special Criminal Court</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_281" class="SingleTxt">
+        <num>(i)</num>
+        <content eId="para_281__content">
+          <p xml:space="preserve">	To assist the Transitional Authorities and subsequent elected authorities and facilitate other bilateral and multilateral support to the Transitional Authorities and subsequent elected authorities in the establishment of the national Special Criminal Court (SCC) consistent with CAR laws and jurisdiction and in line with the CAR’s international humanitarian law and international human rights law obligations with the aim of supporting the extension of State authority;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_291" class="SingleTxt">
+        <num>(ii)</num>
+        <content eId="para_291__content">
+          <p xml:space="preserve">	To provide technical assistance and capacity building for the CAR authorities, in order to facilitate the functioning of the SCC, in particular in the areas of investigations, arrests, detention, criminal and forensic analysis, evidence collection and storage, recruitment and selection of personnel, and the establishment of a legal aid system, as appropriate, as well as, within existing resources, to provide security for magistrates, and take measures to enhance the security of victims and witnesses as conditions allow, in line with the CAR’s international human rights obligations, including with respect to fair trials, and due process;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_302" class="H4">
+        <num>(h)</num>
+        <content eId="para_302__content">
+          <p xml:space="preserve">	<span class="italic">Disarmament, Demobilization, Reintegration (DDR) and Repatriation (DDRR)</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_314" class="SingleTxt">
+        <num>(i)</num>
+        <content eId="para_314__content">
+          <p xml:space="preserve">	To support the Transitional Authorities and subsequent elected authorities in developing and implementing a revised strategy for the disarmament, demobilization and reintegration (DDR) and, in case of foreign elements, Repatriation (DDRR), of former combatants and armed elements to reflect new realities on the ground, while paying specific attention to the needs of children associated with armed forces and groups; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_327" class="SingleTxt">
+        <num>(ii)</num>
+        <content eId="para_327__content">
+          <p xml:space="preserve">	To support the Transitional Authorities and subsequent elected authorities in implementing the revised strategy for reintegration of former combatants in line with the wider SSR;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_341" class="SingleTxt">
+        <num>(iii)</num>
+        <content eId="para_341__content">
+          <p xml:space="preserve">	To support the Transitional Authorities and subsequent elected authorities in developing and implementing community violence reduction programmes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_356" class="SingleTxt">
+        <num>(iv)</num>
+        <content eId="para_356__content">
+          <p xml:space="preserve">	To regroup and canton combatants in accordance with Article 4 of the Brazzaville Agreement and in cooperation with the Transitional Authorities and destroy, as appropriate, the weapons and ammunitions of disarmed combatants in keeping with its effort to seize and collect arms and related materiel the supply, sale or transfer of which violate the measures imposed by paragraph 1 of resolution 2196 (2015);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_372" class="SingleTxt">
+        <num>33.</num>
+        <list eId="para_372_list">
+          <intro eId="para_372_list_intro">
+            <p xml:space="preserve">	<span class="italic">Further authorises</span> MINUSCA to use its capacities to assist the CAR authorities for, and, where relevant, implement, the following essential tasks:</p>
+          </intro>
+          <point eId="para_372_list_point_a">
+            <num>(a)</num>
+            <content eId="para_372_list_point_a_content">
+              <p xml:space="preserve">	<span class="italic">Support for national and international justice and the rule of law</span></p>
+            </content>
+          </point>
+          <sublist eId="para_372_list_point_a_sublist">
+            <point eId="para_372_list_point_a_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_372_list_point_a_sublist_point_i_content">
+                <p xml:space="preserve">	To help build the capacities, including through technical assistance, of the national judicial system and of the national human rights institutions and assist with national reconciliation efforts, coordinating with the Independent Expert on human rights as appropriate; </p>
+              </content>
+            </point>
+            <point eId="para_372_list_point_a_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_372_list_point_a_sublist_point_ii_content">
+                <p xml:space="preserve">	To provide support and to coordinate international assistance to the policing, justice and correctional institutions to reinstate the criminal justice system, within the framework of the United Nations global focal point on rule of law, including through assistance in the maintenance of public safety and basic law and order, in a manner that emphasizes civilian oversight, impartiality and the protection of human rights; </p>
+              </content>
+            </point>
+            <point eId="para_372_list_point_a_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_372_list_point_a_sublist_point_iii_content">
+                <p xml:space="preserve">	to support the restoration and maintenance of public safety and the rule of law including through the presence and assistance of United Nations police authorized in paragraph 23 above, including through arresting and handing over to the CAR authorities those responsible for serious human rights violations and abuses and serious violations of international humanitarian law in the country so that they can be brought to justice, and through cooperation with States of the region as well as the ICC in cases of crimes falling within its jurisdiction;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_372_list_point_b">
+            <num>(b)</num>
+            <content eId="para_372_list_point_b_content">
+              <p xml:space="preserve">	<span class="italic">Security Sector Reform</span></p>
+            </content>
+          </point>
+          <sublist eId="para_372_list_point_b_sublist">
+            <point eId="para_372_list_point_b_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_372_list_point_b_sublist_point_i_content">
+                <p xml:space="preserve">	To support the Transitional Authorities and subsequent elected authorities in devising and implementing the security sector reform and vetting processes, including through the provision of strategic policy advice, in close coordination with the EUMAM-RCA;</p>
+              </content>
+            </point>
+            <point eId="para_372_list_point_b_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_372_list_point_b_sublist_point_ii_content">
+                <p xml:space="preserve">	To closely coordinate the provision of technical assistance and training between the international partners in the CAR in order to ensure a clear distribution of tasks in the field of SSR, for the benefit of both the FACA and the CAR internal security forces (police and gendarmerie);</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_372_list_point_c">
+            <num>(c)</num>
+            <content eId="para_372_list_point_c_content">
+              <p xml:space="preserve">	<span class="italic">Illicit exploitation and trafficking of natural resources </span></p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_373" class="SingleTxt">
+        <content eId="para_373__content">
+          <p xml:space="preserve">	To support the CAR authorities to develop a nationally-owned strategy to tackle the illicit exploitation and trafficking networks of natural resources which continue to fund and supply armed groups in the CAR taking into account, where appropriate, the reports of the Panel of Experts established pursuant to resolution 2127 (2013) and the decisions of the Kimberley process (KP), with the aim of extending the State authority over the entire territory and its resources;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_374" class="SingleTxt">
+        <num>34.</num>
+        <list eId="para_374_list">
+          <intro eId="para_374_list_intro">
+            <p xml:space="preserve">	<span class="italic">Further authorizes</span> MINUSCA to carry out within its existing resources the following additional tasks:</p>
+          </intro>
+          <point eId="para_374_list_point_a">
+            <num>(a)</num>
+            <content eId="para_374_list_point_a_content">
+              <p xml:space="preserve">	To coordinate international assistance as appropriate;</p>
+            </content>
+          </point>
+          <point eId="para_374_list_point_b">
+            <num>(b)</num>
+            <content eId="para_374_list_point_b_content">
+              <p xml:space="preserve">	To assist the Committee established pursuant to paragraph 57 of resolution 2127 (2013) and the Panel of Experts established by the same resolution, including by passing information relevant to the implementation of the mandate of the Committee and Panel of Experts;</p>
+            </content>
+          </point>
+          <point eId="para_374_list_point_c">
+            <num>(c)</num>
+            <content eId="para_374_list_point_c_content">
+              <p xml:space="preserve">	To monitor the implementation of the measures renewed and modified by paragraph 1 of resolution 2196 (2015), in cooperation with the Panel of Experts established pursuant to resolution 2127 (2013), including by inspecting, as it deems necessary and when appropriate without notice, all arms and related materiel regardless of location, and advise the Transitional Authorities on efforts to keep armed groups from exploiting natural resources;</p>
+            </content>
+          </point>
+          <point eId="para_374_list_point_d">
+            <num>(d)</num>
+            <content eId="para_374_list_point_d_content">
+              <p xml:space="preserve">	To seize and collect arms and any related materiel the transfer of which to the CAR violates the measures imposed by paragraph 54 of resolution 2127 (2013) and to record and dispose of such arms and related materiel as appropriate;</p>
+            </content>
+          </point>
+          <point eId="para_374_list_point_e">
+            <num>(e)</num>
+            <content eId="para_374_list_point_e_content">
+              <p xml:space="preserve">	To provide transport for relevant State authorities in carrying out inspections and monitoring visits in key mining areas and sites as appropriate and on a case by case basis and when the situation allows, as a means to promote and support the rapid extension of the State authority over the entire territory;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_375" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_375__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to deploy and allocate personnel and expertise within MINUSCA to reflect the priorities identified by paragraph 32 to paragraph 34 of this resolution, and to continuously adjust this deployment according to the progresses made in the implementation of this mandate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_377" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_377__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MINUSCA to enhance its operational coordination with the African Union Regional Task Force on the Lord’s Resistance Army (LRA) and <span class="italic">requests</span> MINUSCA to share relevant information with the Regional Task Force and with non‑governmental organizations involved in tackling the threat of the LRA;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_380" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_380__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the Transitional Authorities and international partners and relevant United Nations entities, in coordination with MINUSCA and UNMAS, to address the illicit transfer, destabilizing accumulation, and misuse of small arms and light weapons in the CAR, and to ensure the safe and effective management, storage and security of stockpiles of small arms and light weapons, and the collection and/or destruction of surplus, seized, unmarked, or illicitly held weapons and ammunition, and further stresses the importance of incorporating such elements into SSR and DDR/R programmes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_384" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_384__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the CAR, its neighbouring States and other member States of the International Conference on the Great Lakes Region (ICGLR) to cooperate at the regional level to investigate and combat regional criminal networks and armed groups involved in the illegal exploitation and smuggling of natural resources including gold, diamonds and wildlife poaching and trafficking;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_389" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_389__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MINUSCA to take fully into account child protection as a cross-cutting issue throughout its mandate and to assist the Transitional Authorities in ensuring that the protection of children’s rights is taken into account, inter alia, in DDR and DDR/R processes and in SSR in order to end and prevent violations and abuses against children;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_395" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_395__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MINUSCA to take fully into account gender considerations as a cross-cutting issue throughout its mandate and to assist the Government of the CAR in ensuring the full and effective participation, involvement and representation of women in all spheres and at all levels, including in stabilization activities, security sector reform and DDR and DDR/R processes, as well as in the national political dialogue and electoral processes, through, inter alia, the provision of gender advisers, and further requests enhanced reporting by MINUSCA to the Council on this issue;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_402" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_402__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MINUSCA, within its existing resources and mandate, to assist the political efforts of the AU, ECCAS and UNOCA to support the transition process;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_410" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_410__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> that the measures imposed by paragraph 1 of resolution 2196 (2015) do not apply to MINUSCA, the AU Regional Task Force (AU-RTF), the European Union Missions and French forces operating in the CAR to provide organizational advice and non‑operational training to the CAR Government Forces and as relevant to the implementation of their mandates and <span class="italic">requests</span> these forces to report on measures taken in this regard as part of their regular reports to the Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_419" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_419__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to take the necessary measures to ensure full compliance of MINUSCA with the United Nations zero tolerance policy on sexual exploitation and abuses and to keep the Council informed if cases of misconduct occur, and <span class="italic">notes</span> the relevance of the guidance on contacts with persons who are the subject of arrest warrants or summonses issued by the ICC;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_429" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_429__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MINUSCA to ensure that any support provided to non‑United Nations security forces is provided in strict compliance with the Human Rights Due Diligence Policy on United Nations support to non‑United Nations security forces (HRDDP), and <span class="italic">requests</span> the Secretary-General to include information on any such support in his reports to the Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_440" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_440__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> the need for MINUSCA, EUMAM-RCA and the French forces operating in the CAR, while carrying out their mandate, to act in full respect of the sovereignty, territorial integrity and unity of CAR and in full compliance with applicable international humanitarian law, human rights law and refugee law and recalls the importance of training in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_441" class="H4">
+        <subheading>		MINUSCA Freedom of movement</subheading>
+      </paragraph>
+      <paragraph eId="para_442" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_442__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all parties in the CAR to cooperate fully with the deployment and activities of MINUSCA, in particular by ensuring its safety, security and freedom of movement with unhindered and immediate access throughout the territory of the CAR to enable MINUSCA to carry out fully its mandate in a complex environment; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_443" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_443__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States, especially those in the region, to ensure the free, unhindered and expeditious movement to and from the CAR of all personnel, as well as equipment, provisions, supplies and other goods, including vehicles and spare parts, which are for the exclusive and official use of MINUSCA;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_444" class="H4">
+        <subheading>		Humanitarian access</subheading>
+      </paragraph>
+      <paragraph eId="para_445" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_445__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> that all parties allow and facilitate the full, safe, immediate and unhindered access for the timely delivery of humanitarian assistance to populations in need, in particular to internally displaced persons, throughout the territory of the CAR, in accordance with the United Nations guiding principles of humanitarian assistance and relevant provisions of international law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_446" class="H4">
+        <subheading>		Humanitarian appeal</subheading>
+      </paragraph>
+      <paragraph eId="para_447" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_447__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the humanitarian appeal, regrets its insufficient current funding, and calls on Member States and international and regional organizations to respond swiftly to this appeal through increased contributions and to ensure that all pledges are honoured in full;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_448" class="H4">
+        <subheading>		French Forces</subheading>
+      </paragraph>
+      <paragraph eId="para_449" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_449__content">
+          <p xml:space="preserve">	<span class="italic">Authorizes</span> French forces, within the limits of their capacities and areas of deployment, from the commencement of the activities of MINUSCA until the end of MINUSCA’s mandate as authorized in this resolution, to use all necessary means to provide operational support to elements of MINUSCA from the date of adoption of this resolution, at the request of the Secretary-General and <span class="italic">requests</span> France to report to the Council on the implementation of this mandate and to coordinate its reporting with that of the Secretary-General referred to in paragraph 52 of this resolution; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_450" class="H4">
+        <subheading>		Review and Reporting</subheading>
+      </paragraph>
+      <paragraph eId="para_451" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_451__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to review on a regular basis the conditions required for the transition, drawdown and withdrawal of the United Nations operation, in a manner which does not prejudice overall efforts to support long term objectives for peace and stability, and looks forward to receiving this information as part of this regular reporting to the Security Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_452" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_452__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to keep the Council regularly informed of the situation in the CAR and the implementation of the mandate of MINUSCA, to report to the Council, on 1 August 2015, and then every four months from that date and to include in his reports to the Council updates on and recommendations related to the dynamic implementation of MINUSCA’s mandated tasks, including by providing appropriate financial information, information on the security situation, the priority political elements as defined above on political progress, progress on mechanisms and capacity to advance governance and fiscal management, relevant information on the progress, promotion and protection of human rights and international humanitarian law as well as a review of the troop and police levels, force and police generation and deployment of all MINUSCA’s constituent elements; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_454" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_454__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
