@@ -1,0 +1,962 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/eng@/"></FRBRuri>
+          <FRBRdate date="2011-02-26" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="International Criminal Court" showAs="International Criminal Court" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1970 (2011) concerning Libya" showAs="UN. Security Council Committee Established pursuant to Resolution 1970 (2011) concerning Libya" dictionary="DHLAUTH"></keyword>
+        <keyword value="SANCTIONS" showAs="SANCTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMS EMBARGO" showAs="ARMS EMBARGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FROZEN ASSETS" showAs="FROZEN ASSETS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAVEL RESTRICTIONS" showAs="TRAVEL RESTRICTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[215]" showAs="LIBYAN ARAB JAMAHIRIYA SITUATION" dictionary="S/66"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 1970 (2011) [on establishment of a Security Council Committee to monitor implementation of the arms embargo against the Libyan Arab Jamahiriya]" showAs="Security Council resolution 1970 (2011) [on establishment of a Security Council Committee to monitor implementation of the arms embargo against the Libyan Arab Jamahiriya]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2011-02-26" outcome="draftResolution" as="S/2011/95" by="Bosnia and Herzegovina, Colombia, France, Gabon, Germany, Lebanon, Nigeria, Portugal, South Africa, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2011-02-26" outcome="adopted" as="S/PV.6491" by="" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1970 (2011)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2011-02-26" class="rightSmall" refersTo="#dateOfIssuance">26 February 2011</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1970 (2011)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Expressing" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> grave concern at the situation in the Libyan Arab Jamahiriya and condemning the violence and use of force against civilians,</p>
+      </container>
+      <container name="Deploring" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Deploring</span> the gross and systematic violation of human rights, including the repression of peaceful demonstrators, expressing deep concern at the deaths of civilians, and rejecting unequivocally the incitement to hostility and violence against the civilian population made from the highest level of the Libyan government,</p>
+      </container>
+      <container name="Welcoming" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the condemnation by the Arab League, the African Union, and the Secretary General of the Organization of the Islamic Conference of the serious violations of human rights and international humanitarian law that are being committed in the Libyan Arab Jamahiriya,</p>
+      </container>
+      <container name="Taking note" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the letter to the President of the Security Council from the Permanent Representative of the Libyan Arab Jamahiriya dated 26 February 2011,</p>
+      </container>
+      <container name="Welcoming" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the Human Rights Council resolution A/HRC/RES/S-15/1 of 25 February 2011, including the decision to urgently dispatch an independent international commission of inquiry to investigate all alleged violations of international human rights law in the Libyan Arab Jamahiriya, to establish the facts and circumstances of such violations and of the crimes perpetrated, and where possible identify those responsible,</p>
+      </container>
+      <container name="Considering" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Considering</span> that the widespread and systematic attacks currently taking place in the Libyan Arab Jamahiriya against the civilian population may amount to crimes against humanity,</p>
+      </container>
+      <container name="Expressing concern" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> at the plight of refugees forced to flee the violence in the Libyan Arab Jamahiriya,</p>
+      </container>
+      <container name="Expressing concern also" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Expressing concern also</span> at the reports of shortages of medical supplies to treat the wounded,</p>
+      </container>
+      <container name="Recalling" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the Libyan authorities’ responsibility to protect its population,</p>
+      </container>
+      <container name="Underlining" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the need to respect the freedoms of peaceful assembly and of expression, including freedom of the media,</p>
+      </container>
+      <container name="Stressing" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the need to hold to account those responsible for attacks, including by forces under their control, on civilians,</p>
+      </container>
+      <container name="Recalling" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> article 16 of the Rome Statute under which no investigation or prosecution may be commenced or proceeded with by the International Criminal Court for a period of 12 months after a Security Council request to that effect,</p>
+      </container>
+      <container name="Expressing concern" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> for the safety of foreign nationals and their rights in the Libyan Arab Jamahiriya,</p>
+      </container>
+      <container name="Reaffirming" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, territorial integrity and national unity of the Libyan Arab Jamahiriya.</p>
+      </container>
+      <container name="Mindful" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Mindful</span> of its primary responsibility for the maintenance of international peace and security under the Charter of the United Nations,</p>
+      </container>
+      <container name="Acting" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations, and taking measures under its Article 41,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> an immediate end to the violence and calls for steps to fulfil the legitimate demands of the population;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <num>2.</num>
+        <list eId="para_19_list">
+          <intro eId="para_19_list_intro">
+            <p xml:space="preserve">	<span class="italic">Urges</span> the Libyan authorities to:</p>
+          </intro>
+          <point eId="para_19_list_point_a">
+            <num>(a)</num>
+            <content eId="para_19_list_point_a_content">
+              <p xml:space="preserve">	Act with the utmost restraint, respect human rights and international humanitarian law, and allow immediate access for international human rights monitors;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_b">
+            <num>(b)</num>
+            <content eId="para_19_list_point_b_content">
+              <p xml:space="preserve">	Ensure the safety of all foreign nationals and their assets and facilitate the departure of those wishing to leave the country;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_c">
+            <num>(c)</num>
+            <content eId="para_19_list_point_c_content">
+              <p xml:space="preserve">	Ensure the safe passage of humanitarian and medical supplies, and humanitarian agencies and workers, into the country; and</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_d">
+            <num>(d)</num>
+            <content eId="para_19_list_point_d_content">
+              <p xml:space="preserve">	Immediately lift restrictions on all forms of media;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> all Member States, to the extent possible, to cooperate in the evacuation of those foreign nationals wishing to leave the country;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="H4">
+        <subheading>		ICC referral</subheading>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to refer the situation in the Libyan Arab Jamahiriya since 15 February 2011 to the Prosecutor of the International Criminal Court;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the Libyan authorities shall cooperate fully with and provide any necessary assistance to the Court and the Prosecutor pursuant to this resolution and, while recognizing that States not party to the Rome Statute have no obligation under the Statute, urges all States and concerned regional and other international organizations to cooperate fully with the Court and the Prosecutor;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that nationals, current or former officials or personnel from a State outside the Libyan Arab Jamahiriya which is not a party to the Rome Statute of the International Criminal Court shall be subject to the exclusive jurisdiction of that State for all alleged acts or omissions arising out of or related to operations in the Libyan Arab Jamahiriya established or authorized by the Council, unless such exclusive jurisdiction has been expressly waived by the State; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the Prosecutor to address the Security Council within two months of the adoption of this resolution and every six months thereafter on actions taken pursuant to this resolution; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that none of the expenses incurred in connection with the referral, including expenses related to investigations or prosecutions in connection with that referral, shall be borne by the United Nations and that such costs shall be borne by the parties to the Rome Statute and those States that wish to contribute voluntarily;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="H4">
+        <subheading>		Arms embargo</subheading>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>9.</num>
+        <list eId="para_35_list">
+          <intro eId="para_35_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that all Member States shall immediately take the necessary measures to prevent the direct or indirect supply, sale or transfer to the Libyan Arab Jamahiriya, from or through their territories or by their nationals, or using their flag vessels or aircraft, of arms and related materiel of all types, including weapons and ammunition, military vehicles and equipment, paramilitary equipment, and spare parts for the aforementioned, and technical assistance, training, financial or other assistance, related to military activities or the provision, maintenance or use of any arms and related materiel, including the provision of armed mercenary personnel whether or not originating in their territories, and decides further that this measure shall not apply to:</p>
+          </intro>
+          <point eId="para_35_list_point_a">
+            <num>(a)</num>
+            <content eId="para_35_list_point_a_content">
+              <p xml:space="preserve">	Supplies of non‑lethal military equipment intended solely for humanitarian or protective use, and related technical assistance or training, as approved in advance by the Committee established pursuant to paragraph 24 below;</p>
+            </content>
+          </point>
+          <point eId="para_35_list_point_b">
+            <num>(b)</num>
+            <content eId="para_35_list_point_b_content">
+              <p xml:space="preserve">	Protective clothing, including flak jackets and military helmets, temporarily exported to the Libyan Arab Jamahiriya by United Nations personnel, representatives of the media and humanitarian and development workers and associated personnel, for their personal use only; or</p>
+            </content>
+          </point>
+          <point eId="para_35_list_point_c">
+            <num>(c)</num>
+            <content eId="para_35_list_point_c_content">
+              <p xml:space="preserve">	Other sales or supply of arms and related materiel, or provision of assistance or personnel, as approved in advance by the Committee; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the Libyan Arab Jamahiriya shall cease the export of all arms and related materiel and that all Member States shall prohibit the procurement of such items from the Libyan Arab Jamahiriya by their nationals, or using their flagged vessels or aircraft, and whether or not originating in the territory of the Libyan Arab Jamahiriya;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all States, in particular States neighbouring the Libyan Arab Jamahiriya, to inspect, in accordance with their national authorities and legislation and consistent with international law, in particular the law of the sea and relevant international civil aviation agreements, all cargo to and from the Libyan Arab Jamahiriya, in their territory, including seaports and airports, if the State concerned has information that provides reasonable grounds to believe the cargo contains items the supply, sale, transfer, or export of which is prohibited by paragraphs 9 or 10 of this resolution for the purpose of ensuring strict implementation of those provisions; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to authorize all Member States to, and that all Member States shall, upon discovery of items prohibited by paragraph 9 or 10 of this resolution, seize and dispose (such as through destruction, rendering inoperable, storage or transferring to a State other than the originating or destination States for disposal) items the supply, sale, transfer or export of which is prohibited by paragraphs 9 or 10 of this resolution and decides further that all Member States shall cooperate in such efforts;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Requires</span> any Member State when it undertakes an inspection pursuant to paragraph 11 above, to submit promptly an initial written report to the Committee containing, in particular, explanation of the grounds for the inspections, the results of such inspections, and whether or not cooperation was provided, and, if prohibited items for transfer are found, further requires such Member States to submit to the Committee, at a later stage, a subsequent written report containing relevant details on the inspection, seizure, and disposal, and relevant details of the transfer, including a description of the items, their origin and intended destination, if this information is not in the initial report;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to take steps to strongly discourage their nationals from travelling to the Libyan Arab Jamahiriya to participate in activities on behalf of the Libyan authorities that could reasonably contribute to the violation of human rights; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="H4">
+        <subheading>		Travel ban</subheading>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that all Member States shall take the necessary measures to prevent the entry into or transit through their territories of individuals listed in Annex I of this resolution or designated by the Committee established pursuant to paragraph 24 below, provided that nothing in this paragraph shall oblige a State to refuse its own nationals entry into its territory; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>16.</num>
+        <list eId="para_53_list">
+          <intro eId="para_53_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that the measures imposed by paragraph 15 above shall not apply:</p>
+          </intro>
+          <point eId="para_53_list_point_a">
+            <num>(a)</num>
+            <content eId="para_53_list_point_a_content">
+              <p xml:space="preserve">	Where the Committee determines on a case-by-case basis that such travel is justified on the grounds of humanitarian need, including religious obligation; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_b">
+            <num>(b)</num>
+            <content eId="para_53_list_point_b_content">
+              <p xml:space="preserve">	Where entry or transit is necessary for the fulfilment of a judicial process; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_c">
+            <num>(c)</num>
+            <content eId="para_53_list_point_c_content">
+              <p xml:space="preserve">	Where the Committee determines on a case-by-case basis that an exemption would further the objectives of peace and national reconciliation in the Libyan Arab Jamahiriya and stability in the region; or</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_d">
+            <num>(d)</num>
+            <content eId="para_53_list_point_d_content">
+              <p xml:space="preserve">	Where a State determines on a case-by-case basis that such entry or transit is required to advance peace and stability in the Libyan Arab Jamahiriya and the States subsequently notifies the Committee within forty-eight hours after making such a determination;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_54" class="H4">
+        <subheading>		Asset freeze</subheading>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that all Member States shall freeze without delay all funds, other financial assets and economic resources which are on their territories, which are owned or controlled, directly or indirectly, by the individuals or entities listed in annex II of this resolution or designated by the Committee established pursuant to paragraph 24 below, or by individuals or entities acting on their behalf or at their direction, or by entities owned or controlled by them, and decides further that all Member States shall ensure that any funds, financial assets or economic resources are prevented from being made available by their nationals or by any individuals or entities within their territories, to or for the benefit of the individuals or entities listed in Annex II of this resolution or individuals designated by the Committee; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its intention to ensure that assets frozen pursuant to paragraph 17 shall at a later stage be made available to and for the benefit of the people of the Libyan Arab Jamahiriya;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>19.</num>
+        <list eId="para_58_list">
+          <intro eId="para_58_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that the measures imposed by paragraph 17 above do not apply to funds, other financial assets or economic resources that have been determined by relevant Member States:</p>
+          </intro>
+          <point eId="para_58_list_point_a">
+            <num>(a)</num>
+            <content eId="para_58_list_point_a_content">
+              <p xml:space="preserve">	To be necessary for basic expenses, including payment for foodstuffs, rent or mortgage, medicines and medical treatment, taxes, insurance premiums, and public utility charges or exclusively for payment of reasonable professional fees and reimbursement of incurred expenses associated with the provision of legal services in accordance with national laws, or fees or service charges, in accordance with national laws, for routine holding or maintenance of frozen funds, other financial assets and economic resources, after notification by the relevant State to the Committee of the intention to authorize, where appropriate, access to such funds, other financial assets or economic resources and in the absence of a negative decision by the Committee within five working days of such notification; </p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_b">
+            <num>(b)</num>
+            <content eId="para_58_list_point_b_content">
+              <p xml:space="preserve">	To be necessary for extraordinary expenses, provided that such determination has been notified by the relevant State or Member States to the Committee and has been approved by the Committee; or</p>
+            </content>
+          </point>
+          <point eId="para_58_list_point_c">
+            <num>(c)</num>
+            <content eId="para_58_list_point_c_content">
+              <p xml:space="preserve">	To be the subject of a judicial, administrative or arbitral lien or judgment, in which case the funds, other financial assets and economic resources may be used to satisfy that lien or judgment provided that the lien or judgment was entered into prior to the date of the present resolution, is not for the benefit of a person or entity designated pursuant to paragraph 17 above, and has been notified by the relevant State or Member States to the Committee; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that Member States may permit the addition to the accounts frozen pursuant to the provisions of paragraph 17 above of interests or other earnings due on those accounts or payments due under contracts, agreements or obligations that arose prior to the date on which those accounts became subject to the provisions of this resolution, provided that any such interest, other earnings and payments continue to be subject to these provisions and are frozen; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the measures in paragraph 17 above shall not prevent a designated person or entity from making payment due under a contract entered into prior to the listing of such a person or entity, provided that the relevant States have determined that the payment is not directly or indirectly received by a person or entity designated pursuant to paragraph 17 above, and after notification by the relevant States to the Committee of the intention to make or receive such payments or to authorize, where appropriate, the unfreezing of funds, other financial assets or economic resources for this purpose, 10 working days prior to such authorization;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="H4">
+        <subheading>		Designation criteria</subheading>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the measures contained in paragraphs 15 and 17 shall apply to the individuals and entities designated by the Committee, pursuant to paragraph 24 (b) and (c), respectively;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="SingleTxt">
+        <num>(a)</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve">	Involved in or complicit in ordering, controlling, or otherwise directing, the commission of serious human rights abuses against persons in the Libyan Arab Jamahiriya, including by being involved in or complicit in planning, commanding, ordering or conducting attacks, in violation of international law, including aerial bombardments, on civilian populations and facilities; or </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>(b)</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	Acting for or on behalf of or at the direction of individuals or entities identified in subparagraph (a).</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Strongly encourages</span> Member States to submit to the Committee names of individuals who meet the criteria set out in paragraph 22 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="H4">
+        <subheading>		New Sanctions Committee</subheading>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>24.</num>
+        <list eId="para_75_list">
+          <intro eId="para_75_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> to establish, in accordance with rule 28 of its provisional rules of procedure, a Committee of the Security Council consisting of all the members of the Council (herein “the Committee”), to undertake to following tasks:</p>
+          </intro>
+          <point eId="para_75_list_point_a">
+            <num>(a)</num>
+            <content eId="para_75_list_point_a_content">
+              <p xml:space="preserve">	To monitor implementation of the measures imposed in paragraphs 9, 10, 15, and 17;</p>
+            </content>
+          </point>
+          <point eId="para_75_list_point_b">
+            <num>(b)</num>
+            <content eId="para_75_list_point_b_content">
+              <p xml:space="preserve">	To designate those individuals subject to the measures imposed by paragraphs 15 and to consider requests for exemptions in accordance with paragraph 16 above;</p>
+            </content>
+          </point>
+          <point eId="para_75_list_point_c">
+            <num>(c)</num>
+            <content eId="para_75_list_point_c_content">
+              <p xml:space="preserve">	To designate those individuals subject to the measures imposed by paragraph 17 above and to consider requests for exemptions in accordance with paragraphs 19 and 20 above;</p>
+            </content>
+          </point>
+          <point eId="para_75_list_point_d">
+            <num>(d)</num>
+            <content eId="para_75_list_point_d_content">
+              <p xml:space="preserve">	To establish such guidelines as may be necessary to facilitate the implementation of the measures imposed above;</p>
+            </content>
+          </point>
+          <point eId="para_75_list_point_e">
+            <num>(e)</num>
+            <content eId="para_75_list_point_e_content">
+              <p xml:space="preserve">	To report within thirty days to the Security Council on its work for the first report and thereafter to report as deemed necessary by the Committee; </p>
+            </content>
+          </point>
+          <point eId="para_75_list_point_f">
+            <num>(f)</num>
+            <content eId="para_75_list_point_f_content">
+              <p xml:space="preserve">	To encourage a dialogue between the Committee and interested Member States, in particular those in the region, including by inviting representatives of such States to meet with the Committee to discuss implementation of the measures;</p>
+            </content>
+          </point>
+          <point eId="para_75_list_point_g">
+            <num>(g)</num>
+            <content eId="para_75_list_point_g_content">
+              <p xml:space="preserve">	To seek from all States whatever information it may consider useful regarding the actions taken by them to implement effectively the measures imposed above; </p>
+            </content>
+          </point>
+          <point eId="para_75_list_point_h">
+            <num>(h)</num>
+            <content eId="para_75_list_point_h_content">
+              <p xml:space="preserve">	To examine and take appropriate action on information regarding alleged violations or non‑compliance with the measures contained in this resolution;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all Member States to report to the Committee within 120 days of the adoption of this resolution on the steps they have taken with a view to implementing effectively paragraphs 9, 10, 15 and 17 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="H4">
+        <subheading>		Humanitarian assistance</subheading>
+      </paragraph>
+      <paragraph eId="para_78" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all Member States, working together and acting in cooperation with the Secretary General, to facilitate and support the return of humanitarian agencies and make available humanitarian and related assistance in the Libyan Arab Jamahiriya, and requests the States concerned to keep the Security Council regularly informed on the progress of actions undertaken pursuant to this paragraph, and expresses its readiness to consider taking additional appropriate measures, as necessary, to achieve this;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="H4">
+        <subheading>		Commitment to review</subheading>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> that it shall keep the Libyan authorities’ actions under continuous review and that it shall be prepared to review the appropriateness of the measures contained in this resolution, including the strengthening, modification, suspension or lifting of the measures, as may be needed at any time in light of the Libyan authorities’ compliance with relevant provisions of this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/"></FRBRuri>
+                <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+                <FRBRauthor href="sc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/eng@/"></FRBRuri>
+                <FRBRdate date="2011-02-26" name="publication"></FRBRdate>
+                <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/1970-2011/eng@.xml"></FRBRuri>
+                <FRBRdate date="2023-06-27" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_82" class="H1">
+                  <heading>Annex I</heading>
+            </paragraph>
+            <paragraph eId="para_83" class="H1">
+                  <heading>Travel ban</heading>
+            </paragraph>
+            <paragraph eId="para_84" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_84__content">
+                <p xml:space="preserve">	Al-Baghdadi, Dr Abdulqader Mohammed</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_85" class="SingleTxt">
+              <content eId="para_85__content">
+                <p xml:space="preserve">	Passport number: B010574. Date of birth: 01/07/1950.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="SingleTxt">
+              <content eId="para_86__content">
+                <p xml:space="preserve">	Head of the Liaison Office of the Revolutionary Committees. Revolutionary Committees involved in violence against demonstrators.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_87" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_87__content">
+                <p xml:space="preserve">	Dibri, Abdulqader Yusef</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="SingleTxt">
+              <content eId="para_88__content">
+                <p xml:space="preserve">	Date of birth: 1946. Place of birth: Houn, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_89" class="SingleTxt">
+              <content eId="para_89__content">
+                <p xml:space="preserve">	Head of Muammar Qadhafi’s personal security. Responsibility for regime security. History of directing violence against dissidents.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_90" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_90__content">
+                <p xml:space="preserve">	Dorda, Abu Zayd Umar</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91" class="SingleTxt">
+              <content eId="para_91__content">
+                <p xml:space="preserve">	Director, External Security Organisation. Regime loyalist. Head of external intelligence agency.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_92__content">
+                <p xml:space="preserve">	Jabir, Major General Abu Bakr Yunis</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="SingleTxt">
+              <content eId="para_93__content">
+                <p xml:space="preserve">	Date of birth: 1952. Place of birth: Jalo, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="SingleTxt">
+              <content eId="para_94__content">
+                <p xml:space="preserve">	Defence Minister. Overall responsibility for actions of armed forces.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_95__content">
+                <p xml:space="preserve">	Matuq, Matuq Mohammed</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="SingleTxt">
+              <content eId="para_96__content">
+                <p xml:space="preserve">	Date of birth: 1956. Place of birth: Khoms.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97" class="SingleTxt">
+              <content eId="para_97__content">
+                <p xml:space="preserve">	Secretary for Utilities. Senior member of regime. Involvement with Revolutionary Committees. Past history of involvement in suppression of dissent and violence.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_98__content">
+                <p xml:space="preserve">	Qadhaf Al-dam, Sayyid Mohammed</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="SingleTxt">
+              <content eId="para_99__content">
+                <p xml:space="preserve">	Date of birth: 1948. Place of birth: Sirte, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="SingleTxt">
+              <content eId="para_100__content">
+                <p xml:space="preserve">	Cousin of Muammar Qadhafi. In the 1980s, Sayyid was involved in the dissident assassination campaign and allegedly responsible for several deaths in Europe. He is also thought to have been involved in arms procurement. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_101__content">
+                <p xml:space="preserve">	Qadhafi, Aisha Muammar</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="SingleTxt">
+              <content eId="para_102__content">
+                <p xml:space="preserve">	Date of birth: 1978. Place of birth: Tripoli, Libya. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103" class="SingleTxt">
+              <content eId="para_103__content">
+                <p xml:space="preserve">	Daughter of Muammar Qadhafi. Closeness of association with regime.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_104__content">
+                <p xml:space="preserve">	Qadhafi, Hannibal Muammar</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105" class="SingleTxt">
+              <content eId="para_105__content">
+                <p xml:space="preserve">	Passport number: B/002210. Date of birth: 20/09/1975. Place of birth: Tripoli, Libya. Son of Muammar Qadhafi. Closeness of association with regime.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_106__content">
+                <p xml:space="preserve">	Qadhafi, Khamis Muammar</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107" class="SingleTxt">
+              <content eId="para_107__content">
+                <p xml:space="preserve">	Date of birth: 1978. Place of birth: Tripoli, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108" class="SingleTxt">
+              <content eId="para_108__content">
+                <p xml:space="preserve">	Son of Muammar Qadhafi. Closeness of association with regime. Command of military units involved in repression of demonstrations.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109" class="SingleTxt">
+              <num>10.</num>
+              <content eId="para_109__content">
+                <p xml:space="preserve">	Qadhafi, Mohammed Muammar</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="SingleTxt">
+              <content eId="para_110__content">
+                <p xml:space="preserve">	Date of birth: 1970. Place of birth: Tripoli, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111" class="SingleTxt">
+              <content eId="para_111__content">
+                <p xml:space="preserve">	Son of Muammar Qadhafi. Closeness of association with regime.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112" class="SingleTxt">
+              <num>11.</num>
+              <content eId="para_112__content">
+                <p xml:space="preserve">	Qadhafi, Muammar Mohammed Abu Minyar</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113" class="SingleTxt">
+              <content eId="para_113__content">
+                <p xml:space="preserve">	Date of birth: 1942. Place of birth: Sirte, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="SingleTxt">
+              <content eId="para_114__content">
+                <p xml:space="preserve">	Leader of the Revolution, Supreme Commander of Armed Forces. Responsibility for ordering repression of demonstrations, human rights abuses.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115" class="SingleTxt">
+              <num>12.</num>
+              <content eId="para_115__content">
+                <p xml:space="preserve">	Qadhafi, Mutassim</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="SingleTxt">
+              <content eId="para_116__content">
+                <p xml:space="preserve">	Date of birth: 1976. Place of birth: Tripoli, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="SingleTxt">
+              <content eId="para_117__content">
+                <p xml:space="preserve">	National Security Adviser. Son of Muammar Qadhafi. Closeness of association with regime.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="SingleTxt">
+              <num>13.</num>
+              <content eId="para_118__content">
+                <p xml:space="preserve">	Qadhafi, Saadi</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="SingleTxt">
+              <content eId="para_119__content">
+                <p xml:space="preserve">	Passport number: 014797. Date of birth: 25/05/1973. Place of birth: Tripoli, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="SingleTxt">
+              <content eId="para_120__content">
+                <p xml:space="preserve">	Commander Special Forces. Son of Muammar Qadhafi. Closeness of association with regime. Command of military units involved in repression of demonstrations.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="SingleTxt">
+              <num>14.</num>
+              <content eId="para_121__content">
+                <p xml:space="preserve">	Qadhafi, Saif al-Arab</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="SingleTxt">
+              <content eId="para_122__content">
+                <p xml:space="preserve">	Date of birth: 1982. Place of birth: Tripoli, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="SingleTxt">
+              <content eId="para_123__content">
+                <p xml:space="preserve">	Son of Muammar Qadhafi. Closeness of association with regime.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="SingleTxt">
+              <num>15.</num>
+              <content eId="para_124__content">
+                <p xml:space="preserve">	Qadhafi, Saif al-Islam</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="SingleTxt">
+              <content eId="para_125__content">
+                <p xml:space="preserve">	Passport number: B014995. Date of birth: 25/06/1972. Place of birth: Tripoli, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="SingleTxt">
+              <content eId="para_126__content">
+                <p xml:space="preserve">	Director, Qadhafi Foundation. Son of Muammar Qadhafi. Closeness of association with regime. Inflammatory public statements encouraging violence against demonstrators.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="SingleTxt">
+              <num>16.</num>
+              <content eId="para_127__content">
+                <p xml:space="preserve">	Al-Senussi, Colonel Abdullah </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="SingleTxt">
+              <content eId="para_128__content">
+                <p xml:space="preserve">	Date of birth: 1949. Place of birth: Sudan.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="SingleTxt">
+              <content eId="para_129__content">
+                <p xml:space="preserve">	Director Military Intelligence. Military Intelligence involvement in suppression of demonstrations. Past history includes suspicion of involvement in Abu Selim prison massacre. Convicted in absentia for bombing of UTA flight. Brother-in-law of Muammar Qadhafi.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="H1">
+                  <heading>Annex II</heading>
+            </paragraph>
+            <paragraph eId="para_131" class="H1">
+                  <heading>Asset freeze</heading>
+            </paragraph>
+            <paragraph eId="para_132" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_132__content">
+                <p xml:space="preserve">	Qadhafi, Aisha Muammar</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_133" class="SingleTxt">
+              <content eId="para_133__content">
+                <p xml:space="preserve">	Date of birth: 1978. Place of birth: Tripoli, Libya. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_134" class="SingleTxt">
+              <content eId="para_134__content">
+                <p xml:space="preserve">	Daughter of Muammar Qadhafi. Closeness of association with regime.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_135__content">
+                <p xml:space="preserve">	Qadhafi, Hannibal Muammar</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="SingleTxt">
+              <content eId="para_136__content">
+                <p xml:space="preserve">	Passport number: B/002210. Date of birth: 20/09/1975. Place of birth: Tripoli, Libya. Son of Muammar Qadhafi. Closeness of association with regime.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_137__content">
+                <p xml:space="preserve">	Qadhafi, Khamis Muammar</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="SingleTxt">
+              <content eId="para_138__content">
+                <p xml:space="preserve">	Date of birth: 1978. Place of birth: Tripoli, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="SingleTxt">
+              <content eId="para_139__content">
+                <p xml:space="preserve">	Son of Muammar Qadhafi. Closeness of association with regime. Command of military units involved in repression of demonstrations.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_140__content">
+                <p xml:space="preserve">	Qadhafi, Muammar Mohammed Abu Minyar</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141" class="SingleTxt">
+              <content eId="para_141__content">
+                <p xml:space="preserve">	Date of birth: 1942. Place of birth: Sirte, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <content eId="para_142__content">
+                <p xml:space="preserve">	Leader of the Revolution, Supreme Commander of Armed Forces. Responsibility for ordering repression of demonstrations, human rights abuses.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_143__content">
+                <p xml:space="preserve">	Qadhafi, Mutassim</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <content eId="para_144__content">
+                <p xml:space="preserve">	Date of birth: 1976. Place of birth: Tripoli, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="SingleTxt">
+              <content eId="para_145__content">
+                <p xml:space="preserve">	National Security Adviser. Son of Muammar Qadhafi. Closeness of association with regime.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_146__content">
+                <p xml:space="preserve">	Qadhafi, Saif al-Islam</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <content eId="para_147__content">
+                <p xml:space="preserve">	Passport number: B014995. Date of birth: 25/06/1972. Place of birth: Tripoli, Libya.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="SingleTxt">
+              <content eId="para_148__content">
+                <p xml:space="preserve">	Director, Qadhafi Foundation. Son of Muammar Qadhafi. Closeness of association with regime. Inflammatory public statements encouraging violence against demonstrators.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>

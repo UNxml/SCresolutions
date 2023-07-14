@@ -1,0 +1,768 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2011-03-17/1973-2011/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2011-03-17/1973-2011/"></FRBRuri>
+          <FRBRdate date="2011-03-17" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2011-03-17/1973-2011/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2011-03-17/1973-2011/eng@/"></FRBRuri>
+          <FRBRdate date="2011-03-17" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2011-03-17/1973-2011/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2011-03-17/1973-2011/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-07-09" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="14" href="http://metadata.un.org/sdg/14" showAs="sdg_14" dictionary="SDGO"></keyword>
+        <keyword value="ocean" href="http://eurovoc.europa.eu/2107" showAs="ocean" dictionary="EuroVoc"></keyword>
+        <keyword value="ocean" href="http://metadata.un.org/thesaurus/1004576" showAs="ocean" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/030800" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="marine_resources" href="http://metadata.un.org/thesaurus/1003922" showAs="marine_resources" dictionary="UNBIS"></keyword>
+        <keyword value="sea" href="http://eurovoc.europa.eu/1870" showAs="sea" dictionary="EuroVoc"></keyword>
+        <keyword value="oceans_and_seas" href="http://metadata.un.org/thesaurus/170600" showAs="oceans_and_seas" dictionary="UNBIS"></keyword>
+        <keyword value="marine_environment" href="http://eurovoc.europa.eu/5742" showAs="marine_environment" dictionary="EuroVoc"></keyword>
+        <keyword value="marine_environment" href="http://metadata.un.org/thesaurus/1003911" showAs="marine_environment" dictionary="UNBIS"></keyword>
+        <keyword value="marine_life" href="http://eurovoc.europa.eu/3149" showAs="marine_life" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="African Union. Peace and Security Council" showAs="African Union. Peace and Security Council" dictionary="DHLAUTH"></keyword>
+        <keyword value="League of Arab States" showAs="League of Arab States" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Secretary-General" showAs="UN. Secretary-General" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1970 (2011) concerning Libya" showAs="UN. Security Council Committee Established pursuant to Resolution 1970 (2011) concerning Libya" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Panel of Experts Established pursuant to Security Council Resolution 1973 (2011)" showAs="UN. Panel of Experts Established pursuant to Security Council Resolution 1973 (2011)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Charter of the United Nations (1945)" showAs="Charter of the United Nations (1945)" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CEASEFIRES" showAs="CEASEFIRES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL HUMANITARIAN LAW" showAs="INTERNATIONAL HUMANITARIAN LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAVEL RESTRICTIONS" showAs="TRAVEL RESTRICTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMS EMBARGO" showAs="ARMS EMBARGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FROZEN ASSETS" showAs="FROZEN ASSETS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MERCENARIES" showAs="MERCENARIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SANCTIONS" showAs="SANCTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[215]" showAs="LIBYAN ARAB JAMAHIRIYA SITUATION" dictionary="S/66"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 1973 (2011) [on establishment of a ban on flights in the Libyan Arab Jamahiriya airspace]" showAs="Security Council resolution 1973 (2011) [on establishment of a ban on flights in the Libyan Arab Jamahiriya airspace]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2011-03-17" outcome="draftResolution" as="S/2011/142" by="France, Lebanon, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2011-03-17" outcome="adopted" as="S/PV.6498" by="" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="010" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="005" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">11-26839 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1973 (2011)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2011-03-17" class="rightSmall" refersTo="#dateOfIssuance">17 March 2011</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1973 (2011)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="6498th">6498th meeting</inline>, on<docDate date="2011-03-17" refersTo="#adoptionDate">17 March 2011</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolution 1970 (2011) of 26 February 2011,</p>
+      </container>
+      <container name="Deploring" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Deploring</span> the failure of the Libyan authorities to comply with resolution 1970 (2011),</p>
+      </container>
+      <container name="Expressing" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> grave concern at the deteriorating situation, the escalation of violence, and the heavy civilian casualties, </p>
+      </container>
+      <container name="Reiterating" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> the responsibility of the Libyan authorities to protect the Libyan population and <span class="italic">reaffirming</span> that parties to armed conflicts bear the primary responsibility to take all feasible steps to ensure the protection of civilians,</p>
+      </container>
+      <container name="Condemning" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> the gross and systematic violation of human rights, including arbitrary detentions, enforced disappearances, torture and summary executions,</p>
+      </container>
+      <container name="Further condemning" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Further condemning</span> acts of violence and intimidation committed by the Libyan authorities against journalists, media professionals and associated personnel and <span class="italic">urging</span> these authorities to comply with their obligations under international humanitarian law as outlined in resolution 1738 (2006),</p>
+      </container>
+      <container name="Considering" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Considering</span> that the widespread and systematic attacks currently taking place in the Libyan Arab Jamahiriya against the civilian population may amount to crimes against humanity,</p>
+      </container>
+      <container name="Recalling" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> paragraph 26 of resolution 1970 (2011) in which the Council expressed its readiness to consider taking additional appropriate measures, as necessary, to facilitate and support the return of humanitarian agencies and make available humanitarian and related assistance in the Libyan Arab Jamahiriya,</p>
+      </container>
+      <container name="Expressing its determination" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Expressing its determination</span> to ensure the protection of civilians and civilian populated areas and the rapid and unimpeded passage of humanitarian assistance and the safety of humanitarian personnel,</p>
+      </container>
+      <container name="Recalling" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the condemnation by the League of Arab States, the African Union, and the Secretary General of the Organization of the Islamic Conference of the serious violations of human rights and international humanitarian law that have been and are being committed in the Libyan Arab Jamahiriya,</p>
+      </container>
+      <container name="Taking note" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the final communiqué of the Organisation of the Islamic Conference of 8 March 2011, and the communiqué of the Peace and Security Council of the African Union of 10 March 2011 which established an ad hoc High Level Committee on Libya,</p>
+      </container>
+      <container name="Taking note also" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Taking note also</span> of the decision of the Council of the League of Arab States of 12 March 2011 to call for the imposition of a no-fly zone on Libyan military aviation, and to establish safe areas in places exposed to shelling as a precautionary measure that allows the protection of the Libyan people and foreign nationals residing in the Libyan Arab Jamahiriya,</p>
+      </container>
+      <container name="Taking note further" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Taking note further</span> of the Secretary-General’s call on 16 March 2011 for an immediate cease-fire,</p>
+      </container>
+      <container name="Recalling" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its decision to refer the situation in the Libyan Arab Jamahiriya since 15 February 2011 to the Prosecutor of the International Criminal Court, and <span class="italic">stressing</span> that those responsible for or complicit in attacks targeting the civilian population, including aerial and naval attacks, must be held to account,</p>
+      </container>
+      <container name="Reiterating its concern" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Reiterating its concern</span> at the plight of refugees and foreign workers forced to flee the violence in the Libyan Arab Jamahiriya, <span class="italic">welcoming</span> the response of neighbouring States, in particular Tunisia and Egypt, to address the needs of those refugees and foreign workers, and <span class="italic">calling on</span> the international community to support those efforts,</p>
+      </container>
+      <container name="Deploring" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Deploring</span> the continuing use of mercenaries by the Libyan authorities,</p>
+      </container>
+      <container name="Considering" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Considering</span> that the establishment of a ban on all flights in the airspace of the Libyan Arab Jamahiriya constitutes an important element for the protection of civilians as well as the safety of the delivery of humanitarian assistance and a decisive step for the cessation of hostilities in Libya,</p>
+      </container>
+      <container name="Expressing concern" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> also for the safety of foreign nationals and their rights in the Libyan Arab Jamahiriya,</p>
+      </container>
+      <container name="Welcoming" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the appointment by the Secretary General of his Special Envoy to Libya, Mr. Abdel-Elah Mohamed Al-Khatib and supporting his efforts to find a sustainable and peaceful solution to the crisis in the Libyan Arab Jamahiriya,</p>
+      </container>
+      <container name="Reaffirming" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, territorial integrity and national unity of the Libyan Arab Jamahiriya,</p>
+      </container>
+      <container name="Determining" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in the Libyan Arab Jamahiriya continues to constitute a threat to international peace and security,</p>
+      </container>
+      <container name="Acting" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> the immediate establishment of a cease-fire and a complete end to violence and all attacks against, and abuses of, civilians;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the need to intensify efforts to find a solution to the crisis which responds to the legitimate demands of the Libyan people and <span class="italic">notes</span> the decisions of the Secretary-General to send his Special Envoy to Libya and of the Peace and Security Council of the African Union to send its ad hoc High Level Committee to Libya with the aim of facilitating dialogue to lead to the political reforms necessary to find a peaceful and sustainable solution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> that the Libyan authorities comply with their obligations under international law, including international humanitarian law, human rights and refugee law and take all measures to protect civilians and meet their basic needs, and to ensure the rapid and unimpeded passage of humanitarian assistance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="H23">
+        <subheading>		Protection of civilians</subheading>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Authorizes</span> Member States that have notified the Secretary-General, acting nationally or through regional organizations or arrangements, and acting in cooperation with the Secretary-General, to take all necessary measures, notwithstanding paragraph 9 of resolution 1970 (2011), to protect civilians and civilian populated areas under threat of attack in the Libyan Arab Jamahiriya, including Benghazi, while excluding a foreign occupation force of any form on any part of Libyan territory, and <span class="italic">requests</span> the Member States concerned to inform the Secretary-General immediately of the measures they take pursuant to the authorization conferred by this paragraph which shall be immediately reported to the Security Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the important role of the League of Arab States in matters relating to the maintenance of international peace and security in the region, and bearing in mind Chapter VIII of the Charter of the United Nations, requests the Member States of the League of Arab States to cooperate with other Member States in the implementation of paragraph 4;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="H23">
+        <subheading>		No Fly Zone</subheading>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to establish a ban on all flights in the airspace of the Libyan Arab Jamahiriya in order to help protect civilians;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Decides further</span> that the ban imposed by paragraph 6 shall not apply to flights whose sole purpose is humanitarian, such as delivering or facilitating the delivery of assistance, including medical supplies, food, humanitarian workers and related assistance, or evacuating foreign nationals from the Libyan Arab Jamahiriya, nor shall it apply to flights authorised by paragraphs 4 or 8, nor other flights which are deemed necessary by States acting under the authorisation conferred in paragraph 8 to be for the benefit of the Libyan people, and that these flights shall be coordinated with any mechanism established under paragraph 8;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Authorizes</span> Member States that have notified the Secretary-General and the Secretary-General of the League of Arab States, acting nationally or through regional organizations or arrangements, to take all necessary measures to enforce compliance with the ban on flights imposed by paragraph 6 above, as necessary, and <span class="italic">requests</span> the States concerned in cooperation with the League of Arab States to coordinate closely with the Secretary General on the measures they are taking to implement this ban, including by establishing an appropriate mechanism for implementing the provisions of paragraphs 6 and 7 above, </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all Member States, acting nationally or through regional organizations or arrangements, to provide assistance, including any necessary over-flight approvals, for the purposes of implementing paragraphs 4, 6, 7 and 8 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Member States concerned to coordinate closely with each other and the Secretary-General on the measures they are taking to implement paragraphs 4, 6, 7 and 8 above, including practical measures for the monitoring and approval of authorised humanitarian or evacuation flights;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the Member States concerned shall inform the Secretary-General and the Secretary-General of the League of Arab States immediately of measures taken in exercise of the authority conferred by paragraph 8 above, including to supply a concept of operations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to inform the Council immediately of any actions taken by the Member States concerned in exercise of the authority conferred by paragraph 8 above and to report to the Council within 7 days and every month thereafter on the implementation of this resolution, including information on any violations of the flight ban imposed by paragraph 6 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="H23">
+        <subheading>		Enforcement of the arms embargo</subheading>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Decides that</span> paragraph 11 of resolution 1970 (2011) shall be replaced by the following paragraph : “Calls upon all Member States, in particular States of the region, acting nationally or through regional organisations or arrangements, in order to ensure strict implementation of the arms embargo established by paragraphs 9 and 10 of resolution 1970 (2011), to inspect in their territory, including seaports and airports, and on the high seas, vessels and aircraft bound to or from the Libyan Arab Jamahiriya, if the State concerned has information that provides reasonable grounds to believe that the cargo contains items the supply, sale, transfer or export of which is prohibited by paragraphs 9 or 10 of resolution 1970 (2011) as modified by this resolution, including the provision of armed mercenary personnel, <span class="italic">calls upon</span> all flag States of such vessels and aircraft to cooperate with such inspections and authorises Member States to use all measures commensurate to the specific circumstances to carry out such inspections”;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> Member States which are taking action under paragraph 13 above on the high seas to coordinate closely with each other and the Secretary-General and <span class="italic">further requests</span> the States concerned to inform the Secretary-General and the Committee established pursuant to paragraph 24 of resolution 1970 (2011) (“the Committee”) immediately of measures taken in the exercise of the authority conferred by paragraph 13 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Requires</span> any Member State whether acting nationally or through regional organisations or arrangements, when it undertakes an inspection pursuant to paragraph 13 above, to submit promptly an initial written report to the Committee containing, in particular, explanation of the grounds for the inspection, the results of such inspection, and whether or not cooperation was provided, and, if prohibited items for transfer are found, further requires such Member States to submit to the Committee, at a later stage, a subsequent written report containing relevant details on the inspection, seizure, and disposal, and relevant details of the transfer, including a description of the items, their origin and intended destination, if this information is not in the initial report;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">Deplores</span> the continuing flows of mercenaries into the Libyan Arab Jamahiriya and <span class="italic">calls upon</span> all Member States to comply strictly with their obligations under paragraph 9 of resolution 1970 (2011) to prevent the provision of armed mercenary personnel to the Libyan Arab Jamahiriya;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="H23">
+        <subheading>		Ban on flights</subheading>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that all States shall deny permission to any aircraft registered in the Libyan Arab Jamahiriya or owned or operated by Libyan nationals or companies to take off from, land in or overfly their territory unless the particular flight has been approved in advance by the Committee, or in the case of an emergency landing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Decides that</span> all States shall deny permission to any aircraft to take off from, land in or overfly their territory, if they have information that provides reasonable grounds to believe that the aircraft contains items the supply, sale, transfer, or export of which is prohibited by paragraphs 9 and 10 of resolution 1970 (2011) as modified by this resolution, including the provision of armed mercenary personnel, except in the case of an emergency landing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="H23">
+        <subheading>		Asset freeze </subheading>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the asset freeze imposed by paragraph 17, 19, 20 and 21 of resolution 1970 (2011) shall apply to all funds, other financial assets and economic resources which are on their territories, which are owned or controlled, directly or indirectly, by the Libyan authorities, as designated by the Committee, or by individuals or entities acting on their behalf or at their direction, or by entities owned or controlled by them, as designated by the Committee, and <span class="italic">decides further</span> that all States shall ensure that any funds, financial assets or economic resources are prevented from being made available by their nationals or by any individuals or entities within their territories, to or for the benefit of the Libyan authorities, as designated by the Committee, or individuals or entities acting on their behalf or at their direction, or entities owned or controlled by them, as designated by the Committee, and directs the Committee to designate such Libyan authorities, individuals or entities within 30 days of the date of the adoption of this resolution and as appropriate thereafter;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> its determination to ensure that assets frozen pursuant to paragraph 17 of resolution 1970 (2011) shall, at a later stage, as soon as possible be made available to and for the benefit of the people of the Libyan Arab Jamahiriya;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that all States shall require their nationals, persons subject to their jurisdiction and firms incorporated in their territory or subject to their jurisdiction to exercise vigilance when doing business with entities incorporated in the Libyan Arab Jamahiriya or subject to its jurisdiction, and any individuals or entities acting on their behalf or at their direction, and entities owned or controlled by them, if the States have information that provides reasonable grounds to believe that such business could contribute to violence and use of force against civilians;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="H23">
+        <subheading>		Designations </subheading>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the individuals listed in Annex I shall be subject to the travel restrictions imposed in paragraphs 15 and 16 of resolution 1970 (2011), and <span class="italic">decides</span> further that the individuals and entities listed in Annex II shall be subject to the asset freeze imposed in paragraphs 17, 19, 20 and 21 of resolution 1970 (2011);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the measures specified in paragraphs 15, 16, 17, 19, 20 and 21 of resolution 1970 (2011) shall apply also to individuals and entities determined by the Council or the Committee to have violated the provisions of resolution 1970 (2011), particularly paragraphs 9 and 10 thereof, or to have assisted others in doing so;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="H23">
+        <subheading>		Panel of Experts</subheading>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>24.</num>
+        <list eId="para_74_list">
+          <intro eId="para_74_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to create for an initial period of one year, in consultation with the Committee, a group of up to eight experts (“Panel of Experts”), under the direction of the Committee to carry out the following tasks:</p>
+          </intro>
+          <point eId="para_74_list_point_a">
+            <num>(a)</num>
+            <content eId="para_74_list_point_a_content">
+              <p xml:space="preserve">	Assist the Committee in carrying out its mandate as specified in paragraph 24 of resolution 1970 (2011) and this resolution;</p>
+            </content>
+          </point>
+          <point eId="para_74_list_point_b">
+            <num>(b)</num>
+            <content eId="para_74_list_point_b_content">
+              <p xml:space="preserve">	Gather, examine and analyse information from States, relevant United Nations bodies, regional organisations and other interested parties regarding the implementation of the measures decided in resolution 1970 (2011) and this resolution, in particular incidents of non‑compliance;</p>
+            </content>
+          </point>
+          <point eId="para_74_list_point_c">
+            <num>(c)</num>
+            <content eId="para_74_list_point_c_content">
+              <p xml:space="preserve">	Make recommendations on actions the Council, or the Committee or State, may consider to improve implementation of the relevant measures; </p>
+            </content>
+          </point>
+          <point eId="para_74_list_point_d">
+            <num>(d)</num>
+            <content eId="para_74_list_point_d_content">
+              <p xml:space="preserve">	Provide to the Council an interim report on its work no later than 90 days after the Panel’s appointment, and a final report to the Council no later than 30 days prior to the termination of its mandate with its findings and recommendations;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all States, relevant United Nations bodies and other interested parties, to cooperate fully with the Committee and the Panel of Experts, in particular by supplying any information at their disposal on the implementation of the measures decided in resolution 1970 (2011) and this resolution, in particular incidents of non‑compliance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the mandate of the Committee as set out in paragraph 24 of resolution 1970 (2011) shall also apply to the measures decided in this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that all States, including the Libyan Arab Jamahiriya, shall take the necessary measures to ensure that no claim shall lie at the instance of the Libyan authorities, or of any person or body in the Libyan Arab Jamahiriya, or of any person claiming through or for the benefit of any such person or body, in connection with any contract or other transaction where its performance was affected by reason of the measures taken by the Security Council in resolution 1970 (2011), this resolution and related resolutions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> its intention to keep the actions of the Libyan authorities under continuous review and underlines its readiness to review at any time the measures imposed by this resolution and resolution 1970 (2011), including by strengthening, suspending or lifting those measures, as appropriate, based on compliance by the Libyan authorities with this resolution and resolution 1970 (2011). </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="H1">
+          <heading> Libya: UNSCR proposed designations</heading>
+      </paragraph>
+      <container name="table" eId="container_91">
+        <table eId="container_91_table_1" akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Right&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Bottom&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Left&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;InsideHorizontal&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;InsideVertical&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0}}" akn4un:data-width-type="9851-dxa">
+          <tr>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="585-dxa">
+              <p>
+                <span class="italic">Number</span>
+              </p>
+            </th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="2421-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="italic">Name</span>
+              </p>
+            </th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="italic">Justification</span>
+              </p>
+            </th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" colspan="2" akn4un:data-width-type="3776-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="italic">Identifiers</span>
+              </p>
+            </th>
+          </tr>
+          <tr>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="585-dxa"></th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="2421-dxa" akn4un:data-justification="Left"></th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left"></th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" colspan="2" akn4un:data-width-type="3776-dxa" akn4un:data-justification="Left"></th>
+          </tr>
+          <tr>
+            <td colspan="4" akn4un:data-width-type="9024-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">Annex I: Travel Ban</span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="585-dxa">
+              <p>1</p>
+            </td>
+            <td akn4un:data-width-type="2421-dxa" akn4un:data-justification="Left">
+              <p>QUREN SALIH QUREN  AL QADHAFI</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Libyan Ambassador to Chad. Has left Chad for Sabha. Involved directly in recruiting and coordinating mercenaries for the regime.</p>
+            </td>
+            <td colspan="2" akn4un:data-width-type="3776-dxa" akn4un:data-justification="Left"></td>
+          </tr>
+          <tr>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="585-dxa">
+              <p>2</p>
+            </td>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="2421-dxa" akn4un:data-justification="Left">
+              <p>Colonel AMID HUSAIN  AL KUNI </p>
+            </td>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Governor of Ghat (South Libya). Directly involved in recruiting mercenaries.</p>
+            </td>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" colspan="2" akn4un:data-width-type="3776-dxa" akn4un:data-justification="Left"></td>
+          </tr>
+        </table>
+      </container>
+      <container name="table" eId="container_92">
+        <table eId="container_92_table_1" akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Right&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Bottom&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;Left&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;InsideHorizontal&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0},&quot;InsideVertical&quot;:{&quot;Style&quot;:&quot;none&quot;,&quot;Size&quot;:0,&quot;Space&quot;:0}}" akn4un:data-width-type="9851-dxa">
+          <tr>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="italic">Number</span>
+              </p>
+            </th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="italic">Name</span>
+              </p>
+            </th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="italic">Justification</span>
+              </p>
+            </th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="italic">Identifiers</span>
+              </p>
+            </th>
+          </tr>
+          <tr>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="594-dxa" akn4un:data-justification="Left"></th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left"></th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left"></th>
+            <th akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:null,&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-vertical-align="bottom" akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left"></th>
+          </tr>
+          <tr>
+            <td colspan="4" akn4un:data-width-type="9851-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">Annex II: Asset Freeze</span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>1</p>
+            </td>
+            <td akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Dorda, Abu Zayd Umar</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Position: Director, External Security Organisation </p>
+            </td>
+            <td akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left"></td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>2</p>
+            </td>
+            <td akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Jabir, Major General Abu Bakr Yunis</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Position: Defence Minister </p>
+            </td>
+            <td akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">Title</span>: Major General <span class="bold">DOB</span>: --/--/1952. <span class="bold">POB</span>: Jalo, Libya</p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>3</p>
+            </td>
+            <td akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Matuq, Matuq Mohammed</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Position: Secretary for Utilities </p>
+            </td>
+            <td akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">DOB</span>: --/--/1956. <span class="bold">POB</span>: Khoms </p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>4</p>
+            </td>
+            <td akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Qadhafi, Mohammed Muammar</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Son of Muammar Qadhafi. Closeness of association with regime</p>
+            </td>
+            <td akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">DOB</span>: --/--/1970. <span class="bold">POB</span>: Tripoli, Libya </p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>5</p>
+            </td>
+            <td akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Qadhafi, Saadi</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Commander Special Forces. Son of Muammar Qadhafi. Closeness of association with regime. Command of military units involved in repression of demonstrations</p>
+            </td>
+            <td akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">DOB</span>: 25/05/1973. <span class="bold">POB</span>: Tripoli, Libya </p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>6</p>
+            </td>
+            <td akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Qadhafi, Saif al-Arab</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Son of Muammar Qadhafi. Closeness of association with regime</p>
+            </td>
+            <td akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">DOB</span>: --/--/1982. <span class="bold">POB</span>: Tripoli, Libya </p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>7</p>
+            </td>
+            <td akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Al-Senussi, Colonel Abdullah</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Position: Director Military Intelligence </p>
+            </td>
+            <td akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">Title</span>: Colonel <span class="bold">DOB</span>: --/--/1949. <span class="bold">POB</span>: Sudan </p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4" akn4un:data-width-type="9851-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">Entities</span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>1</p>
+            </td>
+            <td akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Central Bank of Libya</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Under control of Muammar Qadhafi and his family, and potential source of funding for his regime.</p>
+            </td>
+            <td akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left"></td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>2</p>
+            </td>
+            <td akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Libyan Investment Authority</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Under control of Muammar Qadhafi and his family, and potential source of funding for his regime.</p>
+            </td>
+            <td akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">a.k.a</span>: Libyan Arab Foreign Investment Company (LAFICO) <span class="bold">Address</span>: 1 Fateh Tower Office, No 99 22nd Floor, Borgaida Street, Tripoli, Libya, 1103</p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>3</p>
+            </td>
+            <td akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Libyan Foreign Bank</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Under control of Muammar Qadhafi and his family and a potential source of funding for his regime.</p>
+            </td>
+            <td akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left"></td>
+          </tr>
+          <tr>
+            <td akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>4</p>
+            </td>
+            <td akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Libyan Africa Investment Portfolio</p>
+            </td>
+            <td akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Under control of Muammar Qadhafi and his family, and potential source of funding for his regime.</p>
+            </td>
+            <td akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">Address</span>: Jamahiriya Street, LAP Building, PO Box 91330, Tripoli, Libya </p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="594-dxa" akn4un:data-justification="Left">
+              <p>5</p>
+            </td>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="2394-dxa" akn4un:data-justification="Left">
+              <p>Libyan National Oil Corporation </p>
+            </td>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="3069-dxa" akn4un:data-justification="Left">
+              <p>Under control of Muammar Qadhafi and his family, and potential source of funding for his regime.</p>
+            </td>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="3794-dxa" akn4un:data-justification="Left">
+              <p>
+                <span class="bold">Address</span>: Bashir Saadwi Street, Tripoli, Tarabulus, Libya</p>
+            </td>
+          </tr>
+        </table>
+      </container>
+    </mainBody>
+  </statement>
+</akomaNtoso>

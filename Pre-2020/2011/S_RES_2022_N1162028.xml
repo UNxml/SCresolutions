@@ -1,0 +1,178 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2022-2011/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2022-2011/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2022-2011/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2022-2011/eng@/"></FRBRuri>
+          <FRBRdate date="2011-12-02" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2022-2011/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2022-2011/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Support Mission in Libya" showAs="UN Support Mission in Libya" dictionary="DHLAUTH"></keyword>
+        <keyword value="SPECIAL MISSIONS" showAs="SPECIAL MISSIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMS LIMITATION" showAs="ARMS LIMITATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[219]" showAs="LIBYA SITUATION" dictionary="S/66"></keyword>
+        <keyword refersTo="agenda" value="[220]" showAs="UN SUPPORT MISSION IN LIBYA" dictionary="S/66"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2022 (2011) [on extension of the mandate of the UN Support Mission in Libya (UNSMIL) until 16 Mar. 2012]" showAs="Security Council resolution 2022 (2011) [on extension of the mandate of the UN Support Mission in Libya (UNSMIL) until 16 Mar. 2012]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2011-12-02" outcome="draftResolution" as="S/2011/752" by="France, Germany, Lebanon, Portugal, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2011-12-02" outcome="adopted" as="S/PV.6673" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">11-62028 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2022 (2011)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2011-12-02" class="rightSmall" refersTo="#dateOfIssuance">2 December 2011</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2022 (2011)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions 1970 (2011) of 26 February 2011, 1973 (2011) of 17 March 2011, 2009 (2011) of 16 September 2011, 2016 (2011) of 27 October 2011, and 2017 (2011) of 31 October 2011,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, territorial integrity and national unity of Libya,</p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its decision to establish a United Nations Support Mission in Libya (UNSMIL) for an initial period of three months until 16 December 2011 to assist and support Libyan national efforts in the post-conflict phase,</p>
+      </container>
+      <container name="Welcoming" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the establishment of the transitional Government of Libya on 22 November 2011, and stressing its key role in creating the conditions conducive to the full implementation of UNSMIL’s mandate,</p>
+      </container>
+      <container name="Welcoming also" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Welcoming also</span> the engagement of the Secretary-General and the President of the General Assembly, including through their recent visit to Libya which affirmed the key role of the United Nations in supporting Libyan national efforts in the post-conflict phase,</p>
+      </container>
+      <container name="Looking forward" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Looking forward</span> to an assessment of needs by UNSMIL and the transitional Government of Libya by 16 March 2012, cooperating with all relevant international partners, including the international financial institutions, with a view to continuing the work of the UN in coordinating international support to the transitional Government of Libya on the basis of its needs,</p>
+      </container>
+      <container name="Stressing" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the importance of the UN’s, including UNSMIL’s, continued support to the transitional Government of Libya in addressing immediate priorities as set out in paragraph 12 of resolution 2009 (2011),</p>
+      </container>
+      <container name="Taking note" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the Report of the Secretary-General on the United Nations Support Mission in Libya (S/2011/727), including the recommendation for a three-month extension of the UNSMIL mandate,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend the mandate of the United Nations Support Mission in Libya established by paragraph 12 of resolution 2009 (2011) until 16 March 2012, and looks forward to the report of the Secretary-General, including recommendations on the next phase of UNSMIL’s support to Libya;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the mandate of UNSMIL shall in addition include, in coordination and consultation with the transitional Government of Libya, assisting and supporting Libyan national efforts to address the threats of proliferation of all arms and related materiel of all types, in particular man-portable surface to air missiles, taking into account, among other things, the report referred to in paragraph 5 of resolution 2017 (2011);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

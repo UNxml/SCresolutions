@@ -1,0 +1,446 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2012-2011/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2012-2011/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2012-2011/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2012-2011/eng@/"></FRBRuri>
+          <FRBRdate date="2011-10-14" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2012-2011/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2012-2011/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Stabilization Mission in Haiti" showAs="UN Stabilization Mission in Haiti" dictionary="DHLAUTH"></keyword>
+        <keyword value="Haitian National Police" showAs="Haitian National Police" dictionary="DHLAUTH"></keyword>
+        <keyword value="OAS" showAs="OAS" dictionary="DHLAUTH"></keyword>
+        <keyword value="Caribbean Community" showAs="Caribbean Community" dictionary="DHLAUTH"></keyword>
+        <keyword value="Interim Haiti Recovery Commission" showAs="Interim Haiti Recovery Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HAITI" showAs="HAITI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HAITI QUESTION" showAs="HAITI QUESTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POLICE" showAs="POLICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY PERSONNEL" showAs="MILITARY PERSONNEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME PREVENTION" showAs="CRIME PREVENTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CAPACITY BUILDING" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RULE OF LAW" showAs="RULE OF LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ELECTION VERIFICATION" showAs="ELECTION VERIFICATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAINING PROGRAMMES" showAs="TRAINING PROGRAMMES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RECONSTRUCTION" showAs="RECONSTRUCTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TECHNICAL COOPERATION" showAs="TECHNICAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CORRECTIONAL SYSTEMS" showAs="CORRECTIONAL SYSTEMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ORGANIZED CRIME" showAs="ORGANIZED CRIME" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG TRAFFIC" showAs="DRUG TRAFFIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SALE OF CHILDREN" showAs="SALE OF CHILDREN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COUNTRY TEAMS" showAs="COUNTRY TEAMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LIVING CONDITIONS" showAs="LIVING CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISPLACED PERSONS" showAs="DISPLACED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER-BASED VIOLENCE" showAs="GENDER-BASED VIOLENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHILD ABUSE" showAs="CHILD ABUSE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SEX CRIMES" showAs="SEX CRIMES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS" showAs="HUMAN RIGHTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME OWNERSHIP" showAs="PROGRAMME OWNERSHIP" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COMMUNITY PARTICIPATION" showAs="COMMUNITY PARTICIPATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SMALL ARMS" showAs="SMALL ARMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RULES AND REGULATIONS" showAs="RULES AND REGULATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[137]" showAs="UN STABILIZATION MISSION IN HAITI" dictionary="S/66"></keyword>
+        <keyword refersTo="agenda" value="[138]" showAs="HAITI--POLITICAL CONDITIONS" dictionary="S/66"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2012 (2011) [on extension of the mandate of the UN Stabilization Mission in Haiti (MINUSTAH) until 15 Oct. 2012]" showAs="Security Council resolution 2012 (2011) [on extension of the mandate of the UN Stabilization Mission in Haiti (MINUSTAH) until 15 Oct. 2012]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2011-10-14" outcome="draftResolution" as="S/2011/637" by="Argentina, Brazil, Canada, Chile, Colombia, France, Guatemala, Peru, Spain, United States of America and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2011-10-14" outcome="adopted" as="S/PV.6631" by="" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">11-54600 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2012 (2011)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2011-10-14" class="rightSmall" refersTo="#dateOfIssuance">14 October 2011</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2012 (2011)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its previous resolutions on Haiti, in particular its resolutions 1944 (2010), 1927 (2010), 1908 (2010), 1892 (2009), 1840 (2008) 1780 (2007), 1743 (2007), 1702 (2006), 1658 (2006), 1608 (2005), 1576 (2004) and 1542 (2004), </p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, territorial integrity and unity of Haiti, </p>
+      </container>
+      <container name="Recognizing" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that Haiti has made considerable strides since the tragic earthquake of 12 January 2010, particularly that for the first time in its history, Haiti has experienced a peaceful transfer of power between one democratically elected president and another from the opposition, </p>
+      </container>
+      <container name="Recognizing also" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recognizing also</span>, as has the Haitian Government, that the overall security situation, while fragile, has improved since the adoption of its resolutions 1908, 1927 and 1944 (2010), allowing a partial drawdown of MINUSTAH’s military and police capabilities as the first step to ending the temporary surge capacities decided by the Security Council after the earthquake, while continuing to adapt the Mission’s strength without undermining the security and stability of Haiti and recognizing the importance of condition-based and security-related decisions about the future of MINUSTAH,</p>
+      </container>
+      <container name="Welcoming" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the appointment of a Prime Minister and a Supreme Court President and calling on all the relevant political actors in Haiti, in particular the Executive and Legislative branches, to engage in an effective dialogue towards a political agreement that would consolidate a concrete forward agenda for progress in key areas, such as Haiti’s security, budget, recovery and development priorities, elections and electoral reform, including the participation of women in the electoral processes and the completion of constitutional reform,</p>
+      </container>
+      <container name="Acknowledging" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> that Haiti continues to face significant humanitarian challenges, with more than 600,000 internally displaced persons still dependent on assistance for their basic survival, an ongoing cholera epidemic, and extreme vulnerability to natural disasters, </p>
+      </container>
+      <container name="Emphasizing" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> that progress in the recovery and reconstruction of Haiti, as well as in Haiti’s social and economic development, including through effective international development assistance and increased Haitian institutional capacity to benefit from this assistance, are crucial to achieving lasting and sustainable stability, and reiterating the need for security to be accompanied by social and economic development,</p>
+      </container>
+      <container name="Stressing" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the leading role of the Government of Haiti in the post-disaster recovery and reconstruction process, including risk reduction and preparedness efforts, and underlining the necessity for increased coordination and complementary efforts among all United Nations actors and other relevant stakeholders in assisting the Government in this regard, as well as in the overall support to Haiti’s social and economic development,</p>
+      </container>
+      <container name="Recognizing" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the work done so far by the Interim Haiti Recovery Commission, to which the United Nations continues to provide coherent policy advice and technical support, and also by the Haiti Reconstruction Fund, which both play a central role in the medium and long-term reconstruction efforts in Haiti,</p>
+      </container>
+      <container name="Commending" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the wide range of recovery efforts delivered by the United Nations system in Haiti, especially the United Nations-supported housing and debris removal programs and the successful use of MINUSTAH’s military engineering units to address urgent needs in the immediate aftermath of the January 2010 earthquake, emphasizing the importance of increasing participation of Haitian authorities and international and civilian actors in these tasks, </p>
+      </container>
+      <container name="Urging" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Urging</span> donors to fulfil without delay the pledges made at the International Donors’ Conference “Towards a New Future for Haiti” held on 31 March 2010, in order to continue producing tangible and visible reconstruction dividends, and underlining national responsibility to provide clear guidance and priorities,</p>
+      </container>
+      <container name="Emphasizing" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the role of regional organizations in the ongoing process of stabilization and reconstruction of Haiti and calling on MINUSTAH to continue to work closely with regional and subregional organizations, international financial institutions and other stakeholders, in particular the Organization of the American States (OAS) and the Caribbean Community (CARICOM), </p>
+      </container>
+      <container name="Recognizing" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the interconnected nature of the challenges in Haiti, reaffirming that sustainable progress on security, the rule of law and institutional reform, national reconciliation and development are mutually reinforcing, and welcoming the continuing efforts of the Government of Haiti and the international community to address these challenges,</p>
+      </container>
+      <container name="Expressing its concern" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Expressing its concern</span> that criminal gangs remain a threat to Haiti’s stability, </p>
+      </container>
+      <container name="Recognizing" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that the overall security situation has improved but further expressing its concern that trends since the earthquake reveal an increase in all major categories of crime, including murder, rape and kidnapping in Port-au-Prince and the West Department,</p>
+      </container>
+      <container name="Acknowledging" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> that sexual and gender-based violence remains a serious concern, particularly in marginalized districts of Port-au-Prince, internally displaced persons camps and remote areas of the country,</p>
+      </container>
+      <container name="Welcoming" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the efforts of the HNP to increase patrolling and enhance its presence and engagement directly with the population, which may have contributed to an increase in the reporting of crimes,</p>
+      </container>
+      <container name="Recognizing" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that strengthening national human rights institutions and respect for human rights, due process, combating criminality and sexual and gender based violence, and putting an end to impunity are essential to ensuring the rule of law and security in Haiti, </p>
+      </container>
+      <container name="Recognizing" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the critical role of MINUSTAH in ensuring stability and security in Haiti and also recognizing the complementary roles that MINUSTAH and the United Nations Country Team have fulfilled to date in assisting Haiti in its recovery efforts, reaffirming the authority of the Special Representative of the Secretary-General in the coordination and conduct of all activities of United Nations agencies, funds and programmes in Haiti, and stressing the importance of the Special Representative of the Secretary-General ensuring further coordination between MINUSTAH and the United Nations Country Team in connection with the aspects of their respective mandates that are correlated, with special attention to the strengthening of Haitian institutional capabilities, including in the areas of reconstruction and development, </p>
+      </container>
+      <container name="Commending" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Commending</span> MINUSTAH for continuing to assist the Government of Haiti to ensure a secure and stable environment and expressing gratitude to the personnel of MINUSTAH and to their countries and paying tribute to those injured or killed in the line of duty,</p>
+      </container>
+      <container name="Welcoming" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the commitment by the Government of Haiti to strengthen the rule of law, and calling on the Government of Haiti, in coordination with the international community, to continue to advance security sector reform, including in particular the development and implementation of the next five-year Haitian National Police Development Plan, which will take effect after December 2011, underscoring the need for the Government of Haiti with the assistance of the international community, as requested, to take steps to ensure that the HNP meets the benchmarks for reform contained in the plan and encouraging the Government, with the support of MINUSTAH, to regularly inform the Haitian people on progress toward these benchmarks,</p>
+      </container>
+      <container name="Underscoring" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Underscoring</span> the importance of the Haitian National police being adequately funded and encouraging the Government of Haiti to take advantage of the support being provided by the international community to guarantee the provision of adequate security for the Haitian people, </p>
+      </container>
+      <container name="Underlining" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the need to further strengthen Haitian judicial and correctional systems, in order to support a more integrated and cohesive Haitian security sector, welcoming the improvements in the judiciary toward the availability of adequate human and material capabilities and acknowledging that attendant human rights concerns that still remain in the corrections system such as, prolonged pretrial detentions, prison overcrowding and access to health care services, are significant challenges to sustainable administrative reforms, </p>
+      </container>
+      <container name="Welcoming" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the efforts of the former President of the United States of America, William J. Clinton as United Nations Special Envoy for Haiti, to enhance the United Nations recovery response, in both humanitarian and development operations as well as tracking aid pledges and disbursement of funds, liaising with the Interim Haiti Recovery Commission and the international financial institutions, working to ensure coherence across United Nations operations in Haiti, and noting the importance of regular reporting on these activities,</p>
+      </container>
+      <container name="Stressing" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the importance of a strong coordination among the office of the United Nations Special Envoy for Haiti and other United Nations entities and Member States, and stressing the need for coordination among all international actors on the ground,</p>
+      </container>
+      <container name="Underlining" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the need for the implementation of highly effective and visible labour intensive projects that help create jobs and deliver basic social services,</p>
+      </container>
+      <container name="Welcoming" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the Secretary-General’s report S/2011/540 of 25 August 2011, </p>
+      </container>
+      <container name="Determining" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in Haiti continues to constitute a threat to international peace and security in the region, despite the progress achieved thus far,</p>
+      </container>
+      <container name="Acting" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations, as described in section 1 of operative paragraph 7 of resolution 1542 (2004), </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend the mandate of MINUSTAH as contained in its resolutions 1542 (2004), 1608 (2005), 1702 (2006), 1743 (2007), 1780 (2007), 1840 (2008), 1892 (2009), 1908 (2010),1927 (2010) and 1944 (2010) until 15 October 2012, with the intention of further renewal; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that MINUSTAH’s overall force levels will consist of up to 7,340 troops of all ranks and a police component of up to 3,241, consistent with paragraph 50 of the Secretary-General’s report;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> that future adjustments to its force configuration should be based on the overall security situation on the ground, taking into account the impact of social and political realities on Haiti’s stability and security, the increasing development of Haitian State capabilities, including the ongoing strengthening of the Haitian National Police, and the national authorities’ increasing exercise of the Haitian State’s responsibility for the maintenance of stability and security in the country;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the ownership and primary responsibility of the Government and the people of Haiti over all aspects of the country’s stabilization, welcomes the steps taken by MINUSTAH to provide logistical and technical expertise, within available means, to assist the Government of Haiti, as requested, to continue operations to build the capacity of its rule of law institutions at the national and local levels, and to speed up the implementation of the Government’s resettlement strategy for displaced persons, in the knowledge that such measures are temporary and will be phased out as Haitian capacity grows, and calls on the Mission to proceed swiftly with activities in this regard as recommended by the Secretary-General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the Government of Haiti’s efforts to build institutional capacity in security and rule of law at all levels, including through decentralization efforts, and calls upon MINUSTAH, consistent with its mandate, and other relevant actors, to continue to provide support to strengthen self-sustaining security sector State institutions, especially outside Port-au-Prince, with a view to further enhance the Government of Haiti’s ability to extend State authority throughout Haiti, ensure greater countrywide presence of the State, and promote good governance at local levels;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that following the holding of presidential and legislative elections, a stable political and institutional environment is crucial for stability and the progress of recovery and reconstruction efforts, reaffirms its call upon MINUSTAH to support the political process under way in Haiti, including through the offices of the Special Representative of the Secretary-General, and encourages MINUSTAH to continue its support for the upcoming partial legislative and local elections; and to coordinate international electoral assistance to Haiti in cooperation with other international stakeholders including the OAS and CARICOM;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> ongoing efforts by MINUSTAH to increase coordination with the Haitian National Police and to strengthen the capacity of the Haitian National Police in order for the HNP to take full responsibility for Haiti’s security needs, including border management and security efforts in order to assess threats and deter illicit activities and calls on Haiti’s international and regional partners to intensify their assistance to the Government of Haiti in this regard, as requested;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Haitian authorities to take full advantage of that support, notably in enhancing Haitian National Police (HNP) capacity, modernizing key legislation and in the implementation of the justice reform plan, to take the necessary steps, including nominations, that will allow superior judicial institutions to function adequately, and to address the issue of prolonged pretrial detentions and prison overcrowding, with special regard to women and children;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> the Government of Haiti, with the support of MINUSTAH, to prioritise the development and implementation of the next five-year Haitian National Police Development Plan, which will succeed the current reform plan upon its expiration in December 2011 and requests MINUSTAH, with additional support as appropriate and within existing resources from locally-employed interpreters, to continue to support vetting, mentoring, training of the police and corrections personnel and strengthening the institutional and operational capacities of the correctional services as well as to continue to provide technical guidance to donor-funded projects as requested for the rehabilitation and construction of police and corrections facilities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the resumption of training and promotions of recruits for the Haitian National Police, stresses necessity of accountability and a robust vetting process and underscores the vital importance of maintaining and increasing the international community’s support for capacity-building of the HNP, particularly through enhanced mentoring and training of specialized units; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="italic">Encourages also</span> MINUSTAH, in co-operation with the appropriate international actors to assist the Government in tackling the risk of a resurgence in gang violence, organized crime, drug trafficking and trafficking of children;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> all donors and international and Non-Governmental Organizations to coordinate their efforts and work closely with the Interim Haiti Recovery Commission, or its successor institution, in order to strengthen the capacity of the Government to fulfil the Action Plan for National Recovery and Development of Haiti;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the United Nations country team, and calls upon all actors, to complement security and development operations undertaken by the Government of Haiti with the support of MINUSTAH with activities aimed at effectively improving the living conditions of the concerned populations, in particular women and children;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MINUSTAH to continue to implement quick-impact projects that further enhance the trust of the Haitian population towards MINUSTAH;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_136__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> MINUSTAH to continue assisting the Government of Haiti in providing adequate protection to the civilian population, with particular attention to the needs of internally displaced persons and other vulnerable groups, especially women and children, including through joint community policing in the camps, along with strengthened mechanisms to address sexual and gender-based violence and recalls Security Council Resolution 1894 (2009) and requests the Secretary General to develop, in close consultation with the Government of Haiti, and troop and police contributing countries, and other relevant actors, a comprehensive protection of civilians plan;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_151__content">
+          <p xml:space="preserve">	<span class="italic">Strongly condemns</span> the grave violations against children affected by armed violence, as well as widespread rape and other sexual abuse of women and girls, and calls upon the Government of Haiti, with the support of MINUSTAH and the United Nations country team, to continue to promote and protect the rights of women and children as set out in Security Council resolutions 1325 (2000), 1612 (2005), 1820 (2008), 1882 (2009), 1888 (2009), and 1889 (2009);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_167" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_167__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to continue to take the necessary measures to ensure full compliance of all MINUSTAH personnel with the United Nations zero-tolerance policy on sexual exploitation and abuse, and to keep the Council informed, and urges troop- and police-contributing countries to ensure that acts involving their personnel are properly investigated and punished;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_184" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_184__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> MINUSTAH’s human rights mandate and recognizes that respect for human rights, is essential to Haiti’s stability, in particular attention to individual accountability for grave violations under past governments, urges the Government to ensure the respect and protection of human rights by the Haitian National Police and the judiciary and calls on MINUSTAH to provide monitoring and support in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_202" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_202__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the important work done by MINUSTAH in support of urgent needs in Haiti and encourages the Mission within its mandate to continue to make full use of existing means and capabilities, including its engineers, with a view to further enhancing stability in the country and requests MINUSTAH to develop its longer term planning and further requests the Secretary-General to include in his next report an indication of MINUSTAH’s plans to encourage greater Haitian ownership of reconstruction activity in Haiti;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_221" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_221__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MINUSTAH to continue to pursue its expanded community violence reduction approach, adapting the programme to the changing requirements of the post-earthquake Haitian context with a particular focus on the displaced and those living in violence-affected neighbourhoods;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_241" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_241__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MINUSTAH to continue to support the Haitian authorities in their efforts to control the flow of small arms including labour-intensive projects, the development of a weapons registry, the revision of current laws on importation and possession of arms, reform of the weapons permit system and the development and implementation of a national community policing doctrine;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_262" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_262__content">
+          <p xml:space="preserve">	<span class="italic">Underscores</span> the importance that planning documents for MINUSTAH’s military and police components, such as the concept of operations and rules of engagement, be regularly updated, as appropriate, and be in line with the provisions of all its relevant resolutions, and requests the Secretary-General to report on them to the Security Council and troop- and police-contributing countries;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_284" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_284__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to report to the Council on the implementation of MINUSTAH’s mandate, semi-annually and not later than 45 days prior to its expiration; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_307" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_307__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to include in his reports a comprehensive assessment of threats to security in Haiti and give particular attention to the protective environment for all, in particular women and children, and on progress in the sustainable resettlement of displace persons, and to propose, as appropriate, options to reconfigure the composition of MINUSTAH; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_331" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_331__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

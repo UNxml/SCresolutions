@@ -1,0 +1,703 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2011-07-27/2000-2011/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2011-07-27/2000-2011/"></FRBRuri>
+          <FRBRdate date="2011-07-27" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2011-07-27/2000-2011/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2011-07-27/2000-2011/eng@/"></FRBRuri>
+          <FRBRdate date="2011-07-27" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2011-07-27/2000-2011/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2011-07-27/2000-2011/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-27" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Operation in Côte d'Ivoire" showAs="UN Operation in Côte d'Ivoire" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Special Representative of the Secretary-General for Côte d'Ivoire" showAs="UN. Special Representative of the Secretary-General for Côte d'Ivoire" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Mission in Liberia" showAs="UN Mission in Liberia" dictionary="DHLAUTH"></keyword>
+        <keyword value="Ouagadougou Political Agreement (2007)" showAs="Ouagadougou Political Agreement (2007)" dictionary="DHLAUTH"></keyword>
+        <keyword value="ELECTION VERIFICATION" showAs="ELECTION VERIFICATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY PERSONNEL" showAs="MILITARY PERSONNEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY DEMOBILIZATION" showAs="MILITARY DEMOBILIZATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CIVIL SOCIETY" showAs="CIVIL SOCIETY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CODES OF CONDUCT" showAs="CODES OF CONDUCT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POST-CONFLICT RECONSTRUCTION" showAs="POST-CONFLICT RECONSTRUCTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PUBLIC INFORMATION" showAs="PUBLIC INFORMATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHILDREN IN ARMED CONFLICTS" showAs="CHILDREN IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS MONITORING" showAs="HUMAN RIGHTS MONITORING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CIVILIAN PERSONS" showAs="CIVILIAN PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISARMAMENT" showAs="DISARMAMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[198]" showAs="UN OPERATION IN CÔTE D'IVOIRE" dictionary="S/66"></keyword>
+        <keyword refersTo="agenda" value="[196]" showAs="CÔTE D'IVOIRE--POLITICAL CONDITIONS" dictionary="S/66"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2000 (2011) [on renewal of the mandate of the UN Operation in Côte d'Ivoire (UNOCI) until 31 July 2012]" showAs="Security Council resolution 2000 (2011) [on renewal of the mandate of the UN Operation in Côte d'Ivoire (UNOCI) until 31 July 2012]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2011-07-27" outcome="draftResolution" as="S/2011/458" by="France and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2011-07-27" outcome="adopted" as="S/PV.6591" by="" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BOSNIA AND HERZEGOVINA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">LEBANON</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2000 (2011)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2011-07-27" class="rightSmall" refersTo="#dateOfIssuance">27 July 2011</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2000 (2011)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="6591st">6591st meeting</inline>, on <docDate date="2011-07-27" refersTo="#adoptionDate">27 July 2011</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its previous resolutions, in particular resolutions 1933 (2010), 1942 (2010), 1951 (2010), 1962 (2010), 1967 (2011), 1968 (2011), 1975 (2011), 1980 (2011), 1981 (2011), and 1992 (2011) and the statements of its President relating to the situation in Côte d’Ivoire, and resolution 1938 (2010) on the situation in Liberia,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, territorial integrity and unity of Côte d’Ivoire, and recalling the importance of the principles of good-neighbourliness, non‑interference and regional cooperation,</p>
+      </container>
+      <container name="Welcoming" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the report of the Secretary-General of 24 June 2011 (S/2011/387) and taking note of its recommendations, including of the assessment mission that deployed to Côte d’Ivoire from 1 to 14 May 2011,</p>
+      </container>
+      <container name="Welcoming" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Welcoming </span>the progress towards restoring stability and peace in Côte d’Ivoire following the inauguration of Alassane Dramane Ouattara as President of the Republic of Côte d’Ivoire on 21 May 2011,</p>
+      </container>
+      <container name="Commending" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Commending </span>President Ouattara’s commitment and initiatives to promote dialogue, justice and reconciliation, including the establishment of the Dialogue, Truth and Reconciliation Commission, and <span class="italic">calling upon</span> all the Ivorian actors to work together in their efforts for the stabilization and reconstruction of the country,</p>
+      </container>
+      <container name="Taking note" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> that the Prosecutor of the International Criminal Court has requested authorization from the Pre-Trial Chamber to open an investigation into war crimes and crimes against Humanity in Côte d’Ivoire since 28 November 2010, on the basis of the declaration lodged by Côte d’Ivoire accepting the jurisdiction of the Court, pursuant to article 12, paragraph 3, of the Rome Statute,</p>
+      </container>
+      <container name="Taking note" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Taking note </span>of President Ouattara’s request that President Blaise Compaoré of Burkina Faso (“The Facilitator”), continue to assist the Ivorian Government in implementing the unfinished aspects of the peace process and Ouagadougou Agreements,</p>
+      </container>
+      <container name="Expressing" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Expressing </span>its concern about the continuing precarious and volatile security situation and <span class="italic">recalling</span> that the Ivorian Government bears primary responsibility for ensuring peace, stability and the protection of the civilian population in Côte d’Ivoire,</p>
+      </container>
+      <container name="Taking note" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the establishment of the Forces républicaines de Côte d’Ivoire (FRCI) by a decree issued by President Ouattara on 17 March, replacing the former Forces de sécurité et de défense de Côte d’Ivoire (FDSCI), ), and <span class="italic">stressing</span> the need for an inclusive process of security sector reform,</p>
+      </container>
+      <container name="Taking note" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Taking note </span>of the remaining high risk of a relapse into renewed armed conflict and attacks against the civilian population, notably by ex-Republican Guards soldiers, militias, mercenaries, escaped prisoners and other illegal armed elements as referred to in the report of the Secretary-General (S/2011/387),</p>
+      </container>
+      <container name="Recalling" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Recalling </span>that the last legislative elections were held on 10 December 2000 and <span class="italic">emphasizing </span>that the holding of credible, free and fair legislative elections is critical for the full restoration of constitutional order in Côte d’Ivoire, national reconciliation and inclusive governance,</p>
+      </container>
+      <container name="Stressing" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Stressing </span>the importance of an inclusive participation of the Ivorian civil society, men and women alike, in the electoral process, and of ensuring the equal protection of and respect for human rights of all Ivorian stakeholders as they relate to the electoral system, and in particular respect for freedom of opinion and expression,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Strongly condemning </span>the atrocities, serious human rights abuses and violations as well as violations of international humanitarian law that occurred throughout the post-elections crisis, including extrajudicial killing, maiming, arbitrary arrest and abduction of civilians, enforced disappearances, acts of revenges, sexual and gender-based violence, including against children, and the alleged recruitment and use of children in the conflict throughout the country and particularly in Abidjan and the west,</p>
+      </container>
+      <container name="Strongly condemning also" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Strongly condemning also</span> the attacks and harassment against United Nations Personnel that occurred during the post-electoral crisis and <span class="italic">reiterating</span> that these acts constitute violations of international law,</p>
+      </container>
+      <container name="Stressing" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Stressing </span>the importance to investigate alleged human right abuses and violations committed by all parties, further <span class="italic">reaffirming</span> that those responsible for such abuses and violations, regardless of their affiliation, must be held accountable, and<span class="italic"> welcoming</span> President Ouattara’s commitment in this regard,</p>
+      </container>
+      <container name="Taking note" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the report (A/HRC/17/48) and recommendations of the International Commission of Inquiry established by resolution 16/25 (2011) of the Human Rights Council,</p>
+      </container>
+      <container name="Commending" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the African Union and the Economic Community of West African States (ECOWAS) for their efforts during the post-elections crisis and <span class="italic">encouraging </span>them to remain committed in support of the stabilization of the situation in Côte d’Ivoire and the implementation of the outstanding tasks of the peace process,</p>
+      </container>
+      <container name="Commending" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the contribution of troop- and police-contributing countries and donors to United Nations Operation in Côte d’Ivoire (UNOCI),</p>
+      </container>
+      <container name="Recalling" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions 1325 (2000), 1820 (2008), 1888 (2009), 1889 (2009), and 1960 (2010) on women, peace and security, its resolutions 1612 (2005), 1882 (2009), and 1998 (2011) on children and armed conflict, and its resolutions 1674 (2006) and 1894 (2009) on the protection of civilians in armed conflicts, and <span class="italic">reiterating</span> the vital role of women in conflict resolution and peacebuilding and their key role in re-establishing the fabric of societies recovering from conflict,</p>
+      </container>
+      <container name="Determining" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in Côte d’Ivoire continues to pose a threat to international peace and security in the region,</p>
+      </container>
+      <container name="Acting" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend the mandate of UNOCI until 31 July 2012;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the authorized strength of UNOCI’s military component shall remain at 9,792 personnel, comprising of 9,600 troops and staff officers, including 2,400 additional troops authorized by resolutions 1942 (2010) and 1967 (2011), and 192 military observers;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the authorized strength of UNOCI’s police component shall remain at 1,350 personnel, and <span class="italic">decides </span>further to maintain the 8 customs officers previously authorized;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to authorize an increase of the individual police personnel by 205 advisers, with the appropriate skills, who should be experts in the specialized areas identified in the Secretary-General’s report, to be accommodated through appropriate adjustments to the military and police strength of the Mission, within the authorized strength of military and police personnel of UNOCI;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the additional 2,000 troops authorized by resolution 1967 (2011) and the additional 400 troops and 100 police authorized by resolution 1942 (2010) are necessary for the stabilization of Côte d’Ivoire, including the establishment of a security environment conducive to the legislative elections;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> that, pursuant to paragraph 4 of resolution 1933 (2010) and previous resolutions, the Special Representative of the Secretary-General shall certify that all stages of the upcoming legislative elections provide all the necessary guarantees for open, free, fair and transparent elections, in accordance with international standards and the agreed criteria;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve"> 	<span class="italic">Decides</span> that UNOCI shall have the following mandate:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45" class="H23">
+        <subheading>		Protection and security</subheading>
+      </paragraph>
+      <paragraph eId="para_46" class="H4">
+        <num>(a)</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Protection of civilians</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	To protect, without prejudice to the primary responsibility of the Ivorian authorities, the civilian population from imminent threat of physical violence, within its capabilities and areas of deployment,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	To revise the comprehensive strategy for the protection of civilians and to coordinate with the United Nations protection of civilians strategy in liaison with the United Nations country team, to take into account the new realities on the ground and the specific needs of vulnerable groups, and to include measures to prevent gender-based violence pursuant to resolution 1960 (2010) and resolution 1882 (2009),</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	To work closely with humanitarian agencies, particularly in relation to areas of tensions and of return of displaced persons, to collect information on and identify potential threats against the civilian population, as well as reliable information on violations of international humanitarian and human rights law, bring them to the attention of the Ivorian authorities as appropriate, and to take appropriate action in accordance with the United Nations system-wide protection strategy in harmonization with UNOCI’s protection strategy,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	To monitor and report on violations and abuses against vulnerable populations, including children in line with resolution 1612 (2005), 1882 (2009) and 1998 (2011) and contribute to efforts to prevent such violations and abuses,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="H4">
+        <num>(b)</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">Address remaining security threats and border-related challenges</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	To continue to support, within its existing authorities, capabilities, and its areas of deployment, the national authorities in stabilizing the security situation in the country,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	To continue to monitor and deter the activities of militias, mercenaries and other illegal armed groups consistent within its existing mandate to protect civilians, and to keep the Council regularly informed of developments in this regard,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	To support the Government in monitoring and addressing cross-border security and other challenges along its borders and in border areas, notably with Liberia, with particular attention to the cross-border movement of armed elements and weapons and, to this end, to coordinate closely with the United Nations Mission in Liberia (UNMIL) with a view to further inter-mission cooperation, such as undertaking joint patrols and contingency planning where appropriate and within their mandates and capabilities,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	To liaise with the FRCI in order to promote mutual trust among all elements composing the FRCI,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	To support, in coordination with the Government, the provision of security for members of the Government of Côte d’Ivoire and key political stakeholders, including in view of the preparation and the holding of the upcoming legislative elections,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="H4">
+        <num>(c)</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="italic">Monitoring of the arms embargo</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	To monitor the implementation of the measures imposed by paragraph 7 of resolution 1572 (2004), in cooperation with the Group of Experts established under resolution 1584 (2005), including by inspecting, as they deem it necessary and when appropriate without notice, all weapons, ammunition and related materiel regardless of location, consistent with its resolution 1980 (2011),</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve">	To collect, as appropriate, arms and any related materiel brought into Côte d’Ivoire in violation of the measures imposed by paragraph 7 of resolution 1572 (2004), and to dispose of such arms and related materiel as appropriate,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_151" class="H4">
+        <num>(d)</num>
+        <content eId="para_151__content">
+          <p xml:space="preserve">	<span class="italic">Collection of weapons</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	To continue to assist the national authorities, including the National Commission to fight against the Proliferation and Illicit Traffic of Small Arms and Light Weapons, in collecting, registering, securing and disposing of weapons and in clearing explosive remnants of war, as appropriate, in accordance with resolution 1980 (2011),</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_182" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_182__content">
+          <p xml:space="preserve">	To support the Government in coordination with other partners to develop and implement community weapons collection programs, which should be linked to community violence reduction and reconciliation,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_199" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_199__content">
+          <p xml:space="preserve">	To coordinate, with the Government in ensuring that the collected weapons are not disseminated or re-utilized outside a comprehensive national security strategy, as referred to in point (f) below,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_217" class="H4">
+        <num>(e)</num>
+        <content eId="para_217__content">
+          <p xml:space="preserve">	<span class="italic">Disarmament, demobilization and reintegration programme (DDR)</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_236" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_236__content">
+          <p xml:space="preserve">	To assist the Government, in close coordination with other international and bilateral partners, in developing and implementing without delay a new national programme for the disarmament, demobilization and reintegration of combatants and dismantling of militias and self-defence groups, that includes clear individual criteria and is tailored to the new context, taking into account the rights and needs of the different categories of persons to be disarmed, demobilized and reintegrated, including children and women,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_256" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_256__content">
+          <p xml:space="preserve">	To continue to support the registration and screening of former combatants,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	To support the disarmament and repatriation of foreign armed elements, where relevant in cooperation with UNMIL and United Nations country teams in the region,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="H4">
+        <num>(f)</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">	<span class="italic">Reconstitution and reform of security and rule of law institutions</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_322" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_322__content">
+          <p xml:space="preserve">	To assist the Government in conducting, without delay and in close coordination with other international partners, a sector-wide review of the security institutions and in developing a comprehensive national security strategy and plans for their reform, taking also into account the national DDR programme,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">	Under the leadership of the Ivorian Government and in close cooperation with international stakeholders, to support effective coordination, transparency and harmonization of efforts, as well as a clear division of tasks and responsibilities, by all international partners involved in assisting the security sector reform (SSR) process, and to report to the Council, when appropriate, on developments in the SSR process,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_371" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_371__content">
+          <p xml:space="preserve">	To advise the Government of Côte d’Ivoire, as appropriate, on security sector reform and the organization of the future National Army, to facilitate the provision of, within its current resources, as requested by the Government and in close coordination with other international partners, training in human rights, child protection and protection from sexual- and gender-based violence to the security and law enforcement institutions, as well as support for capacity development through technical assistance, co-location and mentoring programmes for the police, gendarmerie, justice and corrections officers and to contribute to restoring their presence throughout Côte d’Ivoire and to offer support with regard to the development of a sustainable vetting mechanism for personnel that will be absorbed in security sector institutions,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_397" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_397__content">
+          <p xml:space="preserve">	To support the Government’s development and implementation of a national justice sector strategy as well as the development and implementation of a multi-year joint United Nations justice support programme in order to develop the police, judiciary, prisons and access to justice in Côte d’Ivoire, as well as the initial emergency rehabilitation of relevant infrastructure and the provision of equipment, within existing resources and in coordination with international partners,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_424" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_424__content">
+          <p xml:space="preserve">	To support, within its current resources and in collaboration with the broader United Nations system, reconciliation, including the establishment and functioning of mechanisms to prevent, mitigate or resolve conflict, in particular at the local level, as well as to foster social cohesion,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_452" class="H4">
+        <num>(g)</num>
+        <content eId="para_452__content">
+          <p xml:space="preserve">	<span class="italic">Support for efforts to promote and protect human rights</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_481" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_481__content">
+          <p xml:space="preserve">	To contribute to the promotion and protection of human rights in Côte d’Ivoire, with special attention to grave violations and abuses committed against children and women, notably sexual and gender-based violence, in close coordination with the Independent Expert established under the Human Rights Council’s resolution A/HRC/17/27,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_511" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_511__content">
+          <p xml:space="preserve">	To monitor, help investigate, and report publicly and to the Council, on human rights and humanitarian law violations with a view to preventing violations, developing a protecting environment and ending impunity, and, to this end, to strengthen its human rights monitoring, investigation and reporting capacity,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_542" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_542__content">
+          <p xml:space="preserve">	To bring to the attention of the Council all individuals identified as perpetrators of serious human rights violations and to keep the Committee established pursuant to resolution 1572 (2004) regularly informed of developments in this regard,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_574" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_574__content">
+          <p xml:space="preserve">	To support the efforts of the Ivorian Government in combating sexual and gender-based violence, including through contributing to the development of a nationally owned multisectoral strategy in cooperation with UN Action Against Sexual Violence in Conflict entities, to appoint Women Protection Advisers and to ensure gender expertise and training, as appropriate and from within existing resources, in accordance with resolutions 1888 (2009), 1889 (2009) and 1960 (2010),</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_607" class="H4">
+        <num>(h)</num>
+        <content eId="para_607__content">
+          <p xml:space="preserve">	<span class="italic">Support humanitarian assistance</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_641" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_641__content">
+          <p xml:space="preserve">	To continue to facilitate unhindered humanitarian access and to help strengthening the delivery of humanitarian assistance to conflict-affected and vulnerable populations, notably by contributing to enhance security conducive to this delivery,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_676" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_676__content">
+          <p xml:space="preserve">	To support the Ivorian authorities in preparing for the voluntary, safe and sustainable return of refugees and displaced persons in cooperation with relevant humanitarian organizations, and in creating security conditions conducive to it,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_677" class="H23">
+        <subheading>		Peace and electoral process</subheading>
+      </paragraph>
+      <paragraph eId="para_678" class="H4">
+        <num>(i)</num>
+        <content eId="para_678__content">
+          <p xml:space="preserve">	<span class="italic">Support for the organization and conduct of open, timely, free, fair and transparent legislative elections,</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_679" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_679__content">
+          <p xml:space="preserve">	To promote an inclusive political process and support the creation of a political environment conducive to the upcoming elections, including in coordination with efforts undertaken by ECOWAS and the African Union,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_681" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_681__content">
+          <p xml:space="preserve">	To support the organization and conduct of open, free, fair and transparent legislative elections, provide appropriate logistical and technical assistance and assist the Government to put in place effective security arrangements,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_684" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_684__content">
+          <p xml:space="preserve">	To provide technical and logistical support to assist the Independent Electoral Commission in completing outstanding tasks prior to the holding of the legislative elections and to facilitate, as required, consultations between all political stakeholders as well as with the Independent Electoral Commission to this end,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_688" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_688__content">
+          <p xml:space="preserve">	To undertake the coordination of international observers and to contribute to their security, within its capabilities and areas of deployment,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_693" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_693__content">
+          <p xml:space="preserve">	To provide the Special Representative of the Secretary-General the necessary assistance to fulfil his role of certifying the legislative elections consistent with paragraph 6 above, taking into account the specificity of legislative elections,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_699" class="H4">
+        <num>(j)</num>
+        <content eId="para_699__content">
+          <p xml:space="preserve">	<span class="italic">Public information</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_706" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_706__content">
+          <p xml:space="preserve">	To continue to closely monitor the Ivorian media and continue to facilitate providing assistance, as appropriate, to media and regulatory bodies, consistent with its mandate,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_714" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_714__content">
+          <p xml:space="preserve">	To continue to use UNOCI’s broadcasting capacity, through ONUCI FM, to contribute to the overall effort to create a peaceful environment, including for the legislative elections,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_723" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_723__content">
+          <p xml:space="preserve">	To encourage the Ivorian mass media and the main political actors to fully implement the Code of Good Conduct for elections that the Ivorian parties have signed under the auspices of the Secretary-General as well as to sign up and adhere to the Code of Good Conduct for the media,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_733" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_733__content">
+          <p xml:space="preserve">	To monitor any public incidents of incitement to hatred, intolerance and violence, and bring to the attention of the Council all individuals identified as instigators of political violence, and to keep the Committee established under resolution 1572 (2004) regularly informed of developments in this regard,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_744" class="H4">
+        <num>(k)</num>
+        <content eId="para_744__content">
+          <p xml:space="preserve">	<span class="italic">Redeployment of State administration and the extension of State authority throughout the country</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_756" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_756__content">
+          <p xml:space="preserve">	To support the Ivorian authorities to extend and re-establish effective State administration and strengthen public administration in key areas throughout the country, at the national and local levels, as well as the implementation of the unfinished aspects of the Ouagadougou Agreements as they relate to the reunification of the country,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_769" class="H4">
+        <num>(l)</num>
+        <content eId="para_769__content">
+          <p xml:space="preserve">	<span class="italic">Facilitation</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_783" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_783__content">
+          <p xml:space="preserve">	To coordinate with the Facilitator and his Special Representative in Abidjan, to assist the Government in the implementation of the outstanding tasks of the peace process, as needed and within available means, including by providing logistical support to the office of the Special Representative as appropriate,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_798" class="H4">
+        <num>(m)</num>
+        <content eId="para_798__content">
+          <p xml:space="preserve">	<span class="italic">Protection of United Nations personnel</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_814" class="SingleTxt">
+        <num>–</num>
+        <content eId="para_814__content">
+          <p xml:space="preserve">	To protect United Nations personnel, installations and equipment, and ensure the security and freedom of movement of United Nations personnel,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_831" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_831__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>to continue its authorization given to UNOCI to use all necessary means to carry out its mandate, within its capabilities and its areas of deployment, pursuant to resolutions 1933 (2010) and 1962 (2010);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_849" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_849__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the establishment of the Dialogue, Truth and Reconciliation Commission by a decree issued by President Ouattara on 13 May 2011,<span class="italic"> encourages </span>the Government to ensure that the Commission becomes fully operational as soon as possible, and further <span class="italic">calls upon</span> the United Nations system to support its work, with a view to ensuring that it will function in a manner consistent with Côte d’Ivoire’s international obligations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_868" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_868__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the Government to take the necessary steps to re-establish and reinforce relevant institutions, including the judiciary, police and corrections services, and further to ensure the effective protection of human rights and accountability for all perpetrators of human rights violations and abuses in Côte d’Ivoire;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_888" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_888__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the Government to ensure that the conditions of protection and detention of former President Gbagbo, his wife, former officials and any other detainees are in line with international obligations, including with regard to access by relevant organizations with a mandate to monitor detention centres, and fulfil their prosecutions and trials in accordance with international obligations relating to due process and fair trial requirements;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_909" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_909__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> UNOCI, where consistent with its existing authorities and responsibilities, to support national and international efforts to bring to justice perpetrators of grave violations of human rights and international humanitarian law in Côte d’Ivoire;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_931" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_931__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all parties to cooperate fully with the operations of UNOCI and of the French Forces, which support it, in particular by ensuring their safety, security and freedom of movement with unhindered and immediate access throughout the territory of Côte d’Ivoire to enable them to fully carry out their mandates;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_954" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_954__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the United Nations Country Team to contribute to the planning and the implementation of microprojects, in consultation with the Government and close collaboration with the United Nations Development Programme (UNDP) and interested international partners, to provide sustainable alternative livelihoods for some former combatants, as part of the socio-economic reintegration component of the national DDR programme;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_978" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_978__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> ECOWAS to develop, with the support of the United Nations Office for West Africa (UNOWA), a subregional strategy to address the threat of the cross-border movements of armed groups and weapons as well as illicit trafficking, with the assistance of UNOCI and UNMIL, as appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1003" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_1003__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the Government and all international partners, including private companies, involved in assisting the Government in the reform of the security sector, to comply with the provisions of resolution 1980 (2011) and to coordinate their efforts with a view to promoting transparency and a clear division of labour among all international partners;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1029" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_1029__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend until 31 July 2012 the authorization that the Security Council provided to the French Forces in order to support UNOCI, within the limits of their deployment and their capabilities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1056" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_1056__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to provide to it a midterm report no later than 31 December 2011 and a final report no later than 30 June 2012 on the situation on the ground and the implementation of this resolution, and further <span class="italic">requests</span> the Secretary-General to regularly brief and inform it on the significant events of the electoral process, including on UNOCI’s support to this process;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1084" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_1084__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to submit to it, through the midterm report referred to in paragraph 18 above or through a special report no later than 31 March 2012, taking into account the holding of the upcoming legislative elections as well as the prevailing security challenges and progress in rebuilding national capacities, recommendations on possible adjustments in UNOCI’s structure and strength;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1113" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_1113__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
