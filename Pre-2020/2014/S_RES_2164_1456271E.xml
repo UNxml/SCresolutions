@@ -1,0 +1,741 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2164-2014/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2164-2014/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2164-2014/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2164-2014/eng@/"></FRBRuri>
+          <FRBRdate date="2014-06-25" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2164-2014/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2164-2014/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Multidimensional Integrated Stabilization Mission in Mali" showAs="UN Multidimensional Integrated Stabilization Mission in Mali" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Mission in Liberia" showAs="UN Mission in Liberia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Operation in Côte d'Ivoire" showAs="UN Operation in Côte d'Ivoire" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1267 (1999) and modified and strengthened by Resolution 1989 (2011) concerning Al-Qaida and Associated Individuals and Entities" showAs="UN. Security Council Committee Established pursuant to Resolution 1267 (1999) and modified and strengthened by Resolution 1989 (2011) concerning Al-Qaida and Associated Individuals and Entities" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council. Analytical Support and Sanctions Monitoring Team Established pursuant to Resolution 1526 (2004) concerning Al-Qaida and the Taliban and Associated Individuals and Entities" showAs="UN. Security Council. Analytical Support and Sanctions Monitoring Team Established pursuant to Resolution 1526 (2004) concerning Al-Qaida and the Taliban and Associated Individuals and Entities" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Special Representative of the Secretary-General for Mali and Head of the United Nations Multidimensional Integrated Stabilization Mission in Mali" showAs="UN. Special Representative of the Secretary-General for Mali and Head of the United Nations Multidimensional Integrated Stabilization Mission in Mali" dictionary="DHLAUTH"></keyword>
+        <keyword value="Ouagadougou Preliminary Agreement (2013)" showAs="Ouagadougou Preliminary Agreement (2013)" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CEASEFIRES" showAs="CEASEFIRES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COMMISSIONS OF INQUIRY" showAs="COMMISSIONS OF INQUIRY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MALI" showAs="MALI" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL HUMANITARIAN LAW" showAs="INTERNATIONAL HUMANITARIAN LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NEGOTIATION" showAs="NEGOTIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REGIONAL COOPERATION" showAs="REGIONAL COOPERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WEST AFRICA" showAs="WEST AFRICA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUDANO-SAHELIAN REGION" showAs="SUDANO-SAHELIAN REGION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER EQUALITY" showAs="GENDER EQUALITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRUST FUNDS" showAs="TRUST FUNDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SMALL ARMS" showAs="SMALL ARMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[226]" showAs="UN MULTIDIMENSIONAL INTEGRATED STABILIZATION MISSION IN MALI" dictionary="S/69"></keyword>
+        <keyword refersTo="agenda" value="[225]" showAs="MALI--POLITICAL CONDITIONS" dictionary="S/69"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2164 (2014) [on extension the mandate of the UN Multidimensional Integrated Stabilization Mission in Mali (MINUSMA) until 30 June 2015]" showAs="Security Council resolution 2164 (2014) [on extension the mandate of the UN Multidimensional Integrated Stabilization Mission in Mali (MINUSMA) until 30 June 2015]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2014-06-25" outcome="draftResolution" as="S/2014/436" by="Australia, France, Jordan, Lithuania, Luxembourg, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2014-06-25" outcome="adopted" as="S/PV.7210" by="Adopted unanimously, 7210th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">RWANDA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">14-56271 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2164 (2014)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2014-06-25" class="rightSmall" refersTo="#dateOfIssuance">25 June 2014</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2164 (2014)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its previous resolutions, in particular <a href="http://undocs.org/S/RES/2100(2013)">2100 (2013)</a> and <a href="http://undocs.org/S/RES/2085(2012)">2085 (2012)</a>, its Presidential Statements of 23 January 2014 (<a href="http://undocs.org/S/PRST/2014/2">S/PRST/2014/2</a>) and 12 December 2013 (<a href="http://undocs.org/S/PRST/2013/20">S/PRST/2013/20</a>), and its press statements of 11 June 2014, 20 May 2014 and 23 April 2014,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, unity and territorial integrity of Mali,</p>
+      </container>
+      <container name="Reaffirming" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the basic principles of peacekeeping, including consent of the parties, impartiality, and non‑use of force, except in self-defence and defence of the mandate, and <span class="italic">recognizing</span> that the mandate of each peacekeeping mission is specific to the need and situation of the country concerned,</p>
+      </container>
+      <container name="Underscoring" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Underscoring</span> the need to address the underlying causes of recurrent crises which have affected Mali, including governance, security, development and humanitarian challenges, drawing lessons from past peace agreements, and that any sustainable solution to the crisis in Mali should be Malian-owned, including all aspects of the political process, in particular national dialogue and reconciliation, </p>
+      </container>
+      <container name="Welcoming" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the successful holding of peaceful and transparent presidential elections on 28 July and 11 August 2013 as well as legislative elections on 24 November and 15 December 2013 in Mali, which constitute a major step in the restoration of democratic governance and the full return of constitutional order in Mali, and <span class="italic">commending</span> the people and authorities of Mali for the manner in which they were conducted,</p>
+      </container>
+      <container name="Welcoming" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the signing on 18 June 2013 of the Ouagadougou Preliminary Agreement, which, inter alia, reaffirms the sovereignty, territorial integrity, national unity and secular nature of the Malian State, provides for an immediate ceasefire and the launching of the cantonment process, establishes a framework for inclusive peace talks with all communities of the North of Mali, but <span class="italic">expressing its concern</span> at the failure of the parties to the Agreement to meet the agreed timeline for the launching of these talks,</p>
+      </container>
+      <container name="Commending" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the efforts of all regional and international actors, including those who facilitated discussions with the signatory and adherent armed groups of the Ouagadougou Preliminary Agreement, to solve the crisis in Mali, and, in this regard, <span class="italic">welcoming</span> the efforts of Algeria to contribute to the launching of a credible and inclusive negotiation process, as well as Burkina Faso as the Economic Community of West African States (ECOWAS) mediator, and <span class="italic">urging</span> all these actors to maintain coordination to consolidate political and security progress in Mali, in close coordination with the Special Representative for Mali and the United Nations Multidimensional Integrated Stabilization Mission in Mali (MINUSMA), </p>
+      </container>
+      <container name="Welcoming" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the appointment by the Malian President on 23 April 2014 of a High-Representative for the Inter-Malian Inclusive Dialogue and his initial efforts to consult with national and international actors on the peace process, </p>
+      </container>
+      <container name="Condemning strongly" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Condemning strongly</span> the violent clashes in Kidal on 17 and 18 May 2014 in the context of the Malian Prime Minister’s visit, which resulted in the death of Malian Defence and Security Forces personnel, as well as eight civilians, including six Government officials, the unacceptable seizure by the armed groups, notably the Mouvement national de Libération de l’Azawad (MNLA), of administrative buildings, including the Governorate of Kidal, the subsequent seizure of towns in the North of Mali, and the reported illegal establishment of parallel administrative structures therein, and of arms and materiels belonging to the Malian Defence and Security Forces, which constitute a breach of the ceasefire arrangements provided for by the Agreement, as well as attacks on personnel of MINUSMA by the armed groups, <span class="italic">expressing serious concern</span> about the events that occurred in Kidal and elsewhere in the North of Mali on 21 May 2014 which resulted in additional casualties and in an altered security landscape in the North of Mali, and <span class="italic">reiterating</span> its call on all parties to act with restraint and refrain from any further violence that could threaten civilians,</p>
+      </container>
+      <container name="Welcoming" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the signing of the cease-fire agreement of 23 May 2014, brokered under the auspices of the African Union (AU) Chair Mauritanian President Mohammed Ould Abdel Aziz and the Special Representative of the Secretary-General for Mali, and <span class="italic">welcoming</span> the convening of the ECOWAS Summit in Accra on 30 May 2014, taking note of its support for the cease-fire agreement and its call for a political solution, through the launching of inclusive peace talks, as well as its call for the immediate withdrawal of the armed groups from the public buildings and occupied areas, and return to the pre‑17 May positions, and <span class="italic">further welcoming</span> the signing on 13 June 2014 of the agreement on the modalities for the ceasefire implementation, </p>
+      </container>
+      <container name="Remaining" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Remaining</span> concerned over the fragile security situation in the North of Mali and the continuing activities in the Sahel region of terrorist organizations, including Al-Qaida in the Islamic Maghreb (AQIM), Ansar Eddine, the Movement for Unity and Jihad in West Africa (MUJAO), and Al Mourabitoune, which constitute a threat to peace and security in the region and beyond, and <span class="italic">reiterating</span> its strong condemnation of the abuses of human rights and violence against civilians, notably women and children, committed in the North of Mali and in the region by terrorist groups,</p>
+      </container>
+      <container name="Stressing" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> that terrorism can only be defeated by a sustained and comprehensive approach involving the active participation and collaboration of all States, and regional and international organizations to impede, impair, and isolate the terrorist threat, and <span class="italic">reaffirming</span> that terrorism could not and should not be associated with any religion, nationality or civilization,</p>
+      </container>
+      <container name="Recalling" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the listing of MUJAO, the Organization of Al-Qaida in the Islamic Maghreb, Ansar Eddine and its leader Iyad Ag Ghali, and Al Mourabitoune on the Al-Qaida sanctions list established by the Committee pursuant to resolutions <a href="http://undocs.org/S/RES/1267(1999)">1267 (1999)</a> and <a href="http://undocs.org/S/RES/1989(2011)">1989 (2011)</a>, and <span class="italic">reiterating its readiness</span>, under the above-mentioned regime, to sanction further individuals, groups, undertakings and entities who do not cut off all ties to Al-Qaida and associated groups, including AQIM, MUJAO, Ansar Eddine and Al Mourabitoune, in accordance with the established listing criteria,</p>
+      </container>
+      <container name="Welcoming" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the continued action by the French forces, at the request of the Malian authorities, to deter the terrorist threat in the North of Mali,</p>
+      </container>
+      <container name="Noting" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Noting</span> with growing concern the transnational dimension of the terrorist threat in the Sahel region and <span class="italic">underlying</span> the need for a coherent regional response to combat this threat, </p>
+      </container>
+      <container name="Expressing its continued concern" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Expressing its continued concern</span> over the serious threats posed by transnational organized crime in the Sahel region, and its increasing links, in some cases, with terrorism, <span class="italic">strongly condemning</span> the incidents of kidnapping and hostage-taking with the aim of raising funds or gaining political concessions, <span class="italic">reiterating its determination</span> to prevent kidnapping and hostage-taking in the Sahel region, in accordance with applicable international law, <span class="italic">recalling</span> its resolution <a href="http://undocs.org/S/RES/2133(2014)">2133 (2014)</a> and including its call upon all Member States to prevent terrorists from benefitting directly or indirectly from the payment of ransoms or from political concessions and to secure the safe release of hostages and, in this regard, <span class="italic">noting</span> the publication of the Global Counterterrorism Forum’s (GCTF) “Algiers Memorandum on Good Practices on Preventing and Denying the Benefits of Kidnapping for Ransom by Terrorists”, </p>
+      </container>
+      <container name="Remaining seriously concerned" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Remaining seriously concerned</span> over the significant ongoing food and humanitarian crisis in the Sahel region and over the insecurity which hinders humanitarian access, exacerbated by the presence of armed groups, terrorist and criminal networks, and their activities, the presence of landmines as well as the continued proliferation of weapons from within and outside the region that threatens the peace, security, and stability of States in this region,</p>
+      </container>
+      <container name="Emphasizing" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the need for all parties to uphold and respect the humanitarian principles of humanity, neutrality, impartiality and independence in order to ensure the continued provision of humanitarian assistance, the safety of civilians receiving assistance and the security of humanitarian personnel operating in Mali and <span class="italic">stressing</span> the importance of humanitarian assistance being delivered on the basis of need,</p>
+      </container>
+      <container name="Condemning strongly" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Condemning strongly</span> all abuses and violations of human rights and violations of international humanitarian law, including those involving extrajudicial executions, arbitrary arrests and detentions, and sexual and gender-based violence, as well as killing, maiming, recruitment and use of children, attacks against schools and hospitals, and <span class="italic">calling upon</span> all parties to bring an end to such violations and abuses and to comply with their obligations under applicable international law,</p>
+      </container>
+      <container name="Reiterating" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span>, in this regard, that all perpetrators of such acts must be held accountable and that some of such acts referred to in the paragraph above may amount to crimes under the Rome Statute and <span class="italic">taking note</span> that, acting upon the referral of the transitional authorities of Mali dated 13 July 2012, the Prosecutor of the International Criminal Court opened, on 16 January 2013, an investigation into alleged crimes committed on the territory of Mali since January 2012, and <span class="italic">recalling</span> the importance of assistance and cooperation, by all parties concerned, with the Court,</p>
+      </container>
+      <container name="Emphasizing" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> that the Malian authorities have primary responsibility for the provision of stability and security throughout the territory of Mali, <span class="italic">underscoring</span> the importance of Malian civilian control and oversight of the Malian Defence and Security Forces, <span class="italic">reiterating</span> that the training, consolidation and redeployment of the Malian Defence and Security Forces are vital to ensure Mali’s long-term security and stability and to protect the people of Mali, and <span class="italic">stressing</span> the importance of the Malian Defence and Security Forces assuming full responsibility for providing security throughout the Malian territory,</p>
+      </container>
+      <container name="Recognizing" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that the threat to the civilian population in the North of Mali extends beyond the key population centres to include rural areas, </p>
+      </container>
+      <container name="Reiterating" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Reiterating</span> its strong support for the Special Representative of the Secretary-General for Mali and for MINUSMA and <span class="italic">expressing</span> its concern at the slow pace of deployment of MINUSMA,</p>
+      </container>
+      <container name="Commending" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the role and contribution of the AU, ECOWAS and of neighbouring countries to the stabilization of Mali, including to contribute to the efforts of MINUSMA towards a political settlement, </p>
+      </container>
+      <container name="Commending" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the role of the European Union Training Mission (EUTM Mali) in Mali to provide training and advice for the Malian Defence and Security Forces towards contributing to strengthening civilian authority and respect for human rights, and <span class="italic">welcoming</span> the decision of the European Union (EU) to establish the European Union Capacity Building Mission (EUCAP Sahel Mali) to provide strategic advice and training for the Police, Gendarmerie and Garde nationale in Mali,</p>
+      </container>
+      <container name="Encouraging" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Encouraging</span> the international community to provide broad support to resolve the crisis in Mali through coordinated actions for immediate and long-term needs, encompassing security, governance reform, development and humanitarian issues, <span class="italic">commending</span> the contributions already made towards the 2014 Consolidated Appeal for Mali, and <span class="italic">urging</span> all Member States and other donors to contribute generously for humanitarian operations, </p>
+      </container>
+      <container name="Determining" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in Mali constitutes a threat to international peace and security,</p>
+      </container>
+      <container name="Acting" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <content eId="para_30__content">
+          <p xml:space="preserve">
+            <span class="bold">		Framework for long-term peace and stability in Mali</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the Malian authorities and the signatory and adherent armed groups to fulfil their commitments under the Ouagadougou Preliminary Agreement, and in this regard, <span class="italic">further urges</span> the parties in Mali to engage in good faith and without delay in a credible and inclusive negotiation process, respecting the sovereignty, unity and territorial integrity of Mali, and <span class="italic">underscores</span> that this Agreement constitutes a solid basis for long-term peace and stability in Mali; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the signatories to the ceasefire agreement of 23 May 2014 to respect it fully, to immediately implement its provisions, including the liberation of prisoners and the establishment of an international commission of inquiry, and to take steps that support national reconciliation, and <span class="italic">requests</span> the Secretary-General to facilitate the swift establishment of the commission, in consultation with the parties; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> in particular the Malian authorities to launch without delay an inclusive and credible negotiation process with the signatory and adherent armed groups of the Ouagadougou Preliminary Agreement, and those armed groups in the North of Mali that have cut off all ties with terrorist organizations and committed unconditionally to the Agreement;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its demand that all armed groups in Mali put aside their arms, cease hostilities immediately, as well as reject the recourse to violence and <span class="italic">urges</span> all such groups that have cut off all ties with terrorist organizations and who recognize, without conditions, the unity and territorial integrity of the Malian State, to engage in an inclusive dialogue open to all communities of the North of Mali;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all armed groups in Mali to resume the cantonment process, supported and monitored by MINUSMA, as a crucial and practical step leading to an effective disarmament, demobilization and reintegration (DDR) process, in the context of a comprehensive peace settlement;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its strong support for the key role of the Special Representative of the Secretary-General for Mali in the peace talks, and <span class="italic">requests</span> the Special Representative to continue his good offices and active engagement, including in coordinating with and supporting the Malian authorities, towards the launching of an inclusive process open to all communities of the North of Mali, consistent with paragraph 13 (b) (i) and (ii); </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Urges further</span> the parties in this negotiation process to coordinate with the Special Representative of the Secretary-General for Mali, with the goal of securing a durable political resolution to the crisis and long-term peace and stability throughout the country, respecting the sovereignty, unity and territorial integrity of the Malian State;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the Malian authorities to further combat impunity and, in this regard, to ensure that all perpetrators of violations and abuses of human rights and violations of international humanitarian law are held accountable, and to continue to cooperate with the International Criminal Court, in accordance with Mali’s obligations under the Rome Statute;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the establishment of the Truth, Justice and Reconciliation Commission on 20 March 2014, and <span class="italic">calls on</span> the Malian authorities to take the necessary steps to ensure the neutrality, impartiality, transparency and independence of the Commission and to enable it to commence its work to benefit all Malians as soon as possible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the importance of continued coordination among the AU, ECOWAS, the EU, the neighbouring countries of Mali and other key actors in the promotion of lasting peace, security, stability and reconciliation in Mali and <span class="italic">calls upon</span> these actors to coordinate their efforts in this regard with the Special Representative of the Secretary-General for Mali and MINUSMA;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="MercuryDocument">
+        <content eId="para_77__content">
+          <p xml:space="preserve">
+            <span class="bold">		MINUSMA mandate</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend the mandate of MINUSMA within the authorized troop ceiling of 11,200 military personnel, including reserve battalions capable of deploying rapidly within the country, and 1,440 police personnel until 30 June 2015;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Authorizes</span> MINUSMA to take all necessary means to carry out its mandate, within its capabilities and its areas of deployment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="MercuryDocument">
+        <num>13.</num>
+        <list eId="para_81_list">
+          <intro eId="para_81_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that the mandate of MINUSMA shall focus on the following priority tasks: </p>
+          </intro>
+          <point eId="para_81_list_point_a">
+            <num>(a)</num>
+            <content eId="para_81_list_point_a_content">
+              <p xml:space="preserve">
+                <span class="italic">	Security, Stabilization and protection of civilians</span>
+              </p>
+            </content>
+          </point>
+          <sublist eId="para_81_list_point_a_sublist">
+            <point eId="para_81_list_point_a_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_81_list_point_a_sublist_point_i_content">
+                <p xml:space="preserve">	In support of the Malian authorities, to stabilize the key population centres, notably in the North of Mali, and, in this context, to deter threats and take active steps to prevent the return of armed elements to those areas;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_a_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_81_list_point_a_sublist_point_ii_content">
+                <p xml:space="preserve">	To protect, without prejudice to the responsibility of the Malian authorities, civilians under imminent threat of physical violence; </p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_a_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_81_list_point_a_sublist_point_iii_content">
+                <p xml:space="preserve">	To provide specific protection for women and children affected by armed conflict, including through the deployment of Child Protection Advisors and Women Protection Advisors, and address the needs of victims of sexual and gender-based violence in armed conflict;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_a_sublist_point_iv">
+              <num>(iv)</num>
+              <content eId="para_81_list_point_a_sublist_point_iv_content">
+                <p xml:space="preserve">	To expand its presence, including through long-range patrols and within its capacities, in the North of Mali beyond key population centres, notably in areas where civilians are at risk;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_a_sublist_point_v">
+              <num>(v)</num>
+              <content eId="para_81_list_point_a_sublist_point_v_content">
+                <p xml:space="preserve">	To support the implementation of the ceasefire and confidence-building measures on the ground, consistent with the provisions of the Ouagadougou Preliminary Agreement;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_a_sublist_point_vi">
+              <num>(vi)</num>
+              <content eId="para_81_list_point_a_sublist_point_vi_content">
+                <p xml:space="preserve">	To enhance its operational coordination with the Malian Defence and Security Forces (MDSF), within its resources and areas of deployment and within the framework of the Ouagadougou Preliminary Agreement, subject to an assessment of risk and in strict compliance with the Human Rights Due Diligence Policy on United Nations Support to non‑United Nations Security Forces (<a href="http://undocs.org/S/2013/110">S/2013/110</a>);</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_81_list_point_b">
+            <num>(b)</num>
+            <content eId="para_81_list_point_b_content">
+              <p xml:space="preserve">
+                <span class="italic">	Support to national political dialogue and reconciliation</span>
+              </p>
+            </content>
+          </point>
+          <sublist eId="para_81_list_point_b_sublist">
+            <point eId="para_81_list_point_b_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_81_list_point_b_sublist_point_i_content">
+                <p xml:space="preserve">	To coordinate with and support the Malian authorities to launch an inclusive and credible negotiation process open to all communities of the North of Mali, consistent with paragraphs 6 and 7 above;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_b_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_81_list_point_b_sublist_point_ii_content">
+                <p xml:space="preserve">	To exercise good offices, confidence-building and facilitation at the national and local levels, in order to anticipate, prevent, mitigate and resolve conflict, including by enhancing negotiation capacity and promoting the participation of civil society, including women’s organizations;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_b_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_81_list_point_b_sublist_point_iii_content">
+                <p xml:space="preserve">	To support the cantonment of armed groups, as an essential step leading to an effective DDR process, in the context of a comprehensive peace settlement;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_b_sublist_point_iv">
+              <num>(iv)</num>
+              <content eId="para_81_list_point_b_sublist_point_iv_content">
+                <p xml:space="preserve">	To assist the Malian authorities, and to coordinate international efforts, towards developing and implementing DDR programmes of former combatants and the dismantling of militias and self-defence groups, consistent with the provisions of the Ouagadougou Preliminary Agreement and taking into account the specific needs of demobilized children;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_b_sublist_point_v">
+              <num>(v)</num>
+              <content eId="para_81_list_point_b_sublist_point_v_content">
+                <p xml:space="preserve">	To support, within its resources and areas of deployment, the conduct of inclusive, free, fair and transparent local elections, including through the provision of appropriate logistical and technical assistance and effective security arrangements, in the context of an inclusive decentralization process led and owned by the Malian authorities;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_b_sublist_point_vi">
+              <num>(vi)</num>
+              <content eId="para_81_list_point_b_sublist_point_vi_content">
+                <p xml:space="preserve">	To support, as feasible and appropriate, the efforts of the Malian authorities, without prejudice to their responsibilities, to bring to justice those responsible for serious abuses or violations of human rights or violations of international humanitarian law, in particular war crimes and crimes against humanity in Mali, taking into account the referral by the transitional authorities of Mali of the situation in their country since January 2012 to the International Criminal Court;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_b_sublist_point_vii">
+              <num>(vii)</num>
+              <content eId="para_81_list_point_b_sublist_point_vii_content">
+                <p xml:space="preserve">	To provide support to the activities of the international commission of inquiry as envisaged by the Ouagadougou Preliminary Agreement and the ceasefire agreement of 23 May 2014;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_81_list_point_c">
+            <num>(c)</num>
+            <content eId="para_81_list_point_c_content">
+              <p xml:space="preserve">
+                <span class="italic">	Support to the re-establishment of State authority throughout the country, the rebuilding of the Malian security sector, the promotion and protection of human rights and the support for humanitarian assistance</span>
+              </p>
+            </content>
+          </point>
+          <sublist eId="para_81_list_point_c_sublist">
+            <point eId="para_81_list_point_c_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_81_list_point_c_sublist_point_i_content">
+                <p xml:space="preserve">	To support the Malian authorities to extend and re-establish State administration throughout the country, especially in the North of Mali, in line with the Ouagadougou Preliminary Agreement and the ceasefire agreement of 23 May 2014; </p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_c_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_81_list_point_c_sublist_point_ii_content">
+                <p xml:space="preserve">	To support national, and to coordinate international, efforts towards rebuilding the Malian security sector, especially the police and gendarmerie through technical assistance, capacity-building, co-location and mentoring programmes, as well as the rule of law and justice sectors, within its capacities and in close collaboration with other bilateral partners, donors and international organizations, including the EU, engaged in these fields, including through enhancing information sharing and joint strategic planning among all actors;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_c_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_81_list_point_c_sublist_point_iii_content">
+                <p xml:space="preserve">	To assist the Malian authorities, through training and other support, for the removal and destruction of mines and other explosive devices and weapons and ammunition management;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_c_sublist_point_iv">
+              <num>(iv)</num>
+              <content eId="para_81_list_point_c_sublist_point_iv_content">
+                <p xml:space="preserve">	To assist the Malian authorities in their efforts to promote and protect human rights;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_c_sublist_point_v">
+              <num>(v)</num>
+              <content eId="para_81_list_point_c_sublist_point_v_content">
+                <p xml:space="preserve">	To monitor, help investigate and report to the Council and publicly, as appropriate, on any abuses or violations of human rights or violations of international humanitarian law committed throughout Mali and to contribute to efforts to prevent such violations and abuses;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_c_sublist_point_vi">
+              <num>(vi)</num>
+              <content eId="para_81_list_point_c_sublist_point_vi_content">
+                <p xml:space="preserve">	To monitor, help investigate and report to the Council specifically on violations and abuses committed against children as well as violations committed against women including all forms of sexual violence in armed conflict;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_c_sublist_point_vii">
+              <num>(vii)</num>
+              <content eId="para_81_list_point_c_sublist_point_vii_content">
+                <p xml:space="preserve">	In support of the Malian authorities, to contribute to the creation of a secure environment for the safe, civilian-led delivery of humanitarian assistance, in accordance with humanitarian principles, and the voluntary, safe and dignified return or local integration or resettlement of internally displaced persons and refugees in close coordination with humanitarian actors;</p>
+              </content>
+            </point>
+            <point eId="para_81_list_point_c_sublist_point_viii">
+              <num>(viii)</num>
+              <content eId="para_81_list_point_c_sublist_point_viii_content">
+                <p xml:space="preserve">	In support of the Malian authorities, to contribute to the creation of a secure environment for projects aimed at stabilizing the North of Mali, including quick impact projects;</p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_84" class="MercuryDocument">
+        <num>14.</num>
+        <list eId="para_84_list">
+          <intro eId="para_84_list_intro">
+            <p xml:space="preserve">	<span class="italic">Further decides</span> that the mandate of MINUSMA shall include the following additional tasks: </p>
+          </intro>
+          <point eId="para_84_list_point_a">
+            <num>(a)</num>
+            <content eId="para_84_list_point_a_content">
+              <p xml:space="preserve">
+                <span class="italic">	Protection of United Nations personnel</span>
+              </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_85" class="MercuryDocument">
+        <content eId="para_85__content">
+          <p xml:space="preserve">		To protect the United Nations personnel, installations and equipment and ensure the security and freedom of movement of United Nations and associated personnel; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="MercuryDocument">
+        <num>(b)</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">
+            <span class="italic">	Support for cultural preservation</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="MercuryDocument">
+        <content eId="para_87__content">
+          <p xml:space="preserve">		To assist the Malian authorities, as necessary and feasible, in protecting from attack the cultural and historical sites in Mali, in collaboration with UNESCO; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MINUSMA to take fully into account gender considerations as a cross cutting issue throughout its mandate and to assist the Malian authorities in ensuring the full and effective participation, involvement and representation of women at all levels and at an early stage of the stabilization phase, including the security sector reform and disarmament, demobilization and reintegration processes, as well as in the national political dialogue, reconciliation and electoral processes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MINUSMA to take fully into account the need to protect civilians and mitigate risk to civilians, including, in particular, women, children and displaced persons and civilian objects in the performance of its mandate as defined in paragraphs 13 and 14 above, where undertaken jointly with the Malian Defence and Security Forces, in strict compliance with the Human Rights Due Diligence Policy on United Nations Support to non‑United Nations Security Forces (<a href="http://undocs.org/S/2013/110">S/2013/110</a>);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to ensure full compliance of MINUSMA with the United Nations zero-tolerance policy on sexual exploitation and abuses and to keep the Council fully informed if such cases of misconduct occur;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MINUSMA, within its capabilities, its areas of deployment and without prejudice to its mandate, to assist the Committee pursuant to resolutions <a href="http://undocs.org/S/RES/1267(1999)">1267 (1999)</a> and <a href="http://undocs.org/S/RES/1989(2011)">1989 (2011)</a> and the Analytical Support and Sanctions Monitoring Team established by resolution <a href="http://undocs.org/S/RES/1526(2004)">1526 (2004)</a>, including by passing information relevant to the implementation of the measures in paragraph 1 of resolution <a href="http://undocs.org/S/RES/2161(2014)">2161 (2014)</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to consider the environmental impacts of the operations of MINUSMA when fulfilling its mandated tasks and, in this context, encourages MINUSMA to manage them, as appropriate and in accordance with applicable and relevant General Assembly resolutions and United Nations rules and regulations, and to operate mindfully in the vicinity of cultural and historical sites;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_103" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> MINUSMA to further enhance its interaction with the civilian population to raise awareness and understanding about its mandate and activities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="MercuryDocument">
+        <content eId="para_104__content">
+          <p xml:space="preserve">
+            <span class="bold">		Deployment of MINUSMA</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to take the necessary steps to enable MINUSMA to reach its full operational capacity as soon as possible in the context of a new Force laydown and, in this regard, <span class="italic">calls upon</span> Member States to provide troops and police with adequate capabilities and equipment, including enablers, in order for MINUSMA to fulfil its mandate and <span class="italic">commends</span> troop- and police-contributing countries for their engagement in this respect;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_106" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all parties in Mali to cooperate fully with the deployment and activities of MINUSMA, in particular by ensuring their safety, security and freedom of movement with unhindered and immediate access throughout the territory of Mali to enable MINUSMA to carry out fully its mandate and <span class="italic">stresses</span>, in this regard, the importance of facilitating MINUSMA’s new Force laydown to extend its operations in the North of Mali, as mandated in paragraph 13 (a) (iv) above, in a complex security environment that includes asymmetric threats; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States, especially those in the region, to ensure the free, unhindered and expeditious movement to and from Mali of all personnel, as well as equipment, provisions, supplies and other goods, including vehicles and spare parts, which are for the exclusive and official use of MINUSMA;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to accelerate the disbursement of the United Nations Trust Fund established pursuant to its resolution <a href="http://undocs.org/S/RES/2085(2012)">2085 (2012)</a> in support of the African-led International Support Mission in Mali (AFISMA), including to enable MINUSMA’s new Force laydown, in consultation with the donors;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="MercuryDocument">
+        <content eId="para_112__content">
+          <p xml:space="preserve">
+            <span class="bold">		Inter-mission cooperation in West Africa</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="italic">Authorizes</span> the Secretary-General to take the necessary steps in order to ensure inter-mission cooperation, notably between MINUSMA, UNMIL and UNOCI, appropriate transfers of troops and their assets from other United Nations missions to MINUSMA, subject to the following conditions: (i) the Council’s information and approval, including on the scope and duration of the transfer, (ii) the agreement of the troop-contributing countries and (iii) the security situation where these United Nations missions are deployed and without prejudice to the performance of their mandates, and, in this regard, <span class="italic">encourages</span> further steps to enhance inter-mission cooperation in the West African region, as necessary and feasible, and to report thereon for consideration as appropriate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_114" class="MercuryDocument">
+        <content eId="para_114__content">
+          <p xml:space="preserve">
+            <span class="bold">		French forces mandate</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">Authorizes</span> French forces, within the limits of their capacities and areas of deployment, to use all necessary means until the end of MINUSMA’s mandate as authorized in this resolution, to intervene in support of elements of MINUSMA when under imminent and serious threat upon request of the Secretary-General, <span class="italic">requests</span> France to report to the Council on the implementation of this mandate in Mali and to coordinate its reporting with the reporting by the Secretary-General referred to in paragraph 33 below; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="MercuryDocument">
+        <content eId="para_116__content">
+          <p xml:space="preserve">
+            <span class="bold">		European Union contribution</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the EU, notably its Special Representative for the Sahel and its EUTM Mali and EUCAP Sahel Mali missions, to coordinate closely with MINUSMA, and other bilateral partners of Mali engaged to assist the Malian authorities in the Security Sector Reform (SSR); </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="MercuryDocument">
+        <content eId="para_118__content">
+          <p xml:space="preserve">
+            <span class="bold">		Obligations under international humanitarian and human rights law</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_119" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_119__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all parties to comply with obligations under international humanitarian law to respect and protect humanitarian personnel, facilities and relief consignments, and take all required steps to allow and facilitate the full, safe, immediate and unimpeded access of humanitarian actors for the delivery of humanitarian assistance to all people in need, while respecting the United Nations humanitarian guiding principles and applicable international law;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_120" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> that the Malian authorities have primary responsibility to protect civilians in Mali, <span class="italic">further recalls</span> its resolutions <a href="http://undocs.org/S/RES/1265(1999)">1265 (1999)</a>, <a href="http://undocs.org/S/RES/1296(2000)">1296 (2000)</a>, <a href="http://undocs.org/S/RES/1674(2006)">1674 (2006)</a>, <a href="http://undocs.org/S/RES/1738(2006)">1738 (2006)</a> and <a href="http://undocs.org/S/RES/1894(2009)">1894 (2009)</a> on the protection of civilians in armed conflict, its resolutions <a href="http://undocs.org/S/RES/1612(2005)">1612 (2005)</a>, <a href="http://undocs.org/S/RES/1882(2009)">1882 (2009)</a>, <a href="http://undocs.org/S/RES/1998(2011)">1998 (2011)</a>, <a href="http://undocs.org/S/RES/2068(2012)">2068 (2012)</a> and <a href="http://undocs.org/S/RES/2143(2014)">2143 (2014)</a> on Children And Armed Conflict and its resolutions <a href="http://undocs.org/S/RES/1325(2000)">1325 (2000)</a>, <a href="http://undocs.org/S/RES/1820(2008)">1820 (2008)</a>, <a href="http://undocs.org/S/RES/1888(2009)">1888 (2009)</a>, <a href="http://undocs.org/S/RES/1889(2009)">1889 (2009)</a>, <a href="http://undocs.org/S/RES/1960(2010)">1960 (2010)</a>, <a href="http://undocs.org/S/RES/2106(2013)">2106 (2013)</a> and <a href="http://undocs.org/S/RES/2122(2013)">2122 (2013)</a> on Women, Peace and Security and <span class="italic">calls upon</span> MINUSMA and all military forces in Mali to take them into account and to abide by international humanitarian, human rights and refugee law, and recalls the importance of training in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="MercuryDocument">
+        <content eId="para_121__content">
+          <p xml:space="preserve">
+            <span class="bold">		International cooperation on the Sahel </span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all Member States, notably Sahel and Maghreb States, to coordinate their efforts to prevent the serious threat posed to international and regional security by terrorist groups crossing borders and seeking safe havens in the Sahel region, to enhance cooperation and coordination in order to develop inclusive and effective strategies to combat in a comprehensive and integrated manner the activities of terrorist groups, notably AQIM, MUJAO, Ansar Eddine and Al Mourabitoune, and to prevent the expansion of those groups as well as to limit the proliferation of all arms and transnational organized crime; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_123" class="MercuryDocument">
+        <num>31.</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its request to the Secretary-General to ensure early progress towards the effective implementation of the United Nations Integrated Strategy for the Sahel, encompassing political, security, development and humanitarian aspects and <span class="italic">welcomes</span> in this regard the establishment of a Ministerial Coordination Platform that would meet biannually and under the chairmanship of Mali for 2013‑2015, and <span class="italic">takes note </span>of the conclusions from its first and second meetings held in Bamako on 5 November 2013 and 16 May 2014; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="MercuryDocument">
+        <content eId="para_124__content">
+          <p xml:space="preserve">
+            <span class="bold">		Small arms and light weapons</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_125" class="MercuryDocument">
+        <num>32.</num>
+        <content eId="para_125__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the Malian authorities, with the assistance of MINUSMA, consistent with paragraph 13 above, and international partners, to address the issue of the proliferation and illicit trafficking of small arms and light weapons in accordance with the ECOWAS Convention on Small Arms and Light Weapons, Their Ammunition and Other Related Materials and the United Nations Programme of Action on Small Arms and Light Weapons, in order to ensure the safe and effective management, storage and security of their stockpiles of small arms and light weapons and the collection and/or destruction of surplus, seized, unmarked or illicitly held weapons and <span class="italic">further stresses</span> the importance of the full implementation of its resolutions <a href="http://undocs.org/S/RES/2017(2011)">2017 (2011)</a> and <a href="http://undocs.org/S/RES/2117(2013)">2117 (2013)</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="MercuryDocument">
+        <content eId="para_126__content">
+          <p xml:space="preserve">
+            <span class="bold">		Reports by the Secretary-General</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="MercuryDocument">
+        <num>33.</num>
+        <content eId="para_127__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to report to the Security Council within three months of the adoption of this resolution, focusing on the implementation of the Ouagadougou Preliminary Agreement, the expansion of the Force’s presence in the North of Mali, and benchmarks to assess progress on the implementation of the priority tasks of MINUSMA’s mandate, as defined by paragraph 13 above, and then, every three months, to report on the implementation of this resolution, in particular on the progress achieved on the benchmarks; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="MercuryDocument">
+        <num>34.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,680 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2014-10-24/2182-2014/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2014-10-24/2182-2014/"></FRBRuri>
+          <FRBRdate date="2014-10-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2014-10-24/2182-2014/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2014-10-24/2182-2014/eng@/"></FRBRuri>
+          <FRBRdate date="2014-10-24" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2014-10-24/2182-2014/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2014-10-24/2182-2014/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-07-09" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="African Union Mission in Somalia" showAs="African Union Mission in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Monitoring Group Established pursuant to Security Council Resolution 1519 (2003) and 1907 (2009)" showAs="UN. Monitoring Group Established pursuant to Security Council Resolution 1519 (2003) and 1907 (2009)" dictionary="DHLAUTH"></keyword>
+        <keyword value="ARMS EMBARGO" showAs="ARMS EMBARGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMS TRANSFERS" showAs="ARMS TRANSFERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHARCOAL" showAs="CHARCOAL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POLITICAL CONDITIONS" showAs="POLITICAL CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA SITUATION" showAs="SOMALIA SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FINANCIAL MANAGEMENT" showAs="FINANCIAL MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PUBLIC ADMINISTRATION" showAs="PUBLIC ADMINISTRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[84]" showAs="SOMALIA SITUATION" dictionary="S/69"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2182 (2014) [on renewal of the provisions of para. 2 of Security Council resolution 2142 (2014) until 30 Oct. 2015 concerning the arms embargo on Somalia and on extension of the mandate of the African Union Mission in Somalia (AMISOM) until 30 Nov. 2015]" showAs="Security Council resolution 2182 (2014) [on renewal of the provisions of para. 2 of Security Council resolution 2142 (2014) until 30 Oct. 2015 concerning the arms embargo on Somalia and on extension of the mandate of the African Union Mission in Somalia (AMISOM) until 30 Nov. 2015]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2014-10-24" outcome="draftResolution" as="S/2014/757" by="Australia, France, Luxembourg, Republic of Korea, Rwanda, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2014-10-24" outcome="adopted" as="S/PV.7286" by="Adopted 13-0-2, 7286th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="013" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">RWANDA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="002" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">14-63293 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2182 (2014)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2014-10-24" class="rightSmall" refersTo="#dateOfIssuance">24 October 2014</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2182 (2014) </docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="7286th">7286th meeting</inline>, on<docDate date="2014-10-24" refersTo="#adoptionDate">24 October 2014</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> all its previous resolutions and statements of its President on the situation in Somalia and Eritrea, in particular resolutions 733 (1992), 1844 (2008), 1907 (2009), 2036 (2012), 2023 (2011), 2093 (2013), 2111 (2013), 2124 (2013), 2125 (2013), and 2142 (2014),</p>
+      </container>
+      <container name="Taking note" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the final reports of the Somalia and Eritrea Monitoring Group (the SEMG) and their conclusions on the situations in both Somalia and Eritrea,</p>
+      </container>
+      <container name="Reaffirming" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its respect for the sovereignty, territorial integrity, political independence and unity of Somalia, Djibouti and Eritrea respectively,</p>
+      </container>
+      <container name="Condemning" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> flows of weapons and ammunition supplies to and through Somalia in violation of the arms embargo on Somalia and to Eritrea in violation of the arms embargo on Eritrea, as a serious threat to peace and stability in the region,</p>
+      </container>
+      <block name="subheading">Somalia</block>
+      <container name="Welcoming" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the recent high-level event on Somalia, chaired by the Secretary-General, and <span class="italic">looking forward</span> to all participants following up on their commitments,</p>
+      </container>
+      <container name="Highlighting" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Highlighting</span> in particular the FGS’s commitment to establish interim regional administrations by the end of 2014 which is an essential step under the “Vision 2016” programme, and <span class="italic">emphasizing</span> the importance of this being an inclusive and consultative process,</p>
+      </container>
+      <container name="Underlining" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the importance of full and effective participation in the peace and reconciliation process across Somali society, including women, youth and minority groups, </p>
+      </container>
+      <container name="Welcoming" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the establishment of the Independent Constitutional Review and Implementation Commission, and <span class="italic">emphasizing</span> the importance of establishing the Boundaries and Federation Commission within the upcoming parliamentary session,</p>
+      </container>
+      <container name="Welcoming" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the FGS’ commitment to a credible electoral process in 2016, <span class="italic">emphasizing</span> the need for legislation to establish the National Independent Electoral Commission as soon as possible, <span class="italic">underlining</span> the importance of all partners supporting a Somali-led process, and <span class="italic">looking forward</span> in particular to the upcoming United Nations electoral assessment mission,</p>
+      </container>
+      <container name="Underlining" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the importance of capacity-building of the Somali Security Forces, and in this regard <span class="italic">reaffirming</span> the importance of re-establishing training, equipping and retention in the Security Forces of the Federal Republic of Somalia, which is vital for the long-term stability and security of Somalia, <span class="italic">expressing</span> its support for the ongoing European Union Training Mission and other capacity-building programmes, and <span class="italic">emphasizing</span> the importance of increased coordinated, timely and sustained support from the international community,</p>
+      </container>
+      <container name="Underlining" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the need for greater effort in improving the institutional transparency and accountability of public financial management in Somalia, <span class="italic">welcoming</span> the establishment of a Financial Governance Committee, <span class="italic">encouraging</span> the FGS to use the Financial Governance Committee effectively, and <span class="italic">underlining</span> the need for increased mutual transparency and accountability between the FGS and the donor community,</p>
+      </container>
+      <container name="Welcoming" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the intention of the Secretary-General and World Bank to develop an initiative aimed at promoting economic development in the Horn of Africa, and <span class="italic">looking forward</span> to the results of the initiative,</p>
+      </container>
+      <container name="Recalling" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the total ban on the export and import of charcoal from Somalia, irrespective of whether such charcoal originated in Somalia, as set out in resolution 2036 (2012),</p>
+      </container>
+      <container name="Expressing concern" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> at the continuing violations and abuses of human rights, including extrajudicial killings, violence against women, children and journalists, arbitrary detention and pervasive sexual violence in Somalia, including in camps for internally displaced persons, <span class="italic">underscoring</span> the need to end impunity, promote and protect human rights, hold accountable those who commit such crimes, <span class="italic">welcoming</span> the efforts by the Federal Government of Somalia (FGS) to address violations and abuses of human rights including by implementing the two action plans signed on children and armed conflict and by developing a National Action Plan to combat sexual violence and <span class="italic">encouraging</span> the FGS to establish its National Human Rights Commission and to take concrete measures to implement fully the post transition human rights road map of August 2013,</p>
+      </container>
+      <container name="Recalling" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the arms embargo on Somalia, and in particular the need for all supplies of weapons and military equipment destined for the Security Forces of the Federal Government of Somalia to be notified to the Committee established pursuant to resolution 751 (1992) and 1907 (2009) (“the Committee”), and <span class="italic">further recalling</span> that improved arms and ammunition management in Somalia is a fundamental component of greater peace and stability for the region,</p>
+      </container>
+      <container name="Stressing" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> that any decision to continue or end the partial suspension of the arms embargo on the Federal Government of Somalia will be taken in the light of the thoroughness of the Federal Government of Somalia’s implementation of its requirements as set out in this and other relevant Security Council resolutions,</p>
+      </container>
+      <container name="Stressing" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the need for all Member States to respect and implement, in accordance with relevant Security Council resolutions, their obligations with respect to preventing unauthorized deliveries of weapons and military equipment to Somalia and to prevent the direct or indirect import of charcoal from Somalia in violation of the relevant Security Council resolutions,</p>
+      </container>
+      <container name="Recalling" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> that international law, as reflected in the United Nations Convention on the Law of the Sea of 10 December 1982, sets out the legal framework applicable to activities in the ocean,</p>
+      </container>
+      <container name="Taking note" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the Somalia and Eritrea Monitoring Group’s continued assessment that the illegal charcoal trade continues to generate significant funding for Al-Shabaab, <span class="italic">reiterating</span> that charcoal exports from Somalia are a significant revenue source for Al-Shabaab and also exacerbate the humanitarian crisis, and <span class="italic">deploring</span> the continued violation of the ban,</p>
+      </container>
+      <container name="Expressing concern" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> that destination countries for Somali charcoal have not yet taken sufficient steps to prevent the importation of charcoal from Somalia,</p>
+      </container>
+      <container name="Taking note" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the President of the Federal Republic of Somalia’s 8 October letter to the Security Council requesting Member States to provide military assistance to prevent the export of charcoal from Somalia and to prevent the import of weapons into Somalia in violation of the arms embargo,</p>
+      </container>
+      <container name="Encouraging" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Encouraging</span> the FGS, in consultation with all levels of Government in Somalia, to mitigate properly against the petroleum sector in Somalia becoming a source of increased tension in Somalia, including through respecting the provisions of the constitution, and <span class="italic">stressing</span> the need to resolve issues of resource management and ownership as part of ongoing discussions around federalism,</p>
+      </container>
+      <block name="subheading">Eritrea</block>
+      <container name="Welcoming" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the meetings between representatives of the Government of Eritrea and the SEMG in Paris and Cairo and by telephone conference from New York, <span class="italic">encouraging</span> further cooperation, and <span class="italic">underlining</span> its expectation that this cooperation will deepen during the SEMG’s mandate, including through regular visits to Eritrea by the SEMG,</p>
+      </container>
+      <container name="Stressing" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> its demand that Eritrea make available information pertaining to Djiboutian combatants missing in action since the clashes of June 2008 so that those concerned may ascertain the presence and conditions of the Djiboutian prisoners of war,</p>
+      </container>
+      <container name="Underlining" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the importance of full cooperation between the SEMG and the Government of Eritrea,</p>
+      </container>
+      <block name="subheading">AMISOM</block>
+      <container name="Expressing" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> its gratitude to the African Union Mission in Somalia (AMISOM) for its work in bringing greater peace and stability to Somalia,</p>
+      </container>
+      <container name="Welcoming" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> AMISOM’s recent joint operations with the Somali National Army (SNA), and <span class="italic">paying tribute</span> to the extraordinary bravery and sacrifices made by both AMISOM and SNA personnel in the fight against Al-Shabaab,</p>
+      </container>
+      <container name="Recognizing" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the importance of effective coordination among the United Nations Support Office to AMISOM (UNSOA), AMISOM, troop-contributing countries, and donors in order for UNSOA to effectively plan, budget, and provide authorized logistics for AMISOM operations, and <span class="italic">underscoring</span> the necessity of enablers and force multipliers to address key limiting factors to AMISOM operations such as timely maintenance of key equipment, maintenance of logistical supply lines, and availability of water, </p>
+      </container>
+      <container name="Recalling" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> and <span class="italic">welcoming</span> AMISOM’s efforts to assist in the provision of training to the SNA, and <span class="italic">underlining</span> the importance of the Federal Government of Somalia taking on increased responsibility and ownership of the security sector, which is an essential part of AMISOM’s eventual exit strategy,</p>
+      </container>
+      <container name="Expressing concern" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> at the reports of sexual violence and exploitation allegedly perpetrated by some AMISOM troops, <span class="italic">reminding</span> AMISOM of the United Nations Human Rights and Due Diligence policy, <span class="italic">underscoring</span> in this context the importance of the United Nations Zero Tolerance Policy on Sexual Exploitation and Abuse in the context of peacekeeping, <span class="italic">welcoming</span> the African Union’s deployment of a team to conduct a full investigation into these allegations, and <span class="italic">underlining</span> the importance of holding to account those responsible for such abuses,</p>
+      </container>
+      <container name="Welcoming" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the support of the international community to peace and stability in Somalia, in particular the European Union for its substantial contribution in supporting AMISOM, and <span class="italic">emphasizing</span> the importance of new contributors sharing the financial burden of supporting AMISOM,</p>
+      </container>
+      <block name="subheading">Somalia and Eritrea Monitoring Group</block>
+      <container name="Taking note" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the letter dated 7 February 2014 from the Somalia and Eritrea Monitoring Group recommending an exemption to the arms embargo to improve reporting on security operations for commercial shipping,</p>
+      </container>
+      <container name="Determining" eId="container_38">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in Somalia, Eritrea’s influence in Somalia, as well as the dispute between Djibouti and Eritrea, continue to constitute a threat to international peace and security in the region,</p>
+      </container>
+      <container name="Acting" eId="container_39">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_40" class="H23">
+        <subheading>		Arms embargo </subheading>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the arms embargo on Somalia, imposed by paragraph 5 of resolution 733 (1992) and further elaborated upon in paragraphs 1 and 2 of resolution 1425 (2002) and modified by paragraphs 33 to 38 of resolution 2093 (2013) and paragraphs 4 to 17 of resolution 2111 (2013), paragraph 14 of resolution 2125 (2013), and paragraph 2 of resolution 2142 (2013) (hereafter referred to as “the arms embargo on Somalia”);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> with concern that some deliveries of weapons and military equipment have not been notified to the Committee in accordance with the relevant Security Council resolutions, <span class="italic">underlines</span> the fundamental importance of timely and detailed notifications to the Committee as set out in paragraphs 3 to 7 of resolution 2142, <span class="italic">notes</span> with concern reports of diversion of arms and ammunition, and <span class="italic">encourages</span> supplying Member States to assist the FGS in improving its notifications to the Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to renew the provisions set out in paragraph 2 of resolution 2142 (2014) until 30 October 2015, and in that context <span class="italic">reiterates</span> that the arms embargo on Somalia shall not apply to deliveries of weapons, ammunition or military equipment or the provision of advice, assistance or training, intended solely for the development of the Security Forces of the Federal Government of Somalia, to provide security for the Somali people, except in relation to deliveries of the items set out in the annex of resolution 2111 (2013);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the steps taken by the Federal Government of Somalia to establish effective mechanisms in managing its weapons and military equipment, including the Arms and Ammunition Steering Committee, and <span class="italic">notes</span> with regret that these structures are not functioning with the required level of efficiency nor at all levels of government;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its disappointment that a weapons marking and registration process has not yet commenced, despite the Security Council’s appeal in its Presidential Statement of 22 May 2014 and <span class="italic">urges</span> the FGS to implement this process without further delay;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the SNA and AMISOM to document and register all military equipment captured as part of offensive operations or in the course of carrying out their mandates, including recording the type and serial number of the weapon and/or ammunition, photographing all items and relevant markings and facilitating inspection by the SEMG of all military items before their redistribution or destruction;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its request to the FGS, with the support of international partners to establish a joint verification team which would conduct routine inspections of government security forces’ stockpiles, inventory records and the supply chain of weapons, and <span class="italic">requests</span> that any such group provide its findings to the Committee, for the purposes of mitigating the diversion of arms and ammunition to entities outside of the security services of the FGS;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> that weapons or military equipment sold or supplied solely for the development of the Security Forces of the Federal Government of Somalia may not be resold to, transferred to, or made available for use by, any individual or entity not in the service of the Security Forces of the Federal Government of Somalia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77" class="SingleTxt">
+        <num>9.</num>
+        <list eId="para_77_list">
+          <intro eId="para_77_list_intro">
+            <p xml:space="preserve">	<span class="italic">Urges</span> the FGS to implement fully all its requirements as set out in this and other relevant Security Council resolutions, and <span class="italic">requests</span> the FGS to report to the Security Council by 30 March 2015, and then by 30 September 2015 on:</p>
+          </intro>
+          <point eId="para_77_list_point_a">
+            <num>(a)</num>
+            <content eId="para_77_list_point_a_content">
+              <p xml:space="preserve">	The current structure of the Security Forces of the Federal Government of Somalia;</p>
+            </content>
+          </point>
+          <point eId="para_77_list_point_b">
+            <num>(b)</num>
+            <content eId="para_77_list_point_b_content">
+              <p xml:space="preserve">	The infrastructure in place to ensure the safe storage, registration, maintenance and distribution of military equipment by the Security Forces of the Federal Government of Somalia;</p>
+            </content>
+          </point>
+          <point eId="para_77_list_point_c">
+            <num>(c)</num>
+            <content eId="para_77_list_point_c_content">
+              <p xml:space="preserve">	The procedures and codes of conduct in place for the registration, distribution, use and storage of weapons by the Security Forces of the Federal Government of Somalia, and on training needs in this regard;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the SEMG’s recommendation that weapons on board vessels engaged in commercial activity in Somali ports are granted an exemption to the arms embargo, <span class="italic">expresses</span> its willingness to take such a proposal forward, in close consultation with the FGS, and <span class="italic">requests</span> the FGS and SEMG to work together and formulate a proposal which should be communicated to the Security Council by 27 February 2015; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="H23">
+        <subheading>		Maritime interdiction of charcoal and arms </subheading>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the ban on the import and export of Somali charcoal, as set out in paragraph 22 of resolution 2036 (2012) (“the charcoal ban”), and <span class="italic">reiterates</span> that the Somali authorities shall take the necessary measures to prevent the export of charcoal from Somalia and <span class="italic">reiterates</span> its requests in paragraph 18 of resolution 2111 (2013), that AMISOM support and assist the Somali authorities in doing so, as part of AMISOM’s implementation of its mandate set out in paragraph 1 of resolution 2093; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="italic">Condemns</span> the ongoing export of charcoal from Somalia, in violation of the total ban on the export of charcoal from Somalia reaffirmed above; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all Member States, including those contributing AMISOM police and troop contingents, to respect and implement their obligations to prevent the direct or indirect import of charcoal from Somalia, whether or not such charcoal originated in Somalia, as set out in paragraph 22 of resolution 2036 (2002), and <span class="italic">affirms</span> this includes taking the necessary measures to prevent the use of their flag vessels for such importing; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve">	<span class="italic">Condemns</span> the flow of weapons and military equipment to Al-Shabaab and other armed groups which are not part of the security forces of the Federal Government of Somalia, and <span class="italic">expresses</span> serious concern at the destabilizing impact of such weapons; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>15.</num>
+        <list eId="para_98_list">
+          <intro eId="para_98_list_intro">
+            <p xml:space="preserve">	<span class="italic">Authorizes</span> for a period of 12 months from the date of this resolution Member States, acting nationally or through voluntary multinational naval partnerships, such as “Combined Maritime Forces”, in cooperation with the FGS and which the FGS has notified to the Secretary-General and which the Secretary-General has subsequently notified to all Member States, in order to ensure strict implementation of the arms embargo on Somalia and the charcoal ban, to inspect, without undue delay, in Somali territorial waters and on the high seas off the coast of Somalia extending to and including the Arabian sea and Persian Gulf, vessels bound to or from Somalia which they have reasonable grounds to believe are: </p>
+          </intro>
+          <point eId="para_98_list_point_i">
+            <num>(i)</num>
+            <content eId="para_98_list_point_i_content">
+              <p xml:space="preserve">	Carrying charcoal from Somalia in violation of the charcoal ban;</p>
+            </content>
+          </point>
+          <point eId="para_98_list_point_ii">
+            <num>(ii)</num>
+            <content eId="para_98_list_point_ii_content">
+              <p xml:space="preserve">	carrying weapons or military equipment to Somalia, directly or indirectly, in violation of the arms embargo on Somalia;</p>
+            </content>
+          </point>
+          <point eId="para_98_list_point_iii">
+            <num>(iii)</num>
+            <content eId="para_98_list_point_iii_content">
+              <p xml:space="preserve">	carrying weapons or military equipment to individuals or entities designated by the Committee established pursuant to resolution 751 (1992) and 1907 (2009);</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all Flag States of such vessels to cooperate with such inspections, <span class="italic">requests</span> Member States to make good-faith efforts to first seek the consent of the vessel’s Flag State prior to any inspections pursuant to paragraph 15, <span class="italic">authorizes</span> Member States conducting inspections pursuant to paragraph 15 to use all necessary measures commensurate with the circumstances to carry out such inspections and in full compliance with international humanitarian law and international human rights law, as may be applicable, and <span class="italic">urges</span> Member States conducting such inspections to do so without causing undue delay to or undue interference with the exercise of the right of innocent passage or freedom of navigation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">Authorizes</span> Member States to seize and dispose of (such as through destruction, rendering inoperable or unusable, storage, or transferring to a State other than the originating or destination States for disposal) any items identified in inspections pursuant to paragraph 15, the delivery, import or export of which is prohibited by the arms embargo on Somalia or the charcoal ban, <span class="italic">authorizes</span> Member States to collect evidence directly related to the carriage of such items in the course of such inspections, and <span class="italic">decides</span> that charcoal seized in accordance with this paragraph may be disposed of through resale which shall be monitored by the SEMG;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> the importance of all Member States, including Somalia, taking the necessary measures to ensure that no claim shall lie at the instance of Somalia, or of any person or entity in Somalia, or of persons or entities designated for measures set out in resolutions 1844 (2008), 2002 (2011), or 2093 (2013), or any person claiming through or for the benefit of any such person or entity, in connection with any contract or other transaction where its performance was prevented by reason of the measures imposed by this resolution or previous resolutions; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> Member States to dispose of any charcoal, weapons or military equipment seized pursuant to paragraph 17, in an environmentally responsible manner, taking into account the United Nations Environment Programme’s 4 September 2013 letter to the Chair of the Committee, and the Committee’s 7 May 2014 “Implementation Assistance Notice”, <span class="italic">calls upon</span> all Member States in the region to cooperate in the disposal of such charcoal, weapons or military equipment, <span class="italic">affirms</span> that the authorization provided for in paragraph 15 includes the authority to divert vessels and their crews, to a suitable port to facilitate such disposal, with the consent of the port State, <span class="italic">affirms</span> that the authorization in paragraph 15 includes the authority to use all necessary measures to seize items pursuant to paragraph 17 in the course of inspections and <span class="italic">decides</span> that any Member State cooperating in the disposal of items identified in inspections pursuant to paragraph 15, the delivery, import or export of which is prohibited by the arms embargo on Somalia or the charcoal ban, shall provide a written report to the Committee no later than 30 days after such items enter its territory on the steps taken to dispose or destroy them; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that any Member State that undertakes an inspection pursuant to paragraph 15, shall promptly notify the Committee and submit a report on the inspection containing all relevant details, including an explanation of the grounds for and the results of the inspection and where possible including the flag of the vessel, the name of the vessel, the name and identifying information of the master of the vessel, the owner of the vessel, and the original seller of the cargo, and efforts made to seek the consent of the vessel’s Flag State, <span class="italic">requests</span> the Committee to notify the Flag State of the inspected vessel that an inspection has been undertaken, <span class="italic">notes</span> the prerogative of any Member State to write to the Committee concerning the implementation of any aspect of this resolution, and <span class="italic">further encourages</span> the SEMG to share relevant information with Member States operating under the authorization set out in this resolution; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_143" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_143__content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> that the authorizations provided in this resolution apply only with respect to the situation in Somalia and shall not affect the rights or obligations or responsibilities of Member States under international law, including any rights or obligations under UNCLOS, including the general principle of exclusive jurisdiction of a Flag State over its vessels on the high seas, with respect to any other situation, <span class="italic">underscores</span> in particular that this resolution shall not be considered as establishing customary international law, and <span class="italic">notes</span> further that such authorizations have been provided only following the receipt of the 8 October 2014 letter conveying the request of the President of the Federal Republic of Somalia; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_154" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_154__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to review after six months from the date of this resolution, the provisions set out in paragraphs 11 to 21 above; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_155" class="H23">
+        <subheading>		AMISOM </subheading>
+      </paragraph>
+      <paragraph eId="para_156" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_156__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to authorize the Member States of the African Union to maintain the deployment of AMISOM, as set out in paragraph 1 of resolution 2093 (2013) until 30 November 2015, in line with the Security Council’s request to the African Union for a maximum level of 22,126 troops, which shall be authorized to take all necessary measures, in full compliance with its Member States’ obligations under international humanitarian law and human rights law, and in full respect of the sovereignty, territorial integrity, political independence and unity of Somalia, to carry out its mandate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> the benchmarks for the deployment of a United Nations peacekeeping operation as set out in both the African Union Commission Chairperson’s 11 October 2013 letter and the Secretary-General’s subsequent 14 October 2013 letter to the President of the Security Council, <span class="italic">requests</span> that the Secretary-General keep these benchmarks under continuous review in close consultation with the AU, and <span class="italic">further requests</span> the Secretary-General and African Union to review jointly the impact of the temporary surge authorized in resolution 2124 (2013) and to set out recommendations on next steps in the military campaign by 30 May 2015, taking into due consideration the political situation in Somalia; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_159" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> that, in line with the Joint United Nations-African Union Review of AMISOM, the increases in the force strength decided in resolution 2124 (2013) are to provide a short-term enhancement of AMISOM’s military capacity, for a period of 18 to 24 months and as part of an overall exit strategy for AMISOM, after which a decrease in AMISOM’s force strength will be considered; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_162" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_162__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> paragraphs 4 and 14 of resolution 2124 (2013) and paragraphs 4 and 5 of resolution 2093 (2013) with regard to the logistical support package for AMISOM; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_166" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_166__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to continue to work closely with and provide technical expertise and to the African Union as set out in paragraph 9 of resolution 2124 (2013) in particular by improving the efficiency in planning and strategic management of AMISOM, including strengthening command and control structures and improving the coordination between troop contingents, sectors and joint operations with the SNA;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_171" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_171__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the recent joint AMISOM and SNA offensive operations, which have had a significant impact in reducing territory held by Al-Shabaab, <span class="italic">underlines</span> the importance of such operations continuing, <span class="italic">further underlines</span> that it is essential that military operations are followed immediately by national efforts to establish or improve governance structures in recovered areas and by the delivery of basic services, including security, and in that regard <span class="italic">encourages</span> the timely delivery of Quick Impact Projects in support of FGS stabilization efforts;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the imperative of securing key supply routes to areas recovered from Al-Shabaab in view of the deteriorating humanitarian situation Somalia, <span class="italic">requests</span> AMISOM and the Somali National Army to ensure they give the utmost priority to securing key supply routes essential to improve the humanitarian situation in the most affected areas, and <span class="italic">requests</span> the Secretary-General to report, in consultation with the FGS and AMISOM, on progress in this regard in his written reports to the Security Council as set out in paragraph 15 of resolution 2158 (2014);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_184" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_184__content">
+          <p xml:space="preserve">	<span class="italic">Strongly urges</span> Member States to provide helicopters to AMISOM for the authorized aviation component of up to 12 military helicopters, provided for in paragraph 6 of resolution 2036 (2012) as well as providing the enablers and force multipliers which were identified as necessary in the 2013 joint United Nations-African Union benchmarking assessment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its request and that of the African Union Peace and Security Council for AMISOM to develop further an effective approach to the protection of civilians, <span class="italic">notes</span> with concern that AMISOM has not yet established a Civilian Casualty Tracking, Analysis and Response cell (CCTARC), as requested in resolutions 2093 (2013) and 2124 (2013), and <span class="italic">requests</span> the African Union to conclude the deployment of this cell without any further delay;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_201" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_201__content">
+          <p xml:space="preserve">	<span class="italic">Looks forward</span> to the results of both the African Union’s investigation and investigations by troop-contributing countries concerning acts of sexual exploitation and abuse allegedly perpetrated by some AMISOM soldiers, <span class="italic">underlines</span> the importance of accountability and transparency in this regard, <span class="italic">requests</span> the African Union to review and endorse the draft African Union policy on prevention and response to sexual exploitation and abuse, and <span class="italic">requests</span> the African Union and the Secretary-General to make public the outcomes of these investigations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_211" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_211__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the need for AMISOM troops to continue to receive appropriate information and predeployment training in relation to human rights principles, including gender equality and sexual violence, and for AMISOM personnel to be properly informed of the accountability mechanisms in place should any abuse be committed;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_222" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_222__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> AMISOM to strengthen the mechanisms to prevent and respond to sexual violence and sexual exploitation and abuse, such as introducing a centralized database for the efficient and independent receipt, preliminary assessment and tracking of investigations into allegations of sexual and gender-based violence and sexual exploitation and abuse, including through the institution of protective measure for complainants in order to prevent the redeployment of any individual who has been involved in serious violations of international humanitarian and international human rights law, including those related to sexual violence;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">Condemns</span> all violations and abuses committed against children by all parties in Somalia, <span class="italic">calls for</span> the immediate cessation of such violations and abuses and for those responsible to be held to account, and <span class="italic">requests</span> the FGS and AMISOM to protect and treat as victims those children who have been released or otherwise separated from armed forces and armed groups, including through the full implementation of standard operating procedures for the protection and handover of these children;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_247" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_247__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> the need for AMISOM to ensure that any detainees in their custody, including disengaged combatants, are treated in strict compliance with applicable obligations under international humanitarian law and human rights law, including ensuring their humane treatment, and <span class="italic">further reiterates</span> its request for AMISOM to allow appropriate access to detainees by a neutral body;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_261" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_261__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its call for new donors to support AMISOM through the provision of additional funding for troop stipends, equipment, technical assistance and uncaveated funding for AMISOM to the United Nations Trust Fund for AMISOM, <span class="italic">calls upon</span> the African Union to consider how to provide sustainable funding for AMISOM, such as through its own assessed costs as it did for the African-led International Support Mission in Mali, and <span class="italic">underlines</span> the African Union’s call for its Member States to provide financial support to AMISOM;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_262" class="H23">
+        <subheading>		Public financial management in Somalia</subheading>
+      </paragraph>
+      <paragraph eId="para_263" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_263__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its concern that corruption continues to undermine both security in the country and the FGS’ efforts to rebuild Somalia’s institutions, and <span class="italic">urges</span> the FGS to fight corruption and tighten financial governance procedures in order to improve transparency and accountability of public financial management, and <span class="italic">urges</span> the FGS to ensure that assets recovered from overseas and revenue raised including through the ports are documented transparently and channelled through the national budget;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_264" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_264__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the importance of ensuring that international aid is also delivered in a transparent manner and <span class="italic">encourages</span> all Member States to use the structures being currently being established between the FGS and donors, particularly on recurrent financing; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_265" class="H23">
+        <subheading>		Humanitarian situation in Somalia</subheading>
+      </paragraph>
+      <paragraph eId="para_266" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_266__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> serious concern at the deterioration of the humanitarian situation in Somalia, <span class="italic">condemns</span> in the strongest terms increased attacks against humanitarian actors and any misuse of donor assistance and the obstruction of the delivery of humanitarian aid, and <span class="italic">reiterates</span> paragraph 10 of resolution 2158 (2014) in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_267" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_267__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that until 30 October 2015 and without prejudice to humanitarian assistance programmes conducted elsewhere, the measures imposed by paragraph 3 of resolution 1844 (2008) shall not apply to the payment of funds, other financial assets or economic resources necessary to ensure the timely delivery of urgently needed humanitarian assistance in Somalia, by the United Nations, its specialized agencies or programmes, humanitarian organizations having observer status with the United Nations General Assembly that provide humanitarian assistance, and their implementing partners including bilaterally or multilaterally funded NGOs participating in the United Nations Consolidated Appeal for Somalia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_269" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_269__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Emergency Relief Coordinator to report to the Security Council by 1 October 2015 on the delivery of humanitarian assistance in Somalia and on any impediments to the delivery of humanitarian assistance in Somalia, and <span class="italic">requests</span> relevant United Nations agencies and humanitarian organizations having observer status with the United Nations General Assembly and their implementing partners that provide humanitarian assistance in Somalia to increase their cooperation and willingness to share information with the United Nations Humanitarian Aid Coordinator for Somalia in the preparation of such reports and in the interests of increasing transparency and accountability;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_270" class="H23">
+        <subheading>		The Somalia and Eritrea Monitoring Group</subheading>
+      </paragraph>
+      <paragraph eId="para_271" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_271__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> resolution 1844 (2008) which imposed targeted sanctions and resolutions 2002 (2011) and 2093 (2013) which expanded the listing criteria, and <span class="italic">notes</span> one of the listing criteria under resolution 1844 (2008) is engaging in acts that threaten the peace, security and stability of Somalia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_272" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_272__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its willingness to adopt targeted measures against individuals and entities on the basis of the above mentioned criteria;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> Member States to assist the Monitoring Group in their investigations, and <span class="italic">reiterates</span> that obstructing the investigations or work of the Monitoring Group is a criterion for listing under paragraph 15 (e) of resolution 1907 (2009);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_277" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_277__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend until 30 November 2015 the mandate of the Somalia and Eritrea Monitoring Group as set out in paragraph 13 of resolution 2060 (2012) and updated in paragraph 41 of resolution 2093 (2013), <span class="italic">expresses</span> its intention to review the mandate and take appropriate action regarding the further extension no later than 30 October 2015, and <span class="italic">requests</span> the Secretary-General to take the necessary administrative measures as expeditiously as possible to re-establish the Monitoring Group, in consultation with the Committee, for a period of 13 months from the date of this resolution, drawing, as appropriate, on the expertise of the members of the Monitoring Group established pursuant to previous resolutions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_281" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_281__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Monitoring Group to submit, for the Security Council’s consideration, through the Committee, two final reports; one focusing on Somalia, the other on Eritrea, covering all the tasks set out in paragraph 13 of resolution 2060 (2012) and updated in paragraph 41 of resolution 2093 (2013), not later than 30 September 2015;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_286" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_286__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Committee, in accordance with its mandate and in consultation with the Monitoring Group and other relevant United Nations entities to consider the recommendations in the reports of the Monitoring Group and recommend to the Council ways to improve the implementation of and compliance with the Somalia and Eritrea arms embargoes, the measures regarding the import and export of charcoal from Somalia, as well as implementation of the measures imposed by paragraphs 1, 3 and 7 of resolutions 1844 (2008) and paragraphs 5, 6, 8, 10, 12 and 13 of resolution 1907 (2009) taking into account paragraph 15 above, in response to continuing violations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_292" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_292__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Monitoring Group to report on the implementation of the authorization set out in paragraph 15, as part of its regular reporting to the Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States from East Africa to appoint focal points for the purpose of coordinating and exchanging information with the Monitoring Group on regional investigations into Al-Shabaab;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_307" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_307__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the importance of a constructive relationship between the SEMG and the FGS, <span class="italic">welcomes</span> efforts made by both so far, and <span class="italic">emphasizes</span> the need for this to continue and deepen during the course of this mandate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_316" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_316__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the SEMG’s ongoing and significant efforts to engage with the Government of Eritrea and the Government of Eritrea’s cooperation with the SEMG, <span class="italic">emphasizes</span> that this must continue and strengthen, and <span class="italic">reiterates</span> its expectation that the Government of Eritrea will facilitate the entry of the SEMG to Eritrea, as requested in paragraph 31 of resolution 2111 (2013);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_326" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_326__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Eritrea to make available information pertaining to Djiboutian combatants missing in action since the clashes of 10 to 12 June 2008; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_337" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_337__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

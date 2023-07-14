@@ -1,0 +1,907 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/eng@/"></FRBRuri>
+          <FRBRdate date="2014-06-17" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Taliban (Afghanistan)" showAs="Taliban (Afghanistan)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Assistance Mission in Afghanistan" showAs="UN Assistance Mission in Afghanistan" dictionary="DHLAUTH"></keyword>
+        <keyword value="INTERPOL" showAs="INTERPOL" dictionary="DHLAUTH"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COUNTER-TERRORISM" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM FINANCING" showAs="TERRORISM FINANCING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FROZEN ASSETS" showAs="FROZEN ASSETS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAVEL RESTRICTIONS" showAs="TRAVEL RESTRICTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AFGHANISTAN SITUATION" showAs="AFGHANISTAN SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION EXCHANGE" showAs="INFORMATION EXCHANGE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL SECURITY" showAs="INTERNATIONAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[31]" showAs="TERRORISM" dictionary="S/69"></keyword>
+        <keyword refersTo="agenda" value="[10]" showAs="INTERNATIONAL SECURITY" dictionary="S/69"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2160 (2014) [on threats to international peace and security caused by terrorist acts by Taliban]" showAs="Security Council resolution 2160 (2014) [on threats to international peace and security caused by terrorist acts by Taliban]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2014-06-17" outcome="draftResolution" as="S/2014/409" by="Australia, France, Lithuania, Luxembourg, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2014-06-17" outcome="adopted" as="S/PV.7198" by="Adopted unanimously, 7198th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">CHAD</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">JORDAN</organization>
+                <organization refersTo="memberState">LITHUANIA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">NIGERIA</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">RWANDA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">14-55589 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2160 (2014)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2014-06-17" class="rightSmall" refersTo="#dateOfIssuance">17 June 2014</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2160 (2014)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its previous resolutions on international terrorism and the threat it poses to Afghanistan, in particular its resolutions <a href="http://undocs.org/S/RES/1267(1999)">1267 (1999)</a>, <a href="http://undocs.org/S/RES/1333(2000)">1333 (2000)</a>, <a href="http://undocs.org/S/RES/1363(2001)">1363 (2001)</a>, <a href="http://undocs.org/S/RES/1373(2001)">1373 (2001)</a>, <a href="http://undocs.org/S/RES/1390(2002)">1390 (2002)</a>, <a href="http://undocs.org/S/RES/1452(2002)">1452 (2002)</a>, <a href="http://undocs.org/S/RES/1455(2003)">1455 (2003)</a>, <a href="http://undocs.org/S/RES/1526(2004)">1526 (2004)</a>, <a href="http://undocs.org/S/RES/1566(2004)">1566 (2004)</a>, <a href="http://undocs.org/S/RES/1617(2005)">1617 (2005)</a>, <a href="http://undocs.org/S/RES/1624(2005)">1624 (2005)</a>, <a href="http://undocs.org/S/RES/1699(2006)">1699 (2006)</a>, <a href="http://undocs.org/S/RES/1730(2006)">1730 (2006)</a>, <a href="http://undocs.org/S/RES/1735(2006)">1735 (2006)</a>, <a href="http://undocs.org/S/RES/1822(2008)">1822 (2008)</a>, <a href="http://undocs.org/S/RES/1904(2009)">1904 (2009)</a>, <a href="http://undocs.org/S/RES/1988(2011)">1988 (2011)</a>, <a href="http://undocs.org/S/RES/1989(2011)">1989 (2011)</a>, <a href="http://undocs.org/S/RES/2082(2012)">2082 (2012)</a>, <a href="http://undocs.org/S/RES/2083(2012)">2083 (2012)</a>, <a href="http://undocs.org/S/RES/2133(2014)">2133 (2014)</a>, and the relevant statements of its President,</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its previous resolutions extending through 17 March 2015 the mandate of the United Nations Assistance Mission in Afghanistan (UNAMA) as defined in resolution <a href="http://undocs.org/S/RES/2145(2014)">2145 (2014)</a>,</p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions on the recruitment and use of children and armed conflict, <span class="italic">expressing</span> its strong concern about the security situation in Afghanistan, in particular the ongoing violent and terrorist activities by the Taliban, Al-Qaida, and other violent and extremist groups, illegal armed groups, criminals and those involved in the narcotics trade, and the strong links between terrorism and insurgency activities and illicit drugs, resulting in threats to the local population, including children, national security forces and international military and civilian personnel,</p>
+      </container>
+      <container name="Welcoming" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the process by which Afghanistan and its regional and international partners are entering into long-term strategic partnership and other agreements aimed at achieving a peaceful, stable and prosperous Afghanistan, </p>
+      </container>
+      <container name="Reaffirming" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, territorial integrity and national unity of Afghanistan, </p>
+      </container>
+      <container name="Stressing" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the importance of a comprehensive political process in Afghanistan to support reconciliation among all Afghans,</p>
+      </container>
+      <container name="Recognizing" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that the security situation in Afghanistan has evolved and that some members of the Taliban have reconciled with the Government of Afghanistan, have rejected the terrorist ideology of Al-Qaida and its followers, and support a peaceful resolution to the continuing conflict in Afghanistan,</p>
+      </container>
+      <container name="Recognizing" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that, notwithstanding the evolution of the situation in Afghanistan and progress in reconciliation, the situation in Afghanistan remains a threat to international peace and security, and <span class="italic">reaffirming</span> the need to combat this threat by all means, in accordance with the Charter of the United Nations and international law, including applicable human rights, refugee and humanitarian law, stressing in this regard the important role the United Nations plays in this effort,</p>
+      </container>
+      <container name="Reiterating" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its firm commitment to support the Government of Afghanistan in its efforts to advance the peace and reconciliation process, including by the High Peace Council and the implementation of the Afghanistan Peace and Reconciliation Programme, in line with the Kabul Communiqué and the Bonn Conference Conclusions, and within the framework of the Afghan Constitution and application of the procedures introduced by the Security Council in its resolution <a href="http://undocs.org/S/RES/1988(2011)">1988 (2011)</a> and <a href="http://undocs.org/S/RES/2082(2012)">2082 (2012)</a> as well as other relevant resolutions of the Council,</p>
+      </container>
+      <container name="Welcoming" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the decision taken by some members of the Taliban to reconcile with the Government of Afghanistan, to have no links to international terrorist organizations, including Al-Qaida, to respect the constitution, including its human rights provisions, notably the rights of women, and to support a peaceful resolution to the continuing conflict in Afghanistan, and <span class="italic">urging</span> all those individuals, groups, undertakings and entities associated with the Taliban in constituting a threat to the peace, stability and security of Afghanistan, to accept the Government of Afghanistan’s offer of reconciliation,</p>
+      </container>
+      <container name="Reiterating" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its concern about the security situation in Afghanistan, in particular the ongoing violent and terrorist activities by the Taliban, Al-Qaida and other violent and extremist groups, illegal armed groups, criminals and those involved in terrorism and the illicit brokering in arms and related material and arms trafficking in the production, trafficking or trade of illicit drugs, and the strong links between terrorism and insurgency activities and illicit drugs, resulting in threats to the local population, including women, children, national security forces and international military and civilian personnel, including humanitarian and development workers, </p>
+      </container>
+      <container name="Underscoring" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Underscoring</span> the importance of humanitarian aid operations and <span class="italic">condemning</span> all acts or threats of violence against United Nations staff and humanitarian actors and any politicization of humanitarian assistance by the Taliban and associated groups or individuals,</p>
+      </container>
+      <container name="Reiterating" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> the need to ensure that the present sanctions regime contributes effectively to ongoing efforts to combat the insurgency and support the Government of Afghanistan’s work to advance reconciliation in order to bring about peace, stability, and security in Afghanistan,</p>
+      </container>
+      <container name="Taking note" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the Government of Afghanistan’s request that the Security Council support reconciliation, including by removing names from the United Nations sanctions lists for those who reconcile and have ceased to engage in or support activities that threaten the peace, stability and security of Afghanistan,</p>
+      </container>
+      <container name="Expressing its intention" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Expressing its intention</span> to give due regard to lifting sanctions on those who reconcile,</p>
+      </container>
+      <container name="Welcoming" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the briefings by the Chairman of the High Peace Council to the Committee in December 2012 and 2013 as a sign of close, ongoing cooperation between the Security Council and those Afghans working for peace and national reconciliation in Afghanistan,</p>
+      </container>
+      <container name="Stressing" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the central and impartial role that the United Nations continues to play in promoting peace, stability and security in Afghanistan, and <span class="italic">expressing</span> its appreciation and strong support for the ongoing efforts of the Secretary-General and his Special Representative for Afghanistan to assist the High Peace Council’s peace and reconciliation efforts,</p>
+      </container>
+      <container name="Reiterating" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its support for the fight against illicit production and trafficking of drugs from, and chemical precursors to, Afghanistan, in neighbouring countries, countries on trafficking routes, drug destination countries and precursors producing countries,</p>
+      </container>
+      <container name="Recalling" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolution <a href="http://undocs.org/S/RES/2133(2014)">2133 (2014)</a> and the publication by the Global Counterterrorism Forum (GCTF) of the “Algiers Memorandum on Good Practices on Preventing and Denying the Benefits of Kidnapping for Ransom by Terrorists”, <span class="italic">strongly condemning</span> incidents of kidnapping and hostage-taking committed by terrorist groups for any purpose, including with the aim of raising funds or gaining political concessions, <span class="italic">expressing its determination</span> to prevent kidnapping and hostage-taking committed by terrorist groups and to secure the safe release of hostages without ransom payments or political concessions, in accordance with applicable international law, <span class="italic">calling upon</span> all Member States to prevent terrorists from benefiting directly or indirectly from ransom payments or from political concessions and to secure the safe release of hostages, and <span class="italic">reaffirming </span>the need for all Member States to cooperate closely during incidents of kidnapping and hostage-taking committed by terrorist groups, </p>
+      </container>
+      <container name="Expressing concern" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> at the increased use, in a globalized society, by terrorists and their supporters of new information and communications technologies, in particular the Internet, to facilitate terrorist acts, as well as their use to incite, recruit, fund, or plan terrorist acts,</p>
+      </container>
+      <container name="Recognizing" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the importance of making the Afghanistan/Taliban sanctions list available in Dari and Pashtu,</p>
+      </container>
+      <container name="Acting" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <content eId="para_24__content">
+          <p xml:space="preserve">
+            <span class="bold">		Measures</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>1.</num>
+        <list eId="para_25_list">
+          <intro eId="para_25_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that all States shall take the following measures with respect to individuals and entities designated prior to the date of adoption of resolution <a href="http://undocs.org/S/RES/1988(2011)">1988 (2011)</a> as the Taliban, as well as other individuals, groups, undertakings and entities associated with the Taliban in constituting a threat to the peace, stability and security of Afghanistan as designated by the Committee established in paragraph 35 of resolution 1988 (“the Committee”) (hereafter known as “the List”):</p>
+          </intro>
+          <point eId="para_25_list_point_a">
+            <num>(a)</num>
+            <content eId="para_25_list_point_a_content">
+              <p xml:space="preserve">	Freeze without delay the funds and other financial assets or economic resources of these individuals, groups, undertakings and entities, including funds derived from property owned or controlled directly or indirectly, by them or by persons acting on their behalf or at their direction, and ensure that neither these nor any other funds, financial assets or economic resources are made available, directly or indirectly for such persons’ benefit, by their nationals or by persons within their territory;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_b">
+            <num>(b)</num>
+            <content eId="para_25_list_point_b_content">
+              <p xml:space="preserve">	Prevent the entry into or transit through their territories of these individuals, provided that nothing in this paragraph shall oblige any State to deny entry or require the departure from its territories of its own nationals and this paragraph shall not apply where entry or transit is necessary for the fulfilment of a judicial process or the Committee determines on a case-by-case basis only that entry or transit is justified, including where this directly relates to supporting efforts by the Government of Afghanistan to promote reconciliation;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_c">
+            <num>(c)</num>
+            <content eId="para_25_list_point_c_content">
+              <p xml:space="preserve">	Prevent the direct or indirect supply, sale, or transfer to these individuals, groups, undertakings and entities from their territories or by their nationals outside their territories, or using their flag vessels or aircraft, of arms and related materiel of all types including weapons and ammunition, military vehicles and equipment, paramilitary equipment, and spare parts for the aforementioned and technical advice, assistance, or training related to military activities;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_26" class="MercuryDocument">
+        <num>2.</num>
+        <list eId="para_26_list">
+          <intro eId="para_26_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that the acts or activities indicating that an individual, group, undertaking or entity is eligible for listing under paragraph 1 include:</p>
+          </intro>
+          <point eId="para_26_list_point_a">
+            <num>(a)</num>
+            <content eId="para_26_list_point_a_content">
+              <p xml:space="preserve">	Participating in the financing, planning, facilitating, preparing or perpetrating of acts or activities by, in conjunction with, under the name of, on behalf of, or in support of;</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_b">
+            <num>(b)</num>
+            <content eId="para_26_list_point_b_content">
+              <p xml:space="preserve">	Supplying, selling or transferring arms and related materiel to;</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_c">
+            <num>(c)</num>
+            <content eId="para_26_list_point_c_content">
+              <p xml:space="preserve">	Recruiting for; or</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_d">
+            <num>(d)</num>
+            <content eId="para_26_list_point_d_content">
+              <p xml:space="preserve">	Otherwise supporting acts or activities of those designated and other individuals, groups, undertakings and entities associated with the Taliban in constituting a threat to the peace, stability and security of Afghanistan;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_28" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Confirms</span> that any individual or any group, undertaking or entity owned or controlled, directly or indirectly by, or otherwise supporting, such an individual, group, undertaking or entity on the List, shall be eligible for listing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that such means of financing or support include but are not limited to the use of proceeds derived from crimes, including the illicit cultivation, production and trafficking of narcotic drugs originating in and transiting through Afghanistan, and trafficking of precursors into Afghanistan, and <span class="italic">underscores</span> the need to prevent those associated with the Taliban in constituting a threat to the peace, stability and security of Afghanistan from benefiting, directly or indirectly, from entities engaging in activities prohibited by this resolution, as well as the illegal exploitation of natural resources in Afghanistan; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Confirms</span> that the requirements in paragraph 1 (a) above apply to all proposed uses of funds or other financial assets or economic resources in connection with the travel of a listed individual, including costs incurred with respect to transportation and lodging, and that such travel-related funds or other financial assets or economic resources may only be provided in accordance with the exemption procedures set out in paragraphs 1 and 2 of resolution <a href="http://undocs.org/S/RES/1452(2002)">1452 (2002)</a>, as amended by resolution <a href="http://undocs.org/S/RES/1735(2006)">1735 (2006)</a>, and in paragraph 12 below;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Confirms</span> that the requirements in paragraph 1 (a) above apply to financial and economic resources of every kind, including but not limited to those used for the provision of Internet hosting or related services, used for the support of those on this List, as well as other individuals, groups, undertakings or entities associated with the Taliban in constituting a threat to the peace, stability and security of Afghanistan;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Confirms</span> further that the requirements in paragraph 1 (a) above shall also apply to the direct or indirect payment of ransoms to or for the benefit of individuals, groups, undertakings or entities on the List, regardless of how or by whom the ransom is paid; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>that Member States may permit the addition to accounts frozen pursuant to the provisions of paragraph 1 above of any payment in favour of listed individuals, groups, undertakings or entities, provided that any such payments continue to be subject to the provisions in paragraph 1 above and are frozen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>that States, in order to prevent those associated with the Taliban and other individuals, groups, undertakings and entities from obtaining, handling, storing, using or seeking access to all types of explosives, whether military, civilian or improvised explosives, as well as to raw materials and components that can be used to manufacture improvised explosive devices or unconventional weapons, including (but not limited to) chemical components, detonating cord, or poisons, shall undertake appropriate measures to promote the exercise of vigilance by their nationals, persons subject to their jurisdiction and firms incorporated in their territory or subject to their jurisdiction that are involved in the production, sale, supply, purchase, transfer and storage of such materials, including through the issuance of good practices, and <span class="italic">further encourages</span> Member States to share information, establish partnerships, and develop national strategies and capabilities to counter improvised explosive devices; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to consult the List when considering travel visa applications; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_80" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>Member States to exchange information expeditiously with other Member States, in particular the Government of Afghanistan, when they detect the travel of individuals on the List;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="MercuryDocument">
+        <content eId="para_81__content">
+          <p xml:space="preserve">
+            <span class="bold">		Exemptions</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> its decision that all Member States may make use of the provisions set out in paragraphs 1 and 2 of resolution <a href="http://undocs.org/S/RES/1452(2002)">1452 (2002)</a>, as amended by resolution <a href="http://undocs.org/S/RES/1735(2006)">1735 (2006)</a>, regarding available exemptions with regard to the measures in paragraph 1 (a), and <span class="italic">encourages</span> their use by Member States;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="MercuryDocument">
+        <num>13.</num>
+        <list eId="para_83_list">
+          <intro eId="para_83_list_intro">
+            <p xml:space="preserve">	<span class="italic">Underlines</span> the importance of a comprehensive political process in Afghanistan to support peace and reconciliation among all Afghans, <span class="italic">invites</span> the Government of Afghanistan, in close coordination with the High Peace Council, to submit for the Committee’s consideration the names of listed individuals for whom it confirms travel to such specified location or locations is necessary to participate in meetings in support of peace and reconciliation, and <span class="italic">requires</span> such submissions to include, to the extent possible, the following information:</p>
+          </intro>
+          <point eId="para_83_list_point_a">
+            <num>(a)</num>
+            <content eId="para_83_list_point_a_content">
+              <p xml:space="preserve">	The passport number or travel document number of the listed individual;</p>
+            </content>
+          </point>
+          <point eId="para_83_list_point_b">
+            <num>(b)</num>
+            <content eId="para_83_list_point_b_content">
+              <p xml:space="preserve">	The specific location or locations to which each listed individual is expected to travel and their anticipated transit points, if any;</p>
+            </content>
+          </point>
+          <point eId="para_83_list_point_c">
+            <num>(c)</num>
+            <content eId="para_83_list_point_c_content">
+              <p xml:space="preserve">	The period of time, not to exceed nine months, during which listed individuals are expected to travel;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_85" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the travel ban imposed by paragraph 1 (b) shall not apply to individuals identified pursuant to paragraph 13 above, where the Committee determines, on a case-by-case basis only, that such entry or transit is justified, further <span class="italic">decides</span> that any such exemption approved by the Committee shall only be granted for the requested period for any travel to the specified location or locations, <span class="italic">directs</span> the Committee to decide on all such exemption requests, as well as on requests to amend or renew previously granted exemptions, or on a request by any Member State to revoke previously granted exemptions, within ten days of receiving them, and <span class="italic">affirms</span> that, notwithstanding any exemption from the travel ban, listed individuals remain subject to the other measures outlined in paragraph 1 of this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Government of Afghanistan, through the Monitoring Team, to provide to the Committee, for its consideration and review, a report on each individual’s travel under a granted exemption, promptly upon the exemption’s expiration, and <span class="italic">encourages</span> relevant Member States to provide information to the Committee, as appropriate, on any instances of non‑compliance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="MercuryDocument">
+        <content eId="para_89__content">
+          <p xml:space="preserve">
+            <span class="bold">		Listing</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_90" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_90__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> all Member States, in particular the Government of Afghanistan, to submit to the Committee for inclusion on the List names of individuals, groups, undertakings and entities participating, by any means, in the financing or support of acts or activities described in paragraph 2 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> that, when proposing names to the Committee for inclusion on the List, Member States shall use the standard form for listing and provide a statement of case, which should include detailed reasons on the proposed basis for the listing, and as much relevant information as possible on the proposed name, in particular sufficient identifying information to allow for the accurate and positive identification of individuals, groups, undertakings and entities, and to the extent possible, the information required by INTERPOL to issue a INTERPOL-United Nations Security Council Special Notice, and <span class="italic">decides further</span> that the statement of case shall be releasable, upon request, except for the parts a Member State identifies as being confidential to the Committee, and may be used to develop the narrative summary of reasons for listing described in paragraph 20 below;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>Member States, in accordance with their national legislation, to submit to INTERPOL, where available, photographs and other biometric data of individuals for the inclusion in the INTERPOL-United Nations Security Council Special Notices, and <span class="italic">directs</span> the Monitoring Team to report to the Committee on further steps that could be taken to improve the quality of the 1988 Sanctions List, including by improving identifying information, as well as steps to ensure that INTERPOL-United Nations Security Council Special Notices exist for all listed individuals, groups, undertakings, and entities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_96" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_96__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> the Committee to update, as necessary, the standard form for listing in accordance with the provisions of this resolution; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_100" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_100__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> the Committee, with the assistance of the Monitoring Team and in coordination with the relevant designating States, to make accessible on the Committee’s website, at the same time a name is added to the List, a narrative summary of reasons for listing for the corresponding entry;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all members of the Committee and the Monitoring Team to share with the Committee any appropriate information they may have available regarding a listing request from a Member State so that this information may help inform the Committee’s decision on listing and provide additional material for the narrative summary of reasons for listing described in paragraph 20;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretariat to publish on the Committee’s website all relevant publicly releasable information, including the narrative summary of reasons for listing, immediately after a name is added to the List, and <span class="italic">requests</span> the Secretary-General to make all list entries and narrative summaries of reasons for listing available in all official languages of the United Nations in a timely and accurate manner, and <span class="italic">notes</span> the unique circumstances of this request, which is for the purpose of harmonizing this Committee’s translation procedures of issuing lists and narrative summaries with those of other United Nations Security Council sanctions committees;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">Strongly urges</span> Member States, when considering the proposal of a new listing, to consult with the Government of Afghanistan on the listing prior to submission to the Committee to ensure coordination with the Government of Afghanistan’s peace and reconciliation efforts, and <span class="italic">encourages</span> all Member States considering the proposal of a new listing to seek advice from UNAMA, where appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the Committee shall, after publication but within three working days after a name is added to the List, notify the Government of Afghanistan, the Permanent Mission of Afghanistan, and the Permanent Mission of the State(s) where the individual or entity is believed to be located and, in the case of non‑Afghan individuals or entities, the State(s) of which the person is believed to be a national; and further <span class="italic">decides</span> that the relevant Member State(s) shall take all possible measures, in accordance with their domestic laws and practices, to notify or inform in a timely manner the listed individual or entity of the listing and to include with this notification the narrative summary of reasons for listing, a description of the effects of listing, as provided in the relevant resolutions, the Committee’s procedures for considering delisting requests, and the provisions of resolution <a href="http://undocs.org/S/RES/1452(2002)">1452 (2002)</a>, as amended by resolution <a href="http://undocs.org/S/RES/1735(2006)">1735 (2006)</a>, regarding available exemptions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="MercuryDocument">
+        <content eId="para_127__content">
+          <p xml:space="preserve">
+            <span class="bold">		Delisting</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> the Committee to remove expeditiously individuals and entities on a case-by-case basis that no longer meet the listing criteria outlined in paragraph 2 above, and <span class="italic">requests </span>that the Committee give due regard to requests for removal of individuals who have reconciled, in accordance with the 20 July 2010 Kabul Conference Communiqué on dialogue for all those who renounce violence, have no links to international terrorist organizations, including Al-Qaida, respect the constitution, including its human rights provisions, notably the rights of women, and are willing to join in building a peaceful Afghanistan, and as further elaborated in the principles and outcomes of the 5 December 2011 Bonn Conference Conclusions supported by the Government of Afghanistan and the international community;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="italic">Strongly urges</span> Member States to consult with the Government of Afghanistan on their delisting requests prior to submission to the Committee, to ensure coordination with the Government of Afghanistan’s peace and reconciliation efforts;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> its decision that individuals and entities seeking removal from the List without the sponsorship of a Member State are eligible to submit such requests to the Focal Point mechanism established in resolution <a href="http://undocs.org/S/RES/1730(2006)">1730 (2006)</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="MercuryDocument">
+        <num>28.</num>
+        <list eId="para_134_list">
+          <intro eId="para_134_list_intro">
+            <p xml:space="preserve">	<span class="italic">Encourages</span> UNAMA to support and facilitate cooperation between the Government of Afghanistan and the Committee to ensure that the Committee has sufficient information to consider delisting requests, and <span class="italic">directs</span> the Committee to consider delisting requests in accordance with the following principles, where relevant:</p>
+          </intro>
+          <point eId="para_134_list_point_a">
+            <num>(a)</num>
+            <content eId="para_134_list_point_a_content">
+              <p xml:space="preserve">	Delisting requests concerning reconciled individuals should, if possible, include a communication from the High Peace Council through the Government of Afghanistan confirming the reconciled status of the individual according to the reconciliation guidelines, or, in the case of individuals reconciled under the Strengthening Peace Programme, documentation attesting to their reconciliation under the previous programme, as well as current address and contact information;</p>
+            </content>
+          </point>
+          <point eId="para_134_list_point_b">
+            <num>(b)</num>
+            <content eId="para_134_list_point_b_content">
+              <p xml:space="preserve">	Delisting requests concerning individuals who formerly held positions in the Taliban regime prior to 2002 who no longer meet the listing criteria outlined in paragraph 2 of this resolution should, if possible, include a communication from the Government of Afghanistan confirming that the individual is not an active supporter of, or participant in, acts that threaten the peace, stability and security of Afghanistan, as well as current address and contact information;</p>
+            </content>
+          </point>
+          <point eId="para_134_list_point_c">
+            <num>(c)</num>
+            <content eId="para_134_list_point_c_content">
+              <p xml:space="preserve">	Delisting requests for reportedly deceased individuals should include an official statement of death from the State of nationality, residence, or other relevant State;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_138" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the Committee, where appropriate, to invite a representative of the Government of Afghanistan to appear before the Committee to discuss the merits of listing or delisting certain individuals, groups, undertakings, and entities, including when a request by the Government of Afghanistan has been put on hold or rejected by the Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_143" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_143__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> all Member States, but particularly the Government of Afghanistan, to inform the Committee if they become aware of any information indicating that an individual, group, undertaking or entity that has been delisted should be considered for listing under paragraph 1 of this resolution, and <span class="italic">further requests</span> that the Government of Afghanistan provide to the Committee an annual report on the status of reportedly reconciled individuals who have been delisted by the Committee in the previous year;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="MercuryDocument">
+        <num>31.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> the Committee to consider expeditiously any information indicating that a delisted individual has returned to activities set forth in paragraph 2, including by engaging in acts inconsistent with paragraph 25 of this resolution, and <span class="italic">requests</span> the Government of Afghanistan or other Member States, where appropriate, to submit a request to add that individual’s name back on the list;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_156" class="MercuryDocument">
+        <num>32.</num>
+        <content eId="para_156__content">
+          <p xml:space="preserve">	<span class="italic">Confirms</span> that the Secretariat shall, as soon as possible after the Committee has made a decision to remove a name from the List, transmit the decision to the Government of Afghanistan and the Permanent Mission of Afghanistan for notification, and the Secretariat should also, as soon as possible, notify the Permanent Mission of the State(s) in which the individual or entity is believed to be located and, in the case of non‑Afghan individuals or entities, the State(s) of nationality, and <span class="italic">recalls</span> its decision that States receiving such notification take measures, in accordance with domestic laws and practices, to notify or inform the concerned individual or entity of the delisting in a timely manner;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="MercuryDocument">
+        <content eId="para_157__content">
+          <p xml:space="preserve">
+            <span class="bold">		Review and maintenance of the List</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="MercuryDocument">
+        <num>33.</num>
+        <list eId="para_158_list">
+          <intro eId="para_158_list_intro">
+            <p xml:space="preserve">	<span class="italic">Recognizes</span> that the ongoing conflict in Afghanistan, and the urgency that the Government of Afghanistan and the international community attach to a peaceful political solution to the conflict, requires timely and expeditious modifications to the List, including the addition and removal of individuals and entities, <span class="italic">urges</span> the Committee to decide on listing and delisting requests in a timely manner, <span class="italic">requests </span>the Committee to review each entry on the list on a regular basis, including, as appropriate, by means of reviews of individuals considered to be reconciled, individuals whose entries lack identifiers, individuals reportedly deceased, and entities reported or confirmed to have ceased to exist, <span class="italic">directs</span> the Committee to review and amend its guidelines for such reviews, as appropriate, and <span class="italic">requests</span> the Monitoring Team to circulate to the Committee every twelve months a list compiled in consultation with the respective designating States and States of residence, in particular the Government of Afghanistan, as well as States of nationality, location or incorporation, where known, of: </p>
+          </intro>
+          <point eId="para_158_list_point_a">
+            <num>(a)</num>
+            <content eId="para_158_list_point_a_content">
+              <p xml:space="preserve">	Individuals on the List whom the Afghan Government considers to be reconciled along with relevant documentation as outlined in paragraph 28 (a);</p>
+            </content>
+          </point>
+          <point eId="para_158_list_point_b">
+            <num>(b)</num>
+            <content eId="para_158_list_point_b_content">
+              <p xml:space="preserve">	Individuals and entities on the List whose entries lack identifiers necessary to ensure effective implementation of the measures imposed upon them;</p>
+            </content>
+          </point>
+          <point eId="para_158_list_point_c">
+            <num>(c)</num>
+            <content eId="para_158_list_point_c_content">
+              <p xml:space="preserve">	Individuals on the List who are reportedly deceased, along with an assessment of relevant information outlined in paragraph 28 (c) and to the extent possible, the status and location of frozen assets and the names of any individuals or entities who would be in a position to receive any unfrozen assets;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_159" class="MercuryDocument">
+        <num>34.</num>
+        <content eId="para_159__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> the Committee to review whether these listings remain appropriate, and <span class="italic">further directs</span> the Committee to remove listings if it decides they are no longer appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_161" class="MercuryDocument">
+        <num>35.</num>
+        <content eId="para_161__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Monitoring Team to provide an overview of the current status of the information included in the INTERPOL-United Nations Security Council Special Notices on a periodic basis, as appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_164" class="MercuryDocument">
+        <num>36.</num>
+        <content eId="para_164__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that, with the exception of decisions made pursuant to paragraph 14 of this resolution, no matter shall be left pending before the Committee for a period longer than six months, <span class="italic">urges</span> Committee members to respond within three months, and <span class="italic">directs </span>the Committee to update its guidelines as appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_168" class="MercuryDocument">
+        <num>37.</num>
+        <content eId="para_168__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the Committee to ensure that there are fair and clear procedures for the conduct of its work, and <span class="italic">directs</span> the Committee to review its guidelines as soon as possible, in particular with respect to paragraphs 18, 22, 33, 34, 35 and 36;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="MercuryDocument">
+        <num>38.</num>
+        <content eId="para_173__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States and relevant international organizations to send representatives to meet with the Committee to share information and discuss any relevant issues; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="MercuryDocument">
+        <num>39.</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">	<span class="italic">Encourages </span>all Member States, in particular designating States and States of residence, nationality, location or incorporation, to submit to the Committee additional identifying and other information, including where available, and in accordance with their national legislation, photographs and other biometric data of individuals along with supporting documentation, on listed individuals, groups, undertakings and entities, including updates on the operating status of listed entities, groups and undertakings, the movement, incarceration or death of listed individuals and other significant events, as such information becomes available;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="MercuryDocument">
+        <content eId="para_180__content">
+          <p xml:space="preserve">
+            <span class="bold">		Cooperation with the Government of Afghanistan</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="MercuryDocument">
+        <num>40.</num>
+        <content eId="para_181__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> periodic briefings from the Government of Afghanistan on the content of the list, as well as on the impact of targeted sanctions on deterring threats to the peace, stability and security of Afghanistan, and supporting Afghan-led reconciliation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_182" class="MercuryDocument">
+        <num>41.</num>
+        <content eId="para_182__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> continued cooperation among the Committee, the Government of Afghanistan, and UNAMA, including by identifying and providing detailed information regarding individuals and entities participating in the financing or support of acts or activities set forth in paragraph 2 of this resolution, and by inviting UNAMA representatives to address the Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_184" class="MercuryDocument">
+        <num>42.</num>
+        <content eId="para_184__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the Government of Afghanistan’s desire to assist the Committee in the coordination of listing and delisting requests and in the submission of all relevant information to the Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_185" class="MercuryDocument">
+        <content eId="para_185__content">
+          <p xml:space="preserve">
+            <span class="bold">		Monitoring Team</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_186" class="MercuryDocument">
+        <num>43.</num>
+        <content eId="para_186__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span>, in order to assist the Committee in fulfilling its mandate, that the 1267/1989 Monitoring Team, established pursuant to paragraph 7 of resolution <a href="http://undocs.org/S/RES/1526(2004)">1526 </a><a href="http://undocs.org/S/RES/1526(2004)">(</a><a href="http://undocs.org/S/RES/1526(2004)">2004)</a>, shall also support the Committee for a period of thirty months from the date of expiration of the current mandate in June 2015, with the mandate set forth in the annex to this resolution, and further <span class="italic">requests</span> the Secretary-General to continue to ensure that the Monitoring Team receives the necessary administrative and substantive support to effectively, safely and in a timely manner fulfil its mandate, including with regard to duty of care in high risk environments, under the direction of the Committee, a subsidiary organ of the Security Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_187" class="MercuryDocument">
+        <num>44.</num>
+        <content eId="para_187__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> the Monitoring Team to gather information on instances of non‑compliance with the measures imposed in this resolution and to keep the Committee informed of such instances, as well as to facilitate, upon request by Member States, assistance on capacity-building, <span class="italic">encourages</span> Committee members to address issues of non‑compliance and bring them to the attention of the Monitoring Team or the Committee, and <span class="italic">further directs</span> the Monitoring Team to provide recommendations to the Committee on actions taken to respond to non‑compliance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_188" class="MercuryDocument">
+        <content eId="para_188__content">
+          <p xml:space="preserve">
+            <span class="bold">		Coordination and Outreach</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_189" class="MercuryDocument">
+        <num>45.</num>
+        <content eId="para_189__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the need to maintain contact with relevant United Nations Security Council Committees, international organizations and expert groups, including the Committee established pursuant to resolution <a href="http://undocs.org/S/RES/1267(1999)">1267 (1999)</a>, the Counter-Terrorism Committee (CTC), the United Nations Office of Drugs and Crime, the Counter-Terrorism Committee Executive Directorate (CTED), the Committee established pursuant to resolution <a href="http://undocs.org/S/RES/1540(2004)">1540 (2004)</a>, and the Financial Action Task Force (FATF), particularly given the continuing presence and negative influence on the Afghan conflict by Al-Qaida, and any cell, affiliate, splinter group or derivative thereof; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_190" class="MercuryDocument">
+        <num>46.</num>
+        <content eId="para_190__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> UNAMA to provide assistance to the High Peace Council, at its request, to encourage listed individuals to reconcile;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_191" class="MercuryDocument">
+        <content eId="para_191__content">
+          <p xml:space="preserve">
+            <span class="bold">		Reviews</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="MercuryDocument">
+        <num>47.</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to review the implementation of the measures outlined in this resolution in eighteen months and make adjustments, as necessary, to support peace and stability in Afghanistan; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_193" class="MercuryDocument">
+        <num>48.</num>
+        <content eId="para_193__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/"></FRBRuri>
+                <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+                <FRBRauthor href="sc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/eng@/"></FRBRuri>
+                <FRBRdate date="2014-06-17" name="publication"></FRBRdate>
+                <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2160-2014/eng@.xml"></FRBRuri>
+                <FRBRdate date="2023-06-15" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_194" class="MercuryDocument">
+              <content eId="para_194__content">
+                <p xml:space="preserve">
+                  <span class="bold"> 		Annex</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_195" class="MercuryDocument">
+              <content eId="para_195__content">
+                <p xml:space="preserve">	In accordance with paragraph 43 of this resolution, the Monitoring Team shall operate under the direction of the Committee and shall have the following responsibilities:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_196" class="MercuryDocument">
+              <content eId="para_196__content">
+                <p xml:space="preserve">	(a)	To submit, in writing, two comprehensive, independent reports to the Committee, one by 1 November 2014, and the second by 1 June 2015, on implementation by Member States of the measures referred to in paragraph 1 of this resolution, including specific recommendations for improved implementation of the measures and possible new measures;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_197" class="MercuryDocument">
+              <content eId="para_197__content">
+                <p xml:space="preserve">	(b)	To assist the Committee in regularly reviewing names on the List, including by undertaking travel on behalf of the Committee as a subsidiary organ of the Security Council and contact with Member States, with a view to developing the Committee’s record of the facts and circumstances relating to a listing;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_198" class="MercuryDocument">
+              <content eId="para_198__content">
+                <p xml:space="preserve">	(c)	To assist the Committee in following up on requests to Member States for information, including with respect to implementation of the measures referred to in paragraph 1 of this resolution;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_199" class="MercuryDocument">
+              <content eId="para_199__content">
+                <p xml:space="preserve">	(d)	To submit a comprehensive programme of work to the Committee for its review and approval, as necessary, in which the Monitoring Team should detail the activities envisaged in order to fulfil its responsibilities, including proposed travel on behalf of the Committee;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_200" class="MercuryDocument">
+              <content eId="para_200__content">
+                <p xml:space="preserve">	(e)	To gather information on behalf of the Committee on instances of reported non‑compliance with the measures referred to in paragraph 1 of this resolution, including by, but not limited to, collating information from Member States and engaging with related parties, pursuing case studies, both on its own initiative and upon the Committee’s request, and to provide recommendations to the Committee on such cases of non‑compliance for its review;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_201" class="MercuryDocument">
+              <content eId="para_201__content">
+                <p xml:space="preserve">	(f)	To present to the Committee recommendations, which could be used by Member States to assist them with the implementation of the measures referred to in paragraph 1 of this resolution and in preparing proposed additions to the List;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_202" class="MercuryDocument">
+              <content eId="para_202__content">
+                <p xml:space="preserve">	(g)	To assist the Committee in its consideration of proposals for listing, including by compiling and circulating to the Committee information relevant to the proposed listing, and preparing a draft narrative summary referred to in paragraph 20 of this resolution;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_203" class="MercuryDocument">
+              <content eId="para_203__content">
+                <p xml:space="preserve">	(h)	To bring to the Committee’s attention new or noteworthy circumstances that may warrant a delisting, such as publicly reported information on a deceased individual;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_204" class="MercuryDocument">
+              <content eId="para_204__content">
+                <p xml:space="preserve">	(i)	To consult with Member States in advance of travel to selected Member States, based on its programme of work as approved by the Committee;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_205" class="MercuryDocument">
+              <content eId="para_205__content">
+                <p xml:space="preserve">	(j)	To encourage Member States to submit names and additional identifying information for inclusion on the List, as instructed by the Committee;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_206" class="MercuryDocument">
+              <content eId="para_206__content">
+                <p xml:space="preserve">	(k)	To consult with the Committee, the Government of Afghanistan, or any relevant Member States, as appropriate, when identifying individuals or entities that could be added to, or removed from, the List; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_207" class="MercuryDocument">
+              <content eId="para_207__content">
+                <p xml:space="preserve">	(l)	To present to the Committee additional identifying and other information to assist the Committee in its efforts to keep the List as updated and accurate as possible;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_208" class="MercuryDocument">
+              <content eId="para_208__content">
+                <p xml:space="preserve">	(m)	To collate, assess, monitor and report on and make recommendations regarding implementation of the measures; to pursue case studies, as appropriate; and to explore in depth any other relevant issues as directed by the Committee;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_209" class="MercuryDocument">
+              <content eId="para_209__content">
+                <p xml:space="preserve">	(n)	To consult with Member States and other relevant organizations and bodies, including UNAMA and other United Nations agencies, and engage in regular dialogue with representatives in New York and in capitals, taking into account their comments, especially regarding any issues that might be reflected in the Monitoring Team’s reports referred to in paragraph (a) of this annex;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_210" class="MercuryDocument">
+              <content eId="para_210__content">
+                <p xml:space="preserve">	(o)	To cooperate closely with the United Nations Office on Drugs and Crime (UNODC) and engage in a regular dialogue with Member States on the nexus between narcotics trafficking and those individuals, groups, undertakings, and entities eligible for listing under paragraph 1 of this resolution, and report as requested by the Committee;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_211" class="MercuryDocument">
+              <content eId="para_211__content">
+                <p xml:space="preserve">	(p)	To submit to the Committee on 1 December 2014 a special written report, in consultation with the Government of Afghanistan, UNODC and the United Nations sanctions expert panels, as appropriate, on specific cases of cooperation between organized crime syndicates, notably groups undertaking hostage-taking for ransom, narcotics producers and traders, as well as those illegally exploiting natural resources in Afghanistan, including precious and semi-precious stones, and those individuals, groups, undertakings, and entities eligible for listing under paragraph 1 of this resolution;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_212" class="MercuryDocument">
+              <content eId="para_212__content">
+                <p xml:space="preserve">	(q)	To consult with Member States’ intelligence and security services, including through regional forums, in order to facilitate the sharing of information and to strengthen enforcement of the measures;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_213" class="MercuryDocument">
+              <content eId="para_213__content">
+                <p xml:space="preserve">	(r)	To consult with relevant representatives of the private sector, including financial institutions, to learn about the practical implementation of the assets freeze and to develop recommendations for the strengthening of that measure;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_214" class="MercuryDocument">
+              <content eId="para_214__content">
+                <p xml:space="preserve">	(s)	To cooperate closely with the Al-Qaida Sanctions Committee established pursuant to resolutions <a href="http://undocs.org/S/RES/1267(1999)">1267 (1999)</a> and <a href="http://undocs.org/S/RES/1989(2011)">1989 (2011)</a> and other relevant United Nations counter-terrorism bodies in providing information on the measures taken by Member States on kidnapping and hostage-taking for ransom and on relevant trends and developments in this area;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_215" class="MercuryDocument">
+              <content eId="para_215__content">
+                <p xml:space="preserve">	(t)	To consult with the Government of Afghanistan, Member States, relevant representatives of the private sector, including financial institutions and relevant non‑financial businesses and professions, and with relevant international organizations, including the Financial Action Task Force (FATF) and its regional bodies to raise awareness of and learn about the practical implementation of the assets freeze and to develop recommendations for the strengthening of the implementation of that measure in accordance with FATF Recommendation 6 on asset freezing and its related guidance;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_216" class="MercuryDocument">
+              <content eId="para_216__content">
+                <p xml:space="preserve">	(u)	To consult with the Government of Afghanistan, Member States, relevant representatives of the private sector and other international organizations, including International Civil Aviation Organization (ICAO), the International Air Transport Association (IATA) and the World Customs Organization (WCO) to raise awareness of and learn about the practical implementation of the travel ban and assets freeze and to develop recommendations for the strengthening of the implementation of these measures;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_217" class="MercuryDocument">
+              <content eId="para_217__content">
+                <p xml:space="preserve">	(v)	To consult with the Government of Afghanistan, Member States, international and regional organizations and relevant representatives of the private sector on the threat posed by improvised explosive devices (IEDs) to peace, security and stability in Afghanistan, to raise awareness of the threat and to develop recommendations for appropriate measures to counter this threat;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_218" class="MercuryDocument">
+              <content eId="para_218__content">
+                <p xml:space="preserve">	(w)	To work with relevant international and regional organizations in order to promote awareness of, and compliance with, the measures;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_219" class="MercuryDocument">
+              <content eId="para_219__content">
+                <p xml:space="preserve">	(x)	To cooperate with INTERPOL and Member States to obtain photographs, physical descriptions and, in accordance with their national legislation, other biometric and biographic data of listed individuals when available for inclusion in INTERPOL-United Nations Security Council Special Notices and to exchange information on emerging threats;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_220" class="MercuryDocument">
+              <content eId="para_220__content">
+                <p xml:space="preserve">	(y)	To assist other subsidiary bodies of the Security Council, and their expert panels, upon request, with enhancing their cooperation with INTERPOL, referred to in resolution <a href="http://undocs.org/S/RES/1699(2006)">1699 (2006)</a>;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_221" class="MercuryDocument">
+              <content eId="para_221__content">
+                <p xml:space="preserve">	(z)	To assist the Committee in facilitating assistance in capacity-building for enhancing implementation of the measures, upon request by Member States;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_222" class="MercuryDocument">
+              <content eId="para_222__content">
+                <p xml:space="preserve">	(aa)	To report to the Committee, on a regular basis or when the Committee so requests, through oral and/or written briefings on the work of the Monitoring Team, including its visits to Member States and its activities;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_223" class="MercuryDocument">
+              <content eId="para_223__content">
+                <p xml:space="preserve">	(bb)	To study and report to the Committee on the current nature of the threat of individuals, groups, undertakings and entities associated with the Taliban in constituting a threat to the peace, stability and security of Afghanistan and the best measures to confront it, including by developing a dialogue with relevant scholars, academic bodies and experts according to the priorities identified by the Committee;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_224" class="MercuryDocument">
+              <num>(cc)</num>
+              <content eId="para_224__content">
+                <p xml:space="preserve">	To gather information, including from the Government of Afghanistan and relevant Member States, on travel that takes place under a granted exemption, pursuant to paragraphs 13 and 14, and to report to the Committee, as appropriate; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_225" class="MercuryDocument">
+              <content eId="para_225__content">
+                <p xml:space="preserve">	(dd)	Any other responsibility identified by the Committee.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
