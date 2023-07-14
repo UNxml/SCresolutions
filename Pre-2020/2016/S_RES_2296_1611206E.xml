@@ -1,0 +1,786 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2016-06-29/2296-2016/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2016-06-29/2296-2016/"></FRBRuri>
+          <FRBRdate date="2016-06-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2016-06-29/2296-2016/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2016-06-29/2296-2016/eng@/"></FRBRuri>
+          <FRBRdate date="2016-06-29" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2016-06-29/2296-2016/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2016-06-29/2296-2016/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="AU/UN Hybrid Operation in Darfur" showAs="AU/UN Hybrid Operation in Darfur" dictionary="DHLAUTH"></keyword>
+        <keyword value="Joint Working Group on an Exit Strategy for the African Union-United Nations Hybrid Operation in Darfur (UNAMID)" showAs="Joint Working Group on an Exit Strategy for the African Union-United Nations Hybrid Operation in Darfur (UNAMID)" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DARFUR (SUDAN)" showAs="DARFUR (SUDAN)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUDAN" showAs="SUDAN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY PERSONNEL" showAs="MILITARY PERSONNEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFFING" showAs="STAFFING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION EXCHANGE" showAs="INFORMATION EXCHANGE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER-BASED VIOLENCE" showAs="GENDER-BASED VIOLENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[160]" showAs="SUDAN--POLITICAL CONDITIONS" dictionary="S/71"></keyword>
+        <keyword refersTo="agenda" value="[204]" showAs="AU/UN HYBRID OPERATION IN DARFUR" dictionary="S/71"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2296 (2016) [on extension of the mandate of the AU/UN Hybrid Operation in Darfur (UNAMID) until 30 June 2017]" showAs="Security Council resolution 2296 (2016) [on extension of the mandate of the AU/UN Hybrid Operation in Darfur (UNAMID) until 30 June 2017]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2016-06-29" outcome="draftResolution" as="S/2016/580" by="United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2016-06-29" outcome="adopted" as="S/PV.7728" by="Adopted unanimously, 7728th meeting" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">VENEZUELA (BOLIVARIAN REPUBLIC OF)</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">16-11206 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2296 (2016)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2016-06-29" class="rightSmall" refersTo="#dateOfIssuance">29 June 2016</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2296 (2016)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="7728th">7728th meeting</inline>, on <docDate date="2016-06-29" refersTo="#adoptionDate">29 June 2016</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> all its previous resolutions and presidential statements concerning the situation in Sudan and underlining the importance of full compliance with these, </p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, unity, independence and territorial integrity of Sudan and its determination to work with the Government of Sudan, in full respect of its sovereignty, to assist in tackling the various challenges in Sudan, </p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the importance of the principles of the peaceful settlement of international disputes, good neighbourliness, non‑interference and cooperation in the relations among States in the region, </p>
+      </container>
+      <container name="Reaffirming" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the basic principles of peacekeeping, including consent of the parties, impartiality and non‑use of force, except in self-defence and defence of the mandate, and recognizing that the mandate of each peacekeeping mission is specific to the country concerned, </p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> all its relevant resolutions on women, peace and security, on children and armed conflicts, on the protection of humanitarian and United Nations personnel, and on the protection of civilians in armed conflicts,</p>
+      </container>
+      <container name="Expressing deep concern" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Expressing deep concern</span> at the ongoing insecurity in Darfur as characterised by attacks by rebel groups and Government forces in Jebel Marra, inter-tribal fighting, banditry and criminality, including sexual and gender-based violence targeting women and girls, which continues to threaten civilians, in particular women and children; and <span class="italic">reiterating</span> its demand that all parties to the conflict in Darfur immediately end violence, including attacks on civilians, peacekeepers and humanitarian personnel, </p>
+      </container>
+      <container name="Taking note" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the lack of military confrontation between the Government of Sudan and armed groups in Darfur over the past year, except for Jebel Marra, <span class="italic">expressing</span> deep concern at a significant increase in violence in and around the Jebel Marra, where fighting between the Government of Sudan and the Sudan Liberation Army Abdul Wahid (SLA/AW) continued, including aerial bombardments and reported attacks on women and children, as well as inter-communal conflict over land, access to resources, migration issues and tribal rivalries, including with the involvement of paramilitary units and tribal militias, including in East, West and North Darfur where inter-communal conflict led to significant displacement as well as the killing and wounding of civilians and the wounding of a peacekeeper,</p>
+      </container>
+      <container name="Emphasizing" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> that those responsible for violations of international humanitarian law and violations and abuses of human rights must be held accountable and that the Government of Sudan bears the primary responsibility to protect civilians within its territory and subject to its jurisdiction, including protection from crimes against humanity and war crimes,</p>
+      </container>
+      <container name="Recalling" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolution 2117 (2013) and <span class="italic">expressing concern</span> at the threat to peace and security in Darfur arising from the illicit transfer, destabilizing accumulation and misuse of small arms and light weapons, and the continued threats to civilians posed by unexploded ordnance, </p>
+      </container>
+      <container name="Expressing deep concern" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Expressing deep concern</span> at the significant increase in population displacements in 2015 and so far in 2016 and the consequent increase in humanitarian assistance and protection needs, with 80,000 displaced across Darfur during the first five months of 2016 according to the United Nations and partners, some of whom have already returned, and unconfirmed reports due to access restrictions that up to an additional 127,000 were also reportedly displaced, in addition to 247,000 newly displaced in 2015, increasing the estimated total number of long-term internally-displaced persons (IDPs) in Darfur to 2.6 million and a total number of people in need of humanitarian assistance of 3.3 million, </p>
+      </container>
+      <container name="Recalling" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the commitments made by the Government of Sudan and other signatories to the Doha Document for Peace in Darfur (DDPD) to ensure the unimpeded access of humanitarian assistance to the population in need and the protection of humanitarian workers and their operations in areas under their control, as well as to guarantee UNAMID unimpeded freedom of movement in all areas and at all times in Darfur in the exercise of its mandate, and <span class="italic">further recalling</span> the role of the Implementation Follow-up Commission (IFC) in assessing the implementation of the DDPD,</p>
+      </container>
+      <container name="Expressing concern" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> that the continued denial of access and restrictions imposed on humanitarian actors have left significant gaps in the delivery of humanitarian assistance, <span class="italic">calling on</span> the Government of Sudan to ensure humanitarian actors can operate in support of addressing basic needs,</p>
+      </container>
+      <container name="Expressing concern" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> at access restrictions and obstacles, including bureaucratic obstacles, imposed on the United Nation-African Union Mission in Darfur (UNAMID) which continue to jeopardise its ability to deliver on its mandate, including access restrictions in North and Central Darfur which prevent access to populations displaced by the fighting in Jebel Marra, <span class="italic">welcoming</span> the recent clearance by the Government of Sudan of 233 shipments with food rations for UNAMID and 16 shipments with United Nations- and contingent-owned equipment, <span class="italic">noting</span> that clearance for 298 shipments containing United Nations- and contingent-owned Equipment remains pending, <span class="italic">recognizing</span> the Government of Sudan’s commitment to cooperate with UNAMID and humanitarian personnel on all logistical issues and <span class="italic">calling on</span> the Government of Sudan to continuously honour its commitment in full, </p>
+      </container>
+      <container name="Calling on" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Calling on</span> donors, the regional authorities in Darfur and the Government of Sudan to provide the financial resources necessary to reach those in need, </p>
+      </container>
+      <container name="Reiterating" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> that there can be no military solution to the conflict in Darfur, and that an inclusive political settlement is essential to re-establishing peace, and <span class="italic">underscoring</span> the importance of fully addressing the root causes of the conflict in the search for a sustainable peace, which should rapidly deliver real benefits for the Darfuri people, in this regard <span class="italic">reiterating</span> its support for the DDPD as a viable framework for the peace process in Darfur, and for its accelerated implementation, as well as the AU High-Level Implementation Panel (AU-HIP) mediated peace talks, </p>
+      </container>
+      <container name="Acknowledging" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> the Sudan National Dialogue convened in Khartoum in October 2015 and the efforts of the Government of Sudan to promote the National Dialogue, and further <span class="italic">acknowledging</span> that this National Dialogue was not sufficiently inclusive as it did not include all relevant parties, </p>
+      </container>
+      <container name="Recalling" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the statements made by the Secretary-General and the Chairperson of the African Union Commission, which welcome the signing by the Government of Sudan of the Roadmap Agreement proposed by the AU-HIP, urge the non‑signatory groups to sign it urgently and call on all signatories to fully abide by the Roadmap Agreement,</p>
+      </container>
+      <container name="Welcoming" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the additional commitments by the Government of Sudan regarding the inclusivity of the National Dialogue,</p>
+      </container>
+      <container name="Deploring" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Deploring</span> the fact that some armed groups are impeding the peace process and have continued to resort to violence, <span class="italic">reiterating</span> its demand for the release of members of the former movement of Mohamed Bashar, taken captive in May 2013 by Justice and Equality Movement (JEM)-Gibril forces, and <span class="italic">condemning</span> any actions by any armed group aimed at forced overthrow of the Government of Sudan, </p>
+      </container>
+      <container name="Noting" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that UNAMID’s ability to facilitate progress in implementation of the DDPD is hampered by delays and the absence of an inclusive political settlement between the Government and non‑signatory movements, <span class="italic">urging</span> the signatory parties to take the necessary remaining steps to implement the DDPD fully, <span class="italic">expressing concern</span> that the humanitarian and security situation, as well as the lack of capacity of the regional authorities in Darfur, hinder the transition from relief to stabilization and development activities, <span class="italic">urging</span> the Government of Sudan, with the support of interested donors, to ensure that the outstanding work of the Darfur Regional Authority and the Commissions are properly resourced to continue implementation, <span class="italic">urging</span> donors and the Government of Sudan to honour their pledges and fulfil their obligations in a timely manner, including those commitments made at the conference in Doha in April 2013, and <span class="italic">affirming</span> that development can support a lasting peace in Darfur,</p>
+      </container>
+      <container name="Noting" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that local dispute resolution mechanisms play an important role in preventing and resolving inter-communal conflict, including conflict over natural resources, <span class="italic">urging</span> an intensification of effective efforts to prevent local disputes leading to violence, with its corresponding impact on the local civilian populations, <span class="italic">acknowledging</span> the efforts of Sudanese authorities and local mediators to intervene through the deployment of security forces and establishment of buffer zones between warring communities, and to mediate in inter-communal fighting, <span class="italic">welcoming</span> the encouraging conclusion of several inter-communal peace agreements, with support from UNAMID and the UN Country Team (UNCT), and <span class="italic">urging</span> their continued work in collaboration with the Government of Sudan to find sustainable solutions to these conflicts, </p>
+      </container>
+      <container name="Welcoming" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> regional and other initiatives, undertaken in close interaction with the Government of Sudan, to address the root causes of the conflict in Darfur and to promote a sustainable peace, including the convening of JEM and the Sudan Liberation Army Minni Minnawi (SLA/MM) by the Joint Special Representative/ Joint Chief Mediator (JSR/JCM) in coordination with the Government of Qatar in May 2016 which focused on exploring the possibility for the two movements to join the peace process, and <span class="italic">commending</span> the efforts of the JSR/JCM to secure peace, stability and security in Darfur, including through support to international, regional and national efforts to revitalise the peace process and increase its inclusiveness,</p>
+      </container>
+      <container name="Acknowledging" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> efforts by local governments to restore law and order through the deployment of additional police, corrections and judicial human and material resources across Darfur, including legal advisers, prosecutors, legal aid assistants and family protection units and <span class="italic">noting</span> that these efforts should be consolidated and expanded to enhance the protective environment for the civilian population, particularly with respect to violation and abuses of women’s rights and sexual and gender-based violence, </p>
+      </container>
+      <container name="Underlining" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Underlining</span>, without prejudice to the Security Council’s primary responsibility for the maintenance of international peace and security, the importance of the partnership between the United Nations and the African Union, consistent with Chapter VIII of the Charter of the United Nations, with regard to the maintenance of peace and security in Africa, particularly in Sudan, </p>
+      </container>
+      <container name="Taking note" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the regular consultations held between the United Nations, African Union and Government of Sudan in the format of the Tripartite mechanism, the report of the Joint Working Group of 23 May 2016, and the intention of the Joint Working Group to reconvene in four months,</p>
+      </container>
+      <container name="Calling on" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Calling on</span> all parties to comply with their obligations under international human rights law and international humanitarian law, <span class="italic">stressing</span> the importance that the Council attaches to ending impunity including through ensuring accountability and bringing to justice the perpetrators of crimes committed by all parties in Darfur, <span class="italic">urging</span> the Government of Sudan to comply with its obligations in this respect, <span class="italic">welcoming</span> the ongoing investigations by the Special Prosecutor for Darfur appointed by the Government of Sudan and <span class="italic">stressing</span> the need for further progress in this regard, <span class="italic">reiterating</span> the call for swift progress on the draft Memorandum of Understanding providing for UNAMID and African Union observation of the proceedings of the Special Court, and <span class="italic">calling on</span> the Government of Sudan swiftly to investigate attacks against UNAMID, and to bring the perpetrators to justice, </p>
+      </container>
+      <container name="Reaffirming" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its concern over the negative effect of ongoing violence in Darfur on the stability of Sudan as a whole as well as the region, <span class="italic">welcoming</span> the ongoing good relations between Sudan and Chad, including on border control, and <span class="italic">encouraging</span> Sudan, Chad and the Central African Republic to continue to cooperate in order to achieve peace and stability in Darfur and the wider region, </p>
+      </container>
+      <container name="Commending" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the efforts of UNAMID towards promoting peace and stability in Darfur, and <span class="italic">reiterating</span> its full support for UNAMID, </p>
+      </container>
+      <container name="Welcoming" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the Special Report of the Secretary-General and the Chairperson of the African Union Commission of 2 June 2015 (<a href="http://undocs.org/S/2016/510">S/2016/510</a>) on UNAMID,</p>
+      </container>
+      <container name="Taking note" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the completion of the review commissioned by the Secretary-General on 2 July 2014 into the issue of under-reporting, and allegations of manipulation of reporting, by UNAMID, and <span class="italic">welcoming</span> the recommendations and conclusions contained in the review and the continued implementation of measures to address this issue,</p>
+      </container>
+      <container name="Determining" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in Sudan constitutes a threat to international peace and security, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_33" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend the mandate of UNAMID, as set out in resolution 1769 (2007), until 30 June 2017, and <span class="italic">further decides</span> that UNAMID shall consist of up to 15,845 military personnel, 1,583 police personnel and 13 formed police units of up to 140 personnel each;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span>, in the context of the limited progress on the benchmarks and the ongoing insecurity, its endorsement of UNAMID’s revised strategic priorities as set out in paragraph 4 of resolution 2148 (2014), namely: the protection of civilians, the facilitation of the delivery of humanitarian assistance and the safety and security of humanitarian personnel; mediation between the Government of Sudan and non‑signatory armed movements on the basis of the DDPD, while taking into account ongoing democratic transformation at the national level; and support to the mediation of community conflict, including through measures to address its root causes, in conjunction with the UNCT; <span class="italic">welcomes</span> the steps taken so far by UNAMID to implement the review of UNAMID conducted pursuant to resolution 2113 (2014), and <span class="italic">requests</span> that UNAMID continue to align all its activity and direct the use of its resources to the achievement of these priorities, discontinue all other tasks not aligned to these priorities and continue to streamline the mission accordingly, and <span class="italic">stresses</span> the importance of the appropriate distribution of tasks and coordination between UNAMID and the UNCT in order to implement the review of UNAMID; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that certain elements of UNAMID’s mandate and tasks, as authorized in resolution 1769 (2007), which decided that the mandate of UNAMID shall be as set out in paragraphs 54 and 55 of the report of the Secretary-General and the Chairperson of the African Union Commission of 5 June 2007 (<a href="http://undocs.org/S/2007/307/Rev.1">S/2007/307/Rev.1</a>), are no longer relevant, or are either being undertaken by or will soon transition to other entities with comparative advantage, namely those enumerated in paragraphs 54 (g) and (h), 55 (a) (v), 55 (a) (vii), 55 (b) (ii-iii), 55 (b) (v), 55 (b) (x) and 55 (c) (iii-iv) of that report; and <span class="italic">requests</span> UNAMID to complete, no later than June 2017, the transition of tasks enumerated in paragraphs 54 (g) and 55 (c) (iv) of this same report to the UNCT;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> that UNAMID must continue to give priority in decisions about the use of available capacity and resources to: (a) the protection of civilians across Darfur, including women and children, through, and without prejudice to the basic principles of peacekeeping, inter alia, continuing to move to a more preventive and pre‑emptive posture in pursuit of its priorities and in active defence of its mandate; enhanced early warning; proactive military deployment and active and effective patrolling in areas at high risk of conflict and high concentration of IDPs; more prompt and effective responses to threats of violence against civilians, including through regular reviews of the geographic deployment of UNAMID’s force; securing IDP camps, adjacent areas and areas of return, including development and training of community policing; and (b) ensuring safe, timely and unhindered humanitarian access, and the safety and security of humanitarian personnel and activities, in accordance with relevant provisions of international law and the United Nations guiding principles on humanitarian assistance; and <span class="italic">requests</span> UNAMID to maximize the use of its capabilities, in cooperation with the UNCT and other international and non‑governmental actors, in the implementation of its mission-wide comprehensive strategy for the achievement of these objectives; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> UNAMID’s Chapter VII mandate, as defined in resolution 1769 (2007), to deliver its core tasks to protect civilians without prejudice to the primary responsibility of the Government of Sudan and to ensure the freedom of movement and security of UNAMID’s own personnel and humanitarian workers; <span class="italic">recalls</span> that UNAMID is authorized to take all the necessary action in fulfilment of this mandate; and <span class="italic">urges</span> UNAMID to deter any threats against itself and its mandate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> that, in the context of the evolving security situation, any refinement of the mission should be based on progress against the benchmarks and the conditions on the ground, and implemented in a gradual, phased, flexible and reversible manner;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> efforts to increase the effectiveness of UNAMID, and in this regard, <span class="italic">acknowledges</span> the recent troops to task review conducted by the United Nations and the African Union Commission and in particular the findings that UNAMID should ensure a higher degree of flexibility in its military deployments and increase the field presence of individual police officers;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the efforts of the JSR/JCM to revitalise the peace process and to increase its inclusiveness, guided by the Framework for African Union and United Nations facilitation of the Darfur Peace Process, including through renewed engagement of the non‑signatory movements; <span class="italic">welcomes</span> the JSR/JCM’s strengthened coordination with the AU-HIP and the United Nations Special Envoy for Sudan and South Sudan in synchronising their mediation efforts and in generating progress on direct negotiations between the Government of Sudan and the Darfur armed movements;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> that progress has been made in implementation of some elements of the DDPD, including the completion of security arrangements for Liberation and Justice Movement and JEM-Sudan combatants and the conversion of the Liberation and Justice Movement into two political parties, the integration of former rebels into power structures of Sudan and the ongoing Darfur Internal Dialogue Consultation (DIDC), but <span class="italic">expresses concern</span> at continuing serious delays in implementation overall, including provisions related to compensation and the creation of a conducive environment enabling the return of IDPs and refugees; <span class="italic">urges</span> the signatory parties to implement the DDPD in full, including by effective transition of coordination duties and activities of the Darfur Regional Authority to a successor organ and by ensuring that other DDPD institutions established under it are resourced and empowered to carry out their mandates; <span class="italic">demands</span> that the non‑signatory armed groups refrain from impeding the implementation of the DDPD; and <span class="italic">encourages</span> UNAMID, in accordance with its revised strategic priorities, and the UNCT to continue to engage fully in support of implementation of the DDPD; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the holding of the Darfur administrative referendum on 11-13 April 2016 which endorsed the five states structure of Darfur, <span class="italic">welcomes</span> that the referendum took place peacefully, and <span class="italic">notes</span> the concerns expressed in the Special Report of the Secretary-General and the Chairperson of the African Union Commission of 2 June 2015 about voter eligibility and the timing of the referendum;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> that all parties to the conflict in Darfur immediately cease all acts of violence, and commit themselves to a sustained and permanent ceasefire, in order to bring a stable and durable peace to the region; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> the importance of the work of the AU-HIP, encourages all parties to the conflict to engage constructively with the AU-HIP and in this regard <span class="italic">condemns</span> the attitude of those who refuse to join the mediation process, including the SLA/AW, <span class="italic">urges</span> the SLA/AW to join the peace process, without pre‑conditions, in order to achieve a cessation of hostilities as a first step towards a comprehensive and sustainable peace agreement; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the signing by the Government of Sudan on 21 March 2016 of the Roadmap Agreement proposed by the AU-HIP and <span class="italic">urges</span> the non‑signatory groups to sign it urgently as an important milestone in determining a practicable way forward towards a cessation of hostilities and an inclusive National Dialogue;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_124__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> its support for a Darfur-based internal dialogue that takes place in an inclusive environment with full respect for the civil and political rights of participants, including the full and effective participation of women and IDPs; <span class="italic">welcomes</span> the release of $1 million by the Government of Sudan as half of its pledged contribution to the funding of the Darfur Internal Dialogue and Consultation (DIDC), which has allowed progress on the second phase of the DIDC, and <span class="italic">calls on</span> the Government of Sudan to speedily release the remainder of the pledge; <span class="italic">welcomes</span> the €800,000 pledge by the European Union to fund the DIDC; <span class="italic">expresses concern</span> that prevailing insecurity, and lack of adequate funding, could undermine effective implementation of future phases of the DIDC; <span class="italic">calls on</span> the Government of Sudan and the armed groups to ensure the necessary enabling environment; and <span class="italic">requests</span> UNAMID to continue to support, monitor and report on the development of the DIDC and the overall environment for it;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_138" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">Calls</span> for an urgent end to inter-tribal clashes, criminality and banditry that affect civilians, <span class="italic">acknowledges</span> efforts of Sudanese authorities and local mediators to mediate in inter-communal fighting; <span class="italic">further calls</span> for reconciliation and dialogue; <span class="italic">welcomes</span> UNAMID’s intention to intensify its efforts to support the mediation of community conflict within the framework of its mandate and strategic priorities; and <span class="italic">requests</span> UNAMID to continue to support local conflict resolution mechanisms, including with civil society mechanisms and to work with the Government of Sudan, the UNCT and civil society, to develop an action plan on the prevention and resolution of inter-community conflict in each state of Darfur; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_153" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_153__content">
+          <p xml:space="preserve">	<span class="italic">Expresses deep concern</span> over the proliferation of arms, in particular small arms and light weapons and the use of such arms against civilians and <span class="italic">requests</span> UNAMID to continue to cooperate in this context with the Panel of Experts established by resolution 1591 (2005) in order to facilitate their work; <span class="italic">notes</span> the Government of Sudan’s announcement of its intention to implement a civilian disarmament campaign for the collection of illicit weapons and <span class="italic">calls on </span>the Secretary-General to provide an update on the implementation of this initiative in his next report;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_169" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_169__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> UNAMID troop- and police-contributing countries; <span class="italic">welcomes</span> that some progress has been made in addressing contingent-owned equipment and self-sustainment shortfalls, but <span class="italic">expresses concern</span> that shortfalls remain; and <span class="italic">calls</span> for continued efforts by UNAMID, the Secretariat and troop- and police-contributing countries to address such shortfalls, including by providing appropriate training and resources to fulfil priority protection functions, especially in areas necessary for contingents’ temporary deployment capability and ability to conduct long-range patrols; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_186" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_186__content">
+          <p xml:space="preserve">	<span class="italic">Strongly condemns</span> all attacks on UNAMID; <span class="italic">underlines</span> that any attack or threat of attack on UNAMID is unacceptable; <span class="italic">demands</span> that there be no recurrence of such attacks and that those responsible be held to account following prompt and thorough investigation; <span class="italic">pays tribute</span> to the UNAMID personnel who have paid the ultimate sacrifice in the line of duty for the cause of peace in Darfur; <span class="italic">urges</span> UNAMID to take all necessary measures within its rules of engagement to protect UN personnel and equipment; <span class="italic">condemns</span> the ongoing impunity for those who attack peacekeepers, and in this regard <span class="italic">urges</span> the Government of Sudan to do its utmost to bring all perpetrators of any such crimes to justice and to cooperate with UNAMID to this end; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_204" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_204__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its deep concern that hindrances remain to UNAMID in the implementation of its mandate, including movement and access restrictions, caused by insecurity, acts of criminality and significant movement restrictions by the Government of Sudan, armed movements and militia groups; <span class="italic">calls on</span> all parties in Darfur to remove all obstacles to UNAMID’s full and proper discharge of its mandate, including by ensuring its security and freedom of movement; and in this regard, <span class="italic">demands</span> that the Government of Sudan comply with the Status of Forces Agreement fully and without delay, particularly provisions relevant to the movement of patrols in conflict-affected areas and flight clearances, as well as those provisions relevant to the removal of obstacles to the use of UNAMID aerial assets, the timely processing of UNAMID’s equipment and rations at the port of entry to Sudan, and the timely issuing of visas; <span class="italic">welcomes</span> discussions on operational and logistical issues pertaining to UNAMID’s effective implementation of its mandate, including through the Tripartite mechanism, <span class="italic">recognizes</span> the Government of Sudan’s commitment to cooperate on all logistical issues including customs clearances, visas and access for UNAMID and humanitarian personnel and <span class="italic">calls on</span> the Government of Sudan to continuously honour its commitment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_223" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_223__content">
+          <p xml:space="preserve">	<span class="italic">Deplores</span> the delays in processing rations and equipment through ports of entry which have resulted in severe shortages of food rations and equipment over the past year, <span class="italic">welcomes</span> the recent clearance by the Government of Sudan of 233 shipments with food rations for UNAMID and 16 shipments with United Nations- and contingent-owned equipment, <span class="italic">notes</span> that clearance for 298 shipments containing United Nations- and contingent-owned equipment remains pending and <span class="italic">calls upon</span> the Government of Sudan to ensure the timely processing of shipments containing food rations, equipment and other necessary items required by UNAMID;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_243" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_243__content">
+          <p xml:space="preserve">	<span class="italic">Condemns</span> all violations of international humanitarian law and violations and abuses of human rights, including those involving any form of sexual and gender-based violence, in particular the deliberate targeting of civilians, indiscriminate or disproportionate attacks; and <span class="italic">demands</span> that all parties in Darfur immediately end attacks targeting civilians, peacekeepers and humanitarian personnel, and comply with their obligations under international human rights law and international humanitarian law as applicable; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_264" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_264__content">
+          <p xml:space="preserve">	<span class="italic">Expresses serious concern</span> at the deteriorating humanitarian situation in Darfur, and at the threats to and attacks on humanitarian personnel and facilities; <span class="italic">expresses concern</span> that access to some conflict areas where vulnerable populations reside remains restricted and that some conflict areas are inaccessible, including in North and Central Darfur and eastern Jebel Marra, due to insecurity, acts of criminality and movement restrictions by Government forces, armed movements and militia groups; <span class="italic">welcomes</span> that humanitarian organizations are able to deliver some aid to most people in need of assistance in Darfur; <span class="italic">deplores</span> the continued restrictions on humanitarian access in Darfur resulting from increased insecurity, attacks against humanitarian workers, denial of access by the parties to the conflict and bureaucratic impediments imposed by the Government of Sudan and that such impediments, among other reasons including financial and operational issues, have caused some international humanitarian actors and United Nations staff to leave Sudan; <span class="italic">further expresses concern</span> over the insufficient availability of funding for humanitarian actors; <span class="italic">stresses</span> the need for the timely issuing of visas and travel permits for humanitarian organizations; and <span class="italic">demands</span> that the Government of Sudan, all militias, armed groups and all other stakeholders ensure the safe, timely and unhindered access of humanitarian organizations and relief personnel, and the delivery of humanitarian assistance to populations in need throughout Darfur, in accordance with the relevant provisions of international law and United Nations guiding principles of humanitarian assistance, including humanity, impartiality, neutrality and independence; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_286" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_286__content">
+          <p xml:space="preserve">	<span class="italic">Condemns</span> increased human rights violations and abuses in, and relating to, Darfur, including those involving extrajudicial killings, the excessive use of force, abduction of civilians, acts of sexual- and gender-based violence, violations and abuses against children, and arbitrary arrests and detentions; <span class="italic">calls on</span> the Government of Sudan to investigate allegations of such violations and abuses and bring those responsible to justice; <span class="italic">expresses deep concern</span> about the situation of all those so detained, including civil society members and IDPs; <span class="italic">emphasizes</span> the importance of ensuring, within its current mandate, UNAMID’s and other relevant organizations’ ability to monitor such cases; and in this regard <span class="italic">urges</span> the Government of Sudan to extend full cooperation with UNAMID towards fulfilment of this goal and to provide accountability and access to justice for victims; <span class="italic">calls on</span> the Government of Sudan fully to respect its obligations, including by fulfilling its commitment to lift the state of emergency in Darfur, releasing all political prisoners and ensuring free expression; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_309" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_309__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> UNAMID to monitor, verify, and draw to the attention of the authorities abuses and violations of human rights, including those committed against women and children, and violations of international humanitarian law, and <span class="italic">further requests</span> enhanced, detailed, full and public reporting by the Secretary-General to the Council on this issue, as part of his regular 90-day reports; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_333" class="MercuryDocument">
+        <num>25.</num>
+        <content eId="para_333__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> UNAMID to ensure that any support provided to non‑United Nations security forces is provided in strict compliance with the Human Rights Due Diligence Policy on United Nations support to non‑United Nations security forces (HRDDP), and requests the Secretary-General to include progress made in implementing the policy in his reports to the Security Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_358" class="MercuryDocument">
+        <num>26.</num>
+        <content eId="para_358__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> close coordination among United Nations missions in the region, including UNAMID, the United Nations Interim Security Force for Abyei (UNISFA), the United Nations Mission in South Sudan (UNMISS) and the United Nations Multidimensional Integrated Stabilization Mission in the Central African Republic (MINUSCA), and <span class="italic">requests</span> the Secretary-General to ensure effective inter-mission cooperation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_384" class="MercuryDocument">
+        <num>27.</num>
+        <content eId="para_384__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> the importance of cooperation and information-sharing between UNAMID, UNMISS, MINUSCA and the United Nations Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) and relevant regional and international partners in addressing the regional threat including of the Lord’s Resistance Army, and <span class="italic">recalls</span> its encouragement to UNAMID, within existing capacities and consistent with its mandate, to cooperate and share information in this regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_411" class="MercuryDocument">
+        <num>28.</num>
+        <content eId="para_411__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the Government of Sudan’s stated desire to see the displaced return to their areas of origin or resettle in their current areas of displacement; <span class="italic">stresses</span> that any returns should be safe, voluntary and in accordance with applicable international law; and further <span class="italic">stresses</span> the importance of achieving dignified and durable solutions for refugees and IDPs, and of ensuring their full participation in the planning and management of these solutions; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_439" class="MercuryDocument">
+        <num>29.</num>
+        <content eId="para_439__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> that all parties to the conflict in Darfur create the conditions conducive to allowing the voluntary, informed, safe, dignified and sustainable return of refugees and IDPs, or, where appropriate, their local integration and within the context of its protection of civilians mandate; <span class="italic">welcomes</span> UNAMID’s plan for renewed effort to enhance the protection of IDPs; <span class="italic">stresses</span> the need for the establishment of a mechanism in order to verify the extent to which these returns are voluntary and informed in nature, and <span class="italic">underlines</span> the importance of addressing land issues for the realization of durable solutions in Darfur; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_468" class="MercuryDocument">
+        <num>30.</num>
+        <content eId="para_468__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> that the parties to the conflict immediately cease all acts of sexual and gender-based violence and make and implement specific and time-bound commitments to combat sexual violence, in accordance with resolution 2106 (2013); <span class="italic">urges</span> the Government, with the support of the United Nations and African Union, to develop a structured framework through which conflict related sexual violence will be comprehensively addressed, and to allow access for service provision for sexual violence survivors; <span class="italic">requests</span> UNAMID to strengthen its reporting on sexual and gender-based violence and actions taken to combat it, including through the swift deployment of Women Protection Advisers; <span class="italic">requests</span> the Secretary-General to ensure that the relevant provisions of resolutions 1325 (2000), 2242 (2015), and subsequent resolutions on women, peace and security, are implemented, including supporting the full and effective participation of women during all stages of peace processes, particularly in conflict resolution, post-conflict planning and peacebuilding, including women’s civil society organizations, and to include information on this in his reporting to the Council; <span class="italic">further requests</span> UNAMID to monitor and assess the implementation of these tasks and <span class="italic">requests</span> the Secretary-General to include information on this in his reporting to the Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_498" class="MercuryDocument">
+        <num>31.</num>
+        <list eId="para_498_list">
+          <intro eId="para_498_list_intro">
+            <p xml:space="preserve">	<span class="italic">Demands</span> that the parties to the conflict immediately cease all violations and abuses against children, and develop and implement concrete and time-bound action plans to end and prevent the recruitment and use of children in violation of applicable international law; <span class="italic">welcomes</span> the Government’s adoption of an Action Plan for the Protection of Children from Violations in Armed Conflict and <span class="italic">urges</span> the Government to implement this Action Plan in full; and <span class="italic">requests</span> the Secretary-General to ensure: </p>
+          </intro>
+          <point eId="para_498_list_point_a">
+            <num>(a)</num>
+            <content eId="para_498_list_point_a_content">
+              <p xml:space="preserve">	continued monitoring and reporting of the situation of children in Darfur; and </p>
+            </content>
+          </point>
+          <point eId="para_498_list_point_b">
+            <num>(b)</num>
+            <content eId="para_498_list_point_b_content">
+              <p xml:space="preserve">	continued dialogue with the parties to the conflict towards the development and implementation of the aforementioned action plans, in accordance with resolution 1612 (2005) and subsequent resolutions on children and armed conflict; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_529" class="MercuryDocument">
+        <num>32.</num>
+        <content eId="para_529__content">
+          <p xml:space="preserve">	<span class="italic">Underscores</span> the importance of regular review by the Security Council of each United Nations peacekeeping mission’s progress in implementing its mandate, and <span class="italic">recalls</span> its request to the Secretary-General, in close consultation with the African Union, and seeking perspectives from all relevant parties, to conduct an analysis of implementation of the review of UNAMID; in this regard, <span class="italic">takes note</span> of the Secretary-General’s efforts to make recommendations on the future of UNAMID, including its exit strategy, as requested by the Security Council in paragraph 7 of resolution 2173 (2014); <span class="italic">concurs</span> that UNAMID’s long-term planning should be based upon progress towards the mission’s benchmarks as set out in the Secretary-General’s report of 16 October 2012 (<a href="http://undocs.org/S/2012/771">S/2012/771</a>) and subsequently refined in his reports of 25 February 2014 (<a href="http://undocs.org/S/2014/138">S/2014/138</a>) and 15 April 2014 (<a href="http://undocs.org/S/2014/279">S/2014/279</a>) (Annex); <span class="italic">takes note</span> that the Secretary-General, in his report of 26 May 2015 (<a href="http://undocs.org/S/2015/378">S/2015/378</a>), emphasizes that a political settlement in Darfur and direct talks between Government and the non‑signatory armed movements, starting with a cessation of hostilities in Darfur, is essential to re-establishing peace in Darfur and is primary to the achievement of these benchmarks; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_561" class="MercuryDocument">
+        <num>33.</num>
+        <content eId="para_561__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of ongoing consultations between the United Nations, the African Union and the Government of Sudan, notably in the frameworks of the Tripartite mechanism and the Joint Working Group, including discussion of operational and logistical issues pertaining to the mission’s operation as well as the development of an exit strategy in accordance with the mission’s benchmarks; <span class="italic">requests</span> the Secretary-General to make recommendations, within 120 days of the adoption of this resolution, including by building on any agreed recommendations of the Joint Working Group and <span class="italic">undertakes</span> to consider the Secretary-General’s recommendations in due course, on what practical steps need to be taken by all Sudanese parties with the support of UNAMID in order to make tangible progress towards achieving the benchmarks;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_594" class="MercuryDocument">
+        <num>34.</num>
+        <list eId="para_594_list">
+          <intro eId="para_594_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to report to the Council every 90 days following adoption of this resolution on UNAMID, including: </p>
+          </intro>
+          <point eId="para_594_list_point_i">
+            <num>(i)</num>
+            <content eId="para_594_list_point_i_content">
+              <p xml:space="preserve">	information on the political, humanitarian and security situation in Darfur, including detailed reporting on incidents of violence and attacks against civilians, by whomsoever perpetrated; </p>
+            </content>
+          </point>
+          <point eId="para_594_list_point_ii">
+            <num>(ii)</num>
+            <content eId="para_594_list_point_ii_content">
+              <p xml:space="preserve">	information on violations of the Status of Forces Agreement, including those involving attacks or threats of attack on UNAMID, violations of international humanitarian law perpetrated by any party to the conflict, as well as access restrictions and significant operational obstacles such as those related to customs clearances and visas; </p>
+            </content>
+          </point>
+          <point eId="para_594_list_point_iii">
+            <num>(iii)</num>
+            <content eId="para_594_list_point_iii_content">
+              <p xml:space="preserve">	developments and progress towards achievement of UNAMID’s strategic priorities and benchmarks, including progress in response to the Secretary General’s recommendations on practical steps requested in paragraph 33 of this resolution; </p>
+            </content>
+          </point>
+          <point eId="para_594_list_point_iv">
+            <num>(iv)</num>
+            <content eId="para_594_list_point_iv_content">
+              <p xml:space="preserve">	developments and progress in addressing the challenges facing UNAMID as identified in the review of UNAMID; and</p>
+            </content>
+          </point>
+          <point eId="para_594_list_point_v">
+            <num>(v)</num>
+            <content eId="para_594_list_point_v_content">
+              <p xml:space="preserve">	on the implementation of this resolution; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_628" class="MercuryDocument">
+        <num>35.</num>
+        <content eId="para_628__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_629" class="MercuryDocument">
+        <content eId="para_629__content">
+          <p xml:space="preserve">Annex: UNAMID benchmarks as set out in Annex 1 of the Secretary-General report of 15 April 2014 (<a href="http://undocs.org/S/2014/279">S/2014/279</a>)</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_630" class="MercuryDocument">
+        <content eId="para_630__content">
+          <p xml:space="preserve">Benchmark 1: inclusive peace process through mediation between the Government and non‑signatory armed movements on the basis of the Doha Document for Peace in Darfur </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_631" class="MercuryDocument">
+        <content eId="para_631__content">
+          <p xml:space="preserve">Requirements for progress would include a commitment on the part of the Government of the Sudan and non‑signatory movements to reach a comprehensive negotiated political settlement to the conflict and adhere to its full and timely implementation; and credible Darfur-based internal dialogue and consultations that seek to reflect the views of the civilian population, including women, on Darfur in the peace process.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_632" class="MercuryDocument">
+        <content eId="para_632__content">
+          <p xml:space="preserve">Indicators</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_633" class="MercuryDocument">
+        <content eId="para_633__content">
+          <p xml:space="preserve">High-level mediation</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_634" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_634__content">
+          <p xml:space="preserve">	The Government and the non‑signatory movements enter into direct negotiations brokered by the Joint African Union-United Nations Chief Mediator for Darfur over an all-inclusive comprehensive settlement to the Darfur conflict within the context of the Doha Document for Peace in Darfur.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_635" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_635__content">
+          <p xml:space="preserve">	The signatory parties, with the support of international partners, implement the provisions of the Doha Document for Peace in Darfur, which remain essential in addressing the root causes of conflict in Darfur. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_637" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_637__content">
+          <p xml:space="preserve">	The Government and the non‑signatory movements conclude and observe a comprehensive and inclusive cessation of hostilities.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_640" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_640__content">
+          <p xml:space="preserve">	The outcomes of the Darfur peace process are reflected in a national constitutional process supported by the African Union High-level Implementation Panel for the Sudan, as provided for in the framework for African Union and United Nations facilitation of the Darfur peace process.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_641" class="MercuryDocument">
+        <content eId="para_641__content">
+          <p xml:space="preserve">Darfur-based internal dialogue and consultations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_642" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_642__content">
+          <p xml:space="preserve">	Darfur-based internal dialogue and consultations take place in an inclusive and transparent environment that ensures the proportional representation of Darfuris and respect for the human rights of participants, as monitored by African Union-United Nations Hybrid Operation in Darfur (UNAMID).</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_643" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_643__content">
+          <p xml:space="preserve">	The outcomes of the Darfur-based internal dialogue and consultations are widely disseminated and implemented in a manner that promotes and consolidates peace and stability in Darfur.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_645" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_645__content">
+          <p xml:space="preserve">	A functioning Darfur Regional Authority that oversees the implementation of the Doha Document for Peace in Darfur, in conjunction with the Government of the Sudan.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_646" class="MercuryDocument">
+        <content eId="para_646__content">
+          <p xml:space="preserve">Benchmark 2: protection of civilians and unhindered humanitarian access and the safety and security of humanitarian personnel</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_647" class="MercuryDocument">
+        <content eId="para_647__content">
+          <p xml:space="preserve">Requirements for progress would include the demonstrated commitment of the parties to the conflict, including Government forces, non‑signatory movements and other armed groups, to cease hostilities and respect and implement ceasefire and security arrangements; the demonstrated commitment of the parties to the conflict to implement measures to protect civilians (or promote/respect human rights); the demonstrated commitment of the parties to the conflict to allow unrestricted humanitarian access; the willingness of local actors to facilitate the safe, voluntary and sustainable return, reintegration or resettlement of internally displaced persons and refugees; improvement of TCC/PCC performance and equipment; support by the international donor community for humanitarian activities and, where appropriate, early recovery and rehabilitation; the improved coordination between UNAMID and humanitarian actors with regard to the facilitation of the deli very of humanitarian assistance and the safety and security of humanitarian personnel; and the commitment of the Government of the Sudan at the national and local levels to improve the capacity of its security, judicial and penal institutions to promote and protect human rights.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_648" class="MercuryDocument">
+        <content eId="para_648__content">
+          <p xml:space="preserve">Indicators</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_649" class="MercuryDocument">
+        <content eId="para_649__content">
+          <p xml:space="preserve">Protection of civilians from imminent threats of physical violence;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_650" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_650__content">
+          <p xml:space="preserve">	Civilians facing imminent threats of physical violence are protected by UNAMID.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_651" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_651__content">
+          <p xml:space="preserve">	Civilians at risk of physical attack, in particular women and children, carry out livelihood activities safely and securely under UNAMID protection.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_653" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_653__content">
+          <p xml:space="preserve">	Civilians receive emergency medical assistance from UNAMID, including through evacuation to medical facilities, in extreme circumstances (i.e., when humanitarian actors are unable to assist).</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_654" class="MercuryDocument">
+        <content eId="para_654__content">
+          <p xml:space="preserve">Protective environment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_655" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_655__content">
+          <p xml:space="preserve">	Security and stability (as indicated by an absence of serious crime or violent conflict) for civilians within camps for internally displaced persons and temporary settlements.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_656" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_656__content">
+          <p xml:space="preserve">	Security and stability (as indicated by an absence of serious crime or violent conflict) for civilians in areas outside of camps for internally displaced persons and temporary settlements, including in particular in areas adjacent to camps.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_658" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_658__content">
+          <p xml:space="preserve">	Reduction in the number of violent crimes against civilians.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_661" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_661__content">
+          <p xml:space="preserve">	Reduction in human rights violations, including incidents of sexual and gender-based violence, as recorded by UNAMID. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_665" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_665__content">
+          <p xml:space="preserve">	Reduction in the recruitment of child soldiers by the parties to the conflict.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_670" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_670__content">
+          <p xml:space="preserve">	Improved environment for the protection of civil and political rights, including through the development of sustainable foundations for professional, democratic policing and law enforcement.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_676" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_676__content">
+          <p xml:space="preserve">	Trials monitored by UNAMID are fair and in accordance with international legal standards and practices.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_683" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_683__content">
+          <p xml:space="preserve">	The prevalence of arms and armed actors is reduced through the disarmament, demobilization and reintegration of combatants in accordance with the provisions of the Doha Document for Peace in Darfur.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_691" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_691__content">
+          <p xml:space="preserve">	Threats to civilians posed by unexploded ordnance are addressed through, inter alia, the safe disposal of such materials and through risk-awareness training.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_692" class="MercuryDocument">
+        <content eId="para_692__content">
+          <p xml:space="preserve">Safe, timely and unhindered humanitarian access and safety and security for humanitarian personnel;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_693" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_693__content">
+          <p xml:space="preserve">	Humanitarian actors requesting UNAMID protection and other support are able to conduct operations (e.g., inter alia aid delivery and distribution and needs assessments) in a safe, timely and unhindered manner.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_694" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_694__content">
+          <p xml:space="preserve">	Humanitarian actors and their property are safe and secure, in particular when UNAMID protection is provided.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_696" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_696__content">
+          <p xml:space="preserve">	Parties to the conflict honour their commitments and international obligations to combat all acts of sexual violence against women, men and children and put an end to the recruitment and use of child soldiers.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_697" class="MercuryDocument">
+        <content eId="para_697__content">
+          <p xml:space="preserve">Benchmark 3: prevention or mitigation of community conflict through mediation and, in conjunction with the United Nations country team, measures to address its root causes</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_698" class="MercuryDocument">
+        <content eId="para_698__content">
+          <p xml:space="preserve">Requirements for progress would include willingness on the part of the authorities and traditional community leaders to play a constructive role in resolving intercommunal conflict peacefully; the provision of access to UNAMID to facilitate mediation efforts; strengthened traditional conflict resolution mechanisms and greater respect thereof; the inclusion of measures in reconciliation agreements to address the root causes of intercommunal conflict; a willingness on the part of the authorities and other parties to the conflict to fulfil their responsibilities in regard to preventing or resolving intercommunal clashes; and the provision of access to the United Nations Country Team to enable measures that address root causes related to natural resources, recovery and reconstruction.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_699" class="MercuryDocument">
+        <content eId="para_699__content">
+          <p xml:space="preserve">Indicators</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_700" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_700__content">
+          <p xml:space="preserve">	Dialogue between pastoralist and agriculturalist communities over peaceful coexistence and shared access to natural resources, in particular prior to and during the migration season.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_701" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_701__content">
+          <p xml:space="preserve">	Interventions by the authorities and traditional community mediators, facilitated by UNAMID, that prevent or resolve violent intercommunal conflict.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_703" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_703__content">
+          <p xml:space="preserve">	Dialogue between conflicting parties over local settlements to violent intercommunal conflict.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_706" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_706__content">
+          <p xml:space="preserve">	Conflicting parties enter into and adhere to local agreements that settle violent intercommunal conflict.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_710" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_710__content">
+          <p xml:space="preserve">	Reduction in the number of incidents of and new displacement resulting from intercommunal conflict. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_715" class="MercuryDocument">
+        <num>•</num>
+        <content eId="para_715__content">
+          <p xml:space="preserve">	Transitional justice mechanisms, including the National Human Rights Commission, the Special Court for Darfur and the Truth and Reconciliation Commission, are established and operating in accordance with international human rights standards and best practice.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_721" class="SingleTxt">
+        <num>•</num>
+        <content eId="para_721__content">
+          <p xml:space="preserve">	Improved access to justice through the adoption of measures aimed at enhancing victims’ rights to truth, justice and remedy.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

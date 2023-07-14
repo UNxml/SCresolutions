@@ -1,0 +1,694 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2274-2016/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2274-2016/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2274-2016/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2274-2016/eng@/"></FRBRuri>
+          <FRBRdate date="2016-03-15" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2274-2016/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2274-2016/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Assistance Mission in Afghanistan" showAs="UN Assistance Mission in Afghanistan" dictionary="DHLAUTH"></keyword>
+        <keyword value="Taliban (Afghanistan)" showAs="Taliban (Afghanistan)" dictionary="DHLAUTH"></keyword>
+        <keyword value="POLITICAL CONDITIONS" showAs="POLITICAL CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AFGHANISTAN SITUATION" showAs="AFGHANISTAN SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NARCOTIC DRUGS" showAs="NARCOTIC DRUGS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[47]" showAs="UN ASSISTANCE MISSION IN AFGHANISTAN" dictionary="S/71"></keyword>
+        <keyword refersTo="agenda" value="[46]" showAs="AFGHANISTAN SITUATION" dictionary="S/71"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2274 (2016) [on extension of the mandate of the UN Assistance Mission in Afghanistan (UNAMA) until 17 Mar. 2017]" showAs="Security Council resolution 2274 (2016) [on extension of the mandate of the UN Assistance Mission in Afghanistan (UNAMA) until 17 Mar. 2017]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2016-03-12" outcome="draftResolution" as="S/2016/241" by="Spain" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2016-03-15" outcome="adopted" as="S/PV.7645" by="Adopted unanimously, 7645th meeting" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">VENEZUELA (BOLIVARIAN REPUBLIC OF)</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">16-04126 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2274 (2016)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2016-03-15" class="rightSmall" refersTo="#dateOfIssuance">15 March 2016</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2274 (2016)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its previous resolutions on Afghanistan, in particular its resolution 2210 (2015) extending through 17 March 2016 the mandate of the United Nations Assistance Mission in Afghanistan (UNAMA) as established by resolution 1662 (2006), </p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, territorial integrity and national unity of Afghanistan, as well as its continued support for the Government and people of Afghanistan as they rebuild their country and strengthen the foundations of sustainable peace and development and constitutional democracy, </p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the completion at the end of 2014 of the Transition (Inteqal) Process and the initiation of the Transformation Decade (2015-2024) with the assumption of full responsibility for the security sector by Afghan institutions, <span class="italic">recognizing</span> that transition is not only a security process but also entails the full assumption of Afghan leadership and ownership in governance and development, and <span class="italic">affirming</span> that the United Nations support in Afghanistan takes full account of the completion of the transition process in Afghanistan, </p>
+      </container>
+      <container name="Emphasizing" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the Kabul Process towards the primary objective of reinforced Afghan leadership and ownership, strengthened international partnership and regional cooperation, improved Afghan governance, enhanced capabilities of Afghan security forces, economic growth, sustainable development and better protection for the rights of all Afghan citizens, in particular women and girls, and <span class="italic">welcoming</span> specifically the commitments made by the Afghan Government, </p>
+      </container>
+      <container name="Stressing" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the importance of a comprehensive approach to address the security, economic, governance and development challenges in Afghanistan, which are of an interconnected nature, and <span class="italic">recognizing</span> that there is no purely military solution to ensure the stability of Afghanistan, </p>
+      </container>
+      <container name="Welcoming" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the start of the second year of the National Unity Government and <span class="italic">emphasizing</span> the importance of all parties in Afghanistan working within its framework in order to achieve a unified, peaceful and prosperous future for all the people of Afghanistan, </p>
+      </container>
+      <container name="Welcoming further" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Welcoming further</span> the strategic consensus between the Government of Afghanistan and the International Community on a renewed and enduring partnership for the Transformation Decade based on their refreshed mutual commitments as laid down in the Self-Reliance through Mutual Accountability Framework (SMAF) adopted by the Senior Officials Meeting on 5 September 2015 in Kabul, <span class="italic">welcoming</span> progress made towards meeting the mutual commitments set out in the Tokyo Mutual Accountability Framework (TMAF) and reaffirmed at the 2014 London Conference, to support the sustainable economic growth and development of Afghanistan, and <span class="italic">reaffirming</span> the importance of continued efforts by the Government of Afghanistan and the international community towards meeting their mutual commitments, and <span class="italic">looking forward</span> to the Ministerial Conference on Afghanistan to be held in Brussels in October 2016, </p>
+      </container>
+      <container name="Affirming" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Affirming</span> that sustainable progress on security, political stability, governance, fiscal sustainability, human rights, especially women’s rights, rule of law and development as well as the cross-cutting issues of counter-narcotics, anti‑corruption and accountability are mutually reinforcing and that governance and development programmes should be consistent with the goals set forth in the Tokyo Declaration and be consistent with the Government of Afghanistan’s reform agenda, and <span class="italic">welcoming</span> the continuing efforts of the Government of Afghanistan and the international community to address these challenges through a comprehensive approach, </p>
+      </container>
+      <container name="Reaffirming specifically" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Reaffirming specifically</span> in this context its support for the implementation, under the leadership and ownership of the Afghan people, of the commitments set out in the London and Kabul Conferences Communiqués, and in the Self-Reliance through Mutual Accountability Framework (SMAF) outcome document of the Afghan Government reform agenda and of the National Drugs Control Strategy, as part of the comprehensive implementation strategy to be taken forward by the Government of Afghanistan with the support of the region and the international community, and with a coordinating role for the United Nations as facilitator and co-convener of donors, consistent with the Kabul Process, </p>
+      </container>
+      <container name="Welcoming" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the Afghan government reform programme entitled “Realizing Self-Reliance: Commitments to Reforms and Renewed Partnership” that contains strategic policy priorities for Afghanistan towards realizing self-reliance in the Transformation Decade for improving security, political stability, economic and fiscal stabilization, advancing good governance, including electoral reform and strengthening democratic institutions, promoting the rule of law and respect for human rights, particularly in relation to women and girls, fighting corruption and the illicit economy, including narcotics, and paving the way for enhanced private sector investment and sustainable, social, environmental and economic development, and in this context <span class="italic">affirming</span> its support for the implementation of this reform programme under leadership and ownership of the Government of Afghanistan, </p>
+      </container>
+      <container name="Stressing" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the crucial importance of advancing regional cooperation as an effective means to promote security, stability and economic and social development in Afghanistan, <span class="italic">recalling</span> the importance of the Kabul Declaration of 22 December 2002 on Good-Neighbourly Relations (Kabul Declaration) (<a href="http://undocs.org/S/2002/1416">S/2002/1416</a>), <span class="italic">welcoming</span>, in this regard, the continued commitment of the international community to support stability and development in Afghanistan, and <span class="italic">noting</span> international and regional initiatives such as the two Afghan-led regional processes, namely the Heart of Asia-Istanbul Process on Regional Security and Cooperation for a Secure and Stable Afghanistan and the Regional Economic Cooperation Conference on Afghanistan (RECCA) process, as well as other initiatives such as the Trilateral Summit of Afghanistan, Iran and Pakistan, the Trilateral Summit of Afghanistan, Pakistan and Turkey and the Trilateral Summit of Afghanistan, Pakistan and the UK, as well as those by the Shanghai Cooperation Organization (SCO), the Collective Security Organization (CSTO) and the South Asian Association for Regional Cooperation (SAARC), </p>
+      </container>
+      <container name="Commending" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the outcome of the Fifth Heart of Asia-Istanbul Process Ministerial Conference, convened in Islamabad in December 2015, where Afghanistan and its regional partners, while stating their belief that “a secure, peaceful, stable and prosperous Afghanistan, with strong commitment to human rights” is “vital to peace, stability and prosperity of the region as a whole”, recognized that “Afghanistan is one of the countries at the forefront of the war against terrorism, fighting regional and international terrorist groups and safeguarding the region against the spread of terrorism”, reaffirmed that it is their “collective responsibility to help and support Afghanistan in combating” the collective challenges it faces, and urged “the international community to stand by its commitments made during the London Conference of continued financial support to Afghanistan’s National Unity Government”, <span class="italic">welcoming</span> the confidence-building measures on Counter-Terrorism, Counter-Narcotics and Trade, Commerce and Investment Opportunity, and those on Education, Disaster Management and Regional Infrastructure, <span class="italic">welcoming</span> the Sixth Heart of Asia Ministerial Conference, to be held in New Delhi in 2016, and <span class="italic">noting</span> that the Heart of Asia-Istanbul Process is intended to complement and cooperate with, and not substitute for, existing efforts of regional organizations, particularly where they relate to Afghanistan, </p>
+      </container>
+      <container name="Welcoming also" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Welcoming also</span> the outcome of the high-level segment of the UNHCR Executive Committee on the Afghan refugee situation held in Geneva on 6 and 7 October 2015, and the International Conference on the Solutions Strategy for Afghan Refugees to Support Voluntary Repatriation, Sustainable Reintegration and Assistance to Host Countries, held in Geneva on 2 and 3 May 2012, and <span class="italic">looking forward</span> to the further implementation of the joint communiqué of the Conference, aimed at increased sustainability of returns and continued support for host countries, through sustained support and directed efforts of the international community, </p>
+      </container>
+      <container name="Stressing" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the important role that the United Nations will continue to play in promoting peace and stability in Afghanistan by coordinating amongst international donors and supporting the Afghan Government’s efforts in the role it plays in leading and coordinating between the Government and the international community and by working closely with the Government of Afghanistan and the international community to advocate for allocation of critical international resources for Afghanistan, all of this consistent with the principle of Afghan leadership, ownership and sovereignty in governance and development and in line with the Kabul Process and the Self-Reliance through Mutual Accountability Framework (SMAF) and based on the Government of Afghanistan’s reform agenda, including, jointly with the Government of Afghanistan, the coordination and monitoring of efforts in implementing the Kabul Process through the Joint Coordination and Monitoring Board (JCMB) in support of the priorities set up by the Government of Afghanistan and affirmed at the Tokyo and London Conferences; and <span class="italic">expressing</span> its appreciation and strong support for the ongoing efforts of the Secretary-General, his Special Representative for Afghanistan and in particular the women and men of UNAMA who are serving in difficult conditions to help the people of Afghanistan, </p>
+      </container>
+      <container name="Taking note" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Taking note </span>of the March 2015 Portfolio Review presented by the UN Country Team to the Government of Afghanistan, which highlights the work of the United Nations Agencies, Funds and Programmes in meeting the development objectives and expectations of the people of Afghanistan, </p>
+      </container>
+      <container name="Stressing" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the importance of a comprehensive and inclusive, Afghan-led and Afghan-owned political process in Afghanistan to support reconciliation for all those who are prepared to reconcile as laid forth in the 20 July 2010 Kabul Conference Communiqué on dialogue for all those who renounce violence, have no links to international terrorist organizations, including Al-Qaida, respect the constitution, including its human rights provisions, notably the rights of women, and are willing to join in building a peaceful Afghanistan, and further elaborated in the 5 December 2011 Bonn Conference Conclusions supported by the Government of Afghanistan and the international community, with full respect for the implementation of measures and application of the procedures introduced by the Security Council in its resolutions 1267 (1999), 1988 (2011), 2082 (2012), 2160 (2014) and 2255 (2015), as well as other relevant resolutions of the Council, </p>
+      </container>
+      <container name="Welcoming" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the direct talks held in 7 July 2015 in Muree, Pakistan, between the Government of Afghanistan and Taliban representatives, facilitated by Pakistan and observed by China and the United States of America, </p>
+      </container>
+      <container name="Recalling" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the Government of Afghanistan’s commitments at the Kabul, Tokyo and London Conferences and in the agreement creating the National Unity Government to strengthen and improve Afghanistan’s electoral process, including long-term electoral reform, in order to ensure that future elections will be transparent, credible, inclusive and democratic, <span class="italic">looking forward</span> to preparations for the upcoming parliamentary elections, and <span class="italic">emphasizing</span> the need for continued support of UNAMA, at the request of the Afghan authorities in this regard, </p>
+      </container>
+      <container name="Reaffirming" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that Afghanistan’s peaceful future lies in the building of a stable, secure, economically sustainable state, free of terrorism and narcotics and based on the rule of law, strengthened democratic institutions, respect for the separation of powers, reinforced constitutional checks and balances and the guarantee and enforcement of citizens’ rights and obligations, <span class="italic">welcoming</span> the contribution of the International Contact Group to the United Nations efforts in coordinating and broadening international support for Afghanistan, </p>
+      </container>
+      <container name="Underlining" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the importance of operationally capable, professional, inclusive and sustainable Afghan National Defence and Security Forces (ANDSF) for meeting Afghanistan’s security needs, with a view to lasting peace, security and stability both in Afghanistan and the region, <span class="italic">stressing</span> the long-term commitment of the international community to support, throughout the Transformation Decade (2015-2024), the further development, including training, and professionalization of the ANDSF, and the recruitment and retention of women to the ANDSF, <span class="italic">acknowledging</span> the contribution of Afghanistan’s partners to peace and security in Afghanistan, <span class="italic">welcoming</span> the agreement between NATO and Afghanistan which led to the establishment on 1 January 2015 of the non‑combat Resolute Support Mission, for training, advising and assisting the ANDSF at the invitation of the Islamic Republic of Afghanistan, <span class="italic">noting</span> the responsibility of the Government of Afghanistan to sustain a sufficient and capable ANDSF, <span class="italic">noting also</span> NATO and contributing partners’ contribution to the financial sustainment of the ANDSF and the long-term NATO-Afghanistan “Enhanced Enduring Partnership”, with a clear view to the gradual assumption of full financial responsibility by the Government of Afghanistan for its own security forces, <span class="italic">recalling</span> in this context resolution 2189 (2014), and <span class="italic">looking forward</span> to the 2016 Warsaw NATO summit deliberations on Afghanistan, </p>
+      </container>
+      <container name="Stressing" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the need for all United Nations agencies, funds and programmes, through the country team mechanism and a “One-UN” approach under the guidance of the Special Representative of the Secretary-General, to further increase its focus on joint programming at all levels, to avoid duplication, ensure value for money and reduce transaction costs, as well as to establish progress indicators and transition benchmarks with the view to moving from co-ownership to affirming the full ownership and management of programmes by the Government, in full consultation and cooperation with the Government of Afghanistan, to achieve further greater coherence, coordination, efficiency and full alignment with the Government of Afghanistan’s reform agenda, </p>
+      </container>
+      <container name="Encouraging" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Encouraging</span> the international donor community to continue their civilian and development efforts from 2017 to 2020 to assist the Government and the people of Afghanistan in advance of the Ministerial Conference on Afghanistan to be held in Brussels in October 2016 and hosted by the European Union, and <span class="italic">also encouraging </span>the international community to continue their contributions consistent with the Self-Reliance through Mutual Accountability Framework (SMAF) in a coordinated manner with the Afghan authorities and UNAMA, with a view to strengthening Afghan leadership and ownership as reaffirmed in the Kabul Process and at the Tokyo Conference in July 2012 and the London Conference in December 2014, </p>
+      </container>
+      <container name="Stressing" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the need to further improve the efficient and effective delivery of humanitarian assistance, including through enhanced coordination among the United Nations agencies, funds and programmes under the authority of the Special Representative of the Secretary-General and between the United Nations and other donors, especially where it is most needed, <span class="italic">welcoming</span> the establishment of the United Nations Common Humanitarian Fund, and <span class="italic">supporting</span> the Afghan Government’s essential role in the coordination of humanitarian assistance to its citizens, </p>
+      </container>
+      <container name="Emphasizing" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the need for all, within the framework of humanitarian assistance, of upholding and respecting the humanitarian principles of humanity, neutrality, impartiality and independence, </p>
+      </container>
+      <container name="Reiterating" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its concern about the security situation in Afghanistan, in particular the region based violent extremist activities by the Taliban, including the Haqqani Network, as well as Al-Qaida and other violent and extremist groups, illegal armed groups, criminals and those involved in the production, trafficking or trade of illicit drugs, and the strong links between terrorism activities and illicit drugs, resulting in threats to the local population, including women, children, national security forces and international military and civilian personnel, including humanitarian and development workers, and <span class="italic">expressing also</span> its deep concern for the record number of civilian casualties, in particular women and children from conflict-related violence in Afghanistan, as noted in the February 2016 UNAMA report on Protection of Civilians in Armed Conflict, </p>
+      </container>
+      <container name="Recognizing" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the continuously alarming threats posed by the Taliban, including the Haqqani Network, as well as Al-Qaida, ISIL (Da’esh) affiliates and other violent and extremist groups and illegal armed groups as well as the challenges related to the efforts to address such threats, and <span class="italic">expressing</span> its serious concern over the harmful consequences of violent and terrorist activities by all the above-mentioned groups on the capacity of the Afghan Government to guarantee the rule of law, to provide security and basic services to the Afghan people, and to ensure the improvement and protection of their human rights and fundamental freedoms, </p>
+      </container>
+      <container name="Expressing" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Expressing </span>serious concern at the presence and potential growth of ISIL (Da’esh) affiliates in Afghanistan, and <span class="italic">affirming</span> its support to the efforts by the ANDSF to combat them as well as assistance by Afghanistan’s international partners in this regard, </p>
+      </container>
+      <container name="Recalling" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions 1674 (2006), 1738 (2006) and 1894 (2009) on the protection of civilians in armed conflict, <span class="italic">expressing</span> its grave concern with the high number of civilian casualties in Afghanistan, in particular women and children, the increasingly large majority of which are caused by the Taliban, Al-Qaida and other violent and extremist groups and illegal armed groups, <span class="italic">condemning</span> the suicide attacks, often in civilian-populated areas, and the targeted and deliberate killings, in particular of women and girls, including high-level women officials and those promoting women’s rights, as well as journalists, <span class="italic">reaffirming</span> that all parties to armed conflict must take all feasible steps to ensure the protection of affected civilians, especially women, children and displaced persons, including from sexual violence and all other forms of gender-based violence, and that perpetrators of such violence must be held accountable, <span class="italic">calling for</span> all parties to comply with their obligations under international law including international humanitarian law and human rights law and for all appropriate measures to be taken to ensure the protection of civilians, and <span class="italic">recognizing</span> the importance of the ongoing monitoring and reporting to the United Nations Security Council, of the situation of civilians and in particular civilian casualties, <span class="italic">taking note</span> of the efforts made by Afghan and international forces in minimizing civilian casualties, and <span class="italic">noting</span> the February 2016 report by UNAMA on the protection of civilians in armed conflict, and the December 2015 UNAMA special report on Kunduz Province, </p>
+      </container>
+      <container name="Expressing also" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Expressing also</span> concern with the serious threat that anti‑personnel mines, explosive remnants of war and improvised explosive devices (IED) pose to the civilian population, and <span class="italic">stressing</span> the need to refrain from the use of any weapons and devices prohibited by international law, </p>
+      </container>
+      <container name="Supporting" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Supporting </span>the Afghan Government’s continued ban of ammonium nitrate fertilizer, <span class="italic">urging </span>prompt action to implement applicable regulations for the control of all explosive materials as well as raw materials and components, including detonators, that can be used to manufacture IEDs, thereby reducing the ability of Taliban, Al-Qaida and other violent and extremist groups to use them for that purpose, <span class="italic">noting </span>the need to enhance coordination and information-sharing, both between Member States and with the private sector, to prevent the flow of IED components to those groups, and <span class="italic">calling upon </span>the international community to support the Afghan Government’s efforts in this regard, </p>
+      </container>
+      <container name="Encouraging" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Encouraging</span> the international community and regional partners to further effectively support Afghan-led sustained efforts to address drug production and trafficking in a balanced and integrated approach, including through the JCMB’s working group on counter-narcotics as well as regional initiatives, and <span class="italic">recognizing</span> the threat posed by the production, trade and trafficking of illicit drugs to international peace and stability in different regions of the world, and the important role played by the United Nations Office on Drugs and Crime (UNODC) in this regard, </p>
+      </container>
+      <container name="Taking note" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Taking note </span>of the recent decrease in production and cultivation of drugs suggested by the 2015 UNODC Afghanistan Opium Survey, <span class="italic">reiterating</span> the serious harm that opium cultivation, production and trafficking and consumption continue to cause to the stability, security, public health, social and economic development and governance of Afghanistan as well as to the region and internationally, and <span class="italic">stressing</span> the important role of the United Nations to continue to monitor the drug situation in Afghanistan, </p>
+      </container>
+      <container name="Acknowledging" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Acknowledging </span>that illicit proceeds of drug trafficking significantly contribute to the financial resources of the Taliban and its associates, and <span class="italic">stressing</span> the need for increased coordinated regional efforts to combat the drug problem, </p>
+      </container>
+      <container name="Welcoming" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the ongoing work of the Paris Pact Initiative as one of the most important frameworks in the fight against opiates originating in Afghanistan, <span class="italic">taking note </span>of the Vienna Declaration, and <span class="italic">emphasizing</span> the aim of the Paris Pact to establish a broad international coalition to combat the traffic of illicit opiates, as part of a comprehensive approach to peace, stability, and development in Afghanistan, the region and beyond, </p>
+      </container>
+      <container name="Recalling" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the declaration addressed to the International Narcotics Control Board (INCB) by the Government of Afghanistan that there is no legal use for acetic anhydride in Afghanistan for the time being and that producing and exporting countries should abstain from authorizing the export of this substance to Afghanistan without the request from the Afghan Government, <span class="italic">encouraging</span>, pursuant to resolution 1817 (2008), Member States to increase their cooperation with the INCB, notably by fully complying with the provisions of article 12 of the United Nations Convention against Illicit Traffic in Narcotic Drugs and Psychotropic Substances, 1988, and <span class="italic">encouraging</span> further international and regional cooperation with a view to prevent the diversion and trafficking of chemical precursors into Afghanistan, </p>
+      </container>
+      <container name="Recalling" eId="container_37">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions 1265 (1999), 1296 (2000), 1674 (2006), 1738 (2006), 1894 (2009) and 2222 (2015) on the protection of civilians in armed conflict, its resolutions 1325 (2000), 1820 (2008) and 1888 (2009), 1889 (2009), 1960 (2010), 2106 (2013), 2122 (2013) and 2242 (2015) on women and peace and security, its resolution 1612 (2005), 1882 (2009), 1998 (2011), 2068 (2012) and 2143 (2014) on children and armed conflict, and 2117 (2013) on small arms and light weapons, and <span class="italic">taking note</span> of the reports of the Secretary-General on the Protection of Civilians in Armed Conflict (<a href="http://undocs.org/S/2015/453">S/2015/453</a>), on Children and Armed Conflict (<a href="http://undocs.org/S/2015/409">S/2015/409</a>), and in particular the report of the Secretary-General on Children and Armed Conflict in Afghanistan (<a href="http://undocs.org/S/2015/336">S/2015/336</a>) as well as the conclusions of the Security Council Working Group on Children and Armed Conflict, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the report of the Secretary-General of 7 March 2016 (<a href="http://undocs.org/S/2016/218">S/2016/218</a>); </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its appreciation for the United Nations long-term commitment, including throughout the Transformation Decade, to support the Government and the people of Afghanistan and <span class="italic">reiterates</span> its full support to the work of UNAMA and the Special Representative of the Secretary-General, and <span class="italic">stresses</span> the need to ensure continued adequate resourcing for UNAMA to fulfil its mandate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 	<span class="italic">Welcomes </span>the work by the Tripartite Review Commission on the United Nations in Afghanistan, established in accordance with Security Council resolution 2210 (2015) in order to examine the role, structure and activities of all United Nations entities in Afghanistan, in full consultation and engagement with the Government of Afghanistan and key stakeholders, including the donor community, <span class="italic">and acknowledges</span> the conclusions and recommendations contained in its final report; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend until 17 March 2017 the mandate of UNAMA, as defined in its resolutions 1662 (2006), 1746 (2007), 1806 (2008), 1868 (2009), 1917 (2010), 1974 (2011), 2041 (2012), 2096 (2013), 2145 (2014) and 2210 (2015), and paragraphs 4, 5, 6 and 7 below; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that the renewed mandate of UNAMA is in support of Afghanistan’s full assumption of leadership and ownership in the security, governance and development areas, consistent with the Transformation Decade (2015-2024) and with the understandings reached between Afghanistan and the international community in the international conferences in Kabul (2010), London (2010 and 2014), Bonn (2011) and Tokyo (2012) and the Lisbon (2010), Chicago (2012) and Wales (2014) Summits; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> the United Nations, with the support of the international community, to support the Government of Afghanistan’s reform agenda outlined in the document entitled “Realising Self-Reliance: Commitments to Reforms and Renewed Partnerships” regarding the issues of security, governance, justice and economic and social development and to support the full implementation of mutual commitments made on these issues at international Conferences, as well as on continuing implementation of the National Drug Control Strategy fully consistent with the principle of Afghan leadership, ownership and sovereignty reaffirmed in Kabul, Tokyo and London Conferences; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="SingleTxt">
+        <num>7.</num>
+        <list eId="para_59_list">
+          <intro eId="para_59_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides further</span> that UNAMA and the Special Representative of the Secretary-General, within their mandate and in a manner consistent with Afghan sovereignty, leadership and ownership, will continue to lead and coordinate the international civilian efforts, in full cooperation with the Government of Afghanistan and in accordance with the London, Kabul and Tokyo Conferences Communiqués and the Bonn Conference Conclusions, with a particular focus on the priorities laid out below: </p>
+          </intro>
+          <point eId="para_59_list_point_a">
+            <num>(a)</num>
+            <content eId="para_59_list_point_a_content">
+              <p xml:space="preserve"> 	promote, as co-chair of the Joint Coordination and Monitoring Board (JCMB), more coherent support by the international community to the Afghan Government’s development and governance priorities, including through supporting the ongoing development and sequencing of the Government’s reform agenda, mobilization of resources, coordination of international donors and organizations as facilitator and co-convener of development policy fora, including in developing and monitoring frameworks of mutual accountability, promoting coherent information sharing and analysis, design and delivery of development assistance in a manner consistent with Afghan sovereignty, leadership and ownership, and direction of the contributions of United Nations agencies, funds and programmes, in particular for counter-narcotics, reconstruction and development activities; at the same time, coordinate also in a manner consistent with the Afghan leadership, ownership and sovereignty, international partners for follow-up, in particular through information sharing, prioritize efforts to increase the proportion of development aid delivered through the Afghan Government, in line with the commitments made at the Kabul and Tokyo Conferences, and support efforts to increase the mutual accountability and transparency, and the effectiveness of aid use in line with the commitments made at the Kabul and Tokyo Conferences, including cost-effectiveness in this regard; </p>
+            </content>
+          </point>
+          <point eId="para_59_list_point_b">
+            <num>(b)</num>
+            <content eId="para_59_list_point_b_content">
+              <p xml:space="preserve">	support, at the request of the Afghan authorities, the organization of future Afghan elections, including the upcoming parliamentary elections, as well as to strengthen, in support of the Government of Afghanistan’s efforts, including electoral reform efforts, the sustainability, integrity and inclusiveness of the electoral process, as agreed at the London, Kabul, Bonn and Tokyo Conferences and the Chicago Summit; and provide capacity-building and technical assistance to the Afghan institutions involved in this process in close consultation and coordination with the government of Afghanistan; </p>
+            </content>
+          </point>
+          <point eId="para_59_list_point_c">
+            <num>(c)</num>
+            <content eId="para_59_list_point_c_content">
+              <p xml:space="preserve">	provide outreach as well as good offices to support, if requested by and in close consultation with the government of Afghanistan, the Afghan-led and Afghan-owned peace process, including through support to the High Peace Council and its activities and proposing and supporting confidence-building measures also in close consultation with the government of Afghanistan within the framework of the Afghan Constitution and with full respect for the implementation of measures and application of the procedures introduced by the Security Council in its resolutions 1267 (1999), 1988 (2011), 1989 (2011) and 2082 (2012), 2083 (2012) and 2255 (2015) as well as other relevant resolutions of the Council; </p>
+            </content>
+          </point>
+          <point eId="para_59_list_point_d">
+            <num>(d)</num>
+            <content eId="para_59_list_point_d_content">
+              <p xml:space="preserve">	support regional cooperation, with a view to assisting Afghanistan utilize its role at the heart of Asia to promote regional cooperation, and to work towards a stable and prosperous Afghanistan, building on the achievements made; </p>
+            </content>
+          </point>
+          <point eId="para_59_list_point_e">
+            <num>(e)</num>
+            <content eId="para_59_list_point_e_content">
+              <p xml:space="preserve">	continue, with the support of the Office of the United Nations High Commissioner for Human Rights, to cooperate with and strengthen the capacity of the Afghanistan Independent Human Rights Commission (AIHRC), to cooperate also with the Afghan Government and relevant international and local non‑governmental organizations to monitor the situation of civilians, to coordinate efforts to ensure their protection, to promote accountability, and to assist in the full implementation of the fundamental freedoms and human rights provisions of the Afghan Constitution and international treaties to which Afghanistan is a State party, in particular those regarding the full enjoyment by women of their human rights, including the Convention on the Elimination of all Forms of Discrimination Against Women (CEDAW); </p>
+            </content>
+          </point>
+          <point eId="para_59_list_point_f">
+            <num>(f)</num>
+            <content eId="para_59_list_point_f_content">
+              <p xml:space="preserve">	closely coordinate and cooperate, where relevant, with the non‑combat Resolute Support Mission agreed upon between NATO and Afghanistan, as well as with the NATO Senior Civilian Representative; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>8.</num>
+        <list eId="para_66_list">
+          <intro eId="para_66_list_intro">
+            <p xml:space="preserve">	<span class="italic">Calls on</span> UNAMA and the Special Representative to further increase efforts to achieve greater coherence, coordination and efficiency among relevant United Nations Agencies, Funds and Programmes in Afghanistan based on a “One‑UN” approach in close cooperation with the Government of Afghanistan with a view to maximizing their collective effectiveness in full alignment with the Government of Afghanistan’s reform agenda, and continue to lead, in a manner fully consistent with the Afghan leadership, ownership and sovereignty, international civilian efforts aimed at reinforcing the role of Afghan institutions to perform their responsibilities, with an increased focus on capacity building in key areas identified by the Afghan Government, with a view, in all UN programmes and activities, to move towards a national implementation model with a clear action-oriented strategy for mutually agreed condition-based transition to Afghan leadership and ownership including making greater use of country systems, in the following priority areas: </p>
+          </intro>
+          <point eId="para_66_list_point_a">
+            <num>(a)</num>
+            <content eId="para_66_list_point_a_content">
+              <p xml:space="preserve">	support through an appropriate UNAMA presence, to be determined in full consultation and cooperation with the Government of Afghanistan, and in support of the Afghan Government’s efforts, implementation of the Kabul Process throughout the country, including through enhanced cooperation with the United Nations Office on Drugs and Crime, in line with the Government’s policies; </p>
+            </content>
+          </point>
+          <point eId="para_66_list_point_b">
+            <num>(b)</num>
+            <content eId="para_66_list_point_b_content">
+              <p xml:space="preserve">	support the efforts of the Afghan Government in fulfilling its commitments as stated at the London, Kabul, Bonn and Tokyo Conferences, to improve governance and the rule of law including transitional justice, budget execution and the fight against corruption, throughout the country in accordance with the Kabul Process and the Self-Reliance through Mutual Accountability Framework (SMAF), with a view to helping bring the benefits of peace and the delivery of services in a timely and sustainable manner; </p>
+            </content>
+          </point>
+          <point eId="para_66_list_point_c">
+            <num>(c)</num>
+            <content eId="para_66_list_point_c_content">
+              <p xml:space="preserve">	coordinate and facilitate the delivery of humanitarian assistance, including in support of the Afghan Government and in accordance with humanitarian principles, with a view to reinforcing the Government’s capacity, including by providing effective support to national and local authorities in assisting and protecting internally displaced persons and to creating conditions conducive to the voluntary, safe, dignified and sustainable return of refugees from neighbouring and other countries and internally displaced persons, with a particular focus on development solutions in areas of high returns; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all Afghan and international parties to coordinate with UNAMA in the implementation of its mandate and in efforts to promote the security and freedom of movement of United Nations and associated personnel throughout the country; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> the need to ensure security of United Nations staff and its support for the measures already taken by the Secretary-General in this regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the critical importance of a continued and broad subnational presence of UNAMA and other United Nations Agencies, Funds and Programmes in the provinces, in close consultation and coordination with and in support of the Afghan Government, in response to needs and with a view to security and including the objective of overall United Nations effectiveness, and <span class="italic">strongly supports</span> the authority of the Special Representative of the Secretary-General in the coordination of all activities of United Nations Agencies, Funds and Programmes in Afghanistan based on a “One-UN” approach; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Secretary-General to continue his current efforts to take necessary measures to address the security issues associated with the United Nations presence and, particularly <span class="italic">encourages</span> careful coordination with the Afghan National Defence and Security Forces; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="italic">Underscores</span> the importance of a sustainable democratic development in Afghanistan with all Afghan institutions acting within their clearly defined areas of competence, in accordance with the relevant laws and the Afghan Constitution, and <span class="italic">welcomes</span>, in this regard, the commitment of the Government of Afghanistan at the Kabul Conference, reaffirmed at the Bonn and Tokyo Conferences, to deliver further improvements to the electoral process, including addressing the sustainability of the electoral process, and, <span class="italic">taking into account</span> the commitments by the international community and the Afghan Government made at the London, Kabul, Bonn, and Tokyo Conferences, <span class="italic">reaffirms</span> UNAMA’s important supporting role, at the request of the Afghan Government, in the realization of these commitments, and <span class="italic">requests</span> that, upon the request of the Government of Afghanistan, UNAMA provide assistance to the relevant Afghan institutions to support the integrity and inclusiveness of the electoral process, including measures to enable the full and safe participation of women, <span class="italic">welcomes</span> the participation of women in the electoral process as candidates, registered voters and campaigners, and <span class="italic">further calls upon</span> members of the international community to provide assistance as appropriate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_129__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the continuing efforts of the Afghan Government to advance the peace process, including by the High Peace Council and the implementation of the Afghanistan Peace and Reintegration Programme, to promote an inclusive, Afghan-led and Afghan-owned dialogue on reconciliation and political participation as laid forth in the 20 July 2010 Kabul Conference Communiqué on dialogue for all those who as part of an outcome of such a process renounce violence, have no links to international terrorist organizations, including Al-Qaida, respect the Constitution, including its human rights provisions, notably the rights of women, and are willing to join in building a peaceful Afghanistan, and as further elaborated in the principles and outcomes of the 5 December 2011 Bonn Conference Conclusions, and <span class="italic">encourages</span> the Government of Afghanistan to make use of UNAMA’s good offices to support this process as appropriate, in full respect of the implementation of measures and procedures introduced by the Security Council in its resolutions 1267 (1999), 1988 (2011), 2082 (2012), 2160 (2014) and 2255 (2015), as well as other relevant resolutions of the Council; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_143" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_143__content">
+          <p xml:space="preserve"> 	<span class="italic">Welcomes </span>the recent appointment of chairman and senior members of the High Peace Council, and <span class="italic">expresses </span>support to its efforts to promote peace and reconciliation in the country; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_158__content">
+          <p xml:space="preserve"> 	<span class="italic">Welcomes also </span>in this regard the establishment in January 2016 of the Quadrilateral Coordination Group of Afghanistan, China, Pakistan and the United States of America on the Afghan Peace and Reconciliation process, aimed at facilitating an Afghan-led and Afghan-owned peace and reconciliation process with a view to achieving lasting peace and stability in Afghanistan and the region, <span class="italic">welcomes </span>the finalization of the roadmap stipulating the status and steps in the process and the beginning of the implementation review of this roadmap, <span class="italic">takes note</span> of the work of the Group towards the holding of early direct peace talks between the Afghan Government and authorized representatives of the Taliban groups, <span class="italic">calls upon</span> the member countries of the Group to continue in their efforts, welcoming also the important role of the International Contact Group as well as regional support, and also <span class="italic">calls upon</span> all those other actors in a position to do so to cooperate in creating an environment conducive to commencement of such a process, which will lead towards a political <span class="italic">settlement</span> resulting in the cessation of violence and durable peace in Afghanistan and further prosperity and stability to the region; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_174" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_174__content">
+          <p xml:space="preserve"> 	<span class="italic">Stresses</span> the role of UNAMA in supporting, if requested by and in close consultation with the Government of Afghanistan, an inclusive Afghan-led and Afghan-owned peace process, while continuing to assess, including in collaboration with the AIHRC, the impact of the aforementioned peace process on human rights and gender, including on the promotion and protection of human rights and on the participation of women, and <span class="italic">encourages</span> the international community to assist the efforts of the Government of Afghanistan in this regard, politically and financially; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_191" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_191__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes also</span> the measures taken by the Government of Afghanistan, including the publication, in June 2015, of the National Action Plan for the implementation of the Security Council resolution 1325 (2000), and encourages it to continue to increase the participation of women as well as minorities and civil society in outreach, consultation and decision-making processes, <span class="italic">recalls</span> that women play a vital role in the peace process, as recognized in Security Council resolution 1325 (2000) and related resolutions, therefore <span class="italic">reiterates</span> the need for the full, equal and effective participation of women at all stages of peace processes, and <span class="italic">urges</span> their involvement in the development and implementation of post-conflict strategies in order to take account of their perspectives and needs as affirmed by the Bonn and Tokyo Conferences; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_209" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_209__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the ongoing work of the Committee established pursuant to Security Council resolution 1988 (2011), its role in supporting the peace and reconciliation process, <span class="italic">welcomes the continuation of</span> the cooperation of the Afghan Government, the High Peace Council and UNAMA with the Committee including its Analytical Support and Sanctions Monitoring Team, including through submitting travel ban exemption requests in support of the peace and reconciliation process to the Committee, providing relevant information for updating the 1988 List, and by identifying individuals, groups, undertakings and entities associated with the Taliban in constituting a threat to the peace, stability and security of Afghanistan, as per the designation criteria set out in Security Council resolution 2255 (2015), <span class="italic">notes</span> that means of financing or supporting these individuals, groups, undertakings and entities includes but is not limited to proceeds derived from illicit cultivation, production and trafficking of narcotic drugs originating in and transiting through Afghanistan, the trafficking of precursors into Afghanistan, the illegal exploitation of natural resources in Afghanistan, kidnap for ransom, extortion and other criminal activities, and <span class="italic">notes with concern</span> the increasing cooperation of the Taliban with other organizations involved in criminal activities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_228" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_228__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> its support to the ongoing Afghan-led regional effort within the framework of the “Heart of Asia-Istanbul Process on Regional Security and Cooperation for a Secure and Stable Afghanistan”, <span class="italic">looks forward</span> to the next Ministerial Conference to be held in New Delhi (India) in 2016, <span class="italic">calls on</span> Afghanistan and its regional partners to keep up the momentum and continue their efforts to enhance regional dialogue and confidence through the Heart of Asia-Istanbul Process, and <span class="italic">notes</span> that the Heart of Asia-Istanbul Process is intended to complement and cooperate with, and not substitute for, existing efforts of regional organizations, particularly where they relate to Afghanistan; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_248" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_248__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> ongoing efforts by the Government of Afghanistan, its neighbouring and regional partners and international organizations, including the Organization of Islamic Cooperation (OIC), to foster trust and cooperation with each other as well as recent cooperation initiatives developed by the countries concerned and regional organizations, including Trilateral, Shanghai Cooperation Organization (SCO), Collective Security Treaty Organization (CSTO), South Asian Association for Regional Cooperation (SAARC) and Regional Economic Cooperation Conference on Afghanistan (RECCA) Summits; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_269" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_269__content">
+          <p xml:space="preserve">	<span class="italic">Calls for</span> strengthening the process of regional cooperation, including measures to facilitate regional trade and transit, including through regional development initiatives such as the “Silk Road Economic Belt and 21st Century Maritime Silk Road” initiative, and regional and bilateral transit trade agreements, expanded consular visa cooperation and facilitation of business travel, to expand trade, to increase foreign investments and to develop infrastructure, including infrastructural connectivity, energy supply, transport and integrated border management, with a view to strengthening Afghanistan’s role in regional economic cooperation, promoting sustainable economic growth and the creation of jobs in Afghanistan; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_291" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_291__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> in this regard, the importance of strengthening local and regional networks of transportation that will facilitate connectivity for economic development, stability and self-sustainability, particularly the completion and maintenance of local railroad and land routes, the development of regional projects to foster further connectivity, and the enhancement of international civil aviation capabilities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_314" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_314__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the central role played by the JCMB, in a manner consistent with Afghan leadership, ownership and sovereignty, in coordinating, facilitating and monitoring the implementation of the Government of Afghanistan’s reform agenda, and <span class="italic">calls upon</span> all relevant actors to enhance their cooperation with the JCMB in this regard, with a view to further improve its efficiency; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_338" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_338__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> international donors and organizations and the Afghan Government to adhere to their commitments made at the Kabul and Tokyo Conferences and previous international conferences, and reaffirmed in the 2014 London Conference, and <span class="italic">reiterates</span> the critical importance of enhancing the predictability and effectiveness of aid by increasing on-budget assistance to Afghan government in tandem with the improvements to Afghan budget and expenditure systems and improving aid coordination and effectiveness, through ensuring transparency, combating corruption, and enhancing the capacity of the Government of Afghanistan to coordinate aid; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_363" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_363__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates </span>its support for the Government of Afghanistan, and in particular to the Afghan National Defence and Security Forces, in their task of securing their country and in their fight against terrorism and violent extremism, and <span class="italic">calls upon</span> the Afghan Government, with the assistance of the international community, to continue to address the threat to the security and stability of Afghanistan posed by the Taliban, including the Haqqani Network, as well as Al‑Qaida and other violent and extremist groups, illegal armed groups, criminals and those involved in the production, trafficking or trade of illicit drugs, and <span class="italic">encourages</span> the Government of Afghanistan to continue its efforts to prevent violent extremism with the support of the international community; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_389" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_389__content">
+          <p xml:space="preserve"> 	<span class="italic">Welcomes</span> the increasing cooperation between Afghanistan and relevant regional and neighbouring partners and organizations against the Taliban, including the Haqqani Network, as well as Al-Qaida and other violent extremist and criminal groups and illegal armed groups; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_416" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_416__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> the importance of increasing, in a comprehensive framework, the functionality, professionalism and accountability of the Afghan security sector through appropriate vetting procedures, training including on women’s and children’s rights and on gender issues in support of the implementation of resolution 1325 and Afghanistan’s 1325 National Action Plan, mentoring, equipping and empowerment efforts, for both women and men, in order to accelerate progress towards the goal of self-sufficient, ethnically balanced and women-inclusive Afghan security forces providing security and ensuring the rule of law throughout the country, <span class="italic">stresses</span> the importance of the long-term commitment by the international community to ensure a capable, professional and sustainable Afghan National Security Force and <span class="italic">notes</span> in this context the establishment of the non‑combat, train, advise and assist Resolute Support Mission, based on the bilateral agreements between NATO and Afghanistan and at the invitation of Afghanistan; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_444" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_444__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> in this context the continued progress in the development of the Afghan National Army and its improved ability to plan and undertake operations, and <span class="italic">encourages</span> sustained training efforts and assistance, including through the contribution of trainers, resources and Advisory Teams through the NATO Resolute Support Mission, and advice in developing a sustainable defence planning process as well as assistance in defence reform initiatives; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_473" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_473__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the ongoing efforts of the Afghan authorities to enhance the capabilities of the Afghan National Police, <span class="italic">calls for</span> further efforts towards that goal and <span class="italic">stresses</span> the importance, in this context, of international assistance through financial support and provision of trainers and mentors, including the contribution of the NATO Resolute Support Mission, as agreed to and accepted by the Government of Afghanistan, the European Gendarmerie Force (EGF) contribution to this mission and the European Union’s through its police mission (EUPOL Afghanistan), as well as the German Police Project Team (GPPT) and the contribution of the Russian Federation to the international effort supporting capabilities of the Afghan National Police by the recent transfer of non‑repayable weapons and ammunition, <span class="italic">notes</span> the importance of a sufficient and capable police force for Afghanistan’s long-term security, <span class="italic">takes note </span>of the commitment by the Ministry of Interior and the Afghan National Police to develop an effective strategy for coordinating increased recruitment, retention, training, and capacity development for women in the Afghan National Police, as well as furthering the implementation of their gender integration strategy, and <span class="italic">welcomes</span> UNAMA’s continued support for women police associations; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_503" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_503__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the progress in the implementation by the Afghan Government of the programme of disbandment of illegal armed groups and its integration with the Afghanistan Peace and Reintegration Programme, and <span class="italic">calls for</span> accelerated and harmonized efforts for further progress, with support from the international community; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_534" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_534__content">
+          <p xml:space="preserve">	<span class="italic">Condemns</span> in the strongest terms all attacks, including improvised explosive device attacks, suicide attacks, assassinations and abductions, targeting civilians and Afghan and international forces and their deleterious effect on the stabilization, reconstruction and development efforts in Afghanistan, and <span class="italic">condemns further</span> the use by the Taliban and other violent and extremist groups of civilians as human shields; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_566" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_566__content">
+          <p xml:space="preserve"> 	<span class="italic">Strongly condemns</span> the continued flow of weapons, including small arms and light weapons (SALW), military equipment and IED components to the Taliban, including the Haqqani network and other violent and extremist groups, <span class="italic">expresses</span> serious concern at the destabilizing impact of such weapons on the security and stability of Afghanistan, and emphasizing the need for enhancing control over the transfer of illicit SALW in this regard <span class="italic">encourages</span> Member States to share information, establish partnerships and develop national strategies and capabilities to counter IEDs; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_599" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_599__content">
+          <p xml:space="preserve"> 	<span class="italic">Further condemns </span>recent terrorist acts against diplomatic missions as well as all acts of violence against diplomatic and consular officials and other representatives of the international community in Afghanistan, which apart from endangering or taking innocent lives seriously impede the normal work of such officials and representatives; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_633" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_633__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> with concern the continued high incidence of attacks against humanitarian and development workers, including attacks on health-care workers and medical transports and facilities, <span class="italic">condemns</span> these attacks in the strongest terms emphasizing that the attacks impede efforts to aid the people of Afghanistan, and <span class="italic">calls on</span> all parties to ensure full, safe and unhindered access of all humanitarian actors, including United Nations staff and associated personnel, to comply fully with applicable international humanitarian law, and to respect the United Nations guiding principles of emergency humanitarian assistance; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_668" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_668__content">
+          <p xml:space="preserve"> 	<span class="italic">Recalls</span> the obligations of all States and parties to an armed conflict, in accordance with international humanitarian law, to respect and protect humanitarian personnel, including medical personnel and humanitarian personnel exclusively engaged in medical duties, their means of transport and equipment, and hospitals and other medical facilities, which must not be attacked, and to ensure that the wounded and sick receive, to the fullest extent practicable, and with the least possible delay, the medical care and attention required and <span class="italic">stresses</span> that those responsible for such violations and abuses shall be held accountable; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_704" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_704__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the achievements to date in the implementation of the Mine Action Programme of Afghanistan, <span class="italic">encourages</span> the Government of Afghanistan, with the support of the United Nations and all the relevant actors, to continue its efforts towards the removal and destruction of anti‑personnel landmines, anti‑tank landmines and explosive remnants of war in order to reduce the threats posed to human life and peace and security in the country, <span class="italic">expresses the need</span> to provide assistance for the care, rehabilitation, and economic and social reintegration of victims, including persons with disabilities and <span class="italic">calls</span> on the Government of Afghanistan, with support of UNAMA, UNMAS and relevant actors, to strengthen mine risk education programmes in order to reduce the risks posed to civilians, in particular to children, by anti‑personnel landmines, anti‑tank mines, IEDs and explosive remnants of war; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_741" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_741__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its strong concern about the recruitment and use of children by the Taliban, Al-Qaida and other violent and extremist groups in Afghanistan, in particular the use of children in suicide attacks, <span class="italic">reiterates</span> its strong condemnation of the recruitment and use of child soldiers in violation of applicable international law and all other violations and abuses committed against children in situations of armed conflict, including those involving killing and maiming of children, rape and other forms of sexual violence against children, abduction of children, denial of humanitarian access, and attacks against schools, education and health-care facilities, including the burning and forced closure of schools, and the intimidation, abduction and killing of education personnel, particularly those attacks targeting girls’ education by illegal armed groups, including the Taliban, and <span class="italic">noting</span>, in this context, the listing of the Taliban in the annex of the report of the Secretary-General on Children and Armed Conflict (<a href="http://undocs.org/S/2015/409">S/2015/409</a>), and <span class="italic">calls for</span> those responsible to be brought to justice; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_779" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_779__content">
+          <p xml:space="preserve">	In this context, <span class="italic">stresses</span> the importance of implementing Security Council resolution 1612 (2005) on children and armed conflict and subsequent resolutions, noting concern over increasing child casualties, continuing instances of recruitment and use of children and the need for protection of schools and hospitals, <span class="italic">supports</span> the decree by the Minister of the Interior reaffirming the Afghan Government’s commitment to preventing violations of the rights of the child dated 6 July 2011, <span class="italic">welcomes</span> the progress made on the implementation of the Action Plan and its annex on children associated with the ANDSF signed in January 2011, and the Road Map to Compliance, in particular the establishment of the Afghan Inter-Ministerial Steering Committee on Children and Armed Conflict, the entry into force of the presidential decree criminalising child recruitment and use by the ANDSF, the establishment of child protection units within Afghan National Police recruitment centres and the endorsement of national age assessment guidelines to prevent underage recruitment, <span class="italic">calls for</span> further implementation of the above mentioned provisions, in close cooperation with UNAMA and other relevant United Nations agencies, and for those responsible for violations and abuses against children to be held accountable; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_818" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_818__content">
+          <p xml:space="preserve"> 	<span class="italic">Requests </span>UNAMA to continue to support efforts to strengthen the protection of children affected by armed conflict, including engagement with the Afghan Government to fully implement the Action Plan and Road Map, and actions to address other violations and abuses, including sexual violence against children, and<span class="italic"> requests </span>the Secretary-General to continue to give priority to the child protection activities and capacity of UNAMA and continue to include in his future reports the matter of children and armed conflict in the country in line with the relevant Security Council resolutions; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_858" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_858__content">
+          <p xml:space="preserve">	<span class="italic">Remains concerned</span> at the serious harm that opium cultivation, production and trafficking and consumption continue to cause to the stability, security, public health, social and economic development and governance of Afghanistan as well as to the region and internationally, <span class="italic">takes note</span> of the UNODC Afghanistan Opium Survey 2015 released in October 2015 and of the decrease in production and cultivation of drugs suggested in it, <span class="italic">welcomes </span>the launch in September 2015 of the National Drug Action Plan, <span class="italic">calls on</span> the Afghan Government, with the assistance of the international community, to accelerate its implementation as well as that of the National Drug Control Strategy, including through alternative livelihood programmes, and to mainstream counter-narcotics throughout national programmes, <span class="italic">encourages</span> additional international support for the four priorities identified in that Strategy, and commends the support provided by the UNODC to the Triangular Initiative and the Central Asian Regional Coordination and Information Centre (CARICC) within the framework of the Paris Pact Initiative and the Rainbow Strategy and the UNODC regional programme for Afghanistan and neighbouring countries, as well as the contribution of the Domodedovo Police Academy of Russia; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_899" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_899__content">
+          <p xml:space="preserve">	<span class="italic">Acknowledges</span> that illicit proceeds of the drug trafficking significantly contributes to the financial resources of the Taliban and its associates, and <span class="italic">calls for</span> a review, in close consultation with the Government of Afghanistan, of the United Nations role in supporting the Government of Afghanistan to combat illicit economy, including counter-narcotics, and encouraging international cooperation in this regard including to further address regional linkages and concerns; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_941" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_941__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the continued efforts of the United Nations Office on Drugs and Crime in empowering the Afghan Ministry of Counter Narcotics-led implementation of the Afghan National Drug Control Strategy, including through the JCMB’s Counter Narcotics Monitoring Mechanism; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_984" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_984__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to strengthen international and regional cooperation to counter the threat to the international community posed by the production, trafficking, and consumption of illicit drugs originating in Afghanistan, with a view to its progressive elimination, in accordance with the principle of common and shared responsibility in addressing the drug problem of Afghanistan, including through strengthening the law enforcement capacity and cooperation against the trafficking in illicit drugs and precursor chemicals and money-laundering and corruption linked to such trafficking, and <span class="italic">calls for</span> full implementation of its resolution 1817 (2008); </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1028" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_1028__content">
+          <p xml:space="preserve">	<span class="italic">Appreciates</span> the work of the Paris Pact initiative and its “Paris-Moscow” process in countering the production, trafficking and consumption of opium and heroin from Afghanistan and the elimination of poppy crops, drug laboratories and stores as well as the interception of drug convoys, <span class="italic">underlines</span> the importance of border management cooperation, and <span class="italic">welcomes</span> the intensified cooperation of the relevant United Nations institutions with the OSCE and the CSTO in this regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1073" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_1073__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> the importance of accelerating the establishment of a fair and transparent justice system, eliminating impunity and contributing to the affirmation of the rule of law throughout the country and <span class="italic">welcomes</span> steps taken by the Government of Afghanistan in this regard such as ensuring the declaration of assets by the members of the Supreme Court, launching a systematic performance review and further increasing the number of female judges; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1119" class="SingleTxt">
+        <num>47.</num>
+        <content eId="para_1119__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> in this context the importance of further progress in the reconstruction and reform of the prison sector in Afghanistan, in order to improve the respect for the rule of law and human rights therein, <span class="italic">emphasizes</span> the importance of ensuring access for relevant organizations, as applicable, to all prisons and places of detention in Afghanistan, <span class="italic">calls for</span> full respect for relevant international law including humanitarian law and human rights law, <span class="italic">notes</span> the recommendations contained in the report of the Assistance Mission dated 25 February 2015, <span class="italic">welcomes</span> the adoption of the National Action Plan to fully eliminate torture in Afghan detention facilities, and<span class="italic"> encourages </span>the Government of Afghanistan to consider measures that focus on the rehabilitation and reintegration for children formerly associated with armed forces and armed groups and to ensure they are treated in accordance with international juvenile justice standards, including as outlined in the Convention on the Rights of the Child and the International Covenant for Civil and Political Rights; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1166" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_1166__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> with strong concern the effects of corruption on security, good governance, counter-narcotics efforts and economic development, <span class="italic">welcomes</span> the anti‑corruption commitments made by the Government of Afghanistan at the Tokyo Conference in 2012 and reinforced in September 2015 in the Self-Reliance through Mutual Accountability Framework (SMAF), <span class="italic">welcomes</span> the efforts of the Government of Afghanistan in this regard, including the issuance of the presidential decree in July 2012, <span class="italic">calls for</span> continued action by the Government to fulfil those commitments in order to establish a more effective, accountable and transparent administration at the national, provincial and local levels of government and <span class="italic">also welcomes</span> continued international support for Afghanistan’s governance objectives; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1214" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_1214__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> all Afghan institutions, including the executive and legislative branches, to work in a spirit of cooperation, <span class="italic">recognizes</span> the Afghan Government’s continued efforts in pursuing legislative and public administration reform in order to tackle corruption and to ensure good governance, as agreed at the Bonn Conference, with full representation of all Afghan women and men, and accountability at both national and subnational levels, and <span class="italic">stresses</span> the need for further international efforts to provide technical assistance in this area, and <span class="italic">recognizes</span> the Government of Afghanistan efforts in this regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1263" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_1263__content">
+          <p xml:space="preserve">	<span class="italic">Calls for</span> full respect for and protection for all human rights and fundamental freedoms, including those of human rights defenders, and of international humanitarian law throughout Afghanistan, <span class="italic">welcomes</span> the growth in Afghan free media, but <span class="italic">notes with concern</span> the continued restrictions on freedom of media, and attacks against journalists by terrorist as well as extremist and criminal groups, <span class="italic">commends</span> the Afghanistan Independent Human Rights Commission (AIHRC) for its courageous efforts to monitor respect for human rights in Afghanistan as well as to foster and protect these rights and to promote the emergence of a pluralistic civil society, <span class="italic">stresses</span> the importance of full cooperation with the AIHRC by all relevant actors and promoting their independence as well as of ensuring their safety, and supports broad engagement across government agencies and civil society for the realization of the mutual commitments made, including the commitment to provide sufficient government financing for the AIHRC, <span class="italic">reiterates</span> the important role of the AIHRC, and <span class="italic">supports</span> the efforts of the AIHRC to strengthen its institutional capacity and independence within the framework of the Afghan Constitution; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1313" class="SingleTxt">
+        <num>51.</num>
+        <content eId="para_1313__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> that despite progress achieved on gender equality, enhanced efforts, including on measurable and action-oriented objectives, are necessary to secure the rights and full participation of women and girls and to ensure that all women and girls in Afghanistan are protected from violence and abuse, that perpetrators of such violence and abuse are held accountable, and that women and girls enjoy equal protection under the law and equal access to justice, <span class="italic">welcomes</span> the publication, in June 2015, of the National Action Plan for the implementation of the Security Council resolution 1325 (2000), <span class="italic">emphasizes</span> the importance of maintaining adequate legislative protections for women, and of ensuring that women fleeing domestic violence are able to find safe and secure refuge, <span class="italic">strongly condemns</span> discrimination and violence against women and girls, in particular violence aimed at preventing girls from attending schools, and <span class="italic">stresses</span> the importance of implementing Security Council resolutions 1325 (2000), 1820 (2008), 1888 (2009), 1889 (2009), 1960 (2010), 2106 (2013), 2122 (2013) and 2242 (2015) noting the mainstreaming commitments introduced therein, and <span class="italic">welcomes</span> in this regard the establishment in January 2016 of a new Trust Fund for Victims of Violence against Women by the Government of Afghanistan to support victims of violence against women; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1364" class="SingleTxt">
+        <num>52.</num>
+        <content eId="para_1364__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the Afghan Government’s commitment to strengthen the participation of women in the Afghan political life and in all Afghan governance institutions including elected and appointed bodies and the civil service and <span class="italic">notes</span> the progress in this regard, <span class="italic">welcomes</span> its continued efforts to protect and promote the full participation of women in the electoral processes and <span class="italic">requests</span> the Secretary-General to continue to include in his reports to the Security Council relevant information on the process of integration of women into the political, economic and social life of Afghanistan, <span class="italic">notes</span> the UNAMA report on the Implementation of the Law on Elimination of Violence against Women in Afghanistan, and <span class="italic">calls on</span> the Government of Afghanistan to urgently develop a strategy to fully implement it, including services to victims and access to justice, <span class="italic">welcomes</span> in this regard the launch in November 2014 by the Ministry of Public Health of the Gender-based Violence Treatment Protocol for Healthcare Providers, <span class="italic">recalls</span> that the promotion and protection of women’s rights are an integral part of development, peace, reintegration and reconciliation and that women play a vital role in the peace process, <span class="italic">welcomes</span> the Afghan Government’s commitment to developing, implementing and monitoring the National Action Plan on Women, Peace and Security and identifying further opportunities to support participation of women in the Afghan-led and Afghan-owned peace process, and <span class="italic">welcomes</span> the commitment of the Government of Afghanistan to develop a Women’s Economic Empowerment Action Plan; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1416" class="SingleTxt">
+        <num>53.</num>
+        <content eId="para_1416__content">
+          <p xml:space="preserve">	<span class="italic">Expresses </span>its concern over the recent increase in the number of internally displaced persons in and refugees from Afghanistan, <span class="italic">stresses</span> that stability and development of Afghanistan require that its citizens can see a future for themselves within their country, <span class="italic">welcomes</span> the commitment of the Government of Afghanistan in making repatriation and reintegration of Afghan refugees among its highest national priorities including their voluntary, safe and dignified return and their sustainable reintegration in the national development planning and prioritization processes, <span class="italic">encourages</span> all efforts of the Government of Afghanistan towards the implementation of this commitment, and <span class="italic">calls for</span> continued and enhanced international assistance in this regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1469" class="SingleTxt">
+        <num>54.</num>
+        <content eId="para_1469__content">
+          <p xml:space="preserve"> 	<span class="italic">Strongly supports</span> the Government of Afghanistan in its commitment to create the necessary conditions for the repatriation and sustainable reintegration of Afghan refugees in the country with emphasis on youth empowerment, education, livelihoods, social protection and infrastructure, and <span class="italic">stresses</span> in this regard the key importance of attaining peace and stability for solving the refugee crisis as well as of advances in social and economic welfare leading to the improvement of the living conditions inside Afghanistan through the coordinated efforts of the Government of Afghanistan with the support of the international community; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1523" class="SingleTxt">
+        <num>55.</num>
+        <content eId="para_1523__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> the need to continue to strengthen, with the support of the international community, Afghanistan’s absorption capacity for the full rehabilitation and sustainable reintegration of Afghan returnees and internally displaced persons; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1578" class="SingleTxt">
+        <num>56.</num>
+        <content eId="para_1578__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> that the Secretary-General reports to the Council every three months on developments in Afghanistan, and to include in his reports an evaluation of progress made against the benchmarks for measuring and tracking progress in the implementation of UNAMA’s mandate, including at the subnational level, and priorities as set out in this resolution; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_1634" class="SingleTxt">
+        <num>57.</num>
+        <content eId="para_1634__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

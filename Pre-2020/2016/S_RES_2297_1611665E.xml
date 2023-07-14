@@ -1,0 +1,682 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/"></FRBRuri>
+          <FRBRdate date="2016-07-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/eng@/"></FRBRuri>
+          <FRBRdate date="2016-07-07" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-07-09" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="1" href="http://metadata.un.org/sdg/1" showAs="sdg_1" dictionary="SDGO"></keyword>
+        <keyword value="poverty" href="http://eurovoc.europa.eu/2281" showAs="poverty" dictionary="EuroVoc"></keyword>
+        <keyword value="poverty" href="http://metadata.un.org/thesaurus/1005064" showAs="poverty" dictionary="UNBIS"></keyword>
+        <keyword value="poverty_mitigation" href="http://metadata.un.org/thesaurus/1005065" showAs="poverty_mitigation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="African Union Mission in Somalia" showAs="African Union Mission in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Support Office in Somalia" showAs="UN. Support Office in Somalia" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOMALIA SITUATION" showAs="SOMALIA SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUPPORT SERVICES" showAs="SUPPORT SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[84]" showAs="SOMALIA SITUATION" dictionary="S/71"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2297 (2016) [on authorization to the Member States of the African Union to maintain the deployment of the African Union Mission in Somalia (AMISOM) until 31 May 2017]" showAs="Security Council resolution 2297 (2016) [on authorization to the Member States of the African Union to maintain the deployment of the African Union Mission in Somalia (AMISOM) until 31 May 2017]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2016-07-07" outcome="draftResolution" as="S/2016/591" by="Angola, France, Japan, New Zealand, Spain, Ukraine, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2016-07-07" outcome="adopted" as="S/PV.7731" by="Adopted unanimously, 7731st meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+                <organization refersTo="memberState">NEW ZEALAND</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+                <organization refersTo="memberState">VENEZUELA (BOLIVARIAN REPUBLIC OF)</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">16-11665 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2297 (2016)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2016-07-07" class="rightSmall" refersTo="#dateOfIssuance">7 July 2016</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2297 (2016)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="7731st">7731st meeting</inline>, on<docDate date="2016-07-07" refersTo="#adoptionDate">7 July 2016</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> all its previous resolutions and statements of its President on the situation in Somalia,</p>
+      </container>
+      <container name="Underlining" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> its respect for the sovereignty, territorial integrity, political independence, and unity of Somalia,</p>
+      </container>
+      <container name="Condemning" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> recent Al Shabaab attacks in Somalia and beyond, <span class="italic">expressing serious concern</span> at the ongoing threat posed by Al Shabaab, and <span class="italic">underlining</span> its concern that Al Shabaab continues to hold territory and extort revenue in Somalia,</p>
+      </container>
+      <container name="Expressing" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> outrage at the loss of civilian life, in Al Shabaab attacks, and <span class="italic">paying tribute</span> to the bravery and sacrifices made by the African Union Mission in Somalia (AMISOM) and the Somali Security Forces personnel in the fight against Al Shabaab,</p>
+      </container>
+      <container name="Reiterating" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Reiterating </span>its determination to support efforts to reduce the threat posed by Al Shabaab in Somalia, and <span class="italic">underlining</span> its commitment to support an inclusive Somali-led political peace and reconciliation process,</p>
+      </container>
+      <container name="Expressing grave concern" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Expressing grave concern</span> at the continued violations and abuses of human rights and violations of international humanitarian law in Somalia,</p>
+      </container>
+      <container name="Welcoming" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the positive contributions that the UN Support Office in Somalia (UNSOS) has made to supporting the gains made by AMISOM and the UN Assistance Mission in Somalia (UNSOM), and <span class="italic">underscoring</span> the importance of an effective partnership between the United Nations, the African Union (AU) and Member States in Somalia,</p>
+      </container>
+      <container name="Recognizing" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that the Federal Government of Somalia (FGS) has a responsibility to protect its citizens and build its own national security forces, <span class="italic">noting</span> that these forces should be inclusive and representative of Somalia and act in full compliance with their obligations under international humanitarian law and international human rights law, and <span class="italic">reaffirming</span> the intent of international partners to support the FGS in achieving this,</p>
+      </container>
+      <container name="Welcoming" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the FGS and regional leaders’ endorsement of a new National Security Policy, <span class="italic">calling on</span> the FGS to accelerate its implementation in view of the remaining threat posed by Al-Shabaab, <span class="italic">underlining</span> the importance of further defining the composition of Somalia’s national security forces, identifying capability gaps in order to guide AMISOM and donors’ security sector assistance priorities and signalling areas of cooperation with the international community, and <span class="italic">noting</span> the international community’s intention to support the FGS in security sector reform,</p>
+      </container>
+      <container name="Recognizing" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that a more stable Somalia is of vital importance to ensuring regional security,</p>
+      </container>
+      <block name="subheading">AMISOM</block>
+      <container name="Commending" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the contribution of AMISOM to lasting peace and stability in Somalia, <span class="italic">noting</span> its critical role in improving the security situation, <span class="italic">expressing</span> its appreciation for the continued commitment of troops, police and equipment to AMISOM by the Governments of Burundi, Djibouti, Ethiopia, Kenya, Uganda and other African nations, and <span class="italic">recognizing</span> the significant sacrifices made by AMISOM forces, </p>
+      </container>
+      <container name="Welcoming" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the support of the international community to peace and stability in Somalia, in particular the European Union for its substantial contribution in supporting AMISOM, as well as support from other bilateral partners to both AMISOM and the Somali National Army (SNA), and <span class="italic">emphasizing</span> the importance of new contributions, including from the African Union Peace Fund, the private sector, civil society and other donations, in order to share the financial burden of supporting AMISOM,</p>
+      </container>
+      <container name="Taking note" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the African Union Peace and Security Council’s communiqué of 28 April 2016 on the situation in Somalia and AMISOM,</p>
+      </container>
+      <container name="Welcoming" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the holding of the Summit of the Heads of State and Government of the troop and police contributing countries of AMISOM in Djibouti on 28 February 2016, and their commitment to improving coordination within AMISOM and to the revitalisation of AMISOM operations, <span class="italic">welcomes</span> the development of the revised Concept of Operations 2016 for AMISOM, as endorsed by the AU Peace and Security Council on 29 June 2016 and <span class="italic">looks forward</span> to its implementation,</p>
+      </container>
+      <container name="Welcoming" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the AU’s investigation of allegations of sexual violence against some AMISOM troops, <span class="italic">underlining</span> the importance of the AU implementing the recommendations of the report, and in line with resolution 2272 (2016), <span class="italic">calling on</span> the AU and troop-contributing countries to ensure that allegations are properly and thoroughly investigated and appropriate and timely follow-up action is taken, including full investigation of those cases of abuse referred to the AU investigation team,</p>
+      </container>
+      <container name="Expressing concern" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Expressing concern</span> over the continued activities of Al Shabaab and reports of pro-Islamic State in Iraq and the Levant (ISIL, also known as Da’esh) elements in Somalia and the security implications of the situation in Yemen for Somalia,</p>
+      </container>
+      <container name="Determining" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in Somalia continues to constitute a threat to international peace and security,</p>
+      </container>
+      <container name="Acting" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_21" class="H4">
+        <subheading>		AMISOM</subheading>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Agrees</span> with the Secretary-General that conditions in Somalia are not appropriate for the deployment of a United Nations peacekeeping mission;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Continues to agree</span> with the revised benchmarks as set out in the Secretary-General’s letter to the President of the Security Council of 2 July 2015, <span class="italic">agrees</span> with his conclusion that the achievement of the benchmarks could pave the way for the deployment of a United Nations peacekeeping operation which could help consolidate the peace process in Somalia and the development of Somali security sector institutions, and <span class="italic">requests</span> the Secretary-General to keep these benchmarks under continuous review, in consultation with the AU;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> that the increases in the force strength decided in resolution 2036 (2012) and 2124 (2013) are to provide short term enhancement to AMISOM’s military capacity, and as part of an overall exit strategy for AMISOM, after which a decrease in AMISOM’s force strength will be considered in light of progress on the ground;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="H4">
+        <subheading>		Priorities and tasks</subheading>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to authorize the Member States of the AU to maintain the deployment of AMISOM up to a maximum level of 22,126 uniformed personnel until 31 May 2017, and <span class="italic">further decides</span> that AMISOM shall be authorized to take all necessary measures, in full compliance with participating States’ obligations under international humanitarian law and international human rights law, and in full respect of the sovereignty, territorial integrity, political independence and unity of Somalia, to carry out its mandate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>5.</num>
+        <list eId="para_28_list">
+          <intro eId="para_28_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides to authorize</span> AMISOM to implement the following strategic objectives:</p>
+          </intro>
+          <point eId="para_28_list_point_a">
+            <num>(a)</num>
+            <content eId="para_28_list_point_a_content">
+              <p xml:space="preserve">	Reduce the threat posed by Al Shabaab and other armed opposition groups;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_b">
+            <num>(b)</num>
+            <content eId="para_28_list_point_b_content">
+              <p xml:space="preserve">	Provide security in order to enable the political process at all levels as well as stabilisation efforts, reconciliation and peacebuilding in Somalia;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_c">
+            <num>(c)</num>
+            <content eId="para_28_list_point_c_content">
+              <p xml:space="preserve">	Enable the gradual handing over of security responsibilities from AMISOM to the Somali security forces contingent on abilities of the Somali security forces;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>6.</num>
+        <list eId="para_30_list">
+          <intro eId="para_30_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides to authorize</span> AMISOM to carry out the following priority tasks:</p>
+          </intro>
+          <point eId="para_30_list_point_a">
+            <num>(a)</num>
+            <content eId="para_30_list_point_a_content">
+              <p xml:space="preserve">	To continue to conduct offensive operations against Al Shabaab and other armed opposition groups;</p>
+            </content>
+          </point>
+          <point eId="para_30_list_point_b">
+            <num>(b)</num>
+            <content eId="para_30_list_point_b_content">
+              <p xml:space="preserve">	To maintain a presence in the sectors set out in the AMISOM Concept of Operations in order to establish conditions for effective and legitimate governance across Somalia, in coordination with the Somali security forces;</p>
+            </content>
+          </point>
+          <point eId="para_30_list_point_c">
+            <num>(c)</num>
+            <content eId="para_30_list_point_c_content">
+              <p xml:space="preserve">	To assist with the free movement, safe passage and protection of all those involved with the peace and reconciliation process in Somalia, and ensure the security of the electoral process in Somalia as a key requirement;</p>
+            </content>
+          </point>
+          <point eId="para_30_list_point_d">
+            <num>(d)</num>
+            <content eId="para_30_list_point_d_content">
+              <p xml:space="preserve">	To secure key supply routes including to areas recovered from Al Shabaab, in particular those essential to improving the humanitarian situation, and those critical for logistical support to AMISOM, underscoring that the delivery of logistics remains a joint responsibility between the United Nations and AU;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>7.</num>
+        <list eId="para_33_list">
+          <intro eId="para_33_list_intro">
+            <p xml:space="preserve">	<span class="italic">Further decides</span> to authorize AMISOM to carry out the following essential tasks:</p>
+          </intro>
+          <point eId="para_33_list_point_a">
+            <num>(a)</num>
+            <content eId="para_33_list_point_a_content">
+              <p xml:space="preserve">	To conduct joint operations with the Somali security forces, within its capabilities, in coordination with other parties, as part of the implementation of the Somali national security plans and to contribute to the wider effort of training and mentoring of the security forces of the FGS;</p>
+            </content>
+          </point>
+          <point eId="para_33_list_point_b">
+            <num>(b)</num>
+            <content eId="para_33_list_point_b_content">
+              <p xml:space="preserve">	To contribute, within its capabilities as may be requested, to the creation of the necessary security conditions for the provision of humanitarian assistance;</p>
+            </content>
+          </point>
+          <point eId="para_33_list_point_c">
+            <num>(c)</num>
+            <content eId="para_33_list_point_c_content">
+              <p xml:space="preserve">	To engage with communities in recovered areas, and promote understanding between AMISOM and local populations, within its capabilities, which will allow for longer term stabilisation by the United Nations Country Team and other actors;</p>
+            </content>
+          </point>
+          <point eId="para_33_list_point_d">
+            <num>(d)</num>
+            <content eId="para_33_list_point_d_content">
+              <p xml:space="preserve">	To provide and assist, as appropriate, protection to the Somali authorities to help them carry out their functions of government, and security for key infrastructure;</p>
+            </content>
+          </point>
+          <point eId="para_33_list_point_e">
+            <num>(e)</num>
+            <content eId="para_33_list_point_e_content">
+              <p xml:space="preserve">	To protect its personnel, facilities, installations, equipment and mission, and to ensure the security and freedom of movement of its personnel, as well as of United Nations personnel carrying out functions mandated by the Security Council;</p>
+            </content>
+          </point>
+          <point eId="para_33_list_point_f">
+            <num>(f)</num>
+            <content eId="para_33_list_point_f_content">
+              <p xml:space="preserve">	To receive on a transitory basis, defectors, as appropriate, and in coordination with the United Nations;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to report, in consultation with the FGS and AMISOM, on progress in securing key supply routes as described in paragraph 6 (d) in his written reports on the situation in Somalia to the Security Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> that, in line with the recommendations of the Joint AU-UN Review, the AU enable a surge in its efficiency and ensure that AMISOM is configured to conduct the full range of required operations effectively, in particular by strengthening command and control structures, enhancing cross-sector operations, examining sector boundaries, and generating a dedicated quick reaction forces’ capability under the authority of the Force Commander, which should operate alongside existing Somali forces;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> its request that the AU generate the specialised units set out in the annex to this resolution and as recommended by the Joint Report of 2 October 2013 and set out in the Secretary-General’s letter of 14 October 2013, within in the existing troop ceiling, and authorized in paragraph 6 of resolution 2036 (2012), and ensuring that all force enablers and multipliers operate under the command of the Force Commander, and <span class="italic">further requests</span> that these are generated without delay and reflected in the revised Concept of Operations and requests regular updates on this force generation through the Secretary-General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the critical need to source contingent-owned equipment including force enablers and multipliers as provided for in paragraph 6 of resolution 2036 (2012) either from existing AMISOM troop-contributing countries or other Member States, <span class="italic">emphasizes</span> in particular the need for an appropriate aviation component of up to twelve military helicopters under the command of the Force Commander, and <span class="italic">urges</span> the immediate generation of this component;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the Secretary-General’s commitment to work with the Chairperson of the African Union Commission, troop-contributing countries, and Federal Government of Somalia to help ensure that a surge in efficiency materialises and is sustained over time, and reiterates its request to the Secretary-General to monitor implementation of the surge, including through performance indicators, and in this regard to keep the Council updated in the Secretary-General’s regular reporting;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Notes with concern</span> that the delay in the appointment of the Force Commander has impacted the Mission's effectiveness, <span class="italic">commends</span> the decision of the Government of Djibouti to nominate the Force Commander, and <span class="italic">looks forward</span> to his immediate deployment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the importance of AMISOM forces carrying out their mandate in full compliance with their obligations under international humanitarian law and international human rights law, and cooperating with UNSOM and UNSOS in implementing the Human Rights Due Diligence Policy on United Nations support to Non-United Nations Security Forces (HRDDP), and <span class="italic">calls upon</span> the AU to investigate and report allegations of violations and abuses of human rights and violations of international humanitarian law, as well as continuing to ensure the highest standards of transparency, and conduct and discipline;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to ensure that any support provided to non‑United Nations security forces is provided in strict compliance with the HRDDP and to include progress made in implementing the policy in the Secretary-General’s reports to the Security Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_105__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the commencement of activities establishing a Civilian Casualty Tracking Analysis and Response Cell (CCTARC) as requested in resolutions 2093 (2013) and 2124 (2013), and <span class="italic">underlines</span> the importance of making the CCTARC operational and effective without further delay, and in this regard <span class="italic">urges</span> the full support of troop and police contributors for the CCTARC, in collaboration with humanitarian, human rights and protection actors, and <span class="italic">underlines</span> the importance of ensuring information is shared with relevant actors including the United Nations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_118__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> AMISOM to use its CCTARC as part of its reporting on joint AMISOM operations with the Somali security forces;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_132__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the AU to keep the Security Council regularly informed, through the Secretary-General, on the implementation of AMISOM’s mandate, and report to the Council, through the provision of oral updates and no fewer than three written reports, every 120 days with the first written report no later than 12 September 2016;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_133" class="H4">
+        <subheading>		Support and partnership</subheading>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to work closely with the AU in supporting the implementation of this resolution, <span class="italic">further requests</span> the Secretary‑General to continue to provide technical and expert advice to the AU on the planning, deployment and strategic management of AMISOM through the United Nations office to the AU, and <span class="italic">reiterates</span> its request to the Secretary-General, in view of the need to increase AMISOM’s efficiency, to enhance the provision of technical advice to the AU through existing United Nations mechanisms;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_135" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_135__content">
+          <p xml:space="preserve">	<span class="italic">Agrees</span> with the Secretary-General that a joint AMISOM-United Nations-Somali planning mechanism should assess and facilitate the delivery of AMISOM’s mandate in line with paragraphs 5, 6 and 7 of this resolution, ensuring in particular thorough coordination and consultation ahead of, during and after offensive operations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_137__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its call for new donors to support AMISOM through the provision of additional funding for troop stipends, equipment, technical assistance and uncaveated funding for AMISOM to the United Nations Trust Fund for AMISOM, <span class="italic">calls upon</span> the AU to consider how to provide sustainable funding for AMISOM, and <span class="italic">underlines</span> the AU’s call for its Member States to provide financial support to AMISOM; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_140" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> the Report of the Joint United Nations-African Union Review of AMISOM of 2 October 2013 and the revised benchmarks as set out in the Secretary-General’s letter to the President of the Security Council of 2 July 2015, and <span class="italic">agrees</span> with the Secretary-General that progress towards the further degradation of Al-Shabaab’s capacity to launch attacks, in parallel with improving the capacity of Somali forces to progressively sustain control of areas recaptured from Al‑Shabaab allowing the return of State authority, can enable a gradual reduction of AMISOM’s role in Somalia, and allow a transition to a role of oversight and rapid response in support of the Somali security forces;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> that the AU, taking into account progress achieved in offensive operations against Al Shabaab and other terrorist organisations, by gradually, and in a limited manner, and where appropriate, reconfigure AMISOM uniformed personnel in favour of police personnel within the authorized AMISOM personnel ceiling, and provide updates on the reconfiguration as appropriate through the Secretary-General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_149" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_149__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General, in consultation with the African Union, to conduct a joint assessment mission of AMISOM, after the 2016 electoral process, to ensure that AMISOM is properly configured to support the next phase of state-building in Somalia, and to present options and recommendations to the Security Council by 15 April 2017;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_155" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_155__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the importance of the FGS accelerating the strengthening and improved coordination of the Somali security institutions, and enhancing efforts to move towards the eventual handover of security responsibilities to the Somali security services, including through the establishment of a forum between the FGS, AU and United Nations to specifically plan for, and regularly monitor, the handover of security responsibilities, which is an essential part of AMISOM’s eventual exit strategy, and <span class="italic">requests</span> regular updates on this trilateral coordination through the Secretary-General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_156" class="H4">
+        <subheading>		Somali Security Forces</subheading>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="italic">Calls for</span> the rapid implementation of the National Security Policy, and the federal policing model, and expeditious agreement on a Somali federal security sector architecture, which clearly defines the roles, responsibilities and structures of relevant security sector institutions as a way of improving coordination between AMISOM and the Somali security forces and ensuring coherence and sustainability of international assistance by UNSOM;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_158" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_158__content">
+          <p xml:space="preserve">	<span class="italic">Underscores</span> the importance of bilateral partners delivering on any pledged support as well as supporting UNSOM in implementing its mandate to assist the FGS in coordinating international donor support on security sector assistance, and in this regard <span class="italic">emphasizes</span> the importance of UNSOM’s mandate to assist the FGS in coordinating international donor support on security sector assistance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_160" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_160__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the support already provided by the international community and bilateral donors to the Somali security sector, <span class="italic">encourages</span> partners to further enhance their support to the FGS for the development of the Somali security sector and <span class="italic">calls upon</span> new partners to come forward to support this development, and <span class="italic">reiterates</span> the importance of coordination amongst all partners;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> that it is essential that military operations are followed immediately by national efforts to establish or improve governance structures in recovered areas and by the delivery of basic services, including security;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_167" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_167__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes </span>the commitment of the FGS and emerging Federal states to establish basic policing services across Somalia, as envisaged in the new federal policing model, <span class="italic">encourages</span> donors to support the FGS in its implementation, and <span class="italic">welcomes</span> capacity-building for the maritime police force in line with resolution 2246 (2015) by the FGS with the support of UNSOM, and <span class="italic">looks forward</span> to progress towards its implementation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_172" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_172__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the Secretary-General’s examination in his letter of 7 October 2015 (<a href="http://undocs.org/S/2015/762">S/2015/762</a>) of the concept and feasibility of the options available for entities to provide logistics support to the Puntland forces that are to be integrated into the SNA, <span class="italic">further notes</span> that such support to the SNA in Puntland be provided by a United Nations entity other than UNSOS, and <span class="italic">welcomes</span> the intention to continue to work towards identifying the best mechanism;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="H4">
+        <subheading>		Logistical Support</subheading>
+      </paragraph>
+      <paragraph eId="para_174" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_174__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to continue to provide a logistical support package for AMISOM and 70 AMISOM civilians, the SNA on joint operations with AMISOM, and UNSOM, as set out in paragraph 2 of resolution 2245 and <span class="italic">requests</span> the Secretary-General to expedite the necessary procedures to implement resolution 2245;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_175__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the AU, the United Nations and troop-contributing countries to jointly determine the equipment requirements for AMISOM and to conclude negotiations on the trilateral Memorandum of Understanding (MOU) without delay, and<span class="italic"> requests</span> the Secretary-General to report on the status of the tripartite MOUs in his regular reporting;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="H4">
+        <subheading>		Somalia</subheading>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> President Hassan Sheikh’s and the FGS’s commitment to an inclusive and credible electoral process in 2016 and underlines the Council’s expectation that there should not be an extension of electoral process timelines for either the executive or legislative branches, <span class="italic">underlines</span> the importance of implementing the electoral process set out in the 22 May 2016 Presidential decree without further delay, <span class="italic">calls on</span> all parties to engage constructively to achieve this and <span class="italic">emphasizes</span> that this year’s electoral process is a critical step towards one person one vote elections in 2020 and in this regard <span class="italic">urges</span> the National Leadership Forum to adopt a roadmap to the 2020 elections;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_178" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_178__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the need to ensure progress in the constitutional review process without further delay in order to establish an effective federal political system and a comprehensive reconciliation process that brings about national cohesion and integration, and <span class="italic">underlines</span> in this regard the importance of supporting the peaceful and inclusive completion of the state formation process and providing effective mediation when necessary and <span class="italic">encourages</span> close dialogue between the FGS, regional administrations, civil society and the Somali public in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_180__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> President Hassan Sheikh and the FGS to implement commitments to security sector reform, including on increasing the transparency and accountability of security sector financial management, and to deliver early implementation of the endorsed national security policy, resulting in a clear, sustainable and agreed architecture of security sector institutions, <span class="italic">urges</span> the President and FGS to undertake this comprehensive security sector reform as soon as possible, including by providing timely, regular and predictable payment of stipends for the SNA, and <span class="italic">underlines</span> in this regard the need to ensure full and regular consultation with, and support from, all Federal states and Interim Regional Administrations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_183" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_183__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the FGS’ active engagement with the Universal Periodic Review Process and encourages implementation by states of all accepted recommendations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_187" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_187__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> concern at continued violations and abuses of human rights and violations of international humanitarian law in Somalia and <span class="italic">underscores</span> the need to end impunity, uphold human rights and to hold accountable those responsible for such violations and abuses, <span class="italic">welcomes</span> the recent passage of legislation to establish Somalia’s National Human Rights Commission, <span class="italic">encourages</span> its rapid formation and <span class="italic">further encourages</span> the FGS to pass legislation aimed at protecting human rights and ensuring investigations and prosecutions of perpetrators of crimes involving violations of international humanitarian law and human rights violations and abuses;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> concern at the increase in forced evictions of internally displaced persons (IDPs) from public and private infrastructure in major towns in Somalia, <span class="italic">stresses</span> that any eviction should be consistent with relevant national and international frameworks, <span class="italic">calls upon</span> the FGS and all relevant actors to strive to provide concrete durable solutions for internal displacement, and <span class="italic">encourages</span> the FGS, with the support of partners, to create an environment conducive to the voluntary repatriation of refugees, and the voluntary, safe and dignified return, local integration or resettlement of IDPs;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_198" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> concern at the ongoing humanitarian crisis in Somalia and its impact on the people of Somalia, <span class="italic">commends</span> the efforts of the United Nations humanitarian agencies and other humanitarian actors to deliver life-saving assistance to vulnerable populations, <span class="italic">condemns</span> the increase in attacks against humanitarian workers and calls on all parties to respect and protect humanitarian personnel, facilities and assets; further <span class="italic">condemns</span> any misuse or obstruction of humanitarian assistance, and <span class="italic">reiterates</span> its demand that all parties allow and facilitate full, safe and unhindered access for the timely delivery of aid to persons in need across Somalia; <span class="italic">underlines</span> the importance of proper accounting in international humanitarian support, and <span class="italic">encourages</span> national disaster management agencies in Somalia to scale up capacity with support from the United Nations to take a stronger leadership role in coordination of humanitarian response;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_205" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_205__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the importance of respect for international humanitarian law and the protection of civilians, especially women and children, as well as relevant Security Council resolutions, by all actors in Somalia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_213" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_213__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> the important role of women and youth in the prevention and resolution of conflicts and in peacebuilding, <span class="italic">stresses</span> the importance of their participation in all efforts for the maintenance and promotion of peace and security, <span class="italic">recalls</span> in this regard Security Council resolution 2242 (2015), <span class="italic">notes</span> that women are not adequately represented in the assemblies of the new interim regional administrations and <span class="italic">urges</span> the FGS and Interim Regional Administrations to continue to promote increased representation of women at all decision-making levels in Somali institutions, including meeting the agreed 30% quota for women in both houses of the Federal Parliament in the 2016 electoral process, and <span class="italic">encourages</span> UNSOM to enhance its interaction across Somali civil society, including women, youth, and religious leaders in order to ensure that the views of civil society are incorporated in the various political processes;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_222" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_222__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> Somalia’s ratification of the Convention on the Rights of the Child (1989) and <span class="italic">calls</span> for increased implementation of the two Action Plans signed in 2012 and strengthening of the legal framework for the protection of children, especially in light of continued abductions and unlawful recruitment and use of children in armed conflict as well as detention of children for association with armed groups as detailed in the annual Report of the Secretary-General on Children and Armed Conflict of 20 April 2016 (<a href="http://undocs.org/S/2016/360">S/2016/360</a>), and <span class="italic">encourages</span> the FGS to consider the ratification of the Optional Protocol to the Convention on the Rights of the Child on the involvement of children in armed conflict;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_223" class="H4">
+        <subheading>		Reporting</subheading>
+      </paragraph>
+      <paragraph eId="para_224" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_224__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to keep the Security Council regularly informed on the implementation of this resolution, including through oral updates and no fewer than three written reports, with the first written report by 12 September 2016, and every 120 days thereafter;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_225" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_225__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/"></FRBRuri>
+                <FRBRdate date="2016-07-07" name="adoption"></FRBRdate>
+                <FRBRauthor href="sc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/eng@/"></FRBRuri>
+                <FRBRdate date="2016-07-07" name="publication"></FRBRdate>
+                <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2016-07-07/2297-2016/eng@.xml"></FRBRuri>
+                <FRBRdate date="2023-07-09" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_226" class="H1">
+              <heading>Annex</heading>
+            </paragraph>
+            <paragraph eId="para_227" class="SingleTxt">
+              <content eId="para_227__content">
+                <p xml:space="preserve">Units to be generated:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_228" class="SingleTxt">
+              <content eId="para_228__content">
+                <p xml:space="preserve">	(a)	A training team of 220 troops to assist the coordination and consolidation of bilateral training on one agreed instruction doctrine and to take the lead in training, mentoring and partnering the SNA;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_229" class="SingleTxt">
+              <content eId="para_229__content">
+                <p xml:space="preserve">	(b)	Logistics Mission Enabling Units of 190 personnel per sector and 240 personnel at headquarters to reinforce command and control as well as to upgrade linkages between sector commands and AMISOM Headquarters in line with the expansion of operations;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_230" class="SingleTxt">
+              <content eId="para_230__content">
+                <p xml:space="preserve">	(c)	An engineering unit of 190 personnel;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_231" class="SingleTxt">
+              <content eId="para_231__content">
+                <p xml:space="preserve">	(d)	A signals unit of 117 personnel;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_232" class="SingleTxt">
+              <content eId="para_232__content">
+                <p xml:space="preserve">	(e)	Port Security component of 312 troops to be confined to patrols in the vicinity of key seaports and to operate jointly with Somali port security units;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_233" class="SingleTxt">
+              <content eId="para_233__content">
+                <p xml:space="preserve">	(f)	Civilian Casualty Tracking Analysis and Response Cell (CCTARC) of six personnel;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_234" class="SingleTxt">
+              <content eId="para_234__content">
+                <p xml:space="preserve">	(g)	An aviation component of up to a maximum of 3 utility helicopters and 9 attack helicopters.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
