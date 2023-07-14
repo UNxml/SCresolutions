@@ -1,0 +1,151 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2055-2012/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2055-2012/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2055-2012/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2055-2012/eng@/"></FRBRuri>
+          <FRBRdate date="2012-06-29" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2055-2012/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2055-2012/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-26" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1540 (2004) concerning Non-Proliferation of Nuclear, Chemical and Biological Weapons. Group of Experts" showAs="UN. Security Council Committee Established pursuant to Resolution 1540 (2004) concerning Non-Proliferation of Nuclear, Chemical and Biological Weapons. Group of Experts" dictionary="DHLAUTH"></keyword>
+        <keyword value="NUCLEAR NON-PROLIFERATION" showAs="NUCLEAR NON-PROLIFERATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WEAPONS OF MASS DESTRUCTION" showAs="WEAPONS OF MASS DESTRUCTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[23]" showAs="NUCLEAR NON-PROLIFERATION" dictionary="S/67"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2055 (2012) [on increase of the size of the Group of Experts of the Security Council Committee Established pursuant to Resolution 1540 (2004) concerning Non-Proliferation of Nuclear, Chemical and Biological Weapons]" showAs="Security Council resolution 2055 (2012) [on increase of the size of the Group of Experts of the Security Council Committee Established pursuant to Resolution 1540 (2004) concerning Non-Proliferation of Nuclear, Chemical and Biological Weapons]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2012-06-29" outcome="draftResolution" as="S/2012/501" by="France, Germany, South Africa, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2012-06-29" outcome="adopted" as="S/PV.6795" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">AZERBAIJAN</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">INDIA</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">PORTUGAL</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">12-39767 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2055 (2012)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2012-06-29" class="rightSmall" refersTo="#dateOfIssuance">29 June 2012</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2055 (2012)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its resolutions 1540 (2004) of 28 April 2004, 1673 (2006) of 27 April 2006, 1810 (2008) of 25 April 2008, and 1977 (2011) of 20 April 2011, </p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its decision in resolution 1977 (2011) to extend the mandate of the Committee established pursuant to resolution 1540 (2004), hereafter the 1540 Committee, until 25 April 2021, </p>
+      </container>
+      <container name="Emphasizing" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Emphasizing</span> the 1540 Committee’s significantly increased workload over the course of its mandate, </p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recalling</span>, in that regard, its decision in paragraph 5 of resolution 1977 (2011) to continue to provide the 1540 Committee with the assistance of experts, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_6" class="SingleTxt">
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to increase the size of the group of experts referred to in paragraph 5 (a) of resolution 1977 (2011) to up to nine experts. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
