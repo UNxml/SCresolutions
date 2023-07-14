@@ -1,0 +1,821 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/eng@/"></FRBRuri>
+          <FRBRdate date="2013-03-28" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-16" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Organization Stabilization Mission in the Democratic Republic of the Congo. Intervention Brigade" showAs="UN Organization Stabilization Mission in the Democratic Republic of the Congo. Intervention Brigade" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Organization Stabilization Mission in the Democratic Republic of the Congo" showAs="UN Organization Stabilization Mission in the Democratic Republic of the Congo" dictionary="DHLAUTH"></keyword>
+        <keyword value="Democratic Republic of the Congo. Forces armées" showAs="Democratic Republic of the Congo. Forces armées" dictionary="DHLAUTH"></keyword>
+        <keyword value="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" showAs="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY REFORM" showAs="MILITARY REFORM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POLICE" showAs="POLICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMS EMBARGO" showAs="ARMS EMBARGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO" showAs="DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFF SECURITY" showAs="STAFF SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REGIONAL SECURITY" showAs="REGIONAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PARTNERSHIP" showAs="PARTNERSHIP" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GOOD OFFICES" showAs="GOOD OFFICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GREAT LAKES REGION (AFRICA)" showAs="GREAT LAKES REGION (AFRICA)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[104]" showAs="UN ORGANIZATION STABILIZATION MISSION IN THE DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="S/68"></keyword>
+        <keyword refersTo="agenda" value="[102]" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="S/68"></keyword>
+        <keyword refersTo="agenda" value="[101]" showAs="GREAT LAKES REGION (AFRICA)--REGIONAL SECURITY" dictionary="S/68"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2098 (2013) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 31 Mar. 2014]" showAs="Security Council resolution 2098 (2013) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 31 Mar. 2014]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2013-03-28" outcome="draftResolution" as="S/2013/195" by="France, Togo and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2013-03-28" outcome="adopted" as="S/PV.6943" by="Adopted unanimously, 6943rd meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">AUSTRALIA</organization>
+                <organization refersTo="memberState">AZERBAIJAN</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GUATEMALA</organization>
+                <organization refersTo="memberState">LUXEMBOURG</organization>
+                <organization refersTo="memberState">MOROCCO</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">REPUBLIC OF KOREA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">RWANDA</organization>
+                <organization refersTo="memberState">TOGO</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">13-27381 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2098 (2013)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2013-03-28" class="rightSmall" refersTo="#dateOfIssuance">28 March 2013</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2098 (2013)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its previous resolutions and the statements of its President concerning the Democratic Republic of the Congo (DRC), especially its resolutions 2078 (2012), 2076 (2012), 2053 (2012), 1991 (2011) and 1925 (2010),</p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolution 2086 (2013) and reaffirming the basic principles of peacekeeping, including consent of the parties, impartiality, and non‑use of force, except in self-defence and defence of the mandate, and <span class="italic">recognizing</span> that the mandate of each peacekeeping mission is specific to the need and situation of the country concerned, </p>
+      </container>
+      <container name="Reaffirming" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, unity and territorial integrity of the DRC and emphasizing the need to respect fully the principles of non‑interference, good-neighbourliness and regional cooperation,</p>
+      </container>
+      <container name="Noting" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that eastern DRC has continued to suffer from recurring cycles of conflict and persistent violence by armed groups, both Congolese and foreign, and emphasizing the need to address the root causes of conflict to put an end to these recurring cycles of violence,</p>
+      </container>
+      <container name="Welcoming" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the efforts of the Secretary-General of the United Nations, the International Conference on the Great Lakes Region (ICGLR), the Southern African Development Community (SADC), and the African Union (AU) to restore peace and security in eastern DRC,</p>
+      </container>
+      <container name="Welcoming" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the signing in Addis Ababa on 24 February 2013 of the Peace, Security and Cooperation Framework for the Democratic Republic of the Congo and the region (“the PSC Framework”), under the auspices of its guarantors, namely the Secretary-General of the United Nations, the Chairperson of the AU Commission, the Chairperson of the SADC and Chairperson of the ICGLR, </p>
+      </container>
+      <container name="Further welcoming" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Further welcoming</span> the designation by the Secretary-General of President Mary Robinson as his Special Envoy for the Great Lakes region,</p>
+      </container>
+      <container name="Reiterating" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its deep concern regarding the security and humanitarian crisis in North-Kivu due to ongoing destabilizing activities of the 23 March Movement (M23) and other Congolese and foreign armed groups, and <span class="italic">expressing</span> concern at their negative impact on the deteriorating security and humanitarian situation in South Kivu and in Katanga,</p>
+      </container>
+      <container name="Expressing" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> its deep concern regarding the threat posed by the presence of M23 in the immediate vicinity of the city of Goma in violation of resolution 2076 (2012), as well as the continuation of serious violations of international humanitarian law and abuses of human rights by the M23 and other armed groups,</p>
+      </container>
+      <container name="Taking note" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the report of the Secretary-General S/2013/149 which includes a list of parties responsible for patterns of rape and other forms of sexual violence in situations of armed conflict,</p>
+      </container>
+      <container name="Further taking note" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Further taking note</span> of the report of the Secretary-General S/2013/96 and <span class="italic">reiterating</span> its strong condemnation of any and all external support to the M23, including through troop reinforcement, tactical advice and the supply of equipment and materiel, </p>
+      </container>
+      <container name="Expressing" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> deep concern regarding the increasing number of internally displaced persons in and refugees from eastern DRC caused by the M23, the Forces Démocratiques de Libération du Rwanda (FDLR) and other Congolese and foreign armed groups,</p>
+      </container>
+      <container name="Expressing" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> its concern at the heightened instability across eastern DRC resulting also in part from the increased activity of other armed groups, including the Alliance des Patriotes pour un Congo libre et souverain (APCLS) and the Allied Democratic Forces (ADF) in North Kivu, the Mayi-Mayi Gedeon and the Mayi-Mayi Kata-katanga in Katanga Province, the Lord’s Resistance Army (LRA) in Orientale Province, and <span class="italic">further expressing</span> concern at Rwandan reports of attacks by the FDLR on Rwandan territory,</p>
+      </container>
+      <container name="Recalling" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the Security Council’s Presidential Statements on the Central African Region and the LRA, including S/PRST/2012/28, S/PRST/2012/18 and S/PRST/2011/21, <span class="italic">commending</span> the important ongoing efforts being undertaken by the United Nations Organization Stabilization Mission in the DRC (MONUSCO) in the fight against LRA, <span class="italic">encouraging</span> further efforts of the AU-Regional task force, and urging greater cooperation and information-sharing between relevant UN bodies, the AU-Regional Task Force regional forces and non‑governmental organisations in tackling the threat of the LRA,</p>
+      </container>
+      <container name="Calling upon" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Calling upon</span> all parties in the conflict to respect the impartiality, independence and neutrality of humanitarian actors,</p>
+      </container>
+      <container name="Remaining" eId="container_17">
+          <p xml:space="preserve">	<span class="italic">Remaining</span> greatly concerned by the humanitarian situation that continues to severely affect the civilian population, in particular in eastern DRC, and the persistent high levels of violence and abuses and violations of international law, <span class="italic">condemning</span> in particular those involving the targeted attacks against civilians, widespread sexual and gender-based violence, systematic recruitment and use of children by certain parties to the conflict, the displacement of significant numbers of civilians, extrajudicial executions and arbitrary arrests and recognizing their deleterious effect on the stabilization, reconstruction and development efforts in the DRC, </p>
+      </container>
+      <container name="Recalling" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions 1325 (2000), 1820 (2008), 1888 (2009), 1889 (2009) and 1960 (2010) on women, peace and security, its resolutions 1265 (1999), 1296 (2000), 1674 (2006), 1738 (2006) and 1894 (2009) on the protection of civilians in armed conflict, and its resolutions 1612 (2005), 1882 (2009), 1998 (2011) and 2068 (2012) on children and armed conflict,</p>
+      </container>
+      <container name="Welcoming" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the efforts of the MONUSCO and international partners in delivering training in human rights, child protection and protection from sexual and gender-based violence for Congolese security institutions and underlining its importance, </p>
+      </container>
+      <container name="Condemning" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> the mass rapes in Minova and the surrounding villages in November 2012 reportedly committed by soldiers of the Armed forces of the DRC (FARDC), <span class="italic">taking note of</span> the investigations and arrests undertaken thereafter by the Congolese authorities, and <span class="italic">calling</span> for all those responsible for violations of international humanitarian law or abuses of human rights, as applicable, including those involving violence or abuses against children and acts of sexual and gender-based violence, to be swiftly apprehended, brought to justice and held accountable,</p>
+      </container>
+      <container name="Welcoming" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the commitment made by the Government of the DRC to hold accountable those responsible for atrocities in the country, noting the cooperation of the Government of the DRC with the International Criminal Court (ICC) and <span class="italic">stressing</span> the importance of actively seeking to hold accountable those responsible for war crimes and crimes against humanity in the country and of regional and international cooperation to this end,</p>
+      </container>
+      <container name="Welcoming" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the surrender of Bosco Ntaganda to the ICC on 22 March 2013 as a positive step for international criminal justice as well as towards the restoration of peace and security in eastern DRC and <span class="italic">expressing</span> its appreciation to all Governments concerned as well as to the ICC for their cooperation, which was essential to bring Bosco Ntaganda to justice, </p>
+      </container>
+      <container name="Noting" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that hundreds of M23 combatants, including individuals designated by the Security Council, fled from the DRC into Rwanda on 18 March 2013, <span class="italic">encouraging</span> the Government of Rwanda, with the assistance of relevant UN and international organizations, to continue to ensure that these combatants are permanently demobilized and are dealt with according to relevant international law including special attention to children and women among them, and <span class="italic">recalling</span> the Member States’ obligations under the 1533 sanctions regime, as renewed by resolution 2078,</p>
+      </container>
+      <container name="Taking note" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> that the Secretary-General, in January 2012, encouraged the Council to reject any endorsement of amnesty for genocide, war crimes, crimes against humanity or gross violations of human rights and international humanitarian law,</p>
+      </container>
+      <container name="Stressing" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> that the Government of the DRC bears primary responsibility for security, protection of civilians, national reconciliation, peacebuilding and development in the country, and <span class="italic">urging</span> the Government of the DRC to remain fully committed to the implementation of the PSC Framework and to protecting the civilian population through the swift establishment of professional, accountable and sustainable security forces, the deployment of Congolese civil administration, in particular the police, judiciary and territorial administration and the establishment of rule of law and respect for human rights,</p>
+      </container>
+      <container name="Taking note" eId="container_26">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> in this regard of the statements of the President of the DRC, Joseph Kabila, of 15 and 31 December 2012 in which he indicated that army reform will constitute a major priority for his Government in 2013, <span class="italic">and calling on</span> the Government of the DRC to uphold its commitment to security sector reform, including the creation and support of a Rapid Reaction Force, the development of a comprehensive Disarmament, Demobilization and Reintegration (DDR) and Demobilization, Repatriation, Reintegration and Resettlement (DDRRR) plan, and the development of a roadmap for the security and justice sectors, which will require the allocation of necessary resources and a continued commitment from the Government to prioritize reform, </p>
+      </container>
+      <container name="Reiterating its call on" eId="container_27">
+        <p xml:space="preserve">	<span class="italic">Reiterating its call on</span> all parties to cooperate fully with MONUSCO, and its condemnation of any and all attacks against peacekeepers, <span class="italic">emphasizing</span> that those responsible for such attacks must be held accountable, and <span class="italic">recalling </span>its decision to extend sanctions measures outlined in paragraph 3 of the Resolution 2078 (2012) to individuals and entities who plan, sponsor or participate in attacks against MONUSCO peacekeepers,</p>
+      </container>
+      <container name="Reiterating" eId="container_28">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its call upon the Secretary-General to take all measures deemed necessary to strengthen UN field security arrangements and improve the safety and security of all military contingents, police officers, military observers, and especially unarmed observers,</p>
+      </container>
+      <container name="Taking note" eId="container_29">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the special report of the Secretary-General S/2013/119 on the DRC and the Great Lakes region and of its recommendations contained therein, including regarding the establishment of an “Intervention Brigade” within MONUSCO, based on the idea initially conceived by the ICGLR and supported by SADC,</p>
+      </container>
+      <container name="Recalling" eId="container_30">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the letter dated 27 December 2012 from the Secretary-General (S/2013/43) on proposals for improving MONUSCO’s ability to implement its mandate, and the response letter of its President from 22 January 2013 (S/2013/44),</p>
+      </container>
+      <container name="Recognizing" eId="container_31">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the significant sacrifices made by MONUSCO and <span class="italic">expressing appreciation</span> for its efforts to improve peace and stability in the DRC,</p>
+      </container>
+      <container name="Underlining" eId="container_32">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the importance of MONUSCO deterring any threats to the implementation of its mandate,</p>
+      </container>
+      <container name="Welcoming" eId="container_33">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the contribution of MONUSCO to a comprehensive strategy for durable peace and security, <span class="italic">noting with appreciation</span> the contribution that MONUSCO makes to early peacebuilding and <span class="italic">emphasizing</span> that MONUSCO’s activities should be conducted in a manner so as to facilitate post-conflict peacebuilding, prevention of relapse of armed conflict and progress towards sustainable peace and development,</p>
+      </container>
+      <container name="Stressing" eId="container_34">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> the importance of the full and urgent implementation of the PSC Framework to reducing threats against civilians in the long-term, <span class="italic">noting</span> the need for MONUSCO to strengthen support to the government of the DRC to enable it to address security challenges and extend state authority of the government of DRC as expressed in paragraph 5 of the PSC Framework, and <span class="italic">recognizing</span> the need for a comprehensive peace process to put an end to the sources of conflict in the region, </p>
+      </container>
+      <container name="Determining" eId="container_35">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in the DRC continues to constitute a threat to international peace and security in the region,</p>
+      </container>
+      <container name="Acting" eId="container_36">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the signing on 24 February 2013 of the PSC Framework for the DRC and the region and <span class="italic">stresses </span>the importance of this agreement for the long term stability of eastern DRC and the region;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Demands that</span> the signatory States of the PSC Framework fully implement their commitments in good faith;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> in this regard the prompt establishment of (i) a regional “11+4” oversight mechanism involving the leaders of the region with the good offices of the Guarantors of the PSC Framework, which will meet regularly and review progress in the implementation of the regional commitments under the PSC Framework and (ii) a national oversight mechanism in order to accompany and oversee the implementation of the commitments for reform of the DRC;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> the newly designated Special Envoy for the Great Lakes Region, in coordination with and with the appropriate support from the Special Representative for the DRC, to lead, coordinate and assess the implementation of national and regional commitments under the PSC Framework, as set out in Annex A, including through the swift establishment of benchmarks and appropriate follow-up measures and, building on the PSC Framework, encourages the Special Envoy for the Great Lakes Region to lead a comprehensive political process that includes all relevant stakeholders to address the underlying root causes of the conflict;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> the Special Representative for the DRC, in collaboration with the Special Envoy for the Great Lakes Region, to support, coordinate and assess the implementation of national commitments under the PSC Framework in the DRC, as set out in Annex B;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its intention to review progress of the implementation of the PSC Framework in the region against the associated benchmarks and appropriate follow-up measures after the conclusion of the first visit to the region of the Special Envoy for the Great Lakes Region and regularly thereafter, as well as on the basis of the reports of the Secretary-General referred to in paragraph 34 below, and <span class="italic">further expresses</span> its intention, in the event that any or all of the parties have not complied with the commitments set forth in the PSC Framework, to take appropriate measures as necessary;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Strongly condemns</span> the continued presence of the M23 in the immediate vicinity of Goma and its attempts to establish an illegitimate parallel administration in North-Kivu, <span class="italic">demands</span> that the M23 cease immediately all forms of violence and destabilizing activities and that its members immediately and permanently disband and lay down their arms, and <span class="italic">calls for</span> the restoration of state authority of the Government of the DRC in Goma and in North-Kivu;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">Strongly condemns</span> the M23, the FDLR, the ADF, the APCLS, the LRA, the National Force of Liberation (FNL), the various Mayi Mayi groups and all other armed groups and their continuing violence and abuses of human rights, including summary executions, sexual and gender based violence and large scale recruitment and use of children, <span class="italic">demands</span> that all armed groups cease immediately all forms of violence and destabilizing activities and that their members immediately and permanently disband and lay down their arms, and <span class="italic">reiterates</span> that those responsible for human rights abuses and violations of international humanitarian law will be held accountable and should not be eligible for integration into the FARDC or other elements of state security forces;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend the mandate of MONUSCO in the DRC until 31 March 2014, <span class="italic">takes note</span> of the recommendations of the Special Report of the Secretary-General on the DRC and in the Great Lakes Region regarding MONUSCO, and <span class="italic">decides</span> that MONUSCO shall, for an initial period of one year and within the authorized troop ceiling of 19,815, on an exceptional basis and without creating a precedent or any prejudice to the agreed principles of peacekeeping, include an “Intervention Brigade” consisting inter alia of three infantry battalions, one artillery and one Special force and Reconnaissance company with headquarters in Goma, under direct command of the MONUSCO Force Commander, with the responsibility of neutralizing armed groups as set out in paragraph 12 (b) below and the objective of contributing to reducing the threat posed by armed groups to state authority and civilian security in eastern DRC and to make space for stabilization activities; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_82__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the Intervention Brigade will have a clear exit strategy and that the Council will consider the continued presence of the Intervention Brigade in light of its performance and whether the DRC, which has the primary responsibility for safeguarding its sovereignty and territorial integrity, has made sufficient progress in implementing its commitments under the PSC Framework, as well as the establishment and implementation of a national security sector reform roadmap for the creation of a Congolese “Rapid Reaction Force” able to take over responsibility for achieving the objective of the Intervention Brigade;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxt">
+        <num>11.</num>
+        <list eId="para_92_list">
+          <intro eId="para_92_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that future reconfigurations of MONUSCO and its mandate should be determined on the basis of the evolution of the situation on the ground and, in the context of implementation by the Government of the DRC and all other signatories of the PSC Framework, progress towards the following objectives:</p>
+          </intro>
+          <point eId="para_92_list_point_a">
+            <num>(a)</num>
+            <content eId="para_92_list_point_a_content">
+              <p xml:space="preserve">	Reduction of the threat posed by Congolese and foreign armed groups, including through the operations by the Intervention Brigade, violence against civilians, including sexual and gender-based violence and violence against children to a level that can be effectively managed by the Congolese justice and security institutions;</p>
+            </content>
+          </point>
+          <point eId="para_92_list_point_b">
+            <num>(b)</num>
+            <content eId="para_92_list_point_b_content">
+              <p xml:space="preserve">	Stabilization through the establishment of functional state security institutions in conflict-affected areas, and through strengthened democratic order that reduces the risk of instability, including adequate political space, observance of human rights and a credible electoral process; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_103" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_103__content">
+          <p xml:space="preserve">	<span class="italic">Authorizes</span> MONUSCO, through its military component, in pursuit of the objectives described in paragraph 11 above, to take all necessary measures to perform the following tasks, through its regular forces and its Intervention Brigade as appropriate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxt">
+        <num>(a)</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">Protection of civilians</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxt">
+        <num>(i)</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	Ensure, within its area of operations, effective protection of civilians under imminent threat of physical violence, including civilians gathered in displaced and refugee camps, humanitarian personnel and human rights defenders, in the context of violence emerging from any of the parties engaged in the conflict, and mitigate the risk to civilians before, during and after any military operation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_142" class="SingleTxt">
+        <num>(ii)</num>
+        <content eId="para_142__content">
+          <p xml:space="preserve">	Ensure the protection of United Nations personnel, facilities, installations and equipment;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxt">
+        <num>(iii)</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	Work with the Government of the DRC to identify threats to civilians and implement existing response plans to ensure the protection of civilians from abuses and violations of human rights and violations of international humanitarian law, including all forms of sexual and gender-based violence and grave violations against children, and <span class="italic">requests</span> MONUSCO to ensure that child protection concerns are integrated into all operations and strategic aspects of MONUSCO’s work and accelerate the implementation of monitoring, analysis and reporting arrangements on conflict-related sexual violence as called for in resolution 1960 (2010), and employ Women Protection Advisers to engage with parties to conflict in order to seek commitments on the prevention and response to conflict-related sexual violence;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_173" class="SingleTxt">
+        <num>(b)</num>
+        <content eId="para_173__content">
+          <p xml:space="preserve">	<span class="italic">Neutralizing armed groups through the Intervention Brigade</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_174" class="SingleTxt">
+        <content eId="para_174__content">
+          <p xml:space="preserve">	In support of the authorities of the DRC, on the basis of information collation and analysis, and taking full account of the need to protect civilians and mitigate risk before, during and after any military operation, carry out targeted offensive operations through the Intervention Brigade referred to in paragraph 9 and paragraph 10 above, either unilaterally or jointly with the FARDC, in a robust, highly mobile and versatile manner and in strict compliance with international law, including international humanitarian law and with the human rights due diligence policy on UN-support to non‑UN forces (HRDDP), to prevent the expansion of all armed groups, neutralize these groups, and to disarm them in order to contribute to the objective of reducing the threat posed by armed groups on state authority and civilian security in eastern DRC and to make space for stabilization activities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_175" class="SingleTxt">
+        <num>(c)</num>
+        <content eId="para_175__content">
+          <p xml:space="preserve">	<span class="italic">Monitoring the implementation of the arms embargo</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_176" class="SingleTxt">
+        <content eId="para_176__content">
+          <p xml:space="preserve">	Monitor the implementation of the arms embargo as described in paragraph 1 of resolution 2078 (2012) in cooperation with the Group of Experts established by resolution 1533 (2004), and in particular observe and report on flows of military personnel, arms or related materiel across the eastern border of the DRC, including by using, as specified in the letter of the Council from 22 January 2013 (S/2013/44), surveillance capabilities provided by unmanned aerial systems, seize, collect and dispose of arms or related materials whose presence in the DRC violates the measures imposed by paragraph 1 of resolution 2078 (2012), and share relevant information with the Group of Experts;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_177" class="SingleTxt">
+        <num>(d)</num>
+        <content eId="para_177__content">
+          <p xml:space="preserve">	<span class="italic">Provision of support to national and international judicial processes </span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_178" class="SingleTxt">
+        <content eId="para_178__content">
+          <p xml:space="preserve">	Support and work with the Government of the DRC to arrest and bring to justice those responsible for war crimes and crimes against humanity in the country, including through cooperation with States of the region and the ICC;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MONUSCO’s civilian component to support in particular, as appropriate, the implementation of the tasks outlined in paragraphs 12 (a), 12 (c) and 12 (d);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_180" class="SingleTxt">
+        <num>14.</num>
+        <list eId="para_180_list">
+          <intro eId="para_180_list_intro">
+            <p xml:space="preserve">	<span class="italic">Calls on</span> the Special Representative for the DRC to perform, through his good offices, the following tasks:</p>
+          </intro>
+          <point eId="para_180_list_point_a">
+            <num>(a)</num>
+            <content eId="para_180_list_point_a_content">
+              <p xml:space="preserve">	Encourage and accelerate greater national ownership of Security Sector Reform (SSR) by the DRC authorities, including through the urgent finalisation and implementation of a national strategy for the establishment of effective, inclusive and accountable security and justice institutions by the DRC and play a leading role in coordinating the support for SSR provided by international and bilateral partners and the UN system;</p>
+            </content>
+          </point>
+          <point eId="para_180_list_point_b">
+            <num>(b)</num>
+            <content eId="para_180_list_point_b_content">
+              <p xml:space="preserve">	Promote inclusive and transparent political dialogue among all Congolese stakeholders with a view to furthering reconciliation and democratization and encourage the organization of credible and transparent provincial and local elections; </p>
+            </content>
+          </point>
+          <point eId="para_180_list_point_c">
+            <num>(c)</num>
+            <content eId="para_180_list_point_c_content">
+              <p xml:space="preserve">	Encourage the prompt establishment and the consolidation of an effective national civilian structure to control key mining activities and to manage in an equitable manner the extraction and trade of natural resources in eastern DRC; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_182" class="SingleTxt">
+        <num>15.</num>
+        <list eId="para_182_list">
+          <intro eId="para_182_list_intro">
+            <p xml:space="preserve">	<span class="italic">Authorizes</span> MONUSCO, through its civilian component, to contribute, in coordination with the UNCT and in support of national mechanisms to implement the PSC Framework, to the following tasks:</p>
+          </intro>
+          <point eId="para_182_list_point_a">
+            <num>(a)</num>
+            <content eId="para_182_list_point_a_content">
+              <p xml:space="preserve">	Monitor, report and follow-up on human rights violations and abuses, and support the UN system in-country to ensure that any support provided by the United Nations in the eastern DRC shall be consistent with international humanitarian law and human rights law and refugee law as applicable;</p>
+            </content>
+          </point>
+          <point eId="para_182_list_point_b">
+            <num>(b)</num>
+            <content eId="para_182_list_point_b_content">
+              <p xml:space="preserve">	Provide good offices, advice and support to the Government of the DRC to enable the development and finalisation of a clear and comprehensive SSR implementation roadmap including benchmarks and timelines to establish effective and accountable security institutions;</p>
+            </content>
+          </point>
+          <point eId="para_182_list_point_c">
+            <num>(c)</num>
+            <content eId="para_182_list_point_c_content">
+              <p xml:space="preserve">	Provide good offices, advice and support to the Government of the DRC for a reform of the army, including, as a first step, the establishment of a vetted, well-trained and adequately equipped “Rapid Reaction Force” within the FARDC which should form the nucleus for a professional, accountable, well-sustained and effective national defence force, and support, when appropriate and in coordination with international partners, the training of the “Rapid Reaction Force” which should, in the frame of the benchmarks and timelines set by the SSR roadmap, develop the capacity to assume as soon as possible security responsibilities from the Intervention Brigade of MONUSCO;</p>
+            </content>
+          </point>
+          <point eId="para_182_list_point_d">
+            <num>(d)</num>
+            <content eId="para_182_list_point_d_content">
+              <p xml:space="preserve">	Provide good offices, advice and support to the Government of the DRC for the design of a single overarching DDR and DDRRR plan for foreign and Congolese combatants not suspected of genocide, war crimes, crimes against humanity or gross violations of human rights, including members of the FARDC, and support, when appropriate, the implementation of this plan;</p>
+            </content>
+          </point>
+          <point eId="para_182_list_point_e">
+            <num>(e)</num>
+            <content eId="para_182_list_point_e_content">
+              <p xml:space="preserve">	Provide good offices, advice and support to the Government of the DRC, in close cooperation with other international partners, to build on the Government’s STAREC and revised ISSSS to support the establishment of a minimum level of sustainable state authority and control in conflict-affected areas in eastern DRC, including through area-based efforts to improve security, state authority and enable the commencement of sustainable socio-economic recovery;</p>
+            </content>
+          </point>
+          <point eId="para_182_list_point_f">
+            <num>(f)</num>
+            <content eId="para_182_list_point_f_content">
+              <p xml:space="preserve">	Provide good offices, advice and support to the Government of the DRC for the reform of the police, including by contributing, in compliance with the HRDDP, to the provision of training to battalions of the Congolese National Police (PNC);</p>
+            </content>
+          </point>
+          <point eId="para_182_list_point_g">
+            <num>(g)</num>
+            <content eId="para_182_list_point_g_content">
+              <p xml:space="preserve">	Provide good offices, advice and support to the Government of the DRC for the development and the implementation, in accordance with the Congolese strategy for justice reform, of a multi-year joint United Nations justice support programme in order to develop the criminal justice institutions and processes, the police, the judiciary and prisons in conflict-affected areas; </p>
+            </content>
+          </point>
+          <point eId="para_182_list_point_h">
+            <num>(h)</num>
+            <content eId="para_182_list_point_h_content">
+              <p xml:space="preserve">	Provide good offices, advice and support to the Government of the DRC to promote human rights and to fight impunity, including through the implementation of the Government’s “zero tolerance policy” with respect to discipline and human rights and international humanitarian law violations, committed by elements of the security forces, in particular its newly integrated elements;</p>
+            </content>
+          </point>
+          <point eId="para_182_list_point_i">
+            <num>(i)</num>
+            <content eId="para_182_list_point_i_content">
+              <p xml:space="preserve">	Continue to collaborate with the Government of the DRC in the swift and vigorous implementation of the action plan to prevent and end the recruitment and use of children and sexual violence against children by FARDC, and continue dialogue with all listed parties to obtain further commitments and work towards the development and implementation of time bound action plans to end the recruitment and use of children and other violations of international humanitarian law;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_185" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_185__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MONUSCO’s military component to support in particular, as appropriate, the implementation of the tasks outlined in paragraphs 15 (a), 15 (b), 15 (c), 15 (d) and 15 (i);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_189" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_189__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General, to produce a detailed report and accompanying matrix reflecting the current division of labour between MONUSCO and the UNCT on tasks shared by the Mission, the UNCT and the Government of the DRC and setting out a clear roadmap, with accompanying timeline, to transfer to the UNCT to the fullest extent possible tasks where the UNCT has a comparative advantage or which take place in non‑conflict areas, or to the Government of the DRC, in order to streamline the tasks assigned to MONUSCO’s military and civilian components, and <span class="italic">expresses </span>its intention to keep the mandate of MONUSCO under review on the basis of this report;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_194" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_194__content">
+          <p xml:space="preserve">	<span class="italic">Decides that</span> MONUSCO, in coordination with the UNCT, shall transfer as soon as feasible to the UNCT appropriate tasks that are not mentioned in paragraphs 12, 14 and 15 above, including technical election support and demining support, and <span class="italic">calls upon</span> MONUSCO to continue to work with the UNCT and the Congolese authorities towards the adoption and implementation of the Peace Consolidation Programme covering provinces not affected by the conflict, and <span class="italic">requests</span> MONUSCO, where appropriate, to continue transferring tasks to the UNCT in those provinces; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve">	<span class="italic">Decides that</span> MONUSCO shall strengthen the presence of its military, police and civilian components in eastern DRC and reduce, to the fullest extent possible for the implementation of its mandate, its presence in areas not affected by conflict in particular Kinshasa and in western DRC, including through the roll-out of the United Nations Area Coordinator mechanism and Model Office concept as well as the appointment of further United Nations Area Coordinators and establishment of additional UN Joint Offices; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_207" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_207__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> the international community and donors to support MONUSCO and the UNCT in the DDR and DDRRR activities referred to in paragraph 15 (d) and ISSSS activities referred to in paragraph 15 (e) and calls upon the Government of the DRC and neighbouring States to remain engaged in the process;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_215" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_215__content">
+          <p xml:space="preserve">	<span class="italic">Requests </span>the Government of the DRC to arrest and hold accountable those responsible for war crimes and crimes against humanity in the country, including Sylvestre Mudacumura, and stresses the importance to this end of regional cooperation, including through cooperation with the ICC;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_224" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_224__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Government of the DRC to continue to build on its cooperation with the Special Representative of the Secretary-General for Children and Armed Conflicts and the Special Representative of the Secretary-General on Sexual Violence in Conflict and to vigorously implement, with the support of MONUSCO as appropriate, the action plan to prevent and end the recruitment and use of children and sexual violence by the FARDC;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_234" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_234__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> MONUSCO, in coordination with ICGLR members, to participate, as appropriate and within the limits of its capacities and mandate, in the activities of the Expanded Joint Border Verification Mechanism (EJVM) as a regional confidence building mechanism, consistent with paragraph 12 (c); </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_245" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_245__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> MONUSCO to coordinate strategies with other UN missions in the region for enhanced information-sharing in light of the attacks by the LRA, and <span class="italic">reiterates</span> support to the respective initiatives taken by the UN and the AU to facilitate regional action against the LRA, consistent with paragraph 12 (a);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_257" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_257__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> MONUSCO to enhance its interaction with the civilian population to raise awareness and understanding about its mandate and activities through a comprehensive public outreach programme, and to collect reliable information on violations of international humanitarian law and abuses of human rights perpetrated against civilians consistent with paragraphs 12, 13, 14, 15 and 16;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_270" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_270__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to take the necessary measures to ensure full compliance of MONUSCO with the United Nations zero-tolerance policy on sexual exploitation and abuses and to keep the Council informed if cases of such conduct occur;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_284" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_284__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> that all parties cooperate fully with the operations of MONUSCO and allow the full, safe, immediate and unhindered access for United Nations and associated personnel, consistent with relevant provisions of international law, in carrying out their mandate and the delivery of humanitarian assistance, in particular to internally displaced persons, throughout the territory of the DRC;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_299" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_299__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> all Member States to generously contribute to the UN humanitarian appeal for the DRC to help ensure that UN humanitarian agencies and other international organizations are fully funded and able to address the protection and assistance needs of internally displaced people, survivors of sexual violence, and other vulnerable communities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_315" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_315__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that it is important that all MONUSCO contingents, including the contingents of the Intervention Brigade, are properly prepared and effectively equipped to be able to carry out their respective tasks;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_332" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_332__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> MONUSCO to keep the AU, ICGLR and SADC informed of the operational situation in eastern DRC;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_350" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_350__content">
+          <p xml:space="preserve">	<span class="italic">Commends</span> the contribution of troop- and police-contributing countries and donors to MONUSCO, <span class="italic">calls on</span> Member States to pledge and provide the remaining force enablers, in particular military air assets, required for the Mission, and recalls the importance of close consultations with troop- and police-contributing countries; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_369" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_369__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its full support to the UN Group of Experts established by resolution 1533 (2004) and <span class="italic">calls for</span> enhanced cooperation between all States, particularly those in the region, MONUSCO and the Group of Experts, <span class="italic">encourages </span>further that all parties and all States ensure cooperation with the Group of Experts by individuals and entities within their jurisdiction or under their control and <span class="italic">reiterates</span> its demand that all parties and all States ensure the safety of its members and its support staff, and unhindered and immediate access, in particular to persons, documents and sites the Group of Experts deems relevant to the execution of its mandate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_389" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_389__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General, consistent with paragraph 31, to review and update the mission concept, concept of operations, rules of engagement and all other relevant UN planning documents to reflect the tasks of MONUSCO’s military component, consisting of its regular forces and of the Intervention Brigade, in order to ensure coherent and coordinated delivery of MONUSCO’s objectives in line with its mandate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_410" class="SingleTxt">
+        <num>34.</num>
+        <list eId="para_410_list">
+          <intro eId="para_410_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to report to the Council every three months:</p>
+          </intro>
+          <point eId="para_410_list_point_a">
+            <num>(a)</num>
+            <content eId="para_410_list_point_a_content">
+              <p xml:space="preserve">	in coordination with his Special Envoy for the Great Lakes region and his Special Representative for the DRC on the implementation of the commitments under the PSC Framework and on any breaches of the commitments contained therein, including on the basis of the benchmarks and appropriate follow-up measures referred to in paragraph 4 and paragraph 5;</p>
+            </content>
+          </point>
+          <point eId="para_410_list_point_b">
+            <num>(b)</num>
+            <content eId="para_410_list_point_b_content">
+              <p xml:space="preserve">	in coordination with his Special Representative for the DRC on:</p>
+            </content>
+          </point>
+          <sublist eId="para_410_list_point_b_sublist">
+            <point eId="para_410_list_point_b_sublist_point_i">
+              <num>(i)</num>
+              <content eId="para_410_list_point_b_sublist_point_i_content">
+                <p xml:space="preserve">	the situation on the ground, including sexual violence and the impact of conflict on women and children, and including in the light of the objectives outlined in paragraph 11 and on the basis of the joint assessment process allowed by the ongoing strategic partnership between the Congolese Government and MONUSCO; </p>
+              </content>
+            </point>
+            <point eId="para_410_list_point_b_sublist_point_ii">
+              <num>(ii)</num>
+              <content eId="para_410_list_point_b_sublist_point_ii_content">
+                <p xml:space="preserve">	progress made by the DRC in the implementation of its commitments under the PSC Framework, including through the establishment and implementation of a national security sector reform roadmap and the creation of a Congolese “Rapid Reaction Force”, and on the design and implementation of the overarching DDR and DDRRR plan; </p>
+              </content>
+            </point>
+            <point eId="para_410_list_point_b_sublist_point_iii">
+              <num>(iii)</num>
+              <content eId="para_410_list_point_b_sublist_point_iii_content">
+                <p xml:space="preserve">	the implementation by MONUSCO of its mandate, including on the deployment, readiness and activities of the Intervention Brigade and all other MONUSCO forces, on any violations of international human rights law and international humanitarian law that may occur and on efforts undertaken to mitigate civilian harm; </p>
+              </content>
+            </point>
+            <point eId="para_410_list_point_b_sublist_point_iv">
+              <num>(iv)</num>
+              <content eId="para_410_list_point_b_sublist_point_iv_content">
+                <p xml:space="preserve">	the reconfiguration of MONUSCO to conduct the tasks set out in paragraphs 12 and 13, to contribute to the tasks set out in paragraphs 14 and 15 and to transfer activities from MONUSCO to the UN country team as set out in paragraph 18, including on the basis of the matrix of division of labour referred to in paragraph 17 which should be presented within three months and updated regularly thereafter, and on the reinforcement of MONUSCO presence in eastern DRC; </p>
+              </content>
+            </point>
+            <point eId="para_410_list_point_b_sublist_point_v">
+              <num>(v)</num>
+              <content eId="para_410_list_point_b_sublist_point_v_content">
+                <p xml:space="preserve">	the review and subsequent updating of the mission concept, concept of operations, rules of engagement and all other relevant UN planning documents;</p>
+              </content>
+            </point>
+            <point eId="para_410_list_point_b_sublist_point_vi">
+              <num>(vi)</num>
+              <content eId="para_410_list_point_b_sublist_point_vi_content">
+                <p xml:space="preserve">	the risks and their implications for the safety and the security for the UN personnel and facilities as a result of the possible operations of the Intervention Brigade as well as measures taken to strengthen their security and mitigate risks; </p>
+              </content>
+            </point>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_432" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_432__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/"></FRBRuri>
+                <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+                <FRBRauthor href="sc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/eng@/"></FRBRuri>
+                <FRBRdate date="2013-03-28" name="publication"></FRBRdate>
+                <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2098-2013/eng@.xml"></FRBRuri>
+                <FRBRdate date="2023-06-16" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_433" class="H1">
+                  <heading>Annex A</heading>
+            </paragraph>
+            <paragraph eId="para_434" class="H1">
+                  <heading>Commitments of the countries of the region under the Peace, Security and Cooperation Framework for the Democratic Republic of the Congo and the region</heading>
+            </paragraph>
+            <paragraph eId="para_435" class="SingleTxt">
+              <content eId="para_435__content">
+                <p xml:space="preserve">	•	Not to interfere in the internal affairs of neighbouring countries;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_436" class="SingleTxt">
+              <content eId="para_436__content">
+                <p xml:space="preserve">	•	To neither tolerate nor provide assistance or support of any kind to armed groups;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_437" class="SingleTxt">
+              <content eId="para_437__content">
+                <p xml:space="preserve">	•	To respect the sovereignty and territorial integrity of neighbouring countries;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_438" class="SingleTxt">
+              <content eId="para_438__content">
+                <p xml:space="preserve">	•	To strengthen regional cooperation including deepening economic integration with special consideration for the exploitation of natural resources;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_439" class="SingleTxt">
+              <content eId="para_439__content">
+                <p xml:space="preserve">	•	To respect the legitimate concerns and interests of the neighbouring countries, in particular regarding security matters;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_440" class="SingleTxt">
+              <content eId="para_440__content">
+                <p xml:space="preserve">	•	To neither harbour nor provide protection of any kind to persons accused of war crimes, crimes against humanity, acts of genocide or crimes of aggression, or persons falling under the United Nations sanctions regime; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_441" class="SingleTxt">
+              <content eId="para_441__content">
+                <p xml:space="preserve">	•	To facilitate the administration of justice through judicial cooperation within the region.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_442" class="H1">
+                  <heading>Annex B</heading>
+            </paragraph>
+            <paragraph eId="para_443" class="H1">
+                  <heading>Commitments of the Government of the Democratic Republic of the Congo under the Peace, Security and Cooperation Framework for the Democratic Republic of the Congo and the region</heading>
+            </paragraph>
+            <paragraph eId="para_444" class="SingleTxt">
+              <content eId="para_444__content">
+                <p xml:space="preserve">	•	To continue, and deepen security sector reform, particularly with respect to the Army and Police;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_445" class="SingleTxt">
+              <content eId="para_445__content">
+                <p xml:space="preserve">	•	To consolidate State authority, particularly in eastern Democratic Republic of the Congo, including to prevent armed groups from destabilizing neighbouring countries;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_446" class="SingleTxt">
+              <content eId="para_446__content">
+                <p xml:space="preserve">	•	To make progress with regard to decentralization;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_447" class="SingleTxt">
+              <content eId="para_447__content">
+                <p xml:space="preserve">	•	To further economic development, including with respect to the expansion of infrastructure and basic social service delivery;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_448" class="SingleTxt">
+              <content eId="para_448__content">
+                <p xml:space="preserve">	•	To further structural reform of Government institutions, including financial reform; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_449" class="SingleTxt">
+              <content eId="para_449__content">
+                <p xml:space="preserve">	•	To further the agenda of reconciliation, tolerance and democratization.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
