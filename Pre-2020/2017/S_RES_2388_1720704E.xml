@@ -1,0 +1,478 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2388-2017/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2388-2017/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2388-2017/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2388-2017/eng@/"></FRBRuri>
+          <FRBRdate date="2017-11-21" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2388-2017/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2388-2017/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-12" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Office on Drugs and Crime" showAs="UN Office on Drugs and Crime" dictionary="DHLAUTH"></keyword>
+        <keyword value="Islamic State in Iraq and the Levant (Organization)" showAs="Islamic State in Iraq and the Levant (Organization)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" showAs="UN. Security Council Committee Established pursuant to Resolution 1373 (2001) concerning Counter-Terrorism. Executive Directorate" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council. Analytical Support and Sanctions Monitoring Team Established pursuant to Resolutions 1267 (1999), 1989 (2011) and 2253 (2015) concerning Islamic State in Iraq and the Levant (Da'esh), Al-Qaida and Associated Individuals, Groups, Undertakings and Entities" showAs="UN. Security Council. Analytical Support and Sanctions Monitoring Team Established pursuant to Resolutions 1267 (1999), 1989 (2011) and 2253 (2015) concerning Islamic State in Iraq and the Levant (Da'esh), Al-Qaida and Associated Individuals, Groups, Undertakings and Entities" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Investigative Team to Promote Accountability for Crimes Committed by Da'esh/Islamic State in Iraq and the Levant" showAs="UN Investigative Team to Promote Accountability for Crimes Committed by Da'esh/Islamic State in Iraq and the Levant" dictionary="DHLAUTH"></keyword>
+        <keyword value="TRAFFICKING IN PERSONS" showAs="TRAFFICKING IN PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSNATIONAL CRIME" showAs="TRANSNATIONAL CRIME" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LAW ENFORCEMENT" showAs="LAW ENFORCEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COUNTER-TERRORISM" showAs="COUNTER-TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER-BASED VIOLENCE" showAs="GENDER-BASED VIOLENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIME VICTIMS" showAs="CRIME VICTIMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[304]" showAs="TRAFFICKING IN PERSONS" dictionary="S/72"></keyword>
+        <keyword refersTo="agenda" value="[201]" showAs="WOMEN IN ARMED CONFLICTS" dictionary="S/72"></keyword>
+        <keyword refersTo="agenda" value="[187]" showAs="CHILDREN IN ARMED CONFLICTS" dictionary="S/72"></keyword>
+        <keyword refersTo="agenda" value="[10]" showAs="INTERNATIONAL SECURITY" dictionary="S/72"></keyword>
+        <keyword refersTo="agenda" value="[31]" showAs="TERRORISM" dictionary="S/72"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2388 (2017) [on trafficking in persons in armed conflicts]" showAs="Security Council resolution 2388 (2017) [on trafficking in persons in armed conflicts]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2017-11-21" outcome="draftResolution" as="S/2017/973" by="Albania, Andorra, Austria, Bahrain, Belgium, Belize, Bulgaria, Canada, Croatia, Cyprus, Denmark, Equatorial Guinea, Estonia, Ethiopia, Finland, France, Germany, Greece, Hungary, Iceland, Indonesia, Iraq, Ireland, Israel, Italy, Japan, Kazakhstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Montenegro, Morocco, Netherlands, Norway, Peru, Poland, Portugal, Qatar, Republic of Korea, Romania, San Marino, Senegal, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Thailand, the former Yugoslav Republic of Macedonia, Tunisia, Turkey, Ukraine, United States of America, Uruguay and Plurinational State of Bolivia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2017-11-21" outcome="adopted" as="S/PV.8111" by="Adopted unanimously, 8111th meeting" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">17-20704 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2388 (2017)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2017-11-21" class="rightSmall" refersTo="#dateOfIssuance">21 November 2017</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">Resolution 2388 (2017)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> Presidential Statement <a href="https://undocs.org/E/RES/2015/25">2015/25</a>, Resolution <a href="https://undocs.org/S/RES/2331(2016)">2331 (2016)</a>,</p>
+      </container>
+      <container name="Taking note" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the Secretary-General’s report <a href="https://undocs.org/S/2017/939">S/2017/939</a>,</p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its primary responsibility for the maintenance of international peace and security, in accordance with the Charter of the United Nations, </p>
+      </container>
+      <container name="Taking note" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the efforts undertaken by United Nations entities and international and regional bodies to implement Resolution <a href="https://undocs.org/S/RES/2331(2016)">2331 (2016)</a>, including the development of a Thematic Paper on trafficking in persons in conflict situations, the establishment of the Task Team on anti‑trafficking in humanitarian action within the Global Protection Cluster, the development by UNODC of a structured system of data collection on trafficking in persons in the context of armed conflict, including through the publication of the 2016 Global Report on Trafficking in Persons, and the inclusion by the Counter-Terrorism Committee Executive Directorate, within the existing mandate, under the policy guidance of the Counter Terrorism Committee, and in close cooperation with UNODC and other relevant entities, in its country assessments, as appropriate, of information regarding Member States efforts to address the issue of trafficking in persons where it is committed for the purpose of supporting terrorism, including through the financing of or recruitment for the commission of terrorist acts, </p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the United Nations Convention against Transnational Organized Crime, and its Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, which includes the first internationally agreed definition of the crime of trafficking in persons and provides a framework to effectively prevent and combat trafficking in persons, and <span class="italic">further recalling</span> the United Nations Global Plan of Action to Combat Trafficking in Persons, </p>
+      </container>
+      <container name="Recognizing" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that trafficking in persons in areas affected by armed conflict and post-conflict situations can be for the purpose of various forms of exploitation, including exploitation of the prostitution of others or other forms of sexual exploitation, forced labour, slavery or practices similar to slavery, servitude or the removal of organs; <span class="italic">further recognizing</span> that trafficking in persons in armed conflict and post-conflict situations can also be associated with sexual violence in conflict and that women and children in situations of armed conflict and persons forcibly displaced by armed conflict, including refugees, can be especially vulnerable to trafficking in persons in armed conflict and to these forms of exploitation, </p>
+      </container>
+      <container name="Recalling" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the Political Declaration on the implementation of the United Nations Global Plan of Action to Combat Trafficking in Persons, adopted by the General Assembly on 27 September 2017, and <span class="italic">further welcoming</span> the resolve of Member States expressed therein to take decisive concerted action to end trafficking in persons, wherever it may occur, </p>
+      </container>
+      <container name="Reiterating deep concern" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Reiterating deep concern</span> that despite its condemnation of acts of trafficking in persons in areas affected by armed conflict, such acts continue to occur, </p>
+      </container>
+      <container name="Reiterating" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its solidarity with victims of trafficking in persons in armed conflict and post-conflict situations <span class="italic">and noting</span> the importance of providing them with appropriate care, assistance and services for their physical, psychological and social recovery, rehabilitation and reintegration, in full respect of their human rights and in a manner that takes full account of the extreme trauma they have suffered and the risk of further victimization and stigmatization,</p>
+      </container>
+      <container name="Reaffirming" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that trafficking in persons in the context of armed conflict, especially women and girls, cannot and should not be associated with any religion, nationality or civilization, </p>
+      </container>
+      <container name="Recalling" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> resolutions <a href="https://undocs.org/S/RES/2359(2017)">2359 (2017)</a> and <a href="https://undocs.org/S/RES/2374(2017)">2374 (2017)</a>, which express concern over the serious challenges posed by different forms of transnational organized crime, including trafficking in persons and the smuggling of migrants in the Sahel region, and <span class="italic">recalling also </span>resolutions <a href="https://undocs.org/S/RES/2240(2015)">2240 (2015)</a> and <a href="https://undocs.org/S/RES/2380(2017)">2380 (2017)</a>, which express concern that the situation in Libya is exacerbated by the smuggling of migrants and human trafficking into, through and from the Libyan territory, which could provide support to other organized crime and terrorist networks in Libya, </p>
+      </container>
+      <container name="Reiterating" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> the critical importance of all Member States fully implementing relevant Security Council resolutions, including resolutions <a href="https://undocs.org/S/RES/2195(2014)">2195 (2014)</a>, <a href="https://undocs.org/S/RES/2253(2015)">2253 (2015)</a>, <a href="https://undocs.org/S/RES/2199(2015)">2199 (2015)</a> and <a href="https://undocs.org/S/RES/2368(2017)">2368 (2017)</a>, which express concern that terrorists benefit from transnational organized crime in some regions, including from trafficking in persons, as well as <a href="https://undocs.org/S/RES/2242(2015)">2242 (2015)</a>, which expresses concern that acts of sexual violence and gender-based violence are known to be part of the strategic objectives and ideology of certain terrorist groups used as a tactic of terrorism and an instrument to increase their finances and their power through recruitment and the destruction of communities; and <span class="italic">further reiterating</span> the connection between trafficking in persons, sexual violence and terrorism and other organized criminal activities, which can prolong and exacerbate conflict and instability or intensify its impact on civilian populations, </p>
+      </container>
+      <container name="Recognizing the need" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Recognizing the need</span> to continue to foster a global partnership against trafficking in persons among all stakeholders, including inter alia, through bilateral, multilateral and regional processes and initiatives, </p>
+      </container>
+      <container name="Recognizing" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that trafficking in persons entails the violation or abuse of human rights and <span class="italic">underscoring</span> that certain acts or offences associated with trafficking in persons in the context of armed conflict may constitute war crimes; and <span class="italic">recalling further</span> the responsibilities of States to end impunity and to prosecute those responsible for genocide, crimes against humanity, war crimes as well as other crimes and the need for States to adopt appropriate measures within their national legal systems for those crimes for which they are required under international law to exercise their responsibility to investigate and prosecute,</p>
+      </container>
+      <container name="Condemning" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> in the strongest terms continued gross, systematic and widespread abuses of human rights and violations of international humanitarian law by ISIL (also known as Da’esh); and abductions of women and children by ISIL, ANF, and associated individuals, groups, undertakings, and entities and <span class="italic">expressing outrage</span> at their exploitation and abuse, including rape and sexual violence, forced marriage and enslavement by these entities, <span class="italic">encouraging</span> all State and non‑state actors with evidence to bring it to the attention of the Council, along with any information that human trafficking and related forms of exploitation and abuse may support the perpetrators financially, <span class="italic">emphasizing</span> that States are required to ensure that their nationals and persons within their territory do not make available any funds, financial assets or economic resources for ISIL’s benefit, and <span class="italic">noting</span> that any person or entity who transfers funds to ISIL directly or indirectly in connection with such exploitation and abuse would be eligible for listing by the Security Council Committee established pursuant to resolutions <a href="https://undocs.org/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/S/RES/1989(2011)">1989 (2011)</a>, <a href="https://undocs.org/S/RES/2253(2015)">2253 (2015)</a> and <a href="https://undocs.org/S/RES/2368(2017)">2368 (2017)</a> concerning ISIL (Da’esh), Al-Qaida and associated individuals, groups, undertakings and entities, </p>
+      </container>
+      <container name="Recognizing" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> that persons affected by armed conflict and fleeing conflict are at great risk of being subjected to trafficking in persons, and stressing the need to prevent and identify instances of trafficking in persons among those forcibly displaced or otherwise affected by armed conflict,</p>
+      </container>
+      <container name="Expressing" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> grave concern over the high numbers of women and children subjected to trafficking in armed conflicts, and <span class="italic">recognizing</span> that acts of trafficking in persons are often associated with other violations of applicable international law and other abuses, including those involving recruitment and use, abduction and sexual violence including, inter alia, rape, sexual slavery, forced prostitution and forced pregnancy; and <span class="italic">calling on</span> all Member States to hold perpetrators accountable and to assist victims in their recovery and reintegration, </p>
+      </container>
+      <container name="Reiterating its grave concern" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Reiterating its grave concern</span> over the abduction of children in situations of armed conflict, the majority of which are perpetrated by non‑State armed groups, recognizing that abductions occur in a variety of settings, including schools, further recognizing that abduction often precedes or follows other abuses and violations of applicable international law against children, including those involving recruitment and use, killing and maiming, as well as rape and other forms of sexual violence, which may amount to war crimes or crimes against humanity, and calling on all Member States to hold perpetrators of abductions accountable, </p>
+      </container>
+      <container name="Expressing deep concern" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Expressing deep concern</span> over the heightened vulnerability to exploitation and abuse of children forcibly displaced by armed conflict, particularly when separated from their families or caregivers, <span class="italic">and underlining</span> the need to ensure protection of all unaccompanied children who are victims of or those vulnerable to trafficking in persons through their prompt identification and immediate assistance taking into account their specific needs, </p>
+      </container>
+      <container name="Condemning" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Condemning</span> all violations and abuses against children in armed conflict, including trafficking in persons and <span class="italic">recalling</span> all its resolutions on children and armed conflict that call for the protection of children, and in particular Resolution <a href="https://undocs.org/S/RES/1261(1999)">1261 (1999)</a> as well as Resolution <a href="https://undocs.org/S/RES/1612(2005)">1612 (2005)</a>, establishing the Monitoring and Reporting Mechanism on children and armed conflict,</p>
+      </container>
+      <container name="Noting" eId="container_22">
+        <p xml:space="preserve">	<span class="italic">Noting</span> measures taken by UN peacekeeping and special political missions in accordance with their mandates, to assist host States in exercising their primary responsibility to prevent and combat trafficking in persons, also <span class="italic">noting</span> measures taken by Member States to provide pre‑deployment training on trafficking in persons to personnel that will be deployed in UN peacekeeping missions and <span class="italic">encouraging</span> further action in this area, </p>
+      </container>
+      <container name="Noting" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the initiative by Department of Peacekeeping Operations, the Department of Field Support and the United Nations Office on Drugs and Crime to develop a training module on human trafficking and smuggling of migrants for in mission training of police personnel in selected peacekeeping missions, where applicable,</p>
+      </container>
+      <container name="Underscoring" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Underscoring</span> the need for improved collection, also through relevant data base systems managed by international organizations, including UNODC and INTERPOL, of timely, objective, accurate and reliable data on trafficking in persons in situations of conflict, disaggregated by sex, age and other relevant factors, as well as on financial flows associated with trafficking in persons,</p>
+      </container>
+      <container name="Reaffirming" eId="container_25">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the need to ensure organization and coherence in the efforts of the United Nations System to address trafficking in persons in areas affected by armed conflict or in post conflict situations and <span class="italic">further recognizing</span> the need to continue to work towards an enhanced comprehensive and coordinated approach to prevent and combat trafficking, which can contribute to sustainable peace and stability,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms its condemnation</span> in the strongest terms of all instances of trafficking in persons, especially women and children, who make up the vast majority of all victims of trafficking in persons in areas affected by armed conflicts, and <span class="italic">stresses</span> that trafficking in persons undermines the rule of law and contributes to other forms of transnational organized crime, which can exacerbate conflict and foster insecurity and instability and undermine development; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Members States to consider, as a matter of priority, ratifying or acceding to, and for States Parties to effectively implement, the United Nations Convention against Transnational Organized Crime and its supplementing Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, as well as all relevant international instruments; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to reinforce their political commitment to and improve their implementation of applicable legal obligations to criminalize, prevent, and otherwise combat trafficking in persons, and to strengthen efforts to detect and disrupt trafficking in persons, including implementing robust victim identification mechanisms and providing access to protection and assistance for identified victims, including in relation to areas affected by armed conflict; <span class="italic">underscores</span> in this regard the importance of international law enforcement cooperation, including with respect to investigation and prosecution of trafficking cases and, in this regard, <span class="italic">calls</span> for the continued support of the United Nations Office on Drugs and Crime (UNODC) in providing technical assistance to Member States upon request;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Further calls upon</span> Member States, where appropriate, to review, amend and implement anti‑trafficking and related legislation to ensure that all forms of trafficking in persons, including when it is committed in situations of armed conflict or by armed and terrorist groups are addressed, and to consider establishing jurisdiction to end the impunity of offenders in line with art. 15 of the UN Convention against Transnational Organized Crime; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Also calls upon</span> Member States to step up their efforts to investigate, disrupt and dismantle networks engaging in trafficking in persons in areas affected by armed conflict and to take all appropriate measures to collect, preserve and store evidence of human trafficking; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to combat crimes that might be connected with trafficking in persons in areas affected by armed conflict, such as money-laundering, corruption, the smuggling of migrants and other forms of organized crime, including by making use of financial investigations in order to identify and analyse financial intelligence, as well as by reinforcing regional and international operational law enforcement cooperation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to strengthen compliance with international Anti-Money Laundering/Combatting the Financing of Terrorism standards and increase capacity to conduct proactive financial investigations to track and disrupt human trafficking and identify potential linkages with terrorism financing; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States, while addressing trafficking in persons in areas affected by armed conflicts, to adopt a multi-dimensional approach that includes incorporating information on the risks of trafficking in persons into school curricula and training programs; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to increase efforts to collect, analyse and share through appropriate channels and arrangements and consistent with international and domestic law data relating to financial flows associated with human trafficking and the extent and nature of financing of terrorism activities through human trafficking activities, and to provide, where applicable, Counter-Terrorism Committee Executive Directorate (CTED) and the Analytical Support and Sanctions Monitoring Team with relevant information pertaining to linkages between human trafficking and terrorist financing;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its condemnation of all acts of trafficking, particularly the sale or trade in persons undertaken by the “Islamic State of Iraq and the Levant” (ISIL, also known as Da’esh), including of Yazidis and other persons belonging to religious and ethnic minorities, and of any such trafficking in persons crimes and other violations and abuses committed by Boko Haram, Al-Shabaab, the Lord’s Resistance Army, and other terrorist or armed groups for the purpose of sexual slavery, sexual exploitation, and forced labour, and <span class="italic">underscores</span> the importance of collecting and preserving evidence relating to such acts in order to ensure that those responsible can be held accountable; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Analytical Support and Sanctions Monitoring Team, when consulting with Member States, to continue including in their discussions the issue of trafficking in persons in areas of armed conflict and the use of sexual violence in armed conflict as it relates to ISIL (also known as Da’esh), Al-Qaida and associated individuals, groups, undertakings and entities and to report to the Security Council Committee established pursuant to resolutions <a href="https://undocs.org/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/S/RES/1989(2011)">1989 (2011)</a>, <a href="https://undocs.org/S/RES/2253(2015)">2253 (2015)</a> and <a href="https://undocs.org/S/RES/2368(2017)">2368 (2017)</a> on these discussions as appropriate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_92" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_92__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Counter-Terrorism Committee Executive Directorate (CTED), within its existing mandate, under the policy guidance of the Counter-Terrorism Committee (CTC), and in close cooperation with UNODC and other relevant entities, to increase its efforts to include in CTED’s country assessments, as appropriate, information regarding Member States efforts to address the issue of trafficking in persons where it is committed for the purpose of supporting terrorism, including through the financing of or recruitment for the commission of terrorist acts; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to enhance the capabilities of professionals interacting with persons forcibly displaced by armed conflict, including refugees, such as law enforcement, border control officials and criminal justice systems personnel of refugee and displaced persons reception facilities, to identify victims or persons vulnerable to trafficking, to adopt gender and age sensitive assistance, including adequate psychosocial support and health services, regardless of their participation in criminal investigations and proceedings; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_117__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the need to strengthen the identification, registration, protection, assistance for forcibly displaced persons, including refugees and stateless persons, who are victims of trafficking or at risk of being trafficked; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States to use refugee registration mechanisms to assess vulnerability and identify potential victims of trafficking as well as their specific assistance needs, and in this regard <span class="italic">encourages</span> Member States to develop informative material to explain to victims of trafficking in persons who are refugees their rights and avenues for assistance, so as to enable them to engage with relevant authorities and access services and psychosocial support that are available to them;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> Member States, in particular transit and destination States receiving persons forcibly displaced by armed conflict, to develop and use early-warning and early-screening frameworks of potential or imminent risk of trafficking in persons to proactively and expediently detect victims and persons vulnerable to trafficking, with special attention to women and children, especially those unaccompanied; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_162" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_162__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States thoroughly to assess the individual situation of persons released from the captivity of armed and terrorist groups so as to enable prompt identification of victims of trafficking, their treatment as victims of crime and to consider, in line with domestic legislation, not prosecuting or punishing victims of trafficking for unlawful activities they committed as a direct result of having being subjected to trafficking; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_179" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_179__content">
+          <p xml:space="preserve">	<span class="italic">Strongly condemns</span> violations of international law, especially those which affect children in situations of armed conflict, including those involving killing and maiming, sexual violence, abduction and forced displacement, recruitment and use of children in armed conflict, attacks against schools and hospitals, denial of humanitarian access and trafficking in persons;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_197" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_197__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to identify children who are victims of trafficking and those who are unaccompanied or separated from their families and caregivers, to ensure, where relevant, their timely registration and to consider their particular protection needs, including, as appropriate, by referring them to the relevant child protection authorities regardless of their immigration status;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_216" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_216__content">
+          <p xml:space="preserve">	<span class="italic">Recognizes</span> the importance of providing timely and appropriate reintegration and rehabilitation assistance to children affected by armed conflict, while ensuring that the specific needs of girls and boys as well as children with disabilities are addressed, including access to health care, psychosocial support, and education programmes that contribute to the well-being of children and to sustainable peace and security and <span class="italic">encourages</span> relevant international organizations and civil societies organizations to assist Member States’ efforts in this regard; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_236" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_236__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> Member States to refrain from the use of administrative detention of children, especially those victims of trafficking in persons, for violations of immigration laws and regulations, unless as a measure of last resort, in the least restrictive setting, for the shortest possible period of time, under conditions that respect their human rights and in a manner that takes into account, as a primary consideration, the best interest of the child and <span class="italic">encourages</span> them to work towards the ending of this practice;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_257" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_257__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to further explore, as appropriate, links between the trafficking of children in conflict situations and the grave violations against children affected by armed conflict as determined by the United Nations, with a view to addressing all violations and abuses against children in armed conflict; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_279" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_279__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> further briefings on trafficking in persons in armed conflict, as necessary, by relevant United Nations entities, including the Executive Director of UNODC, UNHCR, and other international and regional bodies such as IOM, and <span class="italic">encourages</span> Member States to provide to UNODC information on victims of trafficking from areas affected by conflict or victims trafficked into conflict areas for inclusion within the existing reporting obligations; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_302" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_302__content">
+          <p xml:space="preserve">	<span class="italic">Requests the Secretary-General</span> to ensure that the thematic paper on trafficking in persons in conflict situations developed by UNODC in consultation with relevant United Nations agencies and other international bodies is disseminated within the UN system, and <span class="italic">encourages</span> relevant United Nations agencies and entities to use it in their respective activities in accordance with their mandates and develop their capability to assess and respond to situations of trafficking in persons in armed conflict; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_326" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_326__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its intention, to give greater consideration, where appropriate, to how peacekeeping and special political missions, can assist host States in exercising their primary responsibility to prevent and combat trafficking in persons, and <span class="italic">requests</span> the Secretary-General to ensure that assessments of country situations conducted upon the Security Council’s request on such missions include, where relevant, anti‑trafficking research and expertise; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_351" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_351__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General, in consultation with Member States, to ensure, where appropriate, that training of relevant personnel of special political and peacekeeping missions include, on the basis of a preliminary assessment and taking also into account the protection and assistance needs of the victims of trafficking in persons, specific information enabling them, within their mandates, to identify, confirm, respond to and report on situations of trafficking in persons;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_377" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_377__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its intention to integrate the issue of trafficking in persons in areas affected by armed conflict into the work of relevant Security Council Sanctions Committees where in accordance with their mandates, and <span class="italic">expresses its intention</span> to invite all relevant Special Representatives of the Secretary-General, including the Special Representative of the Secretary-General for Children and Armed Conflict and the Special Representative of the Secretary-General on Sexual Violence in Conflict, to brief these sanctions committees, as necessary, in accordance with the Committee’s rules of procedure and to provide relevant information, including, if applicable, the names of individuals involved in the trafficking in persons who meet the committees’ designation criteria;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_404" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_404__content">
+          <p xml:space="preserve">	<span class="italic">Also requests</span> the Secretary-General to ensure that members of the Monitoring Groups, teams and panels supporting the work of relevant sanctions committees build their technical capacity to identify and report on instances of trafficking in persons encountered in the discharge of their duties and in accordance with their respective mandates, and <span class="italic">further requests</span> the Secretary-General to ensure that the Monitoring and Reporting Arrangements on sexual violence in areas affected by armed conflict systematically collect data on conflict-related trafficking in persons for the purpose of sexual violence or exploitation; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_432" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_432__content">
+          <p xml:space="preserve">	<span class="italic">Invites</span> the Secretary-General to ensure that the work of the Investigative Team established pursuant to Resolution <a href="https://undocs.org/S/RES/2379(2017)">2379 (2017)</a> is informed by relevant anti‑trafficking research and expertise and that its efforts to collect evidence on trafficking in persons offences are gender-sensitive, victim centred, trauma-informed, rights-based and not prejudicial to the safety and security of victims; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_461" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_461__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> Member States to cooperate with the Investigative Team established pursuant to Resolution <a href="https://undocs.org/S/RES/2379(2017)">2379 (2017)</a>, including through mutual arrangements on legal assistance, where necessary and appropriate, and in particular to provide it with any relevant information as appropriate they may possess pertaining to its mandate under that resolution; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_491" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_491__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> United Nations system organizations to enhance transparency in their procurement and supply chains and step up their efforts to strengthen protections against trafficking in persons in all United Nations procurement and to that effect request major suppliers to establish and implement anti‑human trafficking policies and disclose information on measures taken to counter trafficking in persons in their operations and supply chains;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_522" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_522__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> efforts aimed at developing a coordinated response within the United Nations System to prevent and counter trafficking in persons in situations of armed conflict and to protect its victims, and <span class="italic">requests</span> all United Nations entities involved in combatting trafficking in persons to actively participate in the regular work of existing mechanisms, especially the Inter-Agency Coordination Group against Trafficking in Persons which was established to foster coordination among United Nations entities and other international organizations; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_554" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_554__content">
+          <p xml:space="preserve">	<span class="italic">Invites the Secretary-General</span> to include in relevant regular reports on special political and peacekeeping missions, information on efforts undertaken, within their mandates, to assist the host-States institutions in preventing and combating trafficking in persons and in protecting and assisting victims of trafficking, in particular women and children; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_587" class="SingleTxt">
+        <num>34.</num>
+        <content eId="para_587__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to follow-up on the implementation of this resolution and report back to the Security Council on progress made within 12 months;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_621" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_621__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of this matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

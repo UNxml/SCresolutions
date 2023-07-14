@@ -1,0 +1,614 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2017-09-05/2374-2017/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2017-09-05/2374-2017/"></FRBRuri>
+          <FRBRdate date="2017-09-05" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2017-09-05/2374-2017/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2017-09-05/2374-2017/eng@/"></FRBRuri>
+          <FRBRdate date="2017-09-05" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2017-09-05/2374-2017/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2017-09-05/2374-2017/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-07-09" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 2374 (2017) concerning Mali" showAs="UN. Security Council Committee Established pursuant to Resolution 2374 (2017) concerning Mali" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Panel of Experts Established pursuant to Security Council Resolution 2374 (2017) concerning Mali" showAs="UN. Panel of Experts Established pursuant to Security Council Resolution 2374 (2017) concerning Mali" dictionary="DHLAUTH"></keyword>
+        <keyword value="SANCTIONS" showAs="SANCTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAVEL RESTRICTIONS" showAs="TRAVEL RESTRICTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FROZEN ASSETS" showAs="FROZEN ASSETS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SANCTIONS COMPLIANCE" showAs="SANCTIONS COMPLIANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GROUPS OF EXPERTS" showAs="GROUPS OF EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[225]" showAs="MALI--POLITICAL CONDITIONS" dictionary="S/72"></keyword>
+        <keyword refersTo="agenda" value="[226]" showAs="UN MULTIDIMENSIONAL INTEGRATED STABILIZATION MISSION IN MALI" dictionary="S/72"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2374 (2017) [on sanctions against individuals and entities threatening the peace and reconciliation in Mali]" showAs="Security Council resolution 2374 (2017) [on sanctions against individuals and entities threatening the peace and reconciliation in Mali]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2017-09-05" outcome="draftResolution" as="S/2017/748" by="France" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2017-09-05" outcome="adopted" as="S/PV.8040" by="Adopted unanimously, 8040th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">17-15399 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2374 (2017)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2017-09-05" class="rightSmall" refersTo="#dateOfIssuance">5 September 2017</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2374 (2017)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="8040th">8040th meeting</inline>, on<docDate date="2017-09-05" refersTo="#adoptionDate">5 September 2017</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> its previous resolutions, in particular resolutions <a href="https://undocs.org/S/RES/2364(2017)">2364 (2017)</a> and <a href="https://undocs.org/S/RES/2359(2017)">2359 (2017)</a>, concerning the situation in Mali,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Reaffirming</span> its strong commitment to the sovereignty, unity and territorial integrity of Mali, <span class="italic">emphasizing</span> that the Malian authorities have primary responsibility for the provision of stability and security throughout the territory of Mali, and <span class="italic">underscoring </span>the importance of achieving national ownership of peace- and security-related initiatives,</p>
+      </container>
+      <container name="Recognizing" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing</span> the legitimate aspiration of all Malian citizens to enjoy lasting peace and development,</p>
+      </container>
+      <container name="Recognizing" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing</span> that the Agreement on Peace and Reconciliation in Mali (“the Agreement”) signed in 2015 by the Government of Mali, the <span class="italic">Plateforme</span> coalition of armed groups, and the <span class="italic">Coordination des Mouvements de l’Azawad</span> coalition of armed groups, and its continued implementation, represents a historic opportunity to achieve lasting peace in Mali,</p>
+      </container>
+      <container name="Condemning" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Condemning</span> the repeated violations of the ceasefire arrangements by the <span class="italic">Plateforme</span> and <span class="italic">Coordination</span> armed groups in the Kidal and Menaka regions, <span class="italic">urging</span> them to cease hostilities, to strictly adhere to the ceasefire arrangements and to resume a constructive dialogue without delay for the full implementation of the Agreement, and <span class="italic">welcoming</span> to this extent the recent signing of a truce agreement on 23 August 2017 in Bamako,</p>
+      </container>
+      <container name="Recognizing" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Recognizing</span> the recent progress achieved for the implementation of the Agreement, including the establishment of all interim administrations in the North, <span class="italic">while expressing</span> its deep concern over the persistent delays for its full implementation two years after it was concluded, and <span class="italic">highlighting</span> the pressing need to deliver tangible and visible peace dividends to the population in the North and other parts of Mali in order to keep the momentum of the Agreement,</p>
+      </container>
+      <container name="Affirming" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Affirming</span> its intention to facilitate, support and follow closely the implementation of the Agreement, <span class="italic">commending</span> the role played by Algeria and other members of the international mediation team to assist the Malian parties to implement the Agreement, <span class="italic">emphasizing</span> the need for increased engagement by the members of the international mediation team, and <span class="italic">further emphasizing</span> the central role the Special Representative of the Secretary-General for Mali should continue to play to support and oversee the implementation of the Agreement,</p>
+      </container>
+      <container name="Deploring" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Deploring</span> that the slow progress in the implementation of the Agreement, particularly its defence and security provisions, as well as the delayed restructuring of the security sector, have hampered efforts to restore security and the authority of the Malian State and the delivery of basic social services in the North of Mali, and <span class="italic">stressing</span> the primary responsibility of the Government of Mali, the <span class="italic">Plateforme</span> and <span class="italic">Coordination</span> armed groups to accelerate the implementation of the Agreement in order to improve the security situation across Mali and to forestall attempts by terrorist groups to derail the implementation of the Agreement,</p>
+      </container>
+      <container name="Expressing" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Expressing </span>its serious concern about the volatile security situation, especially the expansion of terrorist and other criminal activities into Central and Southern Mali as well as the intensification of criminal activities such as drug trafficking and trafficking in persons in Mali,</p>
+      </container>
+      <container name="Emphasizing" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	Emphasizing</span> that security and stability in Mali are inextricably linked to that of the Sahel and West Africa regions, as well as the situation in Libya and in the North Africa region,</p>
+      </container>
+      <container name="Acknowledging" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Acknowledging </span>the impact of the situation in Mali on peace and security in the Sahel, as well as on the wider West Africa and North African region,</p>
+      </container>
+      <container name="Expressing its continued" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Expressing its continued</span> concern over the transnational dimension of the terrorist threat in the Sahel region, as well as the serious challenges posed by transnational organized crime in the Sahel region, including arms, drug and cultural property trafficking, the smuggling of migrants, trafficking in persons, and its increasing links, in some cases, with terrorism, and <span class="italic">underscoring </span>the responsibility of the countries in the region in addressing these threats and challenges, </p>
+      </container>
+      <container name="Noting" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Noting</span> that impunity can encourage a culture of corruption in which trafficking and other criminal interests can thrive, further encouraging instability and insecurity, and <span class="italic">calling for</span> the Malian government to devote appropriate law enforcement resources in this regard and <span class="italic">encouraging</span> international, regional and sub-regional cooperation and support to the Malian Government in this endeavor,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_15">
+        <p xml:space="preserve">
+          <span class="italic">	Strongly condemning </span>the activities in Mali and in the Sahel region of terrorist organizations, including the <span class="italic">Mouvement pour l’unicité et le jihad en Afrique de l’Ouest</span> (MUJAO), Al-Qaida in the Islamic Maghreb (AQIM), Al-Mourabitoun, Ansar Eddine, and associated individuals and groups such as Jama’at Nusrat al‑Islam wal-Muslimin (Group for the Support of Islam and Muslims), Islamic State in Greater Sahara and Ansaroul Islam, which continue to operate in Mali and constitute a threat to peace and security in the region and beyond, as well as human rights abuses and violence against civilians, notably women and children, committed in Mali and in the region by terrorist groups,</p>
+      </container>
+      <container name="Recalling" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> the listing of MUJAO, the Organisation of Al-Qaida in the Islamic Maghreb, Ansar Eddine and its leader Iyad Ag Ghali, and Al-Mourabitoun on the ISIL (Da’esh) and Al-Qaida sanctions list established pursuant to resolutions <a href="https://undocs.org/S/RES/1267(1999)">1267 (1999)</a>, <a href="https://undocs.org/S/RES/1989(2011)">1989 (2011)</a> and <a href="https://undocs.org/S/RES/2253(2015)">2253 (2015)</a>, and <span class="italic">reiterating its readiness</span>, under the above-mentioned regime, to sanction further individuals, groups, undertakings and entities who are associated with ISIL (Da’esh), Al-Qaida and other listed entities or individuals, including AQIM, Al Mourabitoun and Ansar Eddine, in accordance with the established listing criteria,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_17">
+        <p xml:space="preserve">
+          <span class="italic">	Strongly condemning</span> the continuing attacks, including terrorist attacks against civilians, the Malian defense and security forces, the United Nations Multidimensional Integrated Stabilization Mission in Mali (MINUSMA) and the French forces, <span class="italic">underlining</span> the need to bring perpetrators, organizers, financiers and sponsors of these reprehensible acts of terrorism to justice, and <span class="italic">urging</span> the Government of Mali to take measures to ensure that those responsible for these attacks are held accountable,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_18">
+        <p xml:space="preserve">
+          <span class="italic">	Strongly condemning</span> the incidents of kidnapping and hostage-taking with the aim of raising funds or gaining political concessions, <span class="italic">reiterating </span>its determination to prevent kidnapping and hostage-taking in the Sahel region and to secure the safe release of hostages without ransom payments or political concessions, in accordance with applicable international law, <span class="italic">recalling</span> its resolutions <a href="https://undocs.org/S/RES/2133(2014)">2133 (2014)</a>, <a href="https://undocs.org/S/RES/2253(2015)">2253 (2015)</a> and <a href="https://undocs.org/S/RES/2368(2017)">2368 (2017)</a> and including its call upon all Member States to prevent terrorists from benefitting directly or indirectly from the payment of ransoms or from political concessions and to secure the safe release of hostages and, in this regard, <span class="italic">noting</span> the publication of the Global Counterterrorism Forum’s (GCTF) “Algiers Memorandum on Good Practices on Preventing and Denying the Benefits of Kidnapping for Ransom by Terrorists”,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_19">
+        <p xml:space="preserve">
+          <span class="italic">	Strongly condemning</span> all abuses and violations of human rights and violations of international humanitarian law in Mali, including those involving extrajudicial and summary executions, arbitrary arrests and detentions and ill-treatment of persons whose liberty has been restricted, sexual and gender-based violence, as well as killing, maiming, recruitment and use of children, attacks against schools and hospitals, <span class="italic">calling on</span> all parties to respect the civilian character of schools as such in accordance with international humanitarian law and to cease unlawful and arbitrary detention of all children, and <span class="italic">calling upon</span> all parties to bring an end to such violations and abuses and to comply with their obligations under applicable international law,</p>
+      </container>
+      <container name="Emphasizing" eId="container_20">
+        <p xml:space="preserve">
+          <span class="italic">	Emphasizing</span> the need for all parties to uphold and respect the humanitarian principles of humanity, neutrality, impartiality and independence in order to ensure the continued provision of humanitarian assistance, the safety and protection of civilians receiving assistance and the security of humanitarian personnel operating in Mali, <span class="italic">stressing</span> the importance of humanitarian assistance being delivered on the basis of need, <span class="italic">reiterating</span> that all parties must allow and facilitate full, safe, and unhindered access for the timely delivery of aid to all persons in need across Mali, </p>
+      </container>
+      <container name="Noting" eId="container_21">
+        <p xml:space="preserve">
+          <span class="italic">	Noting</span> with grave concern the involvement of non‑state actors, notably terrorist groups, in the destruction of cultural heritage and the trafficking in cultural property and related offences and <span class="italic">further taking note</span> of the fact that on 27 September 2016 the ICC found Mr Al Mahdi guilty of the war crime of intentionally directing attacks against religious and historical monuments in Timbuktu,</p>
+      </container>
+      <container name="Welcoming" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Welcoming</span> the continued action by the French forces, at the request and in support of the Malian authorities, to deter the terrorist threat in the North of Mali, </p>
+      </container>
+      <container name="Welcoming" eId="container_23">
+        <p xml:space="preserve">
+          <span class="italic">	Welcoming </span>the deployment of the Force Conjointe des Etats du G5 Sahel (FC‑G5S), <span class="italic">underlining</span> that the FC-G5S efforts to counter the activities of terrorist groups and other organized criminal groups will contribute to create a more secure environment in the Sahel region, with a view to supporting MINUSMA fulfil its mandate to stabilize Mali, </p>
+      </container>
+      <container name="Commending" eId="container_24">
+        <p xml:space="preserve">
+          <span class="italic">	Commending</span> the role of the European Union Training Mission (EUTM Mali) in Mali in providing training and advice for the Malian Defence and Security Forces, including contributing to the strengthening of civilian authority and respect for human rights, and of the European Union Capacity Building Mission (EUCAP Sahel Mali) in providing strategic advice and training for the Police, Gendarmerie and Garde nationale in Mali,</p>
+      </container>
+      <container name="Recalling" eId="container_25">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling </span>the mandate of MINUSMA as outlined in resolution <a href="https://undocs.org/S/RES/2364(2017)">2364 (2017)</a>, <span class="italic">reiterating </span>its strong support for the Special Representative of the Secretary-General for Mali, and for MINUSMA to assist the Malian authorities and the Malian people in their efforts to bring lasting peace and stability to their country, bearing in mind the primary responsibility of the Malian authorities to protect the population, and <span class="italic">welcoming</span> the stabilizing effect of the international presence in Mali, including MINUSMA,</p>
+      </container>
+      <container name="Recalling" eId="container_26">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling </span>the provisions of the Agreement calling upon the Security Council to give its full support to the Agreement, to closely monitor its implementation and, if necessary, to take measures against anyone hindering the implementation of the commitments contained therein or the realization of its objectives,</p>
+      </container>
+      <container name="Recalling" eId="container_27">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> the provisions of resolution <a href="https://undocs.org/S/RES/2364(2017)">2364 (2017)</a> expressing the readiness of the Security Council to consider targeted sanctions against those who take actions to obstruct or threaten the implementation of the Agreement, those who resume hostilities and violate the ceasefire, those who attack and take actions to threaten MINUSMA and other international presences, as well as those who provide support to such attacks and actions,</p>
+      </container>
+      <container name="Taking note of" eId="container_28">
+        <p xml:space="preserve">
+          <span class="italic">	Taking note of</span> the letter of the Government of Mali to the President of the Security Council of 9 August 2017 underlining that the repeated violations of the ceasefire since the beginning of June 2017, particularly in the Kidal region, pose serious threats to the fragile gains made in implementing the Agreement, and thus requesting the Security Council, in order to address the many obstacles to the implementation of the Agreement, to immediately establish a regime of targeted sanctions against those responsible for obstructing the implementation of the Agreement,</p>
+      </container>
+      <container name="Determining" eId="container_29">
+        <p xml:space="preserve">
+          <span class="italic">	Determining</span> that the situation in Mali continues to constitute a threat to international peace and security in the region,</p>
+      </container>
+      <container name="Acting" eId="container_30">
+        <p xml:space="preserve">
+          <span class="italic">	Acting</span> under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_31" class="H23">
+        <subheading>		Travel ban</subheading>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that, for an initial period of one year from the date of the adoption of this resolution, all Member States shall take the necessary measures to prevent the entry into or transit through their territories of individuals designated by the Committee established pursuant to paragraph 9 below, provided that nothing in this paragraph shall oblige a State to refuse its own nationals entry into its territory;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>2.</num>
+        <list eId="para_33_list">
+          <intro eId="para_33_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that the measures imposed by paragraph 1 above shall not apply:</p>
+          </intro>
+          <point eId="para_33_list_point_a">
+            <num>(a)</num>
+            <content eId="para_33_list_point_a_content">
+              <p xml:space="preserve">	Where the Committee determines on a case-by-case basis that such travel is justified on the grounds of humanitarian need, including religious obligation;</p>
+            </content>
+          </point>
+          <point eId="para_33_list_point_b">
+            <num>(b)</num>
+            <content eId="para_33_list_point_b_content">
+              <p xml:space="preserve">	Where entry or transit is necessary for the fulfilment of a judicial process;</p>
+            </content>
+          </point>
+          <point eId="para_33_list_point_c">
+            <num>(c)</num>
+            <content eId="para_33_list_point_c_content">
+              <p xml:space="preserve">	Where the Committee determines on a case-by-case basis that an exemption would further the objectives of peace and national reconciliation in Mali and stability in the region;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> that violations of the travel ban can undermine the peace, stability or security of Mali, observes that individuals who knowingly facilitate the travel of a listed individual in violation of the travel ban may be determined by the Committee to have met the designation criteria provided for in this resolution and calls upon all parties and all Member States to cooperate with the Committee as well as the Panel of experts established pursuant to paragraph 11 below on the implementation of the travel ban;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="H23">
+        <subheading>		Asset freeze</subheading>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that, for an initial period of one year from the date of the adoption of this resolution, all Member States shall freeze without delay all funds, other financial assets and economic resources which are on their territories, which are owned or controlled, directly or indirectly, by the individuals or entities designated by the Committee, or by individuals or entities acting on their behalf or at their direction, or by entities owned or controlled by them, and <span class="italic">decides</span> further that all Member States shall ensure that any funds, financial assets or economic resources are prevented from being made available by their nationals or by any individuals or entities within their territories, directly or indirectly to or for the benefit of the individuals or entities designated by the Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>5.</num>
+        <list eId="para_38_list">
+          <intro eId="para_38_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that the measures imposed by paragraph 4 above do not apply to funds, other financial assets or economic resources that have been determined by relevant Member States:</p>
+          </intro>
+          <point eId="para_38_list_point_a">
+            <num>(a)</num>
+            <content eId="para_38_list_point_a_content">
+              <p xml:space="preserve">	To be necessary for basic expenses, including payment for foodstuffs, rent or mortgage, medicines and medical treatment, taxes, insurance premiums, and public utility charges or exclusively for payment of reasonable professional fees and reimbursement of incurred expenses associated with the provision of legal services in accordance with national laws, or fees or service charges, in accordance with national laws, for routine holding or maintenance of frozen funds, other financial assets and economic resources, after notification by the relevant State to the Committee of the intention to authorize, where appropriate, access to such funds, other financial assets or economic resources and in the absence of a negative decision by the Committee within five working days of such notification;</p>
+            </content>
+          </point>
+          <point eId="para_38_list_point_b">
+            <num>(b)</num>
+            <content eId="para_38_list_point_b_content">
+              <p xml:space="preserve">	To be necessary for extraordinary expenses, provided that such determination has been notified by the relevant State or Member States to the Committee and has been approved by the Committee;</p>
+            </content>
+          </point>
+          <point eId="para_38_list_point_c">
+            <num>(c)</num>
+            <content eId="para_38_list_point_c_content">
+              <p xml:space="preserve">	To be the subject of a judicial, administrative or arbitral lien or judgment, in which case the funds, other financial assets and economic resources may be used to satisfy that lien or judgment provided that the lien or judgment was entered into effect prior to the date of the present resolution, is not for the benefit of a person or entity designated by the Committee, and has been notified by the relevant State or Member States to the Committee;</p>
+            </content>
+          </point>
+          <point eId="para_38_list_point_d">
+            <num>(d)</num>
+            <content eId="para_38_list_point_d_content">
+              <p xml:space="preserve">	Where the Committee determines on a case-by-case basis that an exemption would further the objectives of peace and national reconciliation in Mali and stability in the region; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_40" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that Member States may permit the addition to the accounts frozen pursuant to the provisions of paragraph 4 above of interests or other earnings due on those accounts or payments due under contracts, agreements or obligations that arose prior to the date on which those accounts became subject to the provisions of this resolution, provided that any such interest, other earnings and payments continue to be subject to these provisions and are frozen;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the measures in paragraph 4 above shall not prevent a designated person or entity from making payment due under a contract entered into prior to the listing of such a person or entity, provided that the relevant States have determined that the payment is not directly or indirectly received by a person or entity designated pursuant to paragraph 4 above, and after notification by the relevant States to the Committee of the intention to make or receive such payments or to authorize, where appropriate, the unfreezing of funds, other financial assets or economic resources for this purpose, 10 working days prior to such authorization;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="H23">
+        <subheading>		Designation criteria</subheading>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>8.</num>
+        <list eId="para_45_list">
+          <intro eId="para_45_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that the measures contained in paragraph 1 shall apply to individuals, and that the measures contained in paragraph 4 shall apply to individuals and entities, as designated for such measures by the Committee as responsible for or complicit in, or having engaged in, directly or indirectly, the following actions or policies that threaten the peace, security, or stability of Mali:</p>
+          </intro>
+          <point eId="para_45_list_point_a">
+            <num>(a)</num>
+            <content eId="para_45_list_point_a_content">
+              <p xml:space="preserve">	Engaging in hostilities in violation of the Agreement;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_b">
+            <num>(b)</num>
+            <content eId="para_45_list_point_b_content">
+              <p xml:space="preserve">	Actions taken that obstruct, or that obstruct by prolonged delay, or that threaten the implementation of the Agreement;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_c">
+            <num>(c)</num>
+            <content eId="para_45_list_point_c_content">
+              <p xml:space="preserve">	Acting for or on behalf of or at the direction of or otherwise supporting or financing individuals and entities identified in subparagraphs (a) and (b) above, including through the proceeds from organized crime, including the production and trafficking of narcotic drugs and their precursors originating in or transiting through Mali, the trafficking in persons and the smuggling of migrants, the smuggling and trafficking of arms as well as the trafficking in cultural property; </p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_d">
+            <num>(d)</num>
+            <content eId="para_45_list_point_d_content">
+              <p xml:space="preserve">	Involvement in planning, directing, sponsoring, or conducting attacks against: (i) the various entities referenced in the Agreement, including local, regional and state institutions, joint patrols and the Malian Security and Defense forces; (ii) MINUSMA peacekeepers and other UN and associated personnel, including members of the Panel of experts; (iii) international security presences, including the FC-G5S, European Union Missions and French forces;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_e">
+            <num>(e)</num>
+            <content eId="para_45_list_point_e_content">
+              <p xml:space="preserve">	Obstructing the delivery of humanitarian assistance to Mali, or access to, or distribution of, humanitarian assistance in Mali;</p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_f">
+            <num>(f)</num>
+            <content eId="para_45_list_point_f_content">
+              <p xml:space="preserve">	Planning, directing, or committing acts in Mali that violate international human rights law or international humanitarian law, as applicable, or that constitute human rights abuses or violations, including those involving the targeting of civilians, including women and children, through the commission of acts of violence (including killing, maiming, torture, or rape or other sexual violence), abduction, enforced disappearance, forced displacement, or attacks on schools, hospitals, religious sites, or locations where civilians are seeking refuge; </p>
+            </content>
+          </point>
+          <point eId="para_45_list_point_g">
+            <num>(g)</num>
+            <content eId="para_45_list_point_g_content">
+              <p xml:space="preserve">	The use or recruitment of children by armed groups or armed forces in violation of applicable international law, in the context of the armed conflict in Mali; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_46" class="H23">
+        <subheading>		New Sanctions Committee</subheading>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>9.</num>
+        <list eId="para_47_list">
+          <intro eId="para_47_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> to establish, in accordance with rule 28 of its provisional rules of procedure, a Committee of the Security Council consisting of all the members of the Council (herein “the Committee”), to undertake to following tasks:</p>
+          </intro>
+          <point eId="para_47_list_point_a">
+            <num>(a)</num>
+            <content eId="para_47_list_point_a_content">
+              <p xml:space="preserve">	To monitor implementation of the measures imposed in paragraphs 1 and 4 above;</p>
+            </content>
+          </point>
+          <point eId="para_47_list_point_b">
+            <num>(b)</num>
+            <content eId="para_47_list_point_b_content">
+              <p xml:space="preserve">	To designate those individuals and entities subject to the measures imposed by paragraph 4, to review information regarding those individuals, and to consider requests for exemptions in accordance with paragraph 5 above;</p>
+            </content>
+          </point>
+          <point eId="para_47_list_point_c">
+            <num>(c)</num>
+            <content eId="para_47_list_point_c_content">
+              <p xml:space="preserve">	To designate those individuals subject to the measures imposed by paragraph 1, to review information regarding those individuals, and to consider requests for exemptions in accordance with paragraph 2 above;</p>
+            </content>
+          </point>
+          <point eId="para_47_list_point_d">
+            <num>(d)</num>
+            <content eId="para_47_list_point_d_content">
+              <p xml:space="preserve">	To establish such guidelines as may be necessary to facilitate the implementation of the measures imposed above;</p>
+            </content>
+          </point>
+          <point eId="para_47_list_point_e">
+            <num>(e)</num>
+            <content eId="para_47_list_point_e_content">
+              <p xml:space="preserve">	To encourage a dialogue between the Committee and interested Member States and international, regional and subregional organizations, in particular those in the region, including by inviting representatives of such States or organizations to meet with the Committee to discuss implementation of the measures;</p>
+            </content>
+          </point>
+          <point eId="para_47_list_point_f">
+            <num>(f)</num>
+            <content eId="para_47_list_point_f_content">
+              <p xml:space="preserve">	To seek from all States and international, regional and sub-regional organizations whatever information it may consider useful regarding the actions taken by them to implement effectively the measures imposed above;</p>
+            </content>
+          </point>
+          <point eId="para_47_list_point_g">
+            <num>(g)</num>
+            <content eId="para_47_list_point_g_content">
+              <p xml:space="preserve">	To examine and take appropriate action on information regarding alleged violations or non‑compliance with the measures contained in this resolution;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to make the necessary financial arrangements to enable the Committee to undertake the tasks mentioned in paragraph 9 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="H23">
+        <subheading>		Panel of experts</subheading>
+      </paragraph>
+      <paragraph eId="para_50" class="SingleTxt">
+        <num>11.</num>
+        <list eId="para_50_list">
+          <intro eId="para_50_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to create, for an initial period of thirteen months from the adoption of this resolution, in consultation with the Committee, a group of up to five experts (“Panel of experts”), under the direction of the Committee, and to make the necessary financial and security arrangements to support the work of the Panel, <span class="italic">expresses</span> its intent to consider the renewal of this mandate no later than 12 months after the adoption of this resolution<span class="italic">, </span>and <span class="italic">decides</span> that the Panel shall carry out the following tasks:</p>
+          </intro>
+          <point eId="para_50_list_point_a">
+            <num>(a)</num>
+            <content eId="para_50_list_point_a_content">
+              <p xml:space="preserve">	Assist the Committee in carrying out its mandate as specified in this resolution, including through providing the Committee with information relevant to the potential designation at a later stage of individuals who may be engaging in the activities described in paragraph 8 above;</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_b">
+            <num>(b)</num>
+            <content eId="para_50_list_point_b_content">
+              <p xml:space="preserve">	Gather, examine and analyse information from States, relevant United Nations bodies, regional organizations and other interested parties regarding the implementation of the measures decided in this resolution, in particular incidents of non‑compliance;</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_c">
+            <num>(c)</num>
+            <content eId="para_50_list_point_c_content">
+              <p xml:space="preserve">	Provide to the Council, after discussion with the Committee, an interim update by March, 1, 2018, and a final report by September, 1, 2018, and periodic updates in between;</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_d">
+            <num>(d)</num>
+            <content eId="para_50_list_point_d_content">
+              <p xml:space="preserve">	To assist the Committee in refining and updating information on the list of individuals subject to measures imposed by paragraphs 1 and 4 above, including through the provision of biometric information and additional information for the publicly-available narrative summary of reasons for listing;</p>
+            </content>
+          </point>
+          <point eId="para_50_list_point_e">
+            <num>(e)</num>
+            <content eId="para_50_list_point_e_content">
+              <p xml:space="preserve">	To cooperate closely with INTERPOL and the United Nations Office on Drugs and Crime (UNODC), as appropriate;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Requests </span>that the Panel of experts has the necessary gender expertise, in line with paragraph 6 of resolution <a href="https://undocs.org/S/RES/2242(2015)">2242 (2015)</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that the selection process of the experts composing the Panel should prioritize appointing individuals with the strongest qualifications to fulfil the duties described above while paying due regard to the importance of regional and gender representation in the recruitment process; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Directs</span> the Panel of experts to cooperate with other relevant expert groups established by the Security Council to support the work of its Sanctions Committees, including the Panel of experts established by resolution <a href="https://undocs.org/S/RES/1973(2011)">1973 (2011)</a> concerning Libya and the Analytical Support and Sanctions Monitoring Team pursuant to resolutions <a href="https://undocs.org/S/RES/1526(2004)">1526 (2004)</a> and <a href="https://undocs.org/S/RES/2368(2017)">2368 (2017)</a> concerning ISIL (Da’esh), Al‑Qaida and the Taliban and associated individuals and entities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all parties and all Member States, as well as international, regional and subregional organizations to ensure cooperation with the Panel of experts and further urges all Member States involved to ensure the safety of the members of the Panel of experts and unhindered access, in particular to persons, documents and sites in order for the Panel of experts to execute its mandate;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61" class="H23">
+        <subheading>		Role of MINUSMA</subheading>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> timely information exchange between MINUSMA and the Panel of experts, and <span class="italic">requests </span>MINUSMA to assist the Committee and the Panel of experts, within its mandate and capabilities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <subheading>		Reporting and review</subheading>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all States, particularly those in the region, to actively implement the measures contained in this resolution and to regularly report to the Committee on the actions they have taken to implement the measures imposed by paragraphs 1 and 4 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Committee to report orally, through its Chair, at least once per year to the Council, on the state of the overall work of the Committee, including alongside the Special Representative of the Secretary-General for Mali on the situation in Mali as appropriate, and encourages the Chair to hold regular briefings for all interested Member States;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">Requests </span>the Special Representative of the Secretary-General for Children and Armed Conflict and the Special Representative for Sexual Violence in Conflict to share relevant information with the Committee in accordance with paragraph 7 of resolution <a href="https://undocs.org/S/RES/1960(2010)">1960 (2010)</a> and paragraph 9 of resolution <a href="https://undocs.org/S/RES/1998(2011)">1998 (2011)</a>; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> that it shall keep the situation in Mali under continuous review and that it shall be prepared to review the appropriateness of the measures contained in this resolution, including the strengthening through additional measures, modification, suspension or lifting of the measures, as may be needed at any time in light of the progress achieved in the stabilization of the country and compliance with this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,198 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2381-2017/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2381-2017/"></FRBRuri>
+          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2381-2017/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2381-2017/eng@/"></FRBRuri>
+          <FRBRdate date="2017-10-06" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2381-2017/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2381-2017/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-12" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Verification Mission in Colombia" showAs="UN Verification Mission in Colombia" dictionary="DHLAUTH"></keyword>
+        <keyword value="Ejército de Liberación Nacional (Colombia)" showAs="Ejército de Liberación Nacional (Colombia)" dictionary="DHLAUTH"></keyword>
+        <keyword value="SPECIAL MISSIONS" showAs="SPECIAL MISSIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACE AGREEMENTS" showAs="PEACE AGREEMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="VERIFICATION" showAs="VERIFICATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[302]" showAs="COLOMBIA--POLITICAL CONDITIONS" dictionary="S/72"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2381 (2017) [on participation of the UN Verification Mission in Colombia as the international component and coordinator of a monitoring and verification mechanism (MVM) to verify compliance with the temporary bilateral ceasefire]" showAs="Security Council resolution 2381 (2017) [on participation of the UN Verification Mission in Colombia as the international component and coordinator of a monitoring and verification mechanism (MVM) to verify compliance with the temporary bilateral ceasefire]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2017-10-05" outcome="draftResolution" as="S/2017/837" by="United Kingdom of Great Britain and Northern Ireland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2017-10-05" outcome="adopted" as="S/PV.8063" by="Adopted unanimously, 8063rd meeting" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">17-17570 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2381 (2017)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2017-10-06" class="rightSmall" refersTo="#dateOfIssuance">6 October 2017</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">Resolution 2381 (2017)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">
+          <inline name="adoptionMeeting"></inline>
+          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
+        </docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Welcoming" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Welcoming</span> the temporary, bilateral, national ceasefire announced on  4 September 2017 between the Government of Colombia and the National Liberation Army (ELN),</p>
+      </container>
+      <container name="Acknowledging" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Acknowledging</span> the request by the Government of Colombia and the ELN (the parties) in their 29 September 2017 Joint Communiqué (the Joint Communiqué) for the United Nations to participate as the international component and coordinator of a monitoring and verification mechanism (MVM), comprised of representatives of the Government of Colombia, the ELN, the United Nations and the Catholic Church, to verify compliance with the temporary bilateral ceasefire,</p>
+      </container>
+      <container name="Recalling" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the positive role played by the UN Mission in Colombia established by resolution <a href="https://undocs.org/S/RES/2261(2016)">2261 (2016)</a> in monitoring and verifying the definitive bilateral ceasefire and cessation of hostilities between the Government of Colombia and the Revolutionary Armed Forces of Colombia — People’s Army (FARC-EP), and recognising the contribution which the UN could make in the context of the ceasefire between the Government of Colombia and the ELN,</p>
+      </container>
+      <container name="Considering" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Considering</span> the Secretary-General’s letter to the President of the Security Council of 2 October 2017,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_6" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the Secretary-General’s letter to the President of the Security Council of 2 October 2017; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>2.</num>
+        <list eId="para_7_list">
+          <intro eId="para_7_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> that the United Nations Verification Mission established in resolution <a href="https://undocs.org/S/RES/2366(2017)">2366 (2017)</a> shall, on a temporary basis until 9 January 2018, participate in and coordinate the work of the MVM, as outlined in the Joint Communiqué, in order to:</p>
+          </intro>
+          <point eId="para_7_list_point_i">
+            <num>(i)</num>
+            <content eId="para_7_list_point_i_content">
+              <p xml:space="preserve">	Verify compliance with the temporary, bilateral, national ceasefire with the ELN at the national, regional and local level;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_ii">
+            <num>(ii)</num>
+            <content eId="para_7_list_point_ii_content">
+              <p xml:space="preserve">	Endeavour to prevent incidents through enhanced coordination between the parties and resolution of disagreements;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_iii">
+            <num>(iii)</num>
+            <content eId="para_7_list_point_iii_content">
+              <p xml:space="preserve">	Enable timely response by the parties to incidents;</p>
+            </content>
+          </point>
+          <point eId="para_7_list_point_iv">
+            <num>(iv)</num>
+            <content eId="para_7_list_point_iv_content">
+              <p xml:space="preserve">	Verify and report publicly and to the parties on compliance with the ceasefire;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">Approves</span> the recommendations in the Secretary-General’s letter of  2 October 2017, including the size and operational aspects required, for the United Nations Verification Mission to carry out this work, with the addition of no more than 70 international observers and drawing on the existing staffing, logistics and resources of the Mission without affecting the implementation of its previously mandated tasks under resolution <a href="https://undocs.org/S/RES/2366(2017)">2366 (2017)</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the Secretary-General’s proposal to incorporate reporting with respect to the verification of the ceasefire within the reporting cycle already established by resolution <a href="https://undocs.org/S/RES/2366(2017)">2366 (2017)</a>, and requests an additional update to the Security Council on the implementation of the tasks mandated by this resolution by 8 December 2017.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

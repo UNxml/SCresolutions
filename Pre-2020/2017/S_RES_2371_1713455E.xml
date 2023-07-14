@@ -1,0 +1,795 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/"></FRBRuri>
+          <FRBRdate date="2017-08-05" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/eng@/"></FRBRuri>
+          <FRBRdate date="2017-08-05" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-06-12" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1718 (2006) concerning the Democratic People's Republic of Korea" showAs="UN. Security Council Committee Established pursuant to Resolution 1718 (2006) concerning the Democratic People's Republic of Korea" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Panel of Experts Established pursuant to Security Council Resolution 1874 (2009)" showAs="UN. Panel of Experts Established pursuant to Security Council Resolution 1874 (2009)" dictionary="DHLAUTH"></keyword>
+        <keyword value="NUCLEAR WEAPON TESTS" showAs="NUCLEAR WEAPON TESTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BALLISTIC MISSILES" showAs="BALLISTIC MISSILES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SANCTIONS" showAs="SANCTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SANCTIONS COMPLIANCE" showAs="SANCTIONS COMPLIANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EXPORTS" showAs="EXPORTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FROZEN ASSETS" showAs="FROZEN ASSETS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAVEL RESTRICTIONS" showAs="TRAVEL RESTRICTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[213]" showAs="DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA--MISSILE LAUNCHINGS" dictionary="S/72"></keyword>
+        <keyword refersTo="agenda" value="[23]" showAs="NUCLEAR NON-PROLIFERATION" dictionary="S/72"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2371 (2017) [on strengthening sanctions against the Democratic People's Republic of Korea and condemning the ballistic missile launches of 3 and 28 July 2017]" showAs="Security Council resolution 2371 (2017) [on strengthening sanctions against the Democratic People's Republic of Korea and condemning the ballistic missile launches of 3 and 28 July 2017]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2017-08-05" outcome="draftResolution" as="S/2017/674" by="United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2017-08-05" outcome="adopted" as="S/PV.8019" by="Adopted unanimously, 8019th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BOLIVIA (PLURINATIONAL STATE OF)</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">EGYPT</organization>
+                <organization refersTo="memberState">ETHIOPIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">KAZAKHSTAN</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SENEGAL</organization>
+                <organization refersTo="memberState">SWEDEN</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+                <organization refersTo="memberState">URUGUAY</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">17-13455 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2371 (2017)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2017-08-05" class="rightSmall" refersTo="#dateOfIssuance">5 August 2017</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 2371 (2017)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="8019th">8019th meeting</inline>, on <docDate date="2017-08-05" refersTo="#adoptionDate">5 August 2017</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its previous relevant resolutions, including resolution <a href="https://undocs.org/S/RES/825(1993)">825 (1993)</a>, resolution <a href="https://undocs.org/S/RES/1540(2004)">1540 (2004)</a>, resolution <a href="https://undocs.org/S/RES/1695(2006)">1695 (2006)</a>, resolution <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, resolution <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a>, resolution <a href="https://undocs.org/S/RES/1887(2009)">1887 (2009)</a>, resolution <a href="https://undocs.org/S/RES/2087(2013)">2087 (2013)</a>, resolution <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, resolution <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, resolution <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, and resolution <a href="https://undocs.org/S/RES/2356(2017)">2356 (2017)</a>, as well as the statements of its President of 6 October 2006 (<a href="https://undocs.org/S/PRST/2006/41">S/</a><a href="https://undocs.org/S/PRST/2006/41">PRST/2006/41</a>), 13 April 2009 (<a href="https://undocs.org/S/PRST/2009/7">S/PRST/2009/7</a>) and 16 April 2012 (<a href="https://undocs.org/S/PRST/2012/13">S/PRST/2012/13</a>), </p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> that proliferation of nuclear, chemical and biological weapons, as well as their means of delivery, constitutes a threat to international peace and security, </p>
+      </container>
+      <container name="Expressing" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> its gravest concern at the July 3 and July 28 of 2017 ballistic missile tests by the Democratic People’s Republic of Korea (“the DPRK”), which the DPRK has stated were tests of intercontinental ballistic missiles, in violation of resolutions <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a>, <a href="https://undocs.org/S/RES/2087(2013)">2087 (2013)</a>, <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, and <a href="https://undocs.org/S/RES/2356(2017)">2356 (2017)</a>, and at the challenge such tests constitute to the Treaty on Non-Proliferation of Nuclear Weapons (“the NPT”) and to international efforts aimed at strengthening the global regime of non‑proliferation of nuclear weapons, and the danger they pose to peace and stability in the region and beyond, </p>
+      </container>
+      <container name="Underlining" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> once again the importance that the DPRK respond to other security and humanitarian concerns of the international community, </p>
+      </container>
+      <container name="Underlining" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> also that measures imposed by this resolution are not intended to have adverse humanitarian consequences for the civilian population of the DPRK, </p>
+      </container>
+      <container name="Expressing" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> serious concern that the DPRK has continued to violate relevant Security Council resolutions through repeated launches and attempted launches of ballistic missiles, and <span class="italic">noting</span> that all such ballistic missile activities contribute to the DPRK’s development of nuclear weapons delivery systems and increase tension in the region and beyond,</p>
+      </container>
+      <container name="Expressing" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> continued concern that the DPRK is abusing the privileges and immunities accorded under the Vienna Conventions on Diplomatic and Consular Relations,</p>
+      </container>
+      <container name="Expressing" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> great concern that the DPRK’s prohibited arms sales have generated revenues that are diverted to the pursuit of nuclear weapons and ballistic missiles while DPRK citizens have unmet needs,</p>
+      </container>
+      <container name="Expressing" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> its gravest concern that the DPRK’s ongoing nuclear- and ballistic missile-related activities have further generated increased tension in the region and beyond, and <span class="italic">determining</span> that there continues to exist a clear threat to international peace and security,</p>
+      </container>
+      <container name="Acting" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations, and taking measures under its Article 41,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_12" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve">	<span class="italic">Condemns</span> in the strongest terms the ballistic missile launches conducted by the DPRK on 3 July and 28 July of 2017, which the DPRK has stated were launches of intercontinental ballistic missiles, and which used ballistic missile technology in violation and flagrant disregard of the Security Council’s resolutions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> its decisions that the DPRK shall not conduct any further launches that use ballistic missile technology, nuclear tests, or any other provocation; shall suspend all activities related to its ballistic missile program and in this context re-establish its pre‑existing commitments to a moratorium on missile launches; shall abandon all nuclear weapons and existing nuclear programs in a complete, verifiable and irreversible manner, and immediately cease all related activities; and shall abandon any other existing weapons of mass destruction and ballistic missile programs in a complete, verifiable and irreversible manner; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="H23">
+        <subheading>		Designations</subheading>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the measures specified in paragraph 8 (d) of resolution <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a> shall apply also to the individuals and entities listed in Annex I and II of this resolution and to any individuals or entities acting on their behalf or at their direction, and to entities owned or controlled by them, including through illicit means, and <span class="italic">decides</span> further that the measures specified in paragraph 8 (e) of resolution <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a> shall also apply to the individuals listed in Annex I of this resolution and to individuals acting on their behalf or at their direction; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to adjust the measures imposed by paragraph 8 of resolution <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a> and this resolution through the designation of additional goods, <span class="italic">directs</span> the Committee to undertake its tasks to this effect and to report to the Security Council within fifteen days of adoption of this resolution, and <span class="italic">further decides</span> that, if the Committee has not acted, then the Security Council will complete action to adjust the measures within seven days of receiving that report; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to adjust the measures imposed by paragraph 7 of resolution <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a> through the designation of additional conventional arms-related items, materials, equipment, goods, and technology, <span class="italic">directs</span> the Committee to undertake its tasks to this effect and to report to the Security Council within thirty days of adoption of this resolution, <span class="italic">further decides</span> that, if the Committee has not acted, then the Security Council will complete action to adjust the measures within seven days of receiving that report, and <span class="italic">directs</span> the Committee to update this list every 12 months;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="H23">
+        <subheading>		Transportation</subheading>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the Committee may designate vessels for which it has information indicating they are, or have been, related to activities prohibited by resolutions <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a>, <a href="https://undocs.org/S/RES/2087(2013)">2087 (2013)</a>, <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, <a href="https://undocs.org/S/RES/2356(2017)">2356 (2017)</a>, or this resolution and all Member States shall prohibit the entry into their ports of such designated vessels, unless entry is required in the case of emergency or in the case of return to its port of origination, or unless the Committee determines in advance that such entry is required for humanitarian purposes or any other purposes consistent with the objectives of resolutions <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a>, <a href="https://undocs.org/S/RES/2087(2013)">2087 (2013)</a>, <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, <a href="https://undocs.org/S/RES/2356(2017)">2356 (2017)</a>, or this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Clarifies</span> that the measures set forth in paragraph 20 of resolution <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a> and paragraph 9 of resolution <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, requiring States to prohibit their nationals, persons subject to their jurisdiction and entities incorporated in their territory or subject to their jurisdiction from owning, leasing, operating any vessel flagged by the DPRK, without exception, unless the Committee approves on a case-by-case basis in advance, apply to chartering vessels flagged by the DPRK; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="H23">
+        <subheading>		Sectoral</subheading>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that paragraph 26 of resolution <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a> shall be replaced by the following:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <content eId="para_24__content">
+          <p xml:space="preserve">		“<span class="italic">Decides</span> that the DPRK shall not supply, sell or transfer, directly or indirectly, from its territory or by its nationals or using its flag vessels or aircraft, coal, iron, and iron ore, and that all States shall prohibit the procurement of such material from the DPRK by their nationals, or using their flag vessels or aircraft, and whether or not originating in the territory of the DPRK, <span class="italic">decides</span> that for sales and transactions of iron and iron ore for which written contracts have been finalized prior to the adoption of this resolution, all States may allow those shipments to be imported into their territories up to 30 days from the date of adoption of this resolution with notification provided to the Committee containing details on those imports by no later than 45 days after the date of adoption of this resolution, and <span class="italic">decides</span> further that this provision shall not apply with respect to coal that the exporting State confirms on the basis of credible information has originated outside the DPRK and was transported through the DPRK solely for export from the Port of Rajin (Rason), provided that the exporting State notifies the Committee in advance and such transactions involving coal originating outside of the DPRK are unrelated to generating revenue for the DPRK’s nuclear or ballistic missile programs or other activities prohibited by resolutions <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a>, <a href="https://undocs.org/S/RES/2087(2013)">2087 (2013)</a>, <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, <a href="https://undocs.org/S/RES/2356(2017)">2356 (2017)</a>, or this resolution;”</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the DPRK shall not supply, sell or transfer, directly or indirectly, from its territory or by its nationals or using its flag vessels or aircraft, seafood (including fish, crustaceans, mollusks, and other aquatic invertebrates in all forms), and that all States shall prohibit the procurement of such items from the DPRK by their nationals, or using their flag vessels or aircraft, whether or not originating in the territory of the DPRK, and further <span class="italic">decides</span> that for sales and transactions of seafood (including fish, crustaceans, mollusks, and other aquatic invertebrates in all forms) for which written contracts have been finalized prior to the adoption of this resolution, all States may allow those shipments to be imported into their territories up to 30 days from the date of adoption of this resolution with notification provided to the Committee containing details on those imports by no later than 45 days after the date of adoption of this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the DPRK shall not supply, sell or transfer, directly or indirectly, from its territory or by its nationals or using its flag vessels or aircraft, lead and lead ore, and that all States shall prohibit the procurement of such items from the DPRK by their nationals, or using their flag vessels or aircraft, whether or not originating in the territory of the DPRK, and further <span class="italic">decides</span> that for sales and transactions of lead and lead ore for which written contracts have been finalized prior to the adoption of this resolution, all States may allow those shipments to be imported into their territories up to 30 days from the date of adoption of this resolution with notification provided to the Committee containing details on those imports by no later than 45 days after the date of adoption of this resolution; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Expresses concern</span> that DPRK nationals frequently work in other States for the purpose of generating foreign export earnings that the DPRK uses to support its prohibited nuclear and ballistic missile programs, <span class="italic">decides</span> that all Member States shall not exceed on any date after the date of adoption of this resolution the total number of work authorizations for DPRK nationals provided in their jurisdictions at the time of the adoption of this resolution unless the Committee approves on a case-by-case basis in advance that employment of additional DPRK nationals beyond the number of work authorizations provided in a member state’s jurisdiction at the time of the adoption of this resolution is required for the delivery of humanitarian assistance, denuclearization or any other purpose consistent with the objectives of resolutions <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a>, <a href="https://undocs.org/S/RES/2087(2013)">2087 (2013)</a>, <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, <a href="https://undocs.org/S/RES/2356(2017)">2356 (2017)</a>, or this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="H23">
+        <subheading>		Financial</subheading>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that States shall prohibit, by their nationals or in their territories, the opening of new joint ventures or cooperative entities with DPRK entities or individuals, or the expansion of existing joint ventures through additional investments, whether or not acting for or on behalf of the government of the DPRK, unless such joint ventures or cooperative entities have been approved by the Committee in advance on a case-by-case basis;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Clarifies</span> that the prohibitions contained in paragraph 11 of resolution <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a> apply to clearing of funds through all Member States’ territories;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve">	<span class="italic">Clarifies</span> that companies performing financial services commensurate with those provided by banks are considered financial institutions for the purposes of implementing paragraph 11 of resolution <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, paragraphs 33 and 34 of resolution <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, and paragraph 33 of resolution <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="H23">
+        <subheading>		Chemical Weapons</subheading>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span> paragraph 24 of resolution <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, <span class="italic">decides</span> that the DPRK shall not deploy or use chemical weapons, and <span class="italic">urgently calls upon</span> the DPRK to accede to the Convention on the Prohibition of the Development, Production, Stockpiling and Use of Chemical Weapons and Their Destruction, and then to immediately comply with its provisions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="H23">
+        <subheading>		Vienna Convention</subheading>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> that the DPRK fully comply with its obligations under the Vienna Convention on Diplomatic Relations and the Vienna Convention on Consular Relations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="H23">
+        <subheading>		Impact on the People of the DPRK</subheading>
+      </paragraph>
+      <paragraph eId="para_39" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve">	<span class="italic">Regrets</span> the DPRK’s massive diversion of its scarce resources toward its development of nuclear weapons and a number of expensive ballistic missile programs, <span class="italic">notes</span> the findings of the United Nations Office for the Coordination of Humanitarian Assistance that well over half of the people in the DPRK suffer from major insecurities in food and medical care, including a very large number of pregnant and lactating women and under-five children who are at risk of malnutrition and nearly a quarter of its total population suffering from chronic malnutrition, and, in this context, <span class="italic">expresses</span> deep concern at the grave hardship to which the people in the DPRK are subjected;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="H23">
+        <subheading>		Sanctions Implementation</subheading>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that Member States shall report to the Security Council within ninety days of the adoption of this resolution, and thereafter upon request by the Committee, on concrete measures they have taken in order to implement effectively the provisions of this resolution, <span class="italic">requests</span> the Panel of Experts, in cooperation with other United Nations sanctions monitoring groups, to continue its efforts to assist Member States in preparing and submitting such reports in a timely manner;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all Member States to redouble efforts to implement in full the measures in resolutions <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a>, <a href="https://undocs.org/S/RES/2087(2013)">2087 (2013)</a>, <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, and <a href="https://undocs.org/S/RES/2356(2017)">2356 (2017)</a>, and to cooperate with each other in doing so, particularly with respect to inspecting, detecting and seizing items the transfer of which is prohibited by these resolutions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the mandate of the Committee, as set out in paragraph 12 of resolution <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, shall apply with respect to the measures imposed in this resolution and <span class="italic">further decides</span> that the mandate of the Panel of Experts, as specified in paragraph 26 of resolution <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a> and modified in paragraph 1 of resolution <a href="https://undocs.org/S/RES/2345(2017)">2345 (2017)</a>, shall also apply with respect to the measures imposed in this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to authorize all Member States to, and that all Member States shall, seize and dispose (such as through destruction, rendering inoperable or unusable, storage, or transferring to a State other than the originating or destination States for disposal) of items the supply, sale, transfer, or export of which is prohibited by resolutions <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a>, <a href="https://undocs.org/S/RES/2087(2013)">2087 (2013)</a>, <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, <a href="https://undocs.org/S/RES/2356(2017)">2356 (2017)</a>, or this resolution that are identified in inspections, in a manner that is not inconsistent with their obligations under applicable Security Council resolutions, including resolution <a href="https://undocs.org/S/RES/1540(2004)">1540 (2004)</a>, as well as any obligations of parties to the NPT, the Convention on the Prohibition of the Development, Production, Stockpiling and Use of Chemical Weapons and on Their Development of 29 April 1997, and the Convention on the Prohibition of the Development, Production and Stockpiling of Bacteriological (Biological) and Toxin Weapons and on Their Destruction of 10 April 1972;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve">	<span class="italic">Emphasizes</span> the importance of all States, including the DPRK, taking the necessary measures to ensure that no claim shall lie at the instance of the DPRK, or of any person or entity in the DPRK, or of persons or entities designated for measures set forth in resolutions <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a>, <a href="https://undocs.org/S/RES/2087(2013)">2087 (2013)</a>, <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, <a href="https://undocs.org/S/RES/2356(2017)">2356 (2017)</a>, or this resolution, or any person claiming through or for the benefit of any such person or entity, in connection with any contract or other transaction where its performance was prevented by reason of the measures imposed by this resolution or previous resolutions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> that Interpol issue Special Notices with respect to designated individuals, and <span class="italic">directs</span> the Committee to work with Interpol to develop the appropriate arrangements to do so;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to provide additional analytical resources needed to the Panel of Experts established pursuant to resolution <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a> to strengthen its ability to analyze the DPRK’s sanctions violation and evasion activities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63" class="H23">
+        <subheading>		Political</subheading>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its deep concern at the grave hardship that the people in the DPRK are subjected to, <span class="italic">condemns</span> the DPRK for pursuing nuclear weapons and ballistic missiles instead of the welfare of its people while people in the DPRK have great unmet needs, and <span class="italic">emphasizes</span> the necessity of the DPRK respecting and ensuring the welfare and inherent dignity of people in the DPRK;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> that the measures imposed by resolutions <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a>, <a href="https://undocs.org/S/RES/2087(2013)">2087 (2013)</a>, <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, <a href="https://undocs.org/S/RES/2356(2017)">2356 (2017)</a>, and this resolution are not intended to have adverse humanitarian consequences for the civilian population of the DPRK or to affect negatively or restrict those activities, including economic activities and cooperation, food aid and humanitarian assistance, that are not prohibited by resolutions <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a>, <a href="https://undocs.org/S/RES/1874(2009)">1874 (2009)</a>, <a href="https://undocs.org/S/RES/2087(2013)">2087 (2013)</a>, <a href="https://undocs.org/S/RES/2094(2013)">2094 (2013)</a>, <a href="https://undocs.org/S/RES/2270(2016)">2270 (2016)</a>, <a href="https://undocs.org/S/RES/2321(2016)">2321 (2016)</a>, <a href="https://undocs.org/S/RES/2356(2017)">2356 (2017)</a> and this resolution, and the work of international and non‑governmental organizations carrying out assistance and relief activities in the DPRK for the benefit of the civilian population of the DPRK and <span class="italic">decides</span> that the Committee may, on a case-by-case basis, exempt any activity from the measures imposed by these resolutions if the committee determines that such an exemption is necessary to facilitate the work of such organizations in the DPRK or for any other purpose consistent with the objectives of these resolutions, and <span class="italic">further decides</span> that the measures specified in paragraph 8 (d) of resolution <a href="https://undocs.org/S/RES/1718(2006)">1718 (2006)</a> shall not apply with respect to financial transactions with the DPRK Foreign Trade Bank or the Korea National Insurance Corporation if such transactions are solely for the operation of diplomatic or consular missions in the DPRK or humanitarian assistance activities that are undertaken by, or in coordination with, the United Nations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> its support for the Six Party Talks, <span class="italic">calls</span> for their resumption, and <span class="italic">reiterates</span> its support for the commitments set forth in the Joint Statement of 19 September 2005 issued by China, the DPRK, Japan, the Republic of Korea, the Russian Federation, and the United States, including that the goal of the Six-Party Talks is the verifiable denuclearization of the Korean Peninsula in a peaceful manner, that the United States and the DPRK undertook to respect each other’s sovereignty and exist peacefully together, that the Six Parties undertook to promote economic cooperation, and all other relevant commitments;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> the importance of maintaining peace and stability on the Korean Peninsula and in north-east Asia at large, and <span class="italic">expresses</span> its commitment to a peaceful, diplomatic, and political solution to the situation and welcomes efforts by the Council members as well as other States to facilitate a peaceful and comprehensive solution through dialogue and stresses the importance of working to reduce tensions in the Korean Peninsula and beyond;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> that it shall keep the DPRK’s actions under continuous review and is prepared to strengthen, modify, suspend or lift the measures as may be needed in light of the DPRK’s compliance, and, in this regard, <span class="italic">expresses its determination</span> to take further significant measures in the event of a further DPRK nuclear test or launch;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/"></FRBRuri>
+                <FRBRdate date="2017-08-05" name="adoption"></FRBRdate>
+                <FRBRauthor href="sc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/eng@/"></FRBRuri>
+                <FRBRdate date="2017-08-05" name="publication"></FRBRdate>
+                <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2017-08-05/2371-2017/eng@.xml"></FRBRuri>
+                <FRBRdate date="2023-06-12" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_80" class="H1">
+                  <heading>Annex I</heading>
+            </paragraph>
+            <paragraph eId="para_81" class="H1">
+                  <heading>Travel Ban/Asset Freeze (Individuals)</heading>
+            </paragraph>
+            <paragraph eId="para_82" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_82__content">
+                <p xml:space="preserve">	CHOE CHUN YONG </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_83__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Representative for Ilsim International Bank, which is affiliated with the DPRK military and has a close relationship with the Korea Kwangson Banking Corporation. Ilsim International Bank has attempted to evade United Nations sanctions.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_84" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_84__content">
+                <p xml:space="preserve">	<span class="italic">A.K.A.</span>: Ch’oe Ch’un-yo’ng</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_85" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_85__content">
+                <p xml:space="preserve">	<span class="italic">Identifiers</span>: Nationality: DPRK; Passport no.: 654410078; Gender: male</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_86__content">
+                <p xml:space="preserve">	HAN JANG SU </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_87" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_87__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Chief Representative of the Foreign Trade Bank.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_88__content">
+                <p xml:space="preserve">	<span class="italic">A.K.A.</span>: Chang-Su Han</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_89" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_89__content">
+                <p xml:space="preserve">	<span class="italic">Identifiers</span>: DOB: November 08, 1969; POB: Pyongyang, DPRK; Nationality: DPRK; Passport no.: 745420176, expires on October 19, 2020; Gender: male</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_90" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_90__content">
+                <p xml:space="preserve">	JANG SONG CHOL</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_91__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Jang Song Chol is a Korea Mining Development Corporation (KOMID) representative overseas.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_92__content">
+                <p xml:space="preserve">	<span class="italic">AKA</span>: n/a</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_93__content">
+                <p xml:space="preserve">	<span class="italic">Identifiers</span>: DOB: 12 March 1967; Nationality: DPRK</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_94__content">
+                <p xml:space="preserve">	JANG SUNG NAM </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_95__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Chief of an overseas Tangun Trading Corporation branch, which is primarily responsible for the procurement of commodities and technologies to support the DPRK’s defense research and development programs.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_96__content">
+                <p xml:space="preserve">	<span class="italic">A.K.A.</span>: n/a</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_97__content">
+                <p xml:space="preserve">	<span class="italic">Identifiers</span>: DOB: July 14, 1970; Nationality: DPRK; Passport no.: 563120368, issued on March 22, 2013; Passport expiration date: March 22, 2018; Gender: male</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_98__content">
+                <p xml:space="preserve">	JO CHOL SONG </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_99__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Deputy Representative for the Korea Kwangson Banking Corporation, which provides financial services in support to Tanchon Commercial Bank and Korea Hyoksin Trading, a subordinate entity of Korea Ryonbong General Corporation.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_100__content">
+                <p xml:space="preserve">	<span class="italic">A.K.A.</span>: Cho Ch’o’l-so’ng</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_101__content">
+                <p xml:space="preserve">	<span class="italic">Identifiers</span>: DOB: September 25, 1984; Nationality: DPRK; Passport no.: 654320502, expires on September 16, 2019; Gender: male</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_102__content">
+                <p xml:space="preserve">	KANG CHOL SU </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_103__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Official for Korea Ryonbong General Corporation, which specializes in acquisition for the DPRK’s defense industries and support for the DPRK’s military-related overseas sales. Its procurements also likely support the DPRK’s chemical weapons program.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_104__content">
+                <p xml:space="preserve">	<span class="italic">A.K.A.</span>: n/a</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_105__content">
+                <p xml:space="preserve">	<span class="italic">Identifiers</span>: DOB: February 13, 1969; Nationality: DPRK; Passport no.: 472234895 </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_106__content">
+                <p xml:space="preserve">	KIM MUN CHOL </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_107__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Representative for Korea United Development Bank. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_108__content">
+                <p xml:space="preserve">	<span class="italic">A.K.A.</span>: Kim Mun-ch’o’l</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_109__content">
+                <p xml:space="preserve">	<span class="italic">Identifiers</span>: DOB: March 25, 1957; Nationality: DPRK</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_110__content">
+                <p xml:space="preserve">	KIM NAM UNG </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_111__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Representative for Ilsim International Bank, which is affiliated with the DPRK military and has a close relationship with the Korea Kwangson Banking Corporation. Ilsim International Bank has attempted to evade United Nations sanctions.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_112__content">
+                <p xml:space="preserve">	<span class="italic">A.K.A.</span>: n/a</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_113__content">
+                <p xml:space="preserve">	<span class="italic">Identifiers</span>: Nationality: DPRK; Passport no.: 654110043</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_114__content">
+                <p xml:space="preserve">	PAK IL KYU</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_115__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Official for Korea Ryonbong General Corporation, which specializes in acquisition for DPRK’s defense industries and support to Pyongyang’s military-related sales. Its procurements also likely support the DPRK’s chemical weapons program.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_116__content">
+                <p xml:space="preserve">	<span class="italic">A.K.A.</span>: Pak Il-Gyu</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_117__content">
+                <p xml:space="preserve">	<span class="italic">Identifiers</span>: Nationality: DPRK; Passport no.: 563120235; Gender: male</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="SingleTxt">
+              <content eId="para_118__content">
+                <p xml:space="preserve">
+                  <span class="underline">List Update for Aliases</span>:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="SingleTxt">
+              <content eId="para_119__content">
+                <p xml:space="preserve">		JANG BOM SU (KPi.016) — N<span class="italic">ew AKA:</span> Jang Hyon U with date of birth 22 February 1958 and diplomatic passport number 836110034, which expires on 1 January 2020.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="SingleTxt">
+              <content eId="para_120__content">
+                <p xml:space="preserve">		JON MYONG GUK (KPi.018) — N<span class="italic">ew AKA:</span> Jon Yong Sang with date of birth 25 August 1976 and diplomatic passport number 836110035, which expires on 1 January 2020.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="H1">
+                  <heading>Annex II</heading>
+            </paragraph>
+            <paragraph eId="para_122" class="H1">
+                  <heading>Asset Freeze (Entities)</heading>
+            </paragraph>
+            <paragraph eId="para_123" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_123__content">
+                <p xml:space="preserve">	FOREIGN TRADE BANK (FTB)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_124__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Foreign Trade Bank is a state-owned bank and acts as the DPRK’s primary foreign exchange bank and has provided key financial support to the Korea Kwangson Banking Corporation. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_125__content">
+                <p xml:space="preserve">	<span class="italic">AKA</span>: n/a</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_126__content">
+                <p xml:space="preserve">	<span class="italic">Location</span>: FTB Building, Jungsong-dong, Central District, Pyongyang, DPRK</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_127__content">
+                <p xml:space="preserve">	KOREAN NATIONAL INSURANCE COMPANY (KNIC) </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_128__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: The Korean National Insurance Company is a DPRK financial and insurance company and is affiliated with Office 39.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_129__content">
+                <p xml:space="preserve">	<span class="italic">AKA</span>: Korea Foreign Insurance Company</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_130__content">
+                <p xml:space="preserve">	<span class="italic">Location</span>: Central District, Pyongyang, DPRK</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_131__content">
+                <p xml:space="preserve">	KORYO CREDIT DEVELOPMENT BANK</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_132" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_132__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Koryo Credit Development Bank operates in the financial services industry in the DPRK’s economy.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_133" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_133__content">
+                <p xml:space="preserve">	<span class="italic">AKA</span>: Daesong Credit Development Bank; Koryo Global Credit Bank; Koryo Global Trust Bank</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_134" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_134__content">
+                <p xml:space="preserve">	<span class="italic">Location</span>: Pyongyang, DPRK</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_135__content">
+                <p xml:space="preserve">	MANSUDAE OVERSEAS PROJECT GROUP OF COMPANIES</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_136__content">
+                <p xml:space="preserve">	<span class="italic">Description</span>: Mansudae Overseas Project Group of Companies engaged in, facilitated, or was responsible for the exportation of workers from the DPRK to other nations for construction-related activities including for statues and monuments to generate revenue for the Government of the DPRK or the Workers’ Party of Korea. The Mansudae Overseas Project Group of Companies has been reported to conduct business in countries in Africa and Southeast Asia including Algeria, Angola, Botswana, Benin, Cambodia, Chad, the Democratic Republic of the Congo, Equatorial Guinea, Malaysia, Mozambique, Madagascar, Namibia, Syria, Togo, and Zimbabwe.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_137__content">
+                <p xml:space="preserve">	<span class="italic">AKA</span>: Mansudae Art Studio</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_138__content">
+                <p xml:space="preserve">	<span class="italic">Location</span>: Pyongyang, DPRK</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
