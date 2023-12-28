@@ -1,0 +1,797 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2023-12-19/2717-2023/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2023-12-19/2717-2023/"></FRBRuri>
+          <FRBRdate date="2023-12-19" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2023-12-19/2717-2023/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2023-12-19/2717-2023/fra@/"></FRBRuri>
+          <FRBRdate date="2023-12-19" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2023-12-19/2717-2023/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2023-12-19/2717-2023/fra@.xml"></FRBRuri>
+          <FRBRdate date="2023-12-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="6" href="http://metadata.un.org/sdg/6" showAs="sdg_6" dictionary="SDGO"></keyword>
+        <keyword value="water" href="http://eurovoc.europa.eu/597" showAs="water" dictionary="EuroVoc"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/030500" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="water" href="http://metadata.un.org/thesaurus/1006939" showAs="water" dictionary="UNBIS"></keyword>
+        <keyword value="sanitation" href="http://metadata.un.org/thesaurus/1005701" showAs="sanitation" dictionary="UNBIS"></keyword>
+        <keyword value="public_hygiene" href="http://eurovoc.europa.eu/3371" showAs="public_hygiene" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://eurovoc.europa.eu/3144" showAs="water_management" dictionary="EuroVoc"></keyword>
+        <keyword value="water_management" href="http://metadata.un.org/thesaurus/1006948" showAs="water_management" dictionary="UNBIS"></keyword>
+        <keyword value="use_of_water" href="http://eurovoc.europa.eu/4628" showAs="use_of_water" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Organization Stabilization Mission in the Democratic Republic of the Congo" showAs="UN Organization Stabilization Mission in the Democratic Republic of the Congo" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Group of Experts Established pursuant to Resolution 1533 (2004)" showAs="UN. Group of Experts Established pursuant to Resolution 1533 (2004)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" showAs="Framework for Peace, Security and Cooperation for the Democratic Republic of the Congo and the Region (2013)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Charter of the United Nations (1945). Chapter VII" showAs="Charter of the United Nations (1945). Chapter VII" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEBUILDING" href="http://metadata.un.org/thesaurus/1004776" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" href="http://metadata.un.org/thesaurus/1002979" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" href="http://metadata.un.org/thesaurus/1004779" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNAL SECURITY" href="http://metadata.un.org/thesaurus/1003272" showAs="INTERNAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" href="http://metadata.un.org/thesaurus/1005210" showAs="PROTECTION OF CIVILIANS IN PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO" href="http://metadata.un.org/thesaurus/1001559" showAs="DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" href="http://metadata.un.org/thesaurus/1001560" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[104]" showAs="UN ORGANIZATION STABILIZATION MISSION IN THE DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="S/78"></keyword>
+        <keyword refersTo="agenda" value="[102]" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="S/78"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation concerning the Democratic Republic of the Congo." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 2717 (2023) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 20 Dec. 2024]" showAs="Security Council resolution 2717 (2023) [on extension of the mandate of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO) until 20 Dec. 2024]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-12-19" outcome="draftResolution" as="S/2023/1000" by="France" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-12-19" outcome="adopted" as="S/PV.9492" by="Adopted unanimously, 9512th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MOZAMBIQUE</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-25640 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/2717 (2023)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil de sécurité</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-12-19" class="rightSmall" refersTo="#dateOfIssuance">19 décembre 2023</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Résolution 2717 (2023)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adoptée par le Conseil de sécurité à sa <inline name="adoptionMeeting" title="9512e">9512e séance</inline>, le <docDate date="2023-12-19" refersTo="#adoptionDate">19 décembre 2023</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil de sécurité</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> ses résolutions antérieures et les déclarations de sa présidence sur la République démocratique du Congo, en particulier ses résolutions précédentes concernant le mandat de la Mission de l’Organisation des Nations Unies pour la stabilisation en République démocratique du Congo (MONUSCO) et le régime de sanctions établi par les résolution <a href="https://undocs.org/fr/S/RES/1493(2003)">1493 (2003)</a> et <a href="https://undocs.org/fr/S/RES/1807(2008)">1807 (2008)</a> et la déclaration de son président (<a href="https://undocs.org/fr/S/PRST/2023/5">S/PRST/2023/5</a>),</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> les principes fondamentaux du maintien de la paix, tels que le consentement des parties, l’impartialité et le non-recours à la force, sauf en cas de légitime défense ou pour la défense du mandat,</p>
+      </container>
+      <container name="Réaffirmant également" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant également</span> son ferme attachement à la souveraineté, à l’indépendance, à l’unité et à l’intégrité territoriale de la République démocratique du Congo et de tous les États de la région, et <span class="italic">soulignant</span> qu’il faut de toute urgence que les principes de non-ingérence, de bon voisinage et de coopération régionale soient pleinement respectés,</p>
+      </container>
+      <container name="Prenant bonne note" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">	Prenant bonne note</span> du rapport daté du 2 août 2023 que le Secrétaire général lui a présenté conformément au paragraphe 44 de sa résolution <a href="https://undocs.org/fr/S/RES/2666(2022)">2666 (2022)</a>, de la lettre émanant du Vice-Premier Ministre et Ministre des affaires étrangères de la République démocratique du Congo, Christophe Lutundula Apala Pen’Apala, en date du 1<sup>er</sup> septembre 2023, sur le retrait accéléré de la MONUSCO à partir de la fin de 2023 et du plan de désengagement complet que lui a présenté le groupe de travail conjoint composé de la MONUSCO et du Gouvernement congolais, le 21 novembre, </p>
+      </container>
+      <container name="Soulignant" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Soulignant</span>, à cet égard, que le retrait de la mission devrait s’accompagner d’un renforcement simultané des capacités et de l’autorité de l’État, en particulier de la présence de forces de défense et de sécurité de l’État afin d’éviter tout vide en matière de sécurité, en commençant par le Sud-Kivu, afin d’assurer une protection efficace des civils, et <span class="italic">demandant</span> à tous les partenaires internationaux d’apporter un appui adéquat au Gouvernement congolais à cet égard,</p>
+      </container>
+      <container name="Rappelant" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> que c’est au Gouvernement congolais qu’il incombe au premier chef de protéger les populations civiles se trouvant sur son territoire et relevant de sa juridiction, y compris contre les crimes internationaux, <span class="italic">conscient</span> que la persistance des problèmes de sécurité constitue une menace pour les populations civiles, et <span class="italic">soulignant</span> l’importance des efforts déployés à l’échelle nationale pour rétablir l’autorité de l’État dans tout le pays et surmonter ainsi les menaces que représentent les groupes armés,</p>
+      </container>
+      <container name="Se déclarant préoccupé" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Se déclarant préoccupé</span> par l’escalade de la violence dans l’est de la République démocratique du Congo et des tension persistantes entre ce pays et le Rwanda, et <span class="italic">notant </span>que la République démocratique du Congo reste en proie à des cycles récurrents et évolutifs de conflits et de violence permanente causés par des groupes armés étrangers et nationaux, notamment le Mouvement du 23 mars (M23), la Coopérative pour le développement du Congo ( CODECO), les Forces démocratiques alliées (ADF), les Forces démocratiques de libération du Rwanda (FDLR), le groupe Zaïre (FPAC), la Résistance pour un État de droit au Burundi (RED Tabara), les groupes Maï-Maï, les Twirwaneho et plusieurs autres groupes armés nationaux et étrangers, et les violations du droit international humanitaire et d’autres normes applicables du droit international ainsi que les atteintes aux droits humains qu’ils commettent, qui exacerbent une crise très inquiétante de la sécurité, de la situation humanitaire et des droits humains, ainsi que la violence intercommunautaire et la violence des milices dans certaines régions du pays,</p>
+      </container>
+      <container name="Se déclarant préoccupé" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Se déclarant préoccupé</span> par les liens signalés entre les Forces démocratiques alliées et des réseaux terroristes dans l’est de la République démocratique du Congo, <span class="italic">soulignant</span> que de tels liens peuvent exacerber davantage les conflits et contribuer à saper l’autorité de l’État et <span class="italic">insistant</span> sur le fait que la solution à ces problèmes ne saurait être purement militaire et qu’il importe d’envisager la lutte contre le terrorisme de façon globale, dans le respect du droit international applicable,</p>
+      </container>
+      <container name="Prenant acte" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Prenant acte</span> des efforts que le Gouvernement et le peuple congolais déploient en faveur de la réalisation de la paix et du développement national ainsi que de l’appui et de la mobilisation à l’échelon régional, <span class="italic">conscient </span>de l’action que mènent les Forces armées de la République démocratique du Congo (FARDC) et la MONUSCO afin de lutter contre la menace que représentent les groupes armés dans le pays,</p>
+      </container>
+      <container name="Demeurant profondément préoccupé" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Demeurant profondément préoccupé</span> par les multiples cas de violation des droits humains et d’atteinte à ces droits ainsi que de violation du droit international humanitaire dans certaines zones commises par toutes les parties et en particulier par des groupes armés, ainsi que par le fait que les violences intercommunautaires se sont intensifiées sous l’effet des discours de haine, de la mésinformation et de la désinformation, notamment dans les médias sociaux,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> que les femmes et les jeunes jouent un rôle important dans la prévention, la gestion et le règlement des conflits, ainsi que dans la consolidation de la paix et les processus électoraux et <span class="italic">soulignant</span> qu’il importe d’assurer leur participation pleine, égale, effective, véritable et en toute sécurité à tous les efforts visant à maintenir et à promouvoir la paix et la sécurité en République démocratique du Congo,</p>
+      </container>
+      <container name="Se déclarant gravement préoccupé" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Se déclarant gravement préoccupé</span> par la situation humanitaire, quelque 26,4 millions de Congolais ayant besoin d’une aide humanitaire, et l’augmentation du nombre de personnes déplacées dans le pays, 6,9 millions selon les dernières estimations, les 1 058 000 personnes réfugiées vivant en République démocratique du Congo et les autres personnes réfugiées, plus de 1 million, ayant fui le pays pour d’autres pays d’Afrique en raison de la poursuite des hostilités, <span class="italic">encouragean</span>t les États Membres à s’attacher à une répartition plus équitable des charges et de la responsabilité d’héberger et d’aider les personnes réfugiées en République démocratique du Congo, conformément au cadre d’action global pour les réfugiés, <span class="italic">engageant</span> la République démocratique du Congo et tous les États de la région à s’employer à créer un environnement pacifique propice à la mise en place de solutions durables pour les personnes réfugiées et déplacées, et notamment à leur rapatriement volontaire et à leur réintégration à terme en République démocratique du Congo, en toute sécurité et dans la dignité, avec le concours de l’équipe de pays des Nations Unies et des acteurs humanitaires, et <span class="italic">soulignant</span> que toute solution de ce type devrait être conforme aux obligations découlant du droit international des réfugiés, du droit international humanitaire et du droit international des droits de l’homme,</p>
+      </container>
+      <container name="Rappelant" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> les principes directeurs de l’Organisation des Nations Unies relatifs à l’aide humanitaire d’urgence et ses principes d’humanité, de neutralité, d’impartialité et d’indépendance,</p>
+      </container>
+      <container name="Demandant" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Demandant </span>à toutes les parties à des conflits armés de prendre part immédiatement à une pause humanitaire pérenne, de façon à permettre l’acheminement rapide, sûr, sans entrave et durable de l’aide humanitaire, conformément aux principes humanitaires d’humanité, de neutralité, d’impartialité et d’indépendance,</p>
+      </container>
+      <container name="Notant" eId="container_16">
+        <p xml:space="preserve">
+          <span class="italic">	Notant</span> l’importance de la vente commerciale d’aliments, de combustible et d’autres produits essentiels afin de répondre aux besoins de survie de base de la population civile,</p>
+      </container>
+      <container name="Rappelant" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Rappelant</span> en outre toutes ses résolutions sur les femmes et la paix et la sécurité, sur les jeunes et la paix et la sécurité, sur les enfants et les conflits armés et sur la protection des civils en période de conflit armé, <span class="italic">saluant </span>l’action menée par le Gouvernement congolais à cet égard et les mesures qu’il a prises pour appliquer la résolution <a href="https://undocs.org/fr/S/RES/1325(2000)">1325 (2000)</a>, <span class="italic">soulignan</span>t qu’il importe d’avoir des solutions locales qui répondent aux besoins des femmes en temps de conflit, <span class="italic">rappelant</span> les conclusions sur la question des enfants et du conflit armé en République démocratique du Congo qu’a adoptées son groupe de travail sur les enfants et les conflits armés le 19 décembre 2022 et qui concernent les parties aux conflits armés se déroulant dans ce pays, se <span class="italic">déclarant gravement préoccupé</span> par le grand nombre de violations et d’atteintes perpétrées contre les enfants, en particulier l’augmentation du recrutement et de l’utilisation ainsi que les violences sexuelles et fondées sur le genre commises par les groupes armés et certains membres des forces de sécurité, et <span class="italic">demandant</span> à tous les acteurs de contribuer à la réadaptation et à la réintégration des enfants auparavant associés à des forces et groupes armés,</p>
+      </container>
+      <container name="Conscient" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Conscient</span> des effets néfastes que les changements climatiques, les changements écologiques, les catastrophes naturelles et le manque d’accès à l’énergie, entre autres facteurs, ont sur la stabilité de la République démocratique du Congo, <span class="italic">précisant</span> qu’il importe de tenir compte de ces effets sur les programmes mis en place dans le pays, <span class="italic">se félicitant</span> du rôle moteur que joue la République démocratique du Congo dans l’élaboration de stratégies nationales visant à remédier à ces problèmes et dans la préservation du bassin forestier du Congo, <span class="italic">préoccupé</span> par les activités des groupes armés dans les zones protégées entraînant des dommages écologiques et <span class="italic">prenant note</span> de la Convention-cadre des Nations Unies sur les changements climatiques et de l’Accord de Paris,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> qu’il est nécessaire que la MONUSCO puisse s’acquitter pleinement de son mandat conformément à ses résolutions applicables, en utilisant toutes les mesures disponibles pour lutter efficacement contre la menace posée par les groupes armés et d’autres menaces pour la sécurité, compte tenu de la multiplication des conflits dans le pays,</p>
+      </container>
+      <container name="Demandant de nouveau" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Demandant de nouveau</span> à toutes les parties de coopérer pleinement avec la MONUSCO et de continuer à œuvrer à l’exécution intégrale et objective du mandat de la Mission, y compris pendant toute la durée du retrait, <span class="italic">rappelant</span> qu’il importe de continuer à respecter l’accord sur le statut des forces, notamment l’entrée et la relève sans entrave des soldats de la paix de la MONUSCO et de leur matériel, et qu’il condamne toutes les attaques dirigées contre les soldats de la paix, qui pourraient constituer des crimes de guerre, et <span class="italic">soulignant</span> que les auteurs de ces attaques doivent répondre de leurs actes,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_21">
+        <p xml:space="preserve">	<span class="italic">Réaffirmant</span> l’importance de doter les opérations de paix des Nations Unies de ressources suffisantes, notamment pendant les phases de transition des missions, et <span class="italic">rappelant</span> la résolution <a href="https://undocs.org/fr/S/RES/2594(2021)">2594 (2021)</a> sur les transitions en matière d’opérations de la paix des Nations Unies à cet égard,</p>
+      </container>
+      <container name="Soulignant" eId="container_22">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant</span> l’importance des activités de communication stratégique pour l’exécution du mandat de la MONUSCO et la sûreté et la sécurité de ses Casques bleus,</p>
+      </container>
+      <container name="Constatant" eId="container_23">
+        <p xml:space="preserve">	<span class="italic">Constatant</span> que la situation en République démocratique du Congo demeure une menace pour la paix et la sécurité internationales dans la région,</p>
+      </container>
+      <container name="Agissant" eId="container_24">
+        <p xml:space="preserve">	<span class="italic">Agissant</span> en vertu du Chapitre VII de la Charte des Nations Unies,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_25" class="H23">
+        <subheading>		Situation politique</subheading>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des mesures prises par le Gouvernement congolais pour répondre aux besoins de son peuple et <span class="italic">prie instamment</span> tous les acteurs politiques congolais de ne ménager aucun effort pour mettre en place les réformes indispensables sur les plans de la gouvernance, de la sécurité et de l’économie, <span class="italic">réaffirme</span> qu’il importe de mettre en œuvre les engagements pris afin de réaliser l’unité nationale, de renforcer l’état de droit et le respect des droits humains, notamment le respect de la liberté d’opinion et d’expression, la liberté de la presse et le droit de réunion pacifique, de lutter contre la corruption, de lancer des programmes nationaux de développement visant à réduire sensiblement la pauvreté et de favoriser l’inclusion politique et la consolidation de la paix, et <span class="italic">encourage</span> la MONUSCO à continuer de faciliter, par ses bons offices, des processus politiques pacifiques, transparents, inclusifs et crédibles ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Se réjouit</span> de l’action menée par le Président Tshisekedi et son gouvernement pour favoriser la réconciliation, la paix et la stabilité en République démocratique du Congo, <span class="italic">réaffirme</span> qu’il est nécessaire de poursuivre l’action menée auprès des États de la région pour nouer de bonnes relations avec les pays voisins et faire avancer la paix, la sécurité et l’intégration régionale, <span class="italic">insiste </span>sur le rôle crucial des mécanismes de paix régionaux, en particulier les processus de Luanda et de Nairobi, et l’appui continu de la MONUSCO, du Bureau de l’Envoyé spécial du Secrétaire général pour la région des Grands Lacs et des partenaires internationaux, <span class="italic">souligne</span> que la stabilité politique et la sécurité ainsi que le renforcement de la présence de l’État dans les zones de conflit, essentiellement dans l’est de la République démocratique du Congo, sont des conditions indispensables pour une paix durable dans le pays, <span class="italic">invite</span> les autorités congolaises à œuvrer en faveur de la stabilisation et du renforcement des capacités des institutions de l’État, notamment dans les zones de conflit, avec l’appui de la MONUSCO et de l’équipe de pays des Nations Unies, afin de défendre les droits et de répondre aux besoins de l’ensemble de la population congolaise, <span class="italic">demande</span> à tous les acteurs politiques de continuer à s’employer, en 2023 et après, à améliorer et défendre, sur l’ensemble du territoire, la consolidation de la paix et le processus électoral, et de garantir la participation pleine, égale, effective et véritable des femmes à toutes les étapes de ce processus ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général et <span class="italic">demande</span> aux organisations régionales de fournir un appui politique au renforcement des institutions de l’État en République démocratique du Congo et au rétablissement de la confiance entre les différentes parties, notamment par leurs bons offices, en vue de consolider la paix et la sécurité, de s’attaquer aux causes profondes des conflits dans les zones prioritaires ainsi que de susciter un large consensus national autour des principales réformes de la gouvernance et de la sécurité, de lutter contre l’exploitation illégale des ressources naturelles et d’appuyer les réformes et les processus électoraux en cours, conformément aux priorités nationales du Gouvernement de la République démocratique du Congo ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="H23">
+        <subheading>		Droits humains</subheading>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des mesures et des engagements pris par le Président Tshisekedi pour veiller à ce que le Gouvernement congolais protège et respecte les droits humains et les libertés fondamentales, ainsi que pour combattre l’impunité dans tous les domaines, <span class="italic">salue</span> les mesures prises par le Gouvernement congolais en vue de l’instauration d’une stratégie nationale de justice transitionnelle, y compris le lancement de consultations dans plusieurs régions, <span class="italic">se félicite</span> de la décision de mettre progressivement fin à l’état de siège décrété en Ituri et dans le Nord-Kivu, et <span class="italic">invite </span>le Gouvernement congolais à faire en sorte que les mesures visant à éliminer la menace des groupes armés et à rétablir l’autorité de l’État, soient évaluées régulièrement, modulées en fonction des progrès accomplis par rapport à des objectifs clairement définis et appliquées dans le plein respect du droit international des droits de l’homme et du droit international humanitaire ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve">	<span class="italic">Engage instamment</span> le Gouvernement congolais à faire répondre de leurs actes les auteurs de violations du droit international humanitaire ou de violations des droits humains ou d’atteintes à ces droits, en particulier celles qui peuvent constituer un génocide, des crimes de guerre et des crimes contre l’humanité, <span class="italic">souligne</span> l’importance à cet égard de la coopération régionale et de la coopération avec la Cour pénale internationale depuis le renvoi par la République démocratique du Congo devant la Cour de la situation dans le pays en 2004, ainsi que de la coopération avec la Cour africaine des droits de l’homme et des peuples et <span class="italic">constate</span> que cette saisine par les autorités congolaises à amener le Procureur de la Cour pénale internationale à procéder à un examen préliminaire afin d’évaluer les informations reçues concernant les crimes présumés relevant du Statut de Rome commis au Nord-Kivu à compter du 1<sup>er</sup> janvier 2022 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> l’adoption de nouvelles mesures par le Gouvernement congolais pour que les forces de sécurité répondent des violations du droit international humanitaire et du droit international des droits humains et que la lutte contre l’impunité dans leurs rangs se poursuive, et <span class="italic">demande</span> aux autorités congolaises de traduire les responsables de ces faits en justice, <span class="italic">prie</span> le Gouvernement congolais de faire en sorte, conformément aux accords déjà passés, que les membres du Bureau conjoint des Nations Unies pour les droits de l’homme en République démocratique du Congo aient pleinement et librement accès aux centres de détention, aux hôpitaux et aux morgues et à tous autres locaux, s’il y a lieu, pour recueillir des informations sur les violations des droits humains, <span class="italic">souligne</span> que le Gouvernement congolais doit continuer de faire en sorte que ses forces de sécurité gagnent en professionnalisme, notamment en vérifiant leurs antécédents, en les formant et en renforçant leurs capacités, afin d’assurer le strict respect du droit national et international des droits de l’homme ainsi que du droit international humanitaire, et <span class="italic">souligne</span> qu’il importe de respecter l’état de droit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement</span> toutes les violences sexuelles commises en période de conflit et d’après conflit en République démocratique du Congo, et particulièrement par les groupes armés, <span class="italic">se félicite</span> de l’action menée par le Gouvernement congolais pour prévenir et combattre les violences sexuelles commises en période de conflit et d’après conflit, et notamment des progrès enregistrés dans la lutte contre l’impunité par l’arrestation, la poursuite et la condamnation de membres des FARDC et de la Police nationale congolaise, et dans la création d’un fonds national de réparations en faveur des victimes et des personnes rescapées de violences sexuelles et d’autres crimes, <span class="italic">prie instamment</span> le Gouvernement de continuer à intensifier ses efforts pour lutter contre l’impunité des violences sexuelles commises en période de conflit et d’après conflit, notamment celles commises par certains membres des FARDC et de la Police nationale congolaise, et de fournir aux personnes rescapées, aux victimes et aux témoins tous les services nécessaires, tels que des services médicaux, liés à la santé sexuelle et reproductive, au soutien psychosocial, à la santé mentale, d’ordre juridique et socioéconomique, et d’assurer leur protection, <span class="italic">salue</span> la loi de décembre 2022 sur les réparations et la création d’un fonds national de réparation au profit des victimes de violences sexuelles liées aux conflits, <span class="italic">encourage</span> le Gouvernement à renforcer son application du Communiqué conjoint sur la lutte contre les violences sexuelles commises en période de conflit adopté en 2013 et son additif signé en 2019, et à consacrer les fonds suffisants à la mise en œuvre de ces engagements, <span class="italic">salue</span> les nouveaux progrès des FARDC et de la Police nationale congolaise concernant l’application de leurs plans d’action respectifs contre la violence sexuelle, et <span class="italic">rappelle</span> l’importance de coopérer avec le Bureau de la Représentante spéciale du Secrétaire général chargée de la question des violences sexuelles commises en période de conflit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> des progrès accomplis par le Gouvernement congolais pour consolider les acquis du plan d’action visant à faire cesser et à prévenir le recrutement et l’utilisation d’enfants et en accélérer la mise en œuvre afin de faire cesser et de prévenir les violations commises sur la personne d’enfants et de veiller à ce que les enfants ne soient pas détenus pour association supposée avec des groupes armés et qu’ils soient remis aux acteurs de la protection de l’enfance, <span class="italic">demande</span> au Gouvernement congolais de continuer ses efforts, en veillant à ce que les auteurs de toutes violations et atteintes, y compris les membres des forces de sécurité, répondent de leurs actes, et <span class="italic">rappelle</span> qu’il importe de coopérer avec le Bureau de la Représentante spéciale du Secrétaire général pour le sort des enfants en temps de conflit armé ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="H23">
+        <subheading>		Groupes armés</subheading>
+      </paragraph>
+      <paragraph eId="para_43" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve">	<span class="italic">Condamne fermement</span> tous les groupes armés opérant en République démocratique du Congo, notamment le M23, la Coopérative pour le développement du Congo, les Forces démocratiques alliées, les Forces démocratiques de libération du Rwanda, le groupe Zaïre (FPAC), la Résistance pour un état de droit (RED Tabara), les groupes Maï-Maï, les Twirwaneho et plusieurs autres groupes armés nationaux et étrangers, et les violations du droit international humanitaire et d’autres normes applicables du droit international ainsi que les atteintes aux droits humains qu’ils commettent, <span class="italic">réaffirme </span>qu’il condamne<span class="italic"> les</span> actes de violence contre la population et les infrastructures civiles, le personnel des Nations Unies, le personnel associé et les travailleurs humanitaires, ainsi que le personnel médical et les installations médicales, les exécutions sommaires et les atteintes à l’intégrité physique, les violences sexuelles et fondées sur le genre, le recrutement et l’utilisation d’enfants, l’enlèvement d’enfants et de membres du personnel humanitaire, ainsi que les attaques visant des écoles et des personnes civiles liées aux écoles, notamment des enfants et des enseignants, et des hôpitaux, que commettent les groupes armés et les milices, en violation du droit international applicable, ainsi que l’utilisation de personnes civiles comme boucliers humains, les déplacements forcés et massifs de personnes civiles, les exécutions extrajudiciaires et les arrestations arbitraires, l’emploi indiscriminé d’engins explosifs improvisés, et <span class="italic">réaffirme également</span> que les auteurs de tels actes doivent être amenés à en répondre ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve">	<span class="italic">Exige</span> de tous les groupes armés qu’ils mettent immédiatement fin à toutes les formes de violence et aux autres activités déstabilisatrices, à l’exploitation et au commerce illégaux des ressources naturelles, <span class="italic">exige également</span> qu’il soit mis fin à toute nouvelle avancée du M23, que celui‑ci s’acquitte immédiatement et pleinement des engagements qu’il a pris concernant son retrait immédiat de toutes les zones occupées et son cantonnement, conformément au processus de Luanda approuvé par l’Union africaine, <span class="italic">exige en outre</span> que tous les membres des groupes armés soient immédiatement et définitivement démobilisés, déposent les armes, renoncent à la violence, préviennent et fassent cesser les violations commises contre les enfants et libèrent les enfants qui se trouvent dans leurs rangs, <span class="italic">demande instamment</span> à tous les groupes armés congolais de participer sans condition au processus de Nairobi dirigé par la Communauté de l’Afrique de l’Est pour rechercher des solutions politiques en vue du Programme de désarmement, de démobilisation, de relèvement communautaire et de stabilisation, et aux groupes armés étrangers de retourner dans leur pays d’origine, et <span class="italic">demande</span> au Gouvernement congolais de prendre de nouvelles mesures, militaires et non militaires, pour lutter contre la menace que représentent les groupes armés, dans le respect du droit international, y compris du droit international humanitaire et du droit international des droits de l’homme ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Condamne</span> le soutien apporté au M23 par toute partie extérieure et <span class="italic">exige</span> de toutes ces parties qu’elles y mettent un terme et se retirent immédiatement de la République démocratique du Congo, <span class="italic">condamne également</span> le soutien apporté à certains groupes armés, tels que les Forces démocratiques de libération du Rwanda (FDLR), <span class="italic">exige</span> qu’il y soit mis un terme et <span class="italic">se déclare profondément préoccupé</span> par les informations présentées dans le rapport annuel du Groupe d’experts sur la République démocratique du Congo concernant l’appui militaire extérieur fourni au M23 et le soutien apporté également aux FDLR par des forces militaires, et <span class="italic">se félicite</span> des engagements pris par les autorités congolaises de contrer cet appui ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve">	<span class="italic">Demande instamment</span> au Gouvernement congolais et à ses partenaires, et notamment aux institutions financières internationales, d’apporter d’urgence un soutien adéquat en temps voulu en faveur d’une mise en œuvre rapide et effective du désarmement, de la démobilisation et de la réintégration des ex-combattants remplissant les conditions requises, sous la coordination du Programme de désarmement, de démobilisation, de relèvement communautaire et de stabilisation, au moyen d’initiatives locales spécialement conçues et adaptées au contexte, offrant des possibilités et des solutions économiques de remplacement durables, et en veillant à ce que fassent partie intégrante de ces processus la lutte contre l’impunité des violations des droits humains, des atteintes à ces droits et des crimes internationaux, les initiatives de justice transitionnelle et la protection des droits des enfants, <span class="italic">prend note</span> de la promulgation en mai 2023 de la loi portant institution de la réserve armée de la défense et <span class="italic">demande</span> au Gouvernement congolais de faire en sorte que cette réserve soit créée en tenant compte du Programme de désarmement, de démobilisation, de relèvement communautaire et de stabilisation et des initiatives de justice transitionnelle et de réforme du secteur de la sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve">	<span class="italic">Condamne</span> la poursuite de l’exploitation et du commerce illégaux des ressources naturelles, notamment des minerais dits de « conflit » comme l’étain, le tantale, le tungstène, l’or, les diamants, le cobalt et le coltan, ainsi que du cacao, du charbon de bois, du bois d’œuvre et des espèces sauvages, auxquels se livrent les groupes armés et les réseaux criminels qui les soutiennent, ainsi que les conséquences néfastes des conflits armés sur les zones naturelles protégées, qui font obstacle à l’instauration d’une paix durable et au développement de la République démocratique du Congo, <span class="italic">condamne</span> la présence et les activités destructrices des groupes armés dans les zones naturelles protégées, qui sapent les mesures visant à protéger les forêts, la biosphère et l’environnement dans son ensemble et <span class="italic">engage</span> le Gouvernement à redoubler d’efforts pour préserver ces zones, <span class="italic">demande</span> aux États membres de la Conférence internationale sur la région des Grands Lacs et des communautés économiques régionales de lutter ensemble contre l’exploitation et le commerce illégaux des ressources naturelles par l’amélioration et le renforcement de la sécurité autour des secteurs miniers et par la recherche d’un rapprochement entre les collectivités minières, les autorités locales et les acteurs chargés de la sécurité pour régler les conflits et promouvoir les droits des membres des communautés vivant autour des secteurs miniers, les <span class="italic">encourage</span> à promouvoir la gestion transparente et légale des ressources naturelles, notamment l’adoption d’objectifs de recettes publiques, afin de financer le développement, la création de cadres réglementaires et douaniers durables et la mise en place d’une diligence raisonnable dans le cadre de l’approvisionnement en minerais, et <span class="italic">rappelle</span> à cet égard ses résolutions <a href="https://undocs.org/fr/S/RES/2457(2019)">2457 (2019)</a> et <a href="https://undocs.org/fr/S/RES/2389(2017)">2389 (2017)</a> ainsi que la déclaration de son président <a href="https://undocs.org/fr/S/PRST/2021/19">S/PRST/2021/19</a> ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_58" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_58__content">
+          <p xml:space="preserve">	<span class="italic">Se réjouit</span> des engagements et des mesures pris par le Président Tshisekedi et son gouvernement pour faire avancer la réforme du secteur de la sécurité et promouvoir la consolidation de l’autorité de l’État, la réconciliation, la tolérance et la démocratie, <span class="italic">relève</span> que ces mesures préliminaires créent des possibilités nouvelles de collaboration et de coordination entre la MONUSCO et les forces de sécurité congolaises, <span class="italic">encourage</span> les autorités congolaises à les respecter et à accélérer la relève des contingents annoncée par le Président Tshisekedi, <span class="italic">engage</span> le Gouvernement congolais à demeurer pleinement résolu à protéger la population civile, en se dotant rapidement de forces de sécurité professionnelles, responsables et pérennes, qui respectent le droit international humanitaire et le droit national et international des droits de l’homme, en mettant en place une administration civile congolaise responsable, en particulier dans les secteurs de la police, de la justice, de l’administration pénitentiaire et de l’administration territoriale, et en renforçant l’état de droit ainsi que la promotion et la protection des droits humains, notamment en y allouant les ressources financières nécessaires et en favorisant la participation pleine, égale et véritable des femmes et leur sécurité, et <span class="italic">invite</span> les partenaires internationaux à augmenter leur appui à cet égard ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> que se poursuivent les mesures prises sur le plan national pour contrer la menace que représentent le transfert illicite, l’accumulation déstabilisante et le détournement d’armes légères et de petit calibre ainsi que le détournement d’armes au profit des groupes armés dans le pays, notamment les mesures tendant à organiser en toute sûreté et efficacité la gestion, l’entreposage, la surveillance et la sécurité des stocks d’armes et de munitions et la lutte contre le trafic et le détournement des armes, comme le renforcement des capacités et la lutte contre l’impunité, avec l’appui renouvelé de la MONUSCO, selon qu’il conviendra et dans les limites des ressources existantes, <span class="italic">prie</span> le Gouvernement congolais d’accroître son appui à la Commission nationale de contrôle des armes légères et de petit calibre et de réduction de la violence armée et <span class="italic">encourage</span> l’Organisation des Nations Unies et les partenaires internationaux à aider davantage le Gouvernement congolais à améliorer la gestion des armes et des munitions ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="H23">
+        <subheading>		Appui régional</subheading>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> que l’élimination de la menace posée par les groupes armés doit passer par une stratégie régionale intégrée et un engagement politique fort de la part du Gouvernement congolais, de l’Union africaine, de la Communauté de l’Afrique de l’Est, de la Conférence internationale sur la région des Grands Lacs, de la Communauté de développement de l’Afrique australe, <span class="italic">réaffirme</span> qu’il appuie les efforts nationaux et régionaux visant à promouvoir la paix et la stabilité en République démocratique du Congo et dans la région<span class="italic">, déclare</span> qu’il faut revitaliser l’Accord-cadre pour la paix, la sécurité et la coopération pour la République démocratique du Congo et la région, qui reste un mécanisme essentiel pour la paix et la stabilité durables, et <span class="italic">demande </span>aux pays de la région de renouveler leurs engagements à cet égard, <span class="italic">souligne</span> les engagements pris par la région au titre de l’Accord-cadre pour la paix, la sécurité et la coopération pour la République démocratique du Congo et la région de ne pas tolérer les groupes armés ni de leur fournir d’assistance ou d’appui de quelque nature que ce soit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_67" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_67__content">
+          <p xml:space="preserve">	<span class="italic">Encourage</span> les États signataires de l’Accord-cadre pour la paix, la sécurité et la coopération pour la République démocratique du Congo et la région à s’approprier la Stratégie des Nations Unies pour la consolidation de la paix et la prévention et le règlement des conflits dans la région des Grands Lacs ainsi que son plan d’action et à faire preuve de volonté politique en vue de la mettre effectivement en œuvre, <span class="italic">appuie pleinement</span> l’Envoyé spécial du Secrétaire général pour la région des Grands Lacs dans l’exécution de son mandat consistant à remédier aux derniers problèmes faisant obstacle à l’application de l’Accord-cadre et à promouvoir la paix et la stabilité dans la région, <span class="italic">demande</span> à l’Envoyé spécial d’intensifier son action à l’échelle régionale et internationale en faveur de la pleine application de l’Accord-cadre, y compris en appuyant efficacement les mesures prises pour la revitalisation de l’Accord-cadre pour la paix, la sécurité et la coopération pour la République démocratique du Congo et la région et par ses bons offices, en coordonnant les stratégies et en partageant l’information avec la MONUSCO, le Bureau régional des Nations Unies pour l’Afrique centrale et d’autres entités des Nations Unies, et <span class="italic">exhorte</span> la MONUSCO à collaborer avec le Bureau de l’Envoyé spécial pour la région des Grands Lacs afin de rechercher des solutions politiques en vue de mettre fin aux flux transfrontaliers de combattants armés, d’armes et de ressources naturelles qui menacent la paix et la stabilité en République démocratique du Congo, en harmonisant les stratégies, en procédant à des échanges d’informations et en coordonnant l’établissement de leurs rapports ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_69" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_69__content">
+          <p xml:space="preserve">	<span class="italic">Se félicite</span> de l’action menée pour harmoniser et coordonner les initiatives de paix visant à remédier à la situation en République démocratique du Congo, notamment dans le cadre du sommet quadripartite de la Communauté de l’Afrique de l’Est, de la Communauté économique des États de l’Afrique centrale, de la Conférence internationale sur la région des Grands Lacs et de la Communauté de développement de l’Afrique australe, qui s’est tenu à Luanda, le 27 juin, sous les auspices de l’Union africaine ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Lance un appel</span> au calme et au renforcement du dialogue entre la République démocratique du Congo et le Rwanda afin de faire avancer une paix durable dans la région, <span class="italic">souligne</span> qu’il importe d’avoir des initiatives politiques et des mesures coercitives coordonnées et complémentaires en République démocratique du Congo, bénéficiant notamment de l’appui du Secrétaire général, de la Représentante spéciale du Secrétaire général pour la République démocratique du Congo et de l’Envoyé spécial du Secrétaire général pour la région des Grands Lacs ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare favorable </span>à ce qu’un appui soit donné à des forces régionales, comme il convient, <span class="italic">déclare</span> son intention d’étudier, si le pays hôte et l’organisation concernée en font la demande de manière claire et précise, les conditions dans lesquelles la MONUSCO pourrait donner un appui logistique et opérationnel limité à une force régionale déployée sous l’égide de l’Union africaine dans la zone de déploiement de la Mission, aux fins de l’exécution du mandat de celle-ci, dans la limite des ressources disponibles, <span class="italic">rappelle</span> également qu’un tel appui doit tenir rigoureusement compte de la politique de diligence voulue de l’Organisation en matière de droits de l’homme en cas d’appui de l’ONU à des forces de sécurité non onusiennes et <span class="italic">souligne</span> qu’il importe de protéger la population civile, de mettre en place une coordination étroite et le partage d’informations entre les forces régionales déployées, les FARDC, la Force de défense nationale du Burundi, les Forces de défense populaires de l’Ouganda et la MONUSCO, notamment pour dé-conflictualiser les opérations et assurer l’exécution du mandat de la MONUSCO, et que ces opérations, unilatérales ou conjointes, doivent toutes être conduites dans le strict respect du droit international, notamment le droit international humanitaire et le droit international des droits de l’homme, selon qu’il conviendra ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres qui fournissent des contingents aux forces régionales d’appliquer les normes les plus élevées de transparence, de déontologie et de discipline à leurs contingents, et aux forces régionales d’établir un cadre réglementaire solide, en accord avec le cadre de conformité de l’Union africaine, et <span class="italic">demande également</span> à toutes les entités des Nations Unies concernées d’appuyer son application, dans le respect de leur mandat respectif ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_82" class="H23">
+        <subheading>		Retrait progressif, responsable et durable</subheading>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="italic">Prend bonne note</span> du plan de désengagement complet, comprenant trois phases distinctes et successives de désengagement, que le Gouvernement congolais et l’ONU lui ont soumis, conformément au document <a href="https://undocs.org/fr/S/PRST/2023/5">S/PRST/2023/5</a>, <span class="italic">prend note</span> du plan de la MONUSCO selon lequel la Mission commencerait à retirer sa force du Sud-Kivu avant la fin de 2023, <span class="italic">décide</span> de lancer le retrait progressif, responsable et durable de la Mission de la République démocratique du Congo et de transférer progressivement les tâches au Gouvernement congolais ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_84" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_84__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> que la Mission retirera sa force du Sud-Kivu d’ici à la fin avril 2024 et limitera son mandat aux provinces du Nord-Kivu et de l’Ituri de mai 2024 jusqu’à la fin de la période couverte par le mandat actuel, <span class="italic">autorise</span> la MONUSCO à maintenir une présence civile résiduelle suffisante dans le Sud-Kivu afin d’organiser son retrait ordonné de cette province et un transfert harmonieux et responsable de ses tâches aux autorités congolaises, conformément au plan de désengagement, en mettant particulièrement l’accent sur la protection des civils, le transfert de connaissances et de données et le renforcement des capacités, notamment concernant la protection des enfants, <span class="italic">souligne</span> l’importance de la communication entre la MONUSCO, les pays fournisseurs de contingents ou de personnel de police et les autorités congolaises dans ce processus, <span class="italic">encourage vivement</span> les autorités congolaises à prendre des mesures concrètes pour appliquer le plan de désengagement afin d’éviter toute lacune en matière de sécurité dans le Sud-Kivu de sorte à assurer une protection efficace des civils ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> au Gouvernement congolais et à l’Organisation des Nations Unies, dans le cadre du groupe de travail conjoint composé du Gouvernement congolais, de la MONUSCO et de l’équipe de pays des Nations Unies, de donner d’ici au 30 juin 2024, en coordination avec les parties prenantes concernées, y compris en consultation avec la société civile, des informations actualisées sur l’application du plan de désengagement complet et des propositions pour les prochaines étapes du retrait progressif, responsable et durable de la Mission ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve">	<span class="italic">Se déclare</span> prêt à envisager d’autres mesures de retrait progressif, responsable et durable de la Mission à la fin de cette première phase, en tenant compte des progrès accomplis concernant les objectifs et les indicateurs énoncés dans le plan de désengagement ainsi que de la situation sur le terrain ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_93" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_93__content">
+          <p xml:space="preserve">	<span class="italic">Engage vivement</span> les autorités congolaises à élaborer, avec le soutien de la MONUSCO, de l’équipe de pays des Nations Unies et des parties prenantes concernées, en coordination avec la société civile, une stratégie cohérente de mobilisation des ressources fondée sur une évaluation solide des incidences qu’un transfert des tâches aura sur le financement, les programmes et autres, y compris la situation des droits humains, <span class="italic">invite</span> la communauté internationale et les donateurs à appuyer le renforcement des activités et des programmes de l’équipe de pays des Nations Unies et des autres entités des Nations Unies présentes en République démocratique du Congo, y compris les activités de consolidation de la paix, et <span class="italic">demande</span> à la MONUSCO, à l’équipe de pays des Nations Unies et à d’autres entités des Nations Unies présentes en République démocratique du Congo de prendre les mesures concertées prioritaires énoncées dans le plan de désengagement et de permettre à l’équipe de pays des Nations Unies d’intensifier les programmes en prévision du retrait progressif, responsable et durable de la MONUSCO, en consultation avec les institutions financières internationales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>27.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que, dans les contextes de transition, il importe d’avoir une communication stratégique dynamique, <span class="italic">demande</span> à la MONUSCO de renforcer ses activités de communication pour appuyer l’exécution de son mandat, renforcer sa protection et mieux faire connaître son mandat et son rôle et, à cet égard, <span class="italic">encourage</span> les activités de communication conjointes entre la MONUSCO et le Gouvernement congolais, afin de contribuer à créer des conditions propices à la reconfiguration harmonieuse, responsable et durable de la présence de l’ONU, et <span class="italic">demande </span>à la MONUSCO et aux partenaires concernés de continuer d’examiner de toute urgence comment accompagner les programmes indépendants de Radio Okapi dans le contexte du retrait de la MONUSCO ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_104" class="SingleTxt">
+        <num>28.</num>
+        <content eId="para_104__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> au Gouvernement congolais de coopérer pleinement avec le personnel de la MONUSCO, en assurant sa sûreté et sécurité pendant le retrait, qui doit se dérouler de façon sûre et ordonnée, et <span class="italic">prie</span> le Gouvernement de respecter pleinement toutes les dispositions de l’Accord sur le statut des forces jusqu’au départ de la République démocratique du Congo des derniers éléments de la MONUSCO ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_105" class="H23">
+        <subheading>		Mandat de la MONUSCO</subheading>
+      </paragraph>
+      <paragraph eId="para_106" class="SingleTxt">
+        <num>29.</num>
+        <content eId="para_106__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de proroger jusqu’au 20 décembre 2024 le mandat de la MONUSCO en République démocratique du Congo et, à titre exceptionnel et sans créer de précédent ni remettre en cause les principes convenus régissant les opérations de maintien de la paix, de sa brigade d’intervention ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_107" class="SingleTxt">
+        <num>30.</num>
+        <content eId="para_107__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> que la MONUSCO maintiendra un effectif maximum autorisé de 13 500 militaires, 660 observateurs militaires et officiers d’état-major, 591 policiers et 1 410 membres d’unités de police constituées jusqu’au 30 juin 2024, qui sera réduit à 11 500 militaires, 600 observateurs militaires et officiers d’état-major, 443 policiers et 1 270 membres d’unités de police constituées à partir du 1<sup>er</sup> juillet 2024 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_109" class="SingleTxt">
+        <num>31.</num>
+        <content eId="para_109__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> que les priorités stratégiques de la MONUSCO sont les suivantes : i) contribuer à la protection des populations civiles dans la zone où elle est déployée et ii) appuyer la stabilisation et le renforcement des institutions de l’État en République démocratique du Congo ainsi que les principales réformes de la gouvernance et de la sécurité ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxt">
+        <num>32.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="italic">Autorise</span> la MONUSCO, en vue d’accomplir les tâches prescrites par son mandat, à prendre toutes les mesures nécessaires pour s’en acquitter ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_116" class="SingleTxt">
+        <num>33.</num>
+        <content eId="para_116__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> que ces opérations, unilatérales ou conjointes, doivent toutes être conduites dans le strict respect du droit international, notamment le droit international humanitaire et le droit international des droits de l’homme, selon qu’il conviendra, <span class="italic">prie</span> la MONUSCO de veiller à ce que l’appui fourni aux opérations menées par les forces de sécurité nationales, notamment sous la forme de rations ou de carburant, ne le soit que dans le cadre d’opérations conjointes, planifiées et exécutées en commun et fasse l’objet d’un contrôle et d’un examen minutieux, notamment par l’équipe de pays des Nations Unies, et soit strictement conforme à la politique de diligence voulue en matière de droits de l’homme de l’Organisation des Nations Unies, faute de quoi cet appui sera suspendu ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_117" class="H23">
+        <subheading>		Tâches par ordre de priorité</subheading>
+      </paragraph>
+      <paragraph eId="para_118" class="SingleTxt">
+        <num>34.</num>
+        <list eId="para_118_list">
+          <intro eId="para_118_list_intro">
+            <p xml:space="preserve">	<span class="italic">Décide</span> que le mandat de la MONUSCO comportera les tâches ci‑après classées par ordre de priorité du paragraphe 34 au paragraphe 43, <span class="italic">souligne</span> que toutes les tâches de la MONUSCO doivent être exécutées dans le respect des droits humains et des libertés fondamentales et <span class="italic">insiste</span> sur le fait que la priorité doit être accordée à la protection des populations civiles dans les décisions concernant l’utilisation des capacités et ressources disponibles :</p>
+          </intro>
+          <point eId="para_118_list_point_i">
+            <num>i)</num>
+            <content eId="para_118_list_point_i_content">
+              <p xml:space="preserve"> <span class="bold">Protéger les populations civiles menacées de violences physiques en prenant toutes les mesures nécessaires pour assurer une protection efficace, rapide, dynamique et intégrée</span></p>
+            </content>
+          </point>
+          <sublist eId="para_118_list_point_i_sublist">
+            <point eId="para_118_list_point_i_sublist_point_a">
+              <num>a)</num>
+              <content eId="para_118_list_point_i_sublist_point_a_content">
+                <p xml:space="preserve"> Prévenir, dissuader et empêcher les groupes armés et les milices locales de commettre des violences contre la population, notamment en les empêchant d’envahir, d’attaquer ou d’encercler de grosses agglomérations, y compris en complément des autorités congolaises, en les désarmant, en recourant aux bons offices, en appuyant ou en entreprenant des initiatives de médiation locale et de plaidoyer au niveau national pour empêcher l’intensification de la violence et contrer les discours de haine, la désinformation et la mésinformation, en prêtant une attention particulière aux civils regroupés dans les camps de déplacés et de réfugiés, aux manifestants pacifiques, au personnel humanitaire et aux défenseurs des droits humains, conformément aux principes fondamentaux du maintien de la paix, tout en veillant à atténuer les risques auxquels sont exposés les civils avant, pendant et après toute opération militaire ou policière ;</p>
+              </content>
+            </point>
+            <point eId="para_118_list_point_i_sublist_point_b">
+              <num>b)</num>
+              <content eId="para_118_list_point_i_sublist_point_b_content">
+                <p xml:space="preserve"> Mener des offensives ciblées et énergiques en République démocratique du Congo en vue de neutraliser les groupes armés, au moyen d’une brigade d’intervention de la force efficace, sous la pleine autorité du commandant de la force, afin de contribuer à réduire la menace que constituent les groupes armés pour l’autorité de l’État et la sécurité des civils dans le pays et à préparer le terrain pour les activités de stabilisation, unilatéralement ou conjointement avec les forces de sécurité congolaises ;</p>
+              </content>
+            </point>
+            <point eId="para_118_list_point_i_sublist_point_c">
+              <num>c)</num>
+              <content eId="para_118_list_point_i_sublist_point_c_content">
+                <p xml:space="preserve"> Mener des opérations conjointes plus fréquentes et effectives avec les forces de sécurité congolaises, qui soient le fruit d’activités de planification conjointes et de coopération tactique, conformément au mandat de la MONUSCO et de manière strictement conforme à la politique de diligence voulue en matière de droits humains, afin de veiller à ce que tous les efforts possibles soient faits pour dissuader et empêcher les groupes armés d’agir ou intervenir pour mettre fin à leurs actes ;</p>
+              </content>
+            </point>
+            <point eId="para_118_list_point_i_sublist_point_d">
+              <num>d)</num>
+              <content eId="para_118_list_point_i_sublist_point_d_content">
+                <p xml:space="preserve"> Maintenir un déploiement préventif et une présence mobile, flexible, robuste et efficace, notamment en organisant des patrouilles actives, pédestres et motorisées, en particulier dans les zones à haut risque ;</p>
+              </content>
+            </point>
+            <point eId="para_118_list_point_i_sublist_point_e">
+              <num>e)</num>
+              <content eId="para_118_list_point_i_sublist_point_e_content">
+                <p xml:space="preserve"> Travailler de concert avec le Gouvernement congolais et avec les travailleurs humanitaires afin de déceler les menaces qui pèsent sur les civils, appliquer les plans de prévention et d’intervention communs et renforcer la coopération civilo-militaire, pour protéger les civils contre les violations des droits humains et les atteintes à ces droits et contre les violations du droit international humanitaire, y compris toutes les formes de violence sexuelle et de violence fondée sur le genre ainsi que les violations et exactions commises contre les enfants et les personnes handicapées ;</p>
+              </content>
+            </point>
+            <point eId="para_118_list_point_i_sublist_point_f">
+              <num>f)</num>
+              <content eId="para_118_list_point_i_sublist_point_f_content">
+                <p xml:space="preserve"> Renforcer sa mobilisation auprès des civils et tirer parti des capacités de la population locale afin de favoriser la mise en place d’un environnement protecteur, notamment le renforcement des mécanismes de protection des civils non armés, et renforcer sa communication stratégique, notamment par des communications conjointes avec le Gouvernement congolais, afin de mieux faire connaître et comprendre son mandat et ses activités de protection des civils, de renforcer son mécanisme d’alerte rapide, y compris de prévenir les campagnes de désinformation et de mésinformation visant à saper la crédibilité de la mission et à entraver l’exécution de son mandat, en particulier pendant les phases de désengagement ;</p>
+              </content>
+            </point>
+            <point eId="para_118_list_point_i_sublist_point_g">
+              <num>g)</num>
+              <content eId="para_118_list_point_i_sublist_point_g_content">
+                <p xml:space="preserve"> Maintenir un environnement protecteur pour les civils tout au long des phases de désengagement, notamment en établissant des plans de protection intégrés au niveau des provinces, élaborés conjointement avec les autorités locales et les services de sécurité et en consultation avec les populations et la société civile, afin d’assurer le retrait responsable de la MONUSCO, conformément au plan de désengagement ;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_118_list_point_ii">
+            <num>ii)</num>
+            <content eId="para_118_list_point_ii_content">
+              <p xml:space="preserve">	<span class="bold">Désarmement, démobilisation, réintégration et stabilisation</span></p>
+            </content>
+          </point>
+          <sublist eId="para_118_list_point_ii_sublist">
+            <point eId="para_118_list_point_ii_sublist_point_h">
+              <num>h)</num>
+              <content eId="para_118_list_point_ii_sublist_point_h_content">
+                <p xml:space="preserve"> Offrir ses bons offices, ses conseils et son appui au Gouvernement congolais, en étroite coopération avec les partenaires locaux et internationaux, à l’appui de la revitalisation et de l’application du processus de Nairobi dirigé par la Communauté de l’Afrique de l’Est, de l’application de l’Accord de Luanda et de l’application du Programme de désarmement, démobilisation, relèvement communautaire et stabilisation, conformément à la loi n<sup>o</sup> 21/038 du 5 juillet 2021 et en vue du désarmement, de la démobilisation et de la réintégration des combattants congolais et étrangers qui ne sont pas soupçonnés de génocide, de crimes de guerre, de crimes contre l’humanité ou d’atteintes aux droits humains, et du retour de ces combattants à une vie civile pacifique, l’accent étant particulièrement mis sur les besoins des femmes et des enfants qui ont été associés à des forces et groupes armés ;</p>
+              </content>
+            </point>
+            <point eId="para_118_list_point_ii_sublist_point_i">
+              <num>i)</num>
+              <content eId="para_118_list_point_ii_sublist_point_i_content">
+                <p xml:space="preserve"> Offrir un appui aux processus et mécanismes de désarmement, de démobilisation, de rapatriement, de réinstallation et de réintégration des combattants étrangers non soupçonnés de crimes internationaux ou de violations des droits humains, et au retour de ces combattants et des personnes à leur charge à une vie civile pacifique dans leur pays d’origine ou dans un pays tiers d’accueil, l’accent étant particulièrement mis sur les besoins des femmes et des enfants qui ont été associés à des forces et groupes armés ;</p>
+              </content>
+            </point>
+            <point eId="para_118_list_point_ii_sublist_point_j">
+              <num>j)</num>
+              <content eId="para_118_list_point_ii_sublist_point_j_content">
+                <p xml:space="preserve"> Conseiller et aider les autorités congolaises en ce qui concerne l’élimination des armes et des munitions des combattants congolais et étrangers désarmés en application des dispositions de ses résolutions et des traités applicables relatifs à la maîtrise des armements ;</p>
+              </content>
+            </point>
+            <point eId="para_118_list_point_ii_sublist_point_k">
+              <num>k)</num>
+              <content eId="para_118_list_point_ii_sublist_point_k_content">
+                <p xml:space="preserve"> Offrir une assistance technique au Gouvernement congolais pour l’aider à procéder à la consolidation d’une structure nationale civile efficace qui contrôle les principales activités minières et gère équitablement et de manière productive l’extraction, l’ajout de la valeur, le transport et le commerce des ressources naturelles dans l’est de la République démocratique du Congo, y compris à trouver des points d’entrée pour la transformation des conflits grâce à des moyens de subsistance viables, sûrs, dignes pour les ex-combattants et leur communauté d’accueil, en coordination avec l’Envoyé spécial du Secrétaire général pour la région des Grands Lacs ;</p>
+              </content>
+            </point>
+            <point eId="para_118_list_point_ii_sublist_point_l">
+              <num>l)</num>
+              <content eId="para_118_list_point_ii_sublist_point_l_content">
+                <p xml:space="preserve"> Continuer de collaborer avec le Gouvernement congolais en vue de consolider les acquis du plan d’action visant à faire cesser et à prévenir le recrutement et l’utilisation d’enfants et d’en accélérer l’application, et poursuivre le dialogue avec toutes les parties figurant sur la liste afin d’obtenir qu’elles s’engagent de nouveau et de prévenir et faire cesser les violations et les violences contre les enfants ;</p>
+              </content>
+            </point>
+          </sublist>
+          <point eId="para_118_list_point_iii">
+            <num>iii)</num>
+            <content eId="para_118_list_point_iii_content">
+              <p xml:space="preserve">	<span class="bold">Réforme du secteur de la sécurité</span></p>
+            </content>
+          </point>
+          <sublist eId="para_118_list_point_iii_sublist">
+            <point eId="para_118_list_point_iii_sublist_point_m">
+              <num>m)</num>
+              <content eId="para_118_list_point_iii_sublist_point_m_content">
+                <p xml:space="preserve"> Offrir ses bons offices et des conseils stratégiques et techniques au Gouvernement congolais, selon qu’il convient, et jouer un rôle moteur dans la coordination de l’appui fourni par les partenaires internationaux et bilatéraux et les organismes des Nations Unies, en consultation avec le Gouvernement, pour :</p>
+              </content>
+            </point>
+            <sublist eId="para_118_list_point_iii_sublist_point_m_sublist">
+              <point eId="para_118_list_point_iii_sublist_point_m_sublist_point_1">
+                <num>–</num>
+                <content eId="para_118_list_point_iii_sublist_point_m_sublist_point_1_content">
+                  <p xml:space="preserve">	contribuer davantage, notamment par l’entremise du Service de la lutte antimines de l’ONU, à renforcer et consolider les moyens des forces de sécurité congolaises, notamment les capacités de gestion des armes et des munitions, de lutte contre les engins explosifs improvisés et de neutralisation des explosifs et des munitions ainsi que d’enquêtes et d’exploitation scientifique de base liées aux engins explosifs improvisés ;</p>
+                </content>
+              </point>
+              <point eId="para_118_list_point_iii_sublist_point_m_sublist_point_2">
+                <num>–</num>
+                <content eId="para_118_list_point_iii_sublist_point_m_sublist_point_2_content">
+                  <p xml:space="preserve">	accélérer l’appropriation nationale de la réforme du secteur de la sécurité, qui garantisse la sécurité et la justice pour tous par l’intermédiaire d’institutions chargées de la justice et de la sécurité qui soient indépendantes, responsables et opérationnelles et tiennent compte de la participation pleine, égale et véritable et de la sécurité des femmes ;</p>
+                </content>
+              </point>
+              <point eId="para_118_list_point_iii_sublist_point_m_sublist_point_3">
+                <num>–</num>
+                <content eId="para_118_list_point_iii_sublist_point_m_sublist_point_3_content">
+                  <p xml:space="preserve">	favoriser et faciliter des réformes essentielles afin de renforcer la responsabilité et l’efficacité dans l’appareil judiciaire et le secteur de la sécurité, en luttant contre l’impunité et en renforçant l’efficacité opérationnelle, y compris grâce à une formation aux droits humains, et aider le Gouvernement congolais à finaliser de manière inclusive la politique de sécurité et la stratégie de réforme du secteur de la sécurité ;</p>
+                </content>
+              </point>
+            </sublist>
+          </sublist>
+        </list>
+      </paragraph>
+      <paragraph eId="para_119" class="H4">
+        <subheading>		Droits humains</subheading>
+      </paragraph>
+      <paragraph eId="para_120" class="SingleTxt">
+        <num>35.</num>
+        <content eId="para_120__content">
+          <p xml:space="preserve">	<span class="italic">Autorise</span> la MONUSCO à surveiller les violations des droits humains et les atteintes à ces droits ainsi que les violations du droit international humanitaire et tout rétrécissement de l’espace politique et tout acte de violence, notamment dans le cadre des élections, à lui en rendre compte immédiatement et à en assurer le suivi ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_121" class="SingleTxt">
+        <num>36.</num>
+        <content eId="para_121__content">
+          <p xml:space="preserve">	<span class="italic">Autorise également</span> la MONUSCO à utiliser ses capacités existantes afin de concourir à l’exécution des tâches énumérées ci‑après exclusivement en coopération avec l’équipe de pays des Nations Unies, d’une manière simplifiée et échelonnée, étant entendu que cela ne doit pas empiéter sur sa capacité à exécuter les tâches prioritaires et sachant que toutes les tâches se renforcent mutuellement :</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="H4">
+        <subheading>		Protection du personnel et des biens des Nations Unies</subheading>
+      </paragraph>
+      <paragraph eId="para_123" class="SingleTxt">
+        <num>a)</num>
+        <content eId="para_123__content">
+          <p xml:space="preserve"> Assurer la protection du personnel, des installations et du matériel des Nations Unies et la sécurité et la liberté de circulation du personnel des Nations Unies et du personnel associé ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_124" class="H4">
+        <subheading>		Appui au système judiciaire et lutte contre l’impunité</subheading>
+      </paragraph>
+      <paragraph eId="para_125" class="SingleTxt">
+        <num>b)</num>
+        <content eId="para_125__content">
+          <p xml:space="preserve"> Travailler de concert avec les autorités congolaises, en tirant parti des capacités et des compétences du système des Nations Unies, afin de renforcer et d’appuyer le système judiciaire congolais, d’enquêter sur tous ceux qui pourraient avoir commis un génocide, des crimes de guerre et des crimes contre l’humanité, des violations du droit international humanitaire et des violations des droits humains ou des atteintes à ces droits dans le pays, et de traduire les intéressés en justice, notamment en coopérant avec les États de la région et avec la Cour pénale internationale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxt">
+        <num>c)</num>
+        <content eId="para_126__content">
+          <p xml:space="preserve"> Offrir ses bons offices, ses conseils et son appui au Gouvernement congolais en vue de promouvoir les droits humains, en particulier les droits civils et politiques, et de lutter contre l’impunité, notamment par l’application de la « politique de tolérance zéro » du Gouvernement à l’égard des infractions à la discipline et des violations des droits humains et du droit international humanitaire commises par les éléments des forces de sécurité, et engager et faciliter des initiatives de médiation au niveau local afin de faire progresser l’instauration d’une paix durable ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_127" class="H4">
+        <subheading>		Protection de l’enfance</subheading>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxt">
+        <num>37.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> la MONUSCO de tenir pleinement compte de la question transversale de la protection de l’enfance dans toutes les activités prévues par son mandat, notamment dans le cadre des programmes de désarmement, de démobilisation et de réintégration et de la réforme du secteur de la sécurité, ainsi que dans celui des interventions conduisant à la séparation d’enfants des groupes armés, de façon à faire cesser et à prévenir les violations et les violences dont sont victimes les enfants, et de continuer de veiller à l’efficacité des mécanismes de surveillance et de communication de l’information sur les enfants et les conflits armés, et <span class="italic">mesure</span> le rôle crucial que jouent à cet égard les conseillers pour la protection de l’enfance déployés à la MONUSCO ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_129" class="H4">
+        <subheading>		Genre, violence sexuelle</subheading>
+      </paragraph>
+      <paragraph eId="para_130" class="SingleTxt">
+        <num>38.</num>
+        <content eId="para_130__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> la MONUSCO de tenir pleinement compte dans toutes les activités prévues par son mandat de la question transversale du genre et d’aider le Gouvernement congolais et les autres parties prenantes concernées à créer un environnement juridique, politique et socioéconomique propice à assurer la pleine représentation et la participation pleine, égale, effective et véritable des femmes à tous les niveaux, notamment des personnes rescapées de violences sexuelles et fondées sur le genre, dans le cadre du maintien et de la promotion de la paix et de la sécurité, de la protection des civils, notamment en faisant des réseaux de femmes des partenaires de la protection, de l’appui aux activités de désarmement, de démobilisation et de réintégration et de réforme du secteur de la sécurité, et de l’appui aux activités de stabilisation, <span class="italic">demande</span> à la MONUSCO d’aider le Gouvernement à promouvoir la participation politique pleine, égale, effective et véritable des femmes, et <span class="italic">mesure</span> le rôle crucial des conseillers pour la protection des femmes de l’Organisation des Nations Unies déployés à la MONUSCO ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_131" class="SingleTxt">
+        <num>39.</num>
+        <content eId="para_131__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> qu’il faut d’urgence traduire en justice tous les auteurs de violations du droit international humanitaire et <span class="italic">demande</span> à la MONUSCO d’accélérer la mise en œuvre coordonnée des dispositifs de suivi, d’analyse et de communication de l’information sur les violences sexuelles dans les situations de conflit et d’après conflit ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_132" class="H4">
+        <subheading>		Accès et appel humanitaires</subheading>
+      </paragraph>
+      <paragraph eId="para_133" class="SingleTxt">
+        <num>40.</num>
+        <content eId="para_133__content">
+          <p xml:space="preserve">	<span class="italic">Rappelle</span> toutes ses résolutions sur la protection du personnel humanitaire et du personnel médical, notamment les résolutions <a href="https://undocs.org/fr/S/RES/2439(2018)">2439 (2018)</a> et <a href="https://undocs.org/fr/S/RES/2286(2016)">2286 (2016)</a>, et <span class="italic">enjoint</span> à toutes les parties d’autoriser et de faciliter, conformément aux dispositions du droit international applicables et aux principes humanitaires, la libre circulation du personnel, du matériel et des fournitures humanitaires, dans de bonnes conditions de sécurité et sans entrave et sans délai, et l’acheminement rapide de l’aide humanitaire vers les populations qui en ont besoin, en particulier les réfugiés et les déplacés, sur l’ensemble du territoire congolais ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_134" class="SingleTxt">
+        <num>41.</num>
+        <content eId="para_134__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> aux États Membres et aux organisations internationales et régionales de répondre rapidement aux besoins humanitaires définis dans le plan de réponse humanitaire en augmentant leurs contributions et en veillant à ce que tous les engagements pris soient pleinement honorés dans les délais prescrits ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_136" class="SingleTxt">
+        <num>42.</num>
+        <content eId="para_136__content">
+          <p xml:space="preserve">	<span class="italic">Souligne</span> qu’il importe de maintenir un appui et un engagement internationaux, sur les plans financier et technique et des dons en nature, afin d’endiguer rapidement les épidémies de maladies infectieuses et <span class="italic">demande</span> à toutes les entités compétentes du système des Nations Unies de coordonner efficacement leurs interventions face aux épidémies, conformément à leurs responsabilités et leurs mandats respectifs ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="H23">
+        <subheading>		Régime de sanctions</subheading>
+      </paragraph>
+      <paragraph eId="para_138" class="SingleTxt">
+        <num>43.</num>
+        <content eId="para_138__content">
+          <p xml:space="preserve">	<span class="italic">Demande</span> à la MONUSCO de surveiller l’application de l’embargo sur les armes visé aux paragraphes 1 à 3 de la résolution <a href="https://undocs.org/fr/S/RES/2688(2023)">2688 (2023)</a>, en coopération avec le Groupe d’experts créé par la résolution <a href="https://undocs.org/fr/S/RES/1533(2004)">1533 (2004)</a>, et en particulier d’observer et de signaler les mouvements de personnel militaire, d’armes ou de matériel connexe à travers la frontière orientale de la République démocratique du Congo, en recourant notamment, comme indiqué dans la lettre du Président du Conseil en date du 22 janvier 2013 (<a href="https://undocs.org/fr/S/2013/44">S/2013/44</a>), à des moyens de surveillance tels que des systèmes de drones aériens, saisir, collecter, enregistrer et détruire les armes ou le matériel connexe introduits dans le pays en violation des mesures imposées par les paragraphes 1 à 3 de la résolution <a href="https://undocs.org/fr/S/RES/2688(2023)">2688 (2023)</a>, et d’aider le Groupe d’experts et d’échanger tous renseignements utiles avec lui ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_139" class="H23">
+        <subheading>		Efficacité de la mission et sûreté et sécurité des soldats de la paix</subheading>
+      </paragraph>
+      <paragraph eId="para_140" class="SingleTxt">
+        <num>44.</num>
+        <content eId="para_140__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de doter la MONUSCO des moyens d’action dont elle a besoin pour s’acquitter de son mandat dans des conditions de sécurité complexes marquées notamment par des menaces asymétriques contre son personnel, et de faire en sorte que tous les soldats de la paix sur le terrain aient la motivation, les capacités et le matériel nécessaires pour remplir efficacement leur mission en toute sécurité, <span class="italic">prie en outre</span> le Secrétaire général, les États Membres et le Gouvernement congolais de prendre toutes les mesures nécessaires pour garantir au personnel de la MONUSCO un niveau optimal de sûreté et de sécurité, conformément à la résolution <a href="https://undocs.org/fr/S/RES/2518(2020)">2518 (2020)</a> et conformément aux directives et aux meilleures pratiques de l’Organisation des Nations Unies, afin d’améliorer la sécurité des soldats de la paix, <span class="italic">note avec préoccupation</span> les risques graves que les violations de l’Accord sur le statut des forces peuvent représenter pour la sûreté et la sécurité du personnel des Nations Unies affecté à des opérations de maintien de la paix, <span class="italic">rappelle</span> qu’il incombe au premier chef à l’État hôte d’assurer la sûreté et la sécurité du personnel et des biens des Nations Unies, <span class="italic">souligne</span> qu’il importe d’avoir une bonne communication entre les opérations de maintien de la paix des Nations Unies et le gouvernement hôte afin d’établir la confiance et la compréhension mutuelles et <span class="italic">prie</span> le Secrétaire général d’appliquer les dispositions de la résolution <a href="https://undocs.org/fr/S/RES/2589(2021)">2589 (2021)</a>, aux fins de l’établissement des responsabilités en ce qui concerne les crimes commis contre les soldats de la paix ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_141" class="SingleTxt">
+        <num>45.</num>
+        <content eId="para_141__content">
+          <p xml:space="preserve">	<span class="italic">Prie également</span> le Secrétaire général de mettre en œuvre les activités suivantes dans la planification et la conduite des opérations de la MONUSCO, dans les limites de son mandat et de sa zone d’opérations et conformément aux directives et réglementations existantes de l’ONU ainsi qu’au paragraphe 44 de la résolution <a href="https://undocs.org/fr/S/RES/2612(2021)">2612 (2021)</a>, <span class="italic">prie en outre</span> la MONUSCO d’appliquer les dispositions du paragraphe 45 de la résolution <a href="https://undocs.org/fr/S/RES/2612(2021)">2612 (2021)</a> et les pays fournisseurs de contingents et de personnel de police d’appliquer les dispositions des paragraphes 46 et 47 de la résolution <a href="https://undocs.org/fr/S/RES/2612(2021)">2612 (2021)</a>, et <span class="italic">prend note</span> de la stratégie environnementale pour les opérations de paix du Département de l’appui opérationnel (phase II), qui met l’accent sur une bonne gestion des ressources et un héritage positif de la Mission, et fixe pour objectif une utilisation accrue des énergies renouvelables dans les missions afin de renforcer la sûreté et la sécurité, de réaliser des économies, d’offrir des gains d’efficacité et de profiter à la Mission ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_143" class="SingleTxt">
+        <num>46.</num>
+        <content eId="para_143__content">
+          <p xml:space="preserve">	<span class="italic">Note avec préoccupation</span> les graves allégations, notamment les récentes, d’exploitation et d’atteintes sexuelles graves et systémiques dans la zone de la mission, <span class="italic">prie instamment</span> les pays fournisseurs de contingents ou de personnel de police de prendre des mesures appropriées pour prévenir l’exploitation et les atteintes sexuelles, notamment la vérification des antécédents de tous les membres du personnel et l’organisation d’une formation de sensibilisation avant et pendant le déploiement, de faire en sorte que les membres de leurs contingents qui se livreraient à de tels actes aient à en répondre pleinement, y compris par l’ouverture rapide d’enquêtes sur toutes les allégations d’exploitation et d’atteintes sexuelles, par les pays fournissant des contingents ou du personnel de police, pour en poursuivre les auteurs, prendre les mesures disciplinaires qui s’imposent, et <span class="italic">demande</span> au Secrétaire général, conformément à ses résolutions <a href="https://undocs.org/fr/S/RES/2272(2016)">2272 (2016)</a> et <a href="https://undocs.org/fr/S/RES/2436(2018)">2436</a><a href="https://undocs.org/fr/S/RES/2436(2018)"> </a><a href="https://undocs.org/fr/S/RES/2436(2018)">(2018)</a>, de rapatrier leurs unités lorsqu’il existe des preuves crédibles qu’elles ont commis des actes d’exploitation et d’atteintes sexuelles de manière généralisée ou systématique, d’en informer rapidement et intégralement l’Organisation des Nations, et <span class="italic">demande également</span> à l’Organisation de surveiller le comportement de l’ensemble du personnel de la mission ou de mener des enquêtes, le cas échéant ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="H23">
+        <subheading>		Rapports du Secrétaire général</subheading>
+      </paragraph>
+      <paragraph eId="para_145" class="SingleTxt">
+        <num>47.</num>
+        <list eId="para_145_list">
+          <intro eId="para_145_list_intro">
+            <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de lui présenter tous les trois mois un rapport comportant :</p>
+          </intro>
+          <point eId="para_145_list_point_1">
+            <num>–</num>
+            <content eId="para_145_list_point_1_content">
+              <p xml:space="preserve">	des informations sur les progrès accomplis dans l’application du plan de désengagement, y compris l’exécution échelonnée et les répercussions sur la protection des civils et la situation humanitaire, notamment le retrait progressif et ordonné des contingents de la MONUSCO ainsi que le transfert progressif des tâches au Gouvernement congolais ;</p>
+            </content>
+          </point>
+          <point eId="para_145_list_point_2">
+            <num>–</num>
+            <content eId="para_145_list_point_2_content">
+              <p xml:space="preserve">	des informations sur la situation en République démocratique du Congo, notamment les progrès accomplis dans le renforcement des institutions de l’État et dans la mise en œuvre des principales réformes en matière de gouvernance et de sécurité ;</p>
+            </content>
+          </point>
+          <point eId="para_145_list_point_3">
+            <num>–</num>
+            <content eId="para_145_list_point_3_content">
+              <p xml:space="preserve">	des informations, comprenant des indicateurs de performance qualitatifs, sur l’exécution du mandat de la MONUSCO, y compris sa mission de protection des civils, la coopération entre les forces de sécurité de la région, la performance de la MONUSCO, notamment les opérations de sa brigade d’intervention, la constitution de la police et de la force, et la contribution des activités de la Mission à la réalisation de ses tâches prioritaires visées au paragraphe 24, les problèmes et obstacles rencontrés par la Mission dans cette entreprise, sur la base des données recueillies et analysées au moyen du Système complet de planification et d’évaluation de la performance, l’application par la Mission du cadre intégré de responsabilité et de gestion de la performance dans les missions de maintien de la paix et d’autres outils de planification stratégique et de mesure des résultats permettant de présenter l’impact et la performance globale de la Mission, y compris des informations sur les avertissements non déclarés, le refus de participer à des patrouilles ou d’organiser des patrouilles et les effets de ces actes sur la Mission, et le traitement des cas déclarés de mauvaise performance ;</p>
+            </content>
+          </point>
+          <point eId="para_145_list_point_4">
+            <num>–</num>
+            <content eId="para_145_list_point_4_content">
+              <p xml:space="preserve">	des informations sur les mesures prises en matière de communication stratégique concernant les activités prescrites et leurs effets ;</p>
+            </content>
+          </point>
+          <point eId="para_145_list_point_5">
+            <num>–</num>
+            <content eId="para_145_list_point_5_content">
+              <p xml:space="preserve">	des informations sur les efforts visant à trouver des ressources suffisantes et la progression de l’application par les organismes spécialisés, fonds et programmes des Nations Unies des mesures concertées prioritaires énumérées dans le plan de transition ;</p>
+            </content>
+          </point>
+          <point eId="para_145_list_point_6">
+            <num>–</num>
+            <content eId="para_145_list_point_6_content">
+              <p xml:space="preserve">	des informations sur le transfert progressif des tâches de la MONUSCO au Gouvernement congolais, à l’équipe de pays des Nations Unies et aux autres parties prenantes, notamment, le cas échéant, la suppression des tâches, comme demandé au paragraphe 40 ;</p>
+            </content>
+          </point>
+          <point eId="para_145_list_point_7">
+            <content eId="para_145_list_point_7_content">
+          <p xml:space="preserve">et <span class="italic">prie également</span> le Secrétaire général de faire figurer une analyse des questions de genre dans tous les rapports qui lui sont destinés ;</p>
+        </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_147" class="SingleTxt">
+        <num>48.</num>
+        <content eId="para_147__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> le Secrétaire général de lui dire, avant le 30 juin 2024, en consultation avec les parties prenantes, dont l’Union africaine et les organisations régionales, quel appui logistique et opérationnel l’Organisation des Nations Unies pourrait donner aux forces régionales présentes en République démocratique du Congo, à la demande du pays hôte et de l’organisation concernée, conformément au rapport du Secrétaire général daté du 2 août 2023, y compris à faire des recommandations visant, dans ce cas, la cohérence, la coordination et la complémentarité de l’action de la MONUSCO avec celles de ces forces ainsi que leur bonne formulation ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_148" class="SingleTxt">
+        <num>49.</num>
+        <content eId="para_148__content">
+          <p xml:space="preserve">	<span class="italic">Prie également</span> le Secrétaire général de lui présenter, tous les six mois, en coordination avec son envoyé spécial pour la région des Grands Lacs et sa représentante spéciale pour la République démocratique du Congo, un rapport sur le respect des engagements pris dans l’Accord-cadre pour la paix, la sécurité et la coopération pour la République démocratique du Congo et la région et sur ses liens avec la situation en matière de sécurité dans la région des Grands Lacs ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_150" class="SingleTxt">
+        <num>50.</num>
+        <content eId="para_150__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> de rester activement saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
