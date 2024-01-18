@@ -4,22 +4,22 @@
     <meta>
       <identification source="#DGACM">
         <FRBRWork>
-          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/1957-2010/!main/"></FRBRthis>
-          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/1957-2010/"></FRBRuri>
-          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2010-12-15/1957-2010/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2010-12-15/1957-2010/"></FRBRuri>
+          <FRBRdate date="2010-12-15" name="adoption"></FRBRdate>
           <FRBRauthor href="sc" as="author"></FRBRauthor>
           <FRBRcountry value="un"></FRBRcountry>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/1957-2010/eng@!main/"></FRBRthis>
-          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/1957-2010/eng@/"></FRBRuri>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2010-12-15/1957-2010/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2010-12-15/1957-2010/eng@/"></FRBRuri>
           <FRBRdate date="2010-12-15" name="publication"></FRBRdate>
           <FRBRauthor href="sc" as="issuer"></FRBRauthor>
           <FRBRlanguage language="eng"></FRBRlanguage>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/1957-2010/eng@/!main.xml"></FRBRthis>
-          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/1957-2010/eng@.xml"></FRBRuri>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2010-12-15/1957-2010/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2010-12-15/1957-2010/eng@.xml"></FRBRuri>
           <FRBRdate date="2023-06-29" name="markup"></FRBRdate>
           <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
         </FRBRManifestation>
@@ -82,12 +82,13 @@
         <keyword value="CHEMICAL WEAPONS" showAs="CHEMICAL WEAPONS" dictionary="UNBIS Thesaurus"></keyword>
         <keyword value="INTERNATIONAL OBLIGATIONS" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
         <keyword refersTo="agenda" value="[119]" showAs="IRAQ SITUATION" dictionary="S/65"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation concerning Iraq." dictionary="S/"></keyword>
         <keyword refersTo="title" value="Security Council resolution 1957 (2010) [on termination of the weapons of mass destruction, missile, and civil nuclear-related measures imposed by resolutions 678 (1991) and 707 (1991)]" showAs="Security Council resolution 1957 (2010) [on termination of the weapons of mass destruction, missile, and civil nuclear-related measures imposed by resolutions 678 (1991) and 707 (1991)]" dictionary="DHL"></keyword>
       </classification>
       <workflow source="#un">
         <step date="2010-12-15" outcome="draftResolution" as="S/2010/633" by="Austria, Bosnia and Herzegovina, China, France, Gabon, Japan, Lebanon, Nigeria, Russian Federation, Turkey, Uganda, United Kingdom of Great Britain and Northern Ireland and United States of America" />
-        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
-        <step date="2010-12-15" outcome="adopted" as="S/PV.6450" by="" />
+        <step date="2010-12-15" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2010-12-15" outcome="adopted" as="S/PV.6450" refersTo="Chapter VII" by="Adopted unanimously, 6450th meeting" />
       </workflow>
       <analysis source="#un">
         <parliamentary>
@@ -169,10 +170,7 @@
         <docTitle refersTo="#resolutionNumber">		Resolution 1957 (2010)</docTitle>
       </p>
       <p xml:space="preserve">
-        <docTitle refersTo="#adoption">
-          <inline name="adoptionMeeting"></inline>
-          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
-        </docTitle>
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="6450th">6450th meeting</inline>, on<docDate date="2010-12-15" refersTo="#adoptionDate">15 December 2010</docDate></docTitle>
       </p>
     </coverPage>
     <preamble>
