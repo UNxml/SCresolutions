@@ -4,22 +4,22 @@
     <meta>
       <identification source="#DGACM">
         <FRBRWork>
-          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2069-2012/!main/"></FRBRthis>
-          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2069-2012/"></FRBRuri>
-          <FRBRdate date="0001-01-01" name="adoption"></FRBRdate>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2012-10-09/2069-2012/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2012-10-09/2069-2012/"></FRBRuri>
+          <FRBRdate date="2012-10-09" name="adoption"></FRBRdate>
           <FRBRauthor href="sc" as="author"></FRBRauthor>
           <FRBRcountry value="un"></FRBRcountry>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2069-2012/eng@!main/"></FRBRthis>
-          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2069-2012/eng@/"></FRBRuri>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2012-10-09/2069-2012/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2012-10-09/2069-2012/eng@/"></FRBRuri>
           <FRBRdate date="2012-10-09" name="publication"></FRBRdate>
           <FRBRauthor href="sc" as="issuer"></FRBRauthor>
           <FRBRlanguage language="eng"></FRBRlanguage>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="/akn/un/statement/deliberation/unsc/0001-01-01/2069-2012/eng@/!main.xml"></FRBRthis>
-          <FRBRuri value="/akn/un/statement/deliberation/unsc/0001-01-01/2069-2012/eng@.xml"></FRBRuri>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2012-10-09/2069-2012/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2012-10-09/2069-2012/eng@.xml"></FRBRuri>
           <FRBRdate date="2023-06-26" name="markup"></FRBRdate>
           <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
         </FRBRManifestation>
@@ -84,12 +84,13 @@
         <keyword value="MILITARY PERSONNEL" showAs="MILITARY PERSONNEL" dictionary="UNBIS Thesaurus"></keyword>
         <keyword value="CAPACITY BUILDING" showAs="CAPACITY BUILDING" dictionary="UNBIS Thesaurus"></keyword>
         <keyword refersTo="agenda" value="[46]" showAs="AFGHANISTAN SITUATION" dictionary="S/67"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation in Afghanistan." dictionary="S/"></keyword>
         <keyword refersTo="title" value="Security Council resolution 2069 (2012) [on extension of the authorization of the International Security Assistance Force (ISAF) until 13 Oct. 2013]" showAs="Security Council resolution 2069 (2012) [on extension of the authorization of the International Security Assistance Force (ISAF) until 13 Oct. 2013]" dictionary="DHL"></keyword>
       </classification>
       <workflow source="#un">
         <step date="2012-10-09" outcome="draftResolution" as="S/2012/742" by="Germany" />
-        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
-        <step date="2012-10-09" outcome="adopted" as="S/PV.6843" by="Adopted unanimously, 6843rd meeting" />
+        <step date="2012-10-09" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2012-10-09" outcome="adopted" as="S/PV.6843" refersTo="Chapter VII" by="Adopted unanimously, 6843rd meeting" />
       </workflow>
       <analysis source="#un">
         <parliamentary>
@@ -171,10 +172,7 @@
         <docTitle refersTo="#resolutionNumber">		Resolution 2069 (2012)</docTitle>
       </p>
       <p xml:space="preserve">
-        <docTitle refersTo="#adoption">
-          <inline name="adoptionMeeting"></inline>
-          <docDate date="0001-01-01" refersTo="#adoptionDate"></docDate>
-        </docTitle>
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="6843rd">6843rd meeting</inline>, on<docDate date="2012-10-09" refersTo="#adoptionDate">9 October 2012</docDate></docTitle>
       </p>
     </coverPage>
     <preamble>
