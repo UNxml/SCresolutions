@@ -1,0 +1,149 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2005-03-17/1588-2005/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2005-03-17/1588-2005/"></FRBRuri>
+          <FRBRdate date="2005-03-17" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2005-03-17/1588-2005/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2005-03-17/1588-2005/eng@/"></FRBRuri>
+          <FRBRdate date="2005-03-17" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2005-03-17/1588-2005/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2005-03-17/1588-2005/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-07-31" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Advance Mission in the Sudan" showAs="UN Advance Mission in the Sudan" dictionary="DHLAUTH"></keyword>
+        <keyword value="SPECIAL MISSIONS" showAs="SPECIAL MISSIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEMAKING" showAs="PEACEMAKING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUDAN" showAs="SUDAN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[160]" showAs="SUDAN--POLITICAL CONDITIONS" dictionary="S/60"></keyword>
+        <keyword value="X" dictionary="S/" showAs="Reports of the Secretary-General on the Sudan." refersTo="agenda"/>
+        <keyword refersTo="title" value="Security Council resolution 1588 (2005) [on extension of the mandate of the UN Advance Mission in the Sudan (UNAMIS)]" showAs="Security Council resolution 1588 (2005) [on extension of the mandate of the UN Advance Mission in the Sudan (UNAMIS)]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2005-03-16" outcome="draftResolution" as="S/2005/173" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2005-03-17" outcome="adopted" as="S/PV.5143" by="Adopted unanimously, 5143rd meeting" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALGERIA</organization>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">BENIN</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">PHILIPPINES</organization>
+                <organization refersTo="memberState">ROMANIA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED REPUBLIC OF TANZANIA</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">05-27444 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1588 (2005)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2005-03-17" class="rightSmall" refersTo="#dateOfIssuance">17 March 2005</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1588 (2005)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="5143rd">5143rd meeting</inline>, on<docDate date="2005-03-17" refersTo="#adoptionDate">17 March 2005</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions 1547 (2004) of 11 June 2004, 1556 (2004) of 30 July 2004, 1574 (2004) of 19 November 2004, and resolution 1585 (2005) of 10 March 2005,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its readiness to support the peace process,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend the mandate of the United Nations Advance Mission in Sudan (UNAMIS), established by its resolution 1547 (2004), until 24 March 2005,</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
