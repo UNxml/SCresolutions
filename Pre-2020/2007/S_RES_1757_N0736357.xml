@@ -1,0 +1,1732 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/"></FRBRuri>
+          <FRBRdate date="2007-05-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/eng@/"></FRBRuri>
+          <FRBRdate date="2007-05-30" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-07-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="10" href="http://metadata.un.org/sdg/10" showAs="sdg_10" dictionary="SDGO"></keyword>
+        <keyword value="equality" href="http://metadata.un.org/thesaurus/1002102" showAs="equality" dictionary="UNBIS"></keyword>
+        <keyword value="social_inequality" href="http://eurovoc.europa.eu/1420" showAs="social_inequality" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Hariri, Rafiq Baha, 1944-2005" showAs="Hariri, Rafiq Baha, 1944-2005" dictionary="DHLAUTH"></keyword>
+        <keyword value="Lebanon. Prime Minister" showAs="Lebanon. Prime Minister" dictionary="DHLAUTH"></keyword>
+        <keyword value="Special Tribunal for Lebanon" showAs="Special Tribunal for Lebanon" dictionary="DHLAUTH"></keyword>
+        <keyword value="Special Tribunal for Lebanon" showAs="Special Tribunal for Lebanon" dictionary="DHLAUTH"></keyword>
+        <keyword value="Statute of the Special Tribunal for Lebanon (2007)" showAs="Statute of the Special Tribunal for Lebanon (2007)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Agreement between the United Nations and the Lebanese Republic on the Establishment of a Special Tribunal for Lebanon (2007)" showAs="Agreement between the United Nations and the Lebanese Republic on the Establishment of a Special Tribunal for Lebanon (2007)" dictionary="DHLAUTH"></keyword>
+        <keyword value="CRIMINAL INVESTIGATION" showAs="CRIMINAL INVESTIGATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LEBANON" showAs="LEBANON" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL CRIMINAL COURTS" showAs="INTERNATIONAL CRIMINAL COURTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CRIMINAL JURISDICTION" showAs="CRIMINAL JURISDICTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TREATIES BETWEEN STATES AND INTERNATIONAL ORGANIZATIONS" showAs="TREATIES BETWEEN STATES AND INTERNATIONAL ORGANIZATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRIALS" showAs="TRIALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="JUDICIAL PROCEEDINGS" showAs="JUDICIAL PROCEEDINGS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MIDDLE EAST SITUATION" showAs="MIDDLE EAST SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[54]" showAs="MIDDLE EAST SITUATION" dictionary="S/62"></keyword>
+        <keyword refersTo="agenda" value="[56]" showAs="ISRAEL--LEBANON" dictionary="S/62"></keyword>
+        <keyword value="X" dictionary="S/" showAs="The situation in the Middle East." refersTo="agenda"/>
+        <keyword refersTo="title" value="Security Council resolution 1757 (2007) [on the establishment of a Special Tribunal for Lebanon]" showAs="Security Council resolution 1757 (2007) [on the establishment of a Special Tribunal for Lebanon]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2007-05-29" outcome="draftResolution" as="S/2007/315" by="Belgium, France, Italy, Slovakia, United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2007-05-30" outcome="adopted" as="S/PV.5685" by="Adopted 10-0-5, 5685th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="010" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BELGIUM</organization>
+                <organization refersTo="memberState">CONGO</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">ITALY</organization>
+                <organization refersTo="memberState">PANAMA</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="005" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">INDONESIA</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SOUTH AFRICA</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">07-36357 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1757 (2007)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2007-05-30" class="rightSmall" refersTo="#dateOfIssuance">30 May 2007</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1757 (2007)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="5685th">5685th meeting</inline>, on<docDate date="2007-05-30" refersTo="#adoptionDate">30 May 2007</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> all its previous relevant resolutions, in particular resolutions 1595 (2005) of 7 April 2005, 1636 (2005) of 31 October 2005, 1644 (2005) of 15 December 2005, 1664 (2006) of 29 March 2006 and 1748 (2007) of 27 March 2007,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strongest condemnation of the 14 February 2005 terrorist bombings as well as other attacks in Lebanon since October 2004,</p>
+      </container>
+      <container name="Reiterating" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its call for the strict respect of the sovereignty, territorial integrity, unity and political independence of Lebanon under the sole and exclusive authority of the Government of Lebanon,</p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the letter of the Prime Minister of Lebanon to the Secretary-General of 13 December 2005 (S/2005/783) requesting inter alia the establishment of a tribunal of an international character to try all those who are found responsible for this terrorist crime, and the request by this Council for the Secretary-General to negotiate an agreement with the Government of Lebanon aimed at establishing such a Tribunal based on the highest international standards of criminal justice,</p>
+      </container>
+      <container name="Recalling further" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recalling further</span> the report of the Secretary-General on the establishment of a special tribunal for Lebanon on 15 November 2006 (S/2006/893) reporting on the conclusion of negotiations and consultations that took place between January 2006 and September 2006 at United Nations Headquarters in New York, the Hague, and Beirut between the Legal Counsel of the United Nations and authorized representatives of the Government of Lebanon, and the letter of its President to the Secretary-General of 21 November 2006 (S/2006/911) reporting that the Members of the Security Council welcomed the conclusion of the negotiations and that they were satisfied with the Agreement annexed to the Report,</p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> that, as set out in its letter of 21 November 2006, should voluntary contributions be insufficient for the Tribunal to implement its mandate, the Secretary-General and the Security Council shall explore alternate means of financing the Tribunal,</p>
+      </container>
+      <container name="Recalling also" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Recalling also</span> that the Agreement between the United Nations and the Lebanese Republic on the establishment of a Special Tribunal for Lebanon was signed by the Government of Lebanon and the United Nations respectively on 23 January and 6 February 2007,</p>
+      </container>
+      <container name="Referring" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Referring</span> to the letter of the Prime Minister of Lebanon to the Secretary-General of the United Nations (S/2007/281), which recalled that the parliamentary majority has expressed its support for the Tribunal, and asked that his request that the Special Tribunal be put into effect be presented to the Council as a matter of urgency, </p>
+      </container>
+      <container name="Mindful" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Mindful</span> of the demand of the Lebanese people that all those responsible for the terrorist bombing that killed former Lebanese Prime Minister Rafiq Hariri and others be identified and brought to justice,</p>
+      </container>
+      <container name="Commending" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the Secretary-General for his continuing efforts to proceed, together with the Government of Lebanon, with the final steps for the conclusion of the Agreement as requested in the letter of its President dated 21 November 2006 and referring in this regard to the briefing by the Legal Counsel on 2 May 2007, in which he noted that the establishment of the Tribunal through the Constitutional process is facing serious obstacles, but noting also that all parties concerned reaffirmed their agreement in principle to the establishment of the Tribunal,</p>
+      </container>
+      <container name="Commending also" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Commending also</span> the recent efforts of parties in the region to overcome these obstacles,</p>
+      </container>
+      <container name="Willing" eId="container_13">
+          <p xml:space="preserve">	<span class="italic">Willing</span> to continue to assist Lebanon in the search for the truth and in holding all those involved in the terrorist attack accountable and reaffirming its determination to support Lebanon in its efforts to bring to justice perpetrators, organizers and sponsors of this and other assassinations,</p>
+      </container>
+      <container name="Reaffirming" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its determination that this terrorist act and its implications constitute a threat to international peace and security,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>1.</num>
+        <list eId="para_15_list">
+          <intro eId="para_15_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span>, acting under Chapter VII of the Charter of the United Nations, that: </p>
+          </intro>
+          <point eId="para_15_list_point_a">
+            <num>(a)</num>
+            <content eId="para_15_list_point_a_content">
+              <p xml:space="preserve">	The provisions of the annexed document, including its attachment, on the establishment of a Special Tribunal for Lebanon shall enter into force on 10 June 2007, unless the Government of Lebanon has provided notification under Article 19 (1) of the annexed document before that date;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_b">
+            <num>(b)</num>
+            <content eId="para_15_list_point_b_content">
+              <p xml:space="preserve">	If the Secretary-General reports that the Headquarters Agreement has not been concluded as envisioned under Article 8 of the annexed document, the location of the seat of the Tribunal shall be determined in consultation with the Government of Lebanon and be subject to the conclusion of a Headquarters Agreement between the United Nations and the State that hosts the Tribunal;</p>
+            </content>
+          </point>
+          <point eId="para_15_list_point_c">
+            <num>(c)</num>
+            <content eId="para_15_list_point_c_content">
+              <p xml:space="preserve">	If the Secretary-General reports that contributions from the Government of Lebanon are not sufficient to bear the expenses described in Article 5 (b) of the annexed document, he may accept or use voluntary contributions from States to cover any shortfall;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Notes</span> that, pursuant to Article 19 (2) of the annexed document, the Special Tribunal shall commence functioning on a date to be determined by the Secretary-General in consultation with the Government of Lebanon, taking into account the progress of the work of the International Independent Investigation Commission;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General, in coordination, when appropriate, with the Government of Lebanon, to undertake the steps and measures necessary to establish the Special Tribunal in a timely manner and to report to the Council within 90 days and thereafter periodically on the implementation of this resolution; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/"></FRBRuri>
+                <FRBRdate date="2007-05-30" name="adoption"></FRBRdate>
+                <FRBRauthor href="sc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/eng@/"></FRBRuri>
+                <FRBRdate date="2007-05-30" name="publication"></FRBRdate>
+                <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-05-30/1757-2007/eng@.xml"></FRBRuri>
+                <FRBRdate date="2023-07-28" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_22" class="HCh">
+              <heading>Annex</heading>
+            </paragraph>
+            <paragraph eId="para_23" class="HCh">
+              <heading>Agreement between the United Nations and the Lebanese Republic on the establishment of a Special Tribunal  for Lebanon</heading>
+            </paragraph>
+            <paragraph eId="para_24" class="SingleTxt">
+              <content eId="para_24__content">
+                <p xml:space="preserve">	<span class="bold">Whereas</span> the Security Council, in its resolution 1664 (2006) of 29 March 2006, which responded to the request of the Government of Lebanon to establish a tribunal of an international character to try all those who are found responsible for the terrorist crime which killed the former Lebanese Prime Minister Rafiq Hariri and others, recalled all its previous resolutions, in particular resolutions 1595 (2005) of 7 April 2005, 1636 (2005) of 31 October 2005 and 1644 (2005) of 15 December 2005,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_25" class="SingleTxt">
+              <content eId="para_25__content">
+                <p xml:space="preserve">	<span class="bold">Whereas</span> the Security Council has requested the Secretary-General of the United Nations (hereinafter “the Secretary-General”) “to negotiate an agreement with the Government of Lebanon aimed at establishing a tribunal of an international character based on the highest international standards of criminal justice”, taking into account the recommendations of the Secretary-General’s report of 21 March 2006 (S/2006/176) and the views that have been expressed by Council members,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26" class="SingleTxt">
+              <content eId="para_26__content">
+                <p xml:space="preserve">	<span class="bold">Whereas</span> the Secretary-General and the Government of the Lebanese Republic (hereinafter “the Government”) have conducted negotiations for the establishment of a Special Tribunal for Lebanon (hereinafter “the Special Tribunal” or “the Tribunal”),</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27" class="SingleTxt">
+              <content eId="para_27__content">
+                <p xml:space="preserve">	<span class="bold">Now therefore</span> the United Nations and the Lebanese Republic (hereinafter referred to jointly as the “Parties”) have agreed as follows:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28" class="H23">
+              <subheading>Article 1</subheading>
+            </paragraph>
+            <paragraph eId="para_29" class="H23">
+              <subheading>Establishment of the Special Tribunal</subheading>
+            </paragraph>
+            <paragraph eId="para_30" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_30__content">
+                <p xml:space="preserve">	There is hereby established a Special Tribunal for Lebanon to prosecute persons responsible for the attack of 14 February 2005 resulting in the death of former Lebanese Prime Minister Rafiq Hariri and in the death or injury of other persons. If the tribunal finds that other attacks that occurred in Lebanon between 1 October 2004 and 12 December 2005, or any later date decided by the Parties and with the consent of the Security Council, are connected in accordance with the principles of criminal justice and are of a nature and gravity similar to the attack of 14 February 2005, it shall also have jurisdiction over persons responsible for such attacks. This connection includes but is not limited to a combination of the following elements: criminal intent (motive), the purpose behind the attacks, the nature of the victims targeted, the pattern of the attacks (modus operandi) and the perpetrators.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_31__content">
+                <p xml:space="preserve">	The Special Tribunal shall function in accordance with the Statute of the Special Tribunal for Lebanon. The Statute is attached to this Agreement and forms an integral part thereof.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32" class="H23">
+              <subheading>Article 2</subheading>
+            </paragraph>
+            <paragraph eId="para_33" class="H23">
+              <subheading>Composition of the Special Tribunal and appointment of judges</subheading>
+            </paragraph>
+            <paragraph eId="para_34" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_34__content">
+                <p xml:space="preserve">	The Special Tribunal shall consist of the following organs: the Chambers, the Prosecutor, the Registry and the Defence Office.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_35__content">
+                <p xml:space="preserve">	The Chambers shall be composed of a Pre-Trial Judge, a Trial Chamber and an Appeals Chamber, with a second Trial Chamber to be created if, after the passage of at least six months from the commencement of the functioning of the Special Tribunal, the Secretary-General or the President of the Special Tribunal so requests.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_36__content">
+                <p xml:space="preserve">	The Chambers shall be composed of no fewer than eleven independent judges and no more than fourteen such judges, who shall serve as follows:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37" class="SingleTxt">
+              <content eId="para_37__content">
+                <p xml:space="preserve">	(a)	A single international judge shall serve as a Pre-Trial Judge;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="SingleTxt">
+              <content eId="para_38__content">
+                <p xml:space="preserve">	(b)	Three judges shall serve in the Trial Chamber, of whom one shall be a Lebanese judge and two shall be international judges;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39" class="SingleTxt">
+              <content eId="para_39__content">
+                <p xml:space="preserve">	(c)	In the event of the creation of a second Trial Chamber, that Chamber shall be likewise composed in the manner contained in subparagraph (b) above;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="SingleTxt">
+              <num>(d)</num>
+              <content eId="para_40__content">
+                <p xml:space="preserve">	Five judges shall serve in the Appeals Chamber, of whom two shall be Lebanese judges and three shall be international judges; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="SingleTxt">
+              <content eId="para_41__content">
+                <p xml:space="preserve">	(e)	Two alternate judges, of whom one shall be a Lebanese judge and one shall be an international judge.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_42__content">
+                <p xml:space="preserve">	The judges of the Tribunal shall be persons of high moral character, impartiality and integrity, with extensive judicial experience. They shall be independent in the performance of their functions and shall not accept or seek instructions from any Government or any other source.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_43__content">
+                <p xml:space="preserve">	(a)	Lebanese judges shall be appointed by the Secretary-General to serve in the Trial Chamber or the Appeals Chamber or as an alternate judge from a list of twelve persons presented by the Government upon the proposal of the Lebanese Supreme Council of the Judiciary;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44" class="SingleTxt">
+              <content eId="para_44__content">
+                <p xml:space="preserve">	(b)	International judges shall be appointed by the Secretary-General to serve as Pre-Trial Judge, a Trial Chamber Judge, an Appeals Chamber Judge or an alternate judge, upon nominations forwarded by States at the invitation of the Secretary-General, as well as by competent persons;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="SingleTxt">
+              <content eId="para_45__content">
+                <p xml:space="preserve">	(c)	The Government and the Secretary-General shall consult on the appointment of judges;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="SingleTxt">
+              <content eId="para_46__content">
+                <p xml:space="preserve">	(d)	The Secretary-General shall appoint judges, upon the recommendation of a selection panel he has established after indicating his intentions to the Security Council. The selection panel shall be composed of two judges, currently sitting on or retired from an international tribunal, and the representative of the Secretary-General.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_47__content">
+                <p xml:space="preserve">	At the request of the presiding judge of a Trial Chamber, the President of the Special Tribunal may, in the interest of justice, assign alternate judges to be present at each stage of the trial and to replace a judge if that judge is unable to continue sitting.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_48__content">
+                <p xml:space="preserve">	Judges shall be appointed for a three-year period and may be eligible for reappointment for a further period to be determined by the Secretary-General in consultation with the Government.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_49__content">
+                <p xml:space="preserve">	Lebanese judges appointed to serve in the Special Tribunal shall be given full credit for their period of service with the Tribunal on their return to the Lebanese national judiciaries from which they were released and shall be reintegrated at a level at least comparable to that of their former position.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50" class="H23">
+              <subheading>Article 3</subheading>
+            </paragraph>
+            <paragraph eId="para_51" class="H23">
+              <subheading>Appointment of a Prosecutor and a Deputy Prosecutor</subheading>
+            </paragraph>
+            <paragraph eId="para_52" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_52__content">
+                <p xml:space="preserve">	The Secretary-General, after consultation with the Government, shall appoint a Prosecutor for a three-year term. The Prosecutor may be eligible for reappointment for a further period to be determined by the Secretary-General in consultation with the Government.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_53__content">
+                <p xml:space="preserve">	The Secretary-General shall appoint the Prosecutor, upon the recommendation of a selection panel he has established after indicating his intentions to the Security Council. The selection panel shall be composed of two judges, currently sitting on or retired from an international tribunal, and the representative of the Secretary-General.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_54__content">
+                <p xml:space="preserve">	The Government, in consultation with the Secretary-General and the Prosecutor, shall appoint a Lebanese Deputy Prosecutor to assist the Prosecutor in the conduct of the investigations and prosecutions.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_55__content">
+                <p xml:space="preserve">	The Prosecutor and the Deputy Prosecutor shall be of high moral character and possess the highest level of professional competence and extensive experience in the conduct of investigations and prosecutions of criminal cases. The Prosecutor and the Deputy Prosecutor shall be independent in the performance of their functions and shall not accept or seek instructions from any Government or any other source.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_56__content">
+                <p xml:space="preserve">	The Prosecutor shall be assisted by such Lebanese and international staff as may be required to perform the functions assigned to him or her effectively and efficiently.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57" class="H23">
+              <subheading>Article 4</subheading>
+            </paragraph>
+            <paragraph eId="para_58" class="H23">
+              <subheading>Appointment of a Registrar</subheading>
+            </paragraph>
+            <paragraph eId="para_59" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_59__content">
+                <p xml:space="preserve">	The Secretary-General shall appoint a Registrar who shall be responsible for the servicing of the Chambers and the Office of the Prosecutor, and for the recruitment and administration of all support staff. He or she shall also administer the financial and staff resources of the Special Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_60__content">
+                <p xml:space="preserve">	The Registrar shall be a staff member of the United Nations. He or she shall serve a three-year term and may be eligible for reappointment for a further period to be determined by the Secretary-General in consultation with the Government.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61" class="H23">
+              <subheading>Article 5</subheading>
+            </paragraph>
+            <paragraph eId="para_62" class="H23">
+              <subheading>Financing of the Special Tribunal</subheading>
+            </paragraph>
+            <paragraph eId="para_63" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_63__content">
+                <p xml:space="preserve">	The expenses of the Special Tribunal shall be borne in the following manner:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="SingleTxt">
+              <content eId="para_64__content">
+                <p xml:space="preserve">	(a)	Fifty-one per cent of the expenses of the Tribunal shall be borne by voluntary contributions from States;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_65" class="SingleTxt">
+              <content eId="para_65__content">
+                <p xml:space="preserve">	(b)	Forty-nine per cent of the expenses of the Tribunal shall be borne by the Government of Lebanon.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_66" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_66__content">
+                <p xml:space="preserve">	It is understood that the Secretary-General will commence the process of establishing the Tribunal when he has sufficient contributions in hand to finance the establishment of the Tribunal and twelve months of its operations plus pledges equal to the anticipated expenses of the following 24 months of the Tribunal’s operation. Should voluntary contributions be insufficient for the Tribunal to implement its mandate, the Secretary-General and the Security Council shall explore alternate means of financing the Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_67" class="H23">
+              <subheading>Article 6</subheading>
+            </paragraph>
+            <paragraph eId="para_68" class="H23">
+              <subheading>Management Committee</subheading>
+            </paragraph>
+            <paragraph eId="para_69" class="SingleTxt">
+              <content eId="para_69__content">
+                <p xml:space="preserve">	The parties shall consult concerning the establishment of a Management Committee.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_70" class="H23">
+              <subheading>Article 7</subheading>
+            </paragraph>
+            <paragraph eId="para_71" class="H23">
+              <subheading>Juridical capacity</subheading>
+            </paragraph>
+            <paragraph eId="para_72" class="SingleTxt">
+              <content eId="para_72__content">
+                <p xml:space="preserve">	The Special Tribunal shall possess the juridical capacity necessary:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_73" class="SingleTxt">
+              <content eId="para_73__content">
+                <p xml:space="preserve">	(a)	To contract;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74" class="SingleTxt">
+              <content eId="para_74__content">
+                <p xml:space="preserve">	(b)	To acquire and dispose of movable and immovable property;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75" class="SingleTxt">
+              <content eId="para_75__content">
+                <p xml:space="preserve">	(c)	To institute legal proceedings;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76" class="SingleTxt">
+              <content eId="para_76__content">
+                <p xml:space="preserve">	(d)	To enter into agreements with States as may be necessary for the exercise of its functions and for the operation of the Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77" class="H23">
+              <subheading>Article 8</subheading>
+            </paragraph>
+            <paragraph eId="para_78" class="H23">
+              <subheading>Seat of the Special Tribunal</subheading>
+            </paragraph>
+            <paragraph eId="para_79" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_79__content">
+                <p xml:space="preserve">	The Special Tribunal shall have its seat outside Lebanon. The location of the seat shall be determined having due regard to considerations of justice and fairness as well as security and administrative efficiency, including the rights of victims and access to witnesses, and subject to the conclusion of a headquarters agreement between the United Nations, the Government and the State that hosts the Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_80__content">
+                <p xml:space="preserve">	The Special Tribunal may meet away from its seat when it considers it necessary for the efficient exercise of its functions.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_81" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_81__content">
+                <p xml:space="preserve">	An Office of the Special Tribunal for the conduct of investigations shall be established in Lebanon subject to the conclusion of appropriate arrangements with the Government.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82" class="H23">
+              <subheading>Article 9</subheading>
+            </paragraph>
+            <paragraph eId="para_83" class="H23">
+              <subheading>Inviolability of premises, archives and all other documents</subheading>
+            </paragraph>
+            <paragraph eId="para_84" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_84__content">
+                <p xml:space="preserve">	The Office of the Special Tribunal in Lebanon shall be inviolable. The competent authorities shall take appropriate action that may be necessary to ensure that the Tribunal shall not be dispossessed of all or any part of the premises of the Tribunal without its express consent.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_85" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_85__content">
+                <p xml:space="preserve">	The property, funds and assets of the Office of the Special Tribunal in Lebanon, wherever located and by whomsoever held, shall be immune from search, seizure, requisition, confiscation, expropriation and any other form of interference, whether by executive, administrative, judicial or legislative action.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_86__content">
+                <p xml:space="preserve">	The archives of the Office of the Special Tribunal in Lebanon, and in general all documents and materials made available, belonging to or used by it, wherever located and by whomsoever held, shall be inviolable.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_87" class="H23">
+              <subheading>Article 10</subheading>
+            </paragraph>
+            <paragraph eId="para_88" class="H23">
+              <subheading>Funds, assets and other property</subheading>
+            </paragraph>
+            <paragraph eId="para_89" class="SingleTxt">
+              <content eId="para_89__content">
+                <p xml:space="preserve">	The Office of the Special Tribunal, its funds, assets and other property in Lebanon, wherever located and by whomsoever held, shall enjoy immunity from every form of legal process, except insofar as in any particular case the Tribunal has expressly waived its immunity. It is understood, however, that no waiver of immunity shall extend to any measure of execution.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_90" class="H23">
+              <subheading>Article 11</subheading>
+            </paragraph>
+            <paragraph eId="para_91" class="H23">
+              <subheading>Privileges and immunities of the judges, the Prosecutor, the Deputy Prosecutor, the Registrar and the Head of the Defence Office</subheading>
+            </paragraph>
+            <paragraph eId="para_92" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_92__content">
+                <p xml:space="preserve">	The judges, the Prosecutor, the Deputy Prosecutor, the Registrar and the Head of the Defence Office, while in Lebanon, shall enjoy the privileges and immunities, exemptions and facilities accorded to diplomatic agents in accordance with the Vienna Convention on Diplomatic Relations of 1961.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_93__content">
+                <p xml:space="preserve">	Privileges and immunities are accorded to the judges, the Prosecutor, the Deputy Prosecutor, the Registrar and the Head of the Defence Office in the interest of the Special Tribunal and not for the personal benefit of the individuals themselves. The right and the duty to waive the immunity in any case where it can be waived without prejudice to the purposes for which it is accorded shall lie with the Secretary-General, in consultation with the President of the Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="H23">
+              <subheading>Article 12</subheading>
+            </paragraph>
+            <paragraph eId="para_95" class="H23">
+              <subheading>Privileges and immunities of international and Lebanese personnel</subheading>
+            </paragraph>
+            <paragraph eId="para_96" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_96__content">
+                <p xml:space="preserve">	Lebanese and international personnel of the Office of the Special Tribunal, while in Lebanon, shall be accorded:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97" class="SingleTxt">
+              <content eId="para_97__content">
+                <p xml:space="preserve">	(a)	Immunity from legal process in respect of words spoken or written and all acts performed by them in their official capacity. Such immunity shall continue to be accorded after termination of employment with the Office of the Special Tribunal;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="SingleTxt">
+              <content eId="para_98__content">
+                <p xml:space="preserve">	(b)	Exemption from taxation on salaries, allowances and emoluments paid to them.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_99__content">
+                <p xml:space="preserve">	International personnel shall, in addition thereto, be accorded:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="SingleTxt">
+              <content eId="para_100__content">
+                <p xml:space="preserve">	(a)	Immunity from immigration restriction;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="SingleTxt">
+              <content eId="para_101__content">
+                <p xml:space="preserve">	(b)	The right to import free of duties and taxes, except for payment for services, their furniture and effects at the time of first taking up their official duties in Lebanon.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_102__content">
+                <p xml:space="preserve">	The privileges and immunities are granted to the officials of the Office of the Special Tribunal in the interest of the Tribunal and not for their personal benefit. The right and the duty to waive the immunity in any case where it can be waived without prejudice to the purpose for which it is accorded shall lie with the Registrar of the Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103" class="H23">
+              <subheading>Article 13</subheading>
+            </paragraph>
+            <paragraph eId="para_104" class="H23">
+              <subheading>Defence counsel</subheading>
+            </paragraph>
+            <paragraph eId="para_105" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_105__content">
+                <p xml:space="preserve">	The Government shall ensure that the counsel of a suspect or an accused who has been admitted as such by the Special Tribunal shall not be subjected, while in Lebanon, to any measure that may affect the free and independent exercise of his or her functions.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_106__content">
+                <p xml:space="preserve">	In particular, the counsel shall be accorded:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107" class="SingleTxt">
+              <content eId="para_107__content">
+                <p xml:space="preserve">	(a)	Immunity from personal arrest or detention and from seizure of personal baggage;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108" class="SingleTxt">
+              <content eId="para_108__content">
+                <p xml:space="preserve">	(b)	Inviolability of all documents relating to the exercise of his or her functions as a counsel of a suspect or accused;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109" class="SingleTxt">
+              <content eId="para_109__content">
+                <p xml:space="preserve">	(c)	Immunity from criminal or civil jurisdiction in respect of words spoken or written and acts performed in his or her capacity as counsel. Such immunity shall continue to be accorded after termination of his or her functions as a counsel of a suspect or accused;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="SingleTxt">
+              <content eId="para_110__content">
+                <p xml:space="preserve">	(d)	Immunity from any immigration restrictions during his or her stay as well as during his or her journey to the Tribunal and back.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111" class="H23">
+              <subheading>Article 14</subheading>
+            </paragraph>
+            <paragraph eId="para_112" class="H23">
+              <subheading>Security, safety and protection of persons referred to in this Agreement</subheading>
+            </paragraph>
+            <paragraph eId="para_113" class="SingleTxt">
+              <content eId="para_113__content">
+                <p xml:space="preserve">	The Government shall take effective and adequate measures to ensure the appropriate security, safety and protection of personnel of the Office of the Special Tribunal and other persons referred to in this Agreement, while in Lebanon. It shall take all appropriate steps, within its capabilities, to protect the equipment and premises of the Office of the Special Tribunal from attack or any action that prevents the Tribunal from discharging its mandate.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="H23">
+              <subheading>Article 15</subheading>
+            </paragraph>
+            <paragraph eId="para_115" class="H23">
+              <subheading>Cooperation with the Special Tribunal</subheading>
+            </paragraph>
+            <paragraph eId="para_116" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_116__content">
+                <p xml:space="preserve">	The Government shall cooperate with all organs of the Special Tribunal, in particular with the Prosecutor and defence counsel, at all stages of the proceedings. It shall facilitate access of the Prosecutor and defence counsel to sites, persons and relevant documents required for the investigation.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_117__content">
+                <p xml:space="preserve">	The Government shall comply without undue delay with any request for assistance by the Special Tribunal or an order issued by the Chambers, including, but not limited to:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="SingleTxt">
+              <content eId="para_118__content">
+                <p xml:space="preserve">	(a)	Identification and location of persons;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="SingleTxt">
+              <content eId="para_119__content">
+                <p xml:space="preserve">	(b)	Service of documents;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="SingleTxt">
+              <content eId="para_120__content">
+                <p xml:space="preserve">	(c)	Arrest or detention of persons;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="SingleTxt">
+              <content eId="para_121__content">
+                <p xml:space="preserve">	(d)	Transfer of an indictee to the Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="H23">
+              <subheading>Article 16</subheading>
+            </paragraph>
+            <paragraph eId="para_123" class="H23">
+              <subheading>Amnesty</subheading>
+            </paragraph>
+            <paragraph eId="para_124" class="SingleTxt">
+              <content eId="para_124__content">
+                <p xml:space="preserve">	The Government undertakes not to grant amnesty to any person for any crime falling within the jurisdiction of the Special Tribunal. An amnesty already granted in respect of any such persons and crimes shall not be a bar to prosecution.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="H23">
+              <subheading>Article 17</subheading>
+            </paragraph>
+            <paragraph eId="para_126" class="H23">
+              <subheading>Practical arrangements</subheading>
+            </paragraph>
+            <paragraph eId="para_127" class="SingleTxt">
+              <content eId="para_127__content">
+                <p xml:space="preserve">	With a view to achieving efficiency and cost-effectiveness in the operation of the Special Tribunal:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="SingleTxt">
+              <content eId="para_128__content">
+                <p xml:space="preserve">	(a)	Appropriate arrangements shall be made to ensure that there is a coordinated transition from the activities of the International Independent Investigation Commission, established by the Security Council in its resolution 1595 (2005), to the activities of the Office of the Prosecutor;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="SingleTxt">
+              <content eId="para_129__content">
+                <p xml:space="preserve">	(b)	Judges of the Trial Chamber and the Appeals Chamber shall take office on a date to be determined by the Secretary-General in consultation with the President of the Special Tribunal. Pending such a determination, judges of both Chambers shall be convened on an ad hoc basis to deal with organizational matters and serving, when required, to perform their duties.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="H23">
+              <subheading>Article 18</subheading>
+            </paragraph>
+            <paragraph eId="para_131" class="H23">
+              <subheading>Settlement of disputes</subheading>
+            </paragraph>
+            <paragraph eId="para_132" class="SingleTxt">
+              <content eId="para_132__content">
+                <p xml:space="preserve">	Any dispute between the Parties concerning the interpretation or application of this Agreement shall be settled by negotiation or by any other mutually agreed upon mode of settlement.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_133" class="H23">
+              <subheading>Article 19</subheading>
+            </paragraph>
+            <paragraph eId="para_134" class="H23">
+              <subheading>Entry into force and commencement of the functioning of the Special Tribunal</subheading>
+            </paragraph>
+            <paragraph eId="para_135" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_135__content">
+                <p xml:space="preserve">	This Agreement shall enter into force on the day after the Government has notified the United Nations in writing that the legal requirements for entry into force have been complied with.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_136__content">
+                <p xml:space="preserve">	The Special Tribunal shall commence functioning on a date to be determined by the Secretary-General in consultation with the Government, taking into account the progress of the work of the International Independent Investigation Commission.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="H23">
+              <subheading>Article 20</subheading>
+            </paragraph>
+            <paragraph eId="para_138" class="H23">
+              <subheading>Amendment</subheading>
+            </paragraph>
+            <paragraph eId="para_139" class="SingleTxt">
+              <content eId="para_139__content">
+                <p xml:space="preserve">	This Agreement may be amended by written agreement between the Parties.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="H23">
+              <subheading>Article 21</subheading>
+            </paragraph>
+            <paragraph eId="para_141" class="H23">
+              <subheading>Duration of the Agreement</subheading>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_142__content">
+                <p xml:space="preserve">	This Agreement shall remain in force for a period of three years from the date of the commencement of the functioning of the Special Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_143__content">
+                <p xml:space="preserve">	Three years after the commencement of the functioning of the Special Tribunal the Parties shall, in consultation with the Security Council, review the progress of the work of the Special Tribunal. If at the end of this period of three years the activities of the Tribunal have not been completed, the Agreement shall be extended to allow the Tribunal to complete its work, for a further period(s) to be determined by the Secretary-General in consultation with the Government and the Security Council.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_144__content">
+                <p xml:space="preserve">	The provisions relating to the inviolability of the funds, assets, archives and documents of the Office of the Special Tribunal in Lebanon, the privileges and immunities of those referred to in this Agreement, as well as provisions relating to defence counsel and the protection of victims and witnesses, shall survive termination of this Agreement.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="SingleTxt">
+              <content eId="para_145__content">
+                <p xml:space="preserve">	<span class="bold">In witness whereof</span>, the following duly authorized representatives of the United Nations and of the Lebanese Republic have signed this Agreement.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <content eId="para_146__content">
+                <p xml:space="preserve">Done at __________ on __________ 2006, in three originals in the Arabic, French and English languages, all texts being equally authentic.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <content eId="para_147__content">
+                <p xml:space="preserve">For the United Nations:					For the Lebanese Republic:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="SingleTxt">
+              <content eId="para_148__content">
+                <p xml:space="preserve">______________						_______________</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149" class="HCh">
+              <heading>Attachment</heading>
+            </paragraph>
+            <paragraph eId="para_150" class="HCh">
+              <heading>Statute of the Special Tribunal for Lebanon</heading>
+            </paragraph>
+            <paragraph eId="para_151" class="SingleTxt">
+              <content eId="para_151__content">
+                <p xml:space="preserve">	Having been established by an Agreement between the United Nations and the Lebanese Republic (hereinafter “the Agreement”) pursuant to Security Council resolution 1664 (2006) of 29 March 2006, which responded to the request of the Government of Lebanon to establish a tribunal of an international character to try all those who are found responsible for the terrorist crime which killed the former Lebanese Prime Minister Rafiq Hariri and others, the Special Tribunal for Lebanon (hereinafter “the Special Tribunal”) shall function in accordance with the provisions of this Statute.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="H1">
+              <heading>Section I</heading>
+            </paragraph>
+            <paragraph eId="para_153" class="H1">
+              <heading>Jurisdiction and applicable law</heading>
+            </paragraph>
+            <paragraph eId="para_154" class="H23">
+              <subheading>Article 1</subheading>
+            </paragraph>
+            <paragraph eId="para_155" class="H23">
+              <subheading>Jurisdiction of the Special Tribunal</subheading>
+            </paragraph>
+            <paragraph eId="para_156" class="SingleTxt">
+              <content eId="para_156__content">
+                <p xml:space="preserve">	The Special Tribunal shall have jurisdiction over persons responsible for the attack of 14 February 2005 resulting in the death of former Lebanese Prime Minister Rafiq Hariri and in the death or injury of other persons. If the Tribunal finds that other attacks that occurred in Lebanon between 1 October 2004 and 12 December 2005, or any later date decided by the Parties and with the consent of the Security Council, are connected in accordance with the principles of criminal justice and are of a nature and gravity similar to the attack of 14 February 2005, it shall also have jurisdiction over persons responsible for such attacks. This connection includes but is not limited to a combination of the following elements: criminal intent (motive), the purpose behind the attacks, the nature of the victims targeted, the pattern of the attacks (modus operandi) and the perpetrators. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="H23">
+              <subheading>Article 2</subheading>
+            </paragraph>
+            <paragraph eId="para_158" class="H23">
+              <subheading>Applicable criminal law</subheading>
+            </paragraph>
+            <paragraph eId="para_159" class="SingleTxt">
+              <content eId="para_159__content">
+                <p xml:space="preserve">	The following shall be applicable to the prosecution and punishment of the crimes referred to in article 1, subject to the provisions of this Statute:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="SingleTxt">
+              <num>(a)</num>
+              <content eId="para_160__content">
+                <p xml:space="preserve">	The provisions of the Lebanese Criminal Code relating to the prosecution and punishment of acts of terrorism, crimes and offences against life and personal integrity, illicit associations and failure to report crimes and offences, including the rules regarding the material elements of a crime, criminal participation and conspiracy; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="SingleTxt">
+              <content eId="para_161__content">
+                <p xml:space="preserve">	(b)	Articles 6 and 7 of the Lebanese law of 11 January 1958 on “Increasing the penalties for sedition, civil war and interfaith struggle”.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162" class="H23">
+              <subheading>Article 3</subheading>
+            </paragraph>
+            <paragraph eId="para_163" class="H23">
+              <subheading>Individual criminal responsibility</subheading>
+            </paragraph>
+            <paragraph eId="para_164" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_164__content">
+                <p xml:space="preserve">	A person shall be individually responsible for crimes within the jurisdiction of the Special Tribunal if that person:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165" class="SingleTxt">
+              <num>(a)</num>
+              <content eId="para_165__content">
+                <p xml:space="preserve">	Committed, participated as accomplice, organized or directed others to commit the crime set forth in article 2 of this Statute; or</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="SingleTxt">
+              <content eId="para_166__content">
+                <p xml:space="preserve">	(b)	Contributed in any other way to the commission of the crime set forth in article 2 of this Statute by a group of persons acting with a common purpose, where such contribution is intentional and is either made with the aim of furthering the general criminal activity or purpose of the group or in the knowledge of the intention of the group to commit the crime.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_167__content">
+                <p xml:space="preserve">	With respect to superior and subordinate relationships, a superior shall be criminally responsible for any of the crimes set forth in article 2 of this Statute committed by subordinates under his or her effective authority and control, as a result of his or her failure to exercise control properly over such subordinates, where:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168" class="SingleTxt">
+              <content eId="para_168__content">
+                <p xml:space="preserve">	(a)	The superior either knew, or consciously disregarded information that clearly indicated that the subordinates were committing or about to commit such crimes;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169" class="SingleTxt">
+              <num>(b)</num>
+              <content eId="para_169__content">
+                <p xml:space="preserve">	The crimes concerned activities that were within the effective responsibility and control of the superior; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_170" class="SingleTxt">
+              <content eId="para_170__content">
+                <p xml:space="preserve">	(c)	The superior failed to take all necessary and reasonable measures within his or her power to prevent or repress their commission or to submit the matter to the competent authorities for investigation and prosecution.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_171__content">
+                <p xml:space="preserve">	The fact that the person acted pursuant to an order of a superior shall not relieve him or her of criminal responsibility, but may be considered in mitigation of punishment if the Special Tribunal determines that justice so requires.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172" class="H23">
+              <subheading>Article 4</subheading>
+            </paragraph>
+            <paragraph eId="para_173" class="H23">
+              <subheading>Concurrent jurisdiction</subheading>
+            </paragraph>
+            <paragraph eId="para_174" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_174__content">
+                <p xml:space="preserve">	The Special Tribunal and the national courts of Lebanon shall have concurrent jurisdiction. Within its jurisdiction, the Tribunal shall have primacy over the national courts of Lebanon.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_175" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_175__content">
+                <p xml:space="preserve">	Upon the assumption of office of the Prosecutor, as determined by the Secretary-General, and no later than two months thereafter, the Special Tribunal shall request the national judicial authority seized with the case of the attack against Prime Minister Rafiq Hariri and others to defer to its competence. The Lebanese judicial authority shall refer to the Tribunal the results of the investigation and a copy of the court’s records, if any. Persons detained in connection with the investigation shall be transferred to the custody of the Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_176__content">
+                <p xml:space="preserve">	(a)	At the request of the Special Tribunal, the national judicial authority seized with any of the other crimes committed between 1 October 2004 and 12 December 2005, or a later date decided pursuant to article 1, shall refer to the Tribunal the results of the investigation and a copy of the court’s records, if any, for review by the Prosecutor;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177" class="SingleTxt">
+              <content eId="para_177__content">
+                <p xml:space="preserve">	(b)	At the further request of the Tribunal, the national authority in question shall defer to the competence of the Tribunal. It shall refer to the Tribunal the results of the investigation and a copy of the court’s records, if any, and persons detained in connection with any such case shall be transferred to the custody of the Tribunal;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="SingleTxt">
+              <content eId="para_178__content">
+                <p xml:space="preserve">	(c)	The national judicial authorities shall regularly inform the Tribunal of the progress of their investigation. At any stage of the proceedings, the Tribunal may formally request a national judicial authority to defer to its competence.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="H23">
+              <subheading>Article 5</subheading>
+            </paragraph>
+            <paragraph eId="para_180" class="H23">
+              <subheading>Non bis in idem</subheading>
+            </paragraph>
+            <paragraph eId="para_181" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_181__content">
+                <p xml:space="preserve">	No person shall be tried before a national court of Lebanon for acts for which he or she has already been tried by the Special Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_182__content">
+                <p xml:space="preserve">	A person who has been tried by a national court may be subsequently tried by the Special Tribunal if the national court proceedings were not impartial or independent, were designed to shield the accused from criminal responsibility for crimes within the jurisdiction of the Tribunal or the case was not diligently prosecuted. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_183__content">
+                <p xml:space="preserve">	In considering the penalty to be imposed on a person convicted of a crime under this Statute, the Special Tribunal shall take into account the extent to which any penalty imposed by a national court on the same person for the same act has already been served.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="H23">
+              <subheading>Article 6</subheading>
+            </paragraph>
+            <paragraph eId="para_185" class="H23">
+              <subheading>Amnesty</subheading>
+            </paragraph>
+            <paragraph eId="para_186" class="SingleTxt">
+              <content eId="para_186__content">
+                <p xml:space="preserve">	An amnesty granted to any person for any crime falling within the jurisdiction of the Special Tribunal shall not be a bar to prosecution.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="H1">
+              <heading>Section II</heading>
+            </paragraph>
+            <paragraph eId="para_188" class="H1">
+              <heading>Organization of the Special Tribunal</heading>
+            </paragraph>
+            <paragraph eId="para_189" class="H23">
+              <subheading>Article 7</subheading>
+            </paragraph>
+            <paragraph eId="para_190" class="H23">
+              <subheading>Organs of the Special Tribunal</subheading>
+            </paragraph>
+            <paragraph eId="para_191" class="SingleTxt">
+              <content eId="para_191__content">
+                <p xml:space="preserve">	The Special Tribunal shall consist of the following organs: </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_192" class="SingleTxt">
+              <content eId="para_192__content">
+                <p xml:space="preserve">	(a)	The Chambers, comprising a Pre-Trial Judge, a Trial Chamber and an Appeals Chamber; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_193" class="SingleTxt">
+              <content eId="para_193__content">
+                <p xml:space="preserve">	(b)	The Prosecutor; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_194" class="SingleTxt">
+              <num>(c)</num>
+              <content eId="para_194__content">
+                <p xml:space="preserve">	The Registry; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_195" class="SingleTxt">
+              <content eId="para_195__content">
+                <p xml:space="preserve">	(d)	The Defence Office. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_196" class="H23">
+              <subheading>Article 8</subheading>
+            </paragraph>
+            <paragraph eId="para_197" class="H23">
+              <subheading>Composition of the Chambers</subheading>
+            </paragraph>
+            <paragraph eId="para_198" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_198__content">
+                <p xml:space="preserve">	The Chambers shall be composed as follows:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_199" class="SingleTxt">
+              <content eId="para_199__content">
+                <p xml:space="preserve">	(a)	One international Pre-Trial Judge;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_200" class="SingleTxt">
+              <content eId="para_200__content">
+                <p xml:space="preserve">	(b)	Three judges who shall serve in the Trial Chamber, of whom one shall be a Lebanese judge and two shall be international judges;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_201" class="SingleTxt">
+              <content eId="para_201__content">
+                <p xml:space="preserve">	(c)	Five judges who shall serve in the Appeals Chamber, of whom two shall be Lebanese judges and three shall be international judges;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_202" class="SingleTxt">
+              <content eId="para_202__content">
+                <p xml:space="preserve">	(d)	Two alternate judges, one of whom shall be a Lebanese judge and one shall be an international judge. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_203" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_203__content">
+                <p xml:space="preserve">	The judges of the Appeals Chamber and the judges of the Trial Chamber, respectively, shall elect a presiding judge who shall conduct the proceedings in the Chamber to which he or she was elected. The presiding judge of the Appeals Chamber shall be the President of the Special Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_204" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_204__content">
+                <p xml:space="preserve">	At the request of the presiding judge of the Trial Chamber, the President of the Special Tribunal may, in the interest of justice, assign the alternate judges to be present at each stage of the trial and to replace a judge if that judge is unable to continue sitting.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_205" class="H23">
+              <subheading>Article 9</subheading>
+            </paragraph>
+            <paragraph eId="para_206" class="H23">
+              <subheading>Qualification and appointment of judges</subheading>
+            </paragraph>
+            <paragraph eId="para_207" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_207__content">
+                <p xml:space="preserve">	The judges shall be persons of high moral character, impartiality and integrity, with extensive judicial experience. They shall be independent in the performance of their functions and shall not accept or seek instructions from any Government or any other source. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_208" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_208__content">
+                <p xml:space="preserve">	In the overall composition of the Chambers, due account shall be taken of the established competence of the judges in criminal law and procedure and international law.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_209" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_209__content">
+                <p xml:space="preserve">	The judges shall be appointed by the Secretary-General, as set forth in article 2 of the Agreement, for a three-year period and may be eligible for reappointment for a further period to be determined by the Secretary-General in consultation with the Government.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_210" class="H23">
+              <subheading>Article 10</subheading>
+            </paragraph>
+            <paragraph eId="para_211" class="H23">
+              <subheading>Powers of the President of the Special Tribunal</subheading>
+            </paragraph>
+            <paragraph eId="para_212" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_212__content">
+                <p xml:space="preserve">	The President of the Special Tribunal, in addition to his or her judicial functions, shall represent the Tribunal and be responsible for its effective functioning and the good administration of justice. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_213" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_213__content">
+                <p xml:space="preserve">	The President of the Special Tribunal shall submit an annual report on the operation and activities of the Tribunal to the Secretary-General and to the Government of Lebanon.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_214" class="H23">
+              <subheading>Article 11</subheading>
+            </paragraph>
+            <paragraph eId="para_215" class="H23">
+              <subheading>The Prosecutor</subheading>
+            </paragraph>
+            <paragraph eId="para_216" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_216__content">
+                <p xml:space="preserve">	The Prosecutor shall be responsible for the investigation and prosecution of persons responsible for the crimes falling within the jurisdiction of the Special Tribunal. In the interest of proper administration of justice, he or she may decide to charge jointly persons accused of the same or different crimes committed in the course of the same transaction.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_217" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_217__content">
+                <p xml:space="preserve">	The Prosecutor shall act independently as a separate organ of the Special Tribunal. He or she shall not seek or receive instructions from any Government or from any other source.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_218" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_218__content">
+                <p xml:space="preserve">	The Prosecutor shall be appointed, as set forth in article 3 of the Agreement, by the Secretary-General for a three-year term and may be eligible for reappointment for a further period to be determined by the Secretary-General in consultation with the Government. He or she shall be of high moral character and possess the highest level of professional competence, and have extensive experience in the conduct of investigations and prosecutions of criminal cases.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_219" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_219__content">
+                <p xml:space="preserve">	The Prosecutor shall be assisted by a Lebanese Deputy Prosecutor and by such other Lebanese and international staff as may be required to perform the functions assigned to him or her effectively and efficiently.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_220" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_220__content">
+                <p xml:space="preserve">	The Office of the Prosecutor shall have the power to question suspects, victims and witnesses, to collect evidence and to conduct on-site investigations. In carrying out these tasks, the Prosecutor shall, as appropriate, be assisted by the Lebanese authorities concerned.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_221" class="H23">
+              <subheading>Article 12</subheading>
+            </paragraph>
+            <paragraph eId="para_222" class="H23">
+              <subheading>The Registry</subheading>
+            </paragraph>
+            <paragraph eId="para_223" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_223__content">
+                <p xml:space="preserve">	Under the authority of the President of the Special Tribunal, the Registry shall be responsible for the administration and servicing of the Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_224" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_224__content">
+                <p xml:space="preserve">	The Registry shall consist of a Registrar and such other staff as may be required.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_225" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_225__content">
+                <p xml:space="preserve">	The Registrar shall be appointed by the Secretary-General and shall be a staff member of the United Nations. He or she shall serve for a three-year term and may be eligible for reappointment for a further period to be determined by the Secretary-General in consultation with the Government.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_226" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_226__content">
+                <p xml:space="preserve">	The Registrar shall set up a Victims and Witnesses Unit within the Registry. This Unit shall provide, in consultation with the Office of the Prosecutor, measures to protect the safety, physical and psychological well-being, dignity and privacy of victims and witnesses, and such other appropriate assistance for witnesses who appear before the Special Tribunal and others who are at risk on account of testimony given by such witnesses.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_227" class="H23">
+              <subheading>Article 13</subheading>
+            </paragraph>
+            <paragraph eId="para_228" class="H23">
+              <subheading>The Defence Office</subheading>
+            </paragraph>
+            <paragraph eId="para_229" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_229__content">
+                <p xml:space="preserve">	The Secretary-General, in consultation with the President of the Special Tribunal, shall appoint an independent Head of the Defence Office, who shall be responsible for the appointment of the Office staff and the drawing up of a list of defence counsel.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_230" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_230__content">
+                <p xml:space="preserve">	The Defence Office, which may also include one or more public defenders, shall protect the rights of the defence, provide support and assistance to defence counsel and to the persons entitled to legal assistance, including, where appropriate, legal research, collection of evidence and advice, and appearing before the Pre-Trial Judge or a Chamber in respect of specific issues.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_231" class="H23">
+              <subheading>Article 14</subheading>
+            </paragraph>
+            <paragraph eId="para_232" class="H23">
+              <subheading>Official and working languages</subheading>
+            </paragraph>
+            <paragraph eId="para_233" class="SingleTxt">
+              <content eId="para_233__content">
+                <p xml:space="preserve">	The official languages of the Special Tribunal shall be Arabic, French and English. In any given case proceedings, the Pre-Trial Judge or a Chamber may decide that one or two of the languages may be used as working languages as appropriate.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_234" class="H1">
+              <heading>Section III</heading>
+            </paragraph>
+            <paragraph eId="para_235" class="H1">
+              <heading>Rights of defendants and victims</heading>
+            </paragraph>
+            <paragraph eId="para_236" class="H23">
+              <subheading>Article 15</subheading>
+            </paragraph>
+            <paragraph eId="para_237" class="H23">
+              <subheading>Rights of suspects during investigation</subheading>
+            </paragraph>
+            <paragraph eId="para_238" class="SingleTxt">
+              <content eId="para_238__content">
+                <p xml:space="preserve">	A suspect who is to be questioned by the Prosecutor shall not be compelled to incriminate himself or herself or to confess guilt. He or she shall have the following rights of which he or she shall be informed by the Prosecutor prior to questioning, in a language he or she speaks and understands:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_239" class="SingleTxt">
+              <content eId="para_239__content">
+                <p xml:space="preserve">	(a)	The right to be informed that there are grounds to believe that he or she has committed a crime within the jurisdiction of the Special Tribunal;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_240" class="SingleTxt">
+              <content eId="para_240__content">
+                <p xml:space="preserve">	(b)	The right to remain silent, without such silence being considered in the determination of guilt or innocence, and to be cautioned that any statement he or she makes shall be recorded and may be used in evidence;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_241" class="SingleTxt">
+              <content eId="para_241__content">
+                <p xml:space="preserve">	(c)	The right to have legal assistance of his or her own choosing, including the right to have legal assistance provided by the Defence Office where the interests of justice so require and where the suspect does not have sufficient means to pay for it;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_242" class="SingleTxt">
+              <content eId="para_242__content">
+                <p xml:space="preserve">	(d)	The right to have the free assistance of an interpreter if he or she cannot understand or speak the language used for questioning;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_243" class="SingleTxt">
+              <content eId="para_243__content">
+                <p xml:space="preserve">	(e)	The right to be questioned in the presence of counsel unless the person has voluntarily waived his or her right to counsel. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_244" class="H23">
+              <subheading>Article 16</subheading>
+            </paragraph>
+            <paragraph eId="para_245" class="H23">
+              <subheading>Rights of the accused</subheading>
+            </paragraph>
+            <paragraph eId="para_246" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_246__content">
+                <p xml:space="preserve">	All accused shall be equal before the Special Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_247" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_247__content">
+                <p xml:space="preserve">	The accused shall be entitled to a fair and public hearing, subject to measures ordered by the Special Tribunal for the protection of victims and witnesses.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_248" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_248__content">
+                <p xml:space="preserve">	(a)	The accused shall be presumed innocent until proved guilty according to the provisions of this Statute;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_249" class="SingleTxt">
+              <content eId="para_249__content">
+                <p xml:space="preserve">	(b)	The onus is on the Prosecutor to prove the guilt of the accused;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_250" class="SingleTxt">
+              <content eId="para_250__content">
+                <p xml:space="preserve">	(c)	In order to convict the accused, the relevant Chamber must be convinced of the guilt of the accused beyond reasonable doubt.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_251" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_251__content">
+                <p xml:space="preserve">	In the determination of any charge against the accused pursuant to this Statute, he or she shall be entitled to the following minimum guarantees, in full equality:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_252" class="SingleTxt">
+              <content eId="para_252__content">
+                <p xml:space="preserve">	(a)	To be informed promptly and in detail in a language which he or she understands of the nature and cause of the charge against him or her; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_253" class="SingleTxt">
+              <content eId="para_253__content">
+                <p xml:space="preserve">	(b)	To have adequate time and facilities for the preparation of his or her defence and to communicate without hindrance with counsel of his or her own choosing; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_254" class="SingleTxt">
+              <content eId="para_254__content">
+                <p xml:space="preserve">	(c)	To be tried without undue delay; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_255" class="SingleTxt">
+              <content eId="para_255__content">
+                <p xml:space="preserve">	(d)	Subject to the provisions of article 22, to be tried in his or her presence, and to defend himself or herself in person or through legal assistance of his or her own choosing; to be informed, if he or she does not have legal assistance, of this right; and to have legal assistance assigned to him or her, in any case where the interests of justice so require and without payment by him or her in any such case if he or she does not have sufficient means to pay for it;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_256" class="SingleTxt">
+              <content eId="para_256__content">
+                <p xml:space="preserve">	(e)	To examine, or have examined, the witnesses against him or her and to obtain the attendance and examination of witnesses on his or her behalf under the same conditions as witnesses against him or her; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_257" class="SingleTxt">
+              <content eId="para_257__content">
+                <p xml:space="preserve">	(f)	To examine all evidence to be used against him or her during the trial in accordance with the Rules of Procedure and Evidence of the Special Tribunal;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_258" class="SingleTxt">
+              <content eId="para_258__content">
+                <p xml:space="preserve">	(g)	To have the free assistance of an interpreter if he or she cannot understand or speak the language used in the Special Tribunal; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_259" class="SingleTxt">
+              <content eId="para_259__content">
+                <p xml:space="preserve">	(h)	Not to be compelled to testify against himself or herself or to confess guilt. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_260" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_260__content">
+                <p xml:space="preserve">	The accused may make statements in court at any stage of the proceedings, provided such statements are relevant to the case at issue. The Chambers shall decide on the probative value, if any, of such statements. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_261" class="H23">
+              <subheading>Article 17</subheading>
+            </paragraph>
+            <paragraph eId="para_262" class="H23">
+              <subheading>Rights of victims</subheading>
+            </paragraph>
+            <paragraph eId="para_263" class="SingleTxt">
+              <content eId="para_263__content">
+                <p xml:space="preserve">	Where the personal interests of the victims are affected, the Special Tribunal shall permit their views and concerns to be presented and considered at stages of the proceedings determined to be appropriate by the Pre-Trial Judge or the Chamber and in a manner that is not prejudicial to or inconsistent with the rights of the accused and a fair and impartial trial. Such views and concerns may be presented by the legal representatives of the victims where the Pre-Trial Judge or the Chamber considers it appropriate.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_264" class="H1">
+              <heading>Section IV</heading>
+            </paragraph>
+            <paragraph eId="para_265" class="H1">
+              <heading>Conduct of proceedings</heading>
+            </paragraph>
+            <paragraph eId="para_266" class="H23">
+              <subheading>Article 18</subheading>
+            </paragraph>
+            <paragraph eId="para_267" class="H23">
+              <subheading>Pre-Trial proceedings</subheading>
+            </paragraph>
+            <paragraph eId="para_268" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_268__content">
+                <p xml:space="preserve">	The Pre-Trial Judge shall review the indictment. If satisfied that a prima facie case has been established by the Prosecutor, he or she shall confirm the indictment. If he or she is not so satisfied, the indictment shall be dismissed.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_269" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_269__content">
+                <p xml:space="preserve">	The Pre-Trial Judge may, at the request of the Prosecutor, issue such orders and warrants for the arrest or transfer of persons, and any other orders as may be required for the conduct of the investigation and for the preparation of a fair and expeditious trial.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_270" class="H23">
+              <subheading>Article 19</subheading>
+            </paragraph>
+            <paragraph eId="para_271" class="H23">
+              <subheading>Evidence collected prior to the establishment of the Special Tribunal</subheading>
+            </paragraph>
+            <paragraph eId="para_272" class="SingleTxt">
+              <content eId="para_272__content">
+                <p xml:space="preserve">	Evidence collected with regard to cases subject to the consideration of the Special Tribunal, prior to the establishment of the Tribunal, by the national authorities of Lebanon or by the International Independent Investigation Commission in accordance with its mandate as set out in Security Council resolution 1595 (2005) and subsequent resolutions, shall be received by the Tribunal. Its admissibility shall be decided by the Chambers pursuant to international standards on collection of evidence. The weight to be given to any such evidence shall be determined by the Chambers. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_273" class="H23">
+              <subheading>Article 20</subheading>
+            </paragraph>
+            <paragraph eId="para_274" class="H23">
+              <subheading>Commencement and conduct of trial proceedings</subheading>
+            </paragraph>
+            <paragraph eId="para_275" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_275__content">
+                <p xml:space="preserve">	The Trial Chamber shall read the indictment to the accused, satisfy itself that the rights of the accused are respected, confirm that the accused understands the indictment and instruct the accused to enter a plea.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_276" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_276__content">
+                <p xml:space="preserve">	Unless otherwise decided by the Trial Chamber in the interests of justice, examination of witnesses shall commence with questions posed by the presiding judge, followed by questions posed by other members of the Trial Chamber, the Prosecutor and the Defence.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_277" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_277__content">
+                <p xml:space="preserve">	Upon request or <span class="italic">proprio motu</span>, the Trial Chamber may at any stage of the trial decide to call additional witnesses and/or order the production of additional evidence. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_278" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_278__content">
+                <p xml:space="preserve">	The hearings shall be public unless the Trial Chamber decides to hold the proceedings in camera in accordance with the Rules of Procedure and Evidence.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_279" class="H23">
+              <subheading>Article 21</subheading>
+            </paragraph>
+            <paragraph eId="para_280" class="H23">
+              <subheading>Powers of the Chambers</subheading>
+            </paragraph>
+            <paragraph eId="para_281" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_281__content">
+                <p xml:space="preserve">	The Special Tribunal shall confine the trial, appellate and review proceedings strictly to an expeditious hearing of the issues raised by the charges, or the grounds for appeal or review, respectively. It shall take strict measures to prevent any action that may cause unreasonable delay.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_282" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_282__content">
+                <p xml:space="preserve">	A Chamber may admit any relevant evidence that it deems to have probative value and exclude such evidence if its probative value is substantially outweighed by the need to ensure a fair trial.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_283" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_283__content">
+                <p xml:space="preserve">	A Chamber may receive the evidence of a witness orally or, where the interests of justice allow, in written form.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_284" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_284__content">
+                <p xml:space="preserve">	In cases not otherwise provided for in the Rules of Procedure and Evidence, a Chamber shall apply rules of evidence that will best favour a fair determination of the matter before it and are consonant with the spirit of the Statute and the general principles of law.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_285" class="H23">
+              <subheading>Article 22</subheading>
+            </paragraph>
+            <paragraph eId="para_286" class="H23">
+              <subheading>Trials in absentia</subheading>
+            </paragraph>
+            <paragraph eId="para_287" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_287__content">
+                <p xml:space="preserve">	The Special Tribunal shall conduct trial proceedings in the absence of the accused, if he or she:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_288" class="SingleTxt">
+              <content eId="para_288__content">
+                <p xml:space="preserve">	(a)	Has expressly and in writing waived his or her right to be present;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_289" class="SingleTxt">
+              <content eId="para_289__content">
+                <p xml:space="preserve">	(b)	Has not been handed over to the Tribunal by the State authorities concerned;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_290" class="SingleTxt">
+              <content eId="para_290__content">
+                <p xml:space="preserve">	(c)	Has absconded or otherwise cannot be found and all reasonable steps have been taken to secure his or her appearance before the Tribunal and to inform him or her of the charges confirmed by the Pre-Trial Judge.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_291" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_291__content">
+                <p xml:space="preserve">	When hearings are conducted in the absence of the accused, the Special Tribunal shall ensure that:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_292" class="SingleTxt">
+              <content eId="para_292__content">
+                <p xml:space="preserve">	(a)	The accused has been notified, or served with the indictment, or notice has otherwise been given of the indictment through publication in the media or communication to the State of residence or nationality; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_293" class="SingleTxt">
+              <content eId="para_293__content">
+                <p xml:space="preserve">	(b)	The accused has designated a defence counsel of his or her own choosing, to be remunerated either by the accused or, if the accused is proved to be indigent, by the Tribunal; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_294" class="SingleTxt">
+              <content eId="para_294__content">
+                <p xml:space="preserve">	(c)	Whenever the accused refuses or fails to appoint a defence counsel, such counsel has been assigned by the Defence Office of the Tribunal with a view to ensuring full representation of the interests and rights of the accused.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_295" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_295__content">
+                <p xml:space="preserve">	In case of conviction in absentia, the accused, if he or she had not designated a defence counsel of his or her choosing, shall have the right to be retried in his or her presence before the Special Tribunal, unless he or she accepts the judgement. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_296" class="H23">
+              <subheading>Article 23</subheading>
+            </paragraph>
+            <paragraph eId="para_297" class="H23">
+              <subheading>Judgement</subheading>
+            </paragraph>
+            <paragraph eId="para_298" class="SingleTxt">
+              <content eId="para_298__content">
+                <p xml:space="preserve">	The judgement shall be rendered by a majority of the judges of the Trial Chamber or of the Appeals Chamber and shall be delivered in public. It shall be accompanied by a reasoned opinion in writing, to which any separate or dissenting opinions shall be appended.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_299" class="H23">
+              <subheading>Article 24</subheading>
+            </paragraph>
+            <paragraph eId="para_300" class="H23">
+              <subheading>Penalties</subheading>
+            </paragraph>
+            <paragraph eId="para_301" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_301__content">
+                <p xml:space="preserve">	The Trial Chamber shall impose upon a convicted person imprisonment for life or for a specified number of years. In determining the terms of imprisonment for the crimes provided for in this Statute, the Trial Chamber shall, as appropriate, have recourse to international practice regarding prison sentences and to the practice of the national courts of Lebanon.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_302" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_302__content">
+                <p xml:space="preserve">	In imposing sentence, the Trial Chamber should take into account such factors as the gravity of the offence and the individual circumstances of the convicted person.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_303" class="H23">
+              <subheading>Article 25</subheading>
+            </paragraph>
+            <paragraph eId="para_304" class="H23">
+              <subheading>Compensation to victims</subheading>
+            </paragraph>
+            <paragraph eId="para_305" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_305__content">
+                <p xml:space="preserve">	The Special Tribunal may identify victims who have suffered harm as a result of the commission of crimes by an accused convicted by the Tribunal.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_306" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_306__content">
+                <p xml:space="preserve">	The Registrar shall transmit to the competent authorities of the State concerned the judgement finding the accused guilty of a crime that has caused harm to a victim. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_307" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_307__content">
+                <p xml:space="preserve">	Based on the decision of the Special Tribunal and pursuant to the relevant national legislation, a victim or persons claiming through the victim, whether or not such victim had been identified as such by the Tribunal under paragraph 1 of this article, may bring an action in a national court or other competent body to obtain compensation.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_308" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_308__content">
+                <p xml:space="preserve">	For the purposes of a claim made under paragraph 3 of this article, the judgement of the Special Tribunal shall be final and binding as to the criminal responsibility of the convicted person. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_309" class="H23">
+              <subheading>Article 26</subheading>
+            </paragraph>
+            <paragraph eId="para_310" class="H23">
+              <subheading>Appellate proceedings</subheading>
+            </paragraph>
+            <paragraph eId="para_311" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_311__content">
+                <p xml:space="preserve">	The Appeals Chamber shall hear appeals from persons convicted by the Trial Chamber or from the Prosecutor on the following grounds:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_312" class="SingleTxt">
+              <content eId="para_312__content">
+                <p xml:space="preserve">	(a)	An error on a question of law invalidating the decision; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_313" class="SingleTxt">
+              <content eId="para_313__content">
+                <p xml:space="preserve">	(b)	An error of fact that has occasioned a miscarriage of justice. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_314" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_314__content">
+                <p xml:space="preserve">	The Appeals Chamber may affirm, reverse or revise the decisions taken by the Trial Chamber.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_315" class="H23">
+              <subheading>Article 27</subheading>
+            </paragraph>
+            <paragraph eId="para_316" class="H23">
+              <subheading>Review proceedings</subheading>
+            </paragraph>
+            <paragraph eId="para_317" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_317__content">
+                <p xml:space="preserve">	Where a new fact has been discovered that was not known at the time of the proceedings before the Trial Chamber or the Appeals Chamber and that could have been a decisive factor in reaching the decision, the convicted person or the Prosecutor may submit an application for review of the judgement.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_318" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_318__content">
+                <p xml:space="preserve">	An application for review shall be submitted to the Appeals Chamber. The Appeals Chamber may reject the application if it considers it to be unfounded. If it determines that the application is meritorious, it may, as appropriate:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_319" class="SingleTxt">
+              <content eId="para_319__content">
+                <p xml:space="preserve">	(a)	Reconvene the Trial Chamber; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_320" class="SingleTxt">
+              <content eId="para_320__content">
+                <p xml:space="preserve">	(b)	Retain jurisdiction over the matter. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_321" class="H23">
+              <subheading>Article 28</subheading>
+            </paragraph>
+            <paragraph eId="para_322" class="H23">
+              <subheading>Rules of Procedure and Evidence</subheading>
+            </paragraph>
+            <paragraph eId="para_323" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_323__content">
+                <p xml:space="preserve">	The judges of the Special Tribunal shall, as soon as practicable after taking office, adopt Rules of Procedure and Evidence for the conduct of the pre‑trial, trial and appellate proceedings, the admission of evidence, the participation of victims, the protection of victims and witnesses and other appropriate matters and may amend them, as appropriate.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_324" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_324__content">
+                <p xml:space="preserve">	In so doing, the judges shall be guided, as appropriate, by the Lebanese Code of Criminal Procedure, as well as by other reference materials reflecting the highest standards of international criminal procedure, with a view to ensuring a fair and expeditious trial.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_325" class="H23">
+              <subheading>Article 29</subheading>
+            </paragraph>
+            <paragraph eId="para_326" class="H23">
+              <subheading>Enforcement of sentences</subheading>
+            </paragraph>
+            <paragraph eId="para_327" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_327__content">
+                <p xml:space="preserve">	Imprisonment shall be served in a State designated by the President of the Special Tribunal from a list of States that have indicated their willingness to accept persons convicted by the Tribunal. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_328" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_328__content">
+                <p xml:space="preserve">	Conditions of imprisonment shall be governed by the law of the State of enforcement subject to the supervision of the Special Tribunal. The State of enforcement shall be bound by the duration of the sentence, subject to article 30 of this Statute.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_329" class="H23">
+              <subheading>Article 30</subheading>
+            </paragraph>
+            <paragraph eId="para_330" class="H23">
+              <subheading>Pardon or commutation of sentences</subheading>
+            </paragraph>
+            <paragraph eId="para_331" class="SingleTxt">
+              <content eId="para_331__content">
+                <p xml:space="preserve">	If, pursuant to the applicable law of the State in which the convicted person is imprisoned, he or she is eligible for pardon or commutation of sentence, the State concerned shall notify the Special Tribunal accordingly. There shall only be pardon or commutation of sentence if the President of the Tribunal, in consultation with the judges, so decides on the basis of the interests of justice and the general principles of law.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
