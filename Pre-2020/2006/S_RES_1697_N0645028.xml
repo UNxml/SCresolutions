@@ -1,0 +1,166 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2006-07-31/1697-2006/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2006-07-31/1697-2006/"></FRBRuri>
+          <FRBRdate date="2006-07-31" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2006-07-31/1697-2006/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2006-07-31/1697-2006/eng@/"></FRBRuri>
+          <FRBRdate date="2006-07-31" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2006-07-31/1697-2006/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2006-07-31/1697-2006/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-07-28" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Interim Force in Lebanon" showAs="UN Interim Force in Lebanon" dictionary="DHLAUTH"></keyword>
+        <keyword value="MILITARY ACTIVITY" showAs="MILITARY ACTIVITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MIDDLE EAST SITUATION" showAs="MIDDLE EAST SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFF SECURITY" showAs="STAFF SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[57]" showAs="UN INTERIM FORCE IN LEBANON" dictionary="S/61"></keyword>
+        <keyword refersTo="agenda" value="[54]" showAs="MIDDLE EAST SITUATION" dictionary="S/61"></keyword>
+        <keyword refersTo="agenda" value="[56]" showAs="ISRAEL--LEBANON" dictionary="S/61"></keyword>
+        <keyword value="X" dictionary="S/" showAs="The situation in the Middle East." refersTo="agenda"/>
+        <keyword refersTo="title" value="Security Council resolution 1697 (2006) [on extension of the mandate of the UN Interim Force in Lebanon (UNIFIL)]   " showAs="Security Council resolution 1697 (2006) [on extension of the mandate of the UN Interim Force in Lebanon (UNIFIL)]   " dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2006-07-28" outcome="draftResolution" as="S/2006/583" by="France" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2006-07-31" outcome="adopted" as="S/PV.5501" by="Adopted unanimously, 5501st meeting" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">CONGO</organization>
+                <organization refersTo="memberState">DENMARK</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">GREECE</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">PERU</organization>
+                <organization refersTo="memberState">QATAR</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SLOVAKIA</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED REPUBLIC OF TANZANIA</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">06-45028 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1697 (2006)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2006-07-31" class="rightSmall" refersTo="#dateOfIssuance">31 July 2006</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1697 (2006)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="5501st">5501st meeting</inline>, on<docDate date="2006-07-31" refersTo="#adoptionDate">31 July 2006</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> all its previous resolutions on Lebanon, including resolutions 425 (1978) and 426 (1978) of 19 March 1978 and 1655 (2006) of 31 January 2006 as well as the statements of its President on the situation in Lebanon, in particular the statement of 18 June 2000 (S/PRST/2000/21),</p>
+      </container>
+      <container name="Expressing" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Expressing</span> deepest concern at the escalation of hostilities in Lebanon and Israel since 12 July 2006,</p>
+      </container>
+      <container name="Taking note" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the letter dated 7 July 2006 (S/2006/496) from the Chargé d’affaires a.i. of the Permanent Mission of Lebanon to the United Nations conveying to the Secretary-General the request that the Security Council extend the mandate of UNIFIL for a further period of six months,</p>
+      </container>
+      <container name="Having examined" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Having examined</span> the Secretary-General’s report on UNIFIL of 22 July 2006 (S/2006/560), including its observations that, as a result of the continuing hostilities along the Blue Line, UNIFIL has been impeded to carry out its activities effectively, and noting in this context the Secretary-General’s recommendation that the mandate of the Force be extended for a period of one month pending consideration of other options for future arrangements in South Lebanon,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_6" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_6__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all concerned parties to abide scrupulously by their obligation to respect the safety of UNIFIL and other United Nations personnel, and avoid any course of action which might endanger United Nations personnel, and <span class="italic">calls on</span> them to allow the Force to resupply its positions, conduct search and rescue operations on behalf of its personnel and undertake any other measures the Force deems necessary to ensure the safety of its personnel;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend the mandate of UNIFIL until 31 August 2006;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
