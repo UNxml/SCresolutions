@@ -1,0 +1,158 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-27/1380-2001/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-27/1380-2001/"></FRBRuri>
+          <FRBRdate date="2001-11-27" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-27/1380-2001/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-27/1380-2001/eng@/"></FRBRuri>
+          <FRBRdate date="2001-11-27" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-27/1380-2001/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-27/1380-2001/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-08-07" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Mission for the Referendum in Western Sahara" showAs="UN Mission for the Referendum in Western Sahara" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WESTERN SAHARA" showAs="WESTERN SAHARA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WESTERN SAHARA QUESTION" showAs="WESTERN SAHARA QUESTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[45]" showAs="UN MISSION FOR THE REFERENDUM IN WESTERN SAHARA" dictionary="S/56"></keyword>
+        <keyword refersTo="agenda" value="[44]" showAs="WESTERN SAHARA QUESTION" dictionary="S/56"></keyword>
+        <keyword value="X" dictionary="S/" showAs="The situation concerning Western Sahara." refersTo="agenda"/>
+        <keyword refersTo="title" value="Security Council resolution 1380 (2001) [on extension of the mandate of the UN Mission for the Referendum in Western Sahara (MINURSO)]" showAs="Security Council resolution 1380 (2001) [on extension of the mandate of the UN Mission for the Referendum in Western Sahara (MINURSO)]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2001-11-26" outcome="draftResolution" as="S/2001/1109" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2001-11-27" outcome="adopted" as="S/PV.4427" by="Adopted unanimously, 4427th meeting" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">01-66093 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1380 (2001)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2001-11-27" class="rightSmall" refersTo="#dateOfIssuance">27 November 2001</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1380 (2001)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="4427th">4427th meeting</inline>, on<docDate date="2001-11-27" refersTo="#adoptionDate">27 November 2001</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its resolution 1359 (2001) of 29 June 2001 and its previous resolutions on the question of Western Sahara,</p>
+      </container>
+      <container name="Taking note" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the letter of the Secretary-General of 12 November 2001 (S/2001/1067),</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_4" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to extend the mandate of the United Nations Mission for the Referendum in Western Sahara (MINURSO) until 28 February 2002;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_5__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to keep the Council informed of all significant developments in an interim report by 15 January 2002 and to provide an assessment of the situation by 18 February 2002;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

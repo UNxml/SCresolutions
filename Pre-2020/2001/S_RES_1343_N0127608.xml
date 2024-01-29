@@ -1,0 +1,594 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-03-07/1343-2001/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-03-07/1343-2001/"></FRBRuri>
+          <FRBRdate date="2001-03-07" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-03-07/1343-2001/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-03-07/1343-2001/eng@/"></FRBRuri>
+          <FRBRdate date="2001-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-03-07/1343-2001/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-03-07/1343-2001/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-12-03" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Economic Community of West African States. Committee of Five on Liberia" showAs="Economic Community of West African States. Committee of Five on Liberia" dictionary="DHLAUTH"></keyword>
+        <keyword value="Revolutionary United Front of Sierra Leone" showAs="Revolutionary United Front of Sierra Leone" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Mission in Sierra Leone" showAs="UN Mission in Sierra Leone" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1343 (2001) concerning Liberia" showAs="UN. Security Council Committee Established pursuant to Resolution 1343 (2001) concerning Liberia" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Panel of Experts Established pursuant to Security Council Resolution 1306 (2000)" showAs="UN. Panel of Experts Established pursuant to Security Council Resolution 1306 (2000)" dictionary="DHLAUTH"></keyword>
+        <keyword value="SANCTIONS COMPLIANCE" href="http://metadata.un.org/thesaurus/1005696" showAs="SANCTIONS COMPLIANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMS EMBARGO" href="http://metadata.un.org/thesaurus/1000390" showAs="ARMS EMBARGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMS TRANSFERS" href="http://metadata.un.org/thesaurus/1000394" showAs="ARMS TRANSFERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LIBERIA" href="http://metadata.un.org/thesaurus/1003707" showAs="LIBERIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SANCTIONS" href="http://metadata.un.org/thesaurus/1005695" showAs="SANCTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SIERRA LEONE" href="http://metadata.un.org/thesaurus/1005890" showAs="SIERRA LEONE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY ASSISTANCE" href="http://metadata.un.org/thesaurus/1004120" showAs="MILITARY ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LIBERIA SITUATION" href="http://metadata.un.org/thesaurus/1003708" showAs="LIBERIA SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFLICT DIAMONDS" href="http://metadata.un.org/thesaurus/1001225" showAs="CONFLICT DIAMONDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CERTIFICATES OF ORIGIN" href="http://metadata.un.org/thesaurus/1000892" showAs="CERTIFICATES OF ORIGIN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FROZEN ASSETS" href="http://metadata.un.org/thesaurus/1002550" showAs="FROZEN ASSETS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AIRCRAFT" href="http://metadata.un.org/thesaurus/1000210" showAs="AIRCRAFT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF MOVEMENT" href="http://metadata.un.org/thesaurus/1002526" showAs="FREEDOM OF MOVEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DETAINED PERSONS" href="http://metadata.un.org/thesaurus/1001603" showAs="DETAINED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY DEMOBILIZATION" href="http://metadata.un.org/thesaurus/1004126" showAs="MILITARY DEMOBILIZATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WEAPONS SURRENDER" href="http://metadata.un.org/thesaurus/1006974" showAs="WEAPONS SURRENDER" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSIT COUNTRIES" href="http://metadata.un.org/thesaurus/1006636" showAs="TRANSIT COUNTRIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPORT PREPARATION" href="http://metadata.un.org/thesaurus/1005485" showAs="REPORT PREPARATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPORTING PROCEDURES" href="http://metadata.un.org/thesaurus/1005486" showAs="REPORTING PROCEDURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ILLICIT ARMS TRAFFICKING" href="http://metadata.un.org/thesaurus/1003048" showAs="ILLICIT ARMS TRAFFICKING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AIR TRAFFIC CONTROL" href="http://metadata.un.org/thesaurus/1000200" showAs="AIR TRAFFIC CONTROL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WEST AFRICA" href="http://metadata.un.org/thesaurus/1006992" showAs="WEST AFRICA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GROUPS OF EXPERTS" href="http://metadata.un.org/thesaurus/1002775" showAs="GROUPS OF EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[89]" showAs="LIBERIA SITUATION" dictionary="S/56"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation in Liberia." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Security Council resolution 1343 (2001) [on the situation in Liberia]" showAs="Security Council resolution 1343 (2001) [on the situation in Liberia]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2001-03-07" outcome="draftResolution" as="S/2001/188" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2001-03-07" outcome="adopted" as="S/PV.4287" by="Adopted unanimously, 4287th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">01-27608 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1343 (2001)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2001-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2001</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1343 (2001)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="4287th">4287th meeting</inline>, on<docDate date="2001-03-07" refersTo="#adoptionDate">7 March 2001</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolutions 1132 (1997) of 8 October 1997, 1171 (1998) of 5 June 1998, 1306 (2000) of 5 July 2000 and its other resolutions and statements of its President on the situation in Sierra Leone and the region,</p>
+      </container>
+      <container name="Welcoming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Welcoming </span>General Assembly resolution A/RES/55/56 of 1 December 2000, in particular its call for measures engaging all concerned parties including diamond producing, processing, exporting and importing countries as well as the diamond industry to break the link between diamonds and armed conflict, and its call upon all States to implement fully Security Council measures targeting the link between the trade in conflict diamonds and the supply to rebel movements of weapons, fuel or other prohibited materiel,</p>
+      </container>
+      <container name="Taking note" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the report of the United Nations Panel of Experts established pursuant to paragraph 19 of resolution 1306 (2000) in relation to Sierra Leone (S/2000/1195),</p>
+      </container>
+      <container name="Taking note" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the findings of the Panel of Experts that diamonds represent a major and primary source of income for the Revolutionary United Front (RUF), that the bulk of RUF diamonds leave Sierra Leone through Liberia, and that such illicit trade cannot be conducted without the permission and involvement of Liberian government officials at the highest levels, and <span class="italic">expressing</span> its deep concern at the unequivocal and overwhelming evidence presented by the report of the Panel of Experts that the Government of Liberia is actively supporting the RUF at all levels,</p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the Economic Community of West African States (ECOWAS) Moratorium on the Importation, Exportation and Manufacture of Small Arms and Light Weapons in West Africa adopted in Abuja on 31 October 1998 (S/1998/1194, annex),</p>
+      </container>
+      <container name="Taking note" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the measures announced by the Government of Liberia since the publication of the report of the Panel of Experts established pursuant to resolution 1306 (2000), and <span class="italic">welcoming</span> the intention of ECOWAS to monitor their implementation in close cooperation with the United Nations and to report thereon after a period of two months,</p>
+      </container>
+      <container name="Recalling" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its concern already expressed in resolution 1306 (2000) at the role played by the illicit diamond trade in fuelling the conflict in Sierra Leone and at reports that such diamonds transit neighbouring countries, including Liberia,</p>
+      </container>
+      <container name="Reiterating" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its call made in the statement of its President of 21 December 2000 (S/PRST/2000/41) on all States in West Africa, particularly Liberia, immediately to cease military support for armed groups in neighbouring countries and prevent armed individuals from using their national territory to prepare and commit attacks in neighbouring countries,</p>
+      </container>
+      <container name="Determining" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the active support provided by the Government of Liberia for armed rebel groups in neighbouring countries, and in particular its support for the RUF in Sierra Leone, constitutes a threat to international peace and security in the region,</p>
+      </container>
+      <container name="Acting" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <section>
+        <num>A</num>
+      <crossHeading refersTo="#preamble" eId="preamble_13">
+        <span class="italic">Recalling</span> its resolutions 788 (1992) of 19 November 1992 and 985 (1995) of 13 April 1995,</crossHeading>
+      <crossHeading refersTo="#preamble" eId="preamble_14">
+        <span class="italic">Noting</span> that the conflict in Liberia has been resolved, that national elections have taken place within the framework of the Yamoussoukro IV Agreement of 30 October 1991 (S/24815, annex) and that the Final Communiqué of the informal consultative group meeting of ECOWAS Committee of Five on Liberia issued in Geneva on 7 April 1992 (S/23863) has been implemented, and <span class="italic">determining</span> therefore that the embargo imposed by paragraph 8 of resolution 788 (1992) should be terminated,</crossHeading>
+      <paragraph eId="para_15" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to terminate the prohibitions imposed by paragraph 8 of resolution 788 (1992) and to dissolve the Committee established under resolution 985 (1995);</p>
+        </content>
+      </paragraph>
+      </section>
+      <section>
+        <num>B</num>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>2.</num>
+        <list eId="para_17_list">
+          <intro eId="para_17_list_intro">
+            <p xml:space="preserve">	<span class="italic">Demands</span> that the Government of Liberia immediately cease its support for the RUF in Sierra Leone and for other armed rebel groups in the region, and in particular take the following concrete steps:</p>
+          </intro>
+          <point eId="para_17_list_point_a">
+            <num>(a)</num>
+            <content eId="para_17_list_point_a_content">
+              <p xml:space="preserve"> 	expel all RUF members from Liberia, including such individuals as are listed by the Committee established by paragraph 14 below, and prohibit all RUF activities on its territory, provided that nothing in this paragraph shall oblige Liberia to expel its own nationals from its territory;</p>
+            </content>
+          </point>
+          <point eId="para_17_list_point_b">
+            <num>(b)</num>
+            <content eId="para_17_list_point_b_content">
+              <p xml:space="preserve"> 	cease all financial and, in accordance with resolution 1171 (1998), military support to the RUF, including all transfers of arms and ammunition, all military training and the provision of logistical and communications support, and take steps to ensure that no such support is provided from the territory of Liberia or by its nationals;</p>
+            </content>
+          </point>
+          <point eId="para_17_list_point_c">
+            <num>(c)</num>
+            <content eId="para_17_list_point_c_content">
+              <p xml:space="preserve"> 	cease all direct or indirect import of Sierra Leone rough diamonds which are not controlled through the Certificate of Origin regime of the Government of Sierra Leone, in accordance with resolution 1306 (2000);</p>
+            </content>
+          </point>
+          <point eId="para_17_list_point_d">
+            <num>(d)</num>
+            <content eId="para_17_list_point_d_content">
+              <p xml:space="preserve"> 	freeze funds or financial resources or assets that are made available by its nationals or within its territory directly or indirectly for the benefit of the RUF or entities owned or controlled directly or indirectly by the RUF;</p>
+            </content>
+          </point>
+          <point eId="para_17_list_point_e">
+            <num>(e)</num>
+            <content eId="para_17_list_point_e_content">
+              <p xml:space="preserve"> 	ground all Liberia-registered aircraft operating within its jurisdiction until it updates its register of aircraft pursuant to Annex VII to the Chicago Convention on International Civil Aviation of 1944 and provides to the Council the updated information concerning the registration and ownership of each aircraft registered in Liberia;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>3.</num>
+        <list eId="para_18_list">
+          <intro eId="para_18_list_intro">
+            <p xml:space="preserve">	<span class="italic">Stresses</span> that the demands in paragraph 2 above are intended to lead to further progress in the peace process in Sierra Leone, and, in that regard, calls upon the President of Liberia to help ensure that the RUF meet the following objectives:</p>
+          </intro>
+          <point eId="para_18_list_point_a">
+            <num>(a)</num>
+            <content eId="para_18_list_point_a_content">
+              <p xml:space="preserve"> 	allow the United Nations Mission in Sierra Leone (UNAMSIL) free access throughout Sierra Leone;</p>
+            </content>
+          </point>
+          <point eId="para_18_list_point_b">
+            <num>(b)</num>
+            <content eId="para_18_list_point_b_content">
+              <p xml:space="preserve">	release all abductees;</p>
+            </content>
+          </point>
+          <point eId="para_18_list_point_c">
+            <num>(c)</num>
+            <content eId="para_18_list_point_c_content">
+              <p xml:space="preserve"> 	enter their fighters in the disarmament, demobilization and reintegration process;</p>
+            </content>
+          </point>
+          <point eId="para_18_list_point_d">
+            <num>(d)</num>
+            <content eId="para_18_list_point_d_content">
+              <p xml:space="preserve">	return all weapons and other equipment seized from UNAMSIL;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Demands</span> that all States in the region take action to prevent armed individuals and groups from using their territory to prepare and commit attacks on neighbouring countries and refrain from any action that might contribute to further destabilization of the situation on the borders between Guinea, Liberia and Sierra Leone;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>5.</num>
+        <list eId="para_23_list">
+          <point eId="para_23_list_point_a">
+            <num>(a)</num>
+          <content eId="para_23_list_point_a_content">
+          <p xml:space="preserve"> <span class="italic">Decides</span> that all States shall take the necessary measures to prevent the sale or supply to Liberia, by their nationals or from their territories or using their flag vessels or aircraft, of arms and related materiel of all types, including weapons and ammunition, military vehicles and equipment, paramilitary equipment and spare parts for the aforementioned, whether or not originating in their territories;</p>
+        </content>
+          </point>
+          <point eId="para_23_list_point_b">
+            <num>(b)</num>
+            <content eId="para_23_list_point_b_content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that all States shall take the necessary measures to prevent any provision to Liberia by their nationals or from their territories of technical training or assistance related to the provision, manufacture, maintenance or use of the items in subparagraph (a) above;</p>
+        </content>
+          </point>
+          <point eId="para_23_list_point_c">
+            <num>(c)</num>
+            <content eId="para_23_list_point_c_content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the measures imposed by subparagraphs (a) and (b) above shall not apply to supplies of non‑lethal military equipment intended solely for humanitarian or protective use, and related technical assistance or training, as approved in advance by the Committee established by paragraph 14 below;</p>
+        </content>
+          </point>
+          <point eId="para_23_list_point_d">
+            <num>(d)</num>
+            <content eId="para_23_list_point_d_content">
+          <p xml:space="preserve">	<span class="italic">Affirms</span> that the measures imposed by subparagraph (a) above do not apply to protective clothing, including flak jackets and military helmets, temporarily exported to Liberia by United Nations personnel, representatives of the media and humanitarian and development workers and associated personnel, for their personal use only;</p>
+        </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_45" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve">	<span class="italic">Decides further</span> that all States shall take the necessary measures to prevent the direct or indirect import of all rough diamonds from Liberia, whether or not such diamonds originated in Liberia;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>7.</num>
+        <list eId="para_53_list">
+          <point eId="para_53_list_point_a">
+            <num>(a)</num>
+            <content eId="para_53_list_point_a_content">
+          <p xml:space="preserve"> <span class="italic">Decides also</span> that all States shall take the necessary measures to prevent the entry into or transit through their territories of senior members of the Government of Liberia and its armed forces and their spouses and any other individuals providing financial and military support to armed rebel groups in countries neighbouring Liberia, in particular the RUF in Sierra Leone, as designated by the Committee established by paragraph 14 below, provided that nothing in this paragraph shall oblige a State to refuse entry into its territory to its own nationals, and provided that nothing in this paragraph shall impede the transit of representatives of the Government of Liberia to United Nations Headquarters to conduct United Nations business or the participation of the Government of Liberia in the official meetings of the Mano River Union, ECOWAS and the Organization of African Unity;</p>
+        </content>
+          </point>
+          <point eId="para_53_list_point_b">
+            <num>(b)</num>
+            <content eId="para_53_list_point_b_content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the measures imposed by subparagraph (a) above shall not apply where the Committee established by paragraph 14 below determines that such travel is justified on the grounds of humanitarian need, including religious obligation, or where the Committee concludes that exemption would otherwise promote Liberian compliance with the demands of the Council, or assist in the peaceful resolution of the conflict in the subregion;</p>
+        </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_72" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_72__content">
+          <p xml:space="preserve">	<span class="italic">Further decides</span> that the measures imposed by paragraphs 6 and 7 above shall come into force at 00.01 Eastern Daylight Time two months after the date of adoption of this resolution, unless the Security Council determines before that date that Liberia has complied with the demands in paragraph 2 above, taking into account the report of the Secretary-General referred to in paragraph 12 below, inputs from ECOWAS, relevant information provided by the Committee established by paragraph 14 below and the Committee established pursuant to resolution 1132 (1997) and any other relevant information;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that the measures imposed by paragraph 5 are established for 14 months and that, at the end of the period, the Council will decide whether the Government of Liberia has complied with the demands in paragraph 2 above, and, accordingly, whether to extend these measures for a further period with the same conditions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_95" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_95__content">
+          <p xml:space="preserve">	<span class="italic">Decides further</span> that the measures imposed by paragraphs 6 and 7 above are established for a period of 12 months, and that at the end of this period the Council will decide whether the Government of Liberia has complied with the demands in paragraph 2 above, and, accordingly, whether to extend these measures for a further period with the same conditions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_108" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_108__content">
+          <p xml:space="preserve">	<span class="italic">Decides also</span> that the measures imposed by paragraphs 5 to 7 above shall be terminated immediately if the Council, taking into account, inter alia, the reports of the Panel of Experts referred to in paragraph 19 below and of the Secretary-General referred to in paragraph 12 below, inputs from ECOWAS, any relevant information provided by the Committee established by paragraph 14 below and the Committee established pursuant to resolution 1132 (1997) and any other relevant information, determines that the Government of Liberia has complied with the demands in paragraph 2 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_122" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_122__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to submit a first report to the Council by 30 April 2001 and thereafter at 6-month intervals from that date, drawing on information from all relevant sources, including the United Nations Office in Liberia, UNAMSIL and ECOWAS, on whether Liberia has complied with the demands in paragraph 2 above and on any progress made towards the objectives set out in paragraph 3 above, and <span class="italic">calls on</span> the Government of Liberia to support United Nations efforts to verify all information on compliance which is brought to the United Nations notice;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_137" class="SingleTxt">
+        <num>13.</num>
+        <list eId="para_137_list">
+          <intro eId="para_137_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to provide to the Council six months from the date of the adoption of this resolution:</p>
+          </intro>
+          <point eId="para_137_list_point_a">
+            <num>(a)</num>
+            <content eId="para_137_list_point_a_content">
+              <p xml:space="preserve">	a preliminary assessment of the potential economic, humanitarian and social impact on the Liberian population of possible follow-up action by the Council in the areas of investigation indicated in paragraph 19 (c) below;</p>
+            </content>
+          </point>
+          <point eId="para_137_list_point_b">
+            <num>(b)</num>
+            <content eId="para_137_list_point_b_content">
+              <p xml:space="preserve">	a report on the steps taken by the Government of Liberia to improve its capacity in air traffic control and surveillance in accordance with the recommendations of the Panel of Experts established pursuant to resolution 1306 (2000) and any advice which may be provided by ICAO;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_153" class="SingleTxt">
+        <num>14.</num>
+        <list eId="para_153_list">
+          <intro eId="para_153_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides</span> to establish, in accordance with rule 28 of its provisional rules of procedure, a Committee of the Security Council, consisting of all the members of the Council, to undertake the following tasks and to report on its work to the Council with its observations and recommendations:</p>
+          </intro>
+          <point eId="para_153_list_point_a">
+            <num>(a)</num>
+            <content eId="para_153_list_point_a_content">
+              <p xml:space="preserve">	to seek from all States information regarding the actions taken by them to implement effectively the measures imposed by paragraphs 5 to 7 above, and thereafter to request from them whatever further information it may consider necessary;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_b">
+            <num>(b)</num>
+            <content eId="para_153_list_point_b_content">
+              <p xml:space="preserve">	to consider, and to take appropriate action on, information brought to its attention by States concerning alleged violations of the measures imposed by paragraphs 5 to 7 above, identifying where possible persons or entities, including vessels or aircraft, reported to be engaged in such violations, and to make periodic reports to the Council;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_c">
+            <num>(c)</num>
+            <content eId="para_153_list_point_c_content">
+              <p xml:space="preserve">	to promulgate expeditiously such guidelines as may be necessary to facilitate the implementation of the measures imposed by paragraphs 5 to 7 above;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_d">
+            <num>(d)</num>
+            <content eId="para_153_list_point_d_content">
+              <p xml:space="preserve">	to give consideration to and decide upon requests for the exemptions set out in paragraphs 5 (c) and 7 (b) above;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_e">
+            <num>(e)</num>
+            <content eId="para_153_list_point_e_content">
+              <p xml:space="preserve">	to designate the individuals subject to the measures imposed by paragraph 7 above, and to update this list regularly;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_f">
+            <num>(f)</num>
+            <content eId="para_153_list_point_f_content">
+              <p xml:space="preserve">	to make information it considers relevant, including the list referred to in subparagraph (e) above, publicly available through appropriate media, including through the improved use of information technology;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_g">
+            <num>(g)</num>
+            <content eId="para_153_list_point_g_content">
+              <p xml:space="preserve">	to make recommendations to the Council on ways of increasing the effectiveness of the measures imposed by paragraphs 5 to 7 above and on ways to limit unintended effects, if any, of these measures on the Liberian population;</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_h">
+            <num>(h)</num>
+            <content eId="para_153_list_point_h_content">
+              <p xml:space="preserve">	to cooperate with other relevant Security Council Sanctions Committees, in particular that established pursuant to resolution 1132 (1997) and that established pursuant to resolution 864 (1993);</p>
+            </content>
+          </point>
+          <point eId="para_153_list_point_i">
+            <num>(i)</num>
+            <content eId="para_153_list_point_i_content">
+              <p xml:space="preserve">	to establish a list of RUF members present in Liberia as referred to in paragraph 2 (a) above;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_170" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_170__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the Government of Liberia to establish an effective Certificate of Origin regime for trade in rough diamonds that is transparent and internationally verifiable and has been approved by the Committee established by paragraph 14 above, to come into operation after the measures imposed by paragraphs 5 to 7 above have been terminated in accordance with this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_188" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_188__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all diamond exporting countries in West Africa to establish Certificate of Origin regimes for the trade in rough diamonds similar to that adopted by the Government of Sierra Leone, as recommended by the Panel of Experts established pursuant to resolution 1306 (2000), and <span class="italic">calls upon</span> States, relevant international organizations and other bodies in a position to do so to offer assistance to those Governments to that end;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_207" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_207__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the international community to provide the necessary assistance to reinforce the fight against the proliferation and illicit trafficking of light weapons in West Africa, in particular the implementation of the ECOWAS Moratorium on the Importation, Exportation and Manufacture of Small Arms and Light Weapons in West Africa, and to improve air traffic control in the West African subregion;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_227" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_227__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> all States to report to the Committee established by paragraph 14 above, within 30 days of the promulgation of the list referred to in paragraph 14 (e) above, on the actions they have taken to implement the measures imposed by paragraphs 5 to 7 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_248" class="SingleTxt">
+        <num>19.</num>
+        <list eId="para_248_list">
+          <intro eId="para_248_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to establish, within one month from the date of adoption of this resolution, in consultation with the Committee established by paragraph 14 above, a Panel of Experts for a period of six months consisting of no more than five members, drawing, as much as possible and as appropriate, on the expertise of the members of the Panel of Experts established pursuant to resolution 1306 (2000), with the following mandate:</p>
+          </intro>
+          <point eId="para_248_list_point_a">
+            <num>(a)</num>
+            <content eId="para_248_list_point_a_content">
+              <p xml:space="preserve">	to investigate any violations of the measures imposed by paragraphs 5 to 7 above;</p>
+            </content>
+          </point>
+          <point eId="para_248_list_point_b">
+            <num>(b)</num>
+            <content eId="para_248_list_point_b_content">
+              <p xml:space="preserve">	to collect any information on the compliance by the Government of Liberia with the demands in paragraph 2 above, including any violations by the Government of Liberia of the measures imposed by paragraph 2 of resolution 1171 (1998) and paragraph 1 of resolution 1306 (2000);</p>
+            </content>
+          </point>
+          <point eId="para_248_list_point_c">
+            <num>(c)</num>
+            <content eId="para_248_list_point_c_content">
+              <p xml:space="preserve">	to further investigate possible links between the exploitation of natural resources and other forms of economic activity in Liberia, and the fuelling of conflict in Sierra Leone and neighbouring countries, in particular those areas highlighted by the report of the Panel of Experts established pursuant to resolution 1306 (2000);</p>
+            </content>
+          </point>
+          <point eId="para_248_list_point_d">
+            <num>(d)</num>
+            <content eId="para_248_list_point_d_content">
+              <p xml:space="preserve">	to collect any information linked to the illegal activities of the individuals referred to in paragraph 21 below and to any other alleged violations of this resolution;</p>
+            </content>
+          </point>
+          <point eId="para_248_list_point_e">
+            <num>(e)</num>
+            <content eId="para_248_list_point_e_content">
+              <p xml:space="preserve">	to report to the Council through the Committee established by paragraph 14 above no later than six months from the date of adoption of this resolution with observations and recommendations in the areas set out in subparagraphs (a) to (d) above;</p>
+            </content>
+          </point>
+          <point eId="para_248_list_point_f">
+            <num>(f)</num>
+            <content eId="para_248_list_point_f_content">
+              <p xml:space="preserve">	to keep the Committee established by paragraph 14 above updated on their activities as appropriate;</p>
+            </content>
+          </point>
+          <wrapUp>
+            <p xml:space="preserve">and <span class="italic">further requests</span> the Secretary-General to provide the necessary resources;</p>  
+          </wrapUp>
+        </list>
+      </paragraph>
+      <paragraph eId="para_250" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_250__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Panel of Experts referred to in paragraph 19 above, as far as possible, to bring any relevant information collected in the course of its investigations conducted in accordance with its mandate to the attention of the States concerned for prompt and thorough investigation and, where appropriate, corrective action, and to allow them the right of reply;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_251" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_251__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all States to take appropriate measures to ensure that individuals and companies in their jurisdiction, in particular those referred to in the report of the Panel of Experts established pursuant to resolution 1306 (2000), act in conformity with United Nations embargoes, in particular those established by resolutions 1171 (1998), 1306 (2000) and this resolution, and, as appropriate, take the necessary judicial and administrative action to end any illegal activities by those individuals and companies;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_253" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_253__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> all States and all relevant international and regional organizations to act strictly in accordance with the provisions of this resolution notwithstanding the existence of any rights or obligations entered into or any licence or permit granted prior to the date of adoption of this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_256" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_256__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to conduct reviews of the measures imposed by paragraphs 5 to 7 above not more than sixty days after the adoption of this resolution, and every six months thereafter;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_260" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_260__content">
+          <p xml:space="preserve">	<span class="italic">Urges</span> all States, relevant United Nations bodies and, as appropriate, other organizations and interested parties to cooperate fully with the Committee established by paragraph 14 above and the Panel of Experts referred to in paragraph 19 above, including by supplying information on possible violations of the measures imposed by paragraphs 5 to 7 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_265" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_265__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+      </section>
+    </mainBody>
+  </statement>
+</akomaNtoso>

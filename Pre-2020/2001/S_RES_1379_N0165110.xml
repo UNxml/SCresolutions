@@ -1,0 +1,512 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-20/1379-2001/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-20/1379-2001/"></FRBRuri>
+          <FRBRdate date="2001-11-20" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-20/1379-2001/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-20/1379-2001/eng@/"></FRBRuri>
+          <FRBRdate date="2001-11-20" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-20/1379-2001/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-20/1379-2001/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-08-07" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Special Representative of the Secretary-General for Children and Armed Conflict" showAs="UN. Special Representative of the Secretary-General for Children and Armed Conflict" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNICEF" showAs="UNICEF" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN High Commissioner for Refugees" showAs="UN High Commissioner for Refugees" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office of the High Commissioner for Human Rights" showAs="UN. Office of the High Commissioner for Human Rights" dictionary="DHLAUTH"></keyword>
+        <keyword value="Geneva Conventions (1949)" showAs="Geneva Conventions (1949)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Convention on the Rights of the Child (1989). Optional Protocol on the Involvement of Children in Armed Conflict" showAs="Convention on the Rights of the Child (1989). Optional Protocol on the Involvement of Children in Armed Conflict" dictionary="DHLAUTH"></keyword>
+        <keyword value="Convention on the Rights of the Child (1989)" showAs="Convention on the Rights of the Child (1989)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Worst Forms of Child Labour Convention (1999)" showAs="Worst Forms of Child Labour Convention (1999)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Convention on the Prohibition of the Use, Stockpiling, Production and Transfer of Anti-Personnel Mines and on Their Destruction (1997)" showAs="Convention on the Prohibition of the Use, Stockpiling, Production and Transfer of Anti-Personnel Mines and on Their Destruction (1997)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Convention on Prohibitions or Restrictions on the Use of Certain Conventional Weapons Which May Be Deemed to Be Excessively Injurious or to Have Indiscriminate Effects (1980)" showAs="Convention on Prohibitions or Restrictions on the Use of Certain Conventional Weapons Which May Be Deemed to Be Excessively Injurious or to Have Indiscriminate Effects (1980)" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Decade for a Culture of Non-Violence and Peace for the Children of the World (2001-2010)" showAs="International Decade for a Culture of Non-Violence and Peace for the Children of the World (2001-2010)" dictionary="DHLAUTH"></keyword>
+        <keyword value="CHILDREN IN ARMED CONFLICTS" showAs="CHILDREN IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RIGHTS OF THE CHILD" showAs="RIGHTS OF THE CHILD" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REFUGEE ASSISTANCE" showAs="REFUGEE ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="YOUTH POLICY" showAs="YOUTH POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GIRLS" showAs="GIRLS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BASIC SERVICES" showAs="BASIC SERVICES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF MOVEMENT" showAs="FREEDOM OF MOVEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SANCTIONS" showAs="SANCTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LAWS AND REGULATIONS" showAs="LAWS AND REGULATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHILD SOLDIERS" showAs="CHILD SOLDIERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WAR CRIMES" showAs="WAR CRIMES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SMALL ARMS" showAs="SMALL ARMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS VIOLATIONS" showAs="HUMAN RIGHTS VIOLATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HIV/AIDS" showAs="HIV/AIDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEBUILDING" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REHABILITATION" showAs="REHABILITATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FINANCIAL INSTITUTIONS" showAs="FINANCIAL INSTITUTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REGIONAL ORGANIZATIONS" showAs="REGIONAL ORGANIZATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ABDUCTION" showAs="ABDUCTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SALE OF CHILDREN" showAs="SALE OF CHILDREN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPORT PREPARATION" showAs="REPORT PREPARATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[187]" showAs="CHILDREN IN ARMED CONFLICTS" dictionary="S/56"></keyword>
+        <keyword value="X" dictionary="S/" showAs="Children and armed conflict." refersTo="agenda"/>
+        <keyword refersTo="title" value="Security Council resolution 1379 (2001) [on the protection of children in armed conflicts]" showAs="Security Council resolution 1379 (2001) [on the protection of children in armed conflicts]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2001-11-20" outcome="draftResolution" as="S/2001/1093" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2001-11-20" outcome="adopted" as="S/PV.4423" by="Adopted unanimously, 4423rd meeting" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">01-65110 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1379 (2001)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2001-11-20" class="rightSmall" refersTo="#dateOfIssuance">20 November 2001</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1379 (2001)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="4423rd">4423rd meeting</inline>, on<docDate date="2001-11-20" refersTo="#adoptionDate">20 November 2001</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its resolution 1314 (2000) of 11 August 2000,</p>
+      </container>
+      <container name="Further recalling" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Further recalling</span> its resolutions 1261 (1999) of 28 August 1999, 1265 (1999) of 17 September 1999, 1296 (2000) of 19 April 2000, 1306 (2000) of 5 July 2000, 1308 (2000) of 17 July 2000 and 1325 (2000) of 31 October 2000 and the statements of its President of 29 June 1998 (S/PRST/1998/18), 12 February 1999 (S/PRST/1999/6), 8 July 1999 (S/PRST/1999/21), 30 November 1999 (S/PRST/1999/34), 20 July 2000 (S/PRST/2000/25) and of 31 August 2001 (S/PRST/2001/21),</p>
+      </container>
+      <container name="Recognizing" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the harmful and widespread impact of armed conflict on children and the long-term consequences this has for durable peace, security and development,</p>
+      </container>
+      <container name="Bearing in mind" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Bearing in mind</span> the purposes and principles of the Charter of the United Nations and <span class="italic">recalling</span> the primary responsibility of the Security Council for the maintenance of international peace and security and, in this connection, its commitment to address the impact of armed conflict on children,</p>
+      </container>
+      <container name="Underlining" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the need for all parties concerned to comply with the provisions of the Charter of the United Nations and with international law, in particular those regarding children,</p>
+      </container>
+      <container name="Having considered" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Having considered</span> the report of the Secretary-General of 7 September 2001 on the implementation of resolution 1314 (2000) on children and armed conflict,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span>, accordingly, its determination to give the fullest attention to the question of the protection of children in armed conflict when considering the matters of which it is seized;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its readiness explicitly to include provisions for the protection of children, when considering the mandates of peacekeeping operations, and reaffirms, in this regard, its readiness to continue to include, where appropriate, child protection advisers in peacekeeping operations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">Supports</span> the ongoing work of the Secretary-General, the Special Representative of the Secretary-General for Children and Armed Conflict, the United Nations Children’s Fund, the Office of the United Nations High Commissioner for Refugees, the Office of the United Nations High Commissioner for Human Rights, other agencies of the United Nations system and other international organizations dealing with children affected by armed conflict;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its intention, where appropriate, to call upon the parties to a conflict to make special arrangements to meet the protection and assistance requirements of women, children and other vulnerable groups, including through the promotion of “days of immunization” and other opportunities for the safe and unhindered delivery of basic necessary services;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Underlines</span> the importance of the full, safe and unhindered access of humanitarian personnel and goods and the delivery of humanitarian assistance to all children affected by armed conflict;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its intention to consider taking appropriate steps, in accordance with the Charter of the United Nations, to address the linkages between armed conflict and terrorism, the illicit trade in precious minerals, the illicit trafficking in small arms and light weapons, and other criminal activities, which can prolong armed conflict or intensify its impact on civilian populations, including children;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve">	<span class="italic">Undertakes</span> to consider, as appropriate when imposing measures under Article 41 of the Charter of the United Nations, the economic and social impact of sanctions on children, with a view to providing appropriate humanitarian exemptions that take account of their specific needs and their vulnerability and to minimize such impact;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>8.</num>
+        <list eId="para_36_list">
+          <intro eId="para_36_list_intro">
+            <p xml:space="preserve">	<span class="italic">Calls upon</span> all parties to armed conflict to:</p>
+          </intro>
+          <point eId="para_36_list_point_a">
+            <num>(a)</num>
+            <content eId="para_36_list_point_a_content">
+              <p xml:space="preserve">	Respect fully the relevant provisions of applicable international law relating to the rights and protection of children in armed conflict, in particular the Geneva Conventions of 1949 and the obligations applicable to them under the Additional Protocols thereto of 1977, the United Nations Convention on the Rights of the Child of 1989, the Optional Protocol thereto of 25 May 2000, and the amended Protocol II to the Convention on Prohibition or Restriction on the Use of Certain Conventional Weapons Which May Be Deemed to Be Excessively Injurious or to Have Indiscriminate Effects, the International Labour Organization Convention No. 182 on the Elimination of the Worst Forms of Child Labour and the Ottawa Convention on the Prohibition of the Use, Stockpiling, Production and Transfer of Anti-Personnel Mines and on Their Destruction, and notes the inclusion as a war crime in the Rome Statute of the conscription or enlistment of children under the age of fifteen years into the national armed forces or using them to participate actively in hostilities;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_b">
+            <num>(b)</num>
+            <content eId="para_36_list_point_b_content">
+              <p xml:space="preserve">	Provide protection and assistance to refugees and internally displaced persons, the majority of whom are women and children, in accordance with applicable international norms and standards;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_c">
+            <num>(c)</num>
+            <content eId="para_36_list_point_c_content">
+              <p xml:space="preserve">	Take special measures to promote and protect the rights and meet the special needs of girls affected by armed conflict, and to put an end to all forms of violence and exploitation, including sexual violence, particularly rape;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_d">
+            <num>(d)</num>
+            <content eId="para_36_list_point_d_content">
+              <p xml:space="preserve">	Abide by the concrete commitments they have made to the Special Representative of the Secretary-General for Children and Armed Conflict, as well as relevant United Nations bodies, to ensure the protection of children in situations of armed conflict;</p>
+            </content>
+          </point>
+          <point eId="para_36_list_point_e">
+            <num>(e)</num>
+            <content eId="para_36_list_point_e_content">
+              <p xml:space="preserve">	Provide protection of children in peace agreements, including, where appropriate, provisions relating to the disarmament, demobilization, reintegration and rehabilitation of child soldiers and the reunification of families, and to consider, when possible, the views of children in those processes;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_44" class="SingleTxt">
+        <num>9.</num>
+        <list eId="para_44_list">
+          <intro eId="para_44_list_intro">
+            <p xml:space="preserve">	<span class="italic">Urges</span> Member States to:</p>
+          </intro>
+          <point eId="para_44_list_point_a">
+            <num>(a)</num>
+            <content eId="para_44_list_point_a_content">
+              <p xml:space="preserve">	Put an end to impunity, prosecute those responsible for genocide, crimes against humanity, war crimes, and other egregious crimes perpetrated against children and exclude, where feasible, these crimes from amnesty provisions and relevant legislation, and ensure that post-conflict truth-and-reconciliation processes address serious abuses involving children;</p>
+            </content>
+          </point>
+          <point eId="para_44_list_point_b">
+            <num>(b)</num>
+            <content eId="para_44_list_point_b_content">
+              <p xml:space="preserve">	Consider appropriate legal, political, diplomatic, financial and material measures, in accordance with the Charter of the United Nations, in order to ensure that parties to armed conflict respect international norms for the protection of children;</p>
+            </content>
+          </point>
+          <point eId="para_44_list_point_c">
+            <num>(c)</num>
+            <content eId="para_44_list_point_c_content">
+              <p xml:space="preserve">	Consider, where appropriate, measures that may be taken to discourage corporate actors, within their jurisdiction, from maintaining commercial relations with parties to armed conflicts that are on the Security Council’s agenda, when those parties are violating applicable international law on the protection of children in armed conflict;</p>
+            </content>
+          </point>
+          <point eId="para_44_list_point_d">
+            <num>(d)</num>
+            <content eId="para_44_list_point_d_content">
+              <p xml:space="preserve">	Consider measures against corporate actors, individuals and entities under their jurisdiction that engage in illicit trade in natural resources and small arms, in violation of relevant Security Council resolutions and the Charter of the United Nations;</p>
+            </content>
+          </point>
+          <point eId="para_44_list_point_e">
+            <num>(e)</num>
+            <content eId="para_44_list_point_e_content">
+              <p xml:space="preserve">	Consider ratifying the Optional Protocol to the Convention on the Rights of the Child on Involvement of Children in Armed Conflict and the International Labour Organization Convention No. 182 on the Elimination of the Worst Forms of Child Labour;</p>
+            </content>
+          </point>
+          <point eId="para_44_list_point_f">
+            <num>(f)</num>
+            <content eId="para_44_list_point_f_content">
+              <p xml:space="preserve">	Consider further steps for the protection of children, especially in the context of the International Decade for a Culture of Peace and Non-violence for the Children of the World (2001-2010);</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_53" class="SingleTxt">
+        <num>10.</num>
+        <list eId="para_53_list">
+          <intro eId="para_53_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to:</p>
+          </intro>
+          <point eId="para_53_list_point_a">
+            <num>(a)</num>
+            <content eId="para_53_list_point_a_content">
+              <p xml:space="preserve">	Take the protection of children into account in peacekeeping plans submitted to the Security Council, inter alia, by including, on a case by case basis, child protection staff in peacekeeping and, as appropriate, peace-building operations and strengthening expertise and capacity in the area of human rights, where necessary;</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_b">
+            <num>(b)</num>
+            <content eId="para_53_list_point_b_content">
+              <p xml:space="preserve">	Ensure that all peacekeeping personnel receive and follow appropriate guidance on HIV/AIDS and training in international human rights, humanitarian and refugee law relevant to children;</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_c">
+            <num>(c)</num>
+            <content eId="para_53_list_point_c_content">
+              <p xml:space="preserve">	Continue and intensify, on a case by case basis, monitoring and reporting activities by peacekeeping and peace-building support operations on the situation of children in armed conflict;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_63" class="SingleTxt">
+        <num>11.</num>
+        <list eId="para_63_list">
+          <intro eId="para_63_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests</span> the agencies, funds and programmes of the United Nations to:</p>
+          </intro>
+          <point eId="para_63_list_point_a">
+            <num>(a)</num>
+            <content eId="para_63_list_point_a_content">
+              <p xml:space="preserve">	Coordinate their support and assistance to parties to armed conflict in fulfilling their obligations and commitments to children;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_b">
+            <num>(b)</num>
+            <content eId="para_63_list_point_b_content">
+              <p xml:space="preserve">	Take account of ways of reducing child recruitment that is contrary to accepted international standards when formulating development assistance programmes;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_c">
+            <num>(c)</num>
+            <content eId="para_63_list_point_c_content">
+              <p xml:space="preserve">	Devote particular attention and adequate resources to the rehabilitation of children affected by armed conflict, particularly their counselling, education and appropriate vocational opportunities, as a preventive measure and as a means of reintegrating them into society;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_d">
+            <num>(d)</num>
+            <content eId="para_63_list_point_d_content">
+              <p xml:space="preserve">	Ensure that the special needs and particular vulnerabilities of girls affected by armed conflict, including those heading households, orphaned, sexually exploited and used as combatants, are duly taken into account in the design of development assistance programmes, and that adequate resources are allocated to such programmes;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_e">
+            <num>(e)</num>
+            <content eId="para_63_list_point_e_content">
+              <p xml:space="preserve">	Integrate HIV/AIDS awareness, prevention, care and support into emergency, humanitarian, and post-conflict programmes;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_f">
+            <num>(f)</num>
+            <content eId="para_63_list_point_f_content">
+              <p xml:space="preserve">	Support the development of local capacity to address post-conflict child rehabilitation and reintegration concerns;</p>
+            </content>
+          </point>
+          <point eId="para_63_list_point_g">
+            <num>(g)</num>
+            <content eId="para_63_list_point_g_content">
+              <p xml:space="preserve">	Promote a culture of peace, including through support for peace education programmes and other non‑violent approaches to conflict prevention and resolution, in peace-building activities;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_74" class="SingleTxt">
+        <num>12.</num>
+        <list eId="para_74_list">
+          <intro eId="para_74_list_intro">
+            <p xml:space="preserve">	<span class="italic">Encourages</span> the international financial institutions and regional financial and development institutions to:</p>
+          </intro>
+          <point eId="para_74_list_point_a">
+            <num>(a)</num>
+            <content eId="para_74_list_point_a_content">
+              <p xml:space="preserve">	Devote part of their assistance to rehabilitation and reintegration programmes conducted jointly by agencies, funds, programmes and State parties to conflicts that have taken effective measures to comply with their obligations to protect children in situations of armed conflict, including the demobilization and reintegration of child soldiers, in particular those who have been used in armed conflicts contrary to international law;</p>
+            </content>
+          </point>
+          <point eId="para_74_list_point_b">
+            <num>(b)</num>
+            <content eId="para_74_list_point_b_content">
+              <p xml:space="preserve">	Contribute resources for quick-impact projects in conflict zones where peacekeeping operations are deployed or are in the process of deployment;</p>
+            </content>
+          </point>
+          <point eId="para_74_list_point_c">
+            <num>(c)</num>
+            <content eId="para_74_list_point_c_content">
+              <p xml:space="preserve">	Support the efforts of the regional organizations engaged in activities for the benefit of children affected by armed conflict, by providing them with financial and technical assistance, as appropriate;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <num>13.</num>
+        <list eId="para_86_list">
+          <intro eId="para_86_list_intro">
+            <p xml:space="preserve">	<span class="italic">Urges</span> regional and subregional organizations and arrangements to:</p>
+          </intro>
+          <point eId="para_86_list_point_a">
+            <num>(a)</num>
+            <content eId="para_86_list_point_a_content">
+              <p xml:space="preserve">	Consider establishing, within their secretariats, child protection mechanisms for the development and implementation of policies, activities and advocacy for the benefit of children affected by armed conflict, and consider the views of children in the design and implementation of such policies and programmes where possible;</p>
+            </content>
+          </point>
+          <point eId="para_86_list_point_b">
+            <num>(b)</num>
+            <content eId="para_86_list_point_b_content">
+              <p xml:space="preserve">	Consider including child protection staff in their peacekeeping and field operations and provide training to members of such operations on the rights and protection of children;</p>
+            </content>
+          </point>
+          <point eId="para_86_list_point_c">
+            <num>(c)</num>
+            <content eId="para_86_list_point_c_content">
+              <p xml:space="preserve">	Take steps leading to the elimination of cross-border activities deleterious to children in times of armed conflict, such as the cross-border recruitment and abduction of children, the sale of or traffic in children, attacks on camps and settlements of refugees and internally displaced persons, the illicit trade in precious minerals, the illicit trafficking in small arms and light weapons, and other criminal activities;</p>
+            </content>
+          </point>
+          <point eId="para_86_list_point_d">
+            <num>(d)</num>
+            <content eId="para_86_list_point_d_content">
+              <p xml:space="preserve">	Develop and expand regional initiatives to prevent the use of child soldiers in violation of international law and to take appropriate measures to ensure the compliance by parties to armed conflict with obligations to protect children in armed conflict situations;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to continue to include in his written reports to the Council on conflict situations his observations concerning the protection of children and recommendations in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_113" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_113__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to submit a report to the Council by 31 October 2002 on the implementation of this resolution and of resolutions 1261 (1999) and 1314 (2000);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_128" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_128__content">
+          <p xml:space="preserve">	<span class="italic">Requests</span> the Secretary-General to attach to his report a list of parties to armed conflict that recruit or use children in violation of the international obligations applicable to them, in situations that are on the Security Council’s agenda or that may be brought to the attention of the Security Council by the Secretary-General, in accordance with Article 99 of the Charter of the United Nations, which in his opinion may threaten the maintenance of international peace and security;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_144" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_144__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of this matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

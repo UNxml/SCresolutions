@@ -1,0 +1,1330 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/"></FRBRuri>
+          <FRBRdate date="2001-11-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/eng@/"></FRBRuri>
+          <FRBRdate date="2001-11-29" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-08-07" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="7" href="http://metadata.un.org/sdg/7" showAs="sdg_7" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_energy" href="http://metadata.un.org/thesaurus/1006320" showAs="sustainable_energy" dictionary="UNBIS"></keyword>
+        <keyword value="66_energy" href="http://eurovoc.europa.eu/100159" showAs="66_energy" dictionary="EuroVoc"></keyword>
+        <keyword value="energy_market" href="http://eurovoc.europa.eu/4886" showAs="energy_market" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Oil-for-Food Programme" showAs="UN. Oil-for-Food Programme" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Office of the Iraq Programme" showAs="UN. Office of the Iraq Programme" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Monitoring, Verification and Inspection Commission" showAs="UN Monitoring, Verification and Inspection Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="SANCTIONS" showAs="SANCTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="IRAQ" showAs="IRAQ" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EQUIPMENT AND SUPPLIES" showAs="EQUIPMENT AND SUPPLIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="LICENCES" showAs="LICENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONSULTATIONS" showAs="CONSULTATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COMMODITIES" showAs="COMMODITIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FUNDS" showAs="FUNDS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFF SECURITY" showAs="STAFF SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="IRAQ-KUWAIT SITUATION" showAs="IRAQ-KUWAIT SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[120]" showAs="IRAQ-KUWAIT SITUATION" dictionary="S/56"></keyword>
+        <keyword value="X" dictionary="S/" showAs="The situation between Iraq and Kuwait." refersTo="agenda"/>
+        <keyword refersTo="title" value="Security Council resolution 1382 (2001) [on improvement of the humanitarian programme for Iraq]" showAs="Security Council resolution 1382 (2001) [on improvement of the humanitarian programme for Iraq]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2001-11-29" outcome="draftResolution" as="S/2001/1123" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2001-11-29" outcome="adopted" as="S/PV.4431" by="Adopted unanimously, 4431st meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1382 (2001)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2001-11-29" class="rightSmall" refersTo="#dateOfIssuance">29 November 2001</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1382 (2001)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="4431st">4431st meeting</inline>, on<docDate date="2001-11-29" refersTo="#adoptionDate">29 November 2001</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling </span>its previous relevant resolutions, including its resolutions 986 (1995) of 14 April 1995, 1284 (1999) of 17 December 1999, 1352 (2001) of 1 June 2001 and 1360 (2001) of 3 July 2001, as they relate to the improvement of the humanitarian programme for Iraq,</p>
+      </container>
+      <container name="Convinced" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Convinced </span>of the need as a temporary measure to continue to provide for the civilian needs of the Iraqi people until the fulfilment by the Government of Iraq of the relevant resolutions, including notably resolutions 687 (1991) on 3 April 1991 and 1284 (1999), allows the Council to take further action with regard to the prohibitions referred to in resolution 661 (1990) of 6 August 1990 in accordance with the provisions of these resolutions,</p>
+      </container>
+      <container name="Determined" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Determined </span>to improve the humanitarian situation in Iraq,</p>
+      </container>
+      <container name="Reaffirming" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reaffirming </span>the commitment of all Member States to the sovereignty and territorial integrity of Iraq,</p>
+      </container>
+      <container name="Acting" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Acting </span>under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>that the provisions of resolution 986 (1995), except those contained in paragraphs 4, 11 and 12 and subject to paragraph 15 of resolution 1284 (1999), and the provisions of paragraphs 2, 3 and 5 to 13 of 1360 (2001) shall remain in force for a new period of 180 days beginning at 0001 hours, Eastern Standard Time, on 1 December 2001;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="italic">Notes </span>the proposed Goods Review List (as contained in Annex 1 to this resolution) and the procedures for its application (as contained in Annex 2 to this resolution) and decides that it will adopt the List and the procedures, subject to any refinements to them agreed by the Council in light of further consultations, for implementation beginning on 30 May 2002;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms </span>the obligation of all States, pursuant to resolution 661 (1990) and subsequent relevant resolutions, to prevent the sale or supply to Iraq of any commodities or products, including weapons or any other military equipment, and to prevent the making available to Iraq of any funds or any other financial or economic resources, except as authorized by existing resolutions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Stresses </span>the obligation of Iraq to cooperate with the implementation of this resolution and other applicable resolutions, including by respecting the security and safety of all persons directly involved in their implementation;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">Appeals </span>to all States to continue to cooperate in the timely submission of technically complete applications and the expeditious issuing of export licences, and to take all other appropriate measures within their competence in order to ensure that urgently needed humanitarian supplies reach the Iraqi population as rapidly as possible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms </span>its commitment to a comprehensive settlement on the basis of the relevant resolutions of the Security Council, including any clarification necessary for the implementation of resolution 1284 (1999);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>that, for the purposes of this resolution, references in resolution 1360 (2001) to the 150-day period established by that resolution shall be interpreted to refer to the 180-day period established pursuant to paragraph 1 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/"></FRBRuri>
+                <FRBRdate date="2001-11-29" name="adoption"></FRBRdate>
+                <FRBRauthor href="sc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/eng@/"></FRBRuri>
+                <FRBRdate date="2001-11-29" name="publication"></FRBRdate>
+                <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-11-29/1382-2001/eng@.xml"></FRBRuri>
+                <FRBRdate date="2023-08-07" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_36" class="HCh">
+              <heading>Annex 1</heading>
+            </paragraph>
+            <paragraph eId="para_37" class="SingleTxt">
+              <content eId="para_37__content">
+                <p xml:space="preserve">06/29/01</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38" class="HCh">
+              <heading>Proposed Goods Review List (GRL)</heading>
+            </paragraph>
+            <paragraph eId="para_39" class="SingleTxt">
+              <content eId="para_39__content">
+                <p xml:space="preserve">(Note: Arms and munitions are prohibited under UNSCR 687, para. 24 and thus are not included on the review list.)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40" class="SingleTxt">
+              <content eId="para_40__content">
+                <p xml:space="preserve">A.	Items subject to the provisions of UNSCR 1051 (1996).</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41" class="SingleTxt">
+              <content eId="para_41__content">
+                <p xml:space="preserve">B.	The List contained in document S/2001/1120, annex (to the extent, if any, the items on these lists are not covered by UNSCR 687, para. 24). The list includes the following general categories and includes clarifying notes and statements of understanding: (1) advanced materials; (2) materials processing; (3) electronics; (4) computers; (5) telecommunications and information security; (6) sensors and lasers; (7) navigation and avionics; (8) marine; and (9) propulsion.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42" class="SingleTxt">
+              <content eId="para_42__content">
+                <p xml:space="preserve">C.	The following individual items, as further described in the annex:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43" class="H4">
+              <subheading>Command, Control, Communication and Simulation</subheading>
+            </paragraph>
+            <paragraph eId="para_44" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_44__content">
+                <p xml:space="preserve">	Specific advanced telecommunications equipment.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_45__content">
+                <p xml:space="preserve">	Information security equipment.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46" class="H4">
+              <subheading>Sensors, Electronic Warfare, and Night Vision</subheading>
+            </paragraph>
+            <paragraph eId="para_47" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_47__content">
+                <p xml:space="preserve">	Specialized electronic instrumentation and test equipment.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_48__content">
+                <p xml:space="preserve">	Image intensifier night vision systems, tubes, and components.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49" class="H4">
+              <subheading>Aircraft and Related Items</subheading>
+            </paragraph>
+            <paragraph eId="para_50" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_50__content">
+                <p xml:space="preserve">	Specialized radar equipment.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_51__content">
+                <p xml:space="preserve">	Non-civil certified aircraft; all aero gas turbine engines; unmanned aerial vehicles; and parts and components.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_52__content">
+                <p xml:space="preserve">	Non-xray explosive detection equipment.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53" class="H4">
+              <subheading>Naval-related Items</subheading>
+            </paragraph>
+            <paragraph eId="para_54" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_54__content">
+                <p xml:space="preserve">	Air independent propulsion (AIP) engines and fuel cells specially designed for underwater vehicles, and specially designed components therefor.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_55__content">
+                <p xml:space="preserve">	Marine acoustic equipment.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56" class="H4">
+              <subheading>Explosives</subheading>
+            </paragraph>
+            <paragraph eId="para_57" class="SingleTxt">
+              <num>10.</num>
+              <content eId="para_57__content">
+                <p xml:space="preserve">	Charges and devices specially designed for civil projects, and containing small quantities of energetic materials.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58" class="H4">
+              <subheading>Missile-Related Items</subheading>
+            </paragraph>
+            <paragraph eId="para_59" class="SingleTxt">
+              <num>11.</num>
+              <content eId="para_59__content">
+                <p xml:space="preserve">	Specialized vibration test equipment.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60" class="H4">
+              <subheading>Conventional Weapons Manufacturing</subheading>
+            </paragraph>
+            <paragraph eId="para_61" class="SingleTxt">
+              <num>12.</num>
+              <content eId="para_61__content">
+                <p xml:space="preserve">	Specialized semiconductor manufacturing equipment.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62" class="H4">
+              <subheading>Heavy Military Transport</subheading>
+            </paragraph>
+            <paragraph eId="para_63" class="SingleTxt">
+              <num>13.</num>
+              <content eId="para_63__content">
+                <p xml:space="preserve">	Low-bed trailers/loaders with a carrying capacity greater than 30 metric tonnes and width equal to or greater than 3 meters.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64" class="H4">
+              <subheading>Biological Weapons Equipment</subheading>
+            </paragraph>
+            <paragraph eId="para_65" class="SingleTxt">
+              <num>14.</num>
+              <content eId="para_65__content">
+                <p xml:space="preserve">	Certain Biological Equipment.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_66" class="SingleTxt">
+              <content eId="para_66__content">
+                <p xml:space="preserve"> 06/29/01</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_67" class="HCh">
+              <heading>Annex to Proposed Goods Review List (GRL)</heading>
+            </paragraph>
+            <paragraph eId="para_68" class="H1">
+              <heading>Technical Parameters for Individual Items</heading>
+            </paragraph>
+            <paragraph eId="para_69" class="H23">
+              <subheading>#1.	Specific advanced telecommunication equipment</subheading>
+            </paragraph>
+            <paragraph eId="para_70" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_70__content">
+                <p xml:space="preserve">	Any type of telecommunications equipment, specially designed to operate outside the temperature range from 218 K (-55° C) to 397 K (124° C);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_71" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_71__content">
+                <p xml:space="preserve">	Phased array antennae, containing active elements and distributed components, and designed to permit electronic control of beam shaping and pointing, except for landing systems with instruments meeting International Civil Aviation Organization (ICAO) standards (microwave landing systems (MLS));</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_72" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_72__content">
+                <p xml:space="preserve">	Radio relay communications equipment designed for use at frequencies of 7.9 through 10.55 GHz or exceeding 40 GHz and assemblies and components therefor;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_73" class="SingleTxt">
+              <num>d.</num>
+              <content eId="para_73__content">
+                <p xml:space="preserve">	Optical fiber cables of more than 5 meters in length, and preforms or drawn fibers of glass or other materials optimized for manufacture and use as optical telecommunications transmission medium. Optical terminals and optical amplifiers;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74" class="SingleTxt">
+              <num>e.</num>
+              <content eId="para_74__content">
+                <p xml:space="preserve">	Software specially designed for the development or production of the components or equipment in a-d above;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75" class="SingleTxt">
+              <num>f.</num>
+              <content eId="para_75__content">
+                <p xml:space="preserve">	Technology for the development, design or production of the components, software, or equipment in a-d above.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76" class="H23">
+              <subheading>#2.	Information security equipment</subheading>
+            </paragraph>
+            <paragraph eId="para_77" class="SingleTxt">
+              <content eId="para_77__content">
+                <p xml:space="preserve">Information security equipment having any of the following characteristics:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_78" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_78__content">
+                <p xml:space="preserve">	a symmetric encryption algorithm;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_79__content">
+                <p xml:space="preserve">	an asymmetric encryption algorithm; </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_80__content">
+                <p xml:space="preserve">	a discrete-log encryption algorithm;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_81" class="SingleTxt">
+              <num>d.</num>
+              <content eId="para_81__content">
+                <p xml:space="preserve">	analog encryption or scrambling;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82" class="SingleTxt">
+              <num>e.</num>
+              <content eId="para_82__content">
+                <p xml:space="preserve">	TCSEC Bl, B2, B3, or Al or equivalent Multilevel Secure (MLS) computer systems;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83" class="SingleTxt">
+              <num>f.</num>
+              <content eId="para_83__content">
+                <p xml:space="preserve">	Software specially designed for the development or production of a-a above;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_84" class="SingleTxt">
+              <num>g.</num>
+              <content eId="para_84__content">
+                <p xml:space="preserve">	Technology for the development, design or production of a-a above.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_85" class="SingleTxt">
+              <content eId="para_85__content">
+                <p xml:space="preserve">
+                  <span class="bold">Note 1</span>: This entry does not require review of items that meet all of the following:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_86__content">
+                <p xml:space="preserve">	Generally available to the public, by being sold, without restriction, from stock at retail selling points by means of any of the following:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_87" class="SingleTxt">
+              <num>a.l.</num>
+              <content eId="para_87__content">
+                <p xml:space="preserve">	Over the counter transactions;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88" class="SingleTxt">
+              <num>a.2.</num>
+              <content eId="para_88__content">
+                <p xml:space="preserve">	Mail order transactions;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_89" class="SingleTxt">
+              <num>a.3.</num>
+              <content eId="para_89__content">
+                <p xml:space="preserve">	Electronic transactions;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_90" class="SingleTxt">
+              <num>a.4.</num>
+              <content eId="para_90__content">
+                <p xml:space="preserve">	Telephone call transactions;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_91__content">
+                <p xml:space="preserve">	The cryptographic functionality cannot easily be changed by the user;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_92__content">
+                <p xml:space="preserve">	Designed for installation by the user without further substantial support by the supplier; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93" class="SingleTxt">
+              <num>d.</num>
+              <content eId="para_93__content">
+                <p xml:space="preserve">	When necessary, details of the items are accessible and will be provided, upon request, to the appropriate authority in the exporter’s country in order to ascertain compliance with conditions described in paragraphs a-c above.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94" class="SingleTxt">
+              <content eId="para_94__content">
+                <p xml:space="preserve">
+                  <span class="bold">Note 2</span>: This item does not require review of:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_95__content">
+                <p xml:space="preserve">	Personalized smart cards where the cryptographic capability is restricted for use in equipment or systems excluded from control under entries b-f of this note. If a personalized smart card has multiple functions, the control status of each function is addressed individually;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_96__content">
+                <p xml:space="preserve">	Receiving equipment for radio broadcast, pay television, or similar restricted audience broadcast of the consumer type, without digital encryption except that exclusively used for sending the billing or program-related information back to the broadcast providers;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_97__content">
+                <p xml:space="preserve">	Equipment where the cryptographic capability is not user-accessible and which is specially designed and limited to allow any of the following:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98" class="SingleTxt">
+              <num>c.l.</num>
+              <content eId="para_98__content">
+                <p xml:space="preserve">	Execution of copy-protected software;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99" class="SingleTxt">
+              <num>c.2.</num>
+              <content eId="para_99__content">
+                <p xml:space="preserve">	Access to any of the following:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100" class="SingleTxt">
+              <num>c.2.a.</num>
+              <content eId="para_100__content">
+                <p xml:space="preserve">	Copy-protected contents stored on read-only media; or</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101" class="SingleTxt">
+              <num>c.2.b.</num>
+              <content eId="para_101__content">
+                <p xml:space="preserve">	Information stored in encrypted form on media (e.g. in connection with intellectual property rights) where the media is offered for sale in identical sets to the public; or</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102" class="SingleTxt">
+              <num>c.2.c.</num>
+              <content eId="para_102__content">
+                <p xml:space="preserve">	One-time copying of copyright-protected audio/video data.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103" class="SingleTxt">
+              <num>d.</num>
+              <content eId="para_103__content">
+                <p xml:space="preserve">	Cryptographic equipment specially designed and limited for banking use or money transactions;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104" class="SingleTxt">
+              <content eId="para_104__content">
+                <p xml:space="preserve">Technical Note: “Money transactions” includes the collection and settlement of fares or credit functions.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105" class="SingleTxt">
+              <num>e.</num>
+              <content eId="para_105__content">
+                <p xml:space="preserve">	Portable or mobile radiotelephones for civil use (e.g. for commercial civil cellular radiocommunications systems) that are not capable of end-to-end encryption;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106" class="SingleTxt">
+              <num>f.</num>
+              <content eId="para_106__content">
+                <p xml:space="preserve">	Cordless telephone equipment not capable of end-to-end encryption where the maximum effective range of unboosted cordless operation (i.e., a single, unrelayed hop between terminal and home basestation) is less than 400 meters according to the manufacturer’s specifications.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107" class="H23">
+              <subheading>#3.	Specialized electronic instrumentation and test equipment</subheading>
+            </paragraph>
+            <paragraph eId="para_108" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_108__content">
+                <p xml:space="preserve">	Signal analysers from 4 through 31 GHz;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_109__content">
+                <p xml:space="preserve">	Microwave test receivers from 4 through 40 GHz;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_110__content">
+                <p xml:space="preserve">	Network analysers from 4 through 40 GHz;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111" class="SingleTxt">
+              <num>d.</num>
+              <content eId="para_111__content">
+                <p xml:space="preserve">	Signal generators from 4 through 31 GHz;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112" class="SingleTxt">
+              <num>e.</num>
+              <content eId="para_112__content">
+                <p xml:space="preserve">	Travelling wave tubes, pulsed or continuous wave, as follows:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113" class="SingleTxt">
+              <num>e.1.</num>
+              <content eId="para_113__content">
+                <p xml:space="preserve">	Coupled cavity tubes, or derivatives thereof;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114" class="SingleTxt">
+              <num>e.2.</num>
+              <content eId="para_114__content">
+                <p xml:space="preserve">	Helix tubes, or derivatives thereof, with any of the following:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115" class="SingleTxt">
+              <num>e.2.a.l.</num>
+              <content eId="para_115__content">
+                <p xml:space="preserve"> An instantaneous bandwidth of half an octave or more; and e.2.a.2. The product of the rated average output power (expressed in kW) and the maximum operating frequency (expressed in GHz) of more than 0.2;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="SingleTxt">
+              <num>e.2.b.1.</num>
+              <content eId="para_116__content">
+                <p xml:space="preserve"> An instantaneous bandwidth of less than half an octave; and e.2.b.2. The product of the rated average output power (expressed in kW) and the maximum operating frequency (expressed in GHz) of more than 0.4;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="SingleTxt">
+              <num>f.</num>
+              <content eId="para_117__content">
+                <p xml:space="preserve">	Equipment specially designed for the manufacture of electron tubes, optical elements and specially designed components therefor;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="SingleTxt">
+              <num>g.</num>
+              <content eId="para_118__content">
+                <p xml:space="preserve">	Hydrogen/hydrogen-isotope thyratrons of ceramic-metal construction and rate for a peak current of 500 A or more;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="SingleTxt">
+              <num>h.</num>
+              <content eId="para_119__content">
+                <p xml:space="preserve">	Digital instrumentation data recorders having any of the following characteristics:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="SingleTxt">
+              <num>h.l.</num>
+              <content eId="para_120__content">
+                <p xml:space="preserve">	A maximum digital interface transfer rate exceeding 175 Mbit/s; or</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="SingleTxt">
+              <num>h.2.</num>
+              <content eId="para_121__content">
+                <p xml:space="preserve">	Space qualified.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="SingleTxt">
+              <num>i.</num>
+              <content eId="para_122__content">
+                <p xml:space="preserve">	Radiation and radioisotope detection and simulation equipment, analysers, software, and Nuclear Instrumentation Module (NIM) componentry and mainframes;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="SingleTxt">
+              <num>j.</num>
+              <content eId="para_123__content">
+                <p xml:space="preserve">	Software specially designed for the development or production of the components or equipment in a-i above;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="SingleTxt">
+              <num>k.</num>
+              <content eId="para_124__content">
+                <p xml:space="preserve">	Technology for the development, design or production of the components or equipment in a-i above.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="SingleTxt">
+              <content eId="para_125__content">
+                <p xml:space="preserve">
+                  <span class="bold">Note</span>: Items a-e do not require review when contained in contracts for civil telecommunications projects, including ongoing maintenance, operation, and repair of the system, certified for civil use by the supplier government.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="H23">
+              <subheading>#4.	Image intensifier night vision systems, tubes, and components</subheading>
+            </paragraph>
+            <paragraph eId="para_127" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_127__content">
+                <p xml:space="preserve">	Night vision systems (i.e., cameras or direct view imaging equipment) using an image intensifier tube that utilizes a microchannel plate (MCP) and an S-20, S-25, GaAs, or GaInAs photocathode.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_128__content">
+                <p xml:space="preserve">	Image intensifier tubes that utilize a microchannel plate (MCP) and an S-20, S‑25, GaAs, or GsINAs photocathode with a sensitivity of 240 micro Amps per lumen and below:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_129__content">
+                <p xml:space="preserve">	Microchannel plates of 15 micrometers and above.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="SingleTxt">
+              <num>d.</num>
+              <content eId="para_130__content">
+                <p xml:space="preserve">	Software specially designed for the development or production of the components or equipment in a-c above;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="SingleTxt">
+              <num>e.</num>
+              <content eId="para_131__content">
+                <p xml:space="preserve">	Technology for the development, design or production of the components or equipment in a-c above.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_132" class="H23">
+              <subheading>#5.	Specialized radar equipment</subheading>
+            </paragraph>
+            <paragraph eId="para_133" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_133__content">
+                <p xml:space="preserve">	All airborne radar equipment and specially designed components therefor, not including radars specially designed for meteorological use or Mode 3, Mode C, and Mode S civilian air traffic control equipment specially designed to operate only in the 960-1215 MHz band;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_134" class="SingleTxt">
+              <content eId="para_134__content">
+                <p xml:space="preserve">Note: This entry does not require initial review of airborne radar equipment installed as original equipment in civil-certified aircraft operating in Iraq.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_135__content">
+                <p xml:space="preserve">	All ground-based primary radar systems that are capable of aircraft detection and tracking.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_136__content">
+                <p xml:space="preserve">	Software specially designed for the development or production of the components or equipment in a and b above;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="SingleTxt">
+              <num>d.</num>
+              <content eId="para_137__content">
+                <p xml:space="preserve">	Technology for the development, design or production of the components or equipment in a and b above.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="H23">
+              <subheading>#6.	Non-civil certified aircraft; all aero gas turbine engines; unmanned aerial vehicles; and parts and components</subheading>
+            </paragraph>
+            <paragraph eId="para_139" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_139__content">
+                <p xml:space="preserve">	Non-civil certified aircraft and specially designed parts and components therefor. This does not include parts and components solely designed to accommodate a carrying of passengers including seats, food services, environmental conditioning, lighting systems, and passenger safety devices.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140" class="SingleTxt">
+              <content eId="para_140__content">
+                <p xml:space="preserve">Note: Civil certified aircraft consist of aircraft that have been certified for general civil use by the civil aviation authorities of the original equipment manufacturer’s government.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_141__content">
+                <p xml:space="preserve">	All gas turbine engines except those designed for stationary power generation applications, and specially designed parts and components therefor.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_142__content">
+                <p xml:space="preserve">	Unmanned aerial vehicles and parts and components therefor with any of the following characteristics:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143" class="SingleTxt">
+              <num>c.l.</num>
+              <content eId="para_143__content">
+                <p xml:space="preserve">	Capable of autonomous operation;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144" class="SingleTxt">
+              <num>c.2.</num>
+              <content eId="para_144__content">
+                <p xml:space="preserve">	Capable of operating beyond line of sight;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145" class="SingleTxt">
+              <num>c.3.</num>
+              <content eId="para_145__content">
+                <p xml:space="preserve">	Incorporating a satellite navigation receiver (i.e. GPS);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146" class="SingleTxt">
+              <num>c.4.</num>
+              <content eId="para_146__content">
+                <p xml:space="preserve">	A gross take-off weight greater than 25 kg (55 pounds).</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147" class="SingleTxt">
+              <num>d.</num>
+              <content eId="para_147__content">
+                <p xml:space="preserve">	Parts and components for civil-certified aircraft (not including engines).</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148" class="SingleTxt">
+              <content eId="para_148__content">
+                <p xml:space="preserve">
+                  <span class="bold">Note 1</span>: This does not include parts and components for normal maintenance of non‑Iraqi owned or leased civil-certified aircraft that were originally qualified or certified by the original equipment manufacturer for that aircraft.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149" class="SingleTxt">
+              <content eId="para_149__content">
+                <p xml:space="preserve">
+                  <span class="bold">Note 2</span>: For Iraqi-owned or leased civil aircraft, review of parts and components for normal maintenance is not required if the maintenance is performed in a country other than Iraq.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_150" class="SingleTxt">
+              <content eId="para_150__content">
+                <p xml:space="preserve">
+                  <span class="bold">Note 3</span>: For Iraqi-owned or leased aircraft, parts and components are subject to review except for equivalent one-for-one replacement of parts and components that have been certified or qualified by the original equipment manufacturer for use on that aircraft.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151" class="SingleTxt">
+              <content eId="para_151__content">
+                <p xml:space="preserve">
+                  <span class="bold">Note 4</span>: Any specially designed parts or components that improve the performance of the aircraft remain subject to review. e. Technology, including software, for the design, development and production of equipment and parts/components for the items in sub-items a-d above.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152" class="H23">
+              <subheading>#9.	Marine acoustic equipment</subheading>
+            </paragraph>
+            <paragraph eId="para_153" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_153__content">
+                <p xml:space="preserve">	Marine acoustic systems, equipment and specially designed components therefor, as follows:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154" class="SingleTxt">
+              <num>a.l.</num>
+              <content eId="para_154__content">
+                <p xml:space="preserve"> Active (transmitting or transmitting-and-receiving) systems, equipment and specially designed components therefor, as follows:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155" class="SingleTxt">
+              <num>a.l.a.</num>
+              <content eId="para_155__content">
+                <p xml:space="preserve"> Wide-swath bathymetric survey systems designed for sea bed topographic mapping designed to measure depths less than 600 m below the water surface</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_156" class="SingleTxt">
+              <num>a.2.</num>
+              <content eId="para_156__content">
+                <p xml:space="preserve"> Passive (receiving, whether or not related in normal application to separate active equipment) systems, equipment and specially designed components thereof as follows:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157" class="SingleTxt">
+              <num>a.2.a.</num>
+              <content eId="para_157__content">
+                <p xml:space="preserve"> Hydrophones with sensitivity better than minus 220 Db at any depth with no acceleration' compensation;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158" class="SingleTxt">
+              <num>a.2.b.</num>
+              <content eId="para_158__content">
+                <p xml:space="preserve"> Towed acoustic hydrophone arrays designed or able to be modified to operate at depths exceeding 15 meters but not exceeding 35 meters.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159" class="SingleTxt">
+              <num>a.2.b.1.</num>
+              <content eId="para_159__content">
+                <p xml:space="preserve"> Heading sensors with an accuracy better than +/- 0.5 degrees.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160" class="SingleTxt">
+              <num>a.2.c.</num>
+              <content eId="para_160__content">
+                <p xml:space="preserve"> Processing equipment specially designed for towed acoustic hydrophone arrays.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161" class="SingleTxt">
+              <num>a.2.d.</num>
+              <content eId="para_161__content">
+                <p xml:space="preserve"> Processing equipment, specially designed for bottom or bay cable systems.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_162__content">
+                <p xml:space="preserve">	Correlation-velocity sonar log equipment designed to measure the horizontal speed of the equipment carrier relative to the seabed.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163" class="SingleTxt">
+              <content eId="para_163__content">
+                <p xml:space="preserve">
+                  <span class="bold">Technical Note</span>: Hydrophone sensitivity is defined as twenty times the logarithm to the base 10 of the ratio of rms output voltage to a 1 V rms reference, when the hydrophone sensor, without a pre‑amplifier, is placed in a plane wave acoustic field with an rms pressure of 1 p2a. For example, a hydrophone of -160 Db, reference 1 V per uPa) -180 Db.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164" class="H23">
+              <subheading>#10.	Charges and devices specially designed for civil projects, and containing small quantities of the following energetic materials:</subheading>
+            </paragraph>
+            <paragraph eId="para_165" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_165__content">
+                <p xml:space="preserve">	Cyclotetramethylenetetranitramine (CAS 2691-41-0) (HMX); octahydro-1,3,5,7-tetranitro-1,3,5,7-tetrazine; 1,3,5,7-tetranitro-1,3,5,7-tetraza-cyclooctane; (octogen, octogene);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_166__content">
+                <p xml:space="preserve">	Hexanitrostilbene (HNS) (CAS 20062-22-0);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_167__content">
+                <p xml:space="preserve">	Triaminotrinitrobenzene (TATB) (CAS 3058-38-6);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_168__content">
+                <p xml:space="preserve">	Triaminoguanidinenitrate (TAGN) (CAS 4000-16-2);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_169__content">
+                <p xml:space="preserve">	Dinitroglycoluril (DNGU, DINGU) (CPS 55510-04-81: tetranitroglycoluril (TNGU, SORGUYL) (CAS 55510-03-7);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_170" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_170__content">
+                <p xml:space="preserve">	Tetranitrobenzotriazolobenzotriazole (TACOT) (CAS 25243-36-1);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_171__content">
+                <p xml:space="preserve">	Diaminohexanitrobiphenyl (DIPAM) (CAS 17215-44-0);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_172__content">
+                <p xml:space="preserve">	Picrylaminodinitropyridine (PYX) (CAS 38082-89-2);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_173" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_173__content">
+                <p xml:space="preserve">	3-vitro-1,2,4-triazol-5-one (NTO or ONTA) (CAS 932-64-9);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_174" class="SingleTxt">
+              <content eId="para_174__content">
+                <p xml:space="preserve">l0.	Cyclotrimethylenetrinitramine (RDX) (CAS 121-82-4); cyclonite; T4; hexahydro-1,3,5-trinitro-1, 3, 5-triazine; 1, 3, 5-trinitro-1, 3, 5-triaza-cyclohexane (hexogen, hexogene);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_175" class="SingleTxt">
+              <num>11.</num>
+              <content eId="para_175__content">
+                <p xml:space="preserve">	2-(5-cyanotetrazolato) penta amine-cobalt (III) -perchlorate (or CP) (CAS 70247-32-4);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176" class="SingleTxt">
+              <num>12.</num>
+              <content eId="para_176__content">
+                <p xml:space="preserve">	cis-bis (5-nitrotetrazolato) tetra amine-cobalt (III) perchlorate (or BNCP);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177" class="SingleTxt">
+              <num>13.</num>
+              <content eId="para_177__content">
+                <p xml:space="preserve">	7-Amino-4,6-dinitrobenzofurazane-l-oxide (ADNBF) (CAS 97096-78-1); amino dinitrobenzofuroxan;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="SingleTxt">
+              <num>14.</num>
+              <content eId="para_178__content">
+                <p xml:space="preserve">	5,7-diamino-4,6-dinitrobenzofurazane-l-oxide (CAS 117907-74-1), (CL-14 or diamino dinitrobenzofuroxan);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="SingleTxt">
+              <num>15.</num>
+              <content eId="para_179__content">
+                <p xml:space="preserve">	2,4,6-trinitro-2,4,6-triazacyclohexanone (K-6 or Keto-RDX) (CAS 115029-35-1);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_180" class="SingleTxt">
+              <num>16.</num>
+              <content eId="para_180__content">
+                <p xml:space="preserve">	2,4,6,8-tetran.itro-2,4,6,8-tetraazabicyclo</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_181" class="SingleTxt">
+              <content eId="para_181__content">
+                <p xml:space="preserve">	[3,3,0]-octanone-3 (CAS 130256-72-3)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="SingleTxt">
+              <content eId="para_182__content">
+                <p xml:space="preserve">	(tetranitrosemiglycouril, K-55 or keto-bicyclic HMX);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="SingleTxt">
+              <num>17.</num>
+              <content eId="para_183__content">
+                <p xml:space="preserve">	1,1,3-trinitroazetidine (TNAZ) (CAS 97645-24-4);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="SingleTxt">
+              <num>18.</num>
+              <content eId="para_184__content">
+                <p xml:space="preserve">	1,4,5,8-tetranitro-1,4,5,8-tetraazadecalin (TNAD) (CAS 135877-16"=6);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_185" class="SingleTxt">
+              <num>19.</num>
+              <content eId="para_185__content">
+                <p xml:space="preserve">	Hexanitrohexaazaisowurtzitane (CAS 135285-90-4) (CL-20 or HNIW); and chlathrates of CL-20;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_186" class="SingleTxt">
+              <num>20.</num>
+              <content eId="para_186__content">
+                <p xml:space="preserve">	Trinitrophenylmethylnitramine (tetryl) (CAS 479-45-8);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="SingleTxt">
+              <num>21.</num>
+              <content eId="para_187__content">
+                <p xml:space="preserve">	Any explosive with a detonation velocity exceeding 8,700 m/s or a detonation pressure exceeding 34 GPa 	(340 kbar);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_188" class="SingleTxt">
+              <num>22.</num>
+              <content eId="para_188__content">
+                <p xml:space="preserve">	Other organic explosives yielding detonation pressures of 25 GPa(250 kbar) or more that will remain 	stable at temperatures of 523 K (250°C) or higher for periods of 5 minutes or longer;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_189" class="SingleTxt">
+              <num>23.</num>
+              <content eId="para_189__content">
+                <p xml:space="preserve">	Any other United Nations (UN) Class 1.1 solid propellant with a theoretical specific impulse (under standard conditions) of more than 250 s for non‑metallized, or more than 270 s for aluminized compositions; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_190" class="SingleTxt">
+              <num>24.</num>
+              <content eId="para_190__content">
+                <p xml:space="preserve">	Any UN Class 1.3 solid propellant with a theoretical specific impulse of more than 230 s for non‑halogenised, 250 s for non‑metallized and 266 s for metallized compositions.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_191" class="SingleTxt">
+              <content eId="para_191__content">
+                <p xml:space="preserve">	<span class="bold">Note</span>:	When not part of a charge or device specifically designed for civil projects in small quantities, the energetic materials above are considered military items and are subject to UNSCR 687, para. 24.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_192" class="H23">
+              <subheading>#11.	Specialized vibration test equipment</subheading>
+            </paragraph>
+            <paragraph eId="para_193" class="SingleTxt">
+              <content eId="para_193__content">
+                <p xml:space="preserve">Vibration test equipment and specially designed parts and components capable of simulating flight conditions of less than 15,000 meters. a. Software specially designed for the development or production of the components or equipment above; b. Technology for the development, design or production of the components or equipment above.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_194" class="H23">
+              <subheading>#12.	Specialized semiconductor manufacturing equipment</subheading>
+            </paragraph>
+            <paragraph eId="para_195" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_195__content">
+                <p xml:space="preserve">	Items specially designed for the manufacture, assembly, packaging, test, and design of semiconductor devices, integrated circuits and assemblies with a minimum feature size of 1.0 micrometers, .including:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_196" class="SingleTxt">
+              <num>a.l.</num>
+              <content eId="para_196__content">
+                <p xml:space="preserve"> Equipment and materials for plasma etch, chemical vapor deposition (CVD), lithography, mask lithography, masks, and photoresists.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_197" class="SingleTxt">
+              <num>a.2.</num>
+              <content eId="para_197__content">
+                <p xml:space="preserve"> Equipment specially designed for ion implantation, ion-enhanced or photo-enhanced diffusion, having any of the following characteristics:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_198" class="SingleTxt">
+              <num>a.2.a.</num>
+              <content eId="para_198__content">
+                <p xml:space="preserve"> Beam energy (accelerating voltage) exceeding 200 keV; or</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_199" class="SingleTxt">
+              <num>a.2.b.</num>
+              <content eId="para_199__content">
+                <p xml:space="preserve"> Optimized to operate at a beam energy (accelerating voltage) of less than 10 keV.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_200" class="SingleTxt">
+              <num>a.3.</num>
+              <content eId="para_200__content">
+                <p xml:space="preserve"> Surface finishing equipment for the processing of semiconductor wafers as follows:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_201" class="SingleTxt">
+              <num>a.3.a.</num>
+              <content eId="para_201__content">
+                <p xml:space="preserve"> Specially designed equipment for backside processing of wafers thinner than 100 micrometer and the subsequent separation thereof; or</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_202" class="SingleTxt">
+              <num>a.3.b.</num>
+              <content eId="para_202__content">
+                <p xml:space="preserve"> Specially designed equipment for achieving a surface roughness of the active surface of a processed wafer with a two-sigma value of 2 micrometer or less, total indicator reading (TIR) ;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_203" class="SingleTxt">
+              <num>a.4.</num>
+              <content eId="para_203__content">
+                <p xml:space="preserve"> Equipment, other than general-purpose computers, specially designed for computer aided design (CAD) of semiconductor devices or integrated circuits; a.5. Equipment for the assembly of integrated circuits, as follows:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_204" class="SingleTxt">
+              <num>a.5.a.</num>
+              <content eId="para_204__content">
+                <p xml:space="preserve"> Stored program controlled die bonders having all of the following characteristics:</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_205" class="SingleTxt">
+              <num>a.5.a.l.</num>
+              <content eId="para_205__content">
+                <p xml:space="preserve"> Specially designed for hybrid integrated circuits;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_206" class="SingleTxt">
+              <num>a.5.a.2.</num>
+              <content eId="para_206__content">
+                <p xml:space="preserve"> X-Y stage positioning travel exceeding 37.5 x 37.5 mm; and</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_207" class="SingleTxt">
+              <num>a.5.a.3.</num>
+              <content eId="para_207__content">
+                <p xml:space="preserve"> Placement accuracy in the X-Y plane of finer than + 10 micrometer;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_208" class="SingleTxt">
+              <num>a.5.b.</num>
+              <content eId="para_208__content">
+                <p xml:space="preserve"> Stored program controlled equipment for producing multiple bonds in a single operation (e.g., beam lead bonders, chip carrier bonders, tape bonders);</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_209" class="SingleTxt">
+              <num>a.5.c.</num>
+              <content eId="para_209__content">
+                <p xml:space="preserve"> Semi-automatic or automatic hot cap sealers, in which the cap is heated locally to a higher temperature than the body of the package, specially designed for ceramic microcircuit packages and that have a throughput equal to or more than one package per minute.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_210" class="SingleTxt">
+              <num>b.</num>
+              <content eId="para_210__content">
+                <p xml:space="preserve">	Software specially designed for the development or production of the components or equipment in a. above;</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_211" class="SingleTxt">
+              <num>c.</num>
+              <content eId="para_211__content">
+                <p xml:space="preserve">	Technology for the development, design or. production of the components or equipment in a. above-</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_212" class="H23">
+              <subheading>#14.	Certain Biological Equipment</subheading>
+            </paragraph>
+            <paragraph eId="para_213" class="SingleTxt">
+              <num>a.</num>
+              <content eId="para_213__content">
+                <p xml:space="preserve">	Equipment for the microencapsulation of live microorganisms and toxins in the range of 1-15 micron particle size, to include interfacial polycondensors and phase separators.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_214" class="HCh">
+              <heading>Annex 2</heading>
+            </paragraph>
+            <paragraph eId="para_215" class="HCh">
+              <heading>Procedures</heading>
+            </paragraph>
+            <paragraph eId="para_216" class="SingleTxt">
+              <num>1.</num>
+              <content eId="para_216__content">
+                <p xml:space="preserve">	Applications for each export of commodities and products should be forwarded to the Office of the Iraq Programme (OIP) by the exporting States through permanent or observer missions, or by United Nations agencies and programmes. Each application should include technical specifications and end-user information in order for a determination to be made on whether the contract contains any item referred to in paragraph 24 of resolution 687 (1991) or any item on the Goods Review List (GRL). A copy of the concluded contractual arrangements should be attached to the application.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_217" class="SingleTxt">
+              <num>2.</num>
+              <content eId="para_217__content">
+                <p xml:space="preserve">	Each application and the concluded contractual arrangements will be reviewed by customs experts in the OIP and experts from UNMOVIC, consulting the IAEA as necessary, in order to determine whether the contract contains any item referred to in paragraph 24 of resolution 687 (1991) or included on the GRL. The OIP will identify an official to act as a contact point on each contract.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_218" class="SingleTxt">
+              <num>3.</num>
+              <content eId="para_218__content">
+                <p xml:space="preserve">	In order to verify that the conditions set out in paragraph 2 above are met, the experts may request additional information from the exporting States or Iraq. The exporting States or Iraq should provide the additional information requested within a period of 60 days. If the experts do not require any additional information within four working days, the procedure under paragraphs 5, 6 and 7 below applies.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_219" class="SingleTxt">
+              <num>4.</num>
+              <content eId="para_219__content">
+                <p xml:space="preserve">	If the experts determine that the exporting State or Iraq has not provided the additional information within the period set out in paragraph 3 above, the application will not proceed further until the necessary information has been provided.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_220" class="SingleTxt">
+              <num>5.</num>
+              <content eId="para_220__content">
+                <p xml:space="preserve">	If the UNMOVIC experts, consulting the IAEA as necessary, determine that the contract contains any item referred to in paragraph 24 of resolution 687 (1991), the application shall be considered lapsed and returned to mission or agency which submitted it.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_221" class="SingleTxt">
+              <num>6.</num>
+              <content eId="para_221__content">
+                <p xml:space="preserve">	If the UNMOVIC experts, consulting the IAEA as necessary, determine that the contract contains any item referred to in the GRL, they will forward to the Committee full details of the GRL listed items, including the technical specifications of the items and the associated contract. In addition, OIP and UNMOVIC, consulting the IAEA as necessary, shall provide to the Committee an assessment of the humanitarian, economic and security implications, of the approval or denial of the GRL listed items, including the viability of the whole contract in which the GRL listed item appears and the risk of diversion of the item for military purposes. OIP shall also provide information on the possible end-use monitoring of such items. OIP will immediately inform the missions or agencies concerned. The remaining items in the contract, which are determined as not included in the GRL, will be processed according to the procedure in paragraph 7 below.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_222" class="SingleTxt">
+              <num>7.</num>
+              <content eId="para_222__content">
+                <p xml:space="preserve">	If the UNMOVIC experts, consulting the IAEA as necessary, determine that the contract does not contain any item referred to in paragraph 2 above, the Office of the Iraq Programme will inform immediately the Government of Iraq and the exporting State in written form. The exporter will be eligible for payment upon verification by Cotecna that the goods have arrived as contracted in Iraq.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_223" class="SingleTxt">
+              <num>8.</num>
+              <content eId="para_223__content">
+                <p xml:space="preserve">	If the mission or agency submitting a contract disagrees with the decision to refer the contract to the Committee, it may appeal against this decision within two business days to the Executive Director of OIP. In that event, the Executive Director of OIP, in consultation with the Executive Chairman of UNMOVIC, will appoint experts to reconsider the contract in accordance with the procedures set out above. Their decision, endorsed by the Executive Director and Executive Chairman, will be final and no further appeals will be permitted. The application shall not be forwarded to the Committee until the appeal period has expired without an appeal being filed.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_224" class="SingleTxt">
+              <num>9.</num>
+              <content eId="para_224__content">
+                <p xml:space="preserve">	Experts from OIP and UNMOVIC who review contracts should be drawn from the broadest possible geographical base.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_225" class="SingleTxt">
+              <num>10.</num>
+              <content eId="para_225__content">
+                <p xml:space="preserve">	The Secretariat will report to the Committee at the end of each 180-day phase on the contracts submitted and approved for export to Iraq during this period and provide to any member of the Committee at the member’s request copies of applications for information purposes only.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_226" class="SingleTxt">
+              <num>11.</num>
+              <content eId="para_226__content">
+                <p xml:space="preserve">	Any Committee member may call for an urgent meeting of the Committee to consider revising or revoking these procedures. The Committee will keep these procedures under review and, in light of experience, will amend them as appropriate.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>

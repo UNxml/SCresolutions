@@ -1,0 +1,164 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-09-10/1367-2001/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-09-10/1367-2001/"></FRBRuri>
+          <FRBRdate date="2001-09-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-09-10/1367-2001/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-09-10/1367-2001/eng@/"></FRBRuri>
+          <FRBRdate date="2001-09-10" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-09-10/1367-2001/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-09-10/1367-2001/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-08-07" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1160 (1998)" showAs="UN. Security Council Committee Established pursuant to Resolution 1160 (1998)" dictionary="DHLAUTH"></keyword>
+        <keyword value="ARMS EMBARGO" showAs="ARMS EMBARGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SANCTIONS" showAs="SANCTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SANCTIONS COMPLIANCE" showAs="SANCTIONS COMPLIANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="KOSOVO (SERBIA)" showAs="KOSOVO (SERBIA)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="YUGOSLAVIA" showAs="YUGOSLAVIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[77]" showAs="KOSOVO (YUGOSLAVIA)" dictionary="S/56"></keyword>
+        <keyword refersTo="agenda" value="[60]" showAs="FORMER YUGOSLAVIA SITUATION" dictionary="S/56"></keyword>
+        <keyword value="X" dictionary="S/" showAs="Security Council resolution 1160 (1998) of 31 March 1998." refersTo="agenda"/>
+        <keyword refersTo="title" value="Security Council resolution 1367 (2001) [on lifting of sanctions against Yugoslavia, in accordance with resolution 1160 (1998)]" showAs="Security Council resolution 1367 (2001) [on lifting of sanctions against Yugoslavia, in accordance with resolution 1160 (1998)]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2001-09-07" outcome="draftResolution" as="S/2001/854" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2001-09-10" outcome="adopted" as="S/PV.4366" by="Adopted unanimously, 4366th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">01-53269 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1367 (2001)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2001-09-10" class="rightSmall" refersTo="#dateOfIssuance">10 September 2001</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1367 (2001)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="4366th">4366th meeting</inline>, on<docDate date="2001-09-10" refersTo="#adoptionDate">10 September 2001</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling </span>its resolutions 1160 (1998) of 31 March 1998, 1199 (1998) of 23 September 1998, 1203 (1998) of 24 October 1998, and reaffirming, in particular, its resolutions 1244 (1999) of 10 June 1999 and 1345 (2001) of 21 March 2001,</p>
+      </container>
+      <container name="Noting with satisfaction" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Noting with satisfaction </span>that the conditions listed in paragraph 16 (a) to (e) of its resolution 1160 (1998) have been satisfied,</p>
+      </container>
+      <container name="Noting" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Noting</span>, in that respect, the letter of the Secretary-General dated 6 September 2001 (S/2001/849),</p>
+      </container>
+      <container name="Noting further" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Noting further </span>the difficult security situation along Kosovo’s administrative boundary and parts of the border of the Federal Republic of Yugoslavia and emphasizing the continuing authority of the Secretary-General’s Special Representative as head of the international civil presence and of the Commander of the international security presence (KFOR) to restrict and strictly control the flow of arms into, within and out of Kosovo, pursuant to resolution 1244 (1999),</p>
+      </container>
+      <container name="Acting" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Acting </span>under Chapter VII of the Charter of the United Nations, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_7" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>to terminate the prohibitions established by paragraph 8 of resolution 1160 (1998);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="italic">Decides further </span>to dissolve the Committee established by paragraph 9 of resolution 1160 (1998).</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
