@@ -1,0 +1,442 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2002-12-04/1445-2002/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2002-12-04/1445-2002/"></FRBRuri>
+          <FRBRdate date="2002-12-04" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2002-12-04/1445-2002/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2002-12-04/1445-2002/eng@/"></FRBRuri>
+          <FRBRdate date="2002-12-04" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2002-12-04/1445-2002/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2002-12-04/1445-2002/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-08-07" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Third Party Verification Mechanism" showAs="Third Party Verification Mechanism" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Organization Mission in the Democratic Republic of the Congo" showAs="UN Organization Mission in the Democratic Republic of the Congo" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Secretariat" showAs="UN. Secretariat" dictionary="DHLAUTH"></keyword>
+        <keyword value="Forces démocratiques de libération du Rwanda" showAs="Forces démocratiques de libération du Rwanda" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Special Envoy of the Secretary-General for the Democratic Republic of Congo Peace Process" showAs="UN. Special Envoy of the Secretary-General for the Democratic Republic of Congo Peace Process" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Criminal Tribunal for Rwanda" showAs="International Criminal Tribunal for Rwanda" dictionary="DHLAUTH"></keyword>
+        <keyword value="Union des patriotes congolais" showAs="Union des patriotes congolais" dictionary="DHLAUTH"></keyword>
+        <keyword value="Ituri Pacification Commission" showAs="Ituri Pacification Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Special Representative of the Secretary-General for the Democratic Republic of the Congo" showAs="UN. Special Representative of the Secretary-General for the Democratic Republic of the Congo" dictionary="DHLAUTH"></keyword>
+        <keyword value="International Conference on the Great Lakes Region. Summit of Heads of State and Government (1st : 2004 : Dar es Salaam)" showAs="International Conference on the Great Lakes Region. Summit of Heads of State and Government (1st : 2004 : Dar es Salaam)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Pretoria Peace Agreement between the Democratic Repubic of the Congo and Rwanda (2002)" showAs="Pretoria Peace Agreement between the Democratic Repubic of the Congo and Rwanda (2002)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Agreement between the Governments of the Democratic Repubic of the Congo and the Republic of Uganda on the Withdrawal of Ugandan Troops from the Democratic Republic of the Congo, Cooperation and Normalization of Relations between the Two Countries (2002)" showAs="Agreement between the Governments of the Democratic Repubic of the Congo and the Republic of Uganda on the Withdrawal of Ugandan Troops from the Democratic Republic of the Congo, Cooperation and Normalization of Relations between the Two Countries (2002)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Agreement for Ceasefire in the Democratic Republic of the Congo (1999)" showAs="Agreement for Ceasefire in the Democratic Republic of the Congo (1999)" dictionary="DHLAUTH"></keyword>
+        <keyword value="PEACE TREATIES" showAs="PEACE TREATIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TROOP WITHDRAWAL" showAs="TROOP WITHDRAWAL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO" showAs="DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RWANDA" showAs="RWANDA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="UGANDA" showAs="UGANDA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REGIONAL SECURITY" showAs="REGIONAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GREAT LAKES REGION (AFRICA)" showAs="GREAT LAKES REGION (AFRICA)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISPUTE SETTLEMENT" showAs="DISPUTE SETTLEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOUTH AFRICA" showAs="SOUTH AFRICA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPORT PREPARATION" showAs="REPORT PREPARATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISARMAMENT" showAs="DISARMAMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY DEMOBILIZATION" showAs="MILITARY DEMOBILIZATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPATRIATION" showAs="REPATRIATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SOCIAL INTEGRATION" showAs="SOCIAL INTEGRATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RESETTLEMENT" showAs="RESETTLEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY PERSONNEL" showAs="MILITARY PERSONNEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFIDENCE-BUILDING MEASURES" showAs="CONFIDENCE-BUILDING MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CEASEFIRES" showAs="CEASEFIRES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TASK FORCES" showAs="TASK FORCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER MAINSTREAMING" showAs="GENDER MAINSTREAMING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHILDREN" showAs="CHILDREN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF MOVEMENT" showAs="FREEDOM OF MOVEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFF SECURITY" showAs="STAFF SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RELIEF PERSONNEL" showAs="RELIEF PERSONNEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ETHNIC CONFLICT" showAs="ETHNIC CONFLICT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY ASSISTANCE" showAs="MILITARY ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POLICE" showAs="POLICE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAINING PROGRAMMES" showAs="TRAINING PROGRAMMES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NEIGHBOURING STATES" showAs="NEIGHBOURING STATES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFERENCES" showAs="CONFERENCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RADIO BROADCASTING" showAs="RADIO BROADCASTING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[102]" showAs="DEMOCRATIC REPUBLIC OF THE CONGO SITUATION" dictionary="S/57"></keyword>
+        <keyword refersTo="agenda" value="[105]" showAs="UN ORGANIZATION MISSION IN THE DEMOCRATIC REPUBLIC OF THE CONGO" dictionary="S/57"></keyword>
+        <keyword value="X" dictionary="S/" showAs="The situation concerning the Democratic Republic of the Congo." refersTo="agenda"/>
+        <keyword refersTo="title" value="Security Council resolution 1445 (2002) [on peace process in the Democratic Republic of the Congo]" showAs="Security Council resolution 1445 (2002) [on peace process in the Democratic Republic of the Congo]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2002-12-04" outcome="draftResolution" as="S/2002/1309" by="" />
+        <step date="2002-12-04" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2002-12-04" outcome="adopted" as="S/PV.4653" by="Adopted unanimously, 4653rd meeting" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">CAMEROON</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">SYRIAN ARAB REPUBLIC</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">02-72318 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1445 (2002)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2002-12-04" class="rightSmall" refersTo="#dateOfIssuance">4 December 2002</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1445 (2002)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="4653rd">4653rd meeting</inline>, on<docDate date="2002-12-04" refersTo="#adoptionDate">4 December 2002</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> its previous resolutions and statements by its President regarding the Democratic Republic of the Congo,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the sovereignty, territorial integrity and political independence of the Democratic Republic of the Congo and of all other States in the region,</p>
+      </container>
+      <container name="Reaffirming further" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reaffirming further</span> the obligation of all States to refrain from the use of force against the territorial integrity and political independence of any State, or in any other manner inconsistent with the purpose and principles of the United Nations,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reaffirming also</span> the sovereignty of the Democratic Republic of the Congo over its natural resources,</p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Recalling</span> the responsibilities of all the parties to cooperate in the full deployment of the United Nations Organization Mission in the Democratic Republic of the Congo (MONUC),</p>
+      </container>
+      <container name="Recognizing" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the importance of a gender perspective in peacekeeping operations, in accordance with Security Council resolution 1325 (2000), and the importance of the protection of children in armed conflict, in accordance with its resolution 1379 (2001),</p>
+      </container>
+      <container name="Taking note" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Taking note</span> of the Secretary-General’s special report of 10 September 2002 (S/2002/1005) and its recommendations,</p>
+      </container>
+      <container name="Determining" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the situation in the Democratic Republic of the Congo continues to pose a threat to international peace and security in the region,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the signature by the Democratic Republic of the Congo and Rwanda of the Pretoria Agreement on 30 July 2002 (S/2002/914), as well as the signature by the Democratic Republic of the Congo and Uganda of the Luanda Agreement on 6 September 2002 and <span class="italic">welcomes also</span> the efforts of the Republic of South Africa, Angola, and of the Secretary-General, in facilitating the adoption of these agreements;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the decision taken by all the foreign parties to withdraw fully their troops from the territory of the Democratic Republic of the Congo, as well as progress in the implementation of these processes, in particular the withdrawal of 23,400 Rwandan troops from the Democratic Republic of the Congo verified by the Third Party Verification Mechanism (TPVM) on 24 October, as well as withdrawals by Uganda, Zimbabwe and Angola, and <span class="italic">stresses</span> the importance for these withdrawals to be completed in a transparent, orderly and verified manner, and in this regard <span class="italic">underlines</span> the need for the parties to facilitate the verification of these withdrawals, including through the continuous provision to MONUC of detailed information on these withdrawals and requests the Secretary-General to report to the Council on this matter;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Expresses full support</span> for the TPVM, welcomes its work in helping the parties to implement the Pretoria Agreement, in accordance with Security Council resolutions and the norms of International Law, and <span class="italic">stresses</span> the importance of close cooperation between the Government of South Africa and MONUC in the work of TPVM;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the importance of the voluntary nature of the disarmament, demobilization, repatriation, reintegration or resettlement (DDRRR) of the armed groups referred to in annex A. Chapter 9.1 of the Lusaka Ceasefire Agreement (S/1999/815), <span class="italic">calls on</span> the leaders and members of the armed groups to enter the DDRRR process, also <span class="italic">calls on</span> all concerned to work to this end, <span class="italic">emphasizes</span> the need to intensify MONUC’s public information efforts in this regard and <span class="italic">calls on</span> all parties to support these efforts;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the importance of further early and substantial progress on the process of voluntary DDRRR throughout the country to match the progress achieved on the withdrawal of foreign forces, and <span class="italic">urges</span> all parties concerned to cooperate fully with MONUC in this regard;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes </span>the repatriation of ex-combatants and their dependants from Kamina, though noting that the numbers repatriated falls short of the original numbers assembled, and <span class="italic">recognizes</span> the good will and efforts of the Governments of the Democratic Republic of the Congo and Rwanda in cooperating on this issue with MONUC thus far;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the efforts of the Government of Rwanda in providing guarantees that ex-combatants and their dependants will be able to return in conditions of safety and security, <span class="italic">stresses </span>the importance of such guarantees,<span class="italic"> stresses also</span> the importance of confidence-building measures, including international monitoring and reintegration assistance, and calls upon the United Nations Secretariat, and other relevant bodies, in consultation with the signatories of the Lusaka Ceasefire Agreement, to address the issue of the resettlement of any ex-combatants who may not wish to return to their home country;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the statement of 24 September 2002 of the Government of the Democratic Republic of the Congo banning the activities of the Forces Démocratiques de Libération du Rwanda throughout the territory of the Democratic Republic of the Congo and declaring the leaders of this movement persona non grata on its territory, and encourages it to implement further their commitments to advance the DDRRR of the armed groups in accordance with the Pretoria Agreement;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Welcomes</span> the commitment of the Government of the Democratic Republic of the Congo and other Congolese parties to achieve an inclusive agreement on the political transition, <span class="italic">stresses</span> the importance of such an agreement to the wider peace process, calls on all Congolese parties to cooperate actively with a view to a speedy conclusion of such an agreement, and in this regard <span class="italic">expresses</span> its full support for the efforts of the Special Envoy of the Secretary-General;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of the encouraging developments on the ground, <span class="italic">endorses</span> the recommendations of the Secretary-General in his special report, including those relating to MONUC’s support for the TPVM as well as the proposal to extend the funding of MONUC’s quick impact projects, <span class="italic">endorses</span> in particular, the new concept of operation outlined in paragraphs 48 to 54 of this report and <span class="italic">authorizes</span> the expansion of MONUC to consist of up to 8,700 military personnel, principally comprised of two task-forces, to be deployed in a phased basis as follows: the second task force shall be deployed when the Secretary-General reports to the Council that the first task force has been successfully deployed and the disarmament, demobilization and repatriation (DDR) caseload can not be met by the existing capacity of the first task force alone;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	In regard to DDR under the new MONUC concept of operation, <span class="italic">endorses also</span> the interim funding mechanism in paragraph 74 for the voluntary DDR of members of foreign armed groups, <span class="italic">recognizes</span> the importance of addressing the repatriation of the dependants along with the ex-combatants and <span class="italic">calls on</span> the International Community to provide the funds for this process;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> MONUC to pay special attention in carrying out its mandate to all aspects relating to gender perspective, in accordance with resolution 1325 (2000), as well as to the protection and reintegration of children, in accordance with resolution 1379 (2001);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="SingleTxt">
+        <num>13.</num>
+        <list eId="para_88_list">
+          <intro eId="para_88_list_intro">
+            <p xml:space="preserve">	<span class="italic">Stresses</span> that the main responsibility for resolving the conflict rests with the parties themselves, that they must continue to demonstrate their will to respect fully their commitments and that further efforts will be necessary to reach a comprehensive solution to the conflict and, in this regard:</p>
+          </intro>
+          <point eId="para_88_list_point_1">
+            <num>–</num>
+            <content eId="para_88_list_point_1_content">
+              <p xml:space="preserve">	<span class="italic">Calls for</span> a full cessation of hostilities involving regular forces and armed groups throughout the territory of the Democratic Republic of the Congo, in particular in South Kivu and in Ituri;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_2">
+            <num>–</num>
+            <content eId="para_88_list_point_2_content">
+              <p xml:space="preserve">	<span class="italic">Calls for</span> the cessation of all support to the armed groups referred to in Annex A Chapter 9.1 of the Lusaka Ceasefire Agreement;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_3">
+            <num>–</num>
+            <content eId="para_88_list_point_3_content">
+              <p xml:space="preserve">	<span class="italic">Calls on </span>all parties to provide full access for MONUC and the TPVM throughout the territory of the Democratic Republic of the Congo, including inside all ports, airports, airfields, military bases and border crossings;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_4">
+            <num>–</num>
+            <content eId="para_88_list_point_4_content">
+              <p xml:space="preserve">	<span class="italic">Calls also for</span> the surrender to the International Criminal Tribunal for Rwanda of any persons indicted by the Tribunal, and</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_5">
+            <num>–</num>
+            <content eId="para_88_list_point_5_content">
+              <p xml:space="preserve">	<span class="italic">Reiterates its demand </span>for Kisangani to be demilitarized without further delay or precondition;</p>
+            </content>
+          </point>
+          <point eId="para_88_list_point_6">
+            <num>–</num>
+            <content eId="para_88_list_point_6_content">
+              <p xml:space="preserve">	<span class="italic">Demands </span>that all parties work to the immediate full restoration of freedom of movement on the Congo river;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_101" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_101__content">
+          <p xml:space="preserve">	<span class="italic">Expresses</span> its deep concern over the humanitarian situation throughout the country and in particular in the Ituri region, <span class="italic">calls on</span> the parties to allow humanitarian agencies and organizations full access to populations in need and to ensure the safety and security of humanitarian workers, and <span class="italic">condemns</span> those who seek to hamper the provision of assistance to civilians in need;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_115" class="SingleTxt">
+        <num>15.</num>
+        <content eId="para_115__content">
+          <p xml:space="preserve">	<span class="italic">Expresses its deep concern</span> over the intensification of ethnically targeted violence in the Ituri region, <span class="italic">condemns</span> all such violence or incitement to violence, requests all parties to take immediate actions to defuse these tensions, ensure the protection of civilians and end violations of human rights, <span class="italic">calls on</span> all parties, in particular the Union des Patriotes Congolais, to cooperate to set up the Ituri Pacification Commission, and <span class="italic">requests</span> the Secretary-General to increase the presence of MONUC stationed in the area, if he determines that the security condition allows it, in order to provide support to this process as well as to humanitarian efforts, and report back to the Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_130" class="SingleTxt">
+        <num>16.</num>
+        <content eId="para_130__content">
+          <p xml:space="preserve">	<span class="italic">Takes note</span> of Uganda’s commitment under the Luanda Agreement to complete the withdrawal of its forces no later than 15 December 2002, <span class="italic">welcomes</span> the positive interaction between the Governments of the Democratic Republic of the Congo and of Uganda since the signing of the Luanda Agreement and <span class="italic">calls on</span> both parties to work, together and with MONUC, towards conditions that will allow the Agreement to be implemented in full;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_146" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_146__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates </span>that no government, military force or any other organization or individual should provide military or any other form of support to any of the groups involved in the fighting in the east of the Democratic Republic of the Congo, in particular in Ituri;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_163" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_163__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> MONUC to continue its assessment of police capabilities and training needs in the Democratic Republic of the Congo, including, when necessary, at the level of local communities, with special attention to the Ituri area;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_181" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_181__content">
+          <p xml:space="preserve">	<span class="italic">Calls on</span> all parties to pay special attention to all aspects relating to gender, in accordance with Security Council resolution 1325 (2000), and to the protection of children, in accordance with resolution 1379 (2001);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve">	<span class="italic">Encourages</span> the Governments of the Democratic Republic of the Congo and, respectively, Rwanda and Uganda to take steps to normalize their relations and to cooperate to ensure mutual security along their borders as provided for in the Pretoria and Luanda agreements and also <span class="italic">encourages</span> the Governments of the Democratic Republic of the Congo and Burundi to take similar steps;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve">	<span class="italic">Stresses</span> the crucial importance of preventing the situation in the Democratic Republic of the Congo from having a further destabilizing effect on the neighboring States, in particular Burundi, Rwanda, Uganda and the Central-African Republic, and <span class="italic">calls on</span> all parties concerned to cooperate in good faith to that end and to facilitate in this regard the continuing observation efforts by MONUC in the areas of its deployment, including eastern Democratic Republic of the Congo and border areas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_241" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_241__content">
+          <p xml:space="preserve">	<span class="italic">Reaffirms</span> that an international conference on peace, security, democracy and development in the Great Lakes region, with participation by all the Governments of the region and all the other parties concerned, should be organized at the appropriate time under the aegis of the United Nations and the African Union with a view to strengthening stability in the region and working out conditions that will enable everyone to enjoy the right to live peacefully within national borders;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_263" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_263__content">
+          <p xml:space="preserve">	<span class="italic">Strongly condemns</span> the repeated harassment of Radio Okapi staff and <span class="italic">demands</span> that all parties concerned desist from such actions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_286" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_286__content">
+          <p xml:space="preserve">	<span class="italic">Reiterates</span> its full support for the Special Representative of the Secretary-General and for all the dedicated MONUC personnel who operate in challenging conditions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_310" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_310__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

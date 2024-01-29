@@ -1,0 +1,581 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/"></FRBRuri>
+          <FRBRdate date="2002-11-08" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/eng@/"></FRBRuri>
+          <FRBRdate date="2002-11-08" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-08-07" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="7" href="http://metadata.un.org/sdg/7" showAs="sdg_7" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_energy" href="http://metadata.un.org/thesaurus/1006320" showAs="sustainable_energy" dictionary="UNBIS"></keyword>
+        <keyword value="66_energy" href="http://eurovoc.europa.eu/100159" showAs="66_energy" dictionary="EuroVoc"></keyword>
+        <keyword value="energy_market" href="http://eurovoc.europa.eu/4886" showAs="energy_market" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Monitoring, Verification and Inspection Commission" showAs="UN Monitoring, Verification and Inspection Commission" dictionary="DHLAUTH"></keyword>
+        <keyword value="IAEA" showAs="IAEA" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council" showAs="UN. Security Council" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN Monitoring, Verification and Inspection Commission. Executive Chair" showAs="UN Monitoring, Verification and Inspection Commission. Executive Chair" dictionary="DHLAUTH"></keyword>
+        <keyword value="IAEA. Director General" showAs="IAEA. Director General" dictionary="DHLAUTH"></keyword>
+        <keyword value="Convention on the Privileges and Immunities of the United Nations (1946)" showAs="Convention on the Privileges and Immunities of the United Nations (1946)" dictionary="DHLAUTH"></keyword>
+        <keyword value="SANCTIONS" showAs="SANCTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ON-SITE INSPECTION" showAs="ON-SITE INSPECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="VERIFICATION" showAs="VERIFICATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISARMAMENT" showAs="DISARMAMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF MOVEMENT" showAs="FREEDOM OF MOVEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NUCLEAR FACILITIES" showAs="NUCLEAR FACILITIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="IRAQ" showAs="IRAQ" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WEAPONS OF MASS DESTRUCTION" showAs="WEAPONS OF MASS DESTRUCTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DECLARATIONS" showAs="DECLARATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHEMICAL WEAPONS" showAs="CHEMICAL WEAPONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BIOLOGICAL WEAPONS" showAs="BIOLOGICAL WEAPONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NUCLEAR WEAPONS" showAs="NUCLEAR WEAPONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BALLISTIC MISSILES" showAs="BALLISTIC MISSILES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EQUIPMENT AND SUPPLIES" showAs="EQUIPMENT AND SUPPLIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERVIEWING" showAs="INTERVIEWING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="EXPERTS" showAs="EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DATA COLLECTION" showAs="DATA COLLECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PRIVILEGES AND IMMUNITIES" showAs="PRIVILEGES AND IMMUNITIES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SECURITY AND SAFETY STAFF" showAs="SECURITY AND SAFETY STAFF" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRANSIT" showAs="TRANSIT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WEAPONS DESTRUCTION" showAs="WEAPONS DESTRUCTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WEAPONS SYSTEMS" showAs="WEAPONS SYSTEMS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFF SECURITY" showAs="STAFF SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NOTIFICATION (INTERNATIONAL RELATIONS)" showAs="NOTIFICATION (INTERNATIONAL RELATIONS)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPORT PREPARATION" showAs="REPORT PREPARATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL SECURITY" showAs="INTERNATIONAL SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[120]" showAs="IRAQ-KUWAIT SITUATION" dictionary="S/57"></keyword>
+        <keyword value="X" dictionary="S/" showAs="The situation between Iraq and Kuwait." refersTo="agenda"/>
+        <keyword refersTo="title" value="Security Council resolution 1441 (2002) [on decision to set up an enhanced inspection regime to ensure Iraq's compliance of its disarmament obligations]" showAs="Security Council resolution 1441 (2002) [on decision to set up an enhanced inspection regime to ensure Iraq's compliance of its disarmament obligations]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2002-11-07" outcome="draftResolution" as="S/2002/1198" by="United Kingdom of Great Britain and Northern Ireland and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2002-11-08" outcome="adopted" as="S/PV.4644" by="Adopted unanimously, 4644th meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">CAMEROON</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">COLOMBIA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">IRELAND</organization>
+                <organization refersTo="memberState">MAURITIUS</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">NORWAY</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SINGAPORE</organization>
+                <organization refersTo="memberState">SYRIAN ARAB REPUBLIC</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">02-68226 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1441 (2002)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2002-11-08" class="rightSmall" refersTo="#dateOfIssuance">8 November 2002</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1441 (2002)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="4644th">4644th meeting</inline>, on<docDate date="2002-11-08" refersTo="#adoptionDate">8 November 2002</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recalling </span>all its previous relevant resolutions, in particular its resolutions 661 (1990) of 6 August 1990, 678 (1990) of 29 November 1990, 686 (1991) of 2 March 1991, 687 (1991) of 3 April 1991, 688 (1991) of 5 April 1991, 707 (1991) of 15 August 1991, 715 (1991) of 11 October 1991, 986 (1995) of 14 April 1995, and 1284 (1999) of 17 December 1999, and all the relevant statements of its President,</p>
+      </container>
+      <container name="Recalling also" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recalling also </span>its resolution 1382 (2001) of 29 November 2001 and its intention to implement it fully,</p>
+      </container>
+      <container name="Recognizing" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recognizing </span>the threat Iraq’s non‑compliance with Council resolutions and proliferation of weapons of mass destruction and long-range missiles poses to international peace and security,</p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Recalling </span>that its resolution 678 (1990) authorized Member States to use all necessary means to uphold and implement its resolution 660 (1990) of 2 August 1990 and all relevant resolutions subsequent to resolution 660 (1990) and to restore international peace and security in the area,</p>
+      </container>
+      <container name="Further recalling" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Further recalling </span>that its resolution 687 (1991) imposed obligations on Iraq as a necessary step for achievement of its stated objective of restoring international peace and security in the area,</p>
+      </container>
+      <container name="Deploring" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Deploring </span>the fact that Iraq has not provided an accurate, full, final, and complete disclosure, as required by resolution 687 (1991), of all aspects of its programmes to develop weapons of mass destruction and ballistic missiles with a range greater than one hundred and fifty kilometres, and of all holdings of such weapons, their components and production facilities and locations, as well as all other nuclear programmes, including any which it claims are for purposes not related to nuclear-weapons-usable material,</p>
+      </container>
+      <container name="Deploring further" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Deploring further </span>that Iraq repeatedly obstructed immediate, unconditional, and unrestricted access to sites designated by the United Nations Special Commission (UNSCOM) and the International Atomic Energy Agency (IAEA), failed to cooperate fully and unconditionally with UNSCOM and IAEA weapons inspectors, as required by resolution 687 (1991), and ultimately ceased all cooperation with UNSCOM and the IAEA in 1998,</p>
+      </container>
+      <container name="Deploring" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Deploring </span>the absence, since December 1998, in Iraq of international monitoring, inspection, and verification, as required by relevant resolutions, of weapons of mass destruction and ballistic missiles, in spite of the Council’s repeated demands that Iraq provide immediate, unconditional, and unrestricted access to the United Nations Monitoring, Verification and Inspection Commission (UNMOVIC), established in resolution 1284 (1999) as the successor organization to UNSCOM, and the IAEA, and regretting the consequent prolonging of the crisis in the region and the suffering of the Iraqi people,</p>
+      </container>
+      <container name="Deploring also" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Deploring also </span>that the Government of Iraq has failed to comply with its commitments pursuant to resolution 687 (1991) with regard to terrorism, pursuant to resolution 688 (1991) to end repression of its civilian population and to provide access by international humanitarian organizations to all those in need of assistance in Iraq, and pursuant to resolutions 686 (1991), 687 (1991), and 1284 (1999) to return or cooperate in accounting for Kuwaiti and third country nationals wrongfully detained by Iraq, or to return Kuwaiti property wrongfully seized by Iraq,</p>
+      </container>
+      <container name="Recalling" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Recalling </span>that in its resolution 687 (1991) the Council declared that a ceasefire would be based on acceptance by Iraq of the provisions of that resolution, including the obligations on Iraq contained therein,</p>
+      </container>
+      <container name="Determined" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Determined </span>to ensure full and immediate compliance by Iraq without conditions or restrictions with its obligations under resolution 687 (1991) and other relevant resolutions and recalling that the resolutions of the Council constitute the governing standard of Iraqi compliance,</p>
+      </container>
+      <container name="Recalling" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Recalling </span>that the effective operation of UNMOVIC, as the successor organization to the Special Commission, and the IAEA is essential for the implementation of resolution 687 (1991) and other relevant resolutions,</p>
+      </container>
+      <container name="Noting" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that the letter dated 16 September 2002 from the Minister for Foreign Affairs of Iraq addressed to the Secretary-General is a necessary first step toward rectifying Iraq’s continued failure to comply with relevant Council resolutions,</p>
+      </container>
+      <container name="Noting further" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Noting further </span>the letter dated 8 October 2002 from the Executive Chairman of UNMOVIC and the Director-General of the IAEA to General Al-Saadi of the Government of Iraq laying out the practical arrangements, as a follow-up to their meeting in Vienna, that are prerequisites for the resumption of inspections in Iraq by UNMOVIC and the IAEA, and expressing the gravest concern at the continued failure by the Government of Iraq to provide confirmation of the arrangements as laid out in that letter,</p>
+      </container>
+      <container name="Reaffirming" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Reaffirming </span>the commitment of all Member States to the sovereignty and territorial integrity of Iraq, Kuwait, and the neighbouring States, </p>
+      </container>
+      <container name="Commending" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Commending</span> the Secretary-General and members of the League of Arab States and its Secretary-General for their efforts in this regard,</p>
+      </container>
+      <container name="Determined" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Determined </span>to secure full compliance with its decisions,</p>
+      </container>
+      <container name="Acting" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Acting </span>under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>that Iraq has been and remains in material breach of its obligations under relevant resolutions, including resolution 687 (1991), in particular through Iraq’s failure to cooperate with United Nations inspectors and the IAEA, and to complete the actions required under paragraphs 8 to 13 of resolution 687 (1991);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span>, while acknowledging paragraph 1 above, to afford Iraq, by this resolution, a final opportunity to comply with its disarmament obligations under relevant resolutions of the Council; and accordingly decides to set up an enhanced inspection regime with the aim of bringing to full and verified completion the disarmament process established by resolution 687 (1991) and subsequent resolutions of the Council;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>that, in order to begin to comply with its disarmament obligations, in addition to submitting the required biannual declarations, the Government of Iraq shall provide to UNMOVIC, the IAEA, and the Council, not later than 30 days from the date of this resolution, a currently accurate, full, and complete declaration of all aspects of its programmes to develop chemical, biological, and nuclear weapons, ballistic missiles, and other delivery systems such as unmanned aerial vehicles and dispersal systems designed for use on aircraft, including any holdings and precise locations of such weapons, components, sub-components, stocks of agents, and related material and equipment, the locations and work of its research, development and production facilities, as well as all other chemical, biological, and nuclear programmes, including any which it claims are for purposes not related to weapon production or material;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>that false statements or omissions in the declarations submitted by Iraq pursuant to this resolution and failure by Iraq at any time to comply with, and cooperate fully in the implementation of, this resolution shall constitute a further material breach of Iraq’s obligations and will be reported to the Council for assessment in accordance with paragraphs 11 and 12 below;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>that Iraq shall provide UNMOVIC and the IAEA immediate, unimpeded, unconditional, and unrestricted access to any and all, including underground, areas, facilities, buildings, equipment, records, and means of transport which they wish to inspect, as well as immediate, unimpeded, unrestricted, and private access to all officials and other persons whom UNMOVIC or the IAEA wish to interview in the mode or location of UNMOVIC’s or the IAEA’s choice pursuant to any aspect of their mandates; further decides that UNMOVIC and the IAEA may at their discretion conduct interviews inside or outside of Iraq, may facilitate the travel of those interviewed and family members outside of Iraq, and that, at the sole discretion of UNMOVIC and the IAEA, such interviews may occur without the presence of observers from the Iraqi Government; and instructs UNMOVIC and requests the IAEA to resume inspections no later than 45 days following adoption of this resolution and to update the Council 60 days thereafter;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve">	<span class="italic">Endorses </span>the 8 October 2002 letter from the Executive Chairman of UNMOVIC and the Director-General of the IAEA to General Al-Saadi of the Government of Iraq, which is annexed hereto, and decides that the contents of the letter shall be binding upon Iraq;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="SingleTxt">
+        <num>7.</num>
+        <list eId="para_41_list">
+          <intro eId="para_41_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides </span>further that, in view of the prolonged interruption by Iraq of the presence of UNMOVIC and the IAEA and in order for them to accomplish the tasks set forth in this resolution and all previous relevant resolutions and notwithstanding prior understandings, the Council hereby establishes the following revised or additional authorities, which shall be binding upon Iraq, to facilitate their work in Iraq:</p>
+          </intro>
+          <point eId="para_41_list_point_1">
+            <num>–</num>
+            <content eId="para_41_list_point_1_content">
+              <p xml:space="preserve">	UNMOVIC and the IAEA shall determine the composition of their inspection teams and ensure that these teams are composed of the most qualified and experienced experts available;</p>
+            </content>
+          </point>
+          <point eId="para_41_list_point_2">
+            <num>–</num>
+            <content eId="para_41_list_point_2_content">
+              <p xml:space="preserve">	All UNMOVIC and IAEA personnel shall enjoy the privileges and immunities, corresponding to those of experts on mission, provided in the Convention on Privileges and Immunities of the United Nations and the Agreement on the Privileges and Immunities of the IAEA;</p>
+            </content>
+          </point>
+          <point eId="para_41_list_point_3">
+            <num>–</num>
+            <content eId="para_41_list_point_3_content">
+              <p xml:space="preserve">	UNMOVIC and the IAEA shall have unrestricted rights of entry into and out of Iraq, the right to free, unrestricted, and immediate movement to and from inspection sites, and the right to inspect any sites and buildings, including immediate, unimpeded, unconditional, and unrestricted access to Presidential Sites equal to that at other sites, notwithstanding the provisions of resolution 1154 (1998) of 2 March 1998;</p>
+            </content>
+          </point>
+          <point eId="para_41_list_point_4">
+            <num>–</num>
+            <content eId="para_41_list_point_4_content">
+              <p xml:space="preserve">	UNMOVIC and the IAEA shall have the right to be provided by Iraq the names of all personnel currently and formerly associated with Iraq’s chemical, biological, nuclear, and ballistic missile programmes and the associated research, development, and production facilities;</p>
+            </content>
+          </point>
+          <point eId="para_41_list_point_5">
+            <num>–</num>
+            <content eId="para_41_list_point_5_content">
+              <p xml:space="preserve">	Security of UNMOVIC and IAEA facilities shall be ensured by sufficient United Nations security guards;</p>
+            </content>
+          </point>
+          <point eId="para_41_list_point_6">
+            <num>–</num>
+            <content eId="para_41_list_point_6_content">
+              <p xml:space="preserve">	UNMOVIC and the IAEA shall have the right to declare, for the purposes of freezing a site to be inspected, exclusion zones, including surrounding areas and transit corridors, in which Iraq will suspend ground and aerial movement so that nothing is changed in or taken out of a site being inspected;</p>
+            </content>
+          </point>
+          <point eId="para_41_list_point_7">
+            <num>–</num>
+            <content eId="para_41_list_point_7_content">
+              <p xml:space="preserve">	UNMOVIC and the IAEA shall have the free and unrestricted use and landing of fixed- and rotary-winged aircraft, including manned and unmanned reconnaissance vehicles;</p>
+            </content>
+          </point>
+          <point eId="para_41_list_point_8">
+            <num>–</num>
+            <content eId="para_41_list_point_8_content">
+              <p xml:space="preserve">	UNMOVIC and the IAEA shall have the right at their sole discretion verifiably to remove, destroy, or render harmless all prohibited weapons, subsystems, components, records, materials, and other related items, and the right to impound or close any facilities or equipment for the production thereof; and</p>
+            </content>
+          </point>
+          <point eId="para_41_list_point_9">
+            <num>–</num>
+            <content eId="para_41_list_point_9_content">
+              <p xml:space="preserve">	UNMOVIC and the IAEA shall have the right to free import and use of equipment or materials for inspections and to seize and export any equipment, materials, or documents taken during inspections, without search of UNMOVIC or IAEA personnel or official or personal baggage;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_48" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>further that Iraq shall not take or threaten hostile acts directed against any representative or personnel of the United Nations or the IAEA or of any Member State taking action to uphold any Council resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_56__content">
+          <p xml:space="preserve">	<span class="italic">Requests </span>the Secretary-General immediately to notify Iraq of this resolution, which is binding on Iraq; demands that Iraq confirm within seven days of that notification its intention to comply fully with this resolution; and demands further that Iraq cooperate immediately, unconditionally, and actively with UNMOVIC and the IAEA;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_65" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">	<span class="italic">Requests </span>all Member States to give full support to UNMOVIC and the IAEA in the discharge of their mandates, including by providing any information related to prohibited programmes or other aspects of their mandates, including on Iraqi attempts since 1998 to acquire prohibited items, and by recommending sites to be inspected, persons to be interviewed, conditions of such interviews, and data to be collected, the results of which shall be reported to the Council by UNMOVIC and the IAEA;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve">	<span class="italic">Directs </span>the Executive Chairman of UNMOVIC and the Director-General of the IAEA to report immediately to the Council any interference by Iraq with inspection activities, as well as any failure by Iraq to comply with its disarmament obligations, including its obligations regarding inspections under this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>to convene immediately upon receipt of a report in accordance with paragraphs 4 or 11 above, in order to consider the situation and the need for full compliance with all of the relevant Council resolutions in order to secure international peace and security;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_98" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_98__content">
+          <p xml:space="preserve">	<span class="italic">Recalls</span>, in that context, that the Council has repeatedly warned Iraq that it will face serious consequences as a result of its continued violations of its obligations;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_111" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_111__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>to remain seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/"></FRBRuri>
+                <FRBRdate date="2002-11-08" name="adoption"></FRBRdate>
+                <FRBRauthor href="sc" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/eng@/"></FRBRuri>
+                <FRBRdate date="2002-11-08" name="publication"></FRBRdate>
+                <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unsc/2002-11-08/1441-2002/eng@.xml"></FRBRuri>
+                <FRBRdate date="2023-08-07" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_112" class="H1">
+              <heading>Annex</heading>
+            </paragraph>
+            <paragraph eId="para_113" class="H1">
+              <heading>Text of Blix/El-Baradei letter</heading>
+            </paragraph>
+            <container name="table" eId="container_114">
+              <table eId="container_114_table_1" akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="0-auto">
+                <tr>
+                  <td akn4un:data-width-type="4500-dxa" akn4un:data-justification="Center">
+                    <p>
+                      <span class="bold"> United Nations Monitoring, Verification and Inspection Commission </span>
+                    </p>
+                    <p>
+                      <span class="bold">The Executive Chairman</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="5310-dxa" akn4un:data-justification="Center">
+                    <p>
+                      <span class="bold">International Atomic Energy Agency</span>
+                    </p>
+                    <p>
+                      <span class="bold">The Director General</span>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </container>
+            <paragraph eId="para_115" class="MercuryDocument">
+              <content eId="para_115__content">
+                <p xml:space="preserve">8 October 2002</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116" class="MercuryDocument">
+              <content eId="para_116__content">
+                <p xml:space="preserve">Dear General Al-Saadi,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117" class="BodyText">
+              <content eId="para_117__content">
+                <p xml:space="preserve">	During our recent meeting in Vienna, we discussed practical arrangements that are prerequisites for the resumption of inspections in Iraq by UNMOVIC and the IAEA. As you recall, at the end of our meeting in Vienna we agreed on a statement which listed some of the principal results achieved, particularly Iraq’s acceptance of all the rights of inspection provided for in all of the relevant Security Council resolutions. This acceptance was stated to be without any conditions attached.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118" class="MercuryDocument">
+              <content eId="para_118__content">
+                <p xml:space="preserve">	During our 3 October 2002 briefing to the Security Council, members of the Council suggested that we prepare a written document on all of the conclusions we reached in Vienna. This letter lists those conclusions and seeks your confirmation thereof. We shall report accordingly to the Security Council.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119" class="MercuryDocument">
+              <content eId="para_119__content">
+                <p xml:space="preserve">	In the statement at the end of the meeting, it was clarified that UNMOVIC and the IAEA will be granted immediate, unconditional and unrestricted access to sites, including what was termed “sensitive sites” in the past. As we noted, however, eight presidential sites have been the subject of special procedures under a Memorandum of Understanding of 1998. Should these sites be subject, as all other sites, to immediate, unconditional and unrestricted access, UNMOVIC and the IAEA would conduct inspections there with the same professionalism.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120" class="MercuryDocument">
+              <num>H.E.</num>
+              <content eId="para_120__content">
+                <p xml:space="preserve"> General Amir H. Al-Saadi Advisor Presidential Office Baghdad</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121" class="MercuryDocument">
+              <content eId="para_121__content">
+                <p xml:space="preserve">Iraq</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122" class="MercuryDocument">
+              <content eId="para_122__content">
+                <p xml:space="preserve"> 	We confirm our understanding that UNMOVIC and the IAEA have the right to determine the number of inspectors required for access to any particular site. This determination will be made on the basis of the size and complexity of the site being inspected. We also confirm that Iraq will be informed of the designation of additional sites, i.e. sites not declared by Iraq or previously inspected by either UNSCOM or the IAEA, through a Notification of Inspection (NIS) provided upon arrival of the inspectors at such sites.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123" class="MercuryDocument">
+              <content eId="para_123__content">
+                <p xml:space="preserve">	Iraq will ensure that no proscribed material, equipment, records or other relevant items will be destroyed except in the presence of UNMOVIC and/or IAEA inspectors, as appropriate, and at their request.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124" class="MercuryDocument">
+              <content eId="para_124__content">
+                <p xml:space="preserve">	UNMOVIC and the IAEA may conduct interviews with any person in Iraq whom they believe may have information relevant to their mandate. Iraq will facilitate such interviews. It is for UNMOVIC and the IAEA to choose the mode and location for interviews.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125" class="MercuryDocument">
+              <content eId="para_125__content">
+                <p xml:space="preserve">	The National Monitoring Directorate (NMD) will, as in the past, serve as the Iraqi counterpart for the inspectors. The Baghdad Ongoing Monitoring and Verification Centre (BOMVIC) will be maintained on the same premises and under the same conditions as was the former Baghdad Monitoring and Verification Centre. The NMD will make available services as before, cost free, for the refurbishment of the premises.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126" class="BodyText">
+              <content eId="para_126__content">
+                <p xml:space="preserve">	The NMD will provide free of cost: (a) escorts to facilitate access to sites to be inspected and communication with personnel to be interviewed; (b) a hotline for BOMVIC which will be staffed by an English speaking person on a 24 hour a day/seven days a week basis; (c) support in terms of personnel and ground transportation within the country, as requested; and (d) assistance in the movement of materials and equipment at inspectors’ request (construction, excavation equipment, etc.). NMD will also ensure that escorts are available in the event of inspections outside normal working hours, including at night and on holidays.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127" class="MercuryDocument">
+              <content eId="para_127__content">
+                <p xml:space="preserve">	Regional UNMOVIC/IAEA offices may be established, for example, in Basra and Mosul, for the use of their inspectors. For this purpose, Iraq will provide, without cost, adequate office buildings, staff accommodation, and appropriate escort personnel.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128" class="MercuryDocument">
+              <content eId="para_128__content">
+                <p xml:space="preserve">	UNMOVIC and the IAEA may use any type of voice or data transmission, including satellite and/or inland networks, with or without encryption capability. UNMOVIC and the IAEA may also install equipment in the field with the capability for transmission of data directly to the BOMVIC, New York and Vienna (e.g. sensors, surveillance cameras). This will be facilitated by Iraq and there will be no interference by Iraq with UNMOVIC or IAEA communications.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129" class="MercuryDocument">
+              <content eId="para_129__content">
+                <p xml:space="preserve">	Iraq will provide, without cost, physical protection of all surveillance equipment, and construct antennae for remote transmission of data, at the request of UNMOVIC and the IAEA. Upon request by UNMOVIC through the NMD, Iraq will allocate frequencies for communications equipment.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130" class="MercuryDocument">
+              <content eId="para_130__content">
+                <p xml:space="preserve">	Iraq will provide security for all UNMOVIC and IAEA personnel. Secure and suitable accommodations will be designated at normal rates by Iraq for these personnel. For their part, UNMOVIC and the IAEA will require that their staff not stay at any accommodation other than those identified in consultation with Iraq.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131" class="BodyText">
+              <content eId="para_131__content">
+                <p xml:space="preserve">	On the use of fixed-wing aircraft for transport of personnel and equipment and for inspection purposes, it was clarified that aircraft used by UNMOVIC and IAEA staff arriving in Baghdad may land at Saddam International Airport. The points of departure of incoming aircraft will be decided by UNMOVIC. The Rasheed airbase will continue to be used for UNMOVIC and IAEA helicopter operations. UNMOVIC and Iraq will establish air liaison offices at the airbase. At both Saddam International Airport and Rasheed airbase, Iraq will provide the necessary support premises and facilities. Aircraft fuel will be provided by Iraq, as before, free of charge.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_132" class="BodyText">
+              <content eId="para_132__content">
+                <p xml:space="preserve">	On the wider issue of air operations in Iraq, both fixed-wing and rotary, Iraq will guarantee the safety of air operations in its air space outside the no-fly zones. With regard to air operations in the no-fly zones, Iraq will take all steps within its control to ensure the safety of such operations. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_133" class="MercuryDocument">
+              <content eId="para_133__content">
+                <p xml:space="preserve">	Helicopter flights may be used, as needed, during inspections and for technical activities, such as gamma detection, without limitation in all parts of Iraq and without any area excluded. Helicopters may also be used for medical evacuation.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_134" class="BodyText">
+              <content eId="para_134__content">
+                <p xml:space="preserve">	On the question of aerial imagery, UNMOVIC may wish to resume the use of U-2 or Mirage overflights. The relevant practical arrangements would be similar to those implemented in the past. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135" class="MercuryDocument">
+              <content eId="para_135__content">
+                <p xml:space="preserve">	As before, visas for all arriving staff will be issued at the point of entry on the basis of the UN Laissez-Passer or UN Certificate; no other entry or exit formalities will be required. The aircraft passenger manifest will be provided one hour in advance of the arrival of the aircraft in Baghdad. There will be no searching of UNMOVIC or IAEA personnel or of official or personal baggage. UNMOVIC and the IAEA will ensure that their personnel respect the laws of Iraq restricting the export of certain items, for example, those related to Iraq’s national cultural heritage. UNMOVIC and the IAEA may bring into, and remove from, Iraq all of the items and materials they require, including satellite phones and other equipment. With respect to samples, UNMOVIC and IAEA will, where feasible, split samples so that Iraq may receive a portion while another portion is kept for reference purposes. Where appropriate, the organizations will send the samples to more than one laboratory for analysis.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136" class="MercuryDocument">
+              <content eId="para_136__content">
+                <p xml:space="preserve">	We would appreciate your confirmation of the above as a correct reflection of our talks in Vienna.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137" class="MercuryDocument">
+              <content eId="para_137__content">
+                <p xml:space="preserve">	Naturally, we may need other practical arrangements when proceeding with inspections. We would expect in such matters, as with the above, Iraq’s co-operation in all respect. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138" class="MercuryDocument">
+              <content eId="para_138__content">
+                <p xml:space="preserve">														Yours sincerely,</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139" class="MercuryDocument">
+              <content eId="para_139__content">
+                <p xml:space="preserve">(<span class="italic">Signed</span>)													(<span class="italic">Signed</span>) Hans <span class="bold">Blix</span>													Mohamed <span class="bold">ElBaradei</span> Executive Chairman											Director General United Nations Monitoring,									International Atomic Energy Agency Verification and Inspection Commission</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
