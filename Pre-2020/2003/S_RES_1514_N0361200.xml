@@ -1,0 +1,187 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2003-11-13/1514-2003/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2003-11-13/1514-2003/"></FRBRuri>
+          <FRBRdate date="2003-11-13" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2003-11-13/1514-2003/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2003-11-13/1514-2003/eng@/"></FRBRuri>
+          <FRBRdate date="2003-11-13" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2003-11-13/1514-2003/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2003-11-13/1514-2003/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-08-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN Mission in Côte d'Ivoire" showAs="UN Mission in Côte d'Ivoire" dictionary="DHLAUTH"></keyword>
+        <keyword value="SPECIAL MISSIONS" showAs="SPECIAL MISSIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEBUILDING" showAs="PEACEBUILDING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CÔTE D'IVOIRE" showAs="CÔTE D'IVOIRE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPORT PREPARATION" showAs="REPORT PREPARATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[196]" showAs="CÔTE D'IVOIRE--POLITICAL CONDITIONS" dictionary="S/58"></keyword>
+        <keyword refersTo="agenda" value="[197]" showAs="UN MISSION IN CÔTE D'IVOIRE" dictionary="S/58"></keyword>
+        <keyword value="X" dictionary="S/" showAs="The situation in Côte d’Ivoire." refersTo="agenda"/>
+        <keyword refersTo="title" value="Security Council resolution 1514 (2003) [on extension of the mandate of the UN special political mission in Côte d'Ivoire (MINUCI)]" showAs="Security Council resolution 1514 (2003) [on extension of the mandate of the UN special political mission in Côte d'Ivoire (MINUCI)]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2003-11-12" outcome="draftResolution" as="S/2003/1083" by="" />
+        <step date="2003-11-13" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2003-11-13" outcome="adopted" as="S/PV.4857" by="Adopted unanimously, 4857th meeting" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="015" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ANGOLA</organization>
+                <organization refersTo="memberState">BULGARIA</organization>
+                <organization refersTo="memberState">CAMEROON</organization>
+                <organization refersTo="memberState">CHILE</organization>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">GERMANY</organization>
+                <organization refersTo="memberState">GUINEA</organization>
+                <organization refersTo="memberState">MEXICO</organization>
+                <organization refersTo="memberState">PAKISTAN</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">SPAIN</organization>
+                <organization refersTo="memberState">SYRIAN ARAB REPUBLIC</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">03-61200 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1514 (2003)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2003-11-13" class="rightSmall" refersTo="#dateOfIssuance">13 November 2003</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1514 (2003)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="4857th">4857th meeting</inline>, on<docDate date="2003-09-13" refersTo="#adoptionDate">13 November 2003</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reaffirming </span>its previous resolutions concerning Côte d’Ivoire, in particular its resolution 1479 (2003) of 13 May 2003 which authorized the establishment of a special political mission in Côte d’Ivoire as confirmed in the letter of the Security Council President to the Secretary-General (A/58/535), and its resolutions 1464 (2003) of 4 February 2003 and 1498 (2003) of 4 August 2003,</p>
+      </container>
+      <container name="Having considered" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Having considered </span>the report of the Secretary-General of 4 November 2003 (S/2003/1069),</p>
+      </container>
+      <container name="Reaffirming" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, territorial integrity and unity of Côte d’Ivoire and <span class="italic">reaffirming also</span> its opposition to any attempts to take power by unconstitutional means,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reaffirming also </span>its endorsement of the agreement signed by the Ivorian political forces at Linas-Marcoussis on 24 January 2003 (S/2003/99) (“Linas-Marcoussis Agreement”), approved by the Conference of Heads of State on Côte d’Ivoire held in Paris on 25 and 26 January,</p>
+      </container>
+      <container name="Stressing" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Stressing </span>the urgent need for all parties to participate fully in the Government of National Reconciliation so as to enable it to implement fully all the provisions of the Linas-Marcoussis Agreement,</p>
+      </container>
+      <container name="Stressing also" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Stressing also </span>the importance of the commitment of the Government of National Reconciliation to resume effective administration throughout Côte d’Ivoire and reminding all Ivorian parties of their obligation to contribute positively thereto,</p>
+      </container>
+      <container name="Reaffirming" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Reaffirming </span>the need for the Government of National Reconciliation to commit itself fully and immediately to the Disarmament, Demobilization and Reintegration programme (DDR), including the dismantling of militias, and to the restructuring of the armed forces,</p>
+      </container>
+      <container name="Recalling" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Recalling </span>the importance of the principles of good-neighbourliness, non‑interference and cooperation in the relations between States of the region,</p>
+      </container>
+      <container name="Further recalling" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Further recalling </span>its full support for the efforts of the Economic Community of West African States (ECOWAS) and France to promote a peaceful settlement of the conflict, </p>
+      </container>
+      <container name="Noting" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Noting </span>the continued need for MINUCI in accordance with its resolution 1479 (2003),</p>
+      </container>
+      <container name="Noting with concern" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Noting with concern </span>the continued existence of challenges to the stability of Côte d’Ivoire and <span class="italic">determining</span> that the situation in Côte d’Ivoire continues to constitute a threat to international peace and security in the region,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>that the mandate of the United Nations special political mission in Côte d’Ivoire, MINUCI, shall be extended until 4 February 2004;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Requests </span>the Secretary-General to report to the Security Council by 10 January 2004 on MINUCI’s efforts to facilitate peace and stability in Côte d’Ivoire, including how those efforts might be improved and in particular the possible reinforcement of the United Nations presence in Côte d’Ivoire;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
