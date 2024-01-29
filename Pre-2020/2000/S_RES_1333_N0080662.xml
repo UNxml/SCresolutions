@@ -1,0 +1,536 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-12-19/1333-2000/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-12-19/1333-2000/"></FRBRuri>
+          <FRBRdate date="2000-12-19" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-12-19/1333-2000/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-12-19/1333-2000/eng@/"></FRBRuri>
+          <FRBRdate date="2000-12-19" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-12-19/1333-2000/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-12-19/1333-2000/eng@.xml"></FRBRuri>
+          <FRBRdate date="2023-08-08" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="8" href="http://metadata.un.org/sdg/8" showAs="sdg_8" dictionary="SDGO"></keyword>
+        <keyword value="unemployment" href="http://eurovoc.europa.eu/5974" showAs="unemployment" dictionary="EuroVoc"></keyword>
+        <keyword value="unemployment" href="http://metadata.un.org/thesaurus/1006773" showAs="unemployment" dictionary="UNBIS"></keyword>
+        <keyword value="economic_growth" href="http://eurovoc.europa.eu/310" showAs="economic_growth" dictionary="EuroVoc"></keyword>
+        <keyword value="economic_growth" href="http://metadata.un.org/thesaurus/1001854" showAs="economic_growth" dictionary="UNBIS"></keyword>
+        <keyword value="employment" href="http://metadata.un.org/thesaurus/1002007" showAs="employment" dictionary="UNBIS"></keyword>
+        <keyword value="full_employment" href="http://eurovoc.europa.eu/2427" showAs="full_employment" dictionary="EuroVoc"></keyword>
+        <keyword value="full_employment" href="http://metadata.un.org/thesaurus/1002563" showAs="full_employment" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="http://metadata.un.org/sdg">
+        <keyword value="12" href="http://metadata.un.org/sdg/12" showAs="sdg_12" dictionary="SDGO"></keyword>
+        <keyword value="production" href="http://eurovoc.europa.eu/2707" showAs="production" dictionary="EuroVoc"></keyword>
+        <keyword value="production" href="http://metadata.un.org/thesaurus/1005146" showAs="production" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_consumption" href="http://metadata.un.org/thesaurus/1006318" showAs="sustainable_consumption" dictionary="UNBIS"></keyword>
+        <keyword value="consumption" href="http://eurovoc.europa.eu/139" showAs="consumption" dictionary="EuroVoc"></keyword>
+        <keyword value="consumption" href="http://metadata.un.org/thesaurus/1001264" showAs="consumption" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="Bin Laden, Usama" showAs="Bin Laden, Usama" dictionary="DHLAUTH"></keyword>
+        <keyword value="Taliban (Afghanistan)" showAs="Taliban (Afghanistan)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1267 (1999) concerning Al-Qaida and the Taliban and Associated Individuals and Entities" showAs="UN. Security Council Committee Established pursuant to Resolution 1267 (1999) concerning Al-Qaida and the Taliban and Associated Individuals and Entities" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Security Council Committee Established pursuant to Resolution 1267 (1999) concerning Al-Qaida and the Taliban and Associated Individuals and Entities" showAs="UN. Security Council Committee Established pursuant to Resolution 1267 (1999) concerning Al-Qaida and the Taliban and Associated Individuals and Entities" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Committee of Experts Established pursuant to Security Council Resolution 1333 (2000)" showAs="UN. Committee of Experts Established pursuant to Security Council Resolution 1333 (2000)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Committee of Experts Established pursuant to Security Council Resolution 1333 (2000)" showAs="UN. Committee of Experts Established pursuant to Security Council Resolution 1333 (2000)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UN. Committee of Experts Established pursuant to Security Council Resolution 1333 (2000)" showAs="UN. Committee of Experts Established pursuant to Security Council Resolution 1333 (2000)" dictionary="DHLAUTH"></keyword>
+        <keyword value="Ariana Afghan Airlines" showAs="Ariana Afghan Airlines" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TERRORISM" showAs="TERRORISM" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SANCTIONS" showAs="SANCTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMS EMBARGO" showAs="ARMS EMBARGO" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FROZEN ASSETS" showAs="FROZEN ASSETS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AIR TRAVEL" showAs="AIR TRAVEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="AFGHANISTAN SITUATION" showAs="AFGHANISTAN SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL OBLIGATIONS" showAs="INTERNATIONAL OBLIGATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMS TRANSFERS" showAs="ARMS TRANSFERS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MILITARY ASSISTANCE" showAs="MILITARY ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RELIEF PERSONNEL" showAs="RELIEF PERSONNEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DIPLOMATIC RELATIONS" showAs="DIPLOMATIC RELATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DRUG CONTROL" showAs="DRUG CONTROL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHEMICALS" showAs="CHEMICALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAVEL RESTRICTIONS" showAs="TRAVEL RESTRICTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFF SECURITY" showAs="STAFF SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FREEDOM OF MOVEMENT" showAs="FREEDOM OF MOVEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GROUPS OF EXPERTS" showAs="GROUPS OF EXPERTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SANCTIONS COMPLIANCE" showAs="SANCTIONS COMPLIANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPORT PREPARATION" showAs="REPORT PREPARATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION EXCHANGE" showAs="INFORMATION EXCHANGE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[46]" showAs="AFGHANISTAN SITUATION" dictionary="S/55"></keyword>
+        <keyword value="X" dictionary="S/" showAs="The situation in Afghanistan." refersTo="agenda"/>
+        <keyword refersTo="title" value="Security Council resolution 1333 (2000) [on measures against the Taliban]" showAs="Security Council resolution 1333 (2000) [on measures against the Taliban]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2000-12-19" outcome="draftResolution" as="S/2000/1202" by="India, Kyrgyzstan, Russian Federation, Tajikistan and United States of America" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2000-12-19" outcome="adopted" as="S/PV.4251" by="Adopted 13-0-2, 4251st meeting" refersTo="Chapter VII" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="013" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">ARGENTINA</organization>
+                <organization refersTo="memberState">BANGLADESH</organization>
+                <organization refersTo="memberState">CANADA</organization>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">JAMAICA</organization>
+                <organization refersTo="memberState">MALI</organization>
+                <organization refersTo="memberState">NAMIBIA</organization>
+                <organization refersTo="memberState">NETHERLANDS</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                <organization refersTo="memberState">TUNISIA</organization>
+                <organization refersTo="memberState">UKRAINE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="002" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">MALAYSIA</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCConcept eId="chaptervii" href="/akn/ontology/reference/un/uncharter/chaptervii" showAs="Chapter VII"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">00-80662 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/RES/1333 (2000)</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2000-12-19" class="rightSmall" refersTo="#dateOfIssuance">19 December 2000</docDate>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#resolutionNumber">		Resolution 1333 (2000)</docTitle>
+      </p>
+      <p xml:space="preserve">
+        <docTitle refersTo="#adoption">Adopted by the Security Council at its <inline name="adoptionMeeting" title="4251st">4251st meeting</inline>, on<docDate date="2000-12-19" refersTo="#adoptionDate">19 December 2000</docDate></docTitle>
+      </p>
+    </coverPage>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The Security Council</span>,</p>
+      </formula>
+      <container name="Reaffirming" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its previous resolutions, in particular resolution 1267 (1999) of 15 October 1999 and the statements of its President on the situation in Afghanistan,</p>
+      </container>
+      <container name="Reaffirming" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> its strong commitment to the sovereignty, independence, territorial integrity and national unity of Afghanistan, and its respect for Afghanistan’s cultural and historical heritage,</p>
+      </container>
+      <container name="Recognizing" eId="container_4">
+        <p xml:space="preserve">	<span class="italic">Recognizing</span> the critical humanitarian needs of the Afghan people,</p>
+      </container>
+      <container name="Supporting" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Supporting</span> the efforts of the Personal Representative of the Secretary-General for Afghanistan to advance a peace process through political negotiations between the Afghan parties aimed at the establishment of a broad-based, multi-ethnic, and fully representative government, and <span class="italic">calling for </span>the warring factions to cooperate fully with those efforts to conclude a ceasefire and begin discussions leading to a political settlement, by moving forward promptly in the process of dialogue to which they have committed themselves,</p>
+      </container>
+      <container name="Noting" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the December 2000 meeting of the Afghan Support Group which emphasized that the situation in Afghanistan is a complex one that requires a comprehensive, integrated approach to a peace process and issues of narcotics trafficking, terrorism, human rights, and international humanitarian and development aid,</p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the relevant international counter-terrorism conventions and in particular the obligations of parties to those conventions to extradite or prosecute terrorists,</p>
+      </container>
+      <container name="Strongly condemning" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Strongly condemning</span> the continuing use of the areas of Afghanistan under the control of the Afghan faction known as Taliban, which also calls itself the Islamic Emirate of Afghanistan (hereinafter known as the Taliban), for the sheltering and training of terrorists and planning of terrorist acts, and <span class="italic">reaffirming</span> its conviction that the suppression of international terrorism is essential for the maintenance of international peace and security,</p>
+      </container>
+      <container name="Noting" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the importance of the Taliban acting in accordance with the 1961 Single Convention, the 1971 Convention on Psychotropic Substances, and the 1988 Convention against Illicit Traffic in Narcotic Drugs and Psychotropic Substances, and the commitments of the 1998 Twentieth Special Session of the General Assembly on Narcotic Drugs, including to work closely with the United Nations Drug Control Programme,</p>
+      </container>
+      <container name="Noting" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Noting</span> that the Taliban benefits directly from the cultivation of illicit opium by imposing a tax on its production and indirectly benefits from the processing and trafficking of such opium, and <span class="italic">recognizing</span> that these substantial resources strengthen the Taliban’s capacity to harbour terrorists,</p>
+      </container>
+      <container name="Deploring" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Deploring</span> the fact that the Taliban continues to provide safehaven to Usama bin Laden and to allow him and others associated with him to operate a network of terrorist training camps from Taliban-controlled territory and to use Afghanistan as a base from which to sponsor international terrorist operations,</p>
+      </container>
+      <container name="Noting" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Noting</span> the indictment of Usama bin Laden and his associates by the United States of America for, inter alia, the 7 August 1998 bombings of the United States embassies in Nairobi, Kenya and Dar es Salaam, Tanzania and for conspiring to kill American nationals outside the United States, and <span class="italic">noting also </span>the request of the United States of America to the Taliban to surrender them for trial (S/1999/1021),</p>
+      </container>
+      <container name="Reiterating" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Reiterating</span> its deep concern over the continuing violations of international humanitarian law and of human rights, particularly discrimination against women and girls, and over the significant rise in the illicit production of opium,</p>
+      </container>
+      <container name="Stressing" eId="container_14">
+        <p xml:space="preserve">
+          <span class="italic">	Stressing </span>that the capture by the Taliban of the Consulate-General of the Islamic Republic of Iran and the murder of Iranian diplomats and a journalist in Mazar-e-Sharif constituted flagrant violations of established international law,</p>
+      </container>
+      <container name="Determining" eId="container_15">
+        <p xml:space="preserve">	<span class="italic">Determining</span> that the failure of the Taliban authorities to respond to the demands in paragraph 13 of resolution 1214 (1998) and in paragraph 2 of resolution 1267 (1999) constitutes a threat to international peace and security,</p>
+      </container>
+      <container name="Stressing" eId="container_16">
+        <p xml:space="preserve">	<span class="italic">Stressing</span> its determination to ensure respect for its resolutions,</p>
+      </container>
+      <container name="Reaffirming" eId="container_17">
+        <p xml:space="preserve">	<span class="italic">Reaffirming</span> the necessity for sanctions to contain adequate and effective exemptions to avoid adverse humanitarian consequences on the people of Afghanistan, and that they be structured in a way that will not impede, thwart or delay the work of international humanitarian assistance organizations or governmental relief agencies providing humanitarian assistance to the civilian population in the country,</p>
+      </container>
+      <container name="Underlining" eId="container_18">
+        <p xml:space="preserve">	<span class="italic">Underlining</span> the responsibility of the Taliban for the well-being of the population in the areas of Afghanistan under its control, and in this context <span class="italic">calling on </span>the Taliban to ensure the safe and unhindered access of relief personnel and aid to all those in need in the territory under their control,</p>
+      </container>
+      <container name="Recalling" eId="container_19">
+        <p xml:space="preserve">	<span class="italic">Recalling</span> the relevant principles contained in the Convention on the Safety of United Nations and Associated Personnel adopted by the General Assembly in its resolution 49/59 of 9 December 1994,</p>
+      </container>
+      <container name="Acting" eId="container_20">
+        <p xml:space="preserve">	<span class="italic">Acting</span> under Chapter VII of the Charter of the United Nations,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_21" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve">	<span class="italic">Demands </span>that the Taliban comply with resolution 1267 (1999) and, in particular, cease the provision of sanctuary and training for international terrorists and their organizations, take appropriate effective measures to ensure that the territory under its control is not used for terrorist installations and camps, or for the preparation or organization of terrorist acts against other States or their citizens, and cooperate with international efforts to bring indicted terrorists to justice;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve">	<span class="italic">Demands also </span>that the Taliban comply without further delay with the demand of the Security Council in paragraph 2 of resolution 1267 (1999) that requires the Taliban to turn over Usama bin Laden to appropriate authorities in a country where he has been indicted, or to appropriate authorities in a country where he will be returned to such a country, or to appropriate authorities in a country where he will be arrested and effectively brought to justice;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve">	<span class="italic">Demands further </span>that the Taliban should act swiftly to close all camps where terrorists are trained within the territory under its control, and <span class="italic">calls </span>for the confirmation of such closures by the United Nations, inter alia, through information made available to the United Nations by Member States in accordance with paragraph 19 below and through such other means as are necessary to assure compliance with this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve">	<span class="italic">Reminds </span>all States of their obligation to implement strictly the measures imposed by paragraph 4 of resolution 1267 (1999);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>5.</num>
+        <list eId="para_31_list">
+          <intro eId="para_31_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides </span>that all States shall:</p>
+          </intro>
+          <point eId="para_31_list_point_a">
+            <num>(a)</num>
+            <content eId="para_31_list_point_a_content">
+              <p xml:space="preserve">	Prevent the direct or indirect supply, sale and transfer to the territory of Afghanistan under Taliban control as designated by the Committee established pursuant to resolution 1267 (1999), hereinafter known as the Committee, by their nationals or from their territories, or using their flag vessels or aircraft, of arms and related materiel of all types including weapons and ammunition, military vehicles and equipment, paramilitary equipment, and spare parts for the aforementioned;</p>
+            </content>
+          </point>
+          <point eId="para_31_list_point_b">
+            <num>(b)</num>
+            <content eId="para_31_list_point_b_content">
+              <p xml:space="preserve">	Prevent the direct or indirect sale, supply and transfer to the territory of Afghanistan under Taliban control, as designated by the Committee, by their nationals or from their territories, of technical advice, assistance, or training related to the military activities of the armed personnel under the control of the Taliban;</p>
+            </content>
+          </point>
+          <point eId="para_31_list_point_c">
+            <num>(c)</num>
+            <content eId="para_31_list_point_c_content">
+              <p xml:space="preserve">	Withdraw any of their officials, agents, advisers, and military personnel employed by contract or other arrangement present in Afghanistan to advise the Taliban on military or related security matters, and urge other nationals in this context to leave the country;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_36" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>that the measures imposed by paragraph 5 above shall not apply to supplies of non‑lethal military equipment intended solely for humanitarian or protective use, and related technical assistance or training, as approved in advance by the Committee, and <span class="italic">affirms </span>that the measures imposed by paragraph 5 above do not apply to protective clothing, including flak jackets and military helmets, exported to Afghanistan by United Nations personnel, representatives of the media, and humanitarian workers for their personal use only;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_42" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_42__content">
+          <p xml:space="preserve">	<span class="italic">Urges </span>all States that maintain diplomatic relations with the Taliban to reduce significantly the number and level of the staff at Taliban missions and posts and restrict or control the movement within their territory of all such staff who remain; in the case of Taliban missions to international organizations, the host State may, as it deems necessary, consult the organization concerned on the measures required to implement this paragraph;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49" class="SingleTxt">
+        <num>8.</num>
+        <list eId="para_49_list">
+          <intro eId="para_49_list_intro">
+            <p xml:space="preserve">	<span class="italic">Decides </span>that all States shall take further measures:</p>
+          </intro>
+          <point eId="para_49_list_point_a">
+            <num>(a)</num>
+            <content eId="para_49_list_point_a_content">
+              <p xml:space="preserve">	To close immediately and completely all Taliban offices in their territories;</p>
+            </content>
+          </point>
+          <point eId="para_49_list_point_b">
+            <num>(b)</num>
+            <content eId="para_49_list_point_b_content">
+              <p xml:space="preserve">	To close immediately all offices of Ariana Afghan Airlines in their territories;</p>
+            </content>
+          </point>
+          <point eId="para_49_list_point_c">
+            <num>(c)</num>
+            <content eId="para_49_list_point_c_content">
+              <p xml:space="preserve">	To freeze without delay funds and other financial assets of Usama bin Laden and individuals and entities associated with him as designated by the Committee, including those in the Al-Qaida organization, and including funds derived or generated from property owned or controlled directly or indirectly by Usama bin Laden and individuals and entities associated with him, and to ensure that neither they nor any other funds or financial resources are made available, by their nationals or by any persons within their territory, directly or indirectly for the benefit of Usama bin Laden, his associates or any entities owned or controlled, directly or indirectly, by Usama bin Laden or individuals and entities associated with him including the Al-Qaida organization and <span class="italic">requests </span>the Committee to maintain an updated list, based on information provided by States and regional organizations, of the individuals and entities designated as being associated with Usama bin Laden, including those in the Al-Qaida organization;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_57" class="SingleTxt">
+        <num>9.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve">	<span class="italic">Demands </span>that the Taliban, as well as others, halt all illegal drugs activities and work to virtually eliminate the illicit cultivation of opium poppy, the proceeds of which finance Taliban terrorist activities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_66" class="SingleTxt">
+        <num>10.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve">	<span class="italic">Decides</span> that all States shall prevent the sale, supply or transfer, by their nationals or from their territories, of the chemical acetic anhydride to any person in the territory of Afghanistan under Taliban control as designated by the Committee or to any person for the purpose of any activity carried on in, or operated from, the territory under Taliban control as designated by the Committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="SingleTxt">
+        <num>11.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">Decides also</span> that all States are required to deny any aircraft permission to take off from, land in or over-fly their territories if that aircraft has taken off from, or is destined to land at, a place in the territory of Afghanistan designated by the Committee as being under Taliban control, unless the particular flight has been approved in advance by the Committee on the grounds of humanitarian need, including religious obligations such as the performance of the Hajj, or on the grounds that the flight promotes discussion of a peaceful resolution of the conflict in Afghanistan, or is likely to promote Taliban compliance with this resolution or with resolution 1267 (1999);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="SingleTxt">
+        <num>12.</num>
+        <content eId="para_87__content">
+          <p xml:space="preserve">	<span class="italic">Decides further </span>that the Committee shall maintain a list of approved organizations and governmental relief agencies which are providing humanitarian assistance to Afghanistan, including the United Nations and its agencies, governmental relief agencies providing humanitarian assistance, the International Committee of the Red Cross and non‑governmental organizations as appropriate, that the prohibition imposed by paragraph 11 above shall not apply to humanitarian flights operated by, or on behalf of, organizations and governmental relief agencies on the list approved by the Committee, that the Committee shall keep the list under regular review, adding new organizations and governmental relief agencies as appropriate and that the Committee shall remove organizations and governmental agencies from the list if it decides that they are operating, or are likely to operate, flights for other than humanitarian purposes, and shall notify such organizations and governmental agencies immediately that any flights operated by them, or on their behalf, are thereby subject to the provisions of paragraph 11 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_99" class="SingleTxt">
+        <num>13.</num>
+        <content eId="para_99__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> the Taliban to ensure the safe and unhindered access of relief personnel and aid to all those in need in the territory under their control, and <span class="italic">underlines</span> that the Taliban must provide guarantees for the safety, security and freedom of movement for United Nations and associated humanitarian relief personnel;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_112" class="SingleTxt">
+        <num>14.</num>
+        <content eId="para_112__content">
+          <p xml:space="preserve">	<span class="italic">Urges </span>States to take steps to restrict the entry into or transit through their territory of all senior officials of the rank of Deputy Minister or higher in the Taliban, the equivalent rank of armed personnel under the control of the Taliban, and other senior advisers and dignitaries of the Taliban, unless those officials are travelling for humanitarian purposes, including religious obligation such as the performance of the Hajj, or where the travel promotes discussion of a peaceful resolution of the conflict in Afghanistan or involves compliance with this resolution or resolution 1267 (1999);</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_126" class="SingleTxt">
+        <num>15.</num>
+        <list eId="para_126_list">
+          <intro eId="para_126_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests </span>the Secretary-General in consultation with the Committee:</p>
+          </intro>
+          <point eId="para_126_list_point_a">
+            <num>(a)</num>
+            <content eId="para_126_list_point_a_content">
+              <p xml:space="preserve">	To appoint a committee of experts to make recommendations to the Council within sixty days of the adoption of this resolution regarding how the arms embargo and the closure of terrorist training camps demanded in paragraphs 3 and 5 above can be monitored, including inter alia the use of information obtained by Member States through their national means and provided by them to the Secretary-General;</p>
+            </content>
+          </point>
+          <point eId="para_126_list_point_b">
+            <num>(b)</num>
+            <content eId="para_126_list_point_b_content">
+              <p xml:space="preserve">	To consult with relevant Member States to put into effect the measures imposed by this resolution and resolution 1267 (1999) and report the results of such consultations to the Council;</p>
+            </content>
+          </point>
+          <point eId="para_126_list_point_c">
+            <num>(c)</num>
+            <content eId="para_126_list_point_c_content">
+              <p xml:space="preserve">	To report on the implementation of the existing measures, assess problems in enforcing these measures, make recommendations for strengthening enforcement, and evaluate actions of the Taliban to come into compliance;</p>
+            </content>
+          </point>
+          <point eId="para_126_list_point_d">
+            <num>(d)</num>
+            <content eId="para_126_list_point_d_content">
+              <p xml:space="preserve">	To review the humanitarian implications of the measures imposed by this resolution and resolution 1267 (1999), and to report back to the Council within 90 days of the adoption of this resolution with an assessment and recommendations, to report at regular intervals thereafter on any humanitarian implications and to present a comprehensive report on this issue and any recommendations no later than 30 days prior to the expiration of these measures;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_141" class="SingleTxt">
+        <num>16.</num>
+        <list eId="para_141_list">
+          <intro eId="para_141_list_intro">
+            <p xml:space="preserve">	<span class="italic">Requests </span>the Committee to fulfil its mandate by undertaking the following tasks in addition to those set out in resolution 1267 (1999):</p>
+          </intro>
+          <point eId="para_141_list_point_a">
+            <num>(a)</num>
+            <content eId="para_141_list_point_a_content">
+              <p xml:space="preserve">	To establish and maintain updated lists based on information provided by States, regional, and international organizations of all points of entry and landing areas for aircraft within the territory of Afghanistan under control by the Taliban and to notify Member States of the contents of such lists;</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_b">
+            <num>(b)</num>
+            <content eId="para_141_list_point_b_content">
+              <p xml:space="preserve">	To establish and maintain updated lists, based on information provided by States and regional organizations, of individuals and entities designated as being associated with Usama bin Laden, in accordance with paragraph 8 (c) above;</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_c">
+            <num>(c)</num>
+            <content eId="para_141_list_point_c_content">
+              <p xml:space="preserve">	To give consideration to, and decide upon, requests for the exceptions set out in paragraphs 6 and 11 above;</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_d">
+            <num>(d)</num>
+            <content eId="para_141_list_point_d_content">
+              <p xml:space="preserve">	To establish no later than one month after the adoption of this resolution and maintain an updated list of approved organizations and governmental relief agencies which are providing humanitarian assistance to Afghanistan, in accordance with paragraph 12 above;</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_e">
+            <num>(e)</num>
+            <content eId="para_141_list_point_e_content">
+              <p xml:space="preserve">	To make relevant information regarding implementation of these measures publicly available through appropriate media, including through the improved use of information technology;</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_f">
+            <num>(f)</num>
+            <content eId="para_141_list_point_f_content">
+              <p xml:space="preserve">	To consider, where and when appropriate, a visit to countries in the region by the Chairman of the Committee and such other members as may be required to enhance the full and effective implementation of the measures imposed by this resolution and resolution 1267 (1999) with a view to urging States to comply with relevant Council resolutions;</p>
+            </content>
+          </point>
+          <point eId="para_141_list_point_g">
+            <num>(g)</num>
+            <content eId="para_141_list_point_g_content">
+              <p xml:space="preserve">	To make periodic reports to the Council on information submitted to it regarding this resolution and resolution 1267 (1999), including possible violations of the measures reported to the Committee and recommendations for strengthening the effectiveness of these measures;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_157" class="SingleTxt">
+        <num>17.</num>
+        <content eId="para_157__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>all States and all international and regional organizations, including the United Nations and its specialized agencies, to act strictly in accordance with the provisions of this resolution, notwithstanding the existence of any rights or obligations conferred or imposed by any international agreement or any contract entered into or any licence or permit granted prior to the date of coming into force of the measures imposed by paragraphs 5, 8, 10 and 11 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_174" class="SingleTxt">
+        <num>18.</num>
+        <content eId="para_174__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon</span> States to bring proceedings against persons and entities within their jurisdiction that violate the measures imposed by paragraphs 5, 8, 10 and 11 above and to impose appropriate penalties;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_192" class="SingleTxt">
+        <num>19.</num>
+        <content eId="para_192__content">
+          <p xml:space="preserve">	<span class="italic">Calls upon </span>all States to cooperate fully with the Committee in the fulfilment of its tasks, including supplying such information as may be required by the Committee in pursuance of this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_211" class="SingleTxt">
+        <num>20.</num>
+        <content eId="para_211__content">
+          <p xml:space="preserve">	<span class="italic">Requests </span>all States to report to the Committee within 30 days of the coming into force of the measures imposed by paragraphs 5, 8, 10 and 11 above on the steps they have taken with a view to effectively implementing this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_231" class="SingleTxt">
+        <num>21.</num>
+        <content eId="para_231__content">
+          <p xml:space="preserve">	<span class="italic">Requests </span>the Secretariat to submit for consideration by the Committee information received from Governments and public sources on possible violations of the measures imposed by paragraphs 5, 8, 10 and 11 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_252" class="SingleTxt">
+        <num>22.</num>
+        <content eId="para_252__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>that the measures imposed by paragraphs 5, 8, 10 and 11 above shall come into force at 00.01 Eastern Standard Time, one month after the adoption of this resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_274" class="SingleTxt">
+        <num>23.</num>
+        <content eId="para_274__content">
+          <p xml:space="preserve">	<span class="italic">Further decides</span> that the measures imposed by paragraphs 5, 8, 10 and 11 above are established for twelve months and that, at the end of this period, the Council will decide whether the Taliban has complied with paragraphs 1, 2 and 3 above, and, accordingly, whether to extend these measures for a further period with the same conditions;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_297" class="SingleTxt">
+        <num>24.</num>
+        <content eId="para_297__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>if the Taliban comply with the conditions of paragraphs 1, 2 and 3 above, before the twelve-month period has elapsed, the Security Council shall terminate the measures imposed by paragraphs 5, 8, 10 and 11 above;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_321" class="SingleTxt">
+        <num>25.</num>
+        <content eId="para_321__content">
+          <p xml:space="preserve">	<span class="italic">Expresses </span>its readiness to consider the imposition of further measures, in accordance with its responsibility under the Charter of the United Nations, with the aim of achieving full implementation of this resolution and resolution 1267 (1999), inter alia, taking into account the impact assessment referred to in paragraph 15 (d) with a view to enhancing the effectiveness of sanctions and avoiding humanitarian consequences;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_346" class="SingleTxt">
+        <num>26.</num>
+        <content eId="para_346__content">
+          <p xml:space="preserve">	<span class="italic">Decides </span>to remain actively seized of the matter.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
