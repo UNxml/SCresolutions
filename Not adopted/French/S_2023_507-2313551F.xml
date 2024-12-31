@@ -1,0 +1,217 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="draftResolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2023-07-11/2023-507/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2023-07-11/2023-507/"></FRBRuri>
+          <FRBRdate date="2023-07-11" name="voting"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2023-07-11/2023-507/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2023-07-11/2023-507/fra@/"></FRBRuri>
+          <FRBRdate date="2023-07-11" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2023-07-11/2023-507/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2023-07-11/2023-507/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-12-30" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Monitoring Mechanism Established pursuant to Security Council Resolution 2165 (2014)" showAs="UN. Monitoring Mechanism Established pursuant to Security Council Resolution 2165 (2014)" dictionary="DHLAUTH"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" href="http://metadata.un.org/thesaurus/1002979" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMANITARIAN ASSISTANCE" href="http://metadata.un.org/thesaurus/1002992" showAs="HUMANITARIAN ASSISTANCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RELIEF CORRIDORS" href="http://metadata.un.org/thesaurus/1005456" showAs="RELIEF CORRIDORS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SYRIAN ARAB REPUBLIC" href="http://metadata.un.org/thesaurus/1006348" showAs="SYRIAN ARAB REPUBLIC" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[222]" showAs="SYRIAN ARAB REPUBLIC SITUATION" shortForm="SYRIAN ARAB REPUBLIC SITUATION" dictionary="S/78"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation in the Middle East." dictionary="S/"></keyword>
+        <keyword refersTo="title" value="Draft resolution [on humanitarian situation in the Syrian Arab Republic and renewal of authorization of relief delivery and monitoring mechanism for a period of 6 months]" showAs="Draft resolution [on humanitarian situation in the Syrian Arab Republic and renewal of authorization of relief delivery and monitoring mechanism for a period of 6 months]" dictionary="DHL"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2023-07-11" outcome="draftResolution" by="Russian Federation" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2023-07-11" outcome="notAdopted" as="S/PV.9371" by="The draft resolution was not adopted having failed to obtain the required number of votes" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <count value="02" refersTo="inFavour">
+              <akn4un:voters>
+                <organization refersTo="memberState">CHINA</organization>
+                <organization refersTo="memberState">RUSSIAN FEDERATION</organization>
+                
+              </akn4un:voters>
+            </count>
+            <count value="03" refersTo="against">
+              <akn4un:voters>
+                <organization refersTo="memberState">FRANCE</organization>
+                <organization refersTo="memberState">UNITED KINGDOM</organization>
+                <organization refersTo="memberState">UNITED STATES</organization>
+              </akn4un:voters>
+            </count>
+            <count value="010" refersTo="abstaining">
+              <akn4un:voters>
+                <organization refersTo="memberState">ALBANIA</organization>
+                <organization refersTo="memberState">BRAZIL</organization>
+                <organization refersTo="memberState">ECUADOR</organization>
+                <organization refersTo="memberState">GABON</organization>
+                <organization refersTo="memberState">GHANA</organization>
+                <organization refersTo="memberState">JAPAN</organization>
+                <organization refersTo="memberState">MALTA</organization>
+                <organization refersTo="memberState">MOZAMBIQUE</organization>
+                <organization refersTo="memberState">SWITZERLAND</organization>
+                <organization refersTo="memberState">UNITED ARAB EMIRATES</organization>
+              </akn4un:voters>
+            </count>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">23-13551 (F)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/2023/507</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Conseil de sécurité</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2023-07-11" class="rightSmall" refersTo="#dateOfIssuance">11 juillet 2023</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docTitle refersTo="sponsors">		Fédération de Russie : projet de résolution</docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Le Conseil de sécurité</span>,</p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>ses résolutions <a href="https://undocs.org/fr/S/RES/2042(2012)">2042 (2012)</a>, <a href="https://undocs.org/fr/S/RES/2043(2012)">2043 (2012)</a>, <a href="https://undocs.org/fr/S/RES/2118(2013)">2118 (2013)</a>, <a href="https://undocs.org/fr/S/RES/2139(2014)">2139 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2165(2014)">2165 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2175(2014)">2175 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2191(2014)">2191 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2209(2015)">2209 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2235(2015)">2235 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2254(2015)">2254 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2258(2015)">2258 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2268(2016)">2268 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2286(2016)">2286 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2332(2016)">2332 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2336(2016)">2336 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2393(2017)">2393 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2401(2018)">2401 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2449(2018)">2449 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2504(2020)">2504 (2020)</a>, <a href="https://undocs.org/fr/S/RES/2533(2020)">2533 (2020)</a>, <a href="https://undocs.org/fr/S/RES/2585(2021)">2585 (2021)</a>, <a href="https://undocs.org/fr/S/RES/2642(2022)">2642 (2022)</a> et <a href="https://undocs.org/fr/S/RES/2672(2023)">2672 (2023)</a> et les déclarations de sa présidence des 3 août 2011 (<a href="https://undocs.org/fr/S/PRST/2011/16">S/PRST/2011/16</a>), 21 mars 2012 (<a href="https://undocs.org/fr/S/PRST/2012/6">S/PRST/2012/6</a>), 5 avril 2012 (<a href="https://undocs.org/fr/S/PRST/2012/10">S/PRST/2012/10</a>), 2 octobre 2013 (<a href="https://undocs.org/fr/S/PRST/2013/15">S/PRST/2013/15</a>), 24 avril 2015 (<a href="https://undocs.org/fr/S/PRST/2015/10">S/PRST/2015/10</a>), 17 août 2015 (<a href="https://undocs.org/fr/S/PRST/2015/15">S/PRST/2015/15</a>) et 8 octobre 2019 (<a href="https://undocs.org/fr/S/PRST/2019/12">S/PRST/2019/12</a>),</p>
+      </container>
+      <container name="Réaffirmant" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant </span>son ferme attachement à la souveraineté, à l’indépendance, à l’unité et à l’intégrité territoriale de la République arabe syrienne, ainsi qu’aux buts et principes énoncés dans la Charte des Nations Unies,</p>
+      </container>
+      <container name="Soulignant" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant </span>qu’il importe d’améliorer de toute urgence l’acheminement de l’aide humanitaire à travers les lignes de front et <span class="italic">engageant </span>toutes les parties concernées à promouvoir, en fonction de l’évaluation par l’Organisation des Nations Unies des besoins, l’acheminement sans entrave de l’aide humanitaire entre Damas et toutes les régions du pays,</p>
+      </container>
+      <container name="Considérant" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Considérant </span>que la situation humanitaire catastrophique qui règne en République arabe syrienne s’est gravement détériorée depuis le séisme du 6 février 2023 et qu’elle fait peser une menace sur la paix et la sécurité dans la région, </p>
+      </container>
+      <container name="Réaffirmant" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant </span>que toutes les parties doivent respecter les dispositions applicables du droit international humanitaire et les principes directeurs de l’Organisation des Nations Unies relatifs à l’aide humanitaire d’urgence,</p>
+      </container>
+      <container name="Se déclarant" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Se déclarant</span> à cet égard gravement inquiet de l’impact cumulé des séismes et des conséquences persistantes de la pandémie de COVID‑19, constatant à cet égard les profondes difficultés qui touchent la situation humanitaire en République arabe syrienne, et rappelant qu’il importe que le personnel humanitaire et médical, ainsi que son matériel, son transport et ses fournitures, bénéficie sans délai d’un accès humanitaire complet, sûr et sans entrave, afin de faciliter la fourniture de l’aide humanitaire, notamment des vaccins, dans toutes les régions de la République arabe syrienne, avec un financement humanitaire accru et sans discrimination ni ingérence des sanctions unilatérales dans les opérations humanitaires, comme énoncé dans l’appel lancé par le Secrétaire général,</p>
+      </container>
+      <container name="Rappelant" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>que les activités humanitaires ne se limitent pas à satisfaire les besoins immédiats de la population touchée et doivent comprendre une aide à des services essentiels au moyen de projets de relèvement rapide et de développement durable relatifs à l’eau, à l’assainissement, à la santé, à l’éducation, à l’électricité, au déminage et aux abris qui contribuent au retour librement consenti, en toute sécurité et dans la dignité, dans leur lieu d’origine, des réfugiés syriens et des personnes déplacées à l’intérieur du pays,</p>
+      </container>
+      <container name="Soulignant" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant </span>que l’Article 25 de la Charte des Nations Unies fait obligation aux États Membres d’accepter et d’appliquer ses décisions,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10" class="SingleTxt">
+        <num>1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Exige </span>que l’ensemble des dispositions de ses résolutions sur la question, notamment les résolutions <a href="https://undocs.org/fr/S/RES/2139(2014)">2139 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2165(2014)">2165 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2191(2014)">2191 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2258(2015)">2258 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2332(2016)">2332 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2393(2017)">2393 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2401(2018)">2401 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2449(2018)">2449 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2504(2020)">2504 (2020)</a>, <a href="https://undocs.org/fr/S/RES/2533(2020)">2533 (2020)</a>, <a href="https://undocs.org/fr/S/RES/2585(2021)">2585 (2021)</a> <a href="https://undocs.org/fr/S/RES/2642(2022)">2642 (2022)</a> et <a href="https://undocs.org/fr/S/RES/2672(2023)">2672 (2023)</a>, soient appliquées sans délai ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <num>2.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>de reconduire les mesures visées aux paragraphes 2 et 3 de sa résolution <a href="https://undocs.org/fr/S/RES/2165(2014)">2165 (2014)</a> pour une période de six mois, à savoir jusqu’au 10 janvier 2024, concernant uniquement le point de passage de Bab el‑Haoua, et prie le Secrétaire général de présenter un rapport spécial sur l’impact des sanctions unilatérales sur la situation humanitaire et sur les besoins humanitaires en République arabe syrienne, au plus tard le 10 décembre 2023 ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <num>3.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Demande instamment </span>aux États Membres d’adopter des mesures concrètes pour satisfaire les besoins urgents du peuple syrien, compte tenu du profond impact socioéconomique et humanitaire cumulé des séismes et de la pandémie de COVID‑19 sur la République arabe syrienne, pays en situation d’urgence humanitaire complexe, notamment par un élargissement des activités humanitaires, une augmentation du financement humanitaire et une non-ingérence de sanctions unilatérales dans les opérations humanitaires en République arabe syrienne ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <num>4.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Souligne </span>qu’il est impératif de maintenir un accès durable et sans entrave à travers les lignes de front entre Damas et toutes les régions de la République arabe syrienne, conformément aux principes directeurs de l’Organisation des Nations Unies et au droit international humanitaire, et <span class="italic">demande instamment </span>à tous les acteurs concernés de prendre les mesures nécessaires en ce sens ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <num>5.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Salue </span>les efforts en cours et <span class="italic">demande</span> d’intensifier davantage les initiatives visant à étendre les activités humanitaires en République arabe syrienne, dont les projets de relèvement rapide et de développement durable relatifs à l’eau, à l’assainissement, à la santé, à l’éducation, à l’électricité, au déminage et aux abris qui contribuent au retour librement consenti, en toute sécurité et dans la dignité, dans leur lieu d’origine, des réfugiés syriens et des personnes déplacées à l’intérieur du pays, et <span class="italic">demande </span>à tous les États Membres, aux organismes humanitaires internationaux et aux parties concernées de les appuyer ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="SingleTxt">
+        <num>6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>le Secrétaire général de lui soumettre régulièrement, et au moins tous les 60 jours, un rapport sur l’application des résolutions <a href="https://undocs.org/fr/S/RES/2139(2014)">2139 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2165(2014)">2165 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2191(2014)">2191 (2014)</a>, <a href="https://undocs.org/fr/S/RES/2258(2015)">2258 (2015)</a>, <a href="https://undocs.org/fr/S/RES/2332(2016)">2332 (2016)</a>, <a href="https://undocs.org/fr/S/RES/2393(2017)">2393 (2017)</a>, <a href="https://undocs.org/fr/S/RES/2401(2018)">2401 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2449(2018)">2449 (2018)</a>, <a href="https://undocs.org/fr/S/RES/2504(2020)">2504 (2020)</a>, <a href="https://undocs.org/fr/S/RES/2533(2020)">2533 (2020)</a>, <a href="https://undocs.org/fr/S/RES/2585(2021)">2585 (2021)</a>, <a href="https://undocs.org/fr/S/RES/2642(2022)">2642 (2022)</a> et <a href="https://undocs.org/fr/S/RES/2672(2023)">2672 (2023)</a> et de la présente résolution ainsi que sur le respect de leurs dispositions par toutes les parties concernées en République arabe syrienne, et le <span class="italic">prie également</span> de lui faire part, dans ses rapports, de l’évolution d’ensemble concernant les opérations à travers les lignes de front menées sans entrave et en toute sécurité, en particulier des progrès de ces opérations dans toutes les régions de la République arabe syrienne et des interactions avec les parties concernées, des projets de relèvement rapide et de développement durable, ainsi que des informations détaillées sur l’aide humanitaire acheminée dans le cadre des opérations humanitaires transfrontières des Nations Unies, notamment leur transparence, les garanties de sécurité, le mécanisme de distribution, le nombre de bénéficiaires, de partenaires pour la mise en œuvre, les lieux de livraison de l’aide au niveau des districts et le volume et la nature des articles livrés ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="SingleTxt">
+        <num>7.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Préconise </span>de réunir un dialogue interactif informel tous les deux mois avec la participation des donateurs, des parties régionales intéressées et des représentants des organismes humanitaires internationaux opérant en République arabe syrienne, qui sera chargé d’examiner et de suivre régulièrement l’application de la présente résolution, notamment les progrès dans les projets de relèvement rapide et dans l’accès à travers les lignes de front ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="SingleTxt">
+        <num>8.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>de rester activement saisi de la question.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
