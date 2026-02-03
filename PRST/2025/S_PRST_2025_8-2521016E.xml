@@ -1,0 +1,162 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2025-12-29/2025-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2025-12-29/2025-8/"></FRBRuri>
+          <FRBRdate date="2025-12-29" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2025-12-29/2025-8/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2025-12-29/2025-8/eng@/"></FRBRuri>
+          <FRBRdate date="2025-12-29" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2025-12-29/2025-8/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2025-12-29/2025-8/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-02-03" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="EUFOR" showAs="EUFOR" dictionary="DHLAUTH"></keyword>
+        <keyword value="General Framework Agreement for Peace in Bosnia and Herzegovina (1995)" showAs="General Framework Agreement for Peace in Bosnia and Herzegovina (1995)" dictionary="DHLAUTH"></keyword>
+        <keyword value="POLITICAL CONDITIONS" href="http://metadata.un.org/thesaurus/1004971" showAs="POLITICAL CONDITIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BOSNIA AND HERZEGOVINA" href="http://metadata.un.org/thesaurus/1000668" showAs="BOSNIA AND HERZEGOVINA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BOSNIA AND HERZEGOVINA SITUATION" href="http://metadata.un.org/thesaurus/1000669" showAs="BOSNIA AND HERZEGOVINA SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="REPUBLIKA SRPSKA (BOSNIA AND HERZEGOVINA)" showAs="REPUBLIKA SRPSKA (BOSNIA AND HERZEGOVINA)" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" href="http://metadata.un.org/thesaurus/1004779" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="FORMER YUGOSLAVIA SITUATION" href="http://metadata.un.org/thesaurus/1002503" showAs="FORMER YUGOSLAVIA SITUATION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[62]" showAs="BOSNIA AND HERZEGOVINA SITUATION" shortForm="BOSNIA AND HERZEGOVINA SITUATION" dictionary="S/80"></keyword>
+        <keyword refersTo="agenda" value="[60]" showAs="FORMER YUGOSLAVIA SITUATION" shortForm="FORMER YUGOSLAVIA SITUATION" dictionary="S/80"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="The situation in Bosnia and Herzegovina" dictionary="S/"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2025-12-29" outcome="adopted" as="S/PV.10082" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">25-21016 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2025/8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2025-12-29" class="rightSmall" refersTo="#dateOfIssuance">29 December 2025</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docTitle refersTo="#title1">
+          <span class="bold">		Statement by the President of the Security Council</span>
+        </docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">	At the 10082nd meeting of the Security Council, held on 29 December 2025, in connection with the Council’s consideration of the item entitled “The situation in Bosnia and Herzegovina”, the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </alinea>
+      <paragraph eId="para_2" class="SingleTxt">
+        <content eId="para_2__content">
+          <p xml:space="preserve">		“The Security Council recalls the signing of the General Framework Agreement for Peace in Bosnia and Herzegovina and its Annexes in Dayton, Ohio, on 21 November 1995, and its formal signature in Paris on 14 December 1995.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">		“The Security Council reaffirms its unwavering commitment to the sovereignty, territorial integrity, and political independence of Bosnia and Herzegovina within its internationally recognized borders. It recalls that Bosnia and Herzegovina consists of two entities, the Federation of Bosnia and Herzegovina and Republika Srpska, as defined in the Dayton Peace Agreement, as well as the Brčko District, and underlines safeguarding the rights of Bosniacs, Croats, and Serbs, as constituent peoples (along with Others) and citizens as well as the multi-ethnic character of the State remain central to its stability and democratic future.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">		“The Security Council stresses the importance of regional cooperation and good-neighbourly relations as key pillars of lasting peace and prosperity in the Western Balkans. In this regard, it welcomes ongoing regional efforts aimed at promoting dialogue, trust, and economic cooperation among the countries of the region.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">		“The Security Council acknowledges the sustained peace and stability achieved in Bosnia and Herzegovina since the Dayton Agreement and emphasizes the need to resolve differences through dialogue and consensus. It calls on all leaders, at all levels of government, to refrain from divisive rhetoric or actions, to avoid confrontation, to respect the rule of law and to uphold the Dayton Peace Agreement, as it stipulated.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <content eId="para_6__content">
+          <p xml:space="preserve">		“The Security Council stresses the need to advance reconciliation, foster trust among communities, and promote social cohesion as essential elements of a resilient and democratic Bosnia and Herzegovina.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <content eId="para_7__content">
+          <p xml:space="preserve">		“The Security Council reaffirms the importance of supporting the stability of the Western Balkans region and welcomes the continued presence of the European Union Force Althea (EUFOR Althea) under the Security Council’s Chapter VII authorization.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <content eId="para_8__content">
+          <p xml:space="preserve">		“The Security Council acknowledges that, thirty years after the signing of the General Framework Agreement for Peace in Bosnia and Herzegovina and its Annexes, Bosnia and Herzegovina has achieved significant progress toward peace and institutional stability, and reaffirms that the shared goal remains a stable democratic and sovereign state with full responsibility over its political and economic processes.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <content eId="para_9__content">
+          <p xml:space="preserve">		“In this context, the Security Council encourages dialogue among the three constituent peoples (along with Others) in Bosnia and Herzegovina and supported by international partners on shared priorities to ensure transition of the international presence, in accordance with the General Framework Agreement for Peace in Bosnia and Herzegovina and its Annexes.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <content eId="para_10__content">
+          <p xml:space="preserve">		“The Security Council emphasizes its unity in supporting a sovereign, democratic, and multi-ethnic Bosnia and Herzegovina and welcomes efforts aimed at strengthening cooperation and good-neighbourly relations in the region. The Security Council also expresses the hope that the thirtieth anniversary of the Dayton Peace Agreement will be an opportunity to renew dialogue and build mutual trust as well as to promote a peaceful, democratic, and prosperous future for Bosnia and Herzegovina and the Western Balkan region.”</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
