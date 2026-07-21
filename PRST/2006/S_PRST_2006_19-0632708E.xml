@@ -1,0 +1,147 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2006-04-25/2006-19/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2006-04-25/2006-19/"></FRBRuri>
+          <FRBRdate date="2006-04-25" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2006-04-25/2006-19/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2006-04-25/2006-19/eng@/"></FRBRuri>
+          <FRBRdate date="2006-04-25" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2006-04-25/2006-19/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2006-04-25/2006-19/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-02-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">06-32708 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2006/19</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2006-04-25" class="rightSmall" refersTo="#dateOfIssuance">25 April 2006</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p />
+    </preface>
+    <mainBody>
+      <p>
+      <docTitle refersTo="#title1">
+        <span class="bold">		Statement by the President of the Security Council</span>
+      </docTitle>
+      </p>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">	At the 5425th meeting of the Security Council, held on 25 April 2006, in connection with the Council’s consideration of the item entitled “The situation in Chad and the Sudan”, the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </alinea>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	“The Security Council welcomes the Secretary-General’s briefing on 18 April 2006 on Chad/Sudan relations and endorses his deep concerns over the political and security situation and the instability along Chad’s borders with Sudan, as well as over the possible spillover effects of these crises on neighbouring countries and the entire region. The Security Council encourages the Secretary-General to continue his consultations with relevant parties, in particular the African Union, on the matter and requests him to closely follow the situation and continue to keep the Security Council informed.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">	“The Security Council welcomes the fact-finding mission dispatched by the African Union in Chad and looks forward to its conclusions.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">	“The Security Council fully endorses the statement by the African Union Peace and Security Council of 13 April 2006 in which it strongly condemned the rebel attacks against N’Djamena and the eastern town of Adre and reiterates that any attempt to seize power by force, pursuant to the 1999 Algiers Declaration of the African Unity Organization, would be regarded as unacceptable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <content eId="para_6__content">
+          <p xml:space="preserve">	“The Security Council calls for political dialogue and a negotiated solution to the continuing crisis within Chad.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <content eId="para_7__content">
+          <p xml:space="preserve">	“The Security Council also reaffirms the sovereignty, independence and territorial integrity of Chad and Sudan, as well as of all States in the region, and calls on all Members to refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any State, or in any other manner inconsistent with the purposes of the United Nations.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <content eId="para_8__content">
+          <p xml:space="preserve">	“The Security Council calls upon on States in the region to cooperate in ensuring their common stability.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <content eId="para_9__content">
+          <p xml:space="preserve">	“The Security Council notes with deep concern the deteriorating relations between Chad and Sudan and urges the Governments of the two countries to abide by their obligations under the 8 February 2006 Tripoli Agreement and to urgently start implementing the confidence-building measures which have been voluntarily agreed upon. Both Sudan and Chad must refrain from any actions that violate the border.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <content eId="para_10__content">
+          <p xml:space="preserve">	“The Security Council is concerned about the situation of the refugees from the Darfur region of Sudan and from the Central African Republic, as well as the situation of the thousands of internally displaced persons in Chad. It therefore notes the decision by the Government of Chad not to expel the Sudanese refugees and urges the Government of Chad to continue supporting the efforts of humanitarian and relief agencies in the country in accordance with international principles governing the protection of refugees. The Security Council further reaffirms the right of all displaced persons who wish to do so to return to their homes. It reminds all Governments in the region of their obligation to respect international humanitarian law. In this regard, the Security Council calls on donor countries to provide additional resources to respond to the emergency humanitarian situation in both Sudan and Chad.”</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

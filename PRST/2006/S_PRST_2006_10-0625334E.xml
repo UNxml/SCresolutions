@@ -1,0 +1,152 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2006-02-24/2006-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2006-02-24/2006-10/"></FRBRuri>
+          <FRBRdate date="2006-02-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2006-02-24/2006-10/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2006-02-24/2006-10/eng@/"></FRBRuri>
+          <FRBRdate date="2006-02-24" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2006-02-24/2006-10/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2006-02-24/2006-10/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-02-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">06-25334 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2006/10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2006-02-24" class="rightSmall" refersTo="#dateOfIssuance">24 February 2006</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p />
+    </preface>
+    <mainBody>
+      <p>
+      <docTitle refersTo="#title1">
+        <span class="bold">		Statement by the President of the Security Council</span>
+      </docTitle>
+      </p>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">	At the 5380th meeting of the Security Council, held on 24 February 2006, in connection with the Council’s consideration of the item entitled “The situation between Eritrea and Ethiopia”, the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </alinea>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">		“The Security Council welcomes the successful convening of the meeting of the Witnesses to the Algiers Agreements (‘Witnesses’) on 22 February 2006 in New York and their efforts to resolve the current impasse between Eritrea and Ethiopia, in order to promote stability between the parties and lay the foundation for sustainable peace in the region. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">		“The Security Council calls on both parties to show maximum restraint and refrain from any threat or use of force against the other.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">		“The Security Council emphasizes that both parties bear the primary responsibility for the full, unconditional and expeditious implementation of the Algiers Agreements.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <content eId="para_6__content">
+          <p xml:space="preserve">		“The Security Council recalls that under the Algiers Agreements, both Eritrea and Ethiopia have agreed to accept the delimitation and demarcation decisions of the Eritrea-Ethiopia Boundary Commission (EEBC) as final and binding.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <content eId="para_7__content">
+          <p xml:space="preserve">		“In this regard, the Security Council calls on both sides to cooperate with the EEBC to implement its decisions without further delay. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <content eId="para_8__content">
+          <p xml:space="preserve">		“The Security Council urges the EEBC to convene a meeting with the parties to prepare to resume demarcation and strongly urges the two parties to attend the EEBC meeting and to cooperate with and abide by the requirements specified by the EEBC, in order to successfully conclude the demarcation process.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <content eId="para_9__content">
+          <p xml:space="preserve">		“The Security Council commends the role of the United Nations Mission in Ethiopia and Eritrea (UNMEE) and expresses once again its deep appreciation for the contribution and dedication of the troop-contributing countries to the work of UNMEE.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <content eId="para_10__content">
+          <p xml:space="preserve">		“The Security Council demands that the parties permit UNMEE to perform its duties without restrictions and provide UNMEE with the necessary access, assistance, support and protection required for the performance of these duties, including its mandated task to assist the EEBC in the expeditious and orderly implementation of the Delimitation Decision, in accordance with Security Council Resolutions 1430 (2002) and 1466 (2003).</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <content eId="para_11__content">
+          <p xml:space="preserve">		“The Security Council calls on Member States to provide continued support for UNMEE and contributions to the Trust Fund, established pursuant to Security Council Resolution 1177 (1998) and referred to in Article 4 (17) of the Comprehensive Peace Agreement signed by the Governments of Ethiopia and Eritrea on 12 December 2000, in order to support the demarcation process.”</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
