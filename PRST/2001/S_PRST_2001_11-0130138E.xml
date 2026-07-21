@@ -1,0 +1,146 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-03-22/2001-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-03-22/2001-11/"></FRBRuri>
+          <FRBRdate date="2001-03-22" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-03-22/2001-11/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-03-22/2001-11/eng@/"></FRBRuri>
+          <FRBRdate date="2001-03-22" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-03-22/2001-11/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-03-22/2001-11/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-02-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">01-30138 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2001/11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2001-03-22" class="rightSmall" refersTo="#dateOfIssuance">22 March 2001</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p />
+    </preface>
+    <mainBody>
+      <paragraph eId="para_1" class="H1">
+        <span class="bold">		Statement by the President of the Security Council</span>
+      </docTitle>
+      </p>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">	At the 4304th meeting of the Security Council, held on 22 March 2001, in connection with the Council’s consideration of the item entitled “The situation in Bosnia and Herzegovina”, the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </alinea>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	“The Security Council welcomes the briefing by the High Representative for the implementation of the General Framework Agreement on Peace in Bosnia and Herzegovina and the annexes thereto (collectively the Peace Agreement, S/1995/999, annex) on the situation in Bosnia and Herzegovina and commends his efforts in implementing this agreement.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">	“The Security Council encourages further regional political and economic cooperation, in compliance with the principles of the sovereignty and territorial integrity and the inviolability of the borders of Bosnia and Herzegovina and the other States of the region.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">	“The Security Council welcomes the new state-level and entity-level governments formed after the general elections of 11 November 2000 and calls on them to take active measures to make further progress on the return of refugees, consolidation of the state institutions, and economic reform. It welcomes the progress on creating a State Level Defense Identity in full compliance with the relevant provisions of the Peace Agreement and encourages the Presidency of Bosnia and Herzegovina to finalize the unresolved details without delay.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <content eId="para_6__content">
+          <p xml:space="preserve">	“The Security Council welcomes the establishment of Constitutional Commissions to protect the vital interest of the constituent peoples to facilitate the implementation of the ‘Constituent Peoples decision’ of the Constitutional Court of Bosnia and Herzegovina of 1 July 2000 and calls upon the entity parliaments to engage in the debate about the necessary amendments to their respective constitutions in the light of proposals examined by the Constitutional Commissions.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <content eId="para_7__content">
+          <p xml:space="preserve">	“The Security Council notes the recent conclusion of the Agreement on a Special Relationship between the Federal Republic of Yugoslavia and the Republika Srpska and urges the High Representative to monitor its implementation and any amendments to it, in order to ensure that it remains consistent with the territorial integrity and sovereignty of Bosnia and Herzegovina as a whole and with the Peace Agreement.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <content eId="para_8__content">
+          <p xml:space="preserve">	“The Security Council condemns recent unilateral moves by the so-called Croat National Congress to establish Croat self-rule in open contradiction of the provisions of the Peace Agreement, and calls on all parties to work within the legal institutions and constitutional framework of Bosnia and Herzegovina and the entities. It expresses its support for the High Representative in taking actions against persons holding public office who are found to be in violation of legal commitments made under the Peace Agreement or the terms for its implementation.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <content eId="para_9__content">
+          <p xml:space="preserve">	“The Security Council welcomes the progress made on the return of refugees and property law implementation in the year 2000, but remains concerned at the slow pace of refugee return, particularly in urban areas. The Council insists on the responsibility of the local authorities to accelerate the rate of return and property law implementation.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <content eId="para_10__content">
+          <p xml:space="preserve">	“The Security Council urges all political parties in Bosnia and Herzegovina and their respective leaders to engage constructively within the legal institutions of that country in order to implement fully the Peace Agreement.”</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

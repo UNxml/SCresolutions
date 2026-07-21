@@ -1,0 +1,161 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-05-15/2001-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-05-15/2001-14/"></FRBRuri>
+          <FRBRdate date="2001-05-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-05-15/2001-14/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-05-15/2001-14/eng@/"></FRBRuri>
+          <FRBRdate date="2001-05-15" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2001-05-15/2001-14/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2001-05-15/2001-14/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-02-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">01-37277 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2001/14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2001-05-15" class="rightSmall" refersTo="#dateOfIssuance">15 May 2001</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p />
+    </preface>
+    <mainBody>
+      <paragraph eId="para_1" class="H1">
+        <span class="bold">		Statement by the President of the Security Council</span>
+      </docTitle>
+      </p>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">	At the 4320th meeting of the Security Council, held on 15 May 2001, in connection with the Council’s consideration of the item entitled “The situation between Eritrea and Ethiopia”, the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </alinea>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">		“Recalling all previous resolutions and statements of its President regarding the situation between Ethiopia and Eritrea, the Security Council emphasizes the importance of the commitments undertaken by the Government of the State of Eritrea and the Government of the Federal Democratic Republic of Ethiopia to the Agreement of Cessation of Hostilities signed in Algiers on 18 June 2000 (S/2001/601) and the subsequent Peace Agreement between the parties (S/2000/1183) signed in Algiers on 12 December 2000 (“Algiers Agreements”).</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">		“The Security Council reiterates its strong support for the Secretary-General’s role in helping to implement the Agreements, including through his own good offices, and for the efforts of his Special Representative. It further expresses its appreciation for the continued role of the Organization of African Unity in helping to implement the Algiers Agreements.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">		“The Security Council also reiterates its appreciation for the continued deployment of the United Nations Mission in Ethiopia and Eritrea (UNMEE) both to the troop-contributing countries and to those Member States that have provided UNMEE with additional assets.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <content eId="para_6__content">
+          <p xml:space="preserve">		“The Security Council encourages both parties to continue working towards the full and prompt implementation of the Agreements and, in this context, to take concrete confidence-building measures. The Council further reaffirms its continued commitment to a peaceful definitive settlement of the conflict. In this connection, the Council notes with satisfaction that the parties have agreed to the Secretary-General’s proposal of 1 May 2001, on the composition of the Boundary and Claims Commissions, critical components to the peaceful definitive settlement of the conflict. It now calls on the parties to fully cooperate with the Boundary Commission and to fulfil their financial responsibilities regarding the Boundary Commission’s work.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <content eId="para_7__content">
+          <p xml:space="preserve">		“The Security Council stresses that the parties must provide free movement and access for UNMEE and its supplies as required throughout the territories of the parties, without any restrictions, including within the Temporary Security Zone (TSZ) and the 15 km wide adjacent area. Free and unhindered access for UNMEE is a fundamental condition for the success of the peacekeeping operation. The Security Council emphasizes further that the purpose of the TSZ is to separate the parties’ armed forces. The TSZ must be completely demilitarized. The civilian populations inside the TSZ should be supported by an appropriate but limited number of Eritrean civilian militia and police.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <content eId="para_8__content">
+          <p xml:space="preserve">		“The Security Council calls on the parties to cooperate fully and expeditiously with UNMEE in the implementation of its mandate and to abide scrupulously by the letter and spirit of their agreements, particularly regarding the inviolability of the TSZ. It also calls on both parties to exercise restraint in their public statements.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <content eId="para_9__content">
+          <p xml:space="preserve">		“The Security Council further calls on the parties to continue to facilitate mine action in coordination with the United Nations Mine Action Service. It encourages the parties to exercise caution in returning civilians to the TSZ before it has been adequately demined. The Council further calls for the immediate establishment of a secure air corridor between Addis Ababa and Asmara that does not require a detour through other countries. It also calls on Eritrea to conclude the necessary Status of Forces Agreement for UNMEE.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <content eId="para_10__content">
+          <p xml:space="preserve">		“The Security Council notes that, in accordance with paragraph 16 of resolution 1298 (2000) of 17 May 2000, the arms embargo on the parties expires on 16 May 2001. The Council recognizes that the Algiers Agreements are consistent with paragraphs 2 through 4 of resolution 1298 (2000). Under the current circumstances, the measures imposed by paragraph 6 of the same resolution have not been extended by the Council beyond 16 May 2001.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <content eId="para_11__content">
+          <p xml:space="preserve">		“The Security Council urges the parties to ensure that efforts are redirected from weapons procurement and other military activities towards the reconstruction and development of both economies, and regional reconciliation, with a view to achieving stability in the Horn of Africa. The Council reiterates its encouragement of Member States to exercise the highest degree of responsibility in discouraging arms flows to countries and regions emerging from armed conflicts.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <content eId="para_12__content">
+          <p xml:space="preserve">		“The Security Council remains vigilant and expresses its intention to take appropriate measures if the situation between Eritrea and Ethiopia again threatens regional peace and security.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <content eId="para_13__content">
+          <p xml:space="preserve">		“The Security Council will remain seized of the matter.”</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
