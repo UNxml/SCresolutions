@@ -1,0 +1,142 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2009-07-09/2009-19/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2009-07-09/2009-19/"></FRBRuri>
+          <FRBRdate date="2009-07-09" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2009-07-09/2009-19/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2009-07-09/2009-19/eng@/"></FRBRuri>
+          <FRBRdate date="2009-07-09" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2009-07-09/2009-19/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2009-07-09/2009-19/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-02-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">09-39871 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2009/19</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2009-07-09" class="rightSmall" refersTo="#dateOfIssuance">9 July 2009</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p />
+    </preface>
+    <mainBody>
+      <p>
+      <docTitle refersTo="#title1">
+        <span class="bold">		Statement by the President of the Security Council</span>
+      </docTitle>
+      </p>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">	At the 6158th meeting of the Security Council, held on 9 July 2009, in connection with the Council’s consideration of the item entitled “The situation in Somalia”, the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </alinea>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	“The Security Council reiterates its previous resolutions and Presidential Statements on Somalia, in particular its resolution 1872, which reaffirmed the Djibouti Agreement as the basis for a resolution of the conflict in Somalia. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">	“The Security Council reiterates its support for the Djibouti Peace Process outlined in the Transitional Federal Charter, which provides a framework for reaching a lasting political solution in Somalia. The Security Council reaffirms its support for the Transitional Federal Government as the legitimate authority in Somalia under the Transitional Federal Charter and notes the declaration on 22 June of a State of Emergency as a result of the recent renewal in fighting led by al-Shabaab and other violent opposition groups, which constitutes an attempt to remove that legitimate authority by force. The Security Council also reiterates its support for the Special Representative of the Secretary-General, Mr. Ahmedou Ould-Abdallah, for his efforts towards advancing the political process in Somalia. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">	“The Security Council condemns the recent attacks on the Transitional Federal Government and the civilian population by armed groups and foreign fighters who undermine peace and stability in Somalia. The Security Council reaffirms its demand of 15 May 2009 that violent opposition groups immediately end their offensive, put down their arms, renounce violence and join reconciliation efforts. The Security Council condemns the flow of foreign fighters into Somalia. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <content eId="para_6__content">
+          <p xml:space="preserve">	“The Security Council deplores the loss of life in Somalia and the deteriorating humanitarian situation, which has resulted in increased flows of refugees and internally displaced persons, threatening stability in the region. The Security Council calls on all parties to abide by their obligations under international humanitarian law, in particular to respect the security of civilians, humanitarian workers and AMISOM personnel. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <content eId="para_7__content">
+          <p xml:space="preserve">	“The Security Council reaffirms that Somalia’s long-term security rests with the effective development by the TFG of the National Security Force and the Somali Police Force, in the framework of the Djibouti Agreement and in line with a national security strategy, and urges the international community to support the Somali security institutions, including through training and equipping. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <content eId="para_8__content">
+          <p xml:space="preserve">	“The Security Council commends the contribution of the AMISOM to lasting peace and stability in Somalia, expresses its continued appreciation for the commitment of troops to AMISOM by the Governments of Uganda and Burundi, and condemns any hostilities towards AMISOM. In this context the Security Council welcomes the decision by the African Union Summit at Sirte on 3 July to increase AMISOM’s strength to its mandated troop levels and its call for AU member states to provide the necessary military and police personnel. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <content eId="para_9__content">
+          <p xml:space="preserve">	“The Security Council takes note of the decision of the African Union summit in Sirte, calling on the Council to impose sanctions against those, including Eritrea, providing support to the armed groups engaged in undermining peace and reconciliation in Somalia and regional stability. The Security Council is deeply concerned in this regard and will consider expeditiously what action to take against any party undermining the Djibouti Peace Process, based on all available evidence including that submitted to the Monitoring Group and the Committee established pursuant to SCR 751 (1992).”</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
