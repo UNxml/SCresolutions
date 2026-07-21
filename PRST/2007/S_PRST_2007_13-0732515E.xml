@@ -1,0 +1,196 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-04-30/2007-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-04-30/2007-13/"></FRBRuri>
+          <FRBRdate date="2007-04-30" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-04-30/2007-13/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-04-30/2007-13/eng@/"></FRBRuri>
+          <FRBRdate date="2007-04-30" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-04-30/2007-13/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-04-30/2007-13/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-02-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">07-32515 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2007/13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2007-04-30" class="rightSmall" refersTo="#dateOfIssuance">30 April 2007</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p />
+    </preface>
+    <mainBody>
+      <paragraph eId="para_1" class="H1">
+        <span class="bold">		Statement by the President of the Security Council</span>
+      </docTitle>
+      </p>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">	At the 5671st meeting of the Security Council, held on 30 April 2007, in connection with the Council’s consideration of the item entitled “The situation in Somalia”, the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </alinea>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">	“The Security Council reiterates its previous resolutions and Presidential Statements on Somalia, in particular its resolution 1744 (2007).</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">	“The Security Council reaffirms its respect for the sovereignty, territorial integrity, political independence and unity of Somalia.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">	“The Security Council expresses its grave concern at the renewed fighting in Somalia, deeply deplores the loss of civilian life — condemning in particular the indiscriminate shelling of heavily populated areas of Mogadishu — and the humanitarian impact of the fighting, and calls upon all parties to immediately end the hostilities and agree to a comprehensive ceasefire.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <content eId="para_6__content">
+          <p xml:space="preserve">	“The Security Council emphasizes the need for strengthened efforts to provide humanitarian relief assistance to Somalia, including assistance to the hundreds of thousands of displaced persons, and urges Member States to support generously such operations.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <content eId="para_7__content">
+          <p xml:space="preserve">	“The Security Council demands that all parties in Somalia comply fully with international humanitarian law, protect the civilian population, and guarantee complete, unhindered and secure access for humanitarian assistance. It demands that the relevant authorities do all they can in this regard, in particular to facilitate the free movement of aid and humanitarian workers throughout Somalia and when entering or leaving Somalia. The Council also urges the wider region to help facilitate the cross-border provision of aid to Somalia, across land borders or via air- and sea-ports.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <content eId="para_8__content">
+          <p xml:space="preserve">	“The Security Council reiterates its support for the political process outlined in the Transitional Federal Charter, which provides a framework for reaching a lasting political solution in Somalia, including the transition to a permanent, representative government and institutions following national elections at the end of the transitional period.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <content eId="para_9__content">
+          <p xml:space="preserve">	“The Security Council notes the steps taken since the adoption of its resolution 1744 (2007), welcomes the commitment of the Transitional Federal Institutions to initiate a national reconciliation process, and stresses the need for further progress.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <content eId="para_10__content">
+          <p xml:space="preserve">	“The Security Council urges Somalia’s Transitional Federal Institutions to show leadership and commitment to reach out to all components of Somali society, and in particular to intensify their dialogue with the clans in Mogadishu. It calls on all parties in Somalia, the region and the wider international community to reject violence, to deny safe haven to extremist elements, to pursue any differences they might have with the Transitional Federal Institutions through dialogue, and to summon the political will to take the necessary steps to allow the Transitional Federal Institutions to deliver a sustainable, all-inclusive political process.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="SingleTxt">
+        <content eId="para_11__content">
+          <p xml:space="preserve">	“The Security Council underlines the need for the Transitional Federal Institutions to meet their responsibilities during the transitional period, with particular regard to promoting the widest possible political dialogue across Somalia, and reiterates its commitment to support the Transitional Federal Institutions in those efforts. The Security Council calls on all parties in Somalia and on Member States to provide such support.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="SingleTxt">
+        <content eId="para_12__content">
+          <p xml:space="preserve">	“The Security Council calls on the Transitional Federal Institutions to ensure that the National Reconciliation Congress is convened as soon as possible, and is truly representative of all segments of Somali society. The Security Council also calls on all parties in Somalia and other international partners to work towards that end, and to ensure constructive participation in the National Reconciliation Congress to pave the way to a sustained and all-inclusive political process.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="SingleTxt">
+        <content eId="para_13__content">
+          <p xml:space="preserve">	“The Security Council condemns those who threaten the early convening of the National Reconciliation Congress. The Security Council recognizes the work of the Special Representative of the Secretary-General, the United Nations Development Programme, the International Advisory Committee, and Member States to support the National Reconciliation Congress, and urges Member States and partners to contribute continued technical and financial support.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="SingleTxt">
+        <content eId="para_14__content">
+          <p xml:space="preserve">	“The Security Council requests the Secretary-General, in consultation with the African Union, the League of Arab States and the Intergovernmental Authority on Development, to do what he can to assist in furthering ceasefire arrangements and the political dialogue, especially in Mogadishu.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="SingleTxt">
+        <content eId="para_15__content">
+          <p xml:space="preserve">	“The Security Council recalls its readiness, as set out in its resolution 1744 (2007), to consider taking measures against those who seek to prevent or block a peaceful political process, threaten the Transitional Federal Institutions by force, or take action that undermines stability in Somalia or the region.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="SingleTxt">
+        <content eId="para_16__content">
+          <p xml:space="preserve">	“The Security Council requests the Secretary-General to report by mid‑June on progress towards convening the National Reconciliation Congress and the broader political dialogue, including progress towards a comprehensive and permanent ceasefire arrangement, and on any blockages to progress or threats to the Transitional Federal Institutions.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="SingleTxt">
+        <content eId="para_17__content">
+          <p xml:space="preserve">	“The Security Council reiterates that, as set out in its resolution 1744 (2007), full and effective deployment of the African Union Mission to Somalia (AMISOM) is vital. The Security Council welcomes deployments so far under AMISOM and calls on other potential Troop Contributing Countries to deploy as soon as possible to AMISOM. It reiterates its call for other States and partners to provide logistical, technical and financial support to ensure the further deployment of AMISOM. The Security Council also welcomes the Secretary-General’s offer of planning assistance to the African Union.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="SingleTxt">
+        <content eId="para_18__content">
+          <p xml:space="preserve">	“The Security Council emphasizes the contribution of AMISOM to lasting peace and stability in Somalia, condemns any hostility towards it, and urges all parties in Somalia and the region to support and cooperate with AMISOM.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="SingleTxt">
+        <content eId="para_19__content">
+          <p xml:space="preserve">	“The Security Council welcomes the Technical Assessment Mission sent by the Secretary-General to Somalia and the region. It requests the Secretary-General to consult the African Union and troop contributors on how to urgently strengthen further AMISOM’s capabilities on the ground. It also requests the Secretary-General, as suggested in his report, to immediately begin appropriate contingency planning for a possible United Nations mission, to be deployed if the Security Council decided to authorize such a mission. The Security Council requests the Secretary-General to report by mid-June on this preparatory work, progress in the reconciliation process and developments on the ground, as well as possible scenarios for a continued international security presence in Somalia.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="SingleTxt">
+        <content eId="para_20__content">
+          <p xml:space="preserve">	“The Security Council states its intention to review the situation in Somalia following the report described above from the Secretary-General, with a view to determining whether the conditions are in place for deployment of a United Nations peacekeeping operation.”</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

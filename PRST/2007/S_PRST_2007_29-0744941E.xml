@@ -1,0 +1,147 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-08-03/2007-29/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-08-03/2007-29/"></FRBRuri>
+          <FRBRdate date="2007-08-03" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-08-03/2007-29/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-08-03/2007-29/eng@/"></FRBRuri>
+          <FRBRdate date="2007-08-03" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2007-08-03/2007-29/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2007-08-03/2007-29/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-02-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">07-44941 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2007/29</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2007-08-03" class="rightSmall" refersTo="#dateOfIssuance">3 August 2007</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p />
+    </preface>
+    <mainBody>
+      <p>
+      <docTitle refersTo="#title1">
+        <span class="bold">		Statement by the President of the Security Council</span>
+      </docTitle>
+      </p>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">	At the 5728th meeting of the Security Council, held on 3 August 2007, in connection with the Council’s consideration of the item entitled “The situation in the Middle East”, the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </alinea>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">		“The Security Council recalls its previous resolutions and statements on Lebanon. It welcomes the report of the Secretary-General of 28 June 2007 (S/2007/392). It reaffirms its strong support for the sovereignty, territorial integrity, unity, and political independence of Lebanon within its internationally-recognized borders and under the sole and exclusive authority of its Government. The Council encourages efforts towards national reconciliation and political dialogue. It reiterates its full support for the legitimate and democratically-elected Government of Lebanon, calls for full respect for the democratic institutions of the country, in conformity with its constitution, and condemns any effort to destabilize Lebanon. The Council also reiterates its full support for the efforts carried out by the Lebanese Army to ensure security and stability throughout Lebanon and reaffirms that there should be no weapons or authority in Lebanon other than that of the Lebanese State.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">		“The Security Council reiterates its attachment to the full implementation of all provisions of resolution 1701 (2006) and urges all concerned parties to cooperate fully with the Security Council and the Secretary-General to achieve a permanent cease-fire and a long-term solution as envisioned in the resolution. It also takes note of the Government of Lebanon’s letter, in which it reaffirmed its commitment to the role of UNIFIL, and asked for the renewal of its mandate. The Council reaffirms its full support for the United Nations Interim Force in Lebanon (UNIFIL), condemns all terrorist attacks against it, and calls on all parties to abide by their obligation to respect the safety of UN personnel. It also emphasizes the need for UNIFIL to enhance its investigative capacity in response to the attacks. The Council welcomes the tripartite arrangements referred to in the report, notes the commitments to reach an agreement on the northern part of Ghajar, and encourages the parties to cooperate with UNIFIL to visibly mark the Blue Line. It expresses its deep concern at the increase in Israeli violations of Lebanese air space and appeals to all parties concerned to respect the cessation of hostilities and the Blue Line in its entirety.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">		“The Security Council, in this context, expresses grave concern at persistent reports of breaches of the arms embargo along the Lebanon‑Syria border. It expresses concern at any allegation of rearming of Lebanese and non Lebanese armed groups and militias and reiterates that there should be no sale or supply of arms and related materiel to Lebanon except as authorized by its Government. In this regard, it expresses concern about the recent statement by Hezbollah that it retains the military capacity to strike all parts of Israel, and calls on all parties to refrain from statements and activities that could jeopardize the cessation of hostilities . The Council takes note of the detailed information conveyed by the Government of Lebanon about the dangerous activities of armed elements and groups, in particular PFLP-GC and Fatah Intifada, and reiterates its call for the disbanding and disarmament of all militias and armed groups in Lebanon. It underscores the obligation of all member states, in particular in the region, to take all necessary measures to implement paragraph 15 of resolution 1701 to enforce the arms embargo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <content eId="para_6__content">
+          <p xml:space="preserve">		“The Security Council welcomes the recommendations of the Lebanon Independent Border Assessment Team (LIBAT) and looks forward to their implementation. It requests the Secretary-General, in consultation with the Government of Lebanon, to assess their implementation and to regularly update the Council on this issue in his regular reports on the implementation of resolution 1701, including as appropriate and in coordination with the Government of Lebanon, on the basis of follow-up field visits. The Council welcomes the assistance provided by donors to help the Government of Lebanon to secure its borders and encourages further such assistance, including by continuing to provide equipment and border security experts. Underlining that Syria and Lebanon share responsibility for controlling their border, it notes that the Government of Syria has stated that it has taken measures, reiterates its call on that Government to take further measures to reinforce control at the border, and looks forward to additional proposals in this regard in light of the Secretary-General’s visit to Syria. The Council also calls for enhanced cross-border cooperation to secure the Syrian-Lebanese border.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <content eId="para_7__content">
+          <p xml:space="preserve">		“The Security Council emphasizes the need for greater progress on all the principles and elements required for a permanent ceasefire and long-term solution identified in resolution 1701. The Council expresses deep concern that Hizballah has not returned the two Israeli soldiers it abducted, or even provided proof of life, and calls for their immediate and unconditional return. It further encourages efforts to urgently settle the issue of Lebanese prisoners detained in Israel.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="SingleTxt">
+        <content eId="para_8__content">
+          <p xml:space="preserve">		“The Council expresses deep concern at the presence of unexploded ordnance in south Lebanon and renews its support for the Secretary General’s request to Israel to provide to the United Nations detailed data on its use of cluster munitions in southern Lebanon.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="SingleTxt">
+        <content eId="para_9__content">
+          <p xml:space="preserve">		“The Security Council, bearing in mind the relevant provisions of resolutions 1559 (2004), 1680 (2006), and 1701 on the delineation of the Syrian-Lebanese border, looks forward to the re-activation of the Syrian-Lebanese boundary committee. It takes note of the solid progress made by the cartographer towards a provisional determination of the geographical extent of the Shabaa Farms and welcomes the Secretary-General’s intention to engage in further discussions with the parties on the Shebaa Farms area, including on its territorial definition, that will strengthen a diplomatic process aimed at resolving this key issue in accordance with the relevant provisions of resolution 1701. It also reiterates its appreciation for the process launched by the Secretary-General to investigate the implications of the interim proposal contained in the seven-point plan of the Government of Lebanon regarding the Shebaa farms area. Recalling paragraph 62 of the Secretary-General’s report, the Council underlines that progress should also be made on all the other issues identified in operative paragraph 10 of resolution 1701. In this regard, the Security Council requests, pursuant to resolution 1701, that the Secretary-General continue to develop, in liaison with relevant actors and the concerned parties, proposals to implement the relevant provisions of the Taif Accords, and resolutions 1559 (2004), 1680 (2006), including disarmament.  </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="SingleTxt">
+        <content eId="para_10__content">
+          <p xml:space="preserve">		“The Security Council stresses the importance of, and the need to achieve, a comprehensive, just and lasting peace in the Middle East, based on all its relevant resolutions including its resolutions 242 (1967) of 22 November 1967 and 338 (1973) of 22 October 1973.”</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
