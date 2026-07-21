@@ -1,0 +1,131 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2005-10-24/2005-51/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2005-10-24/2005-51/"></FRBRuri>
+          <FRBRdate date="2005-10-24" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2005-10-24/2005-51/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2005-10-24/2005-51/eng@/"></FRBRuri>
+          <FRBRdate date="2005-10-24" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2005-10-24/2005-51/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2005-10-24/2005-51/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-02-02" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="7" href="http://metadata.un.org/sdg/7" showAs="sdg_7" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_energy" href="http://metadata.un.org/thesaurus/1006320" showAs="sustainable_energy" dictionary="UNBIS"></keyword>
+        <keyword value="66_energy" href="http://eurovoc.europa.eu/100159" showAs="66_energy" dictionary="EuroVoc"></keyword>
+        <keyword value="energy_market" href="http://eurovoc.europa.eu/4886" showAs="energy_market" dictionary="EuroVoc"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">05-56634 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2005/51</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Security Council</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2005-10-24" class="rightSmall" refersTo="#dateOfIssuance">24 October 2005</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p />
+    </preface>
+    <mainBody>
+      <p>
+      <docTitle refersTo="#title1">
+        <span class="bold">		Statement by the President of the Security Council</span>
+      </docTitle>
+      </p>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">	At the 5290th meeting of the Security Council, held on 24 October 2005, in connection with the Council’s consideration of the item entitled “Security Council resolutions 1160 (1998), 1199 (1998), 1203 (1998), 1239 (1999) and 1244 (1999)”, the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </alinea>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">		“The Security Council welcomes the report prepared by the United Nations Secretary-General’s Standards Review envoy, Ambassador Kai Eide, on the Comprehensive Review of the implementation of Standards, as well as of the overall situation in and relating to Kosovo (Serbia and Montenegro), forwarded by the Secretary-General on 7 October 2005 (S/2005/635). The Council pays tribute to Ambassador Eide’s work in compiling his important report.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">		“The Security Council recalls the Secretary-General’s report of 23 May 2005 (S/2005/335) in which he initiated the Comprehensive Review conducted by Ambassador Eide. In light of the findings in Ambassador Eide’s report, the Council stresses that further, more sustained progress is required, and that the implementation of Standards in Kosovo must continue with undiminished energy and a stronger sense of commitment, as underlined by the Secretary-General in his letter. It urges Kosovo’s leaders to increase their efforts to ensure the implementation of standards at all levels, allowing tangible results to be delivered to all Kosovo’s citizens. Particular and time-conscious attention should be given to protecting minorities, developing further the process of decentralization, creating the necessary conditions to allow sustainable returns, preservation of cultural and religious heritage in Kosovo, and promoting reconciliation. The Council also urges the authorities in Belgrade to do their utmost to facilitate this process, and to engage constructively. The Council reaffirms its full support for the Special Representative of the Secretary-General, Mr. Søren Jessen-Petersen, and UNMIK in their continuing work to support the implementation of Standards, which must continue during the Future Status process and will be an important factor in determining the degree of progress.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="SingleTxt">
+        <content eId="para_5__content">
+          <p xml:space="preserve">		“The Security Council agrees with Ambassador Eide’s overall assessment that, notwithstanding the challenges still facing Kosovo and the wider region, the time has come to move to the next phase of the political process. The Council therefore supports the Secretary-General’s intention to start a political process to determine Kosovo’s Future Status, as foreseen in Security Council resolution 1244 (1999). The Council reaffirms the framework of the resolution, and welcomes the Secretary-General’s readiness to appoint a Special Envoy to lead the Future Status process. It looks forward to an early appointment. The Council offers its full support to this political process, which would determine Kosovo’s future status, and further reaffirms its commitment to the objective of a multi-ethnic and democratic Kosovo, which must reinforce regional stability.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="SingleTxt">
+        <content eId="para_6__content">
+          <p xml:space="preserve">		“The Security Council welcomes the intention of the Contact Group (France, Germany, Italy, the Russian Federation, the United Kingdom and the United States) to remain closely engaged in the political process that will be led by the United Nations, and to support the Secretary-General’s Future Status Envoy. The Council calls upon interested regional and international organizations to cooperate closely in the process to determine Kosovo’s future status. The Council also supports the meaningful involvement and cooperation of countries in the region.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="SingleTxt">
+        <content eId="para_7__content">
+          <p xml:space="preserve">		“The Security Council requests that the Secretary-General provide regular updates on progress in determining Kosovo’s Future Status, as defined by Security Council resolution 1244 (1999), and will remain actively seized of the matter.”</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
