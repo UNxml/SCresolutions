@@ -1,0 +1,173 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-03-15/2000-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-03-15/2000-8/"></FRBRuri>
+          <FRBRdate date="2000-03-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-03-15/2000-8/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-03-15/2000-8/eng@/"></FRBRuri>
+          <FRBRdate date="2000-03-15" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-03-15/2000-8/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-03-15/2000-8/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-11-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#un">
+        <step by="" />
+      </workflow>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2000/8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2000-03-15" class="rightSmall" refersTo="#dateOfIssuance">15 March 2000</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docTitle refersTo="#title1">STATEMENT BY THE PRESIDENT OF THE SECURITY COUNCIL</docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">
+            <span class="bold">UNITED</span>
+          </p>
+        </content>
+      </alinea>
+      <paragraph eId="para_2" class="Normal">
+        <content eId="para_2__content">
+          <p xml:space="preserve">
+            <span class="bold">NATIONS</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="Normal">
+        <content eId="para_3__content">
+          <p xml:space="preserve"> Distr.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="Normal">
+        <content eId="para_4__content">
+          <p xml:space="preserve"> GENERAL</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="Normal">
+        <content eId="para_5__content">
+          <p xml:space="preserve"> S/PRST/2000/8</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <docDate date="2000-03-15" refersTo="#adoptionDate">15 March 2000</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <mainBody>
+      <paragraph eId="para_7" class="Normal">
+        <content eId="para_7__content">
+          <p xml:space="preserve"> ORIGINAL:  ENGLISH</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="Normal">
+        <content eId="para_8__content">
+          <p xml:space="preserve"> At the 4112th meeting of the Security Council, held on 15 March 2000 in connection with the Council's consideration of the item entitled "The question concerning Haiti", the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="Normal">
+        <content eId="para_9__content">
+          <p xml:space="preserve"> "The Security Council has considered the report of the Secretary-General dated 25 February 2000 (S/2000/150) submitted in accordance with resolution 1277 (1999) of 30 November 1999.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="Normal">
+        <content eId="para_10__content">
+          <p xml:space="preserve"> "The Security Council commends the Representative of the Secretary-General, the United Nations Civilian Police Mission in Haiti (MIPONUH), the International Civilian Mission in Haiti (MICIVIH) and all the previous missions deployed in Haiti for assisting the Haitian Government in supporting the professionalization of the Haitian National Police (HNP) force, consolidating Haiti's system of justice and other national institutions, and promoting human rights.  The Council expresses its thanks to all the countries which took part in and contributed to the success of MIPONUH, MICIVIH and all the previous missions deployed in Haiti, particularly the troop-contributing countries.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="Normal">
+        <content eId="para_11__content">
+          <p xml:space="preserve"> "The Security Council recognizes that the people and the Government of Haiti bear the ultimate responsibility for national reconciliation, the maintenance of a secure and stable environment, the administration of justice and the reconstruction of their country, and that the Government of Haiti bears particular responsibility for the further strengthening and effective functioning of the HNP and the justice system.  The Council considers that timely, free and fair elections are crucial to democracy and all aspects of Haiti's development, and strongly urges the Haitian authorities to work cooperatively together in order to finalize arrangements for holding credible elections as rapidly as possible so as to restore, promptly and fully, the lapsed parliament and independent local governments.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="Normal">
+        <content eId="para_12__content">
+          <p xml:space="preserve"> "The Security Council commends the Secretary-General for ensuring a phased transition to the International Civilian Support Mission in Haiti (MICAH) and recognizes that economic rehabilitation and reconstruction constitute a major task facing the Government and people of Haiti and that significant international assistance is indispensable for the sustainable development of Haiti.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="Normal">
+        <content eId="para_13__content">
+          <p xml:space="preserve"> "The Security Council recognizes the success of cooperative efforts in bringing about the mandate for this new mission in Haiti and notes with satisfaction the contributions made by the General Assembly and the Economic and Social Council in this regard.  The Security Council welcomes the initiative of the Economic and Social Council to develop a strategic framework and a comprehensive approach for a long-term United Nations programme of support for Haiti and underlines the vital link between national stability and economic and social development.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="Normal">
+        <content eId="para_14__content">
+          <p xml:space="preserve"> "The Security Council expects the Secretary-General to keep it informed, as appropriate, of the situation in Haiti and, in particular, the progress achieved in the electoral process."</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="Normal">
+        <content eId="para_15__content">
+          <p xml:space="preserve">-----</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

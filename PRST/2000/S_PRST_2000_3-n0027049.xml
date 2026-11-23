@@ -1,0 +1,168 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-01-31/2000-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-01-31/2000-3/"></FRBRuri>
+          <FRBRdate date="2000-01-31" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-01-31/2000-3/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-01-31/2000-3/eng@/"></FRBRuri>
+          <FRBRdate date="2000-01-31" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-01-31/2000-3/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-01-31/2000-3/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-11-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#un">
+        <step by="" />
+      </workflow>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2000/3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2000-01-31" class="rightSmall" refersTo="#dateOfIssuance">31 January 2000</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docTitle refersTo="#title1">STATEMENT BY THE PRESIDENT OF THE SECURITY COUNCIL</docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">
+            <span class="bold">UNITED</span>
+          </p>
+        </content>
+      </alinea>
+      <paragraph eId="para_2" class="Normal">
+        <content eId="para_2__content">
+          <p xml:space="preserve">
+            <span class="bold">NATIONS</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="Normal">
+        <content eId="para_3__content">
+          <p xml:space="preserve"> Distr.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="Normal">
+        <content eId="para_4__content">
+          <p xml:space="preserve"> GENERAL</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="Normal">
+        <content eId="para_5__content">
+          <p xml:space="preserve"> S/PRST/2000/3</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <docDate date="2000-01-31" refersTo="#adoptionDate">31 January 2000</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <mainBody>
+      <paragraph eId="para_7" class="Normal">
+        <content eId="para_7__content">
+          <p xml:space="preserve"> ORIGINAL:  ENGLISH</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="Normal">
+        <content eId="para_8__content">
+          <p xml:space="preserve"> At the 4095th meeting of the Security Council, held on 31 January 2000, in connection with the Council's consideration of the item entitled "The situation in the Middle East", the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="Normal">
+        <content eId="para_9__content">
+          <p xml:space="preserve"> "The Security Council has noted with appreciation the report of the Secretary-General on the United Nations Interim Force in Lebanon (UNIFIL) of 17 January 2000 (S/2000/28) submitted in conformity with resolution 1254 (1999) of 30 July 1999.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="Normal">
+        <content eId="para_10__content">
+          <p xml:space="preserve"> "The Security Council reaffirms its commitment to the full sovereignty, political independence, territorial integrity and national unity of Lebanon within its internationally recognized boundaries.  In this context, the Council asserts that all States shall refrain from the threat or use of force against the territorial integrity or political independence of any State, or in any manner inconsistent with the purposes of the United Nations.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="Normal">
+        <content eId="para_11__content">
+          <p xml:space="preserve"> "As the Security Council extends the mandate of UNIFIL for a further interim period of the basis of resolution 425 (1978), the Council again stresses the urgent need for the implementation of that resolution in all its respects.  It reiterates its full support for the Taif Agreement and for the continued efforts of the Lebanese Government to consolidate peace, national unity and security in the country, while successfully carrying out the reconstruction process.  The Council commends the Lebanese Government for its successful effort to extend its authority in the south of the country in full coordination with UNIFIL.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="Normal">
+        <content eId="para_12__content">
+          <p xml:space="preserve"> "The Security Council expresses its concern over the continuing violence in Southern Lebanon, regrets the loss of civilian life, and urges all parties to exercise restraint.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="Normal">
+        <content eId="para_13__content">
+          <p xml:space="preserve"> "The Security Council takes this opportunity to express its appreciation for the continuing efforts of the Secretary-General and his staff in this regard.  The Council notes with deep concern the high level of casualties which UNIFIL has suffered and pays a special tribute to all those who gave their life while serving in UNIFIL.  It commends UNIFIL's troops and troop-contributing countries for their sacrifices and commitment to the cause of international peace and security under difficult circumstances."</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="Normal">
+        <content eId="para_14__content">
+          <p xml:space="preserve">-----</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

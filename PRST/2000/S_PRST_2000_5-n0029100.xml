@@ -1,0 +1,188 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-02-10/2000-5/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-02-10/2000-5/"></FRBRuri>
+          <FRBRdate date="2000-02-10" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-02-10/2000-5/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-02-10/2000-5/eng@/"></FRBRuri>
+          <FRBRdate date="2000-02-10" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-02-10/2000-5/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-02-10/2000-5/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-11-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#un">
+        <step by="" />
+      </workflow>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2000/5</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2000-02-10" class="rightSmall" refersTo="#dateOfIssuance">10 February 2000</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docTitle refersTo="#title1">STATEMENT BY THE PRESIDENT OF THE SECURITY COUNCIL</docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">
+            <span class="bold">UNITED</span>
+          </p>
+        </content>
+      </alinea>
+      <paragraph eId="para_2" class="Normal">
+        <content eId="para_2__content">
+          <p xml:space="preserve">
+            <span class="bold">NATIONS</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="Normal">
+        <content eId="para_3__content">
+          <p xml:space="preserve"> Distr.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="Normal">
+        <content eId="para_4__content">
+          <p xml:space="preserve"> GENERAL</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="Normal">
+        <content eId="para_5__content">
+          <p xml:space="preserve"> S/PRST/2000/5</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <docDate date="2000-02-10" refersTo="#adoptionDate">10 February 2000</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <mainBody>
+      <paragraph eId="para_7" class="Normal">
+        <content eId="para_7__content">
+          <p xml:space="preserve"> ENGLISH</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="Normal">
+        <content eId="para_8__content">
+          <p xml:space="preserve"> ORIGINAL:  FRENCH</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="Normal">
+        <content eId="para_9__content">
+          <p xml:space="preserve"> At the 4101st meeting of the Security Council, held on 10 February 2000, in connection with the Council's consideration of the item entitled "The situation in the Central African Republic", the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="Normal">
+        <content eId="para_10__content">
+          <p xml:space="preserve"> "The Security Council has considered the report of the Secretary-General dated 14 January 2000 (S/2000/24) submitted in accordance with resolution 1271 (1999) of 22 October 1999.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="Normal">
+        <content eId="para_11__content">
+          <p xml:space="preserve"> "The Security Council commends the United Nations Mission in the Central African Republic (MINURCA) and the Special Representative of the Secretary-General for the contribution they have made to the restoration of peace and security in the Central African Republic and for their important and tangible support for the holding of free and fair legislative and presidential elections, the restructuring of the security forces, the training of the police force and the launching of vital reforms in the political, social and economic fields in the Central African Republic.  The Council expresses its thanks to all the countries which took part in and contributed to the success of MINURCA, particularly the troop-contributing countries.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="Normal">
+        <content eId="para_12__content">
+          <p xml:space="preserve"> "The Security Council recognizes the significant progress made by the Government of the Central African Republic in implementing the Bangui Agreements (S/1997/561, appendices III-VI) and the National Reconciliation Pact (S/1998/219), which are the foundations of peace and stability in the country.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="Normal">
+        <content eId="para_13__content">
+          <p xml:space="preserve"> "The Security Council strongly encourages the Government of the Central African Republic to do all it can to build on the progress made while the Inter-African Mission to Monitor the Implementation of the Bangui Agreements (MISAB) and MINURCA have been present in the country and to work with determination to strengthen democratic institutions, broaden the scope of reconciliation and national unity and promote economic reform and recovery.  The Council urges the Government of the Central African Republic to continue to conform to the requirements of the economic reform and financial consolidation programmes agreed with the international financial institutions.  The Council calls upon the members of the international community and on bilateral and multilateral donors in particular to give their active support to the efforts being made to this end by the Government of the Central African Republic.  The Council wishes also to stress the importance of providing international assistance to the refugees and displaced persons in the Central African Republic and the other countries of the region in order to contribute to regional stability.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="Normal">
+        <content eId="para_14__content">
+          <p xml:space="preserve"> "The Security Council welcomes the promulgation by the Central African authorities of three laws on the restructuring of the armed forces and the decrees issued by the Government so that these laws can be implemented.  The Council encourages the Central African authorities actively to prepare and to submit, with the help of the United Nations, specific plans for the holding of a meeting in New York to mobilize the financial and other resources necessary for the effective implementation of the programme for the restructuring of the Central African armed forces and the demobilization and reintegration programme.  The Council calls upon the members of the international community to support these programmes.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="Normal">
+        <content eId="para_15__content">
+          <p xml:space="preserve"> "The Security Council welcomes in particular the decision by the Government of the Central African Republic to disband the Special Force for the Defence of the Republican Institutions (FORSDIR), and notes with satisfaction that FORSDIR will be replaced by a unit fully integrated in the national security forces, under the command of the Chief of Staff of the Central African armed forces, and that its mission will be strictly limited to protecting State authorities at the highest level.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="Normal">
+        <content eId="para_16__content">
+          <p xml:space="preserve"> "The Security Council also welcomes the decision by the Secretary-General, which has been accepted by the Government of the Central African Republic, to establish, for an initial period of one year beginning on 15 February 2000, the United Nations Peace-Building Support Office in the Central African Republic (BONUCA), headed by a representative of the Secretary-General, and encourages the Central African authorities and BONUCA to work closely together.  The Council notes with satisfaction that the Office's principal mission will be to support the Government's efforts to consolidate peace and national reconciliation, strengthen democratic institutions and facilitate the mobilization at the international level of political support and resources for national reconstruction and economic recovery in the Central African Republic; and that the Office is also tasked with monitoring developments in and promoting public awareness of human rights issues.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="Normal">
+        <content eId="para_17__content">
+          <p xml:space="preserve"> "The Security Council requests the Secretary-General to continue to keep it regularly informed of the activities of the Office, the situation in the Central African Republic and, in particular, the progress achieved in political, social and economic reforms, and to submit a report to the Council by 30 June 2000 and every six months thereafter."</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="Normal">
+        <content eId="para_18__content">
+          <p xml:space="preserve">-----</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

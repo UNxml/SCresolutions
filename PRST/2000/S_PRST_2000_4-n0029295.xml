@@ -1,0 +1,228 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-02-09/2000-4/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-02-09/2000-4/"></FRBRuri>
+          <FRBRdate date="2000-02-09" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-02-09/2000-4/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-02-09/2000-4/eng@/"></FRBRuri>
+          <FRBRdate date="2000-02-11" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-02-09/2000-4/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-02-09/2000-4/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-11-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#un">
+        <step by="" />
+      </workflow>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2000/4</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2000-02-11" class="rightSmall" refersTo="#dateOfIssuance">11 February 2000</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docTitle refersTo="#title1">STATEMENT BY THE PRESIDENT OF THE SECURITY COUNCIL</docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">
+            <span class="bold">UNITED</span>
+          </p>
+        </content>
+      </alinea>
+      <paragraph eId="para_2" class="Normal">
+        <content eId="para_2__content">
+          <p xml:space="preserve">
+            <span class="bold">NATIONS</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="Normal">
+        <content eId="para_3__content">
+          <p xml:space="preserve"> Distr.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="Normal">
+        <content eId="para_4__content">
+          <p xml:space="preserve"> GENERAL</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="Normal">
+        <content eId="para_5__content">
+          <p xml:space="preserve"> S/PRST/2000/4<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">Reissued for technical reasons.</p></authorialNote></p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <docDate date="2000-02-11" refersTo="#adoptionDate">11 February 2000</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <mainBody>
+      <paragraph eId="para_7" class="Normal">
+        <content eId="para_7__content">
+          <p xml:space="preserve"> ENGLISH</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="Normal">
+        <content eId="para_8__content">
+          <p xml:space="preserve"> ORIGINAL:  ENGLISH AND 	           SPANISH</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="Normal">
+        <content eId="para_9__content">
+          <p xml:space="preserve"> At the 4100th meeting of the Security Council, held on 9 February 2000, in connection with the Council's consideration of the item entitled "Protection of United Nations personnel, associated personnel and humanitarian personnel in conflict zones", the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="Normal">
+        <content eId="para_10__content">
+          <p xml:space="preserve"> "The Security Council is gravely concerned at continued attacks against United Nations and associated personnel,<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">As defined in the Convention on the Safety of United Nations and Associated Personnel of 9 December 1994.</p></authorialNote> and humanitarian personnel, which are in violation of international law including international humanitarian law.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="Normal">
+        <content eId="para_11__content">
+          <p xml:space="preserve"> "The Security Council recalls its resolution 1265 (1999) of 17 September 1999, and reaffirms the statements of its President of 31 March 1993, on the safety of United Nations forces and personnel deployed in conditions of strife (S/25493), of 12 March 1997, on condemnation of attacks on United Nations personnel (S/PRST/1997/13), of 19 June 1997, on the use of force against refugees and civilians in conflict situations (S/PRST/1997/34), and of 29 September 1998, on protection for humanitarian assistance to refugees and others in conflict situations (S/PRST/1998/30).  The Council also recalls General Assembly resolution 54/192, on the safety and security of humanitarian personnel and protection of United Nations personnel.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="Normal">
+        <content eId="para_12__content">
+          <p xml:space="preserve"> "The Security Council also recalls the report of the Secretary-General on the strengthening of the coordination of emergency humanitarian assistance of the United Nations, and its Addendum on the safety and security of humanitarian personnel and protection of United Nations personnel (A/54/154 and Add.1), and looks forward to the report of the Secretary-General pursuant to resolution 54/192 of 17 December 1999, to be submitted to the General Assembly in May 2000, which should contain a detailed analysis and recommendations addressing the scope of legal protection under the Convention on the Safety of United Nations and Associated Personnel of 1994.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="Normal">
+        <content eId="para_13__content">
+          <p xml:space="preserve"> "The Security Council notes with satisfaction the entry into force of the Convention on the Safety of United Nations and Associated Personnel of 1994, recognizes its importance for addressing the security of such personnel and recalls the relevant principles contained therein.  The Council encourages all States to become party to and respect fully their obligations under the relevant instruments, including the 1994 Convention above referred.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="Normal">
+        <content eId="para_14__content">
+          <p xml:space="preserve"> "The Security Council recalls that, on a number of occasions, it has condemned attacks and the use of force against United Nations and associated personnel, and humanitarian personnel.  It strongly deplores the fact that incidents of violence have continued, leading to a rising toll of casualties among United Nations, associated and humanitarian personnel.  The Council strongly condemns the acts of murder and various forms of physical and psychological violence, including abduction, hostage-taking, kidnapping, harassment and illegal arrest and detention to which such personnel have been subjected, as well as acts of destruction and looting of their property, all of which are unacceptable.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="Normal">
+        <content eId="para_15__content">
+          <p xml:space="preserve"> "The Security Council also recalls that the primary responsibility for the security and protection of United Nations and associated personnel, and humanitarian personnel, lies with the host State.  The Council urges States and non‑State parties to respect fully the status of United Nations and associated personnel, and to take all appropriate steps, in accordance with the purposes and principles of the Charter of the United Nations and the rules of international law, to ensure the safety and security of United Nations and associated personnel, and humanitarian personnel, and underlines the importance of unhindered access to populations in need.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="Normal">
+        <content eId="para_16__content">
+          <p xml:space="preserve"> "The Security Council urges States to fulfil their responsibility to act promptly and effectively in their domestic legal systems to bring to justice all those responsible for attacks and other acts of violence against such personnel, and to enact effective national legislation as required for that purpose.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="Normal">
+        <content eId="para_17__content">
+          <p xml:space="preserve"> "The Security Council will continue to stress in its resolutions the imperative for humanitarian assistance missions and personnel to have safe and unimpeded access to civilian populations and, in this context, is prepared to consider taking all appropriate measures at its disposal to ensure the safety and security of such personnel.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="Normal">
+        <content eId="para_18__content">
+          <p xml:space="preserve"> "The Security Council welcomes the inclusion as a war crime in the Rome Statute of the International Criminal Court, of attacks intentionally directed against personnel involved in a humanitarian assistance or peacekeeping mission as long as they are entitled to the protection given to civilians under the international law of armed conflict, and notes the role that the Court could play in bringing to justice those responsible for serious violations of international humanitarian law.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="Normal">
+        <content eId="para_19__content">
+          <p xml:space="preserve"> "The Security Council expresses the view that improving the security of United Nations and associated personnel, and humanitarian personnel, may require, <span class="underline">inter alia</span>, the development and strengthening of all aspects of the current safety and security regime in place, as well as the adoption of effective action to address the impunity of those who commit crimes against such personnel.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="Normal">
+        <content eId="para_20__content">
+          <p xml:space="preserve"> "The Security Council recognizes the importance of issuing clear, appropriate and feasible mandates for peacekeeping operations, to ensure that they are applied in a timely, efficient and objective manner, and of ensuring that all new and ongoing United Nations field operations, include appropriate modalities for the safety and security of United Nations and associated personnel, and humanitarian personnel.  The Council underscores that United Nations personnel have the right to act in self-defence.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="Normal">
+        <content eId="para_21__content">
+          <p xml:space="preserve"> "The Security Council encourages the Secretary-General to complete the process of conducting a general and comprehensive review of security in peacekeeping operations, with a view to elaborating and undertaking further specific and practical measures to increase the safety and security of United Nations and associated personnel, and humanitarian personnel.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="Normal">
+        <content eId="para_22__content">
+          <p xml:space="preserve"> "The Security Council considers it important that a comprehensive security plan be developed for every peacekeeping and humanitarian operation and that, during early elaboration and implementation of that plan, Member States and the Secretariat cooperate fully in order to ensure, <span class="underline">inter alia</span>, an open and immediate exchange of information on security issues.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="Normal">
+        <content eId="para_23__content">
+          <p xml:space="preserve"> "The Security Council, bearing in mind the need to reinforce the responsibility of the host State for the physical security of United Nations and associated personnel, also underlines the importance of including in each status-of-forces agreement and status-of-missions agreement specific and practical measures based on the provisions of the Convention on the Safety of United Nations and Associated Personnel of 1994.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="Normal">
+        <content eId="para_24__content">
+          <p xml:space="preserve"> "The Security Council recalls the obligations of all United Nations personnel and associated personnel, and humanitarian personnel, to observe and respect the national laws of the host State in accordance with international law and the Charter of the United Nations.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="Normal">
+        <content eId="para_25__content">
+          <p xml:space="preserve"> "The Security Council believes it is essential to continue to strengthen security arrangements, to improve their management, and to allocate adequate resources to the safety and security of United Nations and associated personnel, and humanitarian personnel."</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="Normal">
+        <content eId="para_26__content">
+          <p xml:space="preserve">-----</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,178 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-01-13/2000-1/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-01-13/2000-1/"></FRBRuri>
+          <FRBRdate date="2000-01-13" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-01-13/2000-1/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-01-13/2000-1/eng@/"></FRBRuri>
+          <FRBRdate date="2000-01-13" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-01-13/2000-1/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-01-13/2000-1/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-11-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#un">
+        <step by="" />
+      </workflow>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2000/1</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2000-01-13" class="rightSmall" refersTo="#dateOfIssuance">13 January 2000</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docTitle refersTo="#title1">STATEMENT BY THE PRESIDENT OF THE SECURITY COUNCIL</docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">
+            <span class="bold">UNITED</span>
+          </p>
+        </content>
+      </alinea>
+      <paragraph eId="para_2" class="Normal">
+        <content eId="para_2__content">
+          <p xml:space="preserve">
+            <span class="bold">NATIONS</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="Normal">
+        <content eId="para_3__content">
+          <p xml:space="preserve"> Distr.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="Normal">
+        <content eId="para_4__content">
+          <p xml:space="preserve"> GENERAL</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="Normal">
+        <content eId="para_5__content">
+          <p xml:space="preserve"> S/PRST/2000/1</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <docDate date="2000-01-13" refersTo="#adoptionDate">13 January 2000</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <mainBody>
+      <paragraph eId="para_7" class="Normal">
+        <content eId="para_7__content">
+          <p xml:space="preserve"> ORIGINAL:  ENGLISH</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="Normal">
+        <content eId="para_8__content">
+          <p xml:space="preserve"> At the 4089th meeting of the Security Council, held on 13 January 2000 in connection with the Council's consideration of the item entitled "Promoting peace and security:  humanitarian assistance to refugees in Africa", the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="Normal">
+        <content eId="para_9__content">
+          <p xml:space="preserve"> "The Security Council recalls its previous statements concerning protection for humanitarian assistance to refugees and others in conflict situation, the situation in Africa, the protection of civilians in armed conflict, and the role of the Security Council in the prevention of armed conflicts.  The Council further recalls its previous relevant resolutions, as well as relevant resolutions of the General Assembly.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="Normal">
+        <content eId="para_10__content">
+          <p xml:space="preserve"> "Bearing in mind its primary responsibility under the Charter of the United Nations for the maintenance of international peace and security, the Security Council underlines the importance of taking measures aimed at conflict prevention and resolution in Africa.  The Council stresses the need to address the root causes of armed conflict in a comprehensive manner in order to prevent those circumstances which lead to internal displacement and the outflow of refugees.  The Council notes with concern that the majority of refugees, returnees and internally displaced persons and others affected by conflict are women and children and stresses the need to intensify efforts to meet their special protection needs, including their vulnerability to violence, exploitation and disease, including HIV-AIDS.  The Council underlines the obligation of all Member States to seek to settle their international disputes by peaceful means.  The Council condemns the deliberate targeting of civilians and practices of forced displacement.  The Council reaffirms its commitment to the principles of the political independence, sovereignty and territorial integrity of all States.  The Council emphasizes that national authorities have the primary duty and responsibility to provide protection and humanitarian assistance to internally displaced persons within their jurisdiction.  The Council reaffirms the obligation of States to prevent arbitrary displacement in situations of armed conflict, and reaffirms as well their responsibility to meet the protection and assistance needs of internally displaced persons within their jurisdiction.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="Normal">
+        <content eId="para_11__content">
+          <p xml:space="preserve"> "The Security Council expresses its grave concern that alarmingly high numbers of refugees and internally displaced persons in Africa do not receive sufficient protection and assistance.  In this context, the Council notes that refugees are protected under the 1951 United Nations Convention and the 1967 Protocol relating to the Status of Refugees, the 1969 Organization of African Unity Convention Governing the Specific Aspects of Refugee Problems in Africa, and other relevant initiatives in the region.  The Council also notes that there is no comprehensive protection regime for internally displaced persons and that existing norms are not being fully implemented.  The Council recognizes that large-scale human suffering as well as violations of human rights and humanitarian law are consequences of and contributing factors to instability and further conflict.  In this regard, the Council affirms the need to ensure adequate protection and assistance for both refugees and internally displaced persons, taking into account the special difficulties in the provision of humanitarian assistance to internally displaced persons in Africa.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="Normal">
+        <content eId="para_12__content">
+          <p xml:space="preserve"> "The Security Council urges all parties concerned to comply strictly with their obligations under international humanitarian, human rights and refugee law, and emphasizes the need for better implementation of relevant norms with regard to internally displaced persons.  The Council invites States which have not already done so to consider ratifying the relevant instruments of international humanitarian, human rights and refugee law.  The Council takes note of the efforts made within the United Nations system aimed at promoting an effective collective response of the international community to situations of internal displacement.  The Council calls upon States, in particular States with situations of internal displacement in Africa, to cooperate fully with such efforts.  The Council further notes that the United Nations agencies, regional and non‑governmental organizations, in cooperation with host Governments, are making use of the Guiding Principles on Internal Displacement,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">E/CN.4/1998/53 and Add.1-2.</p></authorialNote> <span class="underline">inter alia</span>, in Africa. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="Normal">
+        <content eId="para_13__content">
+          <p xml:space="preserve"> "The Security Council reaffirms the responsibility of States hosting refugees to ensure the security and civilian and humanitarian character of refugee camps and settlements in accordance with existing international standards and international refugee, human rights and humanitarian law.  In this regard, the Council underlines the unacceptability of using refugees and other persons in refugee camps and settlements to achieve military purposes in the country of asylum or in the country of origin.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="Normal">
+        <content eId="para_14__content">
+          <p xml:space="preserve"> "The Security Council underlines the importance of safe and unhindered access, in accordance with international law, of humanitarian personnel to civilians in armed conflict, including refugees and internally displaced persons, and the protection of humanitarian assistance to them, and recalls the responsibility of all parties to conflict to ensure the safety and security of such personnel.  The Council condemns recent acts of deliberate violence in Africa against humanitarian personnel.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="Normal">
+        <content eId="para_15__content">
+          <p xml:space="preserve"> "The Security Council recognizes the extensive experience and burden of African States in hosting refugees and in dealing with the effects of refugee camps and settlements.  The Council welcomes the efforts made to support the needs of refugees in Africa, in particular those of the United Nations High Commissioner for Refugees and host countries.  Noting with concern the shortfall in funding for refugee and internally displaced persons programmes in Africa, the Council calls upon the international community to provide such programmes with the necessary financial resources, taking into account the substantial needs in Africa."</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="Normal">
+        <content eId="para_16__content">
+          <p xml:space="preserve">-----</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

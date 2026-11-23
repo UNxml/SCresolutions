@@ -1,0 +1,203 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-03-09/2000-7/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-03-09/2000-7/"></FRBRuri>
+          <FRBRdate date="2000-03-09" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-03-09/2000-7/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-03-09/2000-7/eng@/"></FRBRuri>
+          <FRBRdate date="2000-03-13" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-03-09/2000-7/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-03-09/2000-7/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-11-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#un">
+        <step by="" />
+      </workflow>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2000/7</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2000-03-13" class="rightSmall" refersTo="#dateOfIssuance">13 March 2000</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docTitle refersTo="#title1">STATEMENT BY THE PRESIDENT OF THE SECURITY COUNCIL</docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">
+            <span class="bold">UNITED</span>
+          </p>
+        </content>
+      </alinea>
+      <paragraph eId="para_2" class="Normal">
+        <content eId="para_2__content">
+          <p xml:space="preserve">
+            <span class="bold">NATIONS</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="Normal">
+        <content eId="para_3__content">
+          <p xml:space="preserve"> Distr.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="Normal">
+        <content eId="para_4__content">
+          <p xml:space="preserve"> GENERAL</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="Normal">
+        <content eId="para_5__content">
+          <p xml:space="preserve"> S/PRST/2000/7<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">Reissued for technical reasons.</p></authorialNote></p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <docDate date="2000-03-13" refersTo="#adoptionDate">13 March 2000</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <mainBody>
+      <paragraph eId="para_7" class="Normal">
+        <content eId="para_7__content">
+          <p xml:space="preserve"> ORIGINAL:  ENGLISH</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="Normal">
+        <content eId="para_8__content">
+          <p xml:space="preserve"> At the 4110th meeting of the Security Council, held on 9 March 2000 in connection with the Council's consideration of the item entitled "Maintaining peace and security:  Humanitarian aspects of issues before the Security Council", the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="Normal">
+        <content eId="para_9__content">
+          <p xml:space="preserve"> "The Security Council has considered the humanitarian aspects of issues before the Council.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="Normal">
+        <content eId="para_10__content">
+          <p xml:space="preserve"> "The Security Council recalls its primary responsibility under the Charter of the United Nations for the maintenance of international peace and security, and reaffirms the Purposes and Principles of the United Nations Charter.  The Council also reaffirms its commitment to the principles of the political independence, sovereign equality and territorial integrity of all States.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="Normal">
+        <content eId="para_11__content">
+          <p xml:space="preserve"> "The Security Council recognizes the importance of the humanitarian dimension to the maintenance of international peace and security and to its consideration of humanitarian issues relating to the protection of all civilians and other non‑combatants in situations of armed conflict.  The Council recognizes that humanitarian crises can be both causes and consequences of conflicts and that they can affect the Council's efforts to prevent and end conflicts, and to deal with other threats to international peace and security.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="Normal">
+        <content eId="para_12__content">
+          <p xml:space="preserve"> "The Security Council affirms that timely consideration of the following humanitarian issues contributes to the prevention of escalation of conflicts and to the maintenance of international peace and security:  access for United Nations and associated personnel, other humanitarian personnel and humanitarian supplies to the war-affected civilians; humanitarian components in peace agreements and peacekeeping operations; coordination between the Council and the relevant United Nations organs and agencies and regional bodies; and resource constraints.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="Normal">
+        <content eId="para_13__content">
+          <p xml:space="preserve"> "The Security Council reaffirms its concern for the well-being and rights of war-affected civilians and reiterates its call to all parties to a conflict to ensure safe and unimpeded access in accordance with international law by humanitarian personnel to such civilians.  The Council recognizes that cooperation of all parties concerned is vital for effectiveness and safety in providing humanitarian assistance.  In this regard, the Council reiterates its call for combatants to ensure the safety, security and freedom of movement of United Nations and associated personnel and humanitarian personnel.  The Council stresses the importance of providing assistance to all those in need, with particular emphasis on women and children and other vulnerable groups affected by armed conflict, in accordance with the principle of impartiality.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="Normal">
+        <content eId="para_14__content">
+          <p xml:space="preserve"> "The Security Council notes that full and timely support for humanitarian components can be critical in ensuring and enhancing the sustainability of any peace agreement and post-conflict peace-building.  It emphasizes the importance of inclusion of humanitarian elements in peace negotiations and agreements, including the issue of prisoners of war, detainees and missing persons and others protected by international humanitarian law.  The Council invites the Secretary-General to encourage the early consideration of such humanitarian elements in peace negotiations sponsored or supported by the United Nations, as appropriate.  In cases of peace negotiations sponsored or supported directly by Member States, the Council calls on Member States to draw, as appropriate, upon the capacity of United Nations funds, programmes and specialized agencies as well as other relevant international humanitarian organizations and regional bodies.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="Normal">
+        <content eId="para_15__content">
+          <p xml:space="preserve"> "The Security Council also notes that in some instances the integration of humanitarian components into peacekeeping operations would contribute effectively to their carrying out their mandate.  In this regard, the Council notes the importance of adequate training for peacekeeping personnel in international humanitarian law and human rights and with regard to the special situations of women and children as well as vulnerable population groups.  The Council notes with appreciation the inclusion of personnel to handle child protection issues in some recent peacekeeping operations, and encourages the inclusion of such personnel in future operations, particularly in the context of demobilization and reintegration of child soldiers and where there are large number of displaced and other war-affected children.  The Council welcomes and encourages efforts by the United Nations to sensitize peacekeeping personnel in the prevention and control of HIV/AIDS and other communicable diseases.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="Normal">
+        <content eId="para_16__content">
+          <p xml:space="preserve"> "The Security Council underlines the importance of effective coordination among relevant United Nations organs and agencies, regional bodies, other intergovernmental and international organizations and other humanitarian actors in the field in situations of ongoing conflict and peace-building through, inter alia, the development of strategic frameworks, and expresses its willingness to consider ways to improve such coordination.  In this regard, the Council notes the need for further improvement of communication, information flows and coordination between the peacekeeping, humanitarian and development aspects of United Nations action.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="Normal">
+        <content eId="para_17__content">
+          <p xml:space="preserve"> "The Security Council recognizes the role played by international humanitarian organizations and non‑governmental organizations in providing humanitarian assistance and alleviating the impact of humanitarian crises, and further recognizes the specific mandate of the International Committee of the Red Cross in this regard.  It emphasizes the importance for these organizations to uphold the principles of neutrality, impartiality and humanity in their humanitarian activities.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="Normal">
+        <content eId="para_18__content">
+          <p xml:space="preserve"> "The Security Council notes with concern that inadequate financial support can undermine efforts to address human suffering in certain contexts.  The Council recognizes the need for appropriate financial support for humanitarian activities, and calls for adequate funding of humanitarian activities, bilateral or otherwise, in particular in support of multilateral efforts.  The Council notes the importance of early engagement and dispersal of funds from the international financial institutions.  The Council also notes with satisfaction that its previous statements calling for full support to the United Nations Consolidated Appeals have had a positive impact, and expresses its willingness to continue to encourage a generous response to such appeals.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="Normal">
+        <content eId="para_19__content">
+          <p xml:space="preserve"> "The Security Council encourages the Secretary-General to continue to include the humanitarian situation in his regular briefing to the Council on countries under review, including on the funding status of the United Nations Consolidated Appeals, where appropriate.  It further requests the Secretary-General to ensure that his regular country reports continue to include a substantive, analytical section on humanitarian issues and their impact on international efforts to implement United Nations mandated activities.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="Normal">
+        <content eId="para_20__content">
+          <p xml:space="preserve"> "The Security Council will remain seized of the matter."</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="Normal">
+        <content eId="para_21__content">
+          <p xml:space="preserve">-----</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

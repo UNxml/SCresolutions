@@ -1,0 +1,203 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-01-26/2000-2/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-01-26/2000-2/"></FRBRuri>
+          <FRBRdate date="2000-01-26" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-01-26/2000-2/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-01-26/2000-2/eng@/"></FRBRuri>
+          <FRBRdate date="2000-01-26" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2000-01-26/2000-2/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2000-01-26/2000-2/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-11-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <workflow source="#un">
+        <step by="" />
+      </workflow>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2000/2</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2000-01-26" class="rightSmall" refersTo="#dateOfIssuance">26 January 2000</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docTitle refersTo="#title1">STATEMENT BY THE PRESIDENT OF THE SECURITY COUNCIL</docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">
+            <span class="bold">UNITED</span>
+          </p>
+        </content>
+      </alinea>
+      <paragraph eId="para_2" class="Normal">
+        <content eId="para_2__content">
+          <p xml:space="preserve">
+            <span class="bold">NATIONS</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="Normal">
+        <content eId="para_3__content">
+          <p xml:space="preserve"> Distr.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="Normal">
+        <content eId="para_4__content">
+          <p xml:space="preserve"> GENERAL</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="Normal">
+        <content eId="para_5__content">
+          <p xml:space="preserve"> S/PRST/2000/2</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <docDate date="2000-01-26" refersTo="#adoptionDate">26 January 2000</docDate>
+        </event>
+      </p>
+    </conclusions>
+    <mainBody>
+      <paragraph eId="para_7" class="Normal">
+        <content eId="para_7__content">
+          <p xml:space="preserve"> ORIGINAL:  ENGLISH</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="Normal">
+        <content eId="para_8__content">
+          <p xml:space="preserve"> At the 4092nd meeting of the Security Council, held on 26 January 2000 in connection with the Council's consideration of the item entitled "The situation concerning the Democratic Republic of the Congo", the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="Normal">
+        <content eId="para_9__content">
+          <p xml:space="preserve"> "The Security Council expresses its appreciation to the Heads of State of Angola, the Democratic Republic of the Congo, Mozambique, Rwanda, Uganda, Zambia and Zimbabwe, and to the Foreign Ministers of Namibia, South Africa, Burundi, Canada and the United States of America, the Vice-Prime Minister and Minister for Foreign Affairs of Belgium, the Minister Delegate for Cooperation and Francophonie of France, the Minister of State for Foreign and Commonwealth Affairs of the United Kingdom, and the Minister of Armed Forces of Mali, who participated in its meeting on the Democratic Republic of the Congo on 24 January 2000.  The Council also expresses its appreciation to the Secretary-General of the Organization of African Unity (OAU), the representative of the Chairman of the OAU, and the OAU-nominated Facilitator of the Congolese National Dialogue.  Their presence and their statements attest to their renewed commitment to the Lusaka Ceasefire Agreement (S/1999/815) and to the search for a durable peace in the Democratic Republic of the Congo and the region.  Their presence in New York also reinforces the progress made at the Maputo Summit of 16 January 2000 and the Harare meeting of the Political Committee of 18 January 2000.  The Council expects that this progress will continue at the next Political Committee Meeting and Summit of the Signatories to the Agreement.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10" class="Normal">
+        <content eId="para_10__content">
+          <p xml:space="preserve"> "The Security Council urges all the parties to the Lusaka Ceasefire Agreement to build on the momentum of these meetings in order to create and sustain the climate necessary for the full implementation of the Agreement.  It underlines the importance of a revised implementation calendar for the full and effective implementation of the tasks in the Agreement.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="Normal">
+        <content eId="para_11__content">
+          <p xml:space="preserve"> "The Security Council reaffirms the territorial integrity and national sovereignty of the Democratic Republic of the Congo, including over its natural resources, in accordance with the principles of the Charters of the United Nations and the OAU.  In this regard, it reiterates its call for the immediate cessation of hostilities and the orderly withdrawal of all foreign forces from the territory of the Democratic Republic of the Congo in accordance with the Lusaka Ceasefire Agreement.  The Council reaffirms its support for the Lusaka Ceasefire Agreement and also reaffirms its resolutions 1234 (1999) of 9 April 1999, 1258 (1999) of 6 August 1999, 1273 (1999) of 5 November 1999 and 1279 (1999) of 30 November 1999.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="Normal">
+        <content eId="para_12__content">
+          <p xml:space="preserve"> "The Security Council welcomes the report of the Secretary-General of 17 January 2000 (S/2000/30).  The Council expresses its determination to support the implementation of the Lusaka Ceasefire Agreement.  Accordingly, it has now begun consideration of a resolution authorizing the expansion of the present mandate of the United Nations Organization Mission in the Democratic Republic of the Congo (MONUC) along the lines recommended by the Secretary-General in that report.  It expresses its intention to act promptly on this basis.  It also expresses its intention to consider at the appropriate time preparations for an additional phase of United Nations deployment and further action.  It welcomes the statements by the Heads of State and delegation in support of the proposals of the Secretary-General.  The Council welcomes the arrival of the Special Representative of the Secretary-General in the Democratic Republic of the Congo, expresses its support for his efforts, and urges all parties to provide him with the assistance and cooperation he will require to carry out his functions.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="Normal">
+        <content eId="para_13__content">
+          <p xml:space="preserve"> "The Security Council supports the establishment of a coordinated MONUC/Joint Military Commission (JMC) structure with co-located headquarters and joint support arrangements.  The Council believes this is a vital step in enhancing the ability of the United Nations to support the Lusaka Ceasefire Agreement.  In this regard, the Council urges Member States and donor organizations to continue to provide assistance to the JMC.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="Normal">
+        <content eId="para_14__content">
+          <p xml:space="preserve"> "The Security Council underlines the absolute necessity of security and access for United Nations personnel deployed in support of the Lusaka process, and stresses that such a climate of cooperation is an essential prerequisite for the successful implementation of the mandate of MONUC in the Democratic Republic of the Congo.  The Council calls on all signatories to the Lusaka Ceasefire Agreement to provide assurances of safety, security and freedom of movement of United Nations and associated personnel, and in this regard attaches importance to the statement by the President of the Democratic Republic of the Congo on the security of MONUC and the Special Representative of the Secretary-General.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="Normal">
+        <content eId="para_15__content">
+          <p xml:space="preserve"> "The Security Council stresses the importance of the National Dialogue as called for in the Lusaka Ceasefire Agreement, and affirms that it must be an open, inclusive and democratic process conducted independently by the Congolese people under the established Facilitation.  It further affirms that the National Dialogue is the best means for all Congolese parties to address the political future of the Democratic Republic of the Congo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="Normal">
+        <content eId="para_16__content">
+          <p xml:space="preserve"> "The Security Council strongly supports the designation of the former President of Botswana, Sir Ketumile Masire, as the Facilitator of the National Dialogue as provided for by the Lusaka Ceasefire Agreement, and calls on Member States to provide full financial and other support to his efforts and the process as a whole.  The Council welcomes the declared readiness of the President of the Democratic Republic of the Congo to begin the National Dialogue, and to guarantee the security of all participants.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="Normal">
+        <content eId="para_17__content">
+          <p xml:space="preserve"> "The Security Council stresses the need for the continued operation of United Nations and other agencies' humanitarian relief operations and human rights promotion and monitoring under acceptable conditions of security, freedom of movement, and access to affected areas.  The Council expresses its serious concern over the humanitarian situation in the Democratic Republic of the Congo as well as the shortfall in responses to the United Nations consolidated humanitarian appeal.  It therefore urges Member States and donor organizations to make available the necessary funds to carry out urgent humanitarian operations in the Democratic Republic of the Congo.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="Normal">
+        <content eId="para_18__content">
+          <p xml:space="preserve"> "The Security Council expresses its concern that the presence in the Democratic Republic of the Congo of non‑signatory armed groups that have yet to be demobilized constitutes a threat to the Lusaka process.  The Council recognizes that disarmament, demobilization, resettlement and reintegration (DDRR) are among the fundamental objectives of the Lusaka Ceasefire Agreement.  The Council underlines that a credible plan for DDRR must be based on an agreed and comprehensive set of principles.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="Normal">
+        <content eId="para_19__content">
+          <p xml:space="preserve"> "The Security Council expresses deep concern over the illicit flow of arms into the region, and calls upon all concerned to halt such flows.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="Normal">
+        <content eId="para_20__content">
+          <p xml:space="preserve"> "The Security Council values the continuing leadership of the peace process by the President of Zambia and the vital contribution of the Southern African Development Community through its Chairman, the President of Mozambique.  It also expresses its appreciation to the current Chairman of the OAU, the President of Algeria, and to the Secretary-General of the OAU for the Organization's vital role in the Lusaka process.  It urges them to continue their essential efforts in close cooperation with the Security Council and the Secretary-General."</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="Normal">
+        <content eId="para_21__content">
+          <p xml:space="preserve">-----</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
