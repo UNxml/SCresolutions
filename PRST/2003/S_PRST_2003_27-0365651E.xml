@@ -1,0 +1,2107 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="presidentialStatement">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2003-12-15/2003-27/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2003-12-15/2003-27/"></FRBRuri>
+          <FRBRdate date="2003-12-15" name="adoption"></FRBRdate>
+          <FRBRauthor href="sc" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2003-12-15/2003-27/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2003-12-15/2003-27/eng@/"></FRBRuri>
+          <FRBRdate date="2003-12-15" name="publication"></FRBRdate>
+          <FRBRauthor href="sc" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unsc/2003-12-15/2003-27/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unsc/2003-12-15/2003-27/eng@.xml"></FRBRuri>
+          <FRBRdate date="2026-11-23" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="3" href="http://metadata.un.org/sdg/3" showAs="sdg_3" dictionary="SDGO"></keyword>
+        <keyword value="health" href="http://metadata.un.org/thesaurus/1002824" showAs="health" dictionary="UNBIS"></keyword>
+        <keyword value="public_health" href="http://eurovoc.europa.eu/3885" showAs="public_health" dictionary="EuroVoc"></keyword>
+        <keyword value="public_health" href="http://metadata.un.org/thesaurus/1005250" showAs="public_health" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="5" href="http://metadata.un.org/sdg/5" showAs="sdg_5" dictionary="SDGO"></keyword>
+        <keyword value="women" href="http://metadata.un.org/thesaurus/1007029" showAs="women" dictionary="UNBIS"></keyword>
+        <keyword value="girls" href="http://metadata.un.org/thesaurus/1002684" showAs="girls" dictionary="UNBIS"></keyword>
+        <keyword value="participation_of_women" href="http://eurovoc.europa.eu/2265" showAs="participation_of_women" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://eurovoc.europa.eu/3913" showAs="gender_equality" dictionary="EuroVoc"></keyword>
+        <keyword value="gender_equality" href="http://metadata.un.org/thesaurus/1002612" showAs="gender_equality" dictionary="UNBIS"></keyword>
+        <keyword value="women's_rights" href="http://eurovoc.europa.eu/585" showAs="women's_rights" dictionary="EuroVoc"></keyword>
+        <keyword value="women's_rights" href="http://metadata.un.org/thesaurus/1007035" showAs="women's_rights" dictionary="UNBIS"></keyword>
+        <keyword value="position_of_women" href="http://eurovoc.europa.eu/81" showAs="position_of_women" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="4" href="http://metadata.un.org/sdg/4" showAs="sdg_4" dictionary="SDGO"></keyword>
+        <keyword value="education" href="http://eurovoc.europa.eu/668" showAs="education" dictionary="EuroVoc"></keyword>
+        <keyword value="education" href="http://metadata.un.org/thesaurus/1001893" showAs="education" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_education" href="http://eurovoc.europa.eu/512" showAs="right_to_education" dictionary="EuroVoc"></keyword>
+        <keyword value="right_to_education" href="http://metadata.un.org/thesaurus/1005558" showAs="right_to_education" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UN. Security Council" showAs="UN. Security Council" dictionary="DHLAUTH"></keyword>
+        <keyword value="CIVILIAN PERSONS" href="http://metadata.un.org/thesaurus/1001014" showAs="CIVILIAN PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ARMED CONFLICTS" href="http://metadata.un.org/thesaurus/1000381" showAs="ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HUMAN RIGHTS IN ARMED CONFLICTS" href="http://metadata.un.org/thesaurus/1002979" showAs="HUMAN RIGHTS IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PEACEKEEPING OPERATIONS" href="http://metadata.un.org/thesaurus/1004779" showAs="PEACEKEEPING OPERATIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFF SECURITY" href="http://metadata.un.org/thesaurus/1006160" showAs="STAFF SECURITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RELIEF PERSONNEL" href="http://metadata.un.org/thesaurus/1005457" showAs="RELIEF PERSONNEL" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="RULE OF LAW" href="http://metadata.un.org/thesaurus/1005619" showAs="RULE OF LAW" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GENDER-BASED VIOLENCE" href="http://metadata.un.org/thesaurus/1002609" showAs="GENDER-BASED VIOLENCE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="WOMEN" href="http://metadata.un.org/thesaurus/1007029" showAs="WOMEN" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHILDREN IN ARMED CONFLICTS" href="http://metadata.un.org/thesaurus/1000956" showAs="CHILDREN IN ARMED CONFLICTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="DISPLACED PERSONS" href="http://metadata.un.org/thesaurus/1001706" showAs="DISPLACED PERSONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="IMPUNITY" href="http://metadata.un.org/thesaurus/1003079" showAs="IMPUNITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CONFIDENCE-BUILDING MEASURES" href="http://metadata.un.org/thesaurus/1001221" showAs="CONFIDENCE-BUILDING MEASURES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NATURAL RESOURCES" href="http://metadata.un.org/thesaurus/1004343" showAs="NATURAL RESOURCES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SANCTIONS" href="http://metadata.un.org/thesaurus/1005695" showAs="SANCTIONS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="TRAINING PROGRAMMES" href="http://metadata.un.org/thesaurus/1006626" showAs="TRAINING PROGRAMMES" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INFORMATION MANAGEMENT" href="http://metadata.un.org/thesaurus/1003194" showAs="INFORMATION MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MASS MEDIA" href="http://metadata.un.org/thesaurus/1003972" showAs="MASS MEDIA" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword refersTo="agenda" value="[189]" showAs="CIVILIAN PERSONS--ARMED CONFLICTS" shortForm="CIVILIAN PERSONS--ARMED CONFLICTS" dictionary="S/58"></keyword>
+        <keyword refersTo="agenda" value="X" showAs="Protection of civilians in armed conflict" dictionary="S/"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2003-12-15" outcome="adopted" as="S/PV.4882" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting>
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="source" href="/akn/ontology/organization/un/DGACM" showAs="DGACM"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="sc" href="/akn/ontology/organization/un/securityCouncil" showAs="Security Council"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber">03-65651 (E)</docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">S/PRST/2003/27</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">General Assembly</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2003-12-15" class="rightSmall" refersTo="#dateOfIssuance">15 December 2003</docDate>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docTitle refersTo="#title1">
+          <span class="bold">		Statement by the President of the Security Council</span>
+        </docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <alinea>
+        <content eId="alinea_1__content">
+          <p xml:space="preserve">	At the 4882nd meeting of the Security Council, held on 15 December 2003, in connection with the Council’s consideration of the item entitled “Protection of civilians in armed conflict”, the President of the Security Council made the following statement on behalf of the Council:</p>
+        </content>
+      </alinea>
+      <paragraph eId="para_2" class="SingleTxt">
+        <content eId="para_2__content">
+          <p xml:space="preserve">		“The Security Council recalls its resolutions 1265 (1999) of  17 September 1999 and 1296 (2000) of 19 April 2000 on the protection of civilians in armed conflict, as well as the statements by its President of  12 February 1999 (S/PRST/1999/6), of 15 March 2002 (S/PRST/2002/6) and of 20 December 2002 (S/PRST/2002/41), and reaffirms the need to keep the protection of civilians in armed conflict as an important item on the Council’s agenda.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="SingleTxt">
+        <content eId="para_3__content">
+          <p xml:space="preserve">		“The Security Council also reaffirms its concern at the suffering inflicted upon, and hardships borne by, civilians during armed conflict, and recognizes the consequent impact that this has on durable peace, reconciliation and development. The Security Council strongly condemns all attacks and acts of violence directed against civilians or other protected persons under international law, in particular international humanitarian law in situations of armed conflict, including such attacks and acts of violence against women, children, refugees, internally displaced persons and other vulnerable groups; reaffirms the need for parties to armed conflict to take all possible measures to ensure the safety, security and freedom of movement of United Nations and associated personnel as well as personnel of international humanitarian organizations in accordance with applicable international law; and recognizes that secure humanitarian access and the swift re-establishment of the rule of law, justice and reconciliation are essential components for an effective transition from conflict to peace. The Security Council reiterates its call to all parties to armed conflict to comply fully with the provisions of the Charter of the United Nations and with the rules and principles of international law, in particular international humanitarian, human rights and refugee law, and to implement fully the relevant decisions of the Security Council. The Security Council recalls the obligations of States to respect and to ensure respect for international humanitarian law, including the four Geneva conventions, and emphasizes the responsibility of States to end impunity and to prosecute those responsible for genocide, war crimes, crimes against humanity and serious violations of humanitarian law. The Security Council also notes with interest the proposal presented by the Under-Secretary-General for Humanitarian Affairs at the 9 December open meeting of the Security Council for a ‘10-point action plan’ on the protection of civilians in armed conflict, and looks forward to further discussions and consultations on this issue.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="SingleTxt">
+        <content eId="para_4__content">
+          <p xml:space="preserve">		“Recalling that on 15 March 2002 the Security Council adopted the Aide Memoire annexed in the Statement by its President (S/PRST/2002/6) as a means to facilitate its consideration of issues pertaining to protection of civilians, and recalling further that in the statement by its President of  20 December 2002 (S/PRST/2002/41) the Security Council expressed its willingness to update annually the Aide Memoire in order to reflect emerging trends in the protection of civilians in armed conflict, the Security Council adopts the updated Aide Memoire contained in the annex to this Presidential Statement. The Security Council reiterates the importance of the Aide Memoire as a practical tool that provides a basis for improved analysis and diagnosis of key protection issues during deliberations on peacekeeping mandates, and stresses the need to implement the approaches set out therein on a more regular and consistent basis, taking into account the particular circumstances of each conflict situation, and undertakes to remain actively seized of the matter.” </p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2003-12-15/2003-27/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2003-12-15/2003-27/"></FRBRuri>
+                <FRBRdate date="2003-12-15" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2003-12-15/2003-27/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2003-12-15/2003-27/eng@/"></FRBRuri>
+                <FRBRdate date="2003-12-15" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2003-12-15/2003-27/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2003-12-15/2003-27/eng@.xml"></FRBRuri>
+                <FRBRdate date="2026-11-23" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_5" class="HCh">
+              <heading>Annex</heading>
+            </paragraph>
+            <paragraph eId="para_6" class="HCh">
+              <heading>Protection of civilians in armed conflict</heading>
+            </paragraph>
+            <paragraph eId="para_7" class="H1">
+              <heading>Aide Memoire</heading>
+            </paragraph>
+            <paragraph eId="para_8" class="H23">
+              <subheading>For the consideration of issues pertaining to the protection of civilians during the Security Council’s deliberation of peacekeeping mandates</subheading>
+            </paragraph>
+            <paragraph eId="para_9" class="SingleTxt">
+              <content eId="para_9__content">
+                <p xml:space="preserve">	Protection of Civilians in Armed Conflict is at the core of the work of the United Nations Security Council for peace and security. On 15 March 2002, the Security Council adopted an Aide Memoire (S/PRST/2002/6) as a practical guide for its consideration of protection issues and agreed to update and review and update its contents periodically. This document provides the first update of this important operational tool, adopted as an annex to Presidential Statement S/PRST/2003/27 on 15 December 2003.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_10" class="SingleTxt">
+              <content eId="para_10__content">
+                <p xml:space="preserve">	In the letter dated 21 June 2001 from the President of the Security Council addressed to the Secretary-General (S/2001/614), the members of the Security Council welcomed the Secretary-General’s report of 30 March 2001 (S/2001/331) on the protection of civilians in armed conflict, and were of the view that further advice of the Secretary-General would be useful in the Council’s consideration of the issues contained in the report.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_11" class="SingleTxt">
+              <content eId="para_11__content">
+                <p xml:space="preserve">	In order to facilitate due consideration, whenever appropriate, of issues pertaining to the protection of civilians in its deliberations on the establishment, change, or close of peacekeeping operations, the members of the Council suggested that an Aide Memoire listing those issues that are relevant in this regard be drafted in close cooperation with the Council. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_12" class="SingleTxt">
+              <content eId="para_12__content">
+                <p xml:space="preserve">	This Aide Memoire is the result of an inter-active consultation between the Security Council and the Secretariat, and comprises the experiences of a wide range of agencies within the United Nations, including the Inter Agency Standing Committee (IASC). The document is based on the Council’s previous consideration of these issues, including resolutions 1265 (1999) and 1296 (2000). It highlights primary objectives for Security Council action, offers specific issues for consideration in meeting those objectives, and lists previous Security Council resolutions and presidential statements that make reference to such concerns. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_13" class="SingleTxt">
+              <content eId="para_13__content">
+                <p xml:space="preserve">	Bearing in mind that each peacekeeping mandate has to be designed on a case-by-case basis, the document is not intended as a blueprint. The relevance and practicality of each issue described has to be considered and adapted to the specific conditions in each situation. As highlighted in the Secretary-General’s report “No Exit Without Strategy” (S/2001/394), the Security Council should reach agreement on clear and achievable mandates for peace operations based on a common understanding of the conflict. In this respect, mobilization, from the outset, of necessary funding and adequate resources needs to be an integrated part of the Security Council’s overall consideration. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_14" class="SingleTxt">
+              <content eId="para_14__content">
+                <p xml:space="preserve">	Most frequently civilians are caught in circumstances of dire need where a peacekeeping operation has not been established. Such situations may require the Council’s urgent attention. This Aide Memoire may therefore also provide guidance in circumstances where the Council may wish to consider action outside the scope of a peacekeeping operation. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_15" class="SingleTxt">
+              <content eId="para_15__content">
+                <p xml:space="preserve">	As a practical tool, the Aide Memoire is without prejudice to the provisions of Security Council resolutions and other decisions by the Council. The document is regularly reviewed and updated to reflect the latest concerns pertaining to the protection of civilians in armed conflict, including new trends and measures to address them.</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_16">
+              <content eId="para_16__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <container name="table" eId="container_17">
+              <table eId="container_17_table_1" akn4un:data-width-type="12510-dxa">
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa">
+                    <p>
+                      <span class="bold">SECURITY FOR DISPLACED PERSONS AND HOST COMMUNITIES </span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>1. Prioritize and support the immediate protection needs of displaced persons and civilians in host communities through:</p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa" akn4un:data-justification="Left">
+                    <p>Measures to enhance security for displaced persons, support the location of camps in secure areas, and facilitate return under safe and dignified conditions.</p>
+                    <p>Measures to enhance security for civilians who remain in their communities and for host communities living in or around areas where refugees or internally displaced persons take shelter.</p>
+                    <p>Provision of appropriate and rapid international assistance.</p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left">
+                    <p>S/RES/1509(2003), OP3j &amp; l, 6</p>
+                    <p>S/RES/1508(2003), OP10</p>
+                    <p>S/RES/1493(2003), OP27</p>
+                    <p>S/RES/1484(2003), OP1</p>
+                    <p>S/RES/1479(2003), OP10</p>
+                    <p>S/RES/1470(2003), OP16</p>
+                    <p>S/RES/1427(2002), OP12</p>
+                    <p>S/RES/1419(2002), OP11</p>
+                    <p>S/RES/1393(2002), OP11</p>
+                    <p>S/RES/1355(2001), OP14</p>
+                    <p>S/RES/1346(2001), OP7, 8, 9</p>
+                    <p>S/RES/1319(2000), OP1</p>
+                    <p>S/RES/1296(2000), OP12, 14</p>
+                    <p>S/RES/1286(2000), OP12</p>
+                    <p>S/RES/1270(1999), OP19</p>
+                    <p>S/RES/1244(1999), OP9c, 11k, 18</p>
+                    <p>S/RES/1208(1998), OP4, 12</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>2. Prioritize and support the maintenance of the humanitarian and civilian character of camps and settlements for displaced persons through: </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa" akn4un:data-justification="Left">
+                    <p>Provision of external and internal security (screening procedures to separate armed elements from civilians; demobilization and disarmament measures; technical assistance and training by international civilian police and/or military observers; location of camps at a significant distance from international border and risk zones; regional and subregional arrangements).</p>
+                    <p>Cooperation with host State in provision of security measures, including through technical assistance and training.</p>
+                    <p>Deployment of multi-disciplinary assessment and security evaluation teams.</p>
+                    <p>Regional approach to massive population displacement, including appropriate security arrangements. </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left"></td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa">
+                    <p>
+                      <span class="bold">ACCESS TO VULNERABLE POPULATIONS</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>Facilitate safe and unimpeded access  to vulnerable populations as the fundamental prerequisite for humanitarian assistance and protection through: </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa" akn4un:data-justification="Left">
+                    <p>Appropriate security arrangements (role of multinational force; safe corridors; protected areas; armed escorts).</p>
+                    <p>Engagement in sustained dialogue with all Parties to the armed conflict. </p>
+                    <p>Facilitation of the delivery of humanitarian assistance. </p>
+                    <p>Compliance with obligations under relevant international humanitarian, human rights and refugee law. </p>
+                    <p>Counter-terrorism measures (legislation, training, enforcement, regional and international cooperation) in full compliance with all obligations under international law, in particular international human rights, refugee and humanitarian law.</p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>S/RES/1509(2003), OP OP3j, 5, 8 S/RES/1502(2003), OP4, 5b </p>
+                    <p>S/RES/1494(2003), OP25</p>
+                    <p>S/RES/1493(2003), OP12, 15, 25</p>
+                    <p>S/RES/1479(2003), OP10</p>
+                    <p>S/RES/1456(2003), Annex OP6</p>
+                    <p>S/RES/1405(2002), OP1</p>
+                    <p>S/RES/1419(2002), OP12</p>
+                    <p>S/RES/1417(2002), OP7</p>
+                    <p>S/RES/1445(2002), OP14</p>
+                    <p>S/RES/1379(2001), OP4, 5</p>
+                    <p>S/RES/1378(2001) OP2</p>
+                    <p>S/RES/1314(2000), OP7, 14</p>
+                    <p>S/RES/1296(2000), OP8, 10, 12, 15</p>
+                    <p>S/RES/1286(2000), OP9, 10</p>
+                    <p>S/RES/1279(1999), OP5e, 7</p>
+                    <p>S/RES/1272(1999), OP2d, 10, 11</p>
+                    <p>S/RES/1270(1999), OP8(d&amp;g), 13, 14, 22</p>
+                    <p>S/RES/1265(1999), OP7, 8, 10</p>
+                    <p>S/RES/1264(1999), OP2</p>
+                    <p>S/RES/1244(1999), OP9h</p>
+                    <p>S/PRST/2000/4</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa" akn4un:data-justification="Left">
+                    <p>
+                      <span class="bold">SAFETY AND SECURITY OF HUMANITARIAN AND ASSOCIATED PERSONNEL</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>Ensure the safety and security of humanitarian<span class="bold">, </span>United Nations and associated personnel through: </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>Respect by all parties to the conflict for the impartiality and neutrality of humanitarian operations.</p>
+                    <p>Support for a safe and secure working environment for humanitarian personnel.</p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left">
+                    <p>S/RES/1509(2003), OP OP3j, 5</p>
+                    <p>S/RES/1502(2003), OP1, 3, 4, </p>
+                    <p>5(a-c), 6</p>
+                    <p>S/RES/1494(2003), OP25, 26</p>
+                    <p>S/RES/1493(2003), OP25</p>
+                    <p>S/RES/1445(2002), OP14</p>
+                    <p>S/RES/1417(2002), OP7</p>
+                    <p>S/RES/1378(2001), OP2, 5</p>
+                    <p>S/RES/1319(2000), OP1</p>
+                    <p>S/RES/1296(2000), OP12</p>
+                    <p>S/RES/1286(2000), OP9</p>
+                    <p>S/RES/1272(1999), OP10</p>
+                    <p>S/RES/1270(1999), OP8d, 13, 14</p>
+                    <p>S/RES/1265(1999), OP7, 8, 9, 10</p>
+                    <p>S/RES/1244(1999), OP9h</p>
+                    <p>S/PRST/2000/4</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa" akn4un:data-justification="Left">
+                    <p>
+                      <span class="bold">SECURITY AND THE RULE OF LAW</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>Strengthen the capacity of local police and judicial systems to physically protect civilians and enforce law and order through:</p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>Deployment of qualified and well-trained international civilian police as a component of peacekeeping operations, to enhance the capacity of the United Nations and to assist the host State with law enforcement. (ad ref)</p>
+                    <p>Technical assistance for local police, judiciary and penitentiaries (mentoring; legislative drafting; integration of international personnel).</p>
+                    <p>Reconstruction and rehabilitation of institutional infrastructure (salaries; buildings; communications).</p>
+                    <p>•	Mechanisms for monitoring and reporting of alleged violations of humanitarian, human rights and criminal law.</p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left">
+                    <p>S/RES/1509(2003), OP3n</p>
+                    <p>S/RES/1493(2003), OP7</p>
+                    <p>S/RES/1401(2002), OP4</p>
+                    <p>S/RES/1400(2002), OP7</p>
+                    <p>S/RES/1378(2001), OP3, 4</p>
+                    <p>S/RES/1315(2000), OP4</p>
+                    <p>S/RES/1272(1999), OP2 (a-c, e), 3a, 13 </p>
+                    <p>S/RES/1270(1999), OP23</p>
+                    <p>S/RES/1265(1999), OP15</p>
+                    <p>S/RES/1244(1999), OP9d, 11(i-j)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa" akn4un:data-justification="Left">
+                    <p>
+                      <span class="bold">DISARMAMENT, DEMOBILIZATION, REINTEGRATION AND REHABILITATION</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>Facilitate the stabilization and rehabilitation of communities through:  </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>Programs for disarmament and demobilization of combatants, including special measures for women, children and dependants (amnesties; weapons buy-back; economic and development incentives).</p>
+                    <p>Programs for reintegration and rehabilitation of ex-combatants within their communities, including special measures for women and children (community service; counselling services; appropriate education/skills training; family reunification; employment opportunities).</p>
+                    <p>Encouragement of full participation of armed groups in disarmament, demobilization, reintegration and rehabilitation programs. </p>
+                    <p>Measures to address the regional dimensions affecting disarmament, demobilization, reintegration and rehabilitation programmes.</p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left">
+                    <p>S/RES/1509(2003), OP3 (f &amp; g), 17, 18</p>
+                    <p>S/RES/1479(2003), OP3 (para.6), 9</p>
+                    <p>S/RES/1460 (2003), OP13</p>
+                    <p>S/RES/1445(2002), OP4, 5, 6</p>
+                    <p>S/RES/1417(2002), OP9</p>
+                    <p>S/RES/1400(2002), OP6</p>
+                    <p>SRES/1379(2001), OP11 (c,d,f), 12a</p>
+                    <p>S/RES/1376(2001), OP12</p>
+                    <p>S/RES/1366(2001), OP 16</p>
+                    <p>S/RES/1325(2000), OP8a, 13</p>
+                    <p>S/RES/1318(2000), Annex OPV</p>
+                    <p>S/RES/1296(2000), OP 16  S/RES/1270(1999), OP 3, 4, 8(b &amp; c), 9, 20</p>
+                    <p>S/RES/1265(1999), OP12</p>
+                    <p>S/RES/1261(1999), OP15</p>
+                    <p>S/PRST/2000/10</p>
+                    <p>S/PRST/1999/28</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa" akn4un:data-justification="Left">
+                    <p>
+                      <span class="bold">SMALL ARMS AND MINE ACTION</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>Facilitate a secure environment for vulnerable populations and humanitarian personnel through:</p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>Mine-action (coordination centres, land-mine clearance; mine awareness training; victim assistance).</p>
+                    <p>Measures to control and reduce the illicit traffic in small arms and light weapons (voluntary moratoria; arms embargoes; sanctions; regional and subregional approaches).</p>
+                    <p>Involvement of ex-combatants and local communities, in particular women, in the collection and destruction of small arms and light weapons and in de-mining and other mine-action activities.</p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>S/RES/1479(2003), OP13</p>
+                    <p>S/RES/1460(2003), OP7</p>
+                    <p>S/RES/1433(2002), OP3B(2)</p>
+                    <p>S/RES/1379(2001), OP6, 9d</p>
+                    <p>S/RES/1318(2000), OPVI (para.1)</p>
+                    <p>S/RES/1314(2000), OP8</p>
+                    <p>S/RES/1296(2000), OP10, 20</p>
+                    <p>S/RES/1286(2000), OP12</p>
+                    <p>S/RES/1265(1999), OP17</p>
+                    <p>S/RES/1261(1999), OP14, 17a</p>
+                    <p>S/RES/1244(1999), OP9e</p>
+                    <p>S/PRST/1999/28</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa" akn4un:data-justification="Left">
+                    <p>
+                      <span class="bold">EFFECTS ON AND CONTRIBUTION OF WOMEN</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>1. Address the specific needs of women for assistance and protection through:</p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>Special measures to protect women and girls from gender based discrimination and violence, rape and other forms of sexual violence (access to legal redress; crisis centres; shelters; health care; counselling and other assistance programs; monitoring and reporting mechanisms).</p>
+                    <p>Implementation of measures for reporting on and prevention of sexual abuse and exploitation of civilians by humanitarian workers and peacekeepers.</p>
+                    <p>Mainstreaming of gender perspective, including the integration of gender advisers in peace operations. </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left">
+                    <p>S/RES/1509(2003), OP11</p>
+                    <p>S/RES/1493(2003), OP9</p>
+                    <p>S/RES/1479(2003), OP5</p>
+                    <p>S/RES/1460(2003), OP10</p>
+                    <p>S/RES/1436(2002), OP15</p>
+                    <p>S/RES/1400(2002), OP14</p>
+                    <p>S/RES/1379(2001), OP4</p>
+                    <p>S/RES/1325(2000), OP1, 4, 5, 8a, 10, 13, 15</p>
+                    <p>S/RES/1314(2000), OP13, 16e</p>
+                    <p>S/RES/1296(2000), OP9, 10</p>
+                    <p>S/PRST/2001/31 </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>2. Strengthen the role of women as constructive actors in developing and implementing appropriate responses to protecting civilians through: </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>Expansion of the representation, role and contribution of women in United Nations field-based operations (among military observers; civilian police; humanitarian and human rights personnel).</p>
+                    <p>•	Increased and more equitable participation of women at all decision-making levels <span class="underline">(</span>political processes; organization and management of refugee and IDP camps; design and distribution of assistance; local governance; education; rehabilitation policies). </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left"></td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa">
+                    <p>
+                      <span class="bold">EFFECTS ON CHILDREN</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>Address the specific needs of children for assistance and protection through:</p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>Prevention of and putting an end to the recruitment of child soldiers in violation of international law.</p>
+                    <p>Initiatives<span class="bold">, </span>where appropriate<span class="bold">,</span> to secure access to war-affected children (days of immunization; temporary ceasefires; days of tranquillity).</p>
+                    <p>Negotiated release of children abducted in situations of armed conflict.</p>
+                    <p>Effective measures to disarm, demobilize, reintegrate and rehabilitate children recruited or used in hostilities.</p>
+                    <p>Specific provisions for the protection of children, including where appropriate, the integration of child protection advisers in peace operations.</p>
+                    <p>Implementation of measures for reporting on and prevention of sexual abuse and exploitation of civilians by humanitarian workers and peacekeepers. </p>
+                    <p>Family reunification of separated children.</p>
+                    <p>•	Monitoring and reporting on the situation of children.</p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left">
+                    <p>S/RES/1509(2003), OP9, 10</p>
+                    <p>S/RES/1493(2003), OP13</p>
+                    <p>S/RES/1479(2003), OP15</p>
+                    <p>S/RES/1460(2003), OP3, 9, 10, 12, 13</p>
+                    <p>S/RES/1436(2002), OP15</p>
+                    <p>S/RES/1400(2002), OP14</p>
+                    <p>S/RES/1379(2001), OP2, 4, 8e, 10c, 11(c,d,f), 12a  </p>
+                    <p>S/RES/1314 (2000), OP 11, 12, 13, 14, 16, 17</p>
+                    <p>S/RES/1296(2000), OP 9, 10</p>
+                    <p>S/RES/1270(1999), OP18</p>
+                    <p>S/RES/1261(1999), OP 2, 8,13, 15, 17a</p>
+                    <p>S/PRST/1998/18 </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa" akn4un:data-justification="Left">
+                    <p>
+                      <span class="bold">JUSTICE AND RECONCILIATION</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>1. Put an end to impunity for those responsible for serious violations of international humanitarian, human rights and criminal law through: </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa" akn4un:data-justification="Left">
+                    <p>Establishment and use of effective arrangements for investigating and prosecuting serious violations of humanitarian and criminal law, at the local and/or international level (from the outset of the operation). </p>
+                    <p>Cooperation of States for the apprehension and surrender of alleged perpetrators. </p>
+                    <p>Technical assistance to strengthen local capacities for apprehension, investigation, and prosecution of alleged perpetrators. </p>
+                    <p>Exclusion of genocide, crimes against humanity and war crimes from amnesty provisions. </p>
+                    <p>Referral of situations, where possible and appropriate, to international courts and tribunals. </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left">
+                    <p>S/RES/1509(2003), OP10</p>
+                    <p>S/RES/1479(2003), OP8</p>
+                    <p>S/RES/1436(2002), OP11, 15</p>
+                    <p>S/RES/1400(2002), OP5</p>
+                    <p>S/RES/1398(2002), OP14</p>
+                    <p>S/RES/1379(2001), OP9a  </p>
+                    <p>S/RES/1325(2000), OP11  </p>
+                    <p>S/RES/1319(2000), OP2, 3</p>
+                    <p>S/RES/1318(2000), Annex OPVI (para.3)  </p>
+                    <p>S/RES/1315(2000), OP1-3, 8</p>
+                    <p>S/RES/1314(2000), OP 2, 9  </p>
+                    <p>S/RES/1272(1999), OP16</p>
+                    <p>S/RES/1270(1999), OP17</p>
+                    <p>S/RES/1265(1999), OP4, 6  </p>
+                    <p>S/RES/1261(1999), OP 3</p>
+                    <p>S/RES/955(1994), OP1, 2</p>
+                    <p>S/RES/827(1993), OP2, 4</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>2. Build confidence and enhance stability within the host State by promoting truth and reconciliation through:</p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa" akn4un:data-justification="Left">
+                    <p>Requests for troop-contributing States to investigate and prosecute, when appropriate, their peacekeepers and security personnel suspected of violating criminal law while in a host State.</p>
+                    <p>Appropriate locally adapted mechanisms for truth and reconciliation (technical assistance; funding; amnesties for lower level perpetrators; just reinstallation of civilians within communities).</p>
+                    <p>Measures for restitution and reparations (trust funds; property commissions).</p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa"></td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa" akn4un:data-justification="Left">
+                    <p>
+                      <span class="bold">TRAINING OF SECURITY AND PEACEKEEPING FORCES</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>Ensure adequate sensitization of multinational forces to issues </p>
+                    <p>pertaining to the protection of civilians through:</p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>Appropriate training in humanitarian and human rights law, civil-military coordination, codes of conduct, negotiation and  communication skills, child protection and child rights<span class="bold">,</span> gender and cultural sensitization, and the prevention of HIV/AIDS and other communicable diseases.</p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left">
+                    <p>S/RES/1460(2003), OP9</p>
+                    <p>S/RES/1445(2002), OP18</p>
+                    <p>S/RES/1379(2001), OP10b</p>
+                    <p>S/RES/1325(2000), OP6</p>
+                    <p>S/RES/1318(2000), Annex OPIII (para.2)</p>
+                    <p>S/RES/1308(2000), OP 3</p>
+                    <p>S/RES/1296(2000), OP19 </p>
+                    <p>S/RES/1270(1999), OP15</p>
+                    <p>S/RES/1265(1999), OP14</p>
+                    <p>S/PRST/2001/31</p>
+                    <p>S/PRST/2001/16</p>
+                    <p>S/PRST/1998/18</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa">
+                    <p>
+                      <span class="bold">MEDIA AND INFORMATION</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>1. Counter occurrences of speech used to incite violence through:   </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>Establishment of media monitoring mechanisms to ensure effective monitoring, reporting and documenting of any incidents, origins and contents that incite “hate media”. </p>
+                    <p>Responsive steps to media broadcasts inciting genocide, crimes against humanity and/or serious violations of international humanitarian law, including, as a last resort, consideration of closing down such media broadcasts.  </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>S/RES/1509(2003), OP16</p>
+                    <p>S/RES/1417(2002), OP4, 5</p>
+                    <p>S/RES/1353(2001), Annex I, B - </p>
+                    <p>OP 10, 11</p>
+                    <p>S/RES/1296(2000), OP17, 18</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>2. Promote and support accurate management of information on the conflict through: </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>Technical assistance to draft and enforce anti-hate speech legislation.</p>
+                    <p>Establishment of media coordination centres to facilitate accurate and reliable information management on, and awareness of, the conflict.</p>
+                    <p>Establishment and assistance of local and international media and information outlets, in support of peace operations.</p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left"></td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa" akn4un:data-justification="Left">
+                    <p>
+                      <span class="bold">NATURAL RESOURCES AND ARMED CONFLICT</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>Address the impact of natural resource exploitation on the protection of civilians through:</p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa" akn4un:data-justification="Both">
+                    <p>Investigation of the linkages between illicit trade in natural resources and the conduct of the conflict. </p>
+                    <p>Measures to address the direct or indirect import of natural resources where proceeds are used to fuel conflict (sanctions; regional and subregional approaches).</p>
+                    <p>Measures against corporate actors, individuals and entities involved in illicit trade of natural resources in violation of relevant Security Council resolutions and the Charter of the United Nations (legislation; penalties for dealers; certification and registration systems; embargoes).</p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left">
+                    <p>S/RES/1509(2003), OP3r</p>
+                    <p>S/RES/1493(2003), OP28 S/RES/1460(2003), OP16b</p>
+                    <p>S/RES/1436(2002), OP8</p>
+                    <p>S/RES/1417(2002), OP15</p>
+                    <p>S/RES/1379(2001), OP6, 9d</p>
+                    <p>S/RES/1376(2001), OP8  </p>
+                    <p>S/RES/1318(2000), Annex OPVI (para.2)</p>
+                    <p>S/RES/1314(2000), OP8</p>
+                    <p>S/RES/1306(2000), OP1, 2, 9,19a</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" akn4un:data-width-type="12510-dxa" akn4un:data-justification="Left">
+                    <p>
+                      <span class="bold">HUMANITARIAN IMPACT OF SANCTIONS</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-width-type="2970-dxa">
+                    <p>
+                      <span class="bold underline">Primary Objectives</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="6120-dxa">
+                    <p>
+                      <span class="bold underline">Issues for Consideration</span>
+                    </p>
+                  </td>
+                  <td akn4un:data-width-type="3420-dxa">
+                    <p>
+                      <span class="bold underline">Precedents</span>
+                      <span class="bold">*</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="2970-dxa" akn4un:data-justification="Left">
+                    <p>Minimize unintended adverse side effects of sanctions on the civilian population through:</p>
+                  </td>
+                  <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="6120-dxa">
+                    <p>Humanitarian exemptions in sanction regimes.</p>
+                    <p>Targeted sanctions (sanctions limited in scope and targeted at specific individuals, groups, or activities).</p>
+                    <p>Relevant assessment and review of the humanitarian impact of sanctions, and the behaviour of those targeted by the sanctions.</p>
+                  </td>
+                  <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:12,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="3420-dxa" akn4un:data-justification="Left">
+                    <p>S/RES/1478(2003), OP18, 19</p>
+                    <p>S/RES/1409(2002), OP4, 5, 6</p>
+                    <p>S/RES/1408(2002), OP16</p>
+                    <p>S/RES/1379(2001), OP7 S/RES/1343(2001), OP5(a-d), 6, 7(a&amp;b), 13a</p>
+                    <p>S/RES/1333(2000), OP5(a-c), 7, 8(a-c), 10, 11, 12, 14, 15d, 23 </p>
+                    <p>S/RES/1325(2000), OP14</p>
+                    <p>S/RES/1314(2000), OP15 S/RES/1298(2000), OP6, 7, 8, 16</p>
+                    <p>S/RES/1296(2000), OP21</p>
+                    <p>S/RES/1267(1999), OP4</p>
+                    <p>S/RES/1265(1999), OP16</p>
+                    <p>S/PRST/1999/28</p>
+                  </td>
+                </tr>
+              </table>
+            </container>
+            <paragraph eId="para_18">
+              <content eId="para_18__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_19">
+              <content eId="para_19__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_20">
+              <content eId="para_20__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_21">
+              <content eId="para_21__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_22">
+              <content eId="para_22__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_23">
+              <content eId="para_23__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_24">
+              <content eId="para_24__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_25">
+              <content eId="para_25__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_26">
+              <content eId="para_26__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_27">
+              <content eId="para_27__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_28">
+              <content eId="para_28__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_29">
+              <content eId="para_29__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_30">
+              <content eId="para_30__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_31">
+              <content eId="para_31__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_32">
+              <content eId="para_32__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_33">
+              <content eId="para_33__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_34">
+              <content eId="para_34__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_35">
+              <content eId="para_35__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_36">
+              <content eId="para_36__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_37">
+              <content eId="para_37__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_38">
+              <content eId="para_38__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_39">
+              <content eId="para_39__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_40">
+              <content eId="para_40__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_41">
+              <content eId="para_41__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_42">
+              <content eId="para_42__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_43">
+              <content eId="para_43__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_44">
+              <content eId="para_44__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_45">
+              <content eId="para_45__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_46">
+              <content eId="para_46__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_47">
+              <content eId="para_47__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_48">
+              <content eId="para_48__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_49">
+              <content eId="para_49__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_50">
+              <content eId="para_50__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_51">
+              <content eId="para_51__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_52">
+              <content eId="para_52__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_53">
+              <content eId="para_53__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_54">
+              <content eId="para_54__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_55">
+              <content eId="para_55__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_56">
+              <content eId="para_56__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_57">
+              <content eId="para_57__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_58">
+              <content eId="para_58__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_59">
+              <content eId="para_59__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_60">
+              <content eId="para_60__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_61">
+              <content eId="para_61__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_62">
+              <content eId="para_62__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_63">
+              <content eId="para_63__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_64">
+              <content eId="para_64__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_65">
+              <content eId="para_65__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_66">
+              <content eId="para_66__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_67">
+              <content eId="para_67__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_68">
+              <content eId="para_68__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_69">
+              <content eId="para_69__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_70">
+              <content eId="para_70__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_71">
+              <content eId="para_71__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_72">
+              <content eId="para_72__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_73">
+              <content eId="para_73__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_74">
+              <content eId="para_74__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_75">
+              <content eId="para_75__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76">
+              <content eId="para_76__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_77">
+              <content eId="para_77__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_78">
+              <content eId="para_78__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_79">
+              <content eId="para_79__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_80">
+              <content eId="para_80__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_81">
+              <content eId="para_81__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_82">
+              <content eId="para_82__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_83">
+              <content eId="para_83__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_84">
+              <content eId="para_84__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_85">
+              <content eId="para_85__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_86">
+              <content eId="para_86__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_87">
+              <content eId="para_87__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_88">
+              <content eId="para_88__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_89">
+              <content eId="para_89__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_90">
+              <content eId="para_90__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_91">
+              <content eId="para_91__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92">
+              <content eId="para_92__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93">
+              <content eId="para_93__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_94">
+              <content eId="para_94__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_95">
+              <content eId="para_95__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_96">
+              <content eId="para_96__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_97">
+              <content eId="para_97__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_98">
+              <content eId="para_98__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_99">
+              <content eId="para_99__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_100">
+              <content eId="para_100__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_101">
+              <content eId="para_101__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_102">
+              <content eId="para_102__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_103">
+              <content eId="para_103__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_104">
+              <content eId="para_104__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_105">
+              <content eId="para_105__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_106">
+              <content eId="para_106__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_107">
+              <content eId="para_107__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_108">
+              <content eId="para_108__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_109">
+              <content eId="para_109__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_110">
+              <content eId="para_110__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_111">
+              <content eId="para_111__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_112">
+              <content eId="para_112__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_113">
+              <content eId="para_113__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_114">
+              <content eId="para_114__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_115">
+              <content eId="para_115__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_116">
+              <content eId="para_116__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_117">
+              <content eId="para_117__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_118">
+              <content eId="para_118__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_119">
+              <content eId="para_119__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_120">
+              <content eId="para_120__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_121">
+              <content eId="para_121__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_122">
+              <content eId="para_122__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_123">
+              <content eId="para_123__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_124">
+              <content eId="para_124__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_125">
+              <content eId="para_125__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_126">
+              <content eId="para_126__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_127">
+              <content eId="para_127__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_128">
+              <content eId="para_128__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_129">
+              <content eId="para_129__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_130">
+              <content eId="para_130__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_131">
+              <content eId="para_131__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_132">
+              <content eId="para_132__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_133">
+              <content eId="para_133__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_134">
+              <content eId="para_134__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_135">
+              <content eId="para_135__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_136">
+              <content eId="para_136__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_137">
+              <content eId="para_137__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_138">
+              <content eId="para_138__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_139">
+              <content eId="para_139__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_140">
+              <content eId="para_140__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_141">
+              <content eId="para_141__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_142">
+              <content eId="para_142__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_143">
+              <content eId="para_143__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_144">
+              <content eId="para_144__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_145">
+              <content eId="para_145__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_146">
+              <content eId="para_146__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_147">
+              <content eId="para_147__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_148">
+              <content eId="para_148__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_149">
+              <content eId="para_149__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_150">
+              <content eId="para_150__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_151">
+              <content eId="para_151__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_152">
+              <content eId="para_152__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_153">
+              <content eId="para_153__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_154">
+              <content eId="para_154__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_155">
+              <content eId="para_155__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_156">
+              <content eId="para_156__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_157">
+              <content eId="para_157__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_158">
+              <content eId="para_158__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_159">
+              <content eId="para_159__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_160">
+              <content eId="para_160__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_161">
+              <content eId="para_161__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_162">
+              <content eId="para_162__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_163">
+              <content eId="para_163__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_164">
+              <content eId="para_164__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_165">
+              <content eId="para_165__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_166">
+              <content eId="para_166__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_167">
+              <content eId="para_167__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_168">
+              <content eId="para_168__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_169">
+              <content eId="para_169__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_170">
+              <content eId="para_170__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_171">
+              <content eId="para_171__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_172">
+              <content eId="para_172__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_173">
+              <content eId="para_173__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_174">
+              <content eId="para_174__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_175">
+              <content eId="para_175__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_176">
+              <content eId="para_176__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_177">
+              <content eId="para_177__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_178" class="Normal">
+              <content eId="para_178__content">
+                <p xml:space="preserve">
+                  <span class="bold">*Resolution Index:</span>
+                </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_179" class="Header">
+              <content eId="para_179__content">
+                <p xml:space="preserve">S/RES/1509(2003) on the Situation in Liberia</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_180" class="Header">
+              <content eId="para_180__content">
+                <p xml:space="preserve">S/RES/1508(2003) on the Extension of the Mandate of the UN Mission in Sierra Leone (UNAMSIL) </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_181" class="Header">
+              <content eId="para_181__content">
+                <p xml:space="preserve">S/RES/1502(2003) on the Protection of Humanitarian Personnel and the UN and its Associated Personnel in Conflict Zones</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_182" class="Header">
+              <content eId="para_182__content">
+                <p xml:space="preserve">S/RES/1494(2003) on the Extension of the Mandate of the UN Observer Mission in Georgia (UNOMIG)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_183" class="Header">
+              <content eId="para_183__content">
+                <p xml:space="preserve">S/RES/1493(2003) on the Extension of the Mandate of the UN Organization Mission in the Democratic Republic of the Congo (MONUC)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_184" class="Header">
+              <content eId="para_184__content">
+                <p xml:space="preserve">S/RES/1484(2003) on the Authorization of Deployment of an Interim Emergency Multinational Force in Bunia, Democratic Republic of the Congo</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_185" class="Header">
+              <content eId="para_185__content">
+                <p xml:space="preserve">S/RES/1479(2003) on the Situation in Côte d’Ivoire</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_186" class="Header">
+              <content eId="para_186__content">
+                <p xml:space="preserve">S/RES/1478(2003) on Measures Imposed to Enforce Compliance with Demands in Resolution 1343 (2001) Concerning Liberia</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_187" class="Header">
+              <content eId="para_187__content">
+                <p xml:space="preserve">S/RES/1470(2003) on the Extension of the Mandate of the UN Mission in Sierra Leone (UNAMSIL)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_188" class="Header">
+              <content eId="para_188__content">
+                <p xml:space="preserve">S/RES/1460(2003) on Children and Armed Conflict</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_189" class="Header">
+              <content eId="para_189__content">
+                <p xml:space="preserve">S/RES/1456(2003) on Combating Terrorism</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_190" class="Header">
+              <content eId="para_190__content">
+                <p xml:space="preserve">S/RES/1445(2002) on the Peace Process in the Democratic Republic of the Congo</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_191" class="Header">
+              <content eId="para_191__content">
+                <p xml:space="preserve">S/RES/1436(2002) on the Extension of the Mandate of the UN Mission in Sierra Leone (UNAMSIL)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_192" class="Header">
+              <content eId="para_192__content">
+                <p xml:space="preserve">S/RES/1433(2002) on the Establishment of the UN Mission in Angola (UNMA)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_193" class="Header">
+              <content eId="para_193__content">
+                <p xml:space="preserve">S/RES/1427(2002) on the Extension of the Mandate of the UN Observer Mission in Georgia (UNOMIG)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_194" class="Header">
+              <content eId="para_194__content">
+                <p xml:space="preserve">S/RES/1419(2002) on the Support for Transitional Authority in the full implementation of the Agreement on Provisional Arrangements in Afghanistan pending the re-establishment of Permanent Government</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_195" class="Header">
+              <content eId="para_195__content">
+                <p xml:space="preserve">S/RES/1417(2002) on the Extension of the Mandate of the UN Organization Mission in the Democratic Republic of the Congo (MONUC)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_196" class="Header">
+              <content eId="para_196__content">
+                <p xml:space="preserve">S/RES/1408(2002) on Measures Against Liberia for Non-Compliance With Demands in Paragraph 2 of Resolution 1343 (2001)  </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_197" class="Header">
+              <content eId="para_197__content">
+                <p xml:space="preserve">S/RES/1409(2002) on Arrangements for the Sale and Supply of Commodities and Products to Iraq as a Basis for the Humanitarian Programme</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_198" class="Header">
+              <content eId="para_198__content">
+                <p xml:space="preserve">S/RES/1405(2002) on the Initiative for Fact-finding Team for Jenin Refugee Camp</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_199" class="Header">
+              <content eId="para_199__content">
+                <p xml:space="preserve">S/RES/1401(2002) on the Establishment of UN Assistance Mission in Afghanistan (UNAMA)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_200" class="Header">
+              <content eId="para_200__content">
+                <p xml:space="preserve">S/RES/1400(2002) on the Extension of the Mandate of the UN Mission in Sierra Leone (UNAMSIL)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_201" class="Header">
+              <content eId="para_201__content">
+                <p xml:space="preserve">S/RES/1393(2002) on the Extension of the Mandate of the UN Observer Mission in Georgia (UNOMIG)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_202" class="Header">
+              <content eId="para_202__content">
+                <p xml:space="preserve">S/RES/1379(2001) on Children and Armed Conflict</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_203" class="Normal">
+              <content eId="para_203__content">
+                <p xml:space="preserve">S/RES/1378(2001) on the Situation in Afghanistan</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_204" class="Normal">
+              <content eId="para_204__content">
+                <p xml:space="preserve">S/RES/1376(2001) on the Situation in the Democratic Republic of the Congo</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_205" class="Normal">
+              <content eId="para_205__content">
+                <p xml:space="preserve">S/RES/1366(2001) on the Role of the Security Council in the Prevention of Armed Conflicts</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_206" class="Normal">
+              <content eId="para_206__content">
+                <p xml:space="preserve">S/RES/1355(2001) on the Situation in the Democratic Republic of the Congo and Extension of the Mandate of the UN Organization Mission in the Democratic Republic of the Congo (MONUC) </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_207" class="Normal">
+              <content eId="para_207__content">
+                <p xml:space="preserve">S/RES/1346(2001) on the Extension of the Mandate of the UN Mission in Sierra Leone (UNAMSIL)</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_208" class="Normal">
+              <content eId="para_208__content">
+                <p xml:space="preserve">S/RES/1353(2001) on the Strengthening Co-operation with Troop-contributing Countries </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_209" class="Normal">
+              <content eId="para_209__content">
+                <p xml:space="preserve">S/RES/1343(2001) on the Situation in Liberia</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_210" class="Normal">
+              <content eId="para_210__content">
+                <p xml:space="preserve">S/RES/1333(2000) on the Situation in Afghanistan</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_211" class="Normal">
+              <content eId="para_211__content">
+                <p xml:space="preserve">S/RES/1327(2000) on the Implementation of the Report on the Panel on UN Peace Operations</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_212" class="Normal">
+              <content eId="para_212__content">
+                <p xml:space="preserve">S/RES/1325(2000) on Women, Peace and Security</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_213" class="Normal">
+              <content eId="para_213__content">
+                <p xml:space="preserve">S/RES/1319(2000) on the Situation in East Timor</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_214" class="Normal">
+              <content eId="para_214__content">
+                <p xml:space="preserve">S/RES/1318(2000) on Ensuring an Effective Role for the Security Council in the Maintenance of International Peace and Security, particularly in Africa</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_215" class="Normal">
+              <content eId="para_215__content">
+                <p xml:space="preserve">S/RES/1315(2000) on the Situation in Sierra Leone</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_216" class="Normal">
+              <content eId="para_216__content">
+                <p xml:space="preserve">S/RES/1314(2000) on Children and Armed Conflict</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_217" class="Normal">
+              <content eId="para_217__content">
+                <p xml:space="preserve">S/RES/1308(2000) on the Responsibility of the Security Council in the Maintenance of International Peace and Security: HIV/AIDS and International Peace-keeping Operations</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_218" class="Normal">
+              <content eId="para_218__content">
+                <p xml:space="preserve">S/RES/1306(2000) on the Situation in Sierra Leone</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_219" class="Normal">
+              <content eId="para_219__content">
+                <p xml:space="preserve">S/RES/1298(2000) on the Situation in Eritrea and Ethiopia</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_220" class="Normal">
+              <content eId="para_220__content">
+                <p xml:space="preserve">S/RES/1296(2000) on the Protection of Civilians in Armed Conflict</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_221" class="Normal">
+              <content eId="para_221__content">
+                <p xml:space="preserve">S/RES/1286(2000) on the Situation in Burundi</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_222" class="Normal">
+              <content eId="para_222__content">
+                <p xml:space="preserve">S/RES/1279(1999) on the Situation in the Democratic Republic of the Congo</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_223" class="Normal">
+              <content eId="para_223__content">
+                <p xml:space="preserve">S/RES/1272(1999) on the Situation in East Timor</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_224" class="Normal">
+              <content eId="para_224__content">
+                <p xml:space="preserve">S/RES/1270(1999) on the Situation in Sierra Leone</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_225" class="Normal">
+              <content eId="para_225__content">
+                <p xml:space="preserve">S/RES/1267(1999) on the Situation in Afghanistan</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_226" class="Normal">
+              <content eId="para_226__content">
+                <p xml:space="preserve">S/RES/1265(1999) on the Protection of Civilians in Armed Conflict</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_227" class="Normal">
+              <content eId="para_227__content">
+                <p xml:space="preserve">S/RES/1264(1999) on the Situation in East Timor</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_228" class="Normal">
+              <content eId="para_228__content">
+                <p xml:space="preserve">S/RES/1261(1999) on the Children and Armed Conflict</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_229" class="Normal">
+              <content eId="para_229__content">
+                <p xml:space="preserve">S/RES/1244(1999) on the Situation in Kosovo</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_230" class="Normal">
+              <content eId="para_230__content">
+                <p xml:space="preserve">S/RES/1208(1998) on the Situation in Africa: Refugee Camps</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_231" class="Normal">
+              <content eId="para_231__content">
+                <p xml:space="preserve">S/RES/955(1994) on the Establishment of an International Criminal Tribunal for Rwanda</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_232" class="Normal">
+              <content eId="para_232__content">
+                <p xml:space="preserve">S/RES/827(1993) on the Establishment of an International Criminal Tribunal for the former Yugoslavia</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_233" class="Normal">
+              <content eId="para_233__content">
+                <p xml:space="preserve">S/RES/824(1993) on the Situation in Bosnia and Herzegovina </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_234" class="Normal">
+              <content eId="para_234__content">
+                <p xml:space="preserve">S/PRST/2002/41 on the Protection of Civilians in Armed Conflict</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_235" class="Normal">
+              <content eId="para_235__content">
+                <p xml:space="preserve">S/PRST/2002/6 on the Protection of Civilians in Armed Conflict</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_236" class="Normal">
+              <content eId="para_236__content">
+                <p xml:space="preserve">S/PRST/2001/31 on Women and Peace and Security</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_237" class="Normal">
+              <content eId="para_237__content">
+                <p xml:space="preserve">S/PRST/2001/16 on the Responsibility of the Security Council in the Maintenance of International Peace and Security: HIV/AIDS and International Peacekeeping Operations</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_238" class="Header">
+              <content eId="para_238__content">
+                <p xml:space="preserve">S/PRST/2000/10 on the Maintenance of Peace and Security and Post-conflict Peace-building</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_239" class="Header">
+              <content eId="para_239__content">
+                <p xml:space="preserve">S/PRST/2000/4 on the Protection of United Nations Personnel, Associated personnel and Humanitarian Personnel in Conflict Zones</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_240" class="Normal">
+              <content eId="para_240__content">
+                <p xml:space="preserve">S/PRST/1999/28 on Small Arms</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_241" class="Normal">
+              <content eId="para_241__content">
+                <p xml:space="preserve">S/PRST/1998/18 on Children and Armed Conflict</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_242" class="Normal">
+              <content eId="para_242__content">
+                <p xml:space="preserve">**The Security Council also recognized the relevance of GA/RES/55/2(2000) and GA/RES/46/182(1991) in the broader context of protection of  civilians and the root causes of conflicts.</p>
+              </content>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
